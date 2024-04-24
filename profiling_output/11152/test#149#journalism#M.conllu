@@ -1,0 +1,715 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ronaldo arrivo blindato, tifosi delusi
+1	Ronaldo	Ronaldo	ADP	E	_	2	case	_	_
+2	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+3	blindato	blindato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	delusi	deluso	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = La produzione è stata in pieno stile hollywoodiano:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	stile	stile	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	hollywoodiano	hollywoodiano	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = macchine civetta, servizi di sicurezza ipertrofici, divieto assoluto di entrare nel terminal secondario di Caselle per donne e bambini, tantissimi, oltre che per chiunque non portasse un distintivo.
+1	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	civetta	civetto	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	ipertrofici	ipertrofico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	divieto	divieto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+10	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	entrare	entrare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	terminal	terminal	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	secondario	secondario	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Caselle	caselle	PROPN	SP	_	15	nmod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	donne	donna	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	12	punct	_	_
+24	tantissimi	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	12	punct	_	_
+26	oltre	oltre	ADV	B	_	31	mark	_	_
+27	che	che	SCONJ	CS	_	26	fixed	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	31	obl	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	portasse	portare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	distintivo	distintivo	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ordini bianconeri.
+1	Ordini	ordine	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	bianconeri	bianconero	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ma visto il pubblico presente, paragonabile a quello di un film d'essai, lo sbarco di Cristiano Ronaldo a Torino ha rasentato l'eccesso:
+1	Ma	ma	CCONJ	CC	_	24	cc	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	presente	presente	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	paragonabile	paragonabile	ADJ	A	Number=Sing	2	amod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	film	film	NOUN	S	Gender=Masc	9	nmod	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	essai	essai	NOUN	S	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sbarco	sbarco	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Cristiano	cristiano	PROPN	SP	_	17	nmod	_	_
+20	Ronaldo	Ronaldo	PROPN	SP	_	19	flat:name	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Torino	Torino	PROPN	SP	_	17	nmod	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	rasentato	rasentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	24	punct	_	_
+
+# sent_id = 6
+# text = un pugno di un peso massimo per fermare l'assalto di una vecchietta.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pugno	pugno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	peso	peso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	fermare	fermare	VERB	V	VerbForm=Inf	2	acl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	assalto	assalto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vecchietta	vecchietta	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Il primo giorno a Torino di Ronaldo dopo la presentazione di metà luglio è sembrato più un'occasione mancata, che un evento mediatico degno del calciatore più famoso del mondo:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Torino	Torino	PROPN	SP	_	3	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Ronaldo	Ronaldo	PROPN	SP	_	5	nmod	_	_
+8	dopo	dopo	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	presentazione	presentazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	metà	metà	NOUN	S	Gender=Fem	10	nmod	_	_
+13	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	sembrato	sembrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	più	più	ADV	B	_	15	advmod	_	_
+17	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	mancata	mancato	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	evento	evento	NOUN	S	Gender=Masc|Number=Sing	18	acl:relcl	_	_
+24	mediatico	mediatico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	degno	degno	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	calciatore	calciatore	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	famoso	famoso	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 8
+# text = una quarantina di tifosi, in grandissima maggioranza donne e bambini, hanno animato il terminal secondario di Caselle fin dalla mattina alle 10. « Ho troppi problemi, tre figli, un piccolo aiuto, grazie Cristiano » recitava il biglietto mostrato, tra il serio e il faceto, di un tifoso di Settimo Torinese, uno dei primi ad essere presenti insieme ad altri due amici, uno tifoso dell'Inter e uno del Milan.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	quarantina	quarantina	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	tifosi	tifosi	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	grandissima	grande	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	8	amod	_	_
+8	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	compound	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	animato	animare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	terminal	terminal	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	secondario	secondario	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Caselle	caselle	PROPN	SP	_	23	nmod	_	_
+20	fin	fino	ADP	E	_	23	case	_	_
+21-22	dalla	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	20	fixed	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+24-25	alle	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	10	10	NUM	N	NumType=Card	43	nummod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	26	punct	_	_
+28	«	«	PUNCT	FB	_	29	punct	_	_
+29	Ho	avere	PROPN	SP	_	43	nsubj	_	_
+30	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	31	det	_	_
+31	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	tre	tre	NUM	N	NumType=Card	34	nummod	_	_
+34	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	31	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+38	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	grazie	grazie	NOUN	S	_	41	case	_	_
+41	Cristiano	cristiano	PROPN	SP	_	38	nmod	_	_
+42	»	»	PUNCT	FB	_	29	punct	_	_
+43	recitava	recitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+46	mostrato	mostrato	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	45	punct	_	_
+48	tra	tra	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	serio	serio	ADJ	A	Gender=Masc|Number=Sing	45	nmod	_	_
+51	e	e	CCONJ	CC	_	53	cc	_	_
+52	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	faceto	faceto	ADJ	A	Gender=Masc|Number=Sing	50	conj	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	45	punct	_	_
+55	di	di	ADP	E	_	57	case	_	_
+56	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	tifoso	tifoso	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+58	di	di	ADP	E	_	59	case	_	_
+59	Settimo	settimo	PROPN	SP	_	57	nmod	_	_
+60	Torinese	Torinese	PROPN	SP	_	59	flat:name	_	SpaceAfter=No
+61	,	,	PUNCT	FF	_	57	punct	_	_
+62	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	57	appos	_	_
+63-64	dei	_	_	_	_	_	_	_	_
+63	di	di	ADP	E	_	65	case	_	_
+64	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	65	det	_	_
+65	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	62	nmod	_	_
+66	ad	ad	ADP	E	_	68	mark	_	_
+67	essere	essere	AUX	V	VerbForm=Inf	68	cop	_	_
+68	presenti	presente	ADJ	A	Number=Plur	62	advcl	_	_
+69	insieme	insieme	ADV	B	_	73	case	_	_
+70	ad	a	ADP	E	_	69	fixed	_	_
+71	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	73	det	_	_
+72	due	due	NUM	N	NumType=Card	73	nummod	_	_
+73	amici	amico	NOUN	S	Gender=Masc|Number=Plur	68	obl	_	SpaceAfter=No
+74	,	,	PUNCT	FF	_	76	punct	_	_
+75	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	tifoso	tifoso	NOUN	S	Gender=Masc|Number=Sing	68	conj	_	_
+77-78	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+77	di	di	ADP	E	_	79	case	_	_
+78	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	79	det	_	_
+79	Inter	Inter	PROPN	SP	_	76	nmod	_	_
+80	e	e	CCONJ	CC	_	81	cc	_	_
+81	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	79	conj	_	_
+82-83	del	_	_	_	_	_	_	_	_
+82	di	di	ADP	E	_	84	case	_	_
+83	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	84	det	_	_
+84	Milan.	Milaumero	PROPN	SP	_	81	nmod	_	_
+
+# sent_id = 9
+# text = « Siamo qui perchè i nostri figli chiedono da giorni di vedere Ronaldo » ha confessato uno dei tre, di fede rossonera ma con il figlio bianconero fino al midollo.
+1	«	«	PUNCT	FB	_	16	punct	_	_
+2	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+3	qui	qui	ADV	B	_	16	advmod	_	_
+4	perchè	poiperché	SCONJ	CS	_	8	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	chiedono	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	vedere	vedere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	Ronaldo	Ronaldo	PROPN	SP	_	12	obj	_	_
+14	»	»	PUNCT	FB	_	8	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obj	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	tre	tre	NUM	N	NumType=Card	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	fede	fede	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+24	rossonera	rossonero	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	ma	ma	CCONJ	CC	_	28	cc	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+29	bianconero	bianconero	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30	fino	fino	ADV	B	_	33	case	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	30	fixed	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	midollo	midollo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Mentre il tempo passava e il caldo aumentava pericolosamente, le forze dell'ordine, su richiesta esplicita della Juventus, hanno bloccato l'accesso alla zona coperta del terminal, impedendo a chiunque, tranni alcuni casi isolati, di acquistare una bibita fresca o di usufruire del bagno.
+1	Mentre	mentre	SCONJ	CS	_	4	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	aumentava	aumentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+9	pericolosamente	pericoloso	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	forze	forza	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	su	su	ADP	E	_	18	case	_	_
+18	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+19	esplicita	esplicito	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Juventus	Juventus	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	12	punct	_	_
+24	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	zona	zona	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	coperta	coperto	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	terminal	terminal	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	25	punct	_	_
+36	impedendo	impedire	VERB	V	VerbForm=Ger	25	advcl	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	tranni	tranne	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	_
+41	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	42	det	_	_
+42	casi	caso	NOUN	S	Gender=Masc|Number=Plur	40	nsubj	_	_
+43	isolati	isolato	ADJ	A	Gender=Masc|Number=Plur	42	amod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	42	punct	_	_
+45	di	di	ADP	E	_	46	mark	_	_
+46	acquistare	acquistare	VERB	V	VerbForm=Inf	42	acl	_	_
+47	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	bibita	bibita	NOUN	S	Gender=Fem|Number=Sing	46	obj	_	_
+49	fresca	fresco	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	_
+50	o	o	CCONJ	CC	_	52	cc	_	_
+51	di	di	ADP	E	_	52	mark	_	_
+52	usufruire	usufruire	VERB	V	VerbForm=Inf	46	conj	_	_
+53-54	del	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 11
+# text = Quando poi le forze dell'ordine hanno transennato anche le aree circostanti la pista d'atterraggio, la protesta è cresciuta esponenzialmente: " Ci trattano come bestie, diamo fastidio - hanno iniziato a urlare i tifosi, mentre i bambini a petto nudo cercavano un po' di tregua dal sole cocente -.
+1	Quando	quando	SCONJ	CS	_	9	mark	_	_
+2	poi	poi	ADV	B	_	9	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	forze	forza	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	transennato	transennare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	aree	area	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+13	circostanti	circostante	ADV	B	_	15	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pista	pista	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	atterraggio	atterraggio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	cresciuta	crescere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	esponenzialmente	esponenzialmente	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	22	punct	_	_
+25	"	"	PUNCT	FB	_	27	punct	_	_
+26	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	27	expl	_	_
+27	trattano	trattare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	bestie	bestia	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	diamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	conj	_	_
+32	fastidio	fastidio	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+33	-	-	PUNCT	FB	_	27	punct	_	_
+34	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37	urlare	urlare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	37	obj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	35	punct	_	_
+41	mentre	mentre	SCONJ	CS	_	47	mark	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	47	nsubj	_	_
+44	a	a	ADP	E	_	45	case	_	_
+45	petto	petto	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+46	nudo	nudo	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	_
+47	cercavano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	advcl	_	_
+48	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	po'	poco	NOUN	S	Gender=Masc|Number=Sing	47	obj	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	tregua	tregua	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+52-53	dal	_	_	_	_	_	_	_	_
+52	da	da	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	sole	sole	NOUN	S	Gender=Masc|Number=Sing	51	nmod	_	_
+55	cocente	cocente	ADJ	A	Number=Sing	54	amod	_	_
+56	-	-	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 12
+# text = Possono tenerselo, ma mi chiedo di cosa hanno paura:
+1	Possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-4	tenerselo	_	_	_	_	_	_	_	SpaceAfter=No
+2	tener	tenere	VERB	V	VerbForm=Inf	0	root	_	_
+3	se	se	SCONJ	CS	_	8	mark	_	_
+4	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+8	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	11	obl	_	_
+11	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	paura	paura	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = siamo pochissimi e la maggioranza sono donne e bambini".
+1	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	pochissimi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+3	e	e	CCONJ	CC	_	7	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Rabbia che è cresciuta ulteriormente quando è stato vietato anche di avvicinarsi alle ringhiere transennando ulteriormente la zona - " lo ribattezzeranno JCaselle, l'hanno comprato insieme a Ronaldo" ha scherzato qualcuno -, ma che un sorriso, un saluto di Ronaldo avrebbe spazzato via in un attimo.
+1	Rabbia	rabbia	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cresciuta	crescere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	ulteriormente	ulteriormente	ADV	B	_	4	advmod	_	_
+6	quando	quando	SCONJ	CS	_	9	mark	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	vietato	vietare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+10	anche	anche	ADV	B	_	12	mark	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12-13	avvicinarsi	_	_	_	_	_	_	_	_
+12	avvicinar	avvicinare	VERB	V	VerbForm=Inf	9	advcl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	ringhiere	ringhiere	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+17	transennando	transennare	VERB	V	VerbForm=Ger	12	advcl	_	_
+18	ulteriormente	ulteriormente	ADV	B	_	17	advmod	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	zona	zona	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+21	-	-	PUNCT	FB	_	1	punct	_	_
+22	"	"	PUNCT	FB	_	24	punct	_	_
+23	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	ribattezzeranno	ribattezzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	35	parataxis	_	_
+25	JCaselle	JCaselle	PROPN	SP	_	24	xcomp	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
+28	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	conj	_	_
+30	insieme	insieme	ADV	B	_	32	case	_	_
+31	a	a	ADP	E	_	30	fixed	_	_
+32	Ronaldo	Ronaldo	PROPN	SP	_	29	obl	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	35	punct	_	_
+34	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	scherzato	scherzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+36	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	35	nsubj	_	_
+37	-	-	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	49	punct	_	_
+39	ma	ma	CCONJ	CC	_	49	cc	_	_
+40	che	che	PRON	PR	PronType=Rel	49	obj	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	49	nsubj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	45	punct	_	_
+44	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	42	conj	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	Ronaldo	Ronaldo	PROPN	SP	_	45	nmod	_	_
+48	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+49	spazzato	spazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	conj	_	_
+50	via	via	ADV	B	_	49	advmod	_	_
+51	in	in	ADP	E	_	53	case	_	_
+52	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	49	obl	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Uma speranza che si è rivalata vana, visto che quando è atterrato, alle 19.25, il campione portoghese non ha minimamente preso in considerazione i tifosi arrampicatisi sulle ringhiere: neanche un saluto, neanche uno sguardo.
+1	Uma	Umo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+2	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	rivalata	rivalare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	vana	vano	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+10	che	che	SCONJ	CS	_	25	mark	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	atterrato	atterrato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15-16	alle	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	19.25	19.25	NUM	N	NumType=Card	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	campione	campione	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+21	portoghese	portoghese	ADJ	A	Number=Sing	20	amod	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	minimamente	minimamente	ADV	B	_	25	advmod	_	_
+25	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	25	nsubj	_	_
+30-31	arrampicatisi	_	_	_	_	_	_	_	_
+30	arrampicati	arrampicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	acl	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+32-33	sulle	_	_	_	_	_	_	_	_
+32	su	su	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	ringhiere	ringhiere	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	25	punct	_	_
+36	neanche	neanche	ADV	BN	PronType=Neg	38	advmod	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	neanche	neanche	ADV	BN	PronType=Neg	42	advmod	_	_
+41	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	38	appos	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = «Abbiamo buttato un'intera giornata - ha concluso un tifoso bianconero sudato e decisamente deluso -, mi sarebbe bastato un saluto.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	buttato	buttato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	intera	intero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	-	-	PUNCT	FF	_	3	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	concluso	concludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tifoso	tifoso	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	bianconero	bianconero	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	sudato	sudato	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	decisamente	decisamente	ADV	B	_	16	advmod	_	_
+16	deluso	deluso	ADJ	A	Gender=Masc|Number=Sing	13	conj	_	_
+17	-	-	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+20	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	bastato	bastare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Mi pare evidente che hanno comprato Ronaldo per loro stessi e non per noi".
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	evidente	evidente	ADJ	A	Number=Sing	2	xcomp	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	Ronaldo	Ronaldo	PROPN	SP	_	6	obj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = L'assalto ripartirà oggi con il primo allenamento alla Continassa, del campione portoghese in programma nel pomeriggio dopo i test fisici del mattino.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	assalto	assalto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ripartirà	ripartire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	oggi	oggi	ADV	B	_	3	advmod	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	allenamento	allenamento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Continassa	Continassa	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	campione	campione	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+16	portoghese	portoghese	ADJ	A	Number=Sing	15	amod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	programma	programma	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+22	dopo	dopo	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	test	test	NOUN	S	Gender=Masc	3	obl	_	_
+25	fisici	fisico	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Con lui agli ordini di Aldo Dolcetti, uomo di fiducia di Massimiliano Allegri lavoreranno gli altri redci dal mondiale da Douglas Costa a Cuadrado, da Paulo Dybala a Gonzalo Higuain.
+1	Con	con	ADP	E	_	2	case	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+3-4	agli	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ordini	ordine	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Aldo	Aldo	PROPN	SP	_	5	nmod	_	_
+8	Dolcetti	Dolcetti	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Massimiliano	Massimiliano	PROPN	SP	_	10	nmod	_	_
+15	Allegri	Allegri	PROPN	SP	_	14	flat:name	_	_
+16	lavoreranno	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	altri	altro	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	redci	redco	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mondiale	mondiale	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	Douglas	Douglas	PROPN	SP	_	22	nmod	_	_
+25	Costa	Costa	PROPN	SP	_	24	flat:name	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Cuadrado	Cuadrado	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	Paulo	Paulo	PROPN	SP	_	24	conj	_	_
+31	Dybala	Dybala	PROPN	SP	_	30	flat:name	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	Gonzalo	Gonzalo	PROPN	SP	_	30	nmod	_	_
+34	Higuain	Higuain	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 20
+# text = Poi il 12 ci sarà la partitella in famiglia di Villar Perosa con il nuovo assaltod ei tifosi.
+1	Poi	poi	ADV	B	_	5	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	12	12	NUM	N	NumType=Card	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	partitella	partitella	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	Villar	Villar	VERB	V	VerbForm=Inf	7	acl	_	_
+12	Perosa	Perosa	PROPN	SP	_	11	obj	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	assaltod	assaltod	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17	ei	egli	NUM	N	NumType=Card	18	nummod	_	_
+18	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = E probabilmente il sabato il via al campionato con il Chievo.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	probabilmente	probabilmente	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	via	via	NOUN	S	_	4	nmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Chievo	Chievo	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,636 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Inter
+1	Inter	Inter	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = La caccia al tecnico continua
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	continua	continuo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = "Gasperini?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Gasperini	Gasperini	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non è il favorito"
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	favorito	favorito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Così il presidente Moratti sull'ex tecnico del Genoa, che dovrebbe incontrare Branca:
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	Moratti	Moratti	PROPN	SP	_	3	nmod	_	_
+5-6	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	8	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	ex	ex	ADJ	A	_	8	amod	_	_
+8	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Genoa	Genoa	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	incontrare	incontrare	VERB	V	VerbForm=Inf	11	acl:relcl	_	_
+16	Branca	Branca	PROPN	SP	_	15	obj	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = ''Non è una giornata decisiva.
+1	''	''	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	decisiva	decisivo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Tecnico italiano o straniero?
+1	Tecnico	Tecnico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	o	o	CCONJ	CC	_	4	cc	_	_
+4	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Ci arriveremo''
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+2	arriveremo''	arriveremo'o	ADV	B	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = MILANO - Work in progress all'Inter.
+1	MILANO	Milano	PROPN	SP	_	0	root	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	Work	Work	PROPN	SP	_	1	flat:name	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	progress	progress	NOUN	S	Gender=Masc	1	nmod	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Inter	Inter	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = La caccia al tecnico continua.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	continua	continuo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Oggi doveva essere la giornata di Giampiero Gasperini ma poi è arrivata la frenata del presidente Moratti.
+1	Oggi	oggi	ADV	B	_	5	advmod	_	_
+2	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Giampiero	Giampiero	PROPN	SP	_	5	nmod	_	_
+8	Gasperini	Gasperini	PROPN	SP	_	7	flat:name	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	poi	poi	ADV	B	_	12	advmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	frenata	frenare	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	Moratti	Moratti	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Anzi, secondo quanto dice il numero uno nerazzurro, non dovrebbe essere la giornata che scioglierà i nodi per la panchina.
+1	Anzi	anzi	ADV	B	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	secondo	secondo	ADP	E	_	4	case	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	15	obl	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	numero	numero	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	uno	uno	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	nerazzurro	nerazzurro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+12	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	15	cop	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	scioglierà	sciogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	acl:relcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	nodi	nodo	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 13
+# text = Moratti frena, almeno a parole:
+1	Moratti	Moratto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	frena	freno	NOUN	S	Gender=Fem|Number=Sing	1	compound	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	almeno	almeno	ADV	B	_	6	advmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = "Gasperini?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Gasperini	Gasperini	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Ma per favore, vedremo per i favoriti.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	favore	favore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	favoriti	favorite	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Vi diremo noi.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	diremo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Oggi non è la giornata decisiva.
+1	Oggi	oggi	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	decisiva	decisivo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Tecnico italiano o straniero?
+1	Tecnico	Tecnico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	o	o	CCONJ	CC	_	4	cc	_	_
+4	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Ci arriveremo".
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	arriveremo	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Oggi i dirigenti nerazzurri dovevano valutare se il profilo dell'ex Genoa, nato lo stesso giorno di Josè Mourinho, è adatto al dopo Leonardo.
+1	Oggi	oggi	ADV	B	_	6	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	dirigenti	dirigento	NOUN	S	Number=Plur	6	nsubj	_	_
+4	nerazzurri	nerazzurro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	valutare	valutare	VERB	V	VerbForm=Inf	0	root	_	_
+7	se	se	SCONJ	CS	_	24	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	13	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	ex	ex	ADJ	A	_	13	amod	_	_
+13	Genoa	Genoa	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	nato	nato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Josè	José	PROPN	SP	_	18	nmod	_	_
+21	Mourinho	Mourinho	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	9	punct	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	adatto	adatto	ADJ	A	Gender=Masc|Number=Sing	6	ccomp	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	dopo	dopo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	Leonardo	Leonardo	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Poi, dopo un'attenta valutazione, dovranno relazionare a Massimo Moratti.
+1	Poi	poi	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dopo	dopo	ADP	E	_	6	case	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	attenta	attento	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	valutazione	valutazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	relazionare	relazionare	VERB	V	VerbForm=Inf	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Massimo	Massimo	PROPN	SP	_	9	obl	_	_
+12	Moratti	Moratti	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 22
+# text = Che di Gasperini aveva già parlato la scorsa settimana con Enrico Preziosi.
+1	Che	che	PRON	PQ	PronType=Int	6	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Gasperini	Gasperini	PROPN	SP	_	1	nmod	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	Enrico	Enrico	PROPN	SP	_	6	obl	_	_
+12	Preziosi	prezioso	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = La ricerca, dunque, continua.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dunque	dunque	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Ieri il presidente nerazzurro ha dribblato ogni domanda sul nome del nuovo tecnico:
+1	Ieri	ieri	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	nerazzurro	nerazzurro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dribblato	dribblare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nome	nome	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 25
+# text = "Chiedete a Branca, io non so".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Chiedete	chiedere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Branca	Branca	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Poi in serata a Sportitalia ha dichiarato:
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	serata	serata	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Sportitalia	Sportitalia	PROPN	SP	_	3	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 27
+# text = "Il campionato non inizia domenica e non c'è fretta.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Capello?
+1	Capello	Capello	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 29
+# text = Non so molto, so che non è stato un 'no' dettato dalla volontà del tecnico ma dalla FA.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	che	che	SCONJ	CS	_	12	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	no	no	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	2	punct	_	_
+14	dettato	dettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	volontà	volontà	NOUN	S	Gender=Fem	14	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	ma	ma	CCONJ	CC	_	24	cc	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	FA	fa	PROPN	SP	_	17	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Preferirei non andare su un allenatore che ha una situazione contrattuale in essere", poi aggiunge:
+1	Preferirei	Preferiere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	allenatore	allenatora	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	contrattuale	contrattuale	ADJ	A	Number=Sing	10	amod	_	_
+12	in	in	ADP	E	_	17	mark	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	poi	poi	ADV	B	_	17	advmod	_	_
+17	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 31
+# text = "Gasperini?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Gasperini	Gasperini	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = Ho letto, ma non so nulla".
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 33
+# text = Stamane solito disco:
+1	Stamane	Stamana	NOUN	S	Number=Sing	2	nmod	_	_
+2	solito	solito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	disco	dire	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 34
+# text = ''Preoccupati per la scelta dell'allenatore?
+1	''	''	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	Preoccupati	preoccupato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	allenatore	allenatore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 35
+# text = Ma che preoccupati, sarete preoccupati voi".
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	che	che	ADV	B	_	3	advmod	_	_
+3	preoccupati	preoccupato	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	sarete	sarete	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	preoccupati	preoccupato	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 36
+# text = LA LISTA DEI NO - L'elenco dei tecnici che hanno detto no all'Inter diventa di giorno in giorno più corposa.
+1	LA	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	LISTA	lista	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+3-4	DEI	_	_	_	_	_	_	_	_
+3	DI	di	ADP	E	_	5	case	_	_
+4	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	NO	No	PROPN	SP	_	19	obl	_	_
+6	-	-	PUNCT	FF	_	5	punct	_	_
+7	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	tecnici	tecnico	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	no	no	ADV	BN	PronType=Neg	14	advmod	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	Inter	Inter	PROPN	SP	_	14	obl	_	_
+19	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	corposa	corposo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 37
+# text = Dopo Marcelo Bielsa che ha dovuto declinare per motivi personali, ci sono Villas Boas e Capello.
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	Marcelo	Marcelo	PROPN	SP	_	13	obl	_	_
+3	Bielsa	Bielsa	PROPN	SP	_	2	flat:name	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
+7	declinare	declinare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+10	personali	personale	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	Villas	Villas	PROPN	SP	_	13	nsubj	_	_
+15	Boas	Boas	PROPN	SP	_	14	flat:name	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Capello	Capello	PROPN	SP	_	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 38
+# text = L'affare che avrebbe dovuto portare il portoghese in nerazzurro è saltato a causa della clausola di rescissione.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	affare	affare	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+6	portare	portare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	portoghese	portoghese	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	nerazzurro	nerazzurro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	saltato	saltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	causa	causa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	clausola	clausola	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	rescissione	rescissione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 39
+# text = L'Inter, che per averlo avrebbe dovuto pagare al Porto 15 milioni, si è tirata indietro.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Inter	Inter	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+5	per	per	ADP	E	_	10	mark	_	_
+6-7	averlo	_	_	_	_	_	_	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+8	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
+10	pagare	pagare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Porto	Porto	PROPN	SP	_	10	obl	_	_
+14	15	15	NUM	N	NumType=Card	15	nummod	_	_
+15	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	tirata	tirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	indietro	indietro	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 40
+# text = Mentre a bloccare Fabio Capello è stata la Federazione calcio inglese (FA) che ha rimbalzato la richiesta di liberare il ct. Capitolo a parte per Sinisa Mihajlovic.
+1	Mentre	mentre	SCONJ	CS	_	9	mark	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	bloccare	bloccare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+4	Fabio	Fabio	PROPN	SP	_	3	obj	_	_
+5	Capello	Capello	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Federazione	federazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+11	inglese	inglese	ADJ	A	Number=Sing	10	amod	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	FA	fa	PROPN	SP	_	9	appos	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	rimbalzato	rimbalzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	liberare	liberare	VERB	V	VerbForm=Inf	19	acl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ct	ct	NOUN	S	Gender=Masc	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	23	punct	_	_
+25	Capitolo	capitolo	PROPN	SP	_	23	nmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	parte	parte	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	Sinisa	Sinisa	PROPN	SP	_	27	nmod	_	_
+30	Mihajlovic	Mihajlovic	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 41
+# text = Il serbo attende di firmare con l'Inter.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	serbo	serbo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	attende	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	firmare	firmare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Inter	Inter	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 42
+# text = Ma, i continui comunicati ribadiscono che Mihajlovic è il tecnico della Fiorentina.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	continui	continuo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	comunicati	comunicato	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	ribadiscono	ribadire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	Mihajlovic	Mihajlovic	PROPN	SP	_	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	6	ccomp	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Fiorentina	fiorentina	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 43
+# text = A Milano non sono poi così certi.
+1	A	a	ADP	E	_	2	case	_	_
+2	Milano	Milano	PROPN	SP	_	7	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	poi	poi	ADV	B	_	7	advmod	_	_
+6	così	così	ADV	B	_	7	advmod	_	_
+7	certi	certo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+

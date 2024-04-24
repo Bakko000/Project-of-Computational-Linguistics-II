@@ -1,0 +1,736 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = META' STIPENDIO PER PAGARE L' AFFITTO
+1	META'	METAo	ADP	E	_	2	case	_	_
+2	STIPENDIO	stipendio	PROPN	SP	_	6	nmod	_	_
+3	PER	per	PROPN	SP	_	2	flat:name	_	_
+4	PAGARE	pagare	PROPN	SP	_	2	flat:name	_	_
+5	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	AFFITTO	affitto	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = META' dello stipendio per affittare una casa.
+1	META'	Meta'	ADP	E	_	4	case	_	_
+2-3	dello	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	affittare	affittare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Stipendio medio di una famiglia media, per una casa media.
+1	Stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	medio	medio	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	media	medio	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+11	media	medio	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Nonostante la definitiva caduta dei prezzi per l' acquisto immobiliare, l' affitto drogato resta una costante indistruttibile della città.
+1	Nonostante	nonostante	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	acquisto	acquisto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	immobiliare	immobiliare	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	drogato	drogare	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	costante	costante	NOUN	S	Number=Sing	16	xcomp	_	_
+19	indistruttibile	indistruttibile	ADJ	A	Number=Sing	18	amod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	città	città	NOUN	S	Gender=Fem	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 5
+# text = E, rivela la relazione d' apertura del prossimo congresso romano del sindacato inquilini Sicet, il 51% dello stipendio di famiglia dev' essere impegnato per la pigione.
+1	E	e	CCONJ	CC	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+6	d'	di	ADP	E	_	7	case	_	_
+7	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	congresso	congresso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	romano	romano	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sindacato	sindacato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	inquilini	inquilino	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+17	Sicet	Sicet	PROPN	SP	_	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	51	51	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	SYM	_	29	nsubj:pass	_	_
+22-23	dello	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	dev'	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	essere	essere	AUX	VA	VerbForm=Inf	29	aux:pass	_	_
+29	impegnato	impegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	pigione	pigione	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 6
+# text = "Dal mercato dell' affitto, così, vengono espulse tutte le famiglie che hanno un solo reddito", rileva il sindacato.
+1	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2-3	Dal	_	_	_	_	_	_	_	_
+2	Da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+5-6	dell'	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	così	così	ADV	B	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	espulse	espulgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	solo	solo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	12	punct	_	_
+23	rileva	rilevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sindacato	sindacato	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Nel resto d' Italia, dove la media affitto è di 390.000 lire (la stessa cifra con cui a Roma si trova un monolocale in estrema periferia), il canone annuo incide per il 21% sul reddito.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+4	d'	di	ADP	E	_	5	case	_	_
+5	Italia	Italia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	dove	dove	ADV	B	_	14	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	media	media	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+10	affitto	affitto	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	390.000	390.000	NUM	N	NumType=Card	14	nummod	_	_
+14	lire	lira	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+15	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	cifra	cifra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Roma	Roma	PROPN	SP	_	24	obl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	monolocale	monolocale	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	periferia	periferia	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	3	punct	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	canone	canone	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+34	annuo	annuo	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	incide	incidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+36	per	per	ADP	E	_	39	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	21	21	NUM	N	NumType=Card	39	nummod	_	SpaceAfter=No
+39	%	%	SYM	SYM	_	35	obl	_	_
+40-41	sul	_	_	_	_	_	_	_	_
+40	su	su	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 8
+# text = Un quinto, proporzione tollerabile.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	proporzione	proporzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	tollerabile	tollerabile	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Sostiene il Sicet:
+1	Sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Sicet	Sicet	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 10
+# text = "Tra il '92 e il '95 sono fuggite da Roma 65 mila persone, il caro-affitti è la causa principale dell' esodo".
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Tra	tra	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	'92	'92	NUM	N	NumType=Card	9	obl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	'95	'95	NUM	N	NumType=Card	4	conj	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	fuggite	fuggire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	Roma	Roma	PROPN	SP	_	22	obl	_	_
+12	65	65	NUM	N	NumType=Card	14	nummod	_	_
+13	mila	mila	NUM	N	NumType=Card	12	flat	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	caro	caro	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+19	affitti	affivere	NOUN	S	Gender=Masc|Number=Plur	17	compound	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	causa	causa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+23	principale	principale	ADJ	A	Number=Sing	22	amod	_	_
+24-25	dell'	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	esodo	esodo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = In città - dati 1996 del sindacato di derivazione Cisl, appoggiati sulle relazioni del Cresme - sono diminuiti gli sfratti:
+1	In	in	ADP	E	_	2	case	_	_
+2	città	città	NOUN	S	Gender=Fem	22	obl	_	_
+3	-	-	PUNCT	FB	_	4	punct	_	_
+4	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5	1996	1996	NUM	N	NumType=Card	4	nummod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sindacato	sindacato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	derivazione	derivazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	Cisl	cisl	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	appoggiati	appoggiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+14-15	sulle	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	relazioni	relazione	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Cresme	Cresme	PROPN	SP	_	16	nmod	_	_
+20	-	-	PUNCT	FB	_	4	punct	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	diminuiti	diminuire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	sfratti	sfratto	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	22	punct	_	_
+
+# sent_id = 12
+# text = "Ma non è scesa l' emergenza abitativa", sostiene il segretario romano Simonetta Corato, "si è solo trasformata".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scesa	scendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	abitativa	abitativo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+14	romano	romano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	Simonetta	Simonetta	PROPN	SP	_	13	nmod	_	_
+16	Corato	Corato	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	solo	solo	ADV	B	_	22	advmod	_	_
+22	trasformata	trasformare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Di fronte a 2039 famiglie in assoluta difficoltà, 1500 delle quali assistite, esistono 60.000 nuclei "in regime di sovraffollamento abitativo".
+1	Di	di	ADP	E	_	2	case	_	_
+2	fronte	fronte	NOUN	S	Number=Sing	16	obl	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	2039	2039	NUM	N	NumType=Card	5	nummod	_	_
+5	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	difficoltà	difficoltà	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	1500	1500	NUM	N	NumType=Card	16	nummod	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	quali	quale	PRON	PR	Number=Plur|PronType=Rel	14	obl	_	_
+14	assistite	assistire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	60.000	60.000	NUM	N	NumType=Card	18	nummod	_	_
+18	nuclei	nucleo	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	in	in	ADP	E	_	21	case	_	_
+21	regime	regime	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	sovraffollamento	sovraffollamento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	abitativo	abitativo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 14
+# text = Familiari che convivono nello stesso salotto, mogli e nuore costrette dai canoni troppo alti in due stanze e cucina.
+1	Familiari	familiare	NOUN	S	Number=Plur	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	convivono	convivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4-5	nello	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	mogli	moglie	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	nuore	nuora	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+12	costrette	costringere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	dai	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	canoni	canone	NOUN	S	Gender=Masc|Number=Plur	12	obl:agent	_	_
+16	troppo	troppo	ADV	B	_	17	advmod	_	_
+17	alti	alto	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = E che i prezzi del fitto restino sopra ogni media lo dimostra l' ultimo dato offerto dal Sicet:
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fitto	fitto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	restino	restare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+9	sopra	sopra	ADP	E	_	11	case	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	media	media	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+13	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+15	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	dato	dato	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+17	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Sicet	Sicet	PROPN	SP	_	17	obl:agent	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 16
+# text = "Per la prima volta dopo vent' anni gli sfratti per morosità, 2342, hanno superato quelli per finita locazione, 2268".
+1	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	vent'	venti	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	sfratti	sfratto	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	morosità	morosità	NOUN	S	Gender=Fem	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	2342	2342	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	17	obj	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	finita	finire	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	locazione	locazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	2268	2268	NUM	N	NumType=Card	17	conj	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 17
+# text = L' interpretazione del sorpasso è:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	interpretazione	interpretazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sorpasso	sorpasso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 18
+# text = "I patti in deroga, liberalizzando il mercato, hanno spinto in alto la contrattazione e molte famiglie non riescono a rispettare le scadenze".
+1	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	patti	patto	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	deroga	deroga	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	liberalizzando	liberalizzare	VERB	V	VerbForm=Ger	12	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	alto	alto	ADV	B	_	12	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	contrattazione	contrattazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
+19	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	rispettare	rispettare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	scadenze	scadenza	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 19
+# text = A Roma l' emergenza si è radicalizzata, e trasformata.
+1	A	a	ADP	E	_	2	case	_	_
+2	Roma	Roma	PROPN	SP	_	7	obl	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	radicalizzata	radicalizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	trasformata	trasformare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 20
+# text = Radicale e intoccata è la quota dei senzatetto.
+1	Radicale	radicale	ADJ	A	Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	intoccata	intoccato	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	quota	quota	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	senzatetto	senzatetto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Sono 1211 i nuclei familiari assistiti in residence (pubblici e privati) a spese del Campidoglio, 291 'alloggiati' a spese della comunità in case di edilizia pubblica.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	1211	1211	NUM	N	NumType=Card	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	nuclei	nucleo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	familiari	familiare	ADJ	A	Number=Plur	4	amod	_	_
+6	assistiti	assistire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	residence	residence	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	privati	privato	ADJ	A	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	10	punct	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Campidoglio	Campidoglio	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	291	291	NUM	N	NumType=Card	18	nummod	_	_
+21	'	'	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	alloggiati	alloggiato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	SpaceAfter=No
+23	'	'	PUNCT	FB	_	22	punct	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	comunità	comunità	NOUN	S	Gender=Fem	25	nmod	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	case	casa	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	edilizia	edilizia	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = E poi 487 famiglie occupano 20 scuole, in gran parte abbandonate.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	487	487	NUM	N	NumType=Card	4	nummod	_	_
+4	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	occupano	occupare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	20	20	NUM	N	NumType=Card	7	nummod	_	_
+7	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	gran	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	abbandonate	abbandonato	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = E 104 ' bassoredditi' , anziani e handicappati, sono sotto sfratto.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	104	104	NUM	N	NumType=Card	4	nummod	_	_
+3	'	'	PUNCT	FB	_	2	punct	_	_
+4	bassoredditi	bassoreddito	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	4	punct	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	anziani	anziano	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	handicappati	handicappato	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	sotto	sotto	ADP	E	_	13	case	_	_
+13	sfratto	sfratto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 24
+# text = Fanno 6000 persone in ufficiale difficoltà, anche se sui controlli effettuati dal Comune per verificare gli assistiti del 'welfare abitativo' gli stessi sindacati hanno lungamente polemizzato.
+1	Fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	6000	6000	NUM	N	NumType=Card	3	nummod	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	ufficiale	ufficiale	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	difficoltà	difficoltà	NOUN	S	Gender=Fem	5	compound	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	anche	anche	ADV	B	_	32	mark	_	_
+9	se	se	SCONJ	CS	_	8	fixed	_	_
+10-11	sui	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+13	effettuati	effettuare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	acl	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Comune	comune	PROPN	SP	_	13	obl:agent	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	verificare	verificare	VERB	V	VerbForm=Inf	32	advcl	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	assistiti	assistito	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	'	'	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	welfare	welfare	NOUN	S	Gender=Masc	20	nmod	_	_
+25	abitativo	abitativo	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	'	'	PUNCT	FB	_	24	punct	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+29	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+30	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	lungamente	lungo	ADV	B	_	32	advmod	_	_
+32	polemizzato	polemizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = Tra Comune e Iacp, ancora, si valutano 18.000 occupazioni abusive.
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	Comune	Comune	PROPN	SP	_	9	obl	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Iacp	Iacp	PROPN	SP	_	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	ancora	ancora	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	valutano	valutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	18.000	18.000	NUM	N	NumType=Card	11	nummod	_	_
+11	occupazioni	occupazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+12	abusive	abusivo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 26
+# text = Antichi abusi collettivi (ex Genghini, Federimmobiliare di Ostia, Armellini) non hanno ottenuto definitiva sanatoria.
+1	Antichi	antico	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+3	collettivi	collettivo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	ex	ex	ADJ	A	_	6	amod	_	_
+6	Genghini	Genghini	PROPN	SP	_	2	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	Federimmobiliare	Federimmobiliare	PROPN	SP	_	6	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Ostia	Ostia	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Armellini	Armellini	PROPN	SP	_	6	conj	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	6	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	sanatoria	sanatoria	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 27
+# text = Sempre il segretario Sicet:
+1	Sempre	sempre	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	Sicet	Sicet	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 28
+# text = "Il Comune ha fallito la politica sui residence e sull' Istituto per le locazioni.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Comune	Comune	PROPN	SP	_	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fallito	fallire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	politica	politica	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	sui	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	residence	residence	NOUN	S	_	7	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	sull'	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Istituto	Istituto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	locazioni	locazione	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = I piani dell' edilizia varati nell' 86 sono ancora fermi".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	piani	piano	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	edilizia	edilizia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	varati	varare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	nell'	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	86	86	NUM	N	NumType=Card	6	obl	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	ancora	ancora	ADV	B	_	12	advmod	_	_
+12	fermi	fermare	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 30
+# text = Parte a giorni il bando del Campidoglio per comprare nuovi alloggi (44 miliardi disponibili).
+1	Parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bando	bando	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Campidoglio	Campidoglio	PROPN	SP	_	5	nmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	comprare	comprare	VERB	V	VerbForm=Inf	5	acl	_	_
+11	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	alloggi	alloggi	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	44	44	NUM	N	NumType=Card	15	nummod	_	_
+15	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	disponibili	disponibile	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = Infine, il prefetto Giorgio Musìo ha sospeso gli sfratti da lunedì prossimo fino al 5 aprile:
+1	Infine	infine	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	prefetto	prefetto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	Giorgio	Giorgio	PROPN	SP	_	4	nmod	_	_
+6	Musìo	Musìo	PROPN	SP	_	5	flat:name	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	sospeso	sospendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	sfratti	sfratto	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	lunedì	lunedì	NOUN	S	Gender=Masc	10	nmod	_	_
+13	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	fino	fino	ADV	B	_	17	case	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	5	5	NUM	N	NumType=Card	8	nummod	_	_
+18	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	17	flat	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 32
+# text = le elezioni amministrative nel resto d' Italia impegneranno polizia anche da Roma.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3	amministrative	amministrativo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	resto	resto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+7	d'	di	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	6	nmod	_	_
+9	impegneranno	impegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Roma	Roma	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+

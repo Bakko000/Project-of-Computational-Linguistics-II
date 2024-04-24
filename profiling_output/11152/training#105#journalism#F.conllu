@@ -1,0 +1,749 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una laurea e tutte le porte sbarrate ecco perché ho scritto al Quirinale
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	porte	porta	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+7	sbarrate	sbarrare	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	ecco	ecco	ADV	B	_	2	advmod	_	_
+9	perché	perché	SCONJ	CS	_	11	mark	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Quirinale	Quirinale	PROPN	SP	_	11	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = FIRENZE - «Sì, ho scritto io al presidente».
+1	FIRENZE	Firenze	PROPN	SP	_	7	obl	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	«	«	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+4	Sì	sì	INTJ	I	Polarity=Pos	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Alla vecchia maniera, con la carta e con la penna, rinunciando alla velocità della mail.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	carta	carta	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	penna	penna	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	rinunciando	rinunciare	VERB	V	VerbForm=Ger	8	advcl	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	velocità	velocità	NOUN	S	Gender=Fem	14	obl	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mail	mail	NOUN	S	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ci sono pensieri che stanno meglio sui fogli, sigillati dentro una busta, con un francobollo per partire.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	meglio	meglio	ADV	B	_	5	advmod	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	fogli	foglio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	sigillati	sigillare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+12	dentro	dentro	ADV	B	_	11	advmod	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	busta	busta	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	francobollo	francobollo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	partire	partire	VERB	V	VerbForm=Inf	18	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = «Mi sono alzata un momento mentre il presidente Napolitano parlava in tv nel messaggio di fine anno, sono andata nell'altra stanza e mi sono persa proprio l'attimo in cui leggeva le righe della mia lettera.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	alzata	alzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	mentre	mentre	SCONJ	CS	_	11	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	Napolitano	Napolitano	PROPN	SP	_	9	nmod	_	_
+11	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	tv	tv	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	fine	fine	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	anno	anno	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+23-24	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	in	in	ADP	E	_	26	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+25	altra	altro	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	30	iobj	_	_
+29	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	persa	perdere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+31	proprio	proprio	ADV	B	_	33	advmod	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	cui	cui	PRON	PR	PronType=Rel	36	obl	_	_
+36	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	righe	riga	NOUN	S	Gender=Fem|Number=Plur	36	obj	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	42	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Dopo però ho recuperato il video in Rete».
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	però	però	ADV	B	_	4	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	recuperato	recuperare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	video	video	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Veronica Fiorillo ha 29 anni, un padre carabiniere, una mamma operaia.
+1	Veronica	Veronica	PROPN	SP	_	3	nsubj	_	_
+2	Fiorillo	Fiorillo	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	29	29	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	padre	padre	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+9	carabiniere	carabiniere	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+13	operaia	operaio	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = È cresciuta a Empoli, si è laureata in Psicologia a Torino e adesso vive ad Arcore col fidanzato.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cresciuta	crescere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Empoli	Empoli	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	laureata	laureare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Psicologia	psicologia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Torino	Torino	PROPN	SP	_	8	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	adesso	adesso	ADV	B	_	15	advmod	_	_
+15	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+16	ad	a	ADP	E	_	17	case	_	_
+17	Arcore	Arcore	PROPN	SP	_	15	obl	_	_
+18-19	col	_	_	_	_	_	_	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = In una casa non lontano dalla villa di Berlusconi:
+1	In	in	ADP	E	_	3	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	lontano	lontano	ADV	B	_	8	case	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	5	fixed	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	villa	villa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Berlusconi	Berlusconi	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = «Non l'ho mai visto, sento solo, a volte, l'elicottero».
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+9	solo	solo	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	volte	volte	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	elicottero	elicottero	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+16	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Il presidente Napolitano è stato colpito dalla sua frase:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	Napolitano	Napolitano	PROPN	SP	_	2	nmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	frase	frase	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 12
+# text = «Io credo ancora nell'Italia, l'Italia crede ancora in me?».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Italia	Italia	PROPN	SP	_	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Italia	Italia	PROPN	SP	_	11	nsubj	_	_
+11	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	ancora	ancora	ADV	B	_	14	advmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+16	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = «Dopo la laurea mi sono iscritta alla specialistica per diventare psicoterapeuta, sono altri 4 anni di formazione in cui dobbiamo fare il tirocinio gratis presso Asl o ospedali.
+1	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Dopo	dopo	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	iscritta	iscrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	specialistica	specialistica	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	diventare	diventare	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	psicoterapeuta	psicoterapeuta	NOUN	S	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	altri	altro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+17	4	4	NUM	N	NumType=Card	18	nummod	_	_
+18	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+23	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	fare	fare	VERB	V	VerbForm=Inf	20	acl:relcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tirocinio	tirocinio	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	gratis	gratis	NOUN	S	Gender=Masc	26	compound	_	_
+28	presso	presso	ADP	E	_	29	case	_	_
+29	Asl	Asl	PROPN	SP	_	24	obl	_	_
+30	o	o	CCONJ	CC	_	31	cc	_	_
+31	ospedali	ospedale	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 14
+# text = Ho bussato a tante porte, non mi rispondeva nessuno.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	bussato	bussare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	porte	porta	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+10	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Lì mi ho cominciato a chiedermi:
+1	Lì	lì	ADV	B	_	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	chiedermi	_	_	_	_	_	_	_	SpaceAfter=No
+6	chieder	chiedere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 16
+# text = se è così difficile trovare anche un semplice tirocinio gratuito, come posso sperare in un lavoro pagato?».
+1	se	se	SCONJ	CS	_	4	mark	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	14	advcl	_	_
+5	trovare	trovare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	semplice	semplice	ADJ	A	Number=Sing	9	amod	_	_
+9	tirocinio	tirocinio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	gratuito	gratuito	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	come	come	ADV	B	_	14	advmod	_	_
+13	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	sperare	sperare	VERB	V	VerbForm=Inf	0	root	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	14	punct	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Così ha deciso di scrivere quella lettera.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	scrivere	scrivere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = «Volevo dire al presidente che è la carica più alta del mio Paese il disagio che si prova nel cercare un lavoro senza trovarlo.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	carica	carica	NOUN	S	Gender=Fem|Number=Sing	6	acl:relcl	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	alta	alto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	prova	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cercare	cercare	VERB	V	VerbForm=Inf	21	obl	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	senza	senza	ADP	E	_	28	mark	_	_
+28-29	trovarlo	_	_	_	_	_	_	_	SpaceAfter=No
+28	trovar	trovare	VERB	V	VerbForm=Inf	24	advcl	_	_
+29	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Scrivi mail e non ti rispondono, mandi curriculum, bussi alle porte e non succede niente.
+1	Scrivi	Scrivo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	mail	mail	NOUN	S	_	1	compound	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+6	rispondono	rispondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	mandi	mandi	CCONJ	CC	_	9	cc	_	_
+9	curriculum	curriculum	X	X	_	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	bussi	busso	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+12-13	alle	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	porte	porta	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+18	niente	niente	PRON	PI	Number=Sing|PronType=Ind	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Niente e intanto passano i giorni».
+1	Niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	intanto	intanto	ADV	B	_	4	advmod	_	_
+4	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Poi un tirocinio l'ha trovato?
+1	Poi	poi	ADV	B	_	6	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tirocinio	tirocinio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = «Sì, in una comunità psichiatrica in Lombardia».
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	comunità	comunità	NOUN	S	Gender=Fem	2	obl	_	_
+7	psichiatrica	psichiatrico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Lombardia	Lombardia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = E un lavoro?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = «Mai da psicologa, mai da tre anni.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Mai	mai	ADV	B	_	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	psicologa	psicologo	NOUN	S	Gender=Masc	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	mai	mai	ADV	B	_	9	advmod	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	tre	tre	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = Eppure io penso che in giro ci sia bisogno di psicologi, pensiamo per esempio agli ospedali, ai reparti di oncologia.
+1	Eppure	eppure	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	giro	giro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	psicologi	psicologo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	pensiamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16-17	agli	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	ospedali	ospedale	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	reparti	reparto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	oncologia.	oncologia.	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+
+# sent_id = 26
+# text = ..capisco che ci siano stati tagli per via della crisi, ma uno psicologo non è un optional».
+1	..capisco	..capire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	tagli	taglio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	via	via	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	crisi	crisi	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	19	punct	_	_
+13	ma	ma	CCONJ	CC	_	19	cc	_	_
+14	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	psicologo	psicologo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	optional	optional	NOUN	S	Number=Sing	1	conj	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Lei scrive:
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 28
+# text = «senza giovani una nazione perde il futuro».
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	senza	senza	ADP	E	_	3	case	_	_
+3	giovani	giovane	NOUN	S	Number=Plur	6	obl	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = «Penso che si debbano dare delle occasioni ai giovani, dico:
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+5	debbano	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dare	dare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10-11	ai	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	giovani	giovane	NOUN	S	Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	dico	dico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 30
+# text = metteteci alla prova, abbiamo studiato, ci avete formato nelle università e noi abbiamo creduto in questo percorso.
+1-2	metteteci	_	_	_	_	_	_	_	_
+1	mettete	mettere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prova	prova	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	_
+11	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	formato	formare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+13-14	nelle	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	università	università	NOUN	S	Gender=Fem	12	obl	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+18	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = Stare senza lavoro è terribile:
+1	Stare	stare	VERB	V	VerbForm=Inf	5	csubj	_	_
+2	senza	senza	ADP	E	_	3	case	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	terribile	terribile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 32
+# text = io vivo col mio fidanzato, lui ha un posto come impiegato, abbiamo comprato la casa e naturalmente un mutuo.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vivo	vire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	col	_	_	_	_	_	_	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	posto	posto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	impiegato	impiegato	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	casa	casa	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	naturalmente	naturalmente	ADV	B	_	22	advmod	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mutuo	mutuo	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 33
+# text = Ma non possiamo programmare niente, dalle cose piccole come una vacanza, a quelle più grandi come un figlio».
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	programmare	programmare	VERB	V	VerbForm=Inf	0	root	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+10	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	13	nmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	grandi	grande	ADJ	A	Number=Plur	16	amod	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Cosa vorrebbe che facesse la politica?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	nsubj	_	_
+2	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	facesse	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	politica	politica	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 35
+# text = «Che mettesse il lavoro al centro del programma di governo e pensasse che i giovani rappresentano il futuro di una nazione, bisogna aiutarli».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	mettesse	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	centro	centro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	programma	programma	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	governo	governo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	pensasse	pensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	giovani	giovane	NOUN	S	Number=Plur	19	nsubj	_	_
+19	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+27-28	aiutarli	_	_	_	_	_	_	_	SpaceAfter=No
+27	aiutar	aiutare	VERB	V	VerbForm=Inf	26	ccomp	_	_
+28	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
+29	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 36
+# text = Cosa ha votato alle elezioni?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	votato	votare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 37
+# text = «Non ho votato e se non cambiano la legge elettorale nemmeno andrò a votare».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	votato	votare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	cambiano	cambiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	legge	legge	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+11	elettorale	elettorale	ADJ	A	Number=Sing	10	amod	_	_
+12	nemmeno	nemmeno	ADV	BN	PronType=Neg	13	advmod	_	_
+13	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	votare	votare	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	»	»	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

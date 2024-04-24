@@ -1,0 +1,825 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Online urne elettorali interattive, petizioni popolari,
+1	Online	online	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	urne	urno	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	elettorali	elettorale	ADJ	A	Number=Plur	1	amod	_	_
+4	interattive	interattivo	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	petizioni	petizione	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+7	popolari	popolare	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = filmati segreti dei candidati e parodie animate in musica
+1	filmati	filmare	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	segreti	segreto	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	candidati	candidato	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	parodie	parodia	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+8	animate	animare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	musica	musica	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Internet si scatena
+1	Internet	Internet	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	scatena	scatenare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = sulle Elezioni del 2000
+1-2	sulle	_	_	_	_	_	_	_	_
+1	su	su	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	Elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	2000	2000	NUM	N	NumType=Card	3	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Il popolo di Internet è scatenato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Internet	Internet	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Mentre Al Gore e George Bush combattono a suon di denunce e ricorsi, tra i loro sostenitori online è in atto una vera e propria cyber-battaglia.
+1	Mentre	mentre	SCONJ	CS	_	8	mark	_	_
+2-3	Al	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Gore	Gore	PROPN	SP	_	8	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	George	George	PROPN	SP	_	4	conj	_	_
+7	Bush	Bush	PROPN	SP	_	6	flat:name	_	_
+8	combattono	combattere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	suon	suon	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	ricorsi	ricorso	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	tra	tra	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	sostenitori	sostenitore	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+20	online	online	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	atto	atto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+25	vera	vero	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	25	conj	_	_
+28	cyber	cyber	ADJ	A	_	30	amod	_	SpaceAfter=No
+29	-	-	PUNCT	FF	_	28	punct	_	SpaceAfter=No
+30	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = I siti satirici avevano cominciato ad agire già molto tempo fa, diventando parte integrante delle campagne presidenziali su Internet.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	siti	sito	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	satirici	satirico	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	ad	a	ADP	E	_	7	mark	_	_
+7	agire	agire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	già	già	ADV	B	_	10	advmod	_	_
+9	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	fa	fare	ADJ	A	_	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	diventando	diventare	VERB	V	VerbForm=Ger	5	advcl	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	integrante	integrante	ADJ	A	Number=Sing	14	amod	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	campagne	campagna	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+19	presidenziali	presidenziale	ADJ	A	Number=Plur	18	amod	_	_
+20	su	su	ADP	E	_	21	case	_	_
+21	Internet	Internet	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Ma adesso il "pasticcio" del voto del 7 novembre, soprattutto in Florida, ha ispirato nuovi siti e pagine web per analizzare o prendere in giro l'intero sistema elettorale americano.
+1	Ma	ma	CCONJ	CC	_	20	cc	_	_
+2	adesso	adesso	ADV	B	_	20	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	pasticcio	pasticcio	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	voto	voto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	7	7	NUM	N	NumType=Card	9	nmod	_	_
+13	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	soprattutto	soprattutto	ADV	B	_	17	advmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Florida	Florida	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	ispirato	ispirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+22	siti	sito	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	_
+25	web	web	NOUN	S	Gender=Masc	24	compound	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27	analizzare	analizzare	VERB	V	VerbForm=Inf	20	advcl	_	_
+28	o	o	CCONJ	CC	_	29	cc	_	_
+29	prendere	prendere	VERB	V	VerbForm=Inf	27	conj	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	giro	giro	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+33	intero	intero	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+35	elettorale	elettorale	ADJ	A	Number=Sing	34	amod	_	_
+36	americano	americano	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Non si tratta solo di siti umoristici.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	siti	sito	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	umoristici	umoristico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Alcuni offrono la possibilità di rivotare a chi crede di aver sbagliato nel segnare la sua preferenza nella tanto contestata scheda di Miami.
+1	Alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	offrono	offrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	possibilità	possibilità	NOUN	S	Gender=Fem	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	rivotare	rivotare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	obl	_	_
+9	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
+12	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	segnare	segnare	VERB	V	VerbForm=Inf	12	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	preferenza	preferenza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19-20	nella	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	23	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+21	tanto	tanto	ADV	B	_	22	advmod	_	_
+22	contestata	contestato	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	scheda	scheda	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Miami	Miami	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Un voto che sarà inviato a sedi istituzionali, ma che naturalmente non conta se non come mezzo di pressione.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	voto	voto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	inviato	inviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	sedi	sede	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	istituzionali	istituzionale	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	ma	ma	CCONJ	CC	_	14	cc	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	naturalmente	naturalmente	ADV	B	_	14	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	conta	contare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	se	se	SCONJ	CS	_	18	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = In più, ci sono centinaia di petizioni online a favore di Bush, o di Gore, o ancora del Segretario di stato Katherine Harris, nuova paladina repubblicana.
+1	In	in	ADP	E	_	2	case	_	_
+2	più	più	ADV	B	_	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	petizioni	petizione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	online	online	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	favore	favore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Bush	Bush	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	o	o	CCONJ	CC	_	17	cc	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Gore	Gore	PROPN	SP	_	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	23	punct	_	_
+19	o	o	CCONJ	CC	_	23	cc	_	_
+20	ancora	ancora	ADV	B	_	23	advmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Segretario	Segretario	PROPN	SP	_	13	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	stato	stato	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	Katherine	Katherine	PROPN	SP	_	23	flat:name	_	_
+27	Harris	Harris	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	paladina	paladina	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+31	repubblicana	repubblicano	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Qualcuno dei supporter internettiani dei candidati ha anche cercato di boicottare gli avversari attraverso attacchi mirati ai loro siti.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	supporter	supporter	NOUN	S	Gender=Masc	1	nmod	_	_
+5	internettiani	internettiano	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	candidati	candidato	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	boicottare	boicottare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	avversari	avversario	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	attraverso	attraverso	ADP	E	_	17	case	_	_
+17	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+18	mirati	mirare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	siti	sito	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 14
+# text = Una settimana fa, sul conservatore Lucianne.com, un attivista repubblicano ha invitato i suoi compagni alla rivolta mediatica.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	conservatore	conservatore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	Lucianne.com	Lucianne.com	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	attivista	attivista	ADJ	A	Number=Sing	12	amod	_	_
+12	repubblicano	repubblicano	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	rivolta	rivolta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+21	mediatica	mediatico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 15
+# text = "I democratici stanno lanciando una campagna nazionale di odio, ignoranza e violenza - ha scritto - e bisogna fermarli".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	democratici	democratico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	lanciando	lanciare	VERB	V	VerbForm=Ger	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	nazionale	nazionale	ADJ	A	Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	odio	odio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	ignoranza	ignoranza	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+15	-	-	PUNCT	FF	_	17	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+18	-	-	PUNCT	FF	_	17	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+21-22	fermarli	_	_	_	_	_	_	_	SpaceAfter=No
+21	fermar	fermare	VERB	V	VerbForm=Inf	20	ccomp	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = La proposta era di utilizzare un programma chiamato "Crasher" per distruggere, fisicamente, i siti avversari.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	utilizzare	utilizzare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	programma	programma	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	chiamato	chiamare	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Crasher	Crasher	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	distruggere	distruggere	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	fisicamente	fisicamente	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	siti	sito	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+19	avversari	avversario	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Il software funziona aggiornando di continuo le pagine visitate, con lo scopo di farle andare in tilt e di impedire a choiunque di vederle.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	software	software	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aggiornando	aggiornare	VERB	V	VerbForm=Ger	3	advcl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	continuo	continuare	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+9	visitate	visitato	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	farle	_	_	_	_	_	_	_	_
+15	far	fare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	andare	andare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	tilt	tilt	NOUN	S	Gender=Masc	17	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	impedire	impedire	VERB	V	VerbForm=Inf	3	conj	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	choiunque	choiunque	PRON	PI	Number=Sing|PronType=Ind	22	obl	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26-27	vederle	_	_	_	_	_	_	_	SpaceAfter=No
+26	veder	vedere	VERB	V	VerbForm=Inf	22	xcomp	_	_
+27	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Ma il risultato è stato diverso:
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+6	diverso	diverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 19
+# text = secondo il fondatore di Democrats.com, Bob Fertik, il sito non è saltato e l'attacco è solo riuscito a far aumentare vertiginosamente il numero di "pageviews".
+1	secondo	secondo	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Democrats.com	Democrats.com	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	Bob	Bob	PROPN	SP	_	3	nmod	_	_
+8	Fertik	Fertik	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sito	sito	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	saltato	saltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	e	e	CCONJ	CC	_	20	cc	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	solo	solo	ADV	B	_	20	advmod	_	_
+20	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	far	fare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	aumentare	aumentare	VERB	V	VerbForm=Inf	22	ccomp	_	_
+24	vertiginosamente	vertiginoso	ADV	B	_	23	advmod	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	numero	numero	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	pageviews	pageviews	PROPN	SW	Foreign=Yes	26	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 20
+# text = E di conseguenza, gli incassi pubblicitari.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	incassi	incasso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	pubblicitari	pubblicitario	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = L'iniziativa è stata comunque molto criticata dagli entusiasti della politica sul web.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+5	comunque	comunque	ADV	B	_	7	advmod	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	criticata	criticare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dagli	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	entusiasti	entusiasta	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	politica	politica	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	web	webbraio	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 22
+# text = Internet dovrebbe servire ad aumentare i "gradi di democrazia" del sistema americano.
+1	Internet	Internet	PROPN	SP	_	3	nsubj	_	_
+2	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	servire	servire	VERB	V	VerbForm=Inf	0	root	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5	aumentare	aumentare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	8	punct	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+15	americano	americano	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Cercare di impedire agli avversari di dire quello che vogliono va contro la filosofia della Rete.
+1	Cercare	cercare	VERB	V	VerbForm=Inf	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	impedire	impedire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4-5	agli	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	avversari	avversario	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	dire	dire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+9	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	contro	contro	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	filosofia	filosofia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = E in effetti, in nome della libertà di parola, in Rete si trova davvero di tutto.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	libertà	libertà	NOUN	S	Gender=Fem	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	parola	parola	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Rete	rete	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	davvero	davvero	ADV	B	_	19	advmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 25
+# text = Nei siti seri, come publicintegrity.org, ci sono tutti i numeri delle elezioni.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	siti	sito	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+4	seri	serio	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	publicintegrity.org	publicintegrity.org	NOUN	S	Gender=Fem	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 26
+# text = Chi ha finanziato chi, con quanti soldi, e in che modo.
+1	Chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	finanziato	finanziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	8	det	_	_
+8	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	che	che	DET	DQ	PronType=Int	13	det	_	_
+13	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Mentre nei siti anti-candidato saltano fuori tutti i possibili scheletri nell'armadio.
+1	Mentre	mentre	SCONJ	CS	_	8	mark	_	_
+2-3	nei	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	siti	sito	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+5	anti	anti	ADJ	A	_	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	candidato	candidare	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	saltano	saltare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	fuori	fuori	ADV	B	_	8	advmod	_	_
+10	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	13	det:predet	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	possibili	possibile	ADJ	A	Number=Plur	13	amod	_	_
+13	scheletri	scheletro	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	armadio	armadio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 28
+# text = Filmati di Bush che risalgono a una decina di anni fa in cui appare completamente ubriaco.
+1	Filmati	Filmato	PROPN	SP	_	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Bush	Bush	PROPN	SP	_	1	nmod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	risalgono	risalire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	decina	decina	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	fa	fa	ADV	B	_	10	advmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+14	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+15	completamente	completamente	ADV	B	_	16	advmod	_	_
+16	ubriaco	ubriaco	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 29
+# text = Discorsi di Gore messi a confronto con documenti che ne dimostrano la supposta ipocrisia.
+1	Discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Gore	Gore	PROPN	SP	_	1	nmod	_	_
+4	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	dimostrano	dimostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	supposta	supposto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	ipocrisia	ipocrisia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = E ancora videogames, fotomontaggi, vignette, cartoni animati in cui Gore e Bush ballano insieme la danza elettorale, o in cui il candidato repubblicano rappa con il suo vice Cheney mentre guida l'auto, o dove il democratico canta una nuova versione di "I will survive" dedicata a Bill Clinton.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	ancora	ancora	ADV	B	_	3	advmod	_	_
+3	videogames	videogames	PROPN	SW	Foreign=Yes	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	fotomontaggi	fotomontaggio	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	vignette	vignetta	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	cartoni	cartoni	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+10	animati	animato	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+13	Gore	Gore	PROPN	SP	_	16	nsubj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Bush	Bush	PROPN	SP	_	13	conj	_	_
+16	ballano	ballare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+17	insieme	insieme	ADV	B	_	16	advmod	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	danza	danza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	elettorale	elettorale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	28	punct	_	_
+22	o	o	CCONJ	CC	_	28	cc	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+27	repubblicano	repubblicano	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	rappa	rappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+29	con	con	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	vice	vice	NOUN	S	_	28	obl	_	_
+33	Cheney	Cheney	PROPN	SP	_	32	flat:name	_	_
+34	mentre	mentre	SCONJ	CS	_	35	mark	_	_
+35	guida	guidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	auto	auto	NOUN	S	Gender=Fem	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	43	punct	_	_
+39	o	o	CCONJ	CC	_	43	cc	_	_
+40	dove	dove	ADV	B	_	43	advmod	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	43	nsubj	_	_
+43	canta	cantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	_
+44	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	_
+46	versione	versione	NOUN	S	Gender=Fem|Number=Sing	43	obj	_	_
+47	di	di	ADP	E	_	50	case	_	_
+48	"	"	PUNCT	FB	_	50	punct	_	SpaceAfter=No
+49	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	will	will	NOUN	S	_	46	nmod	_	_
+51	survive	survivo	ADJ	A	Gender=Fem|Number=Plur	50	amod	_	SpaceAfter=No
+52	"	"	PUNCT	FB	_	50	punct	_	_
+53	dedicata	dedicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	46	acl	_	_
+54	a	a	ADP	E	_	55	case	_	_
+55	Bill	Bill	PROPN	SP	_	53	obl	_	_
+56	Clinton	Clinton	PROPN	SP	_	55	flat:name	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = Ma sui giornali americani, al di là di questo sfogo internettiano contro quelle che sono state definite le elezioni più ridicole della storia, il Web assume tutt'altra importanza.
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2-3	sui	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+5	americani	americano	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	là	là	ADV	B	_	13	advmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	sfogo	sfogo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+14	internettiano	internettiano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	contro	contro	ADP	E	_	16	case	_	_
+16	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	14	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj:pass	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	definite	definire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	ridicole	ridicolo	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	storia	storia	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	14	punct	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Web	web	PROPN	SP	_	31	nsubj	_	_
+31	assume	assumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+32	tutt'	tutto	ADP	E	_	34	case	_	SpaceAfter=No
+33	altra	altro	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+34	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 32
+# text = I sostenitori del voto online ribadiscono che nel 2000 il sistema elettorale americano non può essere quello attuale.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sostenitori	sostenitore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	voto	voto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	online	online	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	ribadiscono	ribadire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	19	mark	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	2000	2000	NUM	N	NumType=Card	19	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+14	elettorale	elettorale	ADJ	A	Number=Sing	13	amod	_	_
+15	americano	americano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	essere	essere	AUX	V	VerbForm=Inf	19	cop	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	ccomp	_	_
+20	attuale	attuale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 33
+# text = Prima del 7 novembre, i tradizionalisti avevano risposto alle loro istanze dichiarando che votare via Internet comporta troppi rischi e margini di errore.
+1	Prima	prima	ADV	B	_	4	case	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	7	7	NUM	N	NumType=Card	10	obl	_	_
+5	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	tradizionalisti	tradizionalista	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	loro	loro	DET	AP	Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	istanze	istanza	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+15	dichiarando	dichiarare	VERB	V	VerbForm=Ger	10	advcl	_	_
+16	che	che	SCONJ	CS	_	20	mark	_	_
+17	votare	votare	VERB	V	VerbForm=Inf	20	csubj	_	_
+18	via	via	ADV	B	_	19	advmod	_	_
+19	Internet	Internet	PROPN	SP	_	17	obj	_	_
+20	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+21	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	margini	margine	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	errore	errore	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 34
+# text = Adesso, naturalmente, non sanno più cosa rispondere.
+1	Adesso	adesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	naturalmente	naturalmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	più	più	ADV	B	_	6	advmod	_	_
+8	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	9	obj	_	_
+9	rispondere	rispondere	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+

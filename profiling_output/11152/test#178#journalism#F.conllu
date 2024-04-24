@@ -1,0 +1,733 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tritone, incidente choc pedone inciampa investito dall'autobus
+1	Tritone	Tritone	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	choc	choc	NOUN	S	Gender=Masc	5	nmod	_	_
+5	pedone	pedone	NOUN	S	Gender=Fem|Number=Sing	3	compound	_	_
+6	inciampa	inciampa	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	investito	investire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8-9	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	autobus	autobus	NOUN	S	Gender=Masc	7	obl:agent	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = L'uomo di 44 anni mentre faceva jogging è scivolato.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	44	44	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	mentre	mentre	SCONJ	CS	_	7	mark	_	_
+7	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+8	jogging	jogging	NOUN	S	Gender=Fem	7	obj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	scivolato	scivolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = L'autista della linea 80 ha frenato ma non è riuscito a evitarlo
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	autista	autista	NOUN	S	Number=Sing	8	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	linea	linea	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	80	80	NUM	N	NumType=Card	5	nummod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	frenato	frenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14-15	evitarlo	_	_	_	_	_	_	_	SpacesAfter=\n\n
+14	evitar	evitare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+
+# newpar
+# sent_id = 4
+# text = Correva scartando i pedoni tra la strada e il marciapiede quando ha perso l'equilibrio ed è caduto sulla corsia preferenziale.
+1	Correva	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	scartando	scartare	VERB	V	VerbForm=Ger	1	advcl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	pedoni	pedone	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	marciapiede	marciapiedere	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	ed	e	CCONJ	CC	_	18	cc	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	corsia	corsia	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	preferenziale	preferenziale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E solo per un soffio Fabrizio I., romano di 44 anni, ieri mattina in via del Tritone non è finito sotto le ruote del bus che stava passando.
+1	E	e	CCONJ	CC	_	23	cc	_	_
+2	solo	solo	ADV	B	_	5	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	soffio	soffio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+6	Fabrizio	Fabrizio	PROPN	SP	_	5	nmod	_	_
+7	I.	I.	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	romano	romano	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	44	44	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	ieri	ieri	ADV	B	_	23	advmod	_	_
+15	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	via	via	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Tritone	Tritone	PROPN	SP	_	17	nmod	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	sotto	sotto	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	ruote	ruota	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	bus	bus	NOUN	S	Gender=Masc	26	nmod	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	passando	passare	VERB	V	VerbForm=Ger	29	acl:relcl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 6
+# text = L'uomo però, caduto oltre il marciapiede, ha urato contro la fiancata posteriore riportando traumi e una ferita alla gamba destra.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	però	però	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	oltre	oltre	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	marciapiede	marciapiedere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	urato	urare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	contro	contro	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fiancata	fiancata	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	posteriore	posteriore	ADJ	A	Number=Sing	14	amod	_	_
+16	riportando	riportare	VERB	V	VerbForm=Ger	11	advcl	_	_
+17	traumi	traume	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ferita	ferita	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	gamba	gamba	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	destra	destro	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = L'autista — della linea 80 — non si è accorto di nulla fino a quando dallo specchietto retrovisore non ha notato la sagoma a terra e si è quindi fermato a prestare i primi soccorsi insieme ai tanti passanti che, intorno alle 11, affollavano la strada all'altezza del civico 28.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	autista	autista	NOUN	S	Number=Sing	12	nsubj	_	_
+3	—	—	PUNCT	FF	_	2	punct	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	linea	linea	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	80	80	NUM	N	NumType=Card	6	nummod	_	_
+8	—	—	PUNCT	FF	_	6	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	accorto	accorgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	_
+15	fino	fino	ADV	B	_	24	mark	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	quando	quando	SCONJ	CS	_	15	fixed	_	_
+18-19	dallo	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	specchietto	specchietto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+21	retrovisore	retrovisore	ADJ	A	Number=Sing	20	amod	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	notato	notare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sagoma	sagoma	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	terra	terra	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+31	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	quindi	quindi	ADV	B	_	33	advmod	_	_
+33	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	prestare	prestare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+37	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	38	amod	_	_
+38	soccorsi	soccorso	NOUN	S	Gender=Masc|Number=Plur	35	obj	_	_
+39	insieme	insieme	ADV	B	_	43	case	_	_
+40-41	ai	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	39	fixed	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+42	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	43	det	_	_
+43	passanti	passante	NOUN	S	Number=Plur	35	obl	_	_
+44	che	che	PRON	PR	PronType=Rel	51	nsubj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	intorno	intorno	ADV	B	_	49	case	_	_
+47-48	alle	_	_	_	_	_	_	_	_
+47	a	a	ADP	E	_	46	fixed	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	11	11	NUM	N	NumType=Card	51	obl	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	affollavano	affollare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	43	acl:relcl	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	strada	strada	NOUN	S	Gender=Fem|Number=Sing	51	obj	_	_
+54-55	all'	_	_	_	_	_	_	_	SpaceAfter=No
+54	a	a	ADP	E	_	56	case	_	_
+55	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	56	det	_	_
+56	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	51	obl	_	_
+57-58	del	_	_	_	_	_	_	_	_
+57	di	di	ADP	E	_	59	case	_	_
+58	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	civico	civico	NOUN	S	Gender=Masc|Number=Sing	56	nmod	_	_
+60	28	28	NUM	N	NumType=Card	59	nummod	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = «Stavo correndo quando ho perso l'equilibrio.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Stavo	stare	PROPN	SP	_	3	nsubj	_	_
+3	correndo	correre	VERB	V	VerbForm=Ger	0	root	_	_
+4	quando	quando	SCONJ	CS	_	6	mark	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Sono inciampato e sono caduto, subito dopo ho visto il bus che stava passando.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	inciampato	inciampato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	subito	subito	ADV	B	_	10	advmod	_	_
+8	dopo	dopo	SCONJ	CS	_	10	mark	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bus	bus	NOUN	S	Gender=Masc	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	passando	passare	VERB	V	VerbForm=Ger	12	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Ho pensato di morire, è stato terribile» ha riferito l'uomo ai vigili del I gruppo che stanno ricostruendo la dinamica dell'incidente:
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	morire	morire	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+8	terribile	terribile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	8	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	vigili	vigile	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	I	il	ADJ	NO	Number=Sing|NumType=Ord	20	amod	_	_
+20	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	ricostruendo	ricostruire	VERB	V	VerbForm=Ger	20	acl:relcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	dinamica	dinamica	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26-27	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	di	di	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 11
+# text = «La vittima correva alternandosi tra il bordo del marciapiede e la corsia preferenziale — hanno accertato i caschi bianchi — all'altezza dei civico 28 è stato urtato dal bus che transitava regolarmente.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	correva	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	alternandosi	_	_	_	_	_	_	_	_
+5	alternando	alternare	VERB	V	VerbForm=Ger	4	advcl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	marciapiede	marciapiedere	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	corsia	corsia	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+16	preferenziale	preferenziale	ADJ	A	Number=Sing	15	amod	_	_
+17	—	—	PUNCT	FF	_	19	punct	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	accertato	accertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	advcl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	caschi	casco	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+22	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	—	—	PUNCT	FF	_	21	punct	_	_
+24-25	all'	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+27-28	dei	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	civico	civico	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	28	28	NUM	N	NumType=Card	26	nummod	_	_
+31	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	aux:pass	_	_
+33	urtato	urtare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	bus	bus	NOUN	S	Gender=Masc	33	obl:agent	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	transitava	transitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	acl:relcl	_	_
+39	regolarmente	regolarmente	ADV	B	_	38	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Non stava attraversando la strada, le strisce pedonali sono a 25 metri di distanza dal luogo dell'incidente » . Soccorso, è stato trasportato in codice giallo all'ospedale Umberto I. « Stava correndo e mi aveva superato pochi istanti prima di cadere a terra » ha confermato un testimone ascoltato dai vigili « quasi contemporaneamente è passato il bus.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	attraversando	attraversare	VERB	V	VerbForm=Ger	13	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	strada	strada	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	strisce	striscia	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+9	pedonali	pedonale	ADJ	A	Number=Plur	8	amod	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	25	25	NUM	N	NumType=Card	13	nummod	_	_
+13	metri	metro	NOUN	S	Gender=Masc|Number=Plur	28	nsubj:pass	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	»	»	PUNCT	FB	_	21	punct	_	_
+23	.	.	PUNCT	FS	_	21	punct	_	_
+24	Soccorso	Soccorso	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	13	punct	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	aux:pass	_	_
+28	trasportato	trasportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	codice	codice	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32-33	all'	_	_	_	_	_	_	_	SpaceAfter=No
+32	a	a	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35	Umberto	Umberto	PROPN	SP	_	34	nmod	_	_
+36	I.	I.	PROPN	SP	_	35	flat:name	_	_
+37	«	«	PUNCT	FB	_	39	punct	_	_
+38	Stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	aux	_	_
+39	correndo	correre	VERB	V	VerbForm=Ger	28	advcl	_	_
+40	e	e	CCONJ	CC	_	43	cc	_	_
+41	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	43	iobj	_	_
+42	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	_
+43	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	conj	_	_
+44	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	45	det	_	_
+45	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	43	obj	_	_
+46	prima	prima	ADV	B	_	48	mark	_	_
+47	di	di	ADP	E	_	46	fixed	_	_
+48	cadere	cadere	VERB	V	VerbForm=Inf	45	acl	_	_
+49	a	a	ADP	E	_	50	case	_	_
+50	terra	terra	NOUN	S	Gender=Fem|Number=Sing	48	obl	_	_
+51	»	»	PUNCT	FB	_	39	punct	_	_
+52	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
+53	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+54	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	testimone	testimone	NOUN	S	Gender=Masc|Number=Sing	53	obj	_	_
+56	ascoltato	ascoltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	acl	_	_
+57-58	dai	_	_	_	_	_	_	_	_
+57	da	da	ADP	E	_	59	case	_	_
+58	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
+59	vigili	vigile	NOUN	S	Gender=Masc|Number=Plur	56	obl:agent	_	_
+60	«	«	PUNCT	FB	_	64	punct	_	_
+61	quasi	quasi	ADV	B	_	62	advmod	_	_
+62	contemporaneamente	contemporaneamente	ADV	B	_	64	advmod	_	_
+63	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	aux	_	_
+64	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	advcl	_	_
+65	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
+66	bus	bus	NOUN	S	Gender=Masc	64	nsubj	_	SpaceAfter=No
+67	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 13
+# text = Per un istante ho temuto il peggio e che fosse stato investito.
+1	Per	per	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	istante	istante	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	temuto	temere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	peggio	peggio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	investito	investire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Ma non appena il bus è andato oltre, ho visto quell'uomo a terra che gridava dalla paura e dal dolore.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	appena	appena	ADV	B	_	7	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bus	bus	NOUN	S	Gender=Masc	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+8	oltre	oltre	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	quell'	quello	DET	DD	Number=Sing|PronType=Dem	13	det	_	SpaceAfter=No
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	terra	terra	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	gridava	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	paura	paura	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	dal	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 15
+# text = Una scena davvero spaventosa».
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scena	scena	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	davvero	davvero	ADV	B	_	4	advmod	_	_
+4	spaventosa	spaventoso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = I caschi bianchi hanno proceduto anche a i rilievi sul marciapiede e sul manto stradale non riscontrando alcuna anomalia.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	caschi	casco	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	proceduto	procedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	rilievi	rilievo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	marciapiede	marciapiedere	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	manto	manto	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+17	stradale	stradale	ADJ	A	Number=Sing	16	amod	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	riscontrando	riscontrare	VERB	V	VerbForm=Ger	5	advcl	_	_
+20	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	anomalia	anomalia	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Un episodio analogo — ma dal tragico epilogo — a quello avvenuto in via corso Vittorio.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	analogo	analogo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	—	—	PUNCT	FF	_	9	punct	_	_
+5	ma	ma	CCONJ	CC	_	9	cc	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	tragico	tragico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	epilogo	epilogo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+10	—	—	PUNCT	FF	_	9	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nmod	_	_
+13	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	via	via	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	corso	corso	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+17	Vittorio	Vittorio	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Caterina Pangrazi, 21 anni appena compiuti, nel tardo pomeriggio dello scorso 19 luglio stava per attraversare la strada quando è stata travolta e uccisa da un bus turistico.
+1	Caterina	Caterina	PROPN	SP	_	18	nsubj	_	_
+2	Pangrazi	Pangrazi	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	21	21	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	appena	appena	ADV	B	_	7	advmod	_	_
+7	compiuti	compiere	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	tardo	tardo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+13-14	dello	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	19	19	NUM	N	NumType=Card	12	nmod	_	_
+17	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	16	flat	_	_
+18	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	attraversare	attraversare	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	strada	strada	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	quando	quando	SCONJ	CS	_	26	mark	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	travolta	travolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	uccisa	uccidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	bus	bus	NOUN	S	Gender=Masc	28	obl:agent	_	_
+32	turistico	turistico	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 19
+# text = All'arrivo dei medici del 118 era già morta e ogni tentativo di rianimazione è stata inutile.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	medici	medico	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	118	118	NUM	N	NumType=Card	3	nmod	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	già	già	ADV	B	_	12	advmod	_	_
+12	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	e	e	CCONJ	CC	_	20	cc	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	rianimazione	rianimazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	cop	_	_
+20	inutile	inutile	ADJ	A	Number=Sing	12	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 20
+# text = La procura di Roma ha indagato per omicidio stradale l'autista del pullman e l'inchiesta, per accertare le responsabilità, è ancora aperta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procura	procura	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Roma	Roma	PROPN	SP	_	2	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	stradale	stradale	ADJ	A	Number=Sing	8	amod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	autista	autista	NOUN	S	Number=Sing	6	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pullman	pullman	NOUN	S	Gender=Masc	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	accertare	accertare	VERB	V	VerbForm=Inf	17	acl	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	responsabilità	responsabilità	NOUN	S	Gender=Fem	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	ancora	ancora	ADV	B	_	26	advmod	_	_
+26	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Una tragedia che ha sollevato polemiche sul transito dei torpedoni in picentro:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sollevato	sollevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	transito	transito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	torpedoni	torpedone	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	picentro	picentro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 22
+# text = lo scorso maggio l'assemblea capitolina ha approvato la delibera sul regolamento per l'accesso e la circolazione degli bus turistici nella Ztl.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	assemblea	assemblea	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	capitolina	capitolino	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	approvato	approvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	delibera	delibera	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	regolamento	regolamento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	bus	bus	NOUN	S	Gender=Masc	19	nmod	_	_
+23	turistici	turistico	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Ztl	Ztl	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 23
+# text = Un piano anti — pullman che era stato annunciato nel 2017 dall'assessore alla Mobilità Linda Meleo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	piano	piano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	anti	anti	ADJ	A	_	5	amod	_	_
+4	—	—	PUNCT	FF	_	3	punct	_	_
+5	pullman	pullman	NOUN	S	Gender=Masc	2	compound	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj:pass	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	2017	2017	NUM	N	NumType=Card	9	obl	_	_
+13-14	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+13	da	da	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	assessore	assessore	NOUN	S	Gender=Masc|Number=Sing	9	obl:agent	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Mobilità	Mobilità	PROPN	SP	_	9	obl	_	_
+19	Linda	Linda	PROPN	SP	_	18	flat:name	_	_
+20	Meleo	Meleo	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = La stretta sulla nuova gestione sarebbe dovuta entrare in vigore a luglio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	stretta	stretta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3-4	sulla	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	dovuta	dovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	entrare	entrare	VERB	V	VerbForm=Inf	8	advcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	vigore	vigore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 25
+# text = Ma, per consentire agli operatori turistici di adeguarsi alle nuove regole, bisognerà attendere ancora il prossimo 1°gennaio.
+1	Ma	ma	CCONJ	CC	_	17	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	consentire	consentire	VERB	V	VerbForm=Inf	17	advcl	_	_
+5-6	agli	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	turistici	turistico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	adeguarsi	_	_	_	_	_	_	_	_
+10	adeguar	adeguare	VERB	V	VerbForm=Inf	7	acl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12-13	alle	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	regole	regola	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	bisognerà	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+18	attendere	attendere	VERB	V	VerbForm=Inf	17	csubj	_	_
+19	ancora	ancora	ADV	B	_	18	advmod	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	1°gennaio	1°gennaio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n\n
+

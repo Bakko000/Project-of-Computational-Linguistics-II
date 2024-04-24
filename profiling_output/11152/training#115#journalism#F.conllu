@@ -1,0 +1,751 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gli studenti-hacker che si alzano i voti I prof:
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	-hacker	-hackere	ADJ	A	_	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	alzano	alzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	voti	voto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	I	I	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	prof	prof	NOUN	S	_	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = "Troppo facile violare i registri"
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Troppo	troppo	ADV	B	_	3	advmod	_	_
+3	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+4	violare	violare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	registri	registro	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = BOLOGNA .
+1	BOLOGNA	Bologna	PROPN	SP	_	0	root	_	_
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Hanno violato i registri elettronici dei loro professori con un keylogger, software in grado di leggere le password digitate.
+1	Hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	violato	violare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	registri	registro	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	elettronici	elettronico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	professori	professore	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	keylogger	keylogger	NOUN	S	_	2	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	software	software	NOUN	S	Gender=Masc	12	appos	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	grado	grado	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	leggere	leggere	VERB	V	VerbForm=Inf	16	acl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	password	password	NOUN	S	_	18	obj	_	_
+21	digitate	digitato	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E poi hanno ritoccato i voti, per sé e per gli amici.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ritoccato	ritoccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	voti	voto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	obl	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	amici	amico	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Non di molto:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	molto	molto	ADV	B	_	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = mezzo punto, al massimo uno.
+1	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Per non destare sospetti, ma quanto necessario a evitare bocciature o esami a settembre in qualche materia.
+1	Per	per	ADP	E	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	destare	destare	VERB	V	VerbForm=Inf	0	root	_	_
+4	sospetti	sospetto	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	quanto	quanto	ADV	B	_	8	advmod	_	_
+8	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	evitare	evitare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	bocciature	bocciatura	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	esami	esame	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	materia	materia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = A tradirli però è stata la modifica di voti presi in alcune verifiche scritte, dove c'era anche il riscontro su carta.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	tradirli	_	_	_	_	_	_	_	_
+2	tradir	tradire	VERB	V	VerbForm=Inf	8	ccomp	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	però	però	ADV	B	_	2	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	modifica	modifica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	voti	voto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+14	verifiche	verifica	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	scritte	scritto	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	dove	dove	ADV	B	_	19	advmod	_	_
+18	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	SpaceAfter=No
+19	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+20	anche	anche	ADV	B	_	19	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	riscontro	riscontro	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+23	su	su	ADP	E	_	24	case	_	_
+24	carta	carta	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Gli insegnanti se ne sono accorti:
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	insegnanti	insegnante	NOUN	S	Number=Plur	6	nsubj	_	_
+3	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	accorti	accortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 11
+# text = i giudizi non coincidevano.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giudizi	giudizio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	coincidevano	coincidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = E così è scattata la denuncia contro tredici studenti-hacker del Rosa Luxemburg, istituto tecnico commerciale d'eccellenza a Bologna, per alcuni di loro è arrivata anche la bocciatura.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	così	così	ADV	B	_	4	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scattata	scattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	contro	contro	ADP	E	_	9	case	_	_
+8	tredici	tredici	NUM	N	NumType=Card	9	nummod	_	_
+9	studenti-hacker	studenti-hacker	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Rosa	Rosa	PROPN	SP	_	9	nmod	_	_
+13	Luxemburg	Luxemburg	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+16	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	commerciale	commerciale	ADJ	A	Number=Sing	15	amod	_	_
+18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	eccellenza	eccellenza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Bologna	Bologna	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	28	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	24	nmod	_	_
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+29	anche	anche	ADV	B	_	31	advmod	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	bocciatura	bocciatura	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Un caso non isolato, che accende di nuovo la polemica sui registri digitali di classe.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	isolato	isolato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	accende	accendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	polemica	polemica	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+12-13	sui	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	registri	registro	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+15	digitali	digitale	ADJ	A	Number=Plur	14	amod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	classe	classe	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Le violazioni sono cresciute negli ultimi due anni, da quando lo strumento informatico per dare voti e registrare assenze è diventato obbligatorio.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	violazioni	violazione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	cresciute	crescere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	negli	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	9	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	9	amod	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	da	da	ADP	E	_	23	mark	_	_
+12	quando	quando	SCONJ	CS	_	11	fixed	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+15	informatico	informatico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	dare	dare	VERB	V	VerbForm=Inf	14	acl	_	_
+18	voti	voto	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	registrare	registrare	VERB	V	VerbForm=Inf	17	conj	_	_
+21	assenze	assenza	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+24	obbligatorio	obbligatorio	ADJ	A	Gender=Masc|Number=Sing	23	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Il punto debole è la vulnerabilità delle password e la distrazione di docenti poco esperti rispetto ai "nativi digitali" che siedono tra i banchi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	debole	debole	ADJ	A	Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vulnerabilità	vulnerabilità	NOUN	S	Gender=Fem	0	root	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	password	password	NOUN	S	_	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	distrazione	distrazione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	docenti	docente	NOUN	S	Number=Plur	12	nmod	_	_
+15	poco	poco	ADV	B	_	16	advmod	_	_
+16	esperti	esperto	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+17	rispetto	rispetto	ADV	B	_	21	case	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	nativi	nativo	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+22	digitali	digitale	ADJ	A	Number=Plur	21	amod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	25	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	siedono	sedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	tra	tra	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Ci sono stati casi eclatanti, come il giovane hacker di origine indiana, con 10 in informatica, denunciato all'istituto tecnico Marzotto di Valdagno per aver rubato la traccia di un compito in classe e allo stesso tempo cercato da un'azienda di ingegneria che lo voleva assumere.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	casi	casi	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+5	eclatanti	eclatante	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	come	come	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	giovane	giovane	ADJ	A	Number=Sing	10	amod	_	_
+10	hacker	hacker	NOUN	S	Gender=Masc	3	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	origine	origine	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	indiana	indiano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	10	10	NUM	N	NumType=Card	10	nummod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	informatica	informatica	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+21-22	all'	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	Marzotto	Marzotto	PROPN	SP	_	23	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Valdagno	Valdagno	PROPN	SP	_	25	nmod	_	_
+28	per	per	ADP	E	_	30	mark	_	_
+29	aver	avere	AUX	VA	VerbForm=Inf	30	aux	_	_
+30	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	compito	compito	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	classe	classe	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+38	e	e	CCONJ	CC	_	42	cc	_	_
+39-40	allo	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	42	case	_	_
+40	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+42	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	30	conj	_	_
+43	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl	_	_
+44	da	da	ADP	E	_	46	case	_	_
+45	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	43	obl:agent	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	ingegneria	ingegneria	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+49	che	che	PRON	PR	PronType=Rel	52	nsubj	_	_
+50	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	obj	_	_
+51	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	aux	_	_
+52	assumere	assumere	VERB	V	VerbForm=Inf	48	acl:relcl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Al liceo Tassoni di Modena due studenti sono stati scoperti perché avevano esagerato mettendo un "1" nella pagella online di un compagno.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+4	Tassoni	Tassoni	PROPN	SP	_	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Modena	Modena	PROPN	SP	_	11	obl	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	scoperti	scoprire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+12	perché	perché	SCONJ	CS	_	14	mark	_	_
+13	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	esagerato	esagerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+15	mettendo	mettere	VERB	V	VerbForm=Ger	14	advcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	1	1	NUM	N	NumType=Card	15	obj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	pagella	pagella	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+23	online	online	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 18
+# text = «Aver colto il problema è un segno di attenzione, l'uso delle nuove tecnologie ha un valore educativo:
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	colto	cogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	segno	segno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	uso	uso	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	valore	valore	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	educativo	educativo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 19
+# text = i docenti devono solo stare più attenti alle protezioni e insegnare ai ragazzi le conseguenze di simili violazioni.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	docenti	docente	NOUN	S	Number=Plur	5	nsubj	_	_
+3	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	stare	stare	VERB	V	VerbForm=Inf	0	root	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	attenti	attento	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	protezioni	protezione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	insegnare	insegnare	VERB	V	VerbForm=Inf	7	conj	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	simili	simile	ADJ	A	Number=Plur	20	amod	_	_
+20	violazioni	violazione	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = Non sono bravate e loro non se ne rendono conto», commenta Paolo Bernardi, preside da quest'anno del Luxemburg, che a Bologna è stata una delle scuole superiori pioniere del registro elettronico.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	bravate	bravare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	e	e	CCONJ	CC	_	9	cc	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	conto	conto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+14	Paolo	Paolo	PROPN	SP	_	13	nsubj	_	_
+15	Bernardi	Bernardi	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	preside	presidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	quest'	questo	DET	DD	Number=Sing|PronType=Dem	20	det	_	SpaceAfter=No
+20	anno	anno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Luxemburg	Luxemburg	PROPN	SP	_	17	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Bologna	Bologna	PROPN	SP	_	30	obl	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	cop	_	_
+30	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	23	acl:relcl	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+34	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	33	amod	_	_
+35	pioniere	pioniere	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	registro	registro	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+39	elettronico	elettronico	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = La violazione è avvenuta lo scorso anno ed è costata, oltre all'azione penale in corso dopo le indagini della polizia postale, anche qualche bocciatura per effetto del "5 in condotta" previsto dal regolamento dell'istituto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	avvenuta	avvenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	costata	costare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	oltre	oltre	ADV	B	_	15	case	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	12	fixed	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	azione	azione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+16	penale	penale	ADJ	A	Number=Sing	15	amod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	corso	corso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+19	dopo	dopo	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	postale	postale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	10	punct	_	_
+27	anche	anche	ADV	B	_	29	advmod	_	_
+28	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+29	bocciatura	bocciatura	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+30	per	per	ADP	E	_	31	case	_	_
+31	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+35	5	5	NUM	N	NumType=Card	31	nummod	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	condotta	condotta	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	39	punct	_	_
+39	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+40-41	dal	_	_	_	_	_	_	_	_
+40	da	da	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	regolamento	regolamento	NOUN	S	Gender=Masc|Number=Sing	39	obl:agent	_	_
+43-44	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+43	di	di	ADP	E	_	45	case	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	_
+45	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Una "furbata" con gravi conseguenze, dunque.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	furbata	furbato	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	gravi	grave	ADJ	A	Number=Plur	7	amod	_	_
+7	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	dunque	dunque	ADV	B	_	3	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Lo stesso ministro all'Istruzione Stefania Giannini ieri, a margine di un incontro del Pd, ha condannato simili azioni:
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Istruzione	istruzione	PROPN	SP	_	3	nmod	_	_
+7	Stefania	Stefania	PROPN	SP	_	6	flat:name	_	_
+8	Giannini	Giannini	PROPN	SP	_	6	flat:name	_	_
+9	ieri	ieri	ADV	B	_	21	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	margine	margine	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Pd	pd	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+22	simili	simile	ADJ	A	Number=Plur	23	amod	_	_
+23	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	21	punct	_	_
+
+# sent_id = 24
+# text = «L'informatica è una scienza importante, ma va usata bene».
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	informatica	informatica	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	importante	importante	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	usata	usare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+12	bene	bene	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = L' hackeraggio preoccupa i presidi, fermi però nel credere all'innovazione tecnologica nelle scuole, semmai con qualche risorsa in più:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	hackeraggio	hackeraggio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	preoccupa	preoccupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	presidi	presidio	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	fermi	fermare	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+8	però	però	ADV	B	_	7	advmod	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	credere	credere	VERB	V	VerbForm=Inf	7	obl	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	tecnologica	tecnologico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	nelle	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	11	punct	_	_
+20	semmai	semmai	ADV	B	_	11	advmod	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	risorsa	risorsa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	più	più	ADV	B	_	23	advmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 26
+# text = un tablet per ogni docente, il wifiin tutte gli istituti.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tablet	tablet	NOUN	S	Gender=Masc	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	docente	docente	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	wifiin	wifiino	NOUN	S	Gender=Masc	2	conj	_	_
+9	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	istituti	istituto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = «In una fase iniziale il pericolo di intrusione o d manomissioni è reale.
+1	«	«	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fase	fase	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+5	iniziale	iniziale	ADJ	A	Number=Sing	4	amod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	intrusione	intrusione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	o	o	CCONJ	CC	_	11	cc	_	_
+11	d	d	NOUN	S	_	9	conj	_	_
+12	manomissioni	manomissione	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	reale	reale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 28
+# text = Ma è come dire che si debba fare a meno delle banche perché è possibile scassinarle », dichiara Giorgio Rembado, presidente dell'associazione nazionale presidi.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	come	come	ADV	B	_	4	advmod	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+7	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	meno	meno	ADV	B	_	8	advmod	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	banche	banca	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	perché	perché	SCONJ	CS	_	16	mark	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	possibile	possibile	ADJ	A	Number=Sing	4	advcl	_	_
+17-18	scassinarle	_	_	_	_	_	_	_	_
+17	scassinar	scassinare	VERB	V	VerbForm=Inf	16	csubj	_	_
+18	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	ccomp	_	_
+19	»	»	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+22	Giorgio	Giorgio	PROPN	SP	_	21	nsubj	_	_
+23	Rembado	Rembado	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	22	appos	_	_
+26-27	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	di	di	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	nazionale	nazionale	ADJ	A	Number=Sing	28	amod	_	_
+30	presidi	presidio	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = Più critica Rita Coscarella, preside del liceo classico Vittorio Emanuele II di Palermo:
+1	Più	più	ADV	B	_	2	advmod	_	_
+2	critica	critico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	Rita	Rita	PROPN	SP	_	0	root	_	_
+4	Coscarella	Coscarella	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	preside	preside	NOUN	S	Number=Sing	3	appos	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	classico	classico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	Vittorio	Vittorio	PROPN	SP	_	9	nmod	_	_
+12	Emanuele	Emanuele	PROPN	SP	_	11	flat:name	_	_
+13	II	II	ADJ	NO	Number=Sing|NumType=Ord	11	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Palermo	Palermo	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 30
+# text = «Il registro elettronico, se funziona la connessione e la Rete, è un'opportunità.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	registro	registro	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+4	elettronico	elettronico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	se	se	SCONJ	CS	_	7	mark	_	_
+7	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	connessione	connessione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Rete	rete	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	opportunità	opportunità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 31
+# text = Ma nella mia scuola ci sono problemi anche per fare funzionare le lavagne elettroniche».
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	7	advcl	_	_
+12	funzionare	funzionare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	lavagne	lavagna	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	elettroniche	elettronico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+

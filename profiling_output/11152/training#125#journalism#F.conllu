@@ -1,0 +1,499 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = MEDICINE, CHE PASSIONE A DISPETTO DI OGNI RICETTA
+1	MEDICINE	medicine	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	CHE	Che	PROPN	SP	_	1	conj	_	_
+4	PASSIONE	passione	PROPN	SP	_	3	flat:name	_	_
+5	A	A	PROPN	SP	_	3	flat:name	_	_
+6	DISPETTO	dispetto	PROPN	SP	_	3	flat:name	_	_
+7	DI	Di	ADP	E	_	8	case	_	_
+8	OGNI	ogni	PROPN	SP	_	3	nmod	_	_
+9	RICETTA	RICETTA	PROPN	SP	_	8	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = CURARSI da soli.
+1-2	CURARSI	_	_	_	_	_	_	_	_
+1	CURAR	curar	PROPN	SP	_	0	root	_	_
+2	SI	si	PROPN	SP	_	1	flat:name	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	soli	solo	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Per gli italiani è una passione da sempre.
+1	Per	per	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	passione	passione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	sempre	sempre	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = E le nuove norme che confermano per la maggior parte dei farmaci l' obbligo di ricetta medica - in realtà è sempre esistito, ma spesso si chiudeva un occhio - non fa che orientare i consumatori verso prodotti "da banco" o "da consiglio".
+1	E	e	CCONJ	CC	_	24	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	norme	norma	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	confermano	confermare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	10	amod	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	ricetta	ricetta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	medica	medico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	-	-	PUNCT	FB	_	4	punct	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	realtà	realtà	NOUN	S	Gender=Fem	24	obl	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	sempre	sempre	ADV	B	_	24	advmod	_	_
+24	esistito	esistere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	29	punct	_	_
+26	ma	ma	CCONJ	CC	_	29	cc	_	_
+27	spesso	spesso	ADV	B	_	29	advmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	chiudeva	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	-	-	PUNCT	FB	_	34	punct	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+35	che	che	SCONJ	CS	_	36	mark	_	_
+36	orientare	orientare	VERB	V	VerbForm=Inf	34	ccomp	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	36	obj	_	_
+39	verso	verso	ADP	E	_	40	case	_	_
+40	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	_
+41	"	"	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+42	da	da	ADP	E	_	43	case	_	_
+43	banco	banco	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+44	"	"	PUNCT	FB	_	43	punct	_	_
+45	o	o	CCONJ	CC	_	48	cc	_	_
+46	"	"	PUNCT	FB	_	48	punct	_	SpaceAfter=No
+47	da	da	ADP	E	_	48	case	_	_
+48	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+49	"	"	PUNCT	FB	_	48	punct	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 5
+# text = Cioè, verso le pillole che chiediamo al farmacista perché ce le ha suggerite un amico, o che diamo al nostro bambino perché hanno fatto tanto bene al suo compagno di banco.
+1	Cioè	cioè	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	verso	verso	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	pillole	pillola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+7	chiediamo	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	farmacista	farmacista	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	perché	perché	SCONJ	CS	_	15	mark	_	_
+12	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+13	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	15	iobj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	suggerite	suggerire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	amico	amico	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	o	o	CCONJ	CC	_	21	cc	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	diamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+26	perché	perché	SCONJ	CS	_	28	mark	_	_
+27	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+29	tanto	tanto	ADV	B	_	28	advmod	_	_
+30	bene	bene	ADV	B	_	28	advmod	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	banco	banco	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Medicine vere e proprie - in maggioranza antinfluenzali, antiacidi e antidolorifici - ma anche vitamine e ricostituenti.
+1	Medicine	medicina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	vere	vero	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	proprie	proprio	ADJ	A	Gender=Fem|Number=Plur	2	conj	_	_
+5	-	-	PUNCT	FB	_	1	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+8	antinfluenzali	antinfluenzale	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	antiacidi	antiacido	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	antidolorifici	antidolorifico	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	_
+13	-	-	PUNCT	FF	_	7	punct	_	_
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	vitamine	vitamina	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	ricostituenti	ricostituente	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = "Il mercato delle vitamine è in aumento costante", spiega Stefano Cagliano, che all' automedicazione ha dedicato un capitolo del suo ultimo libro Viaggio intorno alla medicina (Laterza, 1993).
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	vitamine	vitamina	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	costante	costante	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+14	Stefano	Stefano	PROPN	SP	_	13	nsubj	_	_
+15	Cagliano	Cagliano	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+18-19	all'	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	automedicazione	automedicazione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	capitolo	capitolo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	29	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+27	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+28	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	libro	libro	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+30	Viaggio	viaggio	PROPN	SP	_	29	nmod	_	_
+31	intorno	intorno	ADV	B	_	34	case	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	31	fixed	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+35	(	(	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	Laterza	Laterza	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	1993	1993	NUM	N	NumType=Card	36	nummod	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = In Italia, compresse e polverine destinate a ridare tono e vitalità ai nostri organismi stressati ci costano ogni anno circa 300 miliardi, a cui dobbiamo aggiungere altri 51 miliardi per ricostituenti "naturali" (oligoelementi, pappa reale, ginseng, selenio).
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	19	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	compresse	compressa	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	polverine	polverina	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+7	destinate	destinascere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	ridare	ridare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	tono	tono	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	vitalità	vitalità	NOUN	S	Gender=Fem	10	conj	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	organismi	organismo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+17	stressati	stressato	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+19	costano	costare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	21	det	_	_
+21	anno	anno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	circa	circa	ADV	B	_	23	advmod	_	_
+23	300	300	NUM	N	NumType=Card	24	nummod	_	_
+24	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+28	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	aggiungere	aggiungere	VERB	V	VerbForm=Inf	24	acl:relcl	_	_
+30	altri	altro	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+31	51	51	NUM	N	NumType=Card	32	nummod	_	_
+32	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+33	per	per	ADP	E	_	34	case	_	_
+34	ricostituenti	ricostituente	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+35	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	naturali	naturale	ADJ	A	Number=Plur	34	amod	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	36	punct	_	_
+38	(	(	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+39	oligoelementi	oligoelemento	NOUN	S	Gender=Masc|Number=Plur	34	appos	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	pappa	pappa	NOUN	S	Gender=Fem|Number=Sing	39	conj	_	_
+42	reale	reale	ADJ	A	Number=Sing	41	amod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	ginseng	ginseng	NOUN	S	Gender=Masc	39	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	46	punct	_	_
+46	selenio	selenio	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	SpaceAfter=No
+47	)	)	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 9
+# text = Una spesa giustificata?
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	giustificata	giustificato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Gli esperti sostengono che, per le persone sane, un' alimentazione equilibrata fornisce tutte le sostanze necessarie all' organismo.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sostengono	sostenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	14	mark	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	14	punct	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+9	sane	sano	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+13	equilibrata	equilibrare	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	fornisce	fornire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+15	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+18	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19-20	all'	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	organismo	organismo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Meglio, dunque, curare la dieta che dissanguare il portafoglio in farmacia.
+1	Meglio	meglio	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dunque	dunque	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	curare	curare	VERB	V	VerbForm=Inf	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	dissanguare	dissanguare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	portafoglio	portafoglio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	farmacia	farmacia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Ma almeno la maggior parte delle vitamine non è nociva.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	almeno	almeno	ADV	B	_	5	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	5	amod	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	vitamine	vitamina	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	nociva	nocivo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Mentre non si può dire altrettanto del ricorso sistematico e farmaci inutili o inadeguati.
+1	Mentre	mentre	SCONJ	CS	_	5	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+6	altrettanto	altrettanto	ADV	B	_	9	advmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+10	sistematico	sistematico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13	inutili	inutile	ADJ	A	Number=Plur	12	amod	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	inadeguati	inadeguato	ADJ	A	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Secondo un' indagine realizzata dall' Oms, 19 dei 20 farmaci più venduti in Italia non sono assolutamente considerati indispensabili:
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+4	realizzata	realizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dall'	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Oms	Oms	PROPN	SP	_	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	19	19	NUM	N	NumType=Card	3	nummod	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	20	20	NUM	N	NumType=Card	13	nummod	_	_
+13	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	venduti	vendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Italia	Italia	PROPN	SP	_	15	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+20	assolutamente	assolutamente	ADV	B	_	21	advmod	_	_
+21	considerati	considerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+22	indispensabili	indispensabile	ADJ	A	Number=Plur	21	xcomp	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	21	punct	_	_
+
+# sent_id = 15
+# text = tra questi ci sono sostanze come gangliosidi - anche recentemente al centro di numerose polemiche - calcitonine e carnitine.
+1	tra	tra	ADP	E	_	2	case	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	obl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	gangliosidi	gangliosidio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	-	-	PUNCT	FF	_	10	punct	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	recentemente	recentemente	ADV	B	_	7	advmod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	centro	centro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	numerose	numeroso	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	polemiche	polemica	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	-	-	PUNCT	FF	_	15	punct	_	_
+18	calcitonine	calcitonina	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	carnitine	carnitina	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Ma anche preparati di provata utilità devono essere usati con le dovute precauzioni.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	preparati	preparare	ADJ	A	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	provata	provato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	utilità	utilità	NOUN	S	Gender=Fem	3	obl	_	_
+7	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	usati	usare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	dovute	dovuto	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	precauzioni	precauzione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 17
+# text = Gli antibiotici, per esempio, sono considerati un toccasana, mentre funzionano solo per combattere le infezioni batteriche e sono impotenti contro i virus (inutile dunque usarli per arginare un' influenza).
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	antibiotici	antibiotico	ADJ	A	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	considerati	considerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	toccasana	toccasana	NOUN	S	_	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+13	funzionano	funzionare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+14	solo	solo	ADV	B	_	13	advmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	combattere	combattere	VERB	V	VerbForm=Inf	13	advcl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	infezioni	infezione	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	batteriche	batterico	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	impotenti	impotere	ADJ	A	Number=Plur	13	conj	_	_
+23	contro	contro	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	virus	virus	NOUN	S	Gender=Masc	22	obl	_	_
+26	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	inutile	inutile	ADJ	A	Number=Sing	22	amod	_	_
+28	dunque	dunque	ADV	B	_	29	advmod	_	_
+29-30	usarli	_	_	_	_	_	_	_	_
+29	usar	usare	VERB	V	VerbForm=Inf	27	advcl	_	_
+30	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	obj	_	_
+31	per	per	ADP	E	_	32	mark	_	_
+32	arginare	arginare	VERB	V	VerbForm=Inf	29	advcl	_	_
+33	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 18
+# text = "E in ogni caso, gli antibiotici devono essere usati con parsimonia", avverte Cagliano.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	E	e	CCONJ	CC	_	11	cc	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	caso	caso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	antibiotici	antibiotico	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+9	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux:pass	_	_
+11	usati	usare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	parsimonia	parsimonia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	avverte	avvertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+17	Cagliano	Cagliano	PROPN	SP	_	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 19
+# text = "In caso contrario, l' organismo può sviluppare ceppi di batteri resistenti, che non saranno più curabili con lo stesso farmaco".
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	3	case	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	organismo	organismo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sviluppare	sviluppare	VERB	V	VerbForm=Inf	0	root	_	_
+10	ceppi	ceppo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	resistenti	resistente	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	curabili	curabile	ADJ	A	Number=Plur	10	acl:relcl	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+

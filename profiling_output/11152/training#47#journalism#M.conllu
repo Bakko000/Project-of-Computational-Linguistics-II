@@ -1,0 +1,936 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 'Deputati dell' Ars o sindaci' A rischio il seggio della Vicari
+1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3-4	dell'	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Ars	Ars	PROPN	SP	_	2	nmod	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	sindaci	sindaco	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	5	punct	_	_
+9	A	a	ADP	E	_	10	case	_	_
+10	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	seggio	seggio	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Vicari	Vicaro	PROPN	SP	_	12	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = L' effetto del contenzioso che rende rovente un seggio all' Ars mette a repentaglio i sindaci deputati regionali e surriscalda il clima intorno ad altri seggi.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contenzioso	contenzioso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	rovente	rovente	ADJ	A	Number=Sing	7	xcomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	seggio	seggio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11-12	all'	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Ars	Ars	PROPN	SP	_	10	nmod	_	_
+14	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	repentaglio	repentaglio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	sindaci	sindaco	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+20	regionali	regionale	ADJ	A	Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	surriscalda	surriscaldo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	clima	clima	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	intorno	intorno	ADV	B	_	28	case	_	_
+26	ad	a	ADP	E	_	25	fixed	_	_
+27	altri	altro	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+28	seggi	seggio	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Il 31 gennaio il tribunale civile è chiamato a pronunciarsi sulla incompatibilità di Simona Vicari primo cittadino forzista a Cefalù e deputato regionale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	31	31	NUM	N	NumType=Card	8	obl	_	_
+3	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+6	civile	civile	ADJ	A	Number=Sing	5	amod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	pronunciarsi	_	_	_	_	_	_	_	_
+10	pronunciar	pronunciare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	incompatibilità	incompatibilità	NOUN	S	Gender=Fem	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Simona	Simona	PROPN	SP	_	14	nmod	_	_
+17	Vicari	Vicaro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+18	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+19	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+20	forzista	forzista	ADJ	A	Number=Sing	19	amod	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Cefalù	Cefalù	PROPN	SP	_	19	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+25	regionale	regionale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = La Vicari fu eletta alle elezioni regionali del giugno 2001.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Vicari	Vicaro	PROPN	SP	_	4	nsubj:pass	_	_
+3	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	eletta	eleggere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	regionali	regionale	ADJ	A	Number=Plur	7	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	2001	2001	NUM	N	NumType=Card	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Successivamente, nel giugno del 2002, è stata riconfermata sindaco di Cefalù.
+1	Successivamente	successivamente	ADV	B	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2002	2002	NUM	N	NumType=Card	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	riconfermata	riconfermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Cefalù	Cefalù	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Il ricorso contro di lei è stato presentato, così come consente la legge, da un elettore:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3	contro	contro	ADV	B	_	5	case	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	così	così	ADV	B	_	12	advmod	_	_
+11	come	come	SCONJ	CS	_	12	mark	_	_
+12	consente	consentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	legge	legge	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	elettore	elettore	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 7
+# text = ma si richiama esplicitamente al contenzioso che ha opposto il mancato deputato regionale Giuseppe Faraone all' onorevole in carica Gaspare Vitrano, finito indagato per un falso connesso alla sua elezione.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	richiama	richiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	esplicitamente	esplicitamente	ADV	B	_	3	advmod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	contenzioso	contenzioso	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	opposto	opporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	mancato	mancato	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	regionale	regionale	ADJ	A	Number=Sing	13	amod	_	_
+15	Giuseppe	Giuseppe	PROPN	SP	_	13	nmod	_	_
+16	Faraone	Faraone	PROPN	SP	_	15	flat:name	_	_
+17-18	all'	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	onorevole	onorevole	NOUN	S	Number=Sing	10	obl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	carica	carica	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	Gaspare	Gaspare	PROPN	SP	_	10	nmod	_	_
+23	Vitrano	Vitrano	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+26	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	xcomp	_	_
+27	per	per	ADP	E	_	30	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	falso	falso	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	connesso	connesso	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+31-32	alla	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	34	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = La diatriba è frutto di un pasticcio legislativo e giudiziario insieme.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	diatriba	diatriba	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pasticcio	pasticcio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	legislativo	legislativo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	giudiziario	giudiziario	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	insieme	insieme	NOUN	S	Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Proprio nella sentenza della Corte d' appello che ha bocciato il ricorso di Faraone contro l' elezione di Vitrano (accusato di non essersi messo in aspettativa da dipendente regionale nei giorni della campagna elettorale) i giudici hanno posto il precedente utilizzato ora come leva per costringere la Vicari a farsi da parte per non avere scelto tra i due incarichi.
+1	Proprio	proprio	ADV	B	_	4	advmod	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Corte	corte	PROPN	SP	_	4	nmod	_	_
+8	d'	di	ADP	E	_	9	case	_	_
+9	appello	appello	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	bocciato	bocciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Faraone	Faraone	PROPN	SP	_	14	nmod	_	_
+17	contro	contro	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Vitrano	Vitrano	PROPN	SP	_	19	nmod	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+24	di	di	ADP	E	_	45	mark	_	_
+25	non	non	ADV	BN	PronType=Neg	45	advmod	_	_
+26-27	essersi	_	_	_	_	_	_	_	_
+26	esser	essere	AUX	VA	VerbForm=Inf	28	aux	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	advcl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	aspettativa	aspettativa	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	dipendente	dipendente	NOUN	S	Number=Sing	30	nmod	_	_
+33	regionale	regionale	ADJ	A	Number=Sing	32	amod	_	_
+34-35	nei	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+37-38	della	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+40	elettorale	elettorale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	)	)	PUNCT	FB	_	28	punct	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	45	nsubj	_	_
+44	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	posto	porre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	precedente	precedente	NOUN	S	Gender=Masc|Number=Sing	45	obj	_	_
+48	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	acl	_	_
+49	ora	ora	ADV	B	_	48	advmod	_	_
+50	come	come	ADP	E	_	51	case	_	_
+51	leva	leva	NOUN	S	Gender=Fem|Number=Sing	48	obl	_	_
+52	per	per	ADP	E	_	53	mark	_	_
+53	costringere	costringere	VERB	V	VerbForm=Inf	48	advcl	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	Vicari	Vicaro	PROPN	SP	_	53	obj	_	_
+56	a	a	ADP	E	_	57	mark	_	_
+57-58	farsi	_	_	_	_	_	_	_	_
+57	far	fare	VERB	V	VerbForm=Inf	53	xcomp	_	_
+58	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	57	expl	_	_
+59	da	da	ADP	E	_	60	case	_	_
+60	parte	parte	NOUN	S	Gender=Fem|Number=Sing	57	obl	_	_
+61	per	per	ADP	E	_	64	mark	_	_
+62	non	non	ADV	BN	PronType=Neg	64	advmod	_	_
+63	avere	avere	AUX	VA	VerbForm=Inf	64	aux	_	_
+64	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	57	advcl	_	_
+65	tra	tra	ADP	E	_	68	case	_	_
+66	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	68	det	_	_
+67	due	due	NUM	N	NumType=Card	68	nummod	_	_
+68	incarichi	incarico	NOUN	S	Gender=Masc|Number=Plur	64	obl	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Ammesso, naturalmente, che il ricorso dell' elettore venga accolto e il deputato venga fatto decadere.
+1	Ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	naturalmente	naturalmente	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+8-9	dell'	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	elettore	elettore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+16	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+18	decadere	decadere	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = I giudici sostennero infatti che la legge su ineleggibilità e incompatibilità si applicava solo ai sindaci e non agli impiegati regionali.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sostennero	sostenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	infatti	infatti	ADV	B	_	3	advmod	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	legge	legge	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	ineleggibilità	ineleggibilità	NOUN	S	Gender=Fem	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	incompatibilità	incompatibilità	NOUN	S	Gender=Fem	9	conj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	applicava	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+14	solo	solo	ADV	B	_	17	advmod	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	sindaci	sindaco	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20-21	agli	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	impiegati	impiegato	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+23	regionali	regionale	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Da qui la conferma che l' elezione di Vitrano era perfettamente regolare.
+1	Da	da	ADP	E	_	2	case	_	_
+2	qui	qui	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Vitrano	Vitrano	PROPN	SP	_	7	nmod	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	perfettamente	perfettamente	ADV	B	_	12	advmod	_	_
+12	regolare	regolare	ADJ	A	Number=Sing	4	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = In realtà però la legge regionale fissava un regime di ineleggibilità per i sindaci delle grandi città.
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+3	però	però	ADV	B	_	7	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	legge	legge	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	regionale	regionale	ADJ	A	Number=Sing	5	amod	_	_
+7	fissava	fissare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	regime	regime	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	ineleggibilità	ineleggibilità	NOUN	S	Gender=Fem	9	nmod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	sindaci	sindaco	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	grandi	grande	ADJ	A	Number=Plur	18	amod	_	_
+18	città	città	NOUN	S	Gender=Fem	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Tant' è che Leoluca Orlando si dimise da primo cittadino di Palermo.
+1	Tant'	Tant'	PROPN	SP	_	2	nsubj	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	Leoluca	Leoluca	PROPN	SP	_	7	nsubj	_	_
+5	Orlando	Orlando	PROPN	SP	_	4	flat:name	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	dimise	dimettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+10	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Palermo	Palermo	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = La sentenza della Corte d' appello, poi confermata dalla Cassazione, non ha tenuto conto della differenza tra piccoli e grandi centri, fissata dalla legge regionale e ha ritenuto di interpretare in maniera restrittiva e solo per i sindaci, indipendentemente dalle dimensioni della città amministrata, il regime della incompatibilità facendo rivivere una norma nazionale superata dalla legge regionale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Corte	corte	PROPN	SP	_	2	nmod	_	_
+6	d'	di	ADP	E	_	7	case	_	_
+7	appello	appello	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	poi	poi	ADV	B	_	10	advmod	_	_
+10	confermata	confermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Cassazione	Cassazione	PROPN	SP	_	10	obl:agent	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	conto	conto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	tra	tra	ADP	E	_	26	case	_	_
+23	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	grandi	grande	ADJ	A	Number=Plur	23	conj	_	_
+26	centri	centro	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	fissata	fissare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+29-30	dalla	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	legge	legge	NOUN	S	Gender=Fem|Number=Sing	28	obl:agent	_	_
+32	regionale	regionale	ADJ	A	Number=Sing	31	amod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	ritenuto	ritenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	interpretare	interpretare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+40	restrittiva	restrittivo	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	_
+41	e	e	CCONJ	CC	_	45	cc	_	_
+42	solo	solo	ADV	B	_	45	advmod	_	_
+43	per	per	ADP	E	_	45	case	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	sindaci	sindaco	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	45	punct	_	_
+47	indipendentemente	indipendentemente	ADV	B	_	45	advmod	_	_
+48-49	dalle	_	_	_	_	_	_	_	_
+48	da	da	ADP	E	_	50	case	_	_
+49	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+50	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	47	obl	_	_
+51-52	della	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	città	città	NOUN	S	Gender=Fem	50	nmod	_	_
+54	amministrata	amministrare	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	17	punct	_	_
+56	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	regime	regime	NOUN	S	Gender=Masc|Number=Sing	61	nsubj	_	_
+58-59	della	_	_	_	_	_	_	_	_
+58	di	di	ADP	E	_	60	case	_	_
+59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	incompatibilità	incompatibilità	NOUN	S	Gender=Fem	57	nmod	_	_
+61	facendo	fare	VERB	V	VerbForm=Ger	17	advcl	_	_
+62	rivivere	rivivere	VERB	V	VerbForm=Inf	61	ccomp	_	_
+63	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	norma	norma	NOUN	S	Gender=Fem|Number=Sing	62	obj	_	_
+65	nazionale	nazionale	ADJ	A	Number=Sing	64	amod	_	_
+66	superata	superare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	64	acl	_	_
+67-68	dalla	_	_	_	_	_	_	_	_
+67	da	da	ADP	E	_	69	case	_	_
+68	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	legge	legge	NOUN	S	Gender=Fem|Number=Sing	66	obl:agent	_	_
+70	regionale	regionale	ADJ	A	Number=Sing	69	amod	_	SpaceAfter=No
+71	.	.	PUNCT	FS	_	61	punct	_	_
+
+# sent_id = 16
+# text = I giudici, peraltro, si erano pronunciati sulla interpretazione da dare a un regolamento degli Enti locali intervenuto a spiegare la legge, su una materia divenuta assai ingarbugliata per lo stratificarsi di norme e interpretazioni.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	peraltro	peraltro	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	pronunciati	pronunciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	interpretazione	interpretazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	da	da	ADP	E	_	13	mark	_	_
+13	dare	dare	VERB	V	VerbForm=Inf	8	acl	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	regolamento	regolamento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	degli	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Enti	ente	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	locali	locale	ADJ	A	Number=Plur	19	amod	_	_
+21	intervenuto	intervenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	spiegare	spiegare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	legge	legge	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	materia	materia	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+30	divenuta	divenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+31	assai	assai	ADV	B	_	32	advmod	_	_
+32	ingarbugliata	ingarbugliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	xcomp	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35-36	stratificarsi	_	_	_	_	_	_	_	_
+35	stratificar	stratificare	VERB	V	VerbForm=Inf	32	obl	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	norme	norma	NOUN	S	Gender=Fem|Number=Plur	35	obl	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	interpretazioni	interpretazione	NOUN	S	Gender=Fem|Number=Plur	38	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = Con l' effetto che adesso a rischio sono appunto i sindaci delle città più piccole che sono contemporaneamente primi cittadini e deputati regionali.
+1	Con	con	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+5	adesso	adesso	ADV	B	_	11	advmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	appunto	appunto	ADV	B	_	11	advmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	sindaci	sindaco	NOUN	S	Gender=Masc|Number=Plur	3	acl:relcl	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	città	città	NOUN	S	Gender=Fem	11	nmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	contemporaneamente	contemporaneo	ADV	B	_	21	advmod	_	_
+20	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	21	amod	_	_
+21	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	14	acl:relcl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+24	regionali	regionale	ADJ	A	Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Mentre, in teoria, Orlando, se fosse stata applicata la legge così come interpretata dai giudici di Palermo, non avrebbe dovuto dimettersi in quanto ineleggibile ma scegliere solo in un secondo tempo se restare in carica a Palermo o prendere il seggio a elezione avvenuta.
+1	Mentre	mentre	SCONJ	CS	_	26	mark	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Orlando	Orlando	PROPN	SP	_	26	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	applicata	applicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	legge	legge	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+14	così	così	ADV	B	_	16	advmod	_	_
+15	come	come	ADP	E	_	16	mark	_	_
+16	interpretata	interpretare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+17-18	dai	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	16	obl:agent	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Palermo	Palermo	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	11	punct	_	_
+23	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+24	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux	_	_
+26-27	dimettersi	_	_	_	_	_	_	_	_
+26	dimetter	dimettere	VERB	V	VerbForm=Inf	0	root	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	quanto	quanto	ADV	B	_	28	fixed	_	_
+30	ineleggibile	ineleggibile	ADJ	A	Number=Sing	26	obl	_	_
+31	ma	ma	CCONJ	CC	_	32	cc	_	_
+32	scegliere	scegliere	VERB	V	VerbForm=Inf	30	conj	_	_
+33	solo	solo	ADV	B	_	37	advmod	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	37	amod	_	_
+37	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+38	se	se	SCONJ	CS	_	39	mark	_	_
+39	restare	restare	VERB	V	VerbForm=Inf	32	ccomp	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	carica	carica	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	Palermo	Palermo	PROPN	SP	_	39	obl	_	_
+44	o	o	CCONJ	CC	_	45	cc	_	_
+45	prendere	prendere	VERB	V	VerbForm=Inf	39	conj	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	seggio	seggio	NOUN	S	Gender=Masc|Number=Sing	45	obj	_	_
+48	a	a	ADP	E	_	49	case	_	_
+49	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	45	obl	_	_
+50	avvenuta	avvenuto	ADJ	A	Gender=Fem|Number=Sing	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 19
+# text = I due incarichi, infatti sarebbero solo incompatibili.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	incarichi	incarico	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	infatti	infatti	ADV	B	_	8	advmod	_	_
+6	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	solo	solo	ADV	B	_	8	advmod	_	_
+8	incompatibili	incompatibile	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Nel ricorso contro Simona Vicari si chiede la decadenza da deputato regionale con la conseguente proclamazione del primo dei non eletti, il collega di partito Stapino Greco.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	contro	contro	ADP	E	_	5	case	_	_
+5	Simona	Simona	PROPN	SP	_	3	nmod	_	_
+6	Vicari	Vicaro	PROPN	SP	_	5	flat:name	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:pass	_	_
+8	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	decadenza	decadenza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	regionale	regionale	ADJ	A	Number=Sing	12	amod	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	conseguente	conseguente	ADJ	A	Number=Sing	17	amod	_	_
+17	proclamazione	proclamazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	eletti	eleggere	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	8	punct	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	collega	collega	NOUN	S	Number=Sing	8	appos	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	partito	partito	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	Stapino	Stapino	PROPN	SP	_	29	nmod	_	_
+31	Greco	Greco	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 21
+# text = Il ricorso, come il precedente di Faraone contro Vitrano, è firmato dall' avvocato Anthony De Lisi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	precedente	precedente	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Faraone	Faraone	PROPN	SP	_	6	nmod	_	_
+9	contro	contro	ADP	E	_	10	case	_	_
+10	Vitrano	Vitrano	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	dall'	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	13	obl:agent	_	_
+17	Anthony	Anthony	PROPN	SP	_	16	nmod	_	_
+18	De	De	PROPN	SP	_	17	flat:name	_	_
+19	Lisi	lisi	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 22
+# text = Faraone è consigliere provinciale dell' Udeur, partito del quale De Lisi è dirigente.
+1	Faraone	Faraone	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	provinciale	provinciale	ADJ	A	Number=Sing	3	amod	_	_
+5-6	dell'	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Udeur	Udeur	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	partito	partito	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	quale	quale	PRON	PR	Number=Sing|PronType=Rel	16	obl	_	_
+13	De	De	PROPN	SP	_	12	nsubj	_	_
+14	Lisi	lisi	PROPN	SP	_	13	flat:name	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	dirigente	dirigente	ADJ	A	Number=Sing	9	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Vitrano, già nel gabinetto del presidente della Regione Vincenzo Leanza, è ora deputato della Margherita.
+1	Vitrano	Vitrano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	già	già	ADV	B	_	6	advmod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	gabinetto	gabinetto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	Vincenzo	Vincenzo	PROPN	SP	_	9	nmod	_	_
+14	Leanza	Leanza	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	ora	ora	ADV	B	_	18	advmod	_	_
+18	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Margherita	Margherita	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 24
+# text = Per la vicenda della sua elezione, vinta la causa davanti al giudice civile, è però invischiato in una inchiesta penale.
+1	Per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	vinta	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	causa	causa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	davanti	davanti	ADV	B	_	15	case	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+16	civile	civile	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	però	però	ADV	B	_	20	advmod	_	_
+20	invischiato	invischiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	penale	penale	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 25
+# text = Per attestare di essersi messo in aspettativa per tempo e partecipare così con le mani libere alla campagna elettorale, avrebbe falsificato la richiesta retrodatandola e coinvolgendo nel falso anche un funzionario regionale.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	attestare	attestare	VERB	V	VerbForm=Inf	24	advcl	_	_
+3	di	di	ADP	E	_	6	mark	_	_
+4-5	essersi	_	_	_	_	_	_	_	_
+4	esser	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	aspettativa	aspettativa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	partecipare	partecipare	VERB	V	VerbForm=Inf	6	conj	_	_
+13	così	così	ADV	B	_	12	advmod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	mani	mano	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+17	libere	libero	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	elettorale	elettorale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	falsificato	falsificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	retrodatandola	retrodatandolo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	coinvolgendo	coinvolgere	VERB	V	VerbForm=Ger	24	conj	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	falso	falso	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	anche	anche	ADV	B	_	35	advmod	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	funzionario	funzionario	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+36	regionale	regionale	ADJ	A	Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 26
+# text = La vicenda del ricorso contro Simona Vicari tiene con il fiato sospeso una serie di altri deputati regionali che si trovano nella sua stessa condizione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	contro	contro	ADP	E	_	7	case	_	_
+7	Simona	Simona	PROPN	SP	_	5	nmod	_	_
+8	Vicari	Vicaro	PROPN	SP	_	7	flat:name	_	_
+9	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fiato	fiato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	sospeso	sospendere	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	serie	serie	NOUN	S	Gender=Fem	9	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	altri	altro	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+18	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	regionali	regionale	ADJ	A	Number=Plur	15	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	27	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+26	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 27
+# text = Tra gli scenari per superare l' impasse quello di un intervento legislativo che riporti se non ordine almeno certezze nella materia.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	scenari	scenaro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	superare	superare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	impasse	impasse	NOUN	S	_	5	obj	_	_
+8	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	legislativo	legislativo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	riporti	riportare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	se	se	SCONJ	CS	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	almeno	almeno	ADV	B	_	19	advmod	_	_
+19	certezze	certezzo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	materia	materia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 28
+# text = Ma che difficilmente potrebbe comportare un nulla di fatto.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	difficilmente	difficilmente	ADV	B	_	5	advmod	_	_
+4	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	comportare	comportare	VERB	V	VerbForm=Inf	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nulla	nulla	NOUN	S	Gender=Masc	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = Per sistemare la questione Vicari, inevitabilmente si dovrebbe rimettere mano alla questione Vitrano e viceversa.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	sistemare	sistemare	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	questione	questione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	Vicari	Vicaro	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	inevitabilmente	inevitabilmente	ADV	B	_	10	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	rimettere	rimettere	VERB	V	VerbForm=Inf	0	root	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	questione	questione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	Vitrano	Vitrano	PROPN	SP	_	14	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	viceversa	viceversa	ADV	B	_	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 30
+# text = E così la partita è apertissima con Faraone che briga per entrare all' Ars e la Vicari che pur essendo del tutto estranea alla vicenda ne diventa una protagonista.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	così	così	ADV	B	_	6	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	partita	partita	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	apertissima	aperto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Faraone	Faraone	PROPN	SP	_	6	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	briga	brigare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	entrare	entrare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13-14	all'	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Ars	Ars	PROPN	SP	_	12	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Vicari	Vicaro	PROPN	SP	_	15	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+20	pur	pure	ADV	B	_	21	advmod	_	_
+21	essendo	essere	VERB	V	VerbForm=Ger	30	advcl	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obl	_	_
+25	estranea	estraneo	ADJ	A	Gender=Fem|Number=Sing	21	xcomp	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+29	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	30	iobj	_	_
+30	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	protagonista	protagonista	NOUN	S	Number=Sing	30	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,756 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 'QUESTA MUSICA RINATA NEI LAGER'
+1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	QUESTA	questo	PROPN	SP	_	0	root	_	_
+3	MUSICA	musica	PROPN	SP	_	2	nmod	_	_
+4	RINATA	RINATA	PROPN	SP	_	3	flat:name	_	_
+5-6	NEI	_	_	_	_	_	_	_	_
+5	IN	in	PROPN	SP	_	3	flat:name	_	_
+6	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	LAGER'	LAGER'	PROPN	SP	_	3	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = ROMA - "Lo strumento come microfono dell' anima".
+1	ROMA	Roma	PROPN	SP	_	5	nmod	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	microfono	microfono	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	dell'	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	anima	anima	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Con questa definizione Giora Feidman, clarinettista e massima figura del klezmer contemporaneo, riassume il senso dell' arte musicale ebraica.
+1	Con	con	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	definizione	definizione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+4	Giora	Giora	PROPN	SP	_	3	nmod	_	_
+5	Feidman	Feidman	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	clarinettista	clarinettista	NOUN	S	Number=Sing	4	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	figura	figura	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	klezmer	klezmer	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	contemporaneo	contemporaneo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	riassume	riassumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	senso	senso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19-20	dell'	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	arte	arte	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	musicale	musicale	ADJ	A	Number=Sing	21	amod	_	_
+23	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = "Nasce tutto dall' idea di corpo:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	_
+4-5	dall'	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	idea	idea	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = ma la musica può esplodere fisicamente soltanto se ha, come cardine ideologico, il concetto di libertà, espressiva e sociale".
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	musica	musica	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	esplodere	esplodere	VERB	V	VerbForm=Inf	0	root	_	_
+6	fisicamente	fisicamente	ADV	B	_	5	advmod	_	_
+7	soltanto	soltanto	ADV	B	_	9	advmod	_	_
+8	se	se	SCONJ	CS	_	9	mark	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	cardine	cardine	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	ideologico	ideologico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	libertà	libertà	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	espressiva	espressivo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	sociale	sociale	ADJ	A	Number=Sing	20	conj	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Mercoledì sera al Teatro Ristori di Cividale, nell' ambito del Mittelfest, Feidman ha suonato le musiche scritte da Betty Olivero (compositrice israeliana allieva di Luciano Berio) a commento delle immagini del Golem di Paul Wegener, uno dei classici del cinema espressionista tedesco.
+1	Mercoledì	mercoledì	NOUN	S	Gender=Masc	19	obl	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Teatro	Teatro	PROPN	SP	_	19	obl	_	_
+6	Ristori	Ristore	PROPN	SP	_	5	flat:name	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Cividale	Cividale	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10-11	nell'	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Mittelfest	Mittelfest	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	Feidman	Feidman	PROPN	SP	_	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	suonato	suonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	musiche	musica	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	scritte	scrivere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	Betty	Betty	PROPN	SP	_	22	obl:agent	_	_
+25	Olivero	Olivero	PROPN	SP	_	24	flat:name	_	_
+26	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	compositrice	compositore	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+28	israeliana	israeliano	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	allieva	alliere	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Luciano	Luciano	PROPN	SP	_	29	nmod	_	_
+32	Berio	Berio	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	27	punct	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	commento	commento	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+36-37	delle	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	35	nmod	_	_
+39-40	del	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Golem	Golem	PROPN	SP	_	38	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	Paul	Paul	PROPN	SP	_	41	nmod	_	_
+44	Wegener	Wegener	PROPN	SP	_	43	flat:name	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	35	punct	_	_
+46	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	35	appos	_	_
+47-48	dei	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	classici	classico	NOUN	S	Gender=Masc|Number=Plur	46	nmod	_	_
+50-51	del	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	cinema	cinema	NOUN	S	Gender=Masc	49	nmod	_	_
+53	espressionista	espressionista	NOUN	S	Number=Sing	52	compound	_	_
+54	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	53	amod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 7
+# text = Anche per Feidman il periodo tra le due guerre è il momento in cui prende forma il mistero del Novecento:
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	Feidman	Feidman	PROPN	SP	_	12	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+6	tra	tra	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	guerre	guerra	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+15	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	forma	forma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Novecento	novecento	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 8
+# text = "In particolare fu la musica a produrre gran parte dell' energia che avrebbe poi elevato l' umanità al punto da consentirle di sopravvivere agli orrori dello sterminio nazista".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	3	case	_	_
+3	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	musica	musica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	produrre	produrre	VERB	V	VerbForm=Inf	6	acl	_	_
+9	gran	gran	ADJ	A	_	10	amod	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	dell'	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	energia	energia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	poi	poi	ADV	B	_	17	advmod	_	_
+17	elevato	elevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	umanità	umanità	NOUN	S	Gender=Fem	17	obj	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	punto	punto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23	da	da	ADP	E	_	24	mark	_	_
+24-25	consentirle	_	_	_	_	_	_	_	_
+24	consentir	consentire	VERB	V	VerbForm=Inf	22	acl	_	_
+25	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	iobj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+28-29	agli	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	orrori	orrore	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+31-32	dello	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	sterminio	sterminio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	nazista	nazista	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = La cultura ebraica fece indubbiamente la sua parte, anche perché, come precisa Feidman (ebreo di passaporto argentino), "la più grande musica ebraica è nata proprio nei campi di concentramento:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	indubbiamente	indubbiamente	ADV	B	_	4	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	anche	anche	ADV	B	_	30	advmod	_	_
+11	perché	perché	SCONJ	CS	_	30	mark	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	30	punct	_	_
+13	come	come	SCONJ	CS	_	14	mark	_	_
+14	precisa	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+15	Feidman	Feidman	PROPN	SP	_	14	nsubj	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	ebreo	ebreo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	passaporto	passaporto	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	argentino	argentino	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+24	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	grande	grande	ADJ	A	Number=Sing	27	amod	_	_
+27	musica	musica	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+28	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+31	proprio	proprio	ADV	B	_	34	advmod	_	_
+32-33	nei	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	campi	campo	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	concentramento	concentramento	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 10
+# text = è venuta su dalla sofferenza, dal non sapere se il giorno dopo sarebbe successo qualcosa di peggio, o non sarebbe più successo niente, perché in quella stanza non sarebbe sopravvissuto nessuno.
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	su	su	ADP	E	_	6	case	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	sapere	sapere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+12	se	se	SCONJ	CS	_	17	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+15	dopo	dopo	ADV	B	_	17	advmod	_	_
+16	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+18	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	17	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	peggio	peggio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	o	o	CCONJ	CC	_	26	cc	_	_
+23	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+24	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+27	niente	niente	PRON	PI	Number=Sing|PronType=Ind	26	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	perché	perché	SCONJ	CS	_	35	mark	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
+32	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+33	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+34	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	sopravvissuto	sopravvivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+36	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	35	nsubj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Credo che la musica sia felicità, sia dare:
+1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	musica	musica	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	sia	sia	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	felicità	felicità	NOUN	S	Gender=Fem	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dare	dare	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = ma la felicità può descriverla solo chi ha sofferto".
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	felicità	felicità	NOUN	S	Gender=Fem	5	nsubj	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	descriverla	_	_	_	_	_	_	_	_
+5	descriver	descrivere	VERB	V	VerbForm=Inf	0	root	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	solo	solo	ADV	B	_	5	advmod	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	obj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Feidman ha cercato le radici di ogni suono.
+1	Feidman	Feidman	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	radici	radice	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	suono	suono	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Lo ha fatto un po' ovunque.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po'	poco	ADV	B	_	6	advmod	_	_
+6	ovunque	ovunque	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Spesso ha abbinato quello che a prima vista sembrava inaccostabile.
+1	Spesso	spesso	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	abbinato	abbinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	vista	vista	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+9	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+10	inaccostabile	inaccostabile	ADJ	A	Number=Sing	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Poi ha cominciato a raccontare in giro le verità maturate durante questa sua esperienza di rabdomante della musica totale.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	raccontare	raccontare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	giro	giro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	verità	verità	NOUN	S	Gender=Fem	5	obj	_	_
+10	maturate	maturato	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	durante	durante	ADP	E	_	14	case	_	_
+12	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	rabdomante	rabdomante	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	musica	musica	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	totale	totale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Il Giora Feidman Trio è un appuntamento che ha lasciato di stucco tanto l' esigente piazza della Carnegie Hall di New York quanto la Royal Albert Hall di Londra.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Giora	Giora	PROPN	SP	_	7	nsubj	_	_
+3	Feidman	Feidman	PROPN	SP	_	2	flat:name	_	_
+4	Trio	trio	PROPN	SP	_	2	flat:name	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	stucco	stucco	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	tanto	tanto	ADV	B	_	16	advmod	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+15	esigente	esigente	ADJ	A	Number=Sing	16	amod	_	_
+16	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Carnegie	Carnegie	PROPN	SP	_	16	nmod	_	_
+20	Hall	Hall	PROPN	SP	_	19	flat:name	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	New	New	PROPN	SP	_	19	nmod	_	_
+23	York	York	PROPN	SP	_	22	flat:name	_	_
+24	quanto	quanto	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Royal	Royal	PROPN	SP	_	10	obl	_	_
+27	Albert	Albert	PROPN	SP	_	26	flat:name	_	_
+28	Hall	Hall	PROPN	SP	_	26	flat:name	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Londra	Londra	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = Il suo spettacolo è come un grande riassunto di stili, di impercettibili fusioni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	come	come	ADP	E	_	8	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+8	riassunto	riassunto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	stili	stile	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	impercettibili	impercettibile	ADJ	A	Number=Plur	14	amod	_	_
+14	fusioni	fusione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = "E' stato decisivo per me lavorare accanto a Leonard Bernstein.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+4	decisivo	decisire	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	lavorare	lavorare	VERB	V	VerbForm=Inf	4	csubj	_	_
+8	accanto	accanto	ADV	B	_	10	case	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	Leonard	Leonard	PROPN	SP	_	7	obl	_	_
+11	Bernstein	Bernstein	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Era un profeta.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	profeta	profeta	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Lui è con noi ogni giorno.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = Le sue canzoni sono dappertutto, per essere cantate ma anche come esempio di lucida, appassionata commistione.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	dappertutto	dappertutto	ADV	B	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	per	per	ADP	E	_	9	mark	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	cantate	cantare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	lucida	lucida	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	appassionata	appassionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+18	commistione	commistione	NOUN	S	Gender=Fem|Number=Sing	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Ma ditemi: secondo voi la Maria di West Side Storyè una canzone come tutte le altre, oppure è una sprezzante, beffarda presa in giro delle etichette, di quel modo burbero di distinguere la musica in base ai generi?".
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ditemi	ditema	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Maria	Maria	PROPN	SP	_	2	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	West	West	PROPN	SP	_	7	nmod	_	_
+10	Side	Side	PROPN	SP	_	9	flat:name	_	_
+11	Storyè	Storyere	PROPN	SP	_	9	flat:name	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	come	come	ADP	E	_	17	case	_	_
+15	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	oppure	oppure	CCONJ	CC	_	22	cc	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	sprezzante	sprezzante	ADJ	A	Number=Sing	17	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	beffarda	beffarda	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	_
+25	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	giro	giro	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	etichette	etichetta	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
+34	modo	modo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+35	burbero	burbero	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	distinguere	distinguere	VERB	V	VerbForm=Inf	34	acl	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	musica	musica	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	base	base	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+42-43	ai	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	generi	genere	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+45	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+46	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = E così il klezmer:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	così	così	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	klezmer	klezmer	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 25
+# text = che indica non solo il tentativo di riunire la scomposta famiglia della musica ebraica, ma anche "l' entusiasmo primitivo:
+1	che	che	SCONJ	CS	_	2	mark	_	_
+2	indica	indicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	solo	solo	ADV	B	_	2	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	riunire	riunire	VERB	V	VerbForm=Inf	6	acl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	scomposta	scomposto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	musica	musica	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	ma	ma	CCONJ	CC	_	21	cc	_	_
+18	anche	anche	ADV	B	_	21	advmod	_	_
+19	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+22	primitivo	primitivo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 26
+# text = klezmer è per me la metafora della comunicazione assoluta, quella della madre col figlio, dell' animale con l' altro animale".
+1	klezmer	klezmere	AUX	VA	VerbForm=Inf	6	aux	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	metafora	metafora	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	conj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	madre	madre	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16-17	col	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20-21	dell'	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	animale	animale	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+23	con	con	ADP	E	_	26	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+25	altro	altro	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	animale	animale	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 27
+# text = La stessa perfezione simbolica che Feidman incontrò interpretando lo spartito di John Williams per Schindler' s List:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	perfezione	perfezione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	simbolica	simbolicare	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	Feidman	Feidman	PROPN	SP	_	7	nsubj	_	_
+7	incontrò	incontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+8	interpretando	interpretare	VERB	V	VerbForm=Ger	7	advcl	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	spartito	spartito	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	John	John	PROPN	SP	_	10	nmod	_	_
+13	Williams	Williams	PROPN	SP	_	12	flat:name	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	Schindler'	Schindlero	PROPN	SP	_	16	nmod	_	_
+16	s	s	NOUN	S	Gender=Masc	10	nmod	_	_
+17	List	list	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 28
+# text = "Quel film rappresentò il senso di trasformazione della forza.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	film	film	NOUN	S	Gender=Masc	4	nsubj	_	_
+4	rappresentò	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	senso	senso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	forza	forza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = La gente moriva, ma niente moriva.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	moriva	morivo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+7	moriva	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 30
+# text = Di solito prima di suonare in un film chiedo di vederlo.
+1	Di	di	ADP	E	_	2	case	_	_
+2	solito	solito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	prima	prima	ADV	B	_	5	mark	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	suonare	suonare	VERB	V	VerbForm=Inf	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	film	film	NOUN	S	Gender=Masc	5	obl	_	_
+9	chiedo	chiedere	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	vederlo	_	_	_	_	_	_	_	SpaceAfter=No
+11	veder	vedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Anche Spielberg mi mandò la cassetta:
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Spielberg	Spielberg	PROPN	SP	_	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	mandò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cassetta	cassetta	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 32
+# text = ma dopo tre secondi ho chiuso gli occhi.
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	dopo	dopo	ADV	B	_	6	advmod	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 33
+# text = Avevo capito e sentito già tutto.
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Ero già dentro la storia.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+2	già	già	ADV	B	_	5	advmod	_	_
+3	dentro	dentro	ADV	B	_	5	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 35
+# text = Era un messaggio di Dio".
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

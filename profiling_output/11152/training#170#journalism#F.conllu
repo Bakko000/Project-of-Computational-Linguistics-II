@@ -1,0 +1,288 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Torino, prof rimprovera un alunno e i genitori vanno a picchiarlo a scuola
+1	Torino	Torino	PROPN	SP	_	4	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	prof	prof	NOUN	S	_	4	nsubj	_	_
+4	rimprovera	rimproverare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	alunno	alunno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+10	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12-13	picchiarlo	_	_	_	_	_	_	_	_
+12	picchiar	picchiare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = È accaduto all’istituto Russell-Moro.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	all’	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	Russell-Moro	Russell-Moro	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = L’insegnante aveva sanzionato un ritardo
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	insegnante	insegnante	NOUN	S	Number=Sing	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	sanzionato	sanzionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = TORINO - Malmenato dai genitori di un alunno che aveva rimproverato.
+1	TORINO	Torino	ADV	B	_	3	advmod	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	Malmenato	Malmenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dai	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	3	obl:agent	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	alunno	alunno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	rimproverato	rimproverato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = È ancora sotto choc l’insegnante dell’istituto tecnico commerciale Russell-Moro di Torino, «colpevole» di aver rilevato e sanzionato il ritardo di uno studente.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ancora	ancora	ADV	B	_	4	advmod	_	_
+3	sotto	sotto	ADP	E	_	4	case	_	_
+4	choc	choc	NOUN	S	Gender=Masc	0	root	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	insegnante	insegnante	NOUN	S	Number=Sing	4	nsubj	_	_
+7-8	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	commerciale	commerciale	ADJ	A	Number=Sing	9	amod	_	_
+12	Russell-Moro	Russell-Moro	PROPN	SP	_	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Torino	Torino	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	«	«	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	colpevole	colpevole	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	17	punct	_	_
+19	di	di	ADP	E	_	21	mark	_	_
+20	aver	avere	AUX	VA	VerbForm=Inf	21	aux	_	_
+21	rilevato	rilevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	sanzionato	sanzionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	studente	studente	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = I genitori del ragazzo, denunciano i Cobas Scuola, si sono precipitati a scuola e hanno preso a pugni il professore.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	denunciano	denunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Cobas	Cobas	PROPN	SP	_	7	obj	_	_
+10	Scuola	scuola	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	precipitati	precipitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	professore	professore	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = «Questo non può e non deve essere liquidato come un fatto folkloristico - spiega la sigla sindacale di base - Siamo di fronte ad un crescendo di comportamenti analoghi fra di loro strettamente uniti dalla riduzione delle scuole ad aziende che devono soddisfare una clientela e del loro personale ad addetti a questo soddisfacimento.
+1	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj:pass	_	_
+3	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	liquidato	liquidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	parataxis	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	folkloristico	folkloristico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	-	-	PUNCT	FB	_	9	punct	_	_
+15	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sigla	sigla	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+18	sindacale	sindacale	ADJ	A	Number=Sing	17	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	base	base	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	-	-	PUNCT	FB	_	9	punct	_	_
+22	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	fronte	fronte	NOUN	S	Number=Sing	0	root	_	_
+25	ad	a	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	crescendo	crescendo	NOUN	S	Gender=Masc	24	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+30	analoghi	analogo	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+31	fra	fra	ADP	E	_	33	case	_	_
+32	di	di	ADP	E	_	31	fixed	_	_
+33	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	29	nmod	_	_
+34	strettamente	strettamente	ADV	B	_	35	advmod	_	_
+35	uniti	unire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	33	acl	_	_
+36-37	dalla	_	_	_	_	_	_	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	35	obl:agent	_	_
+39-40	delle	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+42	ad	a	ADP	E	_	43	case	_	_
+43	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	41	nmod	_	_
+44	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+45	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+46	soddisfare	soddisfare	VERB	V	VerbForm=Inf	43	acl:relcl	_	_
+47	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	clientela	clientela	NOUN	S	Gender=Fem|Number=Sing	46	obj	_	_
+49	e	e	CCONJ	CC	_	53	cc	_	_
+50-51	del	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	53	case	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+52	loro	loro	DET	AP	Poss=Yes|PronType=Prs	53	det:poss	_	_
+53	personale	personale	NOUN	S	Gender=Masc|Number=Sing	48	conj	_	_
+54	ad	a	ADP	E	_	55	case	_	_
+55	addetti	addetto	NOUN	S	Gender=Masc|Number=Plur	46	obl	_	_
+56	a	a	ADP	E	_	58	case	_	_
+57	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	58	det	_	_
+58	soddisfacimento	soddisfacimento	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 8
+# text = Il diffondersi di queste pratiche di violenza inoltre mette in evidenza uno stato generale di disagio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2-3	diffondersi	_	_	_	_	_	_	_	_
+2	diffonder	diffonder	NOUN	S	_	10	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	obj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	inoltre	inoltre	ADV	B	_	10	advmod	_	_
+10	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	evidenza	evidenza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	stato	stato	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+15	generale	generale	ADJ	A	Number=Sing	14	amod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Non dimentichiamo la rilevantissima diffusione del burn out fra gli insegnanti che sono la categoria più colpita.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	dimentichiamo	dimenticare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	rilevantissima	rilevante	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	5	amod	_	_
+5	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	burn	burn	NOUN	S	Gender=Masc	5	nmod	_	_
+9	out	out	CCONJ	CC	_	12	cc	_	_
+10	fra	fra	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	insegnanti	insegnante	NOUN	S	Number=Plur	8	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	categoria	categoria	NOUN	S	Gender=Fem|Number=Sing	12	acl:relcl	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	colpita	colpito	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Un problema che va affrontato in radice, con adeguati investimenti nell’edilizia, nelle strutture, nella consistenza e nelle retribuzioni del personale, pena la sempre più veloce trasformazione di molte, troppe scuole, in veri e propri ghetti».
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	affrontato	affrontato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	radice	radice	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	adeguati	adeguato	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+12-13	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	in	in	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	edilizia	edilizia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16-17	nelle	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	consistenza	consistenza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24-25	nelle	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	retribuzioni	retribuzione	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	personale	personale	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	18	punct	_	_
+31	pena	pena	NOUN	S	Gender=Fem|Number=Sing	18	compound	_	_
+32	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+33	sempre	sempre	ADV	B	_	35	advmod	_	_
+34	più	più	ADV	B	_	35	advmod	_	_
+35	veloce	veloce	ADJ	A	Number=Sing	36	amod	_	_
+36	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	molte	molto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	41	punct	_	_
+40	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	41	det	_	_
+41	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	38	conj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	36	punct	_	_
+43	in	in	ADP	E	_	47	case	_	_
+44	veri	vero	ADJ	A	Gender=Masc|Number=Plur	47	amod	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	propri	proprio	ADJ	A	Gender=Masc|Number=Plur	44	conj	_	_
+47	ghetti	ghetto	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+48	»	»	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

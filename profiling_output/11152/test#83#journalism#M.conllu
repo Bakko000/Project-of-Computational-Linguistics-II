@@ -1,0 +1,599 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = LA MAGNIFICA OSSESSIONE DI DISEGNARE IL MONDO
+1	LA	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	MAGNIFICA	MAGNIFICA	PROPN	SP	_	0	root	_	_
+3	OSSESSIONE	ossessione	PROPN	SP	_	2	flat:name	_	_
+4	DI	Di	ADP	E	_	5	case	_	_
+5	DISEGNARE	disegnare	PROPN	SP	_	2	nmod	_	_
+6	IL	il	PROPN	SP	_	5	flat:name	_	_
+7	MONDO	mondo	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = L'homo sapiens si mosse scrutando l'orizzonte e lasciandosi guidare dagli astri che brillavano in cielo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	homo	homo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	sapiens	sapiens	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	mosse	muovere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	scrutando	scrutare	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10-11	lasciandosi	_	_	_	_	_	_	_	_
+10	lasciando	lasciare	VERB	V	VerbForm=Ger	6	conj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	guidare	guidare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13-14	dagli	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	astri	astro	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	brillavano	brillare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = La conoscenza e la lenta scoperta della Terra fin dall'antichità è un'avventura meravigliosa che vede associati ardimentosi esploratori e cartografi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	lenta	lento	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Terra	Terra	PROPN	SP	_	6	nmod	_	_
+10	fin	fino	ADV	B	_	13	case	_	_
+11-12	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+11	da	da	ADP	E	_	10	fixed	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	antichità	antichità	NOUN	S	Gender=Fem	9	nmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	associati	associare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	xcomp	_	_
+21	ardimentosi	ardimentoso	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+22	esploratori	esploratore	NOUN	S	Gender=Masc|Number=Plur	20	nsubj:pass	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	cartografi	cartografo	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = La Terra è un disco piatto circondata dal vasto fiume Oceano nella più antica "carta del mondo", concepita tra il VII e il V secolo a.C. in Iraq: è una tavoletta di argilla (12 x 8 cm) custodita al British Museum e rappresenta in modo simbolico Babilonia, il fiume Eufrate, otto città e un oceano circolare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Terra	Terra	PROPN	SP	_	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	disco	disco	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	circondata	circondare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	vasto	vasto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+12	Oceano	Oceano	PROPN	SP	_	11	nmod	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	18	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	antica	antico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	carta	carta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	6	punct	_	_
+24	concepita	concepire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+25	tra	tra	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	VII	VII	PROPN	SP	_	24	obl	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	V	quinto	ADJ	NO	Number=Sing|NumType=Ord	31	amod	_	_
+31	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	_
+32	a.C.	a.c.	ADJ	A	_	31	amod	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	Iraq	Iraq	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	6	punct	_	_
+36	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	tavoletta	tavoletta	NOUN	S	Gender=Fem|Number=Sing	6	parataxis	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	argilla	argilla	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+41	(	(	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+42	12	12	NUM	N	NumType=Card	43	nummod	_	_
+43	x	x	SYM	SYM	_	45	nmod	_	_
+44	8	8	NUM	N	NumType=Card	43	nummod	_	_
+45	cm	centimetro	NOUN	S	_	40	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	FB	_	45	punct	_	_
+47	custodita	custodire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+48-49	al	_	_	_	_	_	_	_	_
+48	a	a	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	British	British	PROPN	SP	_	47	obl	_	_
+51	Museum	Museum	PROPN	SP	_	50	flat:name	_	_
+52	e	e	CCONJ	CC	_	53	cc	_	_
+53	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	_
+54	in	in	ADP	E	_	55	case	_	_
+55	modo	modo	NOUN	S	Gender=Masc|Number=Sing	53	obl	_	_
+56	simbolico	simbolico	ADJ	A	Gender=Masc|Number=Sing	55	amod	_	_
+57	Babilonia	Babilonia	PROPN	SP	_	55	conj	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	57	punct	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	53	obj	_	_
+61	Eufrate	Eufrate	PROPN	SP	_	60	nmod	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	64	punct	_	_
+63	otto	otto	NUM	N	NumType=Card	64	nummod	_	_
+64	città	città	NOUN	S	Gender=Fem	61	conj	_	_
+65	e	e	CCONJ	CC	_	67	cc	_	_
+66	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	oceano	oceano	NOUN	S	Gender=Masc|Number=Sing	61	conj	_	_
+68	circolare	circolare	ADJ	A	Number=Sing	67	amod	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = La Terra prende forma nel IV secolo a.C. in Grecia e Anassagora prima e Aristotele poi, scrutando la fasi lunari e le eclissi, giungono alla conclusione che è sferica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Terra	Terra	PROPN	SP	_	3	nsubj	_	_
+3	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	forma	forma	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	IV	quarto	ADJ	NO	Number=Sing|NumType=Ord	8	amod	_	_
+8	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	a.C.	a.c.	ADJ	A	_	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Grecia	Grecia	PROPN	SP	_	3	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	Anassagora	Anassagora	PROPN	SP	_	11	conj	_	_
+14	prima	prima	ADV	B	_	19	advmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Aristotele	Aristotele	PROPN	SP	_	14	conj	_	_
+17	poi	poi	ADV	B	_	14	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	scrutando	scrutare	VERB	V	VerbForm=Ger	3	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fasi	fase	NOUN	S	Gender=Fem	19	obj	_	_
+22	lunari	lunare	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	eclissi	eclissi	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	giungono	giungere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	sferica	sferico	ADJ	A	Gender=Fem|Number=Sing	30	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = La prima rappresentazione la si deve a Jacopo d'Angelo (1470) che attinge alla Geografia di Claudio Tolomeo, ma i romani e un lungo Medioevo disattendono la geografia, che non rientra nelle discipline degne di nota del "quadrivium" (aritmetica, geometria, astronomia e musica).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	rappresentazione	rappresentazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	deve	dovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Jacopo	Jacopo	PROPN	SP	_	6	obl	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	Angelo	Angelo	PROPN	SP	_	8	nmod	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	1470	1470	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	attinge	attingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Geografia	geografia	PROPN	SP	_	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Claudio	Claudio	PROPN	SP	_	18	nmod	_	_
+21	Tolomeo	Tolomeo	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	30	punct	_	_
+23	ma	ma	CCONJ	CC	_	30	cc	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	romani	romani	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	Medioevo	Medioevo	PROPN	SP	_	25	conj	_	_
+30	disattendono	disattendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	geografia	geografia	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+36	rientra	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+37-38	nelle	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	discipline	disciplina	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+40	degne	degno	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	nota	nota	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	46	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	"	"	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+46	quadrivium	quadrivium	NOUN	S	Gender=Masc	42	nmod	_	SpaceAfter=No
+47	"	"	PUNCT	FB	_	46	punct	_	_
+48	(	(	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+49	aritmetica	aritmetico	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	51	punct	_	_
+51	geometria	geometria	NOUN	S	Gender=Fem|Number=Sing	49	conj	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	53	punct	_	_
+53	astronomia	astronomia	NOUN	S	Gender=Fem|Number=Sing	49	conj	_	_
+54	e	e	CCONJ	CC	_	55	cc	_	_
+55	musica	musica	NOUN	S	Gender=Fem|Number=Sing	49	conj	_	SpaceAfter=No
+56	)	)	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Intanto, è solo nel 1290 con la Carta Pisana, pochi centimetri di pelle rinsecchita, che si ha la prima carta nautica e nasce il primo portolano, che alla lettera significa "elenco di porti".
+1	Intanto	intanto	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	solo	solo	ADV	B	_	7	advmod	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	1290	1290	NUM	N	NumType=Card	0	root	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Carta	Carta	PROPN	SP	_	7	nmod	_	_
+11	Pisana	Pisana	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	centimetri	centimetro	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	rinsecchita	rinsecchito	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+21	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	_
+24	carta	carta	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25	nautica	nautico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	30	amod	_	_
+30	portolano	portolano	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+33-34	alla	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+36	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+37	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	36	xcomp	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	porti	porto	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+41	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Mete essenziali di approdo per il fiorire di un intenso commercio nel Mediterraneo.
+1	Mete	Mere	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	essenziali	essenziale	ADJ	A	Number=Plur	1	amod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	approdo	approdo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fiorire	fiorira	VERB	V	VerbForm=Inf	1	nmod	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	intenso	intenso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Mediterraneo	Mediterraneo	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Il mondo arabo aveva già dato il suo contributo con Al-Idrisi che in quindici anni, su commessa di Ruggiero II re di Sicilia, conclude nel 1154 il Libro di piacevoli viaggi in terre lontane che contiene carte orientate, con il Sud in alto come era d'uso.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	arabo	arabo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11-12	Al	_	_	_	_	_	_	_	SpaceAfter=No
+11	A	a	PROPN	SP	_	9	nmod	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+14	Idrisi	Idrisi	PROPN	SP	_	11	flat:name	_	_
+15	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	quindici	quindici	NUM	N	NumType=Card	18	nummod	_	_
+18	anni	anno	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	su	su	ADP	E	_	21	case	_	_
+21	commessa	commessa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Ruggiero	Ruggiero	PROPN	SP	_	25	nmod	_	_
+24	II	secondo	ADJ	NO	Number=Sing|NumType=Ord	23	amod	_	_
+25	re	re	NOUN	S	Gender=Masc	21	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Sicilia	Sicilia	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	1154	1154	NUM	N	NumType=Card	29	obl	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Libro	Libro	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	piacevoli	piacevole	ADJ	A	Number=Plur	37	amod	_	_
+37	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	terre	terra	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+40	lontane	lontano	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	contiene	contenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+43	carte	carta	NOUN	S	Gender=Fem|Number=Plur	42	obj	_	_
+44	orientate	orientato	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	29	punct	_	_
+46	con	con	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	Sud	Sud	PROPN	SP	_	29	obl	_	_
+49	in	in	ADP	E	_	50	case	_	_
+50	alto	alto	ADV	B	_	29	advmod	_	_
+51	come	come	SCONJ	CS	_	54	mark	_	_
+52	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	cop	_	_
+53	d'	di	ADP	E	_	54	case	_	SpaceAfter=No
+54	uso	uso	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Ma la più antica carta nautica resta la Pisana, realizzata a Genova.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	antica	antico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	carta	carta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	nautica	nautico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Pisana	Pisana	PROPN	SP	_	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	realizzata	realizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Genova	Genova	PROPN	SP	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Petrus Vesconte, cartografo genovese disegna una carta generale dell'Europa (1313):
+1	Petrus	Petrus	PROPN	SP	_	6	nsubj	_	_
+2	Vesconte	Vesconte	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	cartografo	cartografo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	genovese	genovese	ADJ	A	Number=Sing	4	amod	_	_
+6	disegna	disegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	carta	carta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	generale	generale	ADJ	A	Number=Sing	8	amod	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Europa	Europa	PROPN	SP	_	8	nmod	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	1313	1313	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 12
+# text = un ruolo importante avrà l'Atlante catalano (1375) che riempie gli spazi vuoti sulla parte terrestre, vuoti ignorati da genovesi e veneziani.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	importante	importante	ADJ	A	Number=Sing	2	amod	_	_
+4	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Atlante	Atlante	PROPN	SP	_	4	obj	_	_
+7	catalano	catalano	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	1375	1375	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	riempie	riempire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	spazi	spazio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	vuoti	vuoto	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16-17	sulla	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	terrestre	terrestre	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	vuoti	vuoto	NOUN	S	Gender=Masc|Number=Plur	14	appos	_	_
+22	ignorati	ignorare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	genovesi	genovese	NOUN	S	Gender=Masc|Number=Plur	22	obl:agent	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	veneziani	veneziani	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = A seguire Piero Rosselli che disegna la Carta del Mediterraneo occidentale e dell'oceano Atlantico nord- orientale (1466).
+1	A	a	ADP	E	_	2	mark	_	_
+2	seguire	seguire	VERB	V	VerbForm=Inf	0	root	_	_
+3	Piero	Piero	PROPN	SP	_	2	obj	_	_
+4	Rosselli	Rosselli	PROPN	SP	_	3	flat:name	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	disegna	disegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Carta	carta	PROPN	SP	_	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Mediterraneo	Mediterraneo	PROPN	SP	_	8	nmod	_	_
+12	occidentale	occidentale	ADJ	A	Number=Sing	8	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	oceano	oceano	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+17	Atlantico	Atlantico	PROPN	SP	_	16	nmod	_	_
+18	nord	nord	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	18	punct	_	_
+20	orientale	orientale	ADJ	A	Number=Sing	18	amod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	1466	1466	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = La scoperta della bussola ha conseguenze rilevanti per naviganti e cartografi, ma bisogna attendere Guillaume de Brouscon per giungere al Manuale di navigazione ad uso dei navigatori bretoni (1548).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bussola	bussola	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8	rilevanti	rilevante	ADJ	A	Number=Plur	7	amod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	naviganti	navigante	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	cartografi	cartografo	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	attendere	attendere	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	Guillaume	Guillaume	PROPN	SP	_	16	obj	_	_
+18	de	de	ADP	E	_	19	case	_	_
+19	Brouscon	Brouscon	PROPN	SP	_	17	nmod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	giungere	giungere	VERB	V	VerbForm=Inf	16	advcl	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Manuale	manuale	PROPN	SP	_	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	navigazione	navigazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	ad	a	ADP	E	_	28	case	_	_
+28	uso	uso	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	navigatori	navigatore	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+32	bretoni	bretone	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+33	(	(	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+34	1548	1548	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Non sono che pochi e parziali cenni che si traggono dallo splendido volume di Olivier Le Carrer, Carte nautiche.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	parziali	parziale	ADJ	A	Number=Plur	7	amod	_	_
+7	cenni	cenno	NOUN	S	Gender=Masc	4	conj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	traggono	trarre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11-12	dallo	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	14	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	splendido	splendido	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	volume	volume	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Olivier	Olivier	PROPN	SP	_	14	nmod	_	_
+17	Le	Le	PROPN	SP	_	16	flat:name	_	_
+18	Carrer	Carrer	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	Carte	carte	PROPN	SP	_	16	nmod	_	_
+21	nautiche	nautico	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = La scoperta del mondo attraverso la cartografia (Rizzoli), riccamente illustrato.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	attraverso	attraverso	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cartografia	cartografia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Rizzoli	Rizzoli	PROPN	SP	_	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	riccamente	ricco	ADV	B	_	14	advmod	_	_
+14	illustrato	illustrare	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Il lettore può scegliere i suoi itinerari nel corso del tempo;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lettore	lettore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scegliere	scegliere	VERB	V	VerbForm=Inf	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	itinerari	itinerario	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	corso	corso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 18
+# text = senza dimenticare che la parola "cartografia" fa la sua comparsa solo nell'Ottocento.
+1	senza	senza	ADP	E	_	2	mark	_	_
+2	dimenticare	dimenticare	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parola	parola	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	cartografia	cartografia	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	comparsa	comparsa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	solo	solo	ADV	B	_	16	advmod	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Ottocento	Ottocento	PROPN	SP	_	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

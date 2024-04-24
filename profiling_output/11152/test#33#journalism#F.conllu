@@ -1,0 +1,686 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = DYLAN CONTRO PAPÀ WOODY COME CAMBIA LA CREDIBILITÀ
+1	DYLAN	Dylan	PROPN	SP	_	0	root	_	_
+2	CONTRO	contro	PROPN	SP	_	1	flat:name	_	_
+3	PAPÀ	papà	PROPN	SP	_	1	flat:name	_	_
+4	WOODY	Woody	PROPN	SP	_	1	nmod	_	_
+5	COME	come	PROPN	SP	_	4	flat:name	_	_
+6	CAMBIA	cambia	PROPN	SP	_	4	flat:name	_	_
+7	LA	La	PROPN	SP	_	4	flat:name	_	_
+8	CREDIBILITÀ	Credibilità	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Timothée Chalamet, la star di Chiamami col tuo nome, dona parte del compenso del film girato con Woody Allen, A rainy day in New York, a Time's Up, associazione per le vittime di molestie.
+1	Timothée	Timothée	PROPN	SP	_	13	nsubj	_	_
+2	Chalamet	Chalamet	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	star	star	NOUN	S	Gender=Masc	1	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Chiamami	Chiamami	PROPN	SP	_	5	nmod	_	_
+8-9	col	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	nome	nome	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	dona	donare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	film	film	NOUN	S	Gender=Masc	17	nmod	_	_
+21	girato	girato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	Woody	Woody	PROPN	SP	_	20	nmod	_	_
+24	Allen	Allen	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	A	A	ADP	E	_	27	case	_	_
+27	rainy	rainy	NOUN	S	Gender=Fem	30	nmod	_	_
+28	day	day	CCONJ	CC	_	30	cc	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	New	New	PROPN	SP	_	20	nmod	_	_
+31	York	York	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	Time	Time	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+35	's	's	PART	PART	_	34	case	_	_
+36	Up	Up	PROPN	SP	_	34	flat:name	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	30	punct	_	_
+38	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	30	appos	_	_
+39	per	per	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	molestie	molestia	NOUN	S	Gender=Fem|Number=Plur	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Prima di lui si erano "pentite" Greta Gerwig e Rebecca Hall.
+1	Prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	pentite	pentire	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	9	punct	_	_
+9	Greta	Greta	PROPN	SP	_	7	nmod	_	_
+10	Gerwig	Gerwig	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Rebecca	Rebecca	PROPN	SP	_	9	conj	_	_
+13	Hall	Hall	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Eppure quando avevano accettato i ruoli, gli attori erano a conoscenza della vicenda anche processuale che aveva coinvolto Allen 25 anni fa, le accuse di abusi sessuali da parte della figlia adottiva Dylan, sette anni all'epoca dei fatti.
+1	Eppure	eppure	CCONJ	CC	_	12	cc	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ruoli	ruolo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	attori	attore	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+10	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	processuale	processuale	ADJ	A	Number=Sing	15	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	coinvolto	coinvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+21	Allen	Allen	PROPN	SP	_	20	obj	_	_
+22	25	25	NUM	N	NumType=Card	23	nummod	_	_
+23	anni	anno	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	fa	fa	ADV	B	_	15	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	12	punct	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	12	appos	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+30	sessuali	sessuale	ADJ	A	Number=Plur	29	amod	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	parte	parte	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36	adottiva	adottivo	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+37	Dylan	Dylan	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	35	punct	_	_
+39	sette	sette	NUM	N	NumType=Card	40	nummod	_	_
+40	anni	anno	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+41-42	all'	_	_	_	_	_	_	_	SpaceAfter=No
+41	a	a	ADP	E	_	43	case	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+44-45	dei	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Nel 2014 Ronan Farrow aveva ribadito le accuse in una lettera al New York Times.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2014	2014	NUM	N	NumType=Card	7	obl	_	_
+4	Ronan	Ronan	PROPN	SP	_	7	nsubj	_	_
+5	Farrow	Farrow	PROPN	SP	_	4	flat:name	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	ribadito	ribadire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	New	New	PROPN	SP	_	7	obl	_	_
+16	York	York	PROPN	SP	_	15	flat:name	_	_
+17	Times	Times	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Nel lasso di tempo intercorso tra il set dell'ultimo film di Allen e il ripensamento di questi giorni non sono arrivate nuove accuse ma, spiega Chalamet col candore dei 22anni, «ora è cambiato il modo in cui vedo e percepisco molte cose».
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lasso	lasso	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	intercorso	intercorrere	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	set	set	NOUN	S	Gender=Masc	3	nmod	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	13	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	film	film	NOUN	S	Gender=Masc	9	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Allen	Allen	PROPN	SP	_	13	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ripensamento	ripensamento	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+21	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	arrivate	arrivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+25	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+26	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+27	ma	ma	CCONJ	CC	_	41	cc	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	parataxis	_	_
+30	Chalamet	Chalamet	PROPN	SP	_	29	nsubj	_	_
+31-32	col	_	_	_	_	_	_	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	candore	candore	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34-35	dei	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	22anni	22anno	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	29	punct	_	_
+38	«	«	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+39	ora	ora	ADV	B	_	41	advmod	_	_
+40	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	conj	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	modo	modo	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+44	in	in	ADP	E	_	45	case	_	_
+45	cui	cui	PRON	PR	PronType=Rel	46	obl	_	_
+46	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	percepisco	percepire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	46	conj	_	_
+49	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	50	det	_	_
+50	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	48	obj	_	SpaceAfter=No
+51	»	»	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	24	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Ad essere cambiata non è la gravità delle accuse, ma l'empatia nei confronti delle potenziali vittime.
+1	Ad	a	ADP	E	_	3	mark	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	cambiata	cambiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gravità	gravità	NOUN	S	Gender=Fem	3	nsubj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	empatia	empatia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+15-16	nei	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	potenziali	potenziale	ADJ	A	Number=Plur	21	amod	_	_
+21	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = La sentenza che nel 1993 concludeva l'indagine su Allen ne dava un ritratto di padre «egocentrico, inaffidabile e insensibile», gli negava la custodia dei figli, scagionandolo, però, dall'accusa di abusi sessuali.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	1993	1993	NUM	N	NumType=Card	7	obl	_	_
+7	concludeva	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	Allen	Allen	PROPN	SP	_	9	nmod	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+13	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ritratto	ritratto	NOUN	S	Gender=Masc|Number=Sing	13	xcomp	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	padre	padre	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	«	«	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	egocentrico	egocentrico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	inaffidabile	inaffidabile	ADJ	A	Number=Sing	19	conj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	insensibile	insensibile	ADJ	A	Number=Sing	19	conj	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+27	negava	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	custodia	custodia	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	27	punct	_	_
+34-35	scagionandolo	_	_	_	_	_	_	_	SpaceAfter=No
+34	scagionando	scagionare	VERB	V	VerbForm=Ger	27	advcl	_	_
+35	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+36	,	,	PUNCT	FF	_	27	punct	_	_
+37	però	però	ADV	B	_	27	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	27	punct	_	_
+39-40	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+39	da	da	ADP	E	_	41	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	_
+44	sessuali	sessuale	ADJ	A	Number=Plur	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Ma oggi, in quel processo che si consuma davanti all'opinione pubblica, la percezione è cambiata.
+1	Ma	ma	CCONJ	CC	_	19	cc	_	_
+2	oggi	oggi	ADV	B	_	19	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	processo	processo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	consuma	consumare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	davanti	davanti	ADV	B	_	13	case	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	10	fixed	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	percezione	percezione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	cambiata	cambiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 10
+# text = Perché c'è stata la caduta di Weinstein, il potente produttore Hollywood che ha molestato e intimidito per vent'anni, molti non sapevano, altri non volevano sapere.
+1	Perché	perché	ADV	B	_	6	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Weinstein	Weinstein	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	potente	potente	ADJ	A	Number=Sing	12	amod	_	_
+12	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+13	Hollywood	Hollywood	PROPN	SP	_	12	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	molestato	molestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	intimidito	intimidire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	vent'	venti	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	6	punct	_	_
+23	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	25	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	sapevano	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	6	punct	_	_
+27	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	30	nsubj	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	volevano	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+30	sapere	sapere	VERB	V	VerbForm=Inf	6	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Una "rivoluzione" iniziata grazie all'investigazione e alla raccolta delle testimonianze delle vittime proprio da parte di Ronan Farrow che non ha mai mollato la presa, anche quando il padre, imbarazzato, si diceva «fiero di lui», proprio per quella rivoluzione.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	iniziata	iniziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	grazie	grazie	NOUN	S	_	9	case	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	6	fixed	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	investigazione	investigazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	testimonianze	testimonianza	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	proprio	proprio	ADV	B	_	22	advmod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Ronan	Ronan	PROPN	SP	_	22	nmod	_	_
+25	Farrow	Farrow	PROPN	SP	_	24	flat:name	_	_
+26	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	mai	mai	ADV	B	_	30	advmod	_	_
+30	mollato	mollare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	presa	presa	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	3	punct	_	_
+34	anche	anche	ADV	B	_	42	advmod	_	_
+35	quando	quando	SCONJ	CS	_	42	mark	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	padre	padre	NOUN	S	Gender=Masc|Number=Sing	42	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	37	punct	_	_
+39	imbarazzato	imbarazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	advcl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	39	punct	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl:impers	_	_
+42	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+43	«	«	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	fiero	fiero	ADJ	A	Gender=Masc|Number=Sing	42	xcomp	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obl	_	SpaceAfter=No
+47	»	»	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	42	punct	_	_
+49	proprio	proprio	ADV	B	_	52	advmod	_	_
+50	per	per	ADP	E	_	52	case	_	_
+51	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	52	det	_	_
+52	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = E ancora Ronan nel 2016 aveva condannato dalle pagine dell'Hollywood reporter, quella «cultura dell'acquiescenza» intorno al regista.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	ancora	ancora	ADV	B	_	3	advmod	_	_
+3	Ronan	Ronan	PROPN	SP	_	8	nsubj	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	2016	2016	NUM	N	NumType=Card	8	obl	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	dalle	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Hollywood	Hollywood	PROPN	SP	_	11	nmod	_	_
+15	reporter	reporter	NOUN	S	Gender=Masc	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	obj	_	_
+18	«	«	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	17	appos	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	acquiescenza	acquiescenza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	»	»	PUNCT	FB	_	19	punct	_	_
+24	intorno	intorno	ADV	B	_	27	case	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	regista	regista	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = A difesa di Allen si era schierato un altro dei figli adottivi, Moses, per il quale le accuse erano false e Ronan cercava di far contenta la madre Mia Farrow.
+1	A	a	ADP	E	_	2	case	_	_
+2	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Allen	Allen	PROPN	SP	_	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	schierato	schierare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj:pass	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	adottivi	adottivo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	Moses	Moses	PROPN	SP	_	12	appos	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	quale	quale	PRON	PR	Number=Sing|PronType=Rel	23	obl	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+22	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+23	false	falso	ADJ	A	Gender=Fem|Number=Plur	9	acl:relcl	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	Ronan	Ronan	PROPN	SP	_	26	nsubj	_	_
+26	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	conj	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	far	fare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	contenta	contentire	ADJ	A	Gender=Fem|Number=Sing	28	xcomp	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	madre	madre	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+32	Mia	mia	PROPN	SP	_	31	nmod	_	_
+33	Farrow	Farrow	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Ora si consuma l'ultimo atto:
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:pass	_	_
+3	consuma	consumare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	atto	atto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = Dylan Farrow sale sul banco dell'accusa mediatica con la prima intervista televisiva alla Cbs.
+1	Dylan	Dylan	PROPN	SP	_	3	nsubj	_	_
+2	Farrow	Farrow	PROPN	SP	_	1	flat:name	_	_
+3	sale	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	banco	banco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	mediatica	mediatico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	14	amod	_	_
+14	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+15	televisiva	televisivo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Cbs	Cbs	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = La giovane donna — che venticinque anni fa fu giudicata non credibile, incapace di distinguere fantasia e realtà — rivendica:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	giovane	giovane	ADJ	A	Number=Sing	3	amod	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	—	—	PUNCT	FF	_	3	punct	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	venticinque	venticinque	NUM	N	NumType=Card	7	nummod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+8	fa	fa	ADV	B	_	7	advmod	_	_
+9	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	giudicata	giudicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	credibile	credibile	ADJ	A	Number=Sing	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	incapace	incapace	ADJ	A	Number=Sing	3	amod	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	distinguere	distinguere	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	realtà	realtà	NOUN	S	Gender=Fem	21	obl	_	_
+20	—	—	PUNCT	FF	_	19	punct	_	_
+21	rivendica	rivendicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 17
+# text = «Sono attendibile e sto dicendo la verità».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	attendibile	attendibile	ADJ	A	Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dicendo	dire	VERB	V	VerbForm=Ger	3	conj	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	verità	verità	NOUN	S	Gender=Fem	6	obj	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Già in una lettera al New York Times si rivolgeva ai divi che oggi indossano la spilletta anti molestie:
+1	Già	già	ADV	B	_	4	advmod	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	New	New	PROPN	SP	_	4	nmod	_	_
+8	York	York	PROPN	SP	_	7	flat:name	_	_
+9	Times	Times	PROPN	SP	_	7	flat:name	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	rivolgeva	rivolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	divi	divio	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	oggi	oggi	ADV	B	_	17	advmod	_	_
+17	indossano	indossare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	spilletta	spilletta	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	anti	anti	ADP	E	_	21	case	_	_
+21	molestie	molestia	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 19
+# text = «Cosa faresti se fosse tuo figlio, Cate Blanchett?
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	faresti	fare	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	se	se	SCONJ	CS	_	7	mark	_	_
+5	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	Cate	Cate	PROPN	SP	_	7	appos	_	_
+10	Blanchett	Blanchett	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Louis CK?
+1	Louis	Louis	PROPN	SP	_	0	root	_	_
+2	CK	Ck	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Alec Baldwin?
+1	Alec	Alec	PROPN	SP	_	0	root	_	_
+2	Baldwin	Baldwin	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Cosa faresti se si fosse trattato di te?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	faresti	fare	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Emma Stone?
+1	Emma	Emma	PROPN	SP	_	0	root	_	_
+2	Stone	Stone	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Scarlett Johansson?
+1	Scarlett	Scarlett	PROPN	SP	_	0	root	_	_
+2	Johansson	Johansson	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Woody Allen è la prova vivente di come la nostra società non protegge i superstiti di abusi sessuali».
+1	Woody	Woody	PROPN	SP	_	5	nsubj	_	_
+2	Allen	Allen	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prova	prova	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	vivente	vivente	ADJ	A	Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	13	mark	_	_
+8	come	come	SCONJ	CS	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	società	società	NOUN	S	Gender=Fem	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	protegge	proteggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	superstiti	superstite	NOUN	S	Number=Plur	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	sessuali	sessuale	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = Era il 2014.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2014	2014	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Ma oggi, Time's up.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	oggi	oggi	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Time	Time	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	's	's	PART	PART	_	4	case	_	_
+6	up	up	NOUN	S	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

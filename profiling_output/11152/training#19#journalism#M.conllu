@@ -1,0 +1,607 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sampdoria, idea Italiano Gasbarroni può restare
+1	Sampdoria	Sampdoria	PROPN	SP	_	7	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	Italiano	italiano	PROPN	SP	_	3	nmod	_	_
+5	Gasbarroni	Gasbarroni	PROPN	SP	_	4	flat:name	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	restare	restare	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Andrea Gasbarroni potrebbe restare alla Sampdoria.
+1	Andrea	Andrea	PROPN	SP	_	4	nsubj	_	_
+2	Gasbarroni	Gasbarroni	PROPN	SP	_	1	flat:name	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	restare	restare	VERB	V	VerbForm=Inf	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Sampdoria	Sampdoria	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La società blucerchiata sembrava aver mollato l' esterno, rientrato al Palermo per fine prestito e di cui i rosanero dovevano discutere con la Juventus, proprietaria di metà del cartellino.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	società	società	NOUN	S	Gender=Fem	4	nsubj	_	_
+3	blucerchiata	blucerchiato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	mollato	mollare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	esterno	esterno	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	rientrato	rientrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Palermo	Palermo	PROPN	SP	_	10	obl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	fine	fine	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+16	prestito	prestito	NOUN	S	Gender=Masc|Number=Sing	15	compound	_	_
+17	e	e	CCONJ	CC	_	23	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	cui	cui	PRON	PR	PronType=Rel	23	obl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	rosanero	rosanero	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+22	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	discutere	discutere	VERB	V	VerbForm=Inf	10	conj	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Juventus	Juventus	PROPN	SP	_	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	proprietaria	proprietario	NOUN	S	Gender=Fem|Number=Sing	26	appos	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	metà	metà	NOUN	S	Gender=Fem	28	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	cartellino	cartellino	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ieri era il giorno delle comproprietà e le due società hanno deciso di rinnovare l' accordo per un anno:
+1	Ieri	ieri	ADV	B	_	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	comproprietà	comproprietà	NOUN	S	Gender=Fem	4	nmod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	società	società	NOUN	S	Gender=Fem	13	nsubj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	rinnovare	rinnovare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	anno	anno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 5
+# text = Gasba rimane così in mano a Zamparini ma non sembra destinato a rimanere in Sicilia.
+1	Gasba	Gasba	PROPN	SP	_	2	nsubj	_	_
+2	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	così	così	ADV	B	_	2	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Zamparini	Zamparini	PROPN	SP	_	2	obl	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	xcomp	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	rimanere	rimanere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Sicilia	Sicilia	PROPN	SP	_	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = La Lazio sembrava ad un passo dall' accordo per il prestito di un anno, ma si è nuovamente inserita la Samp su consiglio di Walter Novellino, convinto di poter finalmente tirare fuori dal giocatore quelle grandi qualità ancora parzialmente inespresse.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lazio	Lazio	PROPN	SP	_	3	nsubj	_	_
+3	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passo	passo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	dall'	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	prestito	prestito	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	anno	anno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	ma	ma	CCONJ	CC	_	21	cc	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	nuovamente	nuovamente	ADV	B	_	21	advmod	_	_
+21	inserita	inserire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Samp	Samp	PROPN	SP	_	21	nsubj:pass	_	_
+24	su	su	ADP	E	_	25	case	_	_
+25	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Walter	Walter	PROPN	SP	_	23	nmod	_	_
+28	Novellino	Novellino	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	27	punct	_	_
+30	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+31	di	di	ADP	E	_	34	mark	_	_
+32	poter	potere	AUX	VM	VerbForm=Inf	34	aux	_	_
+33	finalmente	finalmente	ADV	B	_	34	advmod	_	_
+34	tirare	tirare	VERB	V	VerbForm=Inf	30	advcl	_	_
+35	fuori	fuori	ADV	B	_	34	advmod	_	_
+36-37	dal	_	_	_	_	_	_	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+39	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	44	obj	_	_
+40	grandi	grande	ADJ	A	Number=Plur	41	amod	_	_
+41	qualità	qualità	NOUN	S	Gender=Fem	44	nsubj	_	_
+42	ancora	ancora	ADV	B	_	43	advmod	_	_
+43	parzialmente	parzialmente	ADV	B	_	44	advmod	_	_
+44	inespresse	inespresso	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	advcl	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Situazione fluida ma il gradimento del giocatore alla permanenza in Liguria potrebbe essere un fattore decisivo.
+1	Situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+2	fluida	fluido	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	ma	ma	CCONJ	CC	_	5	cc	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gradimento	gradimento	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	permanenza	permanenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Liguria	Liguria	PROPN	SP	_	11	nmod	_	_
+14	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fattore	fattore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18	decisivo	decisivo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 8
+# text = Le compartecipazioni di ieri hanno toccato la Samp solamente per vie trasversali, visto che Marotta aveva pensato da tempo a sistemare le questioni in sospeso, rinnovando gli accordi con il Milan per Vitali Kutuzov e con l' Atalanta per Biagio Pagano e Corrado Colombo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	compartecipazioni	compartecipazioni	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	ieri	ieri	ADV	B	_	2	advmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Samp	Samp	PROPN	SP	_	6	obj	_	_
+9	solamente	solo	ADV	B	_	11	advmod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	vie	via	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	trasversali	trasversale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+15	che	che	SCONJ	CS	_	18	mark	_	_
+16	Marotta	Marotta	PROPN	SP	_	18	nsubj	_	_
+17	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	sistemare	sistemare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	sospeso	sospeso	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	14	punct	_	_
+28	rinnovando	rinnovare	VERB	V	VerbForm=Ger	14	advcl	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Milan	Milan	PROPN	SP	_	30	nmod	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	Vitali	vitale	DET	DD	Number=Plur|PronType=Dem	36	det	_	_
+36	Kutuzov	Kutuzov	PROPN	SP	_	30	nmod	_	_
+37	e	e	CCONJ	CC	_	40	cc	_	_
+38	con	con	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	Atalanta	Atalanta	PROPN	SP	_	36	conj	_	_
+41	per	per	ADP	E	_	42	case	_	_
+42	Biagio	Biagio	PROPN	SP	_	40	nmod	_	_
+43	Pagano	pagare	PROPN	SP	_	42	flat:name	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	Corrado	Corrado	PROPN	SP	_	42	conj	_	_
+46	Colombo	Colombo	PROPN	SP	_	45	flat:name	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Un' altra situazione che sembra essere monitorata con grande interesse è quella di Vincenzo Italiano.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	essere	essere	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	monitorata	monitorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	grande	grande	ADJ	A	Number=Sing	10	amod	_	_
+10	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Vincenzo	Vincenzo	PROPN	SP	_	12	nmod	_	_
+15	Italiano	italiano	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 10
+# text = Il Genoa, contrariamente alle previsioni della vigilia, non ha riscattato il centrocampista dal Verona.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Genoa	Genoa	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	contrariamente	contrariamente	ADV	B	_	7	advmod	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vigilia	vigilia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	riscattato	riscattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	centrocampista	centrocampista	NOUN	S	Number=Sing	14	obj	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Verona	Verona	PROPN	SP	_	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 11
+# text = Adesso il giocatore potrebbe tornare a Genova ma su sponda blucerchiata.
+1	Adesso	adesso	ADV	B	_	5	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	tornare	tornare	VERB	V	VerbForm=Inf	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Genova	Genova	PROPN	SP	_	5	obl	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	sponda	sponda	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	blucerchiata	blucerchiato	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Novellino è un grandissimo estimatore di Italiano, già la scorsa estate aveva insistito tantissimo per averlo a sua disposizione in una trattativa che era andato avanti, senza poi trovare una soluzione, fino all' ultimo giorno di mercato.
+1	Novellino	Novellino	PROPN	SP	_	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	grandissimo	grande	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	5	amod	_	_
+5	estimatore	estimatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	già	già	ADV	B	_	14	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	estate	estate	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	insistito	insistere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+15	tantissimo	tanto	ADV	B	Degree=Abs	14	advmod	_	_
+16	per	per	ADP	E	_	21	case	_	_
+17-18	averlo	_	_	_	_	_	_	_	_
+17	aver	avere	AUX	VA	VerbForm=Inf	21	aux	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	trattativa	trattativa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+28	avanti	avanti	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	27	punct	_	_
+30	senza	senza	ADP	E	_	32	mark	_	_
+31	poi	poi	ADV	B	_	32	advmod	_	_
+32	trovare	trovare	VERB	V	VerbForm=Inf	27	advcl	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	fino	fino	ADV	B	_	40	case	_	_
+37-38	all'	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	36	fixed	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+39	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	40	amod	_	_
+40	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Nei mesi scorsi il tecnico doriano non aveva avuto dubbi nel rispondere con il nome di Italiano alla domanda sul giocatore che avrebbe voluto strappare al Genoa.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+4	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	doriano	doriano	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	rispondere	rispondere	VERB	V	VerbForm=Inf	10	obl	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	nome	nome	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Italiano	italiano	PROPN	SP	_	17	nmod	_	_
+20-21	alla	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+23-24	sul	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+27	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	aux	_	_
+29	strappare	strappare	VERB	V	VerbForm=Inf	25	acl:relcl	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Genoa	Genoa	PROPN	SP	_	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = Adesso questa possibilità esiste, e non ci sarebbe neanche bisogno di strapparlo ai cugini.
+1	Adesso	adesso	ADV	B	_	4	advmod	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	possibilità	possibilità	NOUN	S	Gender=Fem	4	nsubj	_	_
+4	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	11	punct	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+9	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	neanche	neanche	ADV	BN	PronType=Neg	11	advmod	_	_
+11	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	strapparlo	_	_	_	_	_	_	_	_
+13	strappar	strappare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	cugini	cugine	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = La Samp ci sta quindi pensando anche se la pista preferenziale è sempre quella che porta a Samuele Dalla Bona, per cui c' è già un accordo con il Milan per il prestito di un anno.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Samp	Samp	PROPN	SP	_	6	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	quindi	quindi	ADV	B	_	6	advmod	_	_
+6	pensando	pensare	VERB	V	VerbForm=Ger	0	root	_	_
+7	anche	anche	ADV	B	_	14	advmod	_	_
+8	se	se	SCONJ	CS	_	14	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pista	pista	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	preferenziale	preferenziale	ADJ	A	Number=Sing	10	amod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	sempre	sempre	ADV	B	_	14	advmod	_	_
+14	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Samuele	Samuele	PROPN	SP	_	16	obl	_	_
+19-20	Dalla	_	_	_	_	_	_	_	_
+19	Da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Bona	Bona	PROPN	SP	_	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	cui	cui	PRON	PR	PronType=Rel	26	obl	_	_
+25	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	26	expl	_	_
+26	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+27	già	già	ADV	B	_	26	advmod	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Milan	Milan	PROPN	SP	_	29	nmod	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	prestito	prestito	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	anno	anno	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Marotta però potrebbe anche proporre a Pastorello uno scambio tra Italiano e il ghanese Edusei, giocatore destinato alla conferma ma che in caso di arrivo di Italiano rischierebbe di trovare pochissimo spazio.
+1	Marotta	Marotta	PROPN	SP	_	5	nsubj	_	_
+2	però	però	ADV	B	_	5	advmod	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	proporre	proporre	VERB	V	VerbForm=Inf	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Pastorello	Pastorello	PROPN	SP	_	5	obl	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	tra	tra	ADP	E	_	11	case	_	_
+11	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	ghanese	ghanese	ADJ	A	Number=Sing	15	amod	_	_
+15	Edusei	Edusei	PROPN	SP	_	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+18	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	ma	ma	CCONJ	CC	_	30	cc	_	_
+23	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	caso	caso	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	rischierebbe	rischiare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	trovare	trovare	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	pochissimo	poco	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	34	amod	_	_
+34	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Andrea Caracciolo è invece ormai ad un passo dal Palermo.
+1	Andrea	Andrea	PROPN	SP	_	8	nsubj	_	_
+2	Caracciolo	Caracciolo	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	invece	invece	ADV	B	_	8	advmod	_	_
+5	ormai	ormai	ADV	B	_	8	advmod	_	_
+6	ad	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Palermo	Palermo	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 18
+# text = Il centravanti del Brescia è stato uno dei primi giocatori contattati dalla Sampdoria per il ruolo di partner di Francesco Flachi, ma l' elevata richiesta della società lombarda, vicina ai dieci milioni di euro, aveva subito allontanato il giocatore dai blucerchiati.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	centravanti	centravanti	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brescia	Brescia	PROPN	SP	_	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+8	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	_
+12	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	contattati	contattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Sampdoria	Sampdoria	PROPN	SP	_	13	obl:agent	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	partner	partner	NOUN	S	_	19	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Francesco	Francesco	PROPN	SP	_	21	nmod	_	_
+24	Flachi	Flachi	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	45	punct	_	_
+26	ma	ma	CCONJ	CC	_	45	cc	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+28	elevata	elevato	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	45	nsubj	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	società	società	NOUN	S	Gender=Fem	29	nmod	_	_
+33	lombarda	lombardo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	29	punct	_	_
+35	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+36-37	ai	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	39	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+38	dieci	dieci	NUM	N	NumType=Card	39	nummod	_	_
+39	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	euro	euro	NOUN	S	Gender=Masc	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	29	punct	_	_
+43	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	aux	_	_
+44	subito	subito	ADV	B	_	45	advmod	_	_
+45	allontanato	allontanare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	45	obj	_	_
+48-49	dai	_	_	_	_	_	_	_	_
+48	da	da	ADP	E	_	50	case	_	_
+49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	blucerchiati	blucerchiato	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = Marotta era rimasto in attesa ma senza troppe illusioni:
+1	Marotta	Marotta	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	senza	senza	ADP	E	_	9	case	_	_
+8	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	illusioni	illusione	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = il ritorno di Bazzani è sempre più vicino ma la Samp è ancora disposta a cedere l' attaccante in caso di offerte importanti, finora però non pervenute.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Bazzani	Bazzani	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sempre	sempre	ADV	B	_	8	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	vicino	vicino	ADV	B	_	0	root	_	_
+9	ma	ma	CCONJ	CC	_	14	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Samp	Samp	PROPN	SP	_	14	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	ancora	ancora	ADV	B	_	14	advmod	_	_
+14	disposta	disporre	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	cedere	cedere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	attaccante	attaccante	NOUN	S	Number=Sing	16	obj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	caso	caso	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	offerte	offerta	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	importanti	importante	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	16	punct	_	_
+25	finora	finora	ADV	B	_	28	advmod	_	_
+26	però	però	ADV	B	_	28	advmod	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	pervenute	pervenire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+

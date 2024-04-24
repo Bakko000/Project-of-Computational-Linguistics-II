@@ -1,0 +1,749 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = SCUOLE - AZIENDA, COSI' S' IMPARA GIOCANDO
+1	SCUOLE	scuola	PROPN	SP	_	0	root	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	AZIENDA	azienda	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	COSI'	COSI'	PROPN	SP	_	1	flat:name	_	_
+6	S'	S'	PROPN	SP	_	1	flat:name	_	_
+7	IMPARA	impara	PROPN	SP	_	1	flat:name	_	_
+8	GIOCANDO	giocando	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = BOLOGNA - ' Alla Fiera dei trasporti di Verona tutti ci chiedevano se avevamo fatto fughino da scuola.
+1	BOLOGNA	Bologna	PROPN	SP	_	14	obl	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	'	'	PUNCT	FB	_	1	punct	_	_
+4-5	Alla	_	_	_	_	_	_	_	_
+4	A	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Fiera	fiera	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Verona	Verona	PROPN	SP	_	6	nmod	_	_
+12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	14	nsubj	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
+14	chiedevano	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	se	se	SCONJ	CS	_	17	mark	_	_
+16	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+18	fughino	fughino	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Poi hanno cominciato a prenderci sul serio...' .
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	prenderci	_	_	_	_	_	_	_	_
+5	prender	prendere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	serio...'	serio...'	NUM	N	NumType=Card	5	obl	_	_
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Arianna Mingozzi parla in classe durante una riunione aziendale:
+1	Arianna	Arianna	PROPN	SP	_	3	nsubj	_	_
+2	Mingozzi	Mingozzi	PROPN	SP	_	1	flat:name	_	_
+3	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	classe	classe	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	durante	durante	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	aziendale	aziendale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = è tempo di investimenti.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Siedono tra i banchi studentesse imprenditrici, che il modello emiliano in questa scuola di Bologna, l' Istituto Manfredi, ha voluto socie di una cooperativa, l' Emilia Trasporti.
+1	Siedono	Siedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	studentesse	studente	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+6	imprenditrici	imprenditore	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	23	punct	_	_
+8	che	che	SCONJ	CS	_	23	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	modello	modello	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+11	emiliano	emiliano	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Bologna	Bologna	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Istituto	Istituto	PROPN	SP	_	14	appos	_	_
+20	Manfredi	Manfredio	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	10	punct	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+24	socie	socia	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cooperativa	cooperativa	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	Emilia	Emilia	PROPN	SP	_	4	conj	_	_
+31	Trasporti	trasporto	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Sul tavolo c' è il ' Sole 24 Ore' , letto ogni giorno per le informazioni sull' andamento del mercato.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	'	'	PUNCT	FB	_	8	punct	_	_
+8	Sole	Sole	PROPN	SP	_	5	nsubj	_	_
+9	24	24	NUM	N	NumType=Card	8	nummod	_	_
+10-11	Ore'	_	_	_	_	_	_	_	_
+10	Ori	Ori	PROPN	SP	_	8	flat:name	_	_
+11	i	europeo	ADJ	NO	Number=Sing|NumType=Ord	8	flat:name	_	_
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+19-20	sull'	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	andamento	andamento	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Hanno poco più, o poco meno, di 18 anni, sono la classe quinta B indirizzo gestione aziendale.
+1	Hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	poco	poco	ADV	B	_	3	advmod	_	_
+3	più	più	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	o	o	CCONJ	CC	_	7	cc	_	_
+6	poco	poco	ADV	B	_	7	advmod	_	_
+7	meno	meno	ADV	B	_	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	18	18	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	classe	classe	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+16	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+17	B	B	PROPN	SP	_	15	nmod	_	_
+18	indirizzo	indirizzare	NOUN	S	Gender=Masc|Number=Sing	17	compound	_	_
+19	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	18	compound	_	_
+20	aziendale	aziendale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Così crescono le aziende tra i banchi.
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	crescono	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = E' il progetto ' Impresa formativa simulata' (Ifs), che come un grande gioco di società coinvolgerà quest' anno una quarantina di istituti professionali statali per i servizi commerciali e turistici in tutta Italia.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	'	'	PUNCT	FB	_	6	punct	_	_
+5	Impresa	impresa	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	formativa	formativo	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	simulata	simulato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	6	punct	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Ifs	Ifs	PROPN	SP	_	6	appos	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+14	come	come	ADP	E	_	17	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	grande	grande	ADJ	A	Number=Sing	17	amod	_	_
+17	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	società	società	NOUN	S	Gender=Fem	17	nmod	_	_
+20	coinvolgerà	coinvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	acl:relcl	_	_
+21	quest'	questo	DET	DD	Number=Sing|PronType=Dem	22	det	_	_
+22	anno	anno	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	quarantina	quarantina	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	istituti	istituto	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	professionali	professionale	ADJ	A	Number=Plur	26	amod	_	_
+28	statali	statale	ADJ	A	Number=Plur	26	amod	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+32	commerciali	commerciale	ADJ	A	Number=Plur	31	amod	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	turistici	turistico	ADJ	A	Gender=Masc|Number=Plur	32	conj	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	37	det	_	_
+37	Italia	Italia	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ogni scuola, del nord o del sud (le prime a partire sono state:
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nord	nord	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	o	o	CCONJ	CC	_	10	cc	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sud	sud	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	17	nsubj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	partire	partire	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = Oriani di Milano, Vibo Valentia, Einaudi di Lamezia, Nitti di Portici, Caboto di Chiavari, Mucci di Bra, Giulio di Torino, Besta di Treviso), è un' impresa:
+1	Oriani	Oriano	NOUN	S	Gender=Masc|Number=Plur	35	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Milano	Milano	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	Vibo	Vibo	PROPN	SP	_	1	appos	_	_
+6	Valentia	Valentia	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	Einaudi	Einaudi	PROPN	SP	_	1	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Lamezia	Lamezia	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Nitti	Nitto	PROPN	SP	_	1	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Portici	Portici	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	Caboto	Caboto	PROPN	SP	_	1	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Chiavari	Chiavaro	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	Mucci	Mucci	PROPN	SP	_	1	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Bra	Bra	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	Giulio	Giulio	PROPN	SP	_	1	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Torino	Torino	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Besta	Besta	PROPN	SP	_	1	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Treviso	Treviso	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	1	punct	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	35	punct	_	_
+
+# sent_id = 13
+# text = stila l' atto costitutivo da un notaio, sceglie il nome, elegge presidenti, amministratori delegati, compra e vende.
+1	stila	stilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	atto	atto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	costitutivo	costitutivo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	notaio	notaio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	sceglie	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nome	nome	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	elegge	eleggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	presidenti	presidente	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	amministratori	amministratore	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+17	delegati	delegato	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	compra	comprare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	vende	vendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Con soldi virtuali e scambi simulati di beni e di servizi, tutto in rete telematica.
+1	Con	con	ADP	E	_	2	case	_	_
+2	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	virtuali	virtuale	ADJ	A	Number=Plur	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	scambi	scambio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+6	simulati	simulare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	beni	bene	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	conj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	rete	rete	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	telematica	telematico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Le funzioni del mercato sono svolte dagli studenti dell' Istituto professionale di Corato, in provincia di Bari.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	funzioni	funzione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	svolte	svolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dagli	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+11-12	dell'	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	professionale	professionale	ADJ	A	Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Corato	Corato	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Bari	Bari	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 16
+# text = Il ruolo della banca e dello Stato (ufficio Iva, Inps, Camera di commercio e Tribunale) spetta invece all' Istituto ' Datini' di Prato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	banca	banca	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	dello	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Stato	stato	PROPN	SP	_	5	nmod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+12	Iva	Iva	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	Inps	Inps	PROPN	SP	_	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	Camera	camera	PROPN	SP	_	11	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	2	punct	_	_
+22	spetta	spettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	invece	invece	ADV	B	_	22	advmod	_	_
+24-25	all'	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Istituto	Istituto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27	'	'	PUNCT	FB	_	28	punct	_	_
+28	Datini	Datini	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+29	'	'	PUNCT	FB	_	28	punct	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Prato	Prato	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 17
+# text = Sono le due scuole di riferimento del progetto Ifs, promosso dal Ministero della Pubblica istruzione già dallo scorso anno, in via sperimentale, e che da quest' anno sarà esteso a 40 scuole.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	Ifs	Ifs	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	promosso	promuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Ministero	Ministero	NOUN	S	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	Pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	già	già	ADV	B	_	24	advmod	_	_
+21-22	dallo	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	24	case	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	anno	anno	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	4	punct	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	via	via	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+28	sperimentale	sperimentale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	36	punct	_	_
+30	e	e	CCONJ	CC	_	36	cc	_	_
+31	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	quest'	questo	DET	DD	Number=Sing|PronType=Dem	34	det	_	_
+34	anno	anno	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+35	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	aux	_	_
+36	esteso	estendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	40	40	NUM	N	NumType=Card	39	nummod	_	_
+39	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Per costituirsi, la coop di Bologna ha dovuto registrare l' atto alla classe di Prato e così via.
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	costituirsi	_	_	_	_	_	_	_	SpaceAfter=No
+2	costituir	costituire	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	coop	coop	NOUN	S	Number=Sing	11	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Bologna	Bologna	PROPN	SP	_	6	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux	_	_
+11	registrare	registrare	VERB	V	VerbForm=Inf	0	root	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	atto	atto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	classe	classe	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Prato	Prato	PROPN	SP	_	16	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	così	così	ADV	B	_	21	advmod	_	_
+21	via	via	ADV	B	_	11	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 19
+# text = Se qualcuno sbaglia, viene corretto dalle altre scuole attraverso la posta elettronica.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	corretto	correggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	altre	altro	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	6	obl:agent	_	_
+11	attraverso	attraverso	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	posta	posta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+14	elettronica	elettronico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = Un modo per studiare economia aziendale e diritto simulando la realtà.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	studiare	studiare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	economia	economia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	aziendale	aziendale	ADJ	A	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+9	simulando	simulare	VERB	V	VerbForm=Ger	2	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	realtà	realtà	NOUN	S	Gender=Fem	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Con meno preoccupazioni per i tagli della Finanziaria e la crisi produttiva, e qualche ansia in più per il voto di fine anno.
+1	Con	con	ADP	E	_	3	case	_	_
+2	meno	meno	ADV	B	_	3	advmod	_	_
+3	preoccupazioni	preoccupazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	tagli	taglio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Finanziaria	finanziaria	PROPN	SP	_	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	crisi	crisi	NOUN	S	Gender=Fem	6	conj	_	_
+13	produttiva	produttivo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	più	più	ADV	B	_	17	advmod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	voto	voto	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	fine	fine	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	anno	anno	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Lezioni virtuali.
+1	Lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	virtuali	virtuale	ADJ	A	Number=Plur	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = ' Ma è questa la vera scuola' commenta la preside dell' istituto bolognese Maria Fabiani, pensando a tutte le altre scuole del progetto.
+1	'	'	PUNCT	FB	_	7	punct	_	_
+2	Ma	ma	CCONJ	CC	_	7	cc	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	vera	vero	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	7	punct	_	_
+9	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	preside	preside	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	dell'	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	bolognese	bolognese	ADJ	A	Number=Sing	14	amod	_	_
+16	Maria	Maria	PROPN	SP	_	14	nmod	_	_
+17	Fabiani	Fabiani	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	pensando	pensare	VERB	V	VerbForm=Ger	9	advcl	_	_
+20	a	a	ADP	E	_	24	case	_	_
+21	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	24	det:predet	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	altre	altro	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+24	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 24
+# text = Come dire, ' voi della stampa' ve ne siete accorti solo adesso, ma qui già da anni si lavora.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	'	'	PUNCT	FB	_	13	punct	_	_
+5	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	13	obl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	5	punct	_	_
+10	ve	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	expl	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+12	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	accorti	accortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	solo	solo	ADV	B	_	15	advmod	_	_
+15	adesso	adesso	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	23	punct	_	_
+17	ma	ma	CCONJ	CC	_	23	cc	_	_
+18	qui	qui	ADV	B	_	23	advmod	_	_
+19	già	già	ADV	B	_	23	advmod	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 25
+# text = ' Si inizia in quarta con la costituzione dell' impresa e si continua l' anno successivo.
+1	'	'	PUNCT	FB	_	3	punct	_	_
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	quarta	quarto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9-10	dell'	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	successivo	successivo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Alla maturità, le ragazze dovranno cedere le quote associative della cooperativa ad un' altra classe e il lavoro continua' spiega Paolo Gallizioli, uno degli insegnanti che segue l' Impresa simulata al Manfredi.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	maturità	maturità	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
+8	cedere	cedere	VERB	V	VerbForm=Inf	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	quote	quota	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	associative	associativo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cooperativa	cooperativa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	ad	a	ADP	E	_	18	case	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	altra	altro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	classe	classe	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	continua	continuo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+23	'	'	PUNCT	FB	_	22	punct	_	_
+24	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+25	Paolo	Paolo	PROPN	SP	_	24	nsubj	_	_
+26	Gallizioli	Gallizioli	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	appos	_	_
+29-30	degli	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	insegnanti	insegnante	NOUN	S	Number=Plur	28	nmod	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	Impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36	simulata	simulare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	35	acl	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Manfredi	Manfrede	PROPN	SP	_	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 27
+# text = Un team di professori di diritto (Anna Luisa Martignago), inglese (Antonia Caimmi) e applicazioni gestionali (Silvana Pescerelli), nomi della scuola che funziona.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	team	team	NOUN	S	Gender=Masc	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	professori	professore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Anna	Anna	PROPN	SP	_	4	nmod	_	_
+9	Luisa	Luisa	PROPN	SP	_	8	flat:name	_	_
+10	Martignago	Martignago	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	inglese	inglese	ADJ	A	Number=Sing	2	amod	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Antonia	Antonia	PROPN	SP	_	2	appos	_	_
+16	Caimmi	Caimma	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	15	punct	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	applicazioni	applicazione	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+20	gestionali	gestionale	ADJ	A	Number=Plur	19	amod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	Silvana	Silvana	PROPN	SP	_	19	nmod	_	_
+23	Pescerelli	Pescerelli	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = ' Il metodo di insegnamento parte dalla realtà e arriva ai libri, si riduce la distanza tra un approccio teorico per programmi e un sapere per problemi, che è poi quello tipico della realtà' .
+1	'	'	PUNCT	FB	_	3	punct	_	_
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	metodo	metodo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	insegnamento	insegnamento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	realtà	realtà	NOUN	S	Gender=Fem	3	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	libri	libro	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:pass	_	_
+17	riduce	ridurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+20	tra	tra	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	teorico	teorico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sapere	sapera	NOUN	S	Gender=Fem|Number=Plur	25	conj	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	poi	poi	ADV	B	_	35	advmod	_	_
+35	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	28	acl:relcl	_	_
+36	tipico	tipico	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+37-38	della	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	realtà	realtà	NOUN	S	Gender=Fem	36	obl	_	SpaceAfter=No
+40	'	'	PUNCT	FB	_	39	punct	_	_
+41	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

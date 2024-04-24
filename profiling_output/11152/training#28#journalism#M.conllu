@@ -1,0 +1,977 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Università addio, persi 60mila studenti in 10 anni
+1	Università	Università	NOUN	S	Gender=Fem	0	root	_	_
+2	addio	addio	INTJ	I	_	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	persi	pergere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+5	60mila	60mila	NUM	N	NumType=Card	6	nummod	_	_
+6	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	10	10	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = ROMA - L' università Statale di Milano, in questi dieci anni, è metaforicamente sparita:
+1	ROMA	Roma	PROPN	SP	_	16	obl	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	università	università	NOUN	S	Gender=Fem	16	nsubj:pass	_	_
+5	Statale	statale	ADJ	A	Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Milano	Milano	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+11	dieci	dieci	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+15	metaforicamente	metaforicamente	ADV	B	_	16	advmod	_	_
+16	sparita	sparire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 3
+# text = 58 mila studenti iscritti possono stipare, infatti, il glorioso ateneo meneghino.
+1	58	58	NUM	N	NumType=Card	3	nummod	_	_
+2	mila	mila	NUM	N	NumType=Card	1	flat	_	_
+3	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	iscritti	iscritto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	stipare	stipare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	infatti	infatti	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	glorioso	glorioso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	ateneo	ateneo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+13	meneghino	meneghino	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ecco, in dieci anni quei 58 mila universitari non ci sono più in tutto il sistema italiano:
+1	Ecco	ecco	ADV	B	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	dieci	dieci	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+6	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	58	58	NUM	N	NumType=Card	5	nummod	_	_
+8	mila	mila	NUM	N	NumType=Card	7	flat	_	_
+9	universitari	universitario	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+12	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	più	più	ADV	B	_	12	advmod	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	17	det:predet	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+18	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 5
+# text = si sono arresi prima, hanno abbandonato al secondo, al terzo anno.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arresi	arrendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	prima	prima	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	abbandonato	abbandonato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Di là delle metafore, il problema - come ha denunciato il Consiglio universitario nazionale - è che in Italia rischiano di sparire sul serio alcuni dei 48 atenei pubblici italiani.
+1	Di	di	ADP	E	_	2	case	_	_
+2	là	là	ADV	B	_	5	advmod	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	metafore	metafora	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	-	-	PUNCT	FB	_	12	punct	_	_
+10	come	come	SCONJ	CS	_	12	mark	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+15	universitario	universitario	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	nazionale	nazionale	ADJ	A	Number=Sing	14	amod	_	_
+17	-	-	PUNCT	FF	_	12	punct	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Italia	Italia	PROPN	SP	_	22	obl	_	_
+22	rischiano	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	sparire	sparire	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25-26	sul	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	serio	serio	ADJ	A	Gender=Masc|Number=Sing	24	obl	_	_
+28	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	obj	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	48	48	NUM	N	NumType=Card	32	nummod	_	_
+32	atenei	ateneo	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+33	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+34	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = «Molti non sono più nelle condizioni, a causa dei tagli subiti, di portare avanti la programmazione didattica».
+1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	più	più	ADV	B	_	8	advmod	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	condizioni	condizioni	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	causa	causa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	tagli	taglio	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	subiti	subito	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	portare	portare	VERB	V	VerbForm=Inf	8	acl	_	_
+19	avanti	avanti	ADV	B	_	18	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	programmazione	programmazione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	didattica	didattico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Non lo si dice, ma le università di Siena e Sassari da tempo hanno bilanci in rosso strutturale.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	università	università	NOUN	S	Gender=Fem	4	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Siena	Siena	PROPN	SP	_	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Sassari	Sassari	PROPN	SP	_	10	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	bilanci	bilancio	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	strutturale	strutturale	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Il Cun, dopo ampie discussioni, ha deciso di rendere noto un dossier traumatico sullo stato dell' università italiana e di stilare la sua nota più dura da quando l' istituzione esiste (in questa composizione e con queste prerogative), dal 2006.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Cun	Cun	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dopo	dopo	ADP	E	_	6	case	_	_
+5	ampie	ampio	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	discussioni	discussione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	rendere	rendere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	noto	noto	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	dossier	dossier	NOUN	S	Gender=Masc	11	obj	_	_
+15	traumatico	traumatico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16-17	sullo	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	stato	stato	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+19-20	dell'	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	università	università	NOUN	S	Gender=Fem	18	nmod	_	_
+22	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	stilare	stilare	VERB	V	VerbForm=Inf	18	conj	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	nota	nota	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	dura	duro	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+31	da	da	ADP	E	_	35	mark	_	_
+32	quando	quando	SCONJ	CS	_	31	fixed	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	istituzione	istituzione	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+35	esiste	esista	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+36	(	(	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+37	in	in	ADP	E	_	39	case	_	_
+38	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	39	det	_	_
+39	composizione	composizione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+40	e	e	CCONJ	CC	_	43	cc	_	_
+41	con	con	ADP	E	_	43	case	_	_
+42	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	43	det	_	_
+43	prerogative	prerogativa	NOUN	S	Gender=Fem|Number=Plur	39	conj	_	SpaceAfter=No
+44	)	)	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	11	punct	_	_
+46-47	dal	_	_	_	_	_	_	_	_
+46	da	da	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	2006	2006	NUM	N	NumType=Card	11	obl	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Scrive il presidente Andrea Lenzi, e invia a tutte le sedi istituzionali e politiche:
+1	Scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	Andrea	Andrea	PROPN	SP	_	3	nmod	_	_
+5	Lenzi	Lenzi	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	invia	invia	ADV	B	_	1	conj	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	sedi	sede	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+13	istituzionali	istituzionale	ADJ	A	Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = «Le emergenze stanno ponendo il sistema dell' istruzione e della ricerca universitaria in una condizione di crisi conclamata, che rischia di diventare irreversibile, in conseguenza della quale gli atenei e le comunità accademiche non saranno più in condizione di assolvere i propri compiti istituzionali, di procedere alla formazione delle giovani generazioni, di promuovere la ricerca scientifica e di contribuire allo sviluppo e alla diffusione della cultura».
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	emergenze	emergenze	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ponendo	porre	VERB	V	VerbForm=Ger	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	dell'	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+15	universitaria	universitario	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	crisi	crisi	NOUN	S	Gender=Fem	18	nmod	_	_
+21	conclamata	conclamato	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	5	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	diventare	diventare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	irreversibile	irreversibile	ADJ	A	Number=Sing	26	xcomp	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	5	punct	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	quale	quale	PRON	PR	Number=Sing|PronType=Rel	41	obl	_	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	atenei	ateneo	NOUN	S	Gender=Masc|Number=Plur	41	nsubj	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	comunità	comunità	NOUN	S	Gender=Fem	35	conj	_	_
+39	accademiche	accademico	ADJ	A	Gender=Fem|Number=Plur	38	amod	_	_
+40	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+41	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	acl:relcl	_	_
+42	più	più	ADV	B	_	41	advmod	_	_
+43	in	in	ADP	E	_	44	case	_	_
+44	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+45	di	di	ADP	E	_	46	mark	_	_
+46	assolvere	assolvere	VERB	V	VerbForm=Inf	44	acl	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+48	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	46	obj	_	_
+50	istituzionali	istituzionale	ADJ	A	Number=Plur	49	amod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	53	punct	_	_
+52	di	di	ADP	E	_	53	mark	_	_
+53	procedere	procedere	VERB	V	VerbForm=Inf	46	conj	_	_
+54-55	alla	_	_	_	_	_	_	_	_
+54	a	a	ADP	E	_	56	case	_	_
+55	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	53	obl	_	_
+57-58	delle	_	_	_	_	_	_	_	_
+57	di	di	ADP	E	_	60	case	_	_
+58	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	60	det	_	_
+59	giovani	giovane	ADJ	A	Number=Plur	60	amod	_	_
+60	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	56	nmod	_	SpaceAfter=No
+61	,	,	PUNCT	FF	_	60	punct	_	_
+62	di	di	ADP	E	_	63	mark	_	_
+63	promuovere	promuovere	VERB	V	VerbForm=Inf	60	acl	_	_
+64	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	63	obj	_	_
+66	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	65	amod	_	_
+67	e	e	CCONJ	CC	_	69	cc	_	_
+68	di	di	ADP	E	_	69	mark	_	_
+69	contribuire	contribuire	VERB	V	VerbForm=Inf	63	conj	_	_
+70-71	allo	_	_	_	_	_	_	_	_
+70	a	a	ADP	E	_	72	case	_	_
+71	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	69	obl	_	_
+73	e	e	CCONJ	CC	_	76	cc	_	_
+74-75	alla	_	_	_	_	_	_	_	_
+74	a	a	ADP	E	_	76	case	_	_
+75	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
+76	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	72	conj	_	_
+77-78	della	_	_	_	_	_	_	_	_
+77	di	di	ADP	E	_	79	case	_	_
+78	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	79	det	_	_
+79	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	76	nmod	_	SpaceAfter=No
+80	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+81	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Ecco, le innovazioni legislative introdotte «hanno comportato l' adozione di modelli e di soluzioni che si sono volute, incautamente, d' immediata e generalizzata applicazione, senza alcuna preliminare sperimentazione».
+1	Ecco	ecco	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	innovazioni	innovazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+5	legislative	legislativo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	introdotte	introdotto	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+7	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	comportato	comportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	adozione	adozione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+19	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	volute	voluto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	9	punct	_	_
+22	incautamente	incautamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	9	punct	_	_
+24	d'	di	ADP	E	_	25	case	_	_
+25	immediata	immediato	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	generalizzata	generalizzato	ADJ	A	Gender=Fem|Number=Sing	25	conj	_	_
+28	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	9	punct	_	_
+30	senza	senza	ADP	E	_	33	case	_	_
+31	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	33	det	_	_
+32	preliminare	preliminare	ADJ	A	Number=Sing	33	amod	_	_
+33	sperimentazione	sperimentazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+34	»	»	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = Le energie delle strutture tecniche e del personale accademico «sono state impegnate nell' assolvimento di pesanti oneri organizzativi e funzionali, spesso di natura fortemente burocratica».
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	energie	energia	NOUN	S	Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	tecniche	tecnico	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	personale	personale	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	accademico	accademico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	«	«	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	impegnate	impegnare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16-17	nell'	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	assolvimento	assolvimento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	pesanti	pesante	ADJ	A	Number=Plur	21	amod	_	_
+21	oneri	onere	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	organizzativi	organizzativo	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	funzionali	funzionale	ADJ	A	Number=Plur	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	spesso	spesso	ADV	B	_	15	advmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	natura	natura	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+29	fortemente	fortemente	ADV	B	_	30	advmod	_	_
+30	burocratica	burocratico	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+31	»	»	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 14
+# text = Il dossier racconta come nelle università italiane ci sono meno studenti (58 mila, appunto), ma anche meno professori e tutto questo perché ci sono meno finanziamenti:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dossier	dossier	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	come	come	ADV	B	_	3	advmod	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	università	università	NOUN	S	Gender=Fem	3	obl	_	_
+8	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	meno	meno	ADV	B	_	12	advmod	_	_
+12	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	58	58	NUM	N	NumType=Card	12	nummod	_	_
+15	mila	mila	NUM	N	NumType=Card	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	appunto	appunto	ADV	B	_	14	advmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	ma	ma	CCONJ	CC	_	23	cc	_	_
+21	anche	anche	ADV	B	_	23	advmod	_	_
+22	meno	meno	ADV	B	_	23	advmod	_	_
+23	professori	professore	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
+26	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	conj	_	_
+27	perché	perché	SCONJ	CS	_	29	mark	_	_
+28	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	29	expl	_	_
+29	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+30	meno	meno	ADV	B	_	29	advmod	_	_
+31	finanziamenti	finanziamento	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = «La ricerca scientifica è l' unico motore universalmente riconosciuto per l' innovazionee lo sviluppo, tanto che il resto del mondo sta investendo in ricerca nonostante il periodo di profonda crisi».
+1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	unico	unico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	motore	motore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	universalmente	universalmente	ADV	B	_	10	advmod	_	_
+10	riconosciuto	riconoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	innovazionee	innovazionea	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	tanto	tanto	ADV	B	_	8	advmod	_	_
+18	che	che	SCONJ	CS	_	25	mark	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	resto	resto	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	investendo	investire	VERB	V	VerbForm=Ger	17	ccomp	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	nonostante	nonostante	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	profonda	profondo	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	crisi	crisi	NOUN	S	Gender=Fem	32	compound	_	SpaceAfter=No
+34	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = L' Italia spende solo l' 1 per cento del Pil nel sistema universitario (contro una media Ue dell' 1,5 per cento) e il Fondo di finanziamento ordinario ha conosciuto una contrazione delle risorse tale da diventare, per il 2013, inferiore all' ammontare delle spese fisse a carico dei singoli atenei.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	Italia	Italia	PROPN	SP	_	3	nsubj	_	_
+3	spende	spendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	1	1	NUM	N	NumType=Card	3	obj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	cento	cento	NUM	N	NumType=Card	6	nummod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Pil	Pil	PROPN	SP	_	6	nmod	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	universitario	universitario	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+17	contro	contro	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	media	media	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+20	Ue	Ue	PROPN	SP	_	19	nmod	_	_
+21-22	dell'	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	1,5	1,5	NUM	N	NumType=Card	19	nmod	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	cento	cento	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	19	punct	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	finanziamento	finanziamento	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32	ordinario	ordinario	NOUN	S	Gender=Masc|Number=Sing	31	compound	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	contrazione	contrazione	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+37-38	delle	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	36	nmod	_	_
+40	tale	tale	ADJ	A	Number=Sing	39	amod	_	_
+41	da	da	ADP	E	_	42	mark	_	_
+42	diventare	diventare	VERB	V	VerbForm=Inf	34	acl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	34	punct	_	_
+44	per	per	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	2013	2013	NUM	N	NumType=Card	34	nummod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	34	punct	_	_
+48	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	34	amod	_	_
+49-50	all'	_	_	_	_	_	_	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+51	ammontare	ammontare	NOUN	S	Gender=Masc|Number=Sing	48	obl	_	_
+52-53	delle	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+54	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	51	nmod	_	_
+55	fisse	fisso	ADJ	A	Gender=Fem|Number=Plur	54	amod	_	_
+56	a	a	ADP	E	_	57	case	_	_
+57	carico	carico	NOUN	S	Gender=Masc|Number=Sing	54	nmod	_	_
+58-59	dei	_	_	_	_	_	_	_	_
+58	di	di	ADP	E	_	61	case	_	_
+59	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	61	det	_	_
+60	singoli	singolo	ADJ	A	Gender=Masc|Number=Plur	61	amod	_	_
+61	atenei	ateneo	NOUN	S	Gender=Masc|Number=Plur	57	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = È il crack contabile.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	crack	crack	NOUN	S	Gender=Masc	0	root	_	_
+4	contabile	contabile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = «A fronte di tutto ciò appare consolidarsi il rischio di un incremento dell' emigrazione intellettuale delle giovani generazioni, rischiamo di diventare la manodopera d' Europa».
+1	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	3	case	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	7	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nmod	_	_
+7	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	consolidarsi	_	_	_	_	_	_	_	_
+8	consolidar	consolidare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	incremento	incremento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	dell'	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	emigrazione	emigrazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	intellettuale	intellettuale	ADJ	A	Number=Sing	17	amod	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	giovani	giovane	ADJ	A	Number=Plur	22	amod	_	_
+22	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	7	punct	_	_
+24	rischiamo	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	diventare	diventare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	manodopera	manodopera	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	d'	di	ADP	E	_	30	case	_	_
+30	Europa	Europa	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+31	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = La percentuale di chi s' iscrive all' università diminuisce costantemente:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nmod	_	_
+5	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	iscrive	iscrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7-8	all'	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	università	università	NOUN	S	Gender=Fem	6	obl	_	_
+10	diminuisce	diminuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	costantemente	costantemente	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 20
+# text = dal 68 per cento del 2007-2008 si è arrivati al 61 per cento del 2011-2012.
+1-2	dal	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	68	68	NUM	N	NumType=Card	12	nummod	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	cento	cento	NUM	N	NumType=Card	3	nummod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2007	2007	NUM	N	NumType=Card	3	nmod	_	SpaceAfter=No
+9	-2008	-2008	NUM	N	NumType=Card	8	flat	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	61	61	NUM	N	NumType=Card	12	nummod	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	cento	cento	NUM	N	NumType=Card	15	nummod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	2011-2012	2011-2012	NUM	N	NumType=Card	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 21
+# text = Ai diciannovenni la laurea interessa sempre meno:
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	diciannovenni	diciannovenne	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	_
+8	meno	meno	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 22
+# text = le iscrizioni sono calate del 4 per cento in tre anni, dal 51 per cento al 47 per cento.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	iscrizioni	iscrizione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	calate	calare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	4	4	NUM	N	NumType=Card	4	obl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	cento	cento	NUM	N	NumType=Card	7	nummod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	51	51	NUM	N	NumType=Card	4	obl:agent	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	cento	cento	NUM	N	NumType=Card	16	nummod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	47	47	NUM	N	NumType=Card	4	obl	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	cento	cento	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = È diminuita drasticamente anche l' offerta formativa degli atenei:
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	diminuita	diminuire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	drasticamente	drastico	ADV	B	_	2	advmod	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	offerta	offerta	NOUN	S	Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+7	formativa	formativo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	atenei	ateneo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 24
+# text = in sei anni sono stati eliminati 1.195 corsi di laurea.
+1	in	in	ADP	E	_	3	case	_	_
+2	sei	sei	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	eliminati	eliminare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	1.195	1.195	NUM	N	NumType=Card	8	nummod	_	_
+8	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 25
+# text = Quest' anno sono scomparsi 84 corsi triennali e 28 specialistici biennali.
+1	Quest'	questo	DET	DD	Number=Sing|PronType=Dem	2	det	_	_
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	scomparsi	_	_	_	_	_	_	_	_
+4	scompar	scompare	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	84	84	NUM	N	NumType=Card	7	nummod	_	_
+7	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+8	triennali	triennale	ADJ	A	Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	28	28	NUM	N	NumType=Card	12	nummod	_	_
+11	specialistici	specialistico	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	biennali	biennale	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = Gli studenti fuoricorso corrispondono al 33,6 per cento e il 17,3 per cento degli iscritti sono totalmente inattivi (zero crediti formativi).
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	fuoricorso	fuoricorrere	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	_
+4	corrispondono	corrispondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	33,6	33,6	NUM	N	NumType=Card	20	obl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	cento	cento	NUM	N	NumType=Card	7	nummod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	17,3	17,3	NUM	N	NumType=Card	7	conj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	cento	cento	NUM	N	NumType=Card	12	nummod	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	totalmente	totalmente	ADV	B	_	20	advmod	_	_
+20	inattivi	inattivo	ADJ	A	Gender=Masc|Number=Plur	4	advcl	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	zero	zero	NUM	N	NumType=Card	23	nummod	_	_
+23	crediti	credito	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+24	formativi	formativo	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = I professori ordinari sono scesi da un massimo storico di quasi 20 mila a fine 2006 agli attuali 14.500 (-27 per cento), gli associati dai 19 mila del 2006 ai 16 mila di oggi (16 per cento).
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	professori	professore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	ordinari	ordinario	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	scesi	scendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+9	storico	storico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quasi	quasi	ADV	B	_	12	advmod	_	_
+12	20	20	NUM	N	NumType=Card	8	nmod	_	_
+13	mila	mila	NUM	N	NumType=Card	12	flat	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	fine	fine	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+16	2006	2006	NUM	N	NumType=Card	15	nummod	_	_
+17-18	agli	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	attuali	attuale	ADJ	A	Number=Plur	20	amod	_	_
+20	14.500	14.500	NUM	N	NumType=Card	5	obl	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	-27	-27	NUM	N	NumType=Card	5	nummod	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	cento	cento	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	conj	_	_
+28	associati	associare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	advcl	_	_
+29-30	dai	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	19	19	NUM	N	NumType=Card	28	obl	_	_
+32	mila	mila	NUM	N	NumType=Card	31	flat	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	2006	2006	NUM	N	NumType=Card	31	nmod	_	_
+36-37	ai	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	16	16	NUM	N	NumType=Card	28	obl	_	_
+39	mila	mila	NUM	N	NumType=Card	38	flat	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	oggi	oggi	ADV	B	_	38	advmod	_	_
+42	(	(	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+43	16	16	NUM	N	NumType=Card	28	nummod	_	_
+44	per	per	ADP	E	_	45	case	_	_
+45	cento	cento	NUM	N	NumType=Card	43	nummod	_	SpaceAfter=No
+46	)	)	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Contro una media Ocse di 15,5 studenti per docente, in Italia la media è di 18,7.
+1	Contro	contro	ADP	E	_	3	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	media	media	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	Ocse	Ocse	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	15,5	15,5	NUM	N	NumType=Card	7	nummod	_	_
+7	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	docente	docente	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Italia	Italia	PROPN	SP	_	3	nmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	media	media	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	18,7	18,7	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = Il dossier racconta, infine, che sono stati espulsi dal sistema «la maggior parte degli assegnisti anziani».
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dossier	dossier	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	infine	infine	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj:pass	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	espulsi	espellere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	_
+14	«	«	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	17	amod	_	_
+17	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	compound	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	assegnisti	assegnista	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	anziani	anziano	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	»	»	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 30
+# text = Pesante la situazione borse di studio agli "aventi diritto":
+1	Pesante	pesare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	borse	borso	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	studio	studio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	agli	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	aventi	avere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	4	nmod	_	_
+11	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 31
+# text = nel 2009 i fondi nazionali coprivano l' 84 per cento degli studenti, nel 2011 il 75 per cento.
+1-2	nel	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2009	2009	NUM	N	NumType=Card	7	obl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	nazionali	nazionale	ADJ	A	Number=Plur	5	amod	_	_
+7	coprivano	coprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	84	84	NUM	N	NumType=Card	7	obj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	cento	cento	NUM	N	NumType=Card	9	nummod	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	2011	2011	NUM	N	NumType=Card	14	nmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	75	75	NUM	N	NumType=Card	18	flat	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	cento	cento	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 32
+# text = Silenzio del ministro dell' Istruzione Francesco Profumo, mentre attacca il segretario Pd Pierluigi Bersani.
+1	Silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	dell'	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Istruzione	istruzione	PROPN	SP	_	4	nmod	_	_
+8	Francesco	Francesco	PROPN	SP	_	4	nmod	_	_
+9	Profumo	profumo	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	mentre	mentre	SCONJ	CS	_	12	mark	_	_
+12	attacca	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	Pd	Pd	PROPN	SP	_	14	nmod	_	_
+16	Pierluigi	Pierluigi	PROPN	SP	_	15	flat:name	_	_
+17	Bersani	Bersani	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 33
+# text = «C' è il classismo che ritorna, non possiamo accettarlo».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	classismo	classismo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	ritorna	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11-12	accettarlo	_	_	_	_	_	_	_	SpaceAfter=No
+11	accettar	accettare	VERB	V	VerbForm=Inf	7	conj	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,509 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ROMA.
+1	ROMA	Roma	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ci sono l'Afghanistan, il Sudan e la Siria, colpiti dalla siccità.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Afghanistan	Afghanistan	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Sudan	Sudan	PROPN	SP	_	4	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Siria	Siria	PROPN	SP	_	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	colpiti	colpire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	siccità	siccità	NOUN	S	Gender=Fem	12	obl:agent	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = C'è il Bangladesh, che deve fare i conti con una durissima stagione di monsoni.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Bangladesh	Bangladesh	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	conti	conto	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	durissima	duro	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	14	amod	_	_
+14	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	monsoni	monsone	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = C'è la Repubblica Centrafricana, dove le violenze sono ricominciate.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Repubblica	Repubblica	PROPN	SP	_	2	nsubj	_	_
+5	Centrafricana	Centrafricana	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	dove	dove	ADV	B	_	11	advmod	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	ricominciate	ricominciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E poi c'è Haiti, con la sua imminente stagione degli uragani, e ancora Iraq, Myanmar e Saheldi, con i loro periodi di magra.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Haiti	Haiti	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	con	con	ADP	E	_	11	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	imminente	imminente	ADJ	A	Number=Sing	11	amod	_	_
+11	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	uragani	uragano	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	ancora	ancora	ADV	B	_	18	advmod	_	_
+18	Iraq	Iraq	PROPN	SP	_	20	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	Myanmar	Myanmar	PROPN	SP	_	4	nsubj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Saheldi	Saheldi	PROPN	SP	_	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	4	punct	_	_
+24	con	con	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	magra	magra	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Milioni di persone a rischio.
+1	Milioni	milione	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Un nuovo rapporto della FAO lancia l'allarme su alcune delle crisi umanitarie più sottovalutate, bisognose con urgenza di risposta umanitaria e assistenza agricola.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	FAO	FAO	PROPN	SP	_	3	nmod	_	_
+7	lancia	lanciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	alcune	alcuno	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	9	nmod	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	crisi	crisi	NOUN	S	Gender=Fem	11	nmod	_	_
+15	umanitarie	umanitario	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	sottovalutate	sottovalutato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	bisognose	bisognorre	NOUN	S	Gender=Fem|Number=Plur	17	nsubj:pass	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	umanitaria	umanitario	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+27	agricola	agricolo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = In queste aree siccità, inondazioni, carestia e conflitti, senza l'assistenza adeguata, metteranno a rischio la vita di milioni di abitanti.
+1	In	in	ADP	E	_	4	case	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+3	aree	area	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	siccità	siccità	NOUN	S	Gender=Fem	17	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	inondazioni	inondazione	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	carestia	carestia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	conflitti	conflitto	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	senza	senza	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+15	adeguata	adeguato	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	metteranno	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	abitanti	abitante	NOUN	S	Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 9
+# text = Secondo l'agenzia delle Nazioni Unite servono immediatamente 120 milioni di dollari per assistere 3,6 milioni di persone da adesso alla fine dell'anno.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Nazioni	Nazioni	PROPN	SP	_	3	nmod	_	_
+7	Unite	Unite	PROPN	SP	_	6	flat:name	_	_
+8	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	immediatamente	immediato	ADV	B	_	8	advmod	_	_
+10	120	120	NUM	N	NumType=Card	11	nummod	_	_
+11	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	assistere	assistere	VERB	V	VerbForm=Inf	8	advcl	_	_
+16	3,6	3,6	NUM	N	NumType=Card	17	nummod	_	_
+17	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	persone	persona	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	adesso	adesso	ADV	B	_	15	advmod	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	fine	fine	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	anno	anno	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Complessivamente la FAO ha ricevuto meno del 30% del miliardo di dollari richiesto all'inizio dell'anno per aiutare 33 milioni di bisognosi nel mondo;
+1	Complessivamente	complessivamente	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	FAO	FAO	PROPN	SP	_	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	meno	meno	ADV	B	_	10	case	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	30	30	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	SYM	_	5	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	miliardo	miliardo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+16	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	anno	anno	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	aiutare	aiutare	VERB	V	VerbForm=Inf	16	advcl	_	_
+25	33	33	NUM	N	NumType=Card	26	nummod	_	_
+26	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	bisognosi	bisognosi	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+32	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 11
+# text = in alcuni casi, solo il 6% del fabbisogno.
+1	in	in	ADP	E	_	3	case	_	_
+2	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	casi	caso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	solo	solo	ADV	B	_	8	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	6	6	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	SYM	_	3	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fabbisogno	fabbisogno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = "Dobbiamo garantire che nessuno venga lasciato indietro", spiega Dominique Burgeon, direttore della divisione Emergenze e riabilitazione della FAO, leader del programma strategico "Resilienza".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	garantire	garantire	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+6	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	indietro	indietro	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	Dominique	Dominique	PROPN	SP	_	11	nsubj	_	_
+13	Burgeon	Burgeon	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	Emergenze	Emergenze	PROPN	SP	_	18	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	riabilitazione	riabilitazione	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	FAO	FAO	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	leader	leader	NOUN	S	_	24	appos	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	programma	programma	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	strategico	strategico	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	Resilienza	resilienza	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = L'incubo siccità.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	incubo	incubo	ADJ	A	Number=Sing	3	amod	_	_
+3	siccità	siccità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = In Siria, la siccità potrebbe esacerbare l'impatto di anni di conflitti, creando ulteriori gruppi di sfollati costretti a lasciare le proprie case e minando ulteriormente la produzione di cibo.
+1	In	in	ADP	E	_	2	case	_	_
+2	Siria	Siria	PROPN	SP	_	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	siccità	siccità	NOUN	S	Gender=Fem	7	nsubj	_	_
+6	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	esacerbare	esacerbare	VERB	V	VerbForm=Inf	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	conflitti	conflitto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	creando	creare	VERB	V	VerbForm=Ger	7	advcl	_	_
+16	ulteriori	ulteriore	ADJ	A	Number=Plur	17	amod	_	_
+17	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	sfollati	sfollato	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	lasciare	lasciare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	case	casa	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	minando	minare	VERB	V	VerbForm=Ger	20	conj	_	_
+28	ulteriormente	ulteriormente	ADV	B	_	27	advmod	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Nonostante le sfide che ha dovuto affrontare, il settore agricolo continua a sostenere quasi la metà della fornitura di cibo del Paese, fungendo da ancora di salvezza per milioni di persone.
+1	Nonostante	nonostante	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
+7	affrontare	affrontare	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	settore	settore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	agricolo	agricolo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	sostenere	sostenere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	quasi	quasi	ADV	B	_	17	advmod	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	metà	metà	NOUN	S	Gender=Fem	14	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fornitura	fornitura	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	12	punct	_	_
+27	fungendo	fungire	VERB	V	VerbForm=Ger	12	advcl	_	_
+28	da	da	ADP	E	_	31	case	_	_
+29	ancora	ancora	ADV	B	_	31	advmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	salvezza	salvezza	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	persone	persona	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 16
+# text = Situazione simile in Sahel e Sudan, dove le popolazioni pastorali stanno lottando per far fronte agli effetti della siccità e dell'imminente stagione magra.
+1	Situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	simile	simile	ADJ	A	Number=Sing	1	amod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Sahel	Sahel	PROPN	SP	_	1	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Sudan	Sudan	PROPN	SP	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	dove	dove	ADV	B	_	13	advmod	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	popolazioni	popolazione	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+11	pastorali	pastorale	ADJ	A	Number=Plur	10	amod	_	_
+12	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	lottando	lottare	VERB	V	VerbForm=Ger	1	acl:relcl	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	far	fare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	fronte	fronte	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+17-18	agli	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	siccità	siccità	NOUN	S	Gender=Fem	19	nmod	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24-25	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	27	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+26	imminente	imminente	ADJ	A	Number=Sing	27	amod	_	_
+27	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+28	magra	magro	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Sementi, attrezzi agricoli, mangimi per gli animali, riabilitazione delle infrastrutture idriche e dei punti d'acqua, campagne di vaccinazione e trattamento degli animali, miglioramento della gestione del suolo e dell'acqua, trasferimenti di contante e soldi in cambio di lavoro.
+1	Sementi	Semento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	attrezzi	attrezzo	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	agricoli	agricolo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	mangimi	mangimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	animali	animale	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	riabilitazione	riabilitazione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	idriche	idrico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	punti	punto	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+20	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	campagne	campagna	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	vaccinazione	vaccinazione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+28-29	degli	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	animali	animale	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	miglioramento	miglioramento	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	e	e	CCONJ	CC	_	42	cc	_	_
+40-41	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+40	di	di	ADP	E	_	42	case	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+42	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	trasferimenti	trasferimento	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	contante	contante	NOUN	S	Gender=Fem|Number=Plur	44	nmod	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	46	conj	_	_
+49	in	in	ADP	E	_	50	case	_	_
+50	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Queste popolazioni hanno bisogno di tutto questo e di molto altro ancora.
+1	Queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	popolazioni	popolazioni	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	conj	_	_
+12	ancora	ancora	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = E non c'è tempo da perdere.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7	perdere	perdere	VERB	V	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

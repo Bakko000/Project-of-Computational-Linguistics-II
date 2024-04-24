@@ -1,0 +1,542 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Manolas e De Rossi gol tristi per Astori "Con lo Shakhtar tutti all'Olimpico"
+1	Manolas	Manolas	PROPN	SP	_	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	De	De	PROPN	SP	_	1	conj	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	_
+5	gol	gol	NOUN	S	Gender=Masc	1	nmod	_	_
+6	tristi	triste	ADJ	A	Number=Plur	5	amod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Astori	Astore	PROPN	SP	_	5	nmod	_	_
+9	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	Con	con	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Shakhtar	Shakhtar	PROPN	SP	_	5	nmod	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	nmod	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Olimpico	olimpico	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Manolas e De Rossi sbloccano una partita che sembrava voler ritirare fuori tutti i fantasmi di una stagione addolcita dalla vittoria di Napoli.
+1	Manolas	Manolas	PROPN	SP	_	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	De	De	PROPN	SP	_	1	conj	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	_
+5	sbloccano	sbloccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	partita	partita	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	voler	volere	AUX	VM	VerbForm=Inf	11	aux	_	_
+11	ritirare	ritirare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	fuori	fuori	ADV	B	_	11	advmod	_	_
+13	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	fantasmi	fantasma	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	addolcita	addolcitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Napoli	Napoli	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Pellegrini la sigilla.
+1	Pellegrini	pellegrini	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sigilla	sigilla	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = La Roma batte il Torino (3-0), i giocatori ricordano Astori, dedicandogli i gol.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Roma	Roma	PROPN	SP	_	3	nsubj	_	_
+3	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Torino	Torino	PROPN	SP	_	3	obj	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	3	3	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	0	0	NUM	N	NumType=Card	7	compound	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+14	ricordano	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+15	Astori	Astore	PROPN	SP	_	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17-18	dedicandogli	_	_	_	_	_	_	_	_
+17	dedicando	dedicare	VERB	V	VerbForm=Ger	14	advcl	_	_
+18	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	gol	goal	NOUN	S	Gender=Masc	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non lo fa in maniera plateale:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	plateale	plateale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = il capitano giallorosso, che non esulta, trattenendo dentro il dolore per la morte di Davide.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	capitano	capitano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	giallorosso	giallorosso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	esulta	esultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	trattenendo	trattenere	VERB	V	VerbForm=Ger	7	advcl	_	_
+10	dentro	dentro	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	morte	morte	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Davide	Davide	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Quella di De Rossi è stata la prima rete stagionale, con il destino che gliel'ha fatta arrivare proprio in una giornata così difficile per lui, distrutto dal dolore per la scomparsa di uno dei pochi amici veri che aveva nel mondo del calcio.
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	De	De	PROPN	SP	_	1	nmod	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	rete	rete	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	stagionale	stagionale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	destino	destino	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+16-17	gliel'	_	_	_	_	_	_	_	SpaceAfter=No
+16	glie	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+17	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20	arrivare	arrivare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+21	proprio	proprio	ADV	B	_	20	advmod	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25	così	così	ADV	B	_	26	advmod	_	_
+26	difficile	difficile	ADJ	A	Number=Sing	20	amod	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30	distrutto	distruggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+31-32	dal	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	30	obl:agent	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	scomparsa	scomparsa	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	36	nmod	_	_
+39-40	dei	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	42	case	_	_
+40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+41	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	42	det	_	_
+42	amici	amico	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	_
+43	veri	vero	ADJ	A	Gender=Masc|Number=Plur	42	amod	_	_
+44	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+45	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	_
+46-47	nel	_	_	_	_	_	_	_	_
+46	in	in	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	_
+49-50	del	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = « Contento per il mio gol e per la vittoria — ammette Manolas — lavoriamo sempre per vincere.
+1	«	«	PUNCT	FB	_	2	punct	_	_
+2	Contento	contento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	gol	goal	NOUN	S	Gender=Masc	2	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11	—	—	PUNCT	FF	_	12	punct	_	_
+12	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	Manolas	Manolas	PROPN	SP	_	12	nsubj	_	_
+14	—	—	PUNCT	FF	_	12	punct	_	_
+15	lavoriamo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
+16	sempre	sempre	ADV	B	_	15	advmod	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	vincere	vincere	VERB	V	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Brutto primo tempo, ma dopo il gol ci siamo liberati.
+1	Brutto	brutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	11	punct	_	_
+5	ma	ma	CCONJ	CC	_	11	cc	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gol	gol	NOUN	S	Gender=Masc	11	obl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+10	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	liberati	liberare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = E siamo diventati più veloci.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	diventati	diventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	veloci	veloce	ADJ	A	Number=Plur	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Più "verticali".
+1	Più	più	ADV	B	_	3	advmod	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	verticali	verticale	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Ora pensiamo alla Champions, chiedendo aiuto ai nostri tifosi.
+1	Ora	ora	ADV	B	_	2	advmod	_	_
+2	pensiamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Champions	Champions	PROPN	SP	_	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	chiedendo	chiedere	VERB	V	VerbForm=Ger	2	advcl	_	_
+8	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Vogliamo passare il turno.
+1	Vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	passare	passare	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	turno	turno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Ci meritiamo gli ottavi».
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+2	meritiamo	meritare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ottavi	ottavo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = E da oggi la Roma potrà cominciare a preparare il ritorno di Champions contro lo Shakhtar, di martedì prossimo all'Olimpico.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	oggi	oggi	ADV	B	_	7	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Roma	Roma	PROPN	SP	_	7	nsubj	_	_
+6	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
+7	cominciare	cominciare	VERB	V	VerbForm=Inf	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	preparare	preparare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Champions	Champions	PROPN	SP	_	11	nmod	_	_
+14	contro	contro	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Shakhtar	Shakhtar	PROPN	SP	_	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	martedì	martedì	NOUN	S	Gender=Masc	16	nmod	_	_
+20	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21-22	all'	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	Olimpico	olimpico	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 16
+# text = Al termine della partita col Torino, la squadra è rimasta in campo, sullo schermo sono andate le immagini del cammino in Champions, con spettatori e giocatori immobili a guardarle.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	termine	termine	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	partita	partita	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	col	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Torino	Torino	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	campo	campo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18-19	sullo	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	schermo	schermo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	andate	andare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	advcl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cammino	cammino	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	Champions	Champions	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31	con	con	ADP	E	_	32	case	_	_
+32	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	32	conj	_	_
+35	immobili	immobile	ADJ	A	Number=Plur	34	amod	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37-38	guardarle	_	_	_	_	_	_	_	SpaceAfter=No
+37	guardar	guardare	VERB	V	VerbForm=Inf	35	advcl	_	_
+38	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	37	obj	_	_
+39	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 17
+# text = Un modo per caricare l'ambiente, invitando i tifosi a riempire martedì sera l'Olimpico ( al momento circa 40 mila i biglietti venduti).
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	caricare	caricare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	invitando	invitare	VERB	V	VerbForm=Ger	2	advcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	riempire	riempire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+13	martedì	martedì	NOUN	S	Gender=Masc	12	obl	_	_
+14	sera	sera	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	Olimpico	olimpico	PROPN	SP	_	12	obj	_	_
+17	(	(	PUNCT	FB	_	25	punct	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	momento	momento	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+21	circa	circa	ADV	B	_	22	advmod	_	_
+22	40	40	NUM	N	NumType=Card	20	nummod	_	_
+23	mila	mila	NUM	N	NumType=Card	22	flat	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	16	appos	_	_
+26	venduti	venduto	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Cori dalla Sud e applausi dal campo.
+1	Cori	Core	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Sud	Sud	PROPN	SP	_	1	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	applausi	applauso	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	campo	campo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Tornerà in panchina Schick — Dzeko di nuovo titolare — dopo aver faticato ieri sera a trovare la sua dimensione in campo, a prendere le misure con una squadra abituata a trovarsi come punto di riferimento il centravanti bosniaco.
+1	Tornerà	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	Schick	Schick	PROPN	SP	_	3	nmod	_	_
+5	—	—	PUNCT	FF	_	1	punct	_	_
+6	Dzeko	Dzeko	PROPN	SP	_	1	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	titolare	titolare	NOUN	S	Number=Sing	6	nmod	_	_
+10	—	—	PUNCT	FF	_	1	punct	_	_
+11	dopo	dopo	SCONJ	CS	_	13	mark	_	_
+12	aver	avere	AUX	VA	VerbForm=Inf	13	aux	_	_
+13	faticato	faticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+14	ieri	ieri	ADV	B	_	13	advmod	_	_
+15	sera	sera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	trovare	trovare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	dimensione	dimensione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	campo	campo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25	prendere	prendere	VERB	V	VerbForm=Inf	17	conj	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	misure	misura	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	abituata	abituare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33-34	trovarsi	_	_	_	_	_	_	_	_
+33	trovar	trovare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+35	come	come	ADP	E	_	36	case	_	_
+36	punto	punto	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	centravanti	centravanti	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+41	bosniaco	bosniaco	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = La partita di Schick è tutta una corsa a voler dimostrare di essere all'altezza, a cercare un se stesso all'interno di un tridente che fatica tantissimo:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	partita	partita	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Schick	Schick	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	a	a	ADP	E	_	11	mark	_	_
+10	voler	volere	AUX	VM	VerbForm=Inf	11	aux	_	_
+11	dimostrare	dimostrare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+12	di	di	ADP	E	_	16	mark	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	11	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	cercare	cercare	VERB	V	VerbForm=Inf	16	acl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	obj	_	_
+22	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23-24	all'	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	interno	interno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	tridente	tridente	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	30	case	_	_
+30	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	28	acl:relcl	_	_
+31	tantissimo	tanto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 21
+# text = Under ed El Shaarawy si danno da fare, ma il risultato lascia a desiderare.
+1	Under	Undere	ADP	E	_	3	case	_	_
+2	ed	e	CCONJ	CC	_	3	cc	_	_
+3	El	El	PROPN	SP	_	6	obl	_	_
+4	Shaarawy	Shaarawy	PROPN	SP	_	3	flat:name	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	desiderare	desiderare	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = « Sta facendo un percorso logico — spiega Monchi riferendosi proprio a Schick — il livello di aspettative si è alzato.
+1	«	«	PUNCT	FB	_	3	punct	_	_
+2	Sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	logico	logico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	—	—	PUNCT	FF	_	8	punct	_	_
+8	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+9	Monchi	Monchi	PROPN	SP	_	8	nsubj	_	_
+10-11	riferendosi	_	_	_	_	_	_	_	_
+10	riferendo	riferire	VERB	V	VerbForm=Ger	22	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	proprio	proprio	ADV	B	_	14	advmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Schick	Schick	PROPN	SP	_	10	obl	_	_
+15	—	—	PUNCT	FF	_	14	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	livello	livello	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	aspettative	aspettativa	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Si sta allenando sempre meglio e sta arrivando al punto massimo che ci aspettiamo da lui».
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	allenando	allenare	VERB	V	VerbForm=Ger	0	root	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	meglio	meglio	ADV	B	_	3	advmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	arrivando	arrivare	VERB	V	VerbForm=Ger	3	conj	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	punto	punto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+15	aspettiamo	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

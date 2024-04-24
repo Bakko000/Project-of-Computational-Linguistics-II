@@ -1,0 +1,795 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I vaccini da 500mila euro presi dalla Asl e mai usati
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	vaccini	vaccino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	500mila	500mila	NUM	N	NumType=Card	5	nummod	_	_
+5	euro	euro	NOUN	S	Gender=Masc	2	nmod	_	_
+6	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Asl	Asl	PROPN	SP	_	6	obl:agent	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	mai	mai	ADV	B	_	12	advmod	_	_
+12	usati	usare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = La campagna contro l'herpes zoster ( il " fuoco di sant'Antonio") è stata prevista per gli over 65 ma non è pubblicizzata
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+3	contro	contro	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	herpes	herpes	NOUN	S	_	2	nmod	_	_
+6	zoster	zoster	NOUN	S	_	5	compound	_	_
+7	(	(	PUNCT	FB	_	10	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	_
+10	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	sant'	santa	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+13	Antonio	Antonio	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	2	punct	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	prevista	prevedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	over	over	NOUN	S	_	18	obl	_	_
+22	65	65	NUM	N	NumType=Card	21	nummod	_	_
+23	ma	ma	CCONJ	CC	_	26	cc	_	_
+24	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	pubblicizzata	pubblicizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Ci sono migliaia di flaconcini di Zostavax nei depositi dell'Asl Bari.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	flaconcini	flaconcino	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Zostavax	Zostavax	PROPN	SP	_	5	nmod	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	depositi	deposito	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Asl	Asl	PROPN	SP	_	10	nmod	_	_
+14	Bari	Bari	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Cinquemila, secondo una deliberazione del direttore generale di settembre 2017, per una spesa complessiva di quasi 440mila euro Iva esclusa.
+1	Cinquemila	cinquemila	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	secondo	secondo	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	deliberazione	deliberazione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	generale	generale	ADJ	A	Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	2017	2017	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+17	complessiva	complessivo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	quasi	quasi	ADV	B	_	20	advmod	_	_
+20	440mila	440mila	NUM	N	NumType=Card	21	nummod	_	_
+21	euro	euro	NOUN	S	Gender=Masc	22	nmod	_	_
+22	Iva	Iva	PROPN	SP	_	16	nmod	_	_
+23	esclusa	escluso	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Di quelle confezioni ne sono state usate dall'inizio dell'anno a oggi circa 15.
+1	Di	di	ADP	E	_	3	case	_	_
+2	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	confezioni	confezioni	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	usate	usare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	oggi	oggi	ADV	B	_	7	advmod	_	_
+16	circa	circa	ADV	B	_	17	advmod	_	_
+17	15	15	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Eppure quel medicinale è stata la grande novità del 2018 per la sanità in Puglia: è il vaccino anti- herpes zoster, entrato nei livelli essenziali di assistenza ( i cosiddetti " lea") e perciò distribuito gratuitamente in tutta la regione dal servizio sanitario nazionale.
+1	Eppure	eppure	ADV	B	_	8	advmod	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	medicinale	medicinale	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+8	novità	novità	NOUN	S	Gender=Fem	20	nsubj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	2018	2018	NUM	N	NumType=Card	8	nmod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sanità	sanità	NOUN	S	Gender=Fem	11	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Puglia	Puglia	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	8	punct	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+21	anti	anti	ADJ	A	_	20	amod	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	21	punct	_	_
+23	herpes	herpes	X	SW	Foreign=Yes	21	compound	_	_
+24	zoster	zoster	X	SW	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	entrato	entrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+27-28	nei	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+30	essenziali	essenziale	ADJ	A	Number=Plur	29	amod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	(	(	PUNCT	FB	_	37	punct	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+35	cosiddetti	cosiddetto	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	_
+36	"	"	PUNCT	FB	_	37	punct	_	_
+37	lea	lea	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	37	punct	_	_
+40	e	e	CCONJ	CC	_	42	cc	_	_
+41	perciò	perciò	ADV	B	_	42	advmod	_	_
+42	distribuito	distribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
+43	gratuitamente	gratuitamente	ADV	B	_	42	advmod	_	_
+44	in	in	ADP	E	_	47	case	_	_
+45	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	47	det:predet	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	regione	regione	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+48-49	dal	_	_	_	_	_	_	_	_
+48	da	da	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	42	obl:agent	_	_
+51	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	50	amod	_	_
+52	nazionale	nazionale	ADJ	A	Number=Sing	50	amod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Ha una platea ben precisa:
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	platea	platea	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	ben	bene	ADV	B	_	5	advmod	_	_
+5	precisa	preciso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 8
+# text = persone che hanno compiuto 65 anni di età e over 50 già affetti da altre patologie (diabete mellito, malattie cardiovascolari, soggetti a terapie immunosoppressive).
+1	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	65	65	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	età	età	NOUN	S	Gender=Fem	6	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	over	overe	VERB	V	VerbForm=Inf	4	conj	_	_
+11	50	50	NUM	N	NumType=Card	10	nummod	_	_
+12	già	già	ADV	B	_	13	advmod	_	_
+13	affetti	affeggere	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	altre	altro	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	patologie	patologia	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	diabete	diabete	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	mellito	mellito	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+22	cardiovascolari	cardiovascolare	ADJ	A	Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	soggetti	soggetto	ADJ	A	Gender=Masc|Number=Plur	18	conj	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	terapie	terapia	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+27	immunosoppressive	immunosoppressivo	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Con il vaccino possono evitare di contrarre l'herpes zoster, il fastidioso fuoco di Sant'Antonio, virale e temporaneamente invalidante.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	evitare	evitare	VERB	V	VerbForm=Inf	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	contrarre	contrarre	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	herpes	herpes	NOUN	S	Gender=Masc	7	obj	_	_
+10	zoster	zoster	NOUN	S	Gender=Masc	9	compound	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	fastidioso	fastidioso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	Sant'	Sant'	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+17	Antonio	Antonio	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	virale	virale	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	temporaneamente	temporaneamente	ADV	B	_	22	advmod	_	_
+22	invalidante	invalidante	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Ma la maggior parte dei pugliesi non sa che ora c'è un vaccino.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	pugliesi	pugliese	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	ora	ora	ADV	B	_	13	advmod	_	_
+12	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	SpaceAfter=No
+13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Dovrebbero essere i medici di base a informarli e a fare la stessa iniezione in ambulatorio.
+1	Dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	medici	medico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	base	base	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8-9	informarli	_	_	_	_	_	_	_	_
+8	informar	informare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	8	conj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	iniezione	iniezione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	ambulatorio	ambulatorio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Solo che non lo fanno.
+1	Solo	solo	ADV	B	_	5	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Finora si è proceduto in maniera disordinata.
+1	Finora	finora	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	proceduto	procedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	disordinata	disordinato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = L'unica Asl ad avere un calendario di vaccinazioni è quella di Brindisi, che ha preso in carico la faccenda.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	Asl	Asl	PROPN	SP	_	11	nsubj	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5	avere	avere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	calendario	calendario	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vaccinazioni	vaccinazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Brindisi	Brindisi	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	carico	carico	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	faccenda	faccenda	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 15
+# text = « Anche Taranto e Foggia hanno già somministrato le prime dosi — fa sapere Ignazio Aprile, segretario generale Fimmg Puglia — associando quel vaccino a quello anti- influenzale.
+1	«	«	PUNCT	FB	_	3	punct	_	_
+2	Anche	anche	ADV	B	_	3	advmod	_	_
+3	Taranto	Taranto	PROPN	SP	_	8	nsubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Foggia	Foggia	PROPN	SP	_	3	conj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	somministrato	somministrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	11	amod	_	_
+11	dosi	dosi	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12	—	—	PUNCT	FF	_	8	punct	_	_
+13	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+14	sapere	sapere	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	Ignazio	Ignazio	PROPN	SP	_	14	nsubj	_	_
+16	Aprile	aprile	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	15	appos	_	_
+19	generale	generale	ADJ	A	Number=Sing	18	amod	_	_
+20	Fimmg	Fimmg	PROPN	SP	_	18	nmod	_	_
+21	Puglia	Puglia	PROPN	SP	_	20	flat:name	_	_
+22	—	—	PUNCT	FF	_	8	punct	_	_
+23	associando	associare	VERB	V	VerbForm=Ger	8	advcl	_	_
+24	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	25	nmod	_	_
+28	anti	anti	ADJ	A	_	27	amod	_	SpaceAfter=No
+29	-	-	PUNCT	FF	_	28	punct	_	_
+30	influenzale	influenzale	ADJ	A	Number=Sing	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Ma se nel 2017 si è proceduto a macchia di leopardo, nel 2018 non sarà così:
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	se	se	ADV	B	_	5	case	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	2017	2017	NUM	N	NumType=Card	8	nummod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	proceduto	procedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	macchia	macchia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	leopardo	leopardo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	2018	2018	NUM	N	NumType=Card	19	obl	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
+19	così	così	ADV	B	_	8	advmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 17
+# text = l'ultima Commissione vaccini ha validato il calendario dell'adulto, dove per prassi è previsto anche il vaccino per l'herpes zoster ».
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	vaccini	vaccino	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	validato	validare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	calendario	calendario	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	adulto	adulto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	dove	dove	ADV	B	_	17	advmod	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	prassi	prasso	NOUN	S	Gender=Fem	17	obl	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18	anche	anche	ADV	B	_	20	advmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	herpes	herpes	NOUN	S	_	20	nmod	_	_
+24	zoster	zoster	NOUN	S	_	23	compound	_	_
+25	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Fatto sta che è maggio e la situazione è ancora poco definita.
+1	Fatto	fare	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+6	e	e	CCONJ	CC	_	12	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	ancora	ancora	ADV	B	_	12	advmod	_	_
+11	poco	poco	ADV	B	_	12	advmod	_	_
+12	definita	definito	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Chiamando un centro vaccinazioni di Bari l'operatrice ammette che « il vaccino è in commercio, ma non si sa se lo farà il medico curante o se lo stesso rimanderà all'Asl » .
+1	Chiamando	chiamare	VERB	V	VerbForm=Ger	9	advcl	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	centro	centro	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	vaccinazioni	vaccinazione	NOUN	S	Gender=Fem|Number=Plur	3	compound	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Bari	Bari	PROPN	SP	_	3	nmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	operatrice	operatore	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	«	«	PUNCT	FB	_	16	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	9	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	ma	ma	CCONJ	CC	_	21	cc	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+21	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+22	se	se	SCONJ	CS	_	24	mark	_	_
+23	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	ccomp	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	medico	medico	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+27	curante	curare	ADJ	A	Number=Sing	26	amod	_	_
+28	o	o	CCONJ	CC	_	32	cc	_	_
+29	se	se	SCONJ	CS	_	32	mark	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	32	nsubj	_	_
+32	rimanderà	rimandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	conj	_	_
+33-34	all'	_	_	_	_	_	_	_	SpaceAfter=No
+33	a	a	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	Asl	Asl	PROPN	SP	_	32	obl	_	_
+36	»	»	PUNCT	FB	_	9	punct	_	_
+37	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = Una pratica che è diversa da quanto stabilito nel regolamento regionale e che è diventata prassi.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	diversa	diverso	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+8	stabilito	stabilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	regolamento	regolamento	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+12	regionale	regionale	ADJ	A	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+17	prassi	prasso	NOUN	S	Gender=Fem	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = «Noi abbiamo inviato lettere ai medici di medicina generale perché ci facessero richiesta delle dosi a loro necessarie — spiega Rosella Squicciarini, del dipartimento di Prevenzione dell'Asl Bari — Solo che invece di chiederci il vaccino, i medici hanno mandato i pazienti da noi.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	inviato	inviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	lettere	lettere	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	medici	medico	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	generale	generale	ADJ	A	Number=Sing	8	amod	_	_
+12	perché	perché	SCONJ	CS	_	14	mark	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	facessero	fare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+15	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	dosi	dose	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+22	—	—	PUNCT	FF	_	4	punct	_	_
+23	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+24	Rosella	Rosella	PROPN	SP	_	23	nsubj	_	_
+25	Squicciarini	Squicciarini	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32-33	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	Asl	Asl	PROPN	SP	_	29	nmod	_	_
+35	Bari	Bari	PROPN	SP	_	34	flat:name	_	_
+36	—	—	PUNCT	FF	_	29	punct	_	_
+37	Solo	solo	ADV	B	_	29	advmod	_	_
+38	che	che	SCONJ	CS	_	41	mark	_	_
+39	invece	invece	ADV	B	_	41	mark	_	_
+40	di	di	ADP	E	_	39	fixed	_	_
+41-42	chiederci	_	_	_	_	_	_	_	_
+41	chieder	chiedere	VERB	V	VerbForm=Inf	37	ccomp	_	_
+42	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	41	expl	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	medici	medico	NOUN	S	Gender=Masc|Number=Plur	49	nsubj	_	_
+48	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+49	mandato	mandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	ccomp	_	_
+50	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+51	pazienti	paziente	NOUN	S	Number=Plur	49	obj	_	_
+52	da	da	ADP	E	_	53	case	_	_
+53	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	49	obl	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Le richieste sono state pochissime, i pazienti che ci hanno mandato circa 15 » .
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	cop	_	_
+5	pochissime	pochissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	pazienti	paziente	NOUN	S	Number=Plur	5	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	obj	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	mandato	mandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	circa	circa	ADV	B	_	14	advmod	_	_
+14	15	15	NUM	N	NumType=Card	12	nummod	_	_
+15	»	»	PUNCT	FB	_	5	punct	_	_
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Ci si rimpalla le responsabilità, quindi.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	rimpalla	rimpallare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	responsabilità	responsabilità	NOUN	S	Gender=Fem	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	quindi	quindi	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = « Doveva partire una campagna informativa che non è mai partita — ammette Filippo Anelli, presidente Fnomceo — ma non è stato fatto niente».
+1	«	«	PUNCT	FB	_	2	punct	_	_
+2	Doveva	dovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	partire	partire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	informativa	informativo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	mai	mai	ADV	B	_	11	advmod	_	_
+11	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+12	—	—	PUNCT	FF	_	13	punct	_	_
+13	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+14	Filippo	Filippo	PROPN	SP	_	13	nsubj	_	_
+15	Anelli	anelli	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+18	Fnomceo	Fnomceo	PROPN	SP	_	17	nmod	_	_
+19	—	—	PUNCT	FF	_	24	punct	_	_
+20	ma	ma	CCONJ	CC	_	24	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+25	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	nsubj:pass	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Difficile calcolare quanti sono effettivamente interessati al vaccino.
+1	Difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+2	calcolare	calcolare	ADJ	A	Number=Sing	1	amod	_	_
+3	quanti	quanto	PRON	PQ	Gender=Masc|Number=Plur|PronType=Int	6	nsubj:pass	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	effettivamente	effettivamente	ADV	B	_	6	advmod	_	_
+6	interessati	interessare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	advcl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 26
+# text = L'unica ad avere i numeri alla mano è ancora una volta l'Asl Brindisi:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	ad	ad	ADP	E	_	4	mark	_	_
+4	avere	avere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	ancora	ancora	ADV	B	_	13	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	Asl	Asl	PROPN	SP	_	13	nmod	_	_
+16	Brindisi	brindisi	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 27
+# text = nella provincia si contano 845 casi di herpes zoster, con un budget stimato di quasi 268mila euro all'anno e una coorte di 65enni eleggibile per la vaccinazione 2017 di 4.841.
+1-2	nella	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	contano	contare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	845	845	NUM	N	NumType=Card	7	nummod	_	_
+7	casi	caso	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	herpes	herpes	DET	RD	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	zoster	zoster	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	budget	budget	NOUN	S	Gender=Masc	5	obl	_	_
+15	stimato	stimare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	quasi	quasi	ADV	B	_	18	advmod	_	_
+18	268mila	268mila	NUM	N	NumType=Card	19	nummod	_	_
+19	euro	euro	NOUN	S	Gender=Masc	15	obl	_	_
+20-21	all'	_	_	_	_	_	_	_	SpaceAfter=No
+20	a	a	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	anno	anno	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	coorte	coorte	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	65enni	65enne	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+28	eleggibile	eleggibile	ADJ	A	Number=Sing	27	amod	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	vaccinazione	vaccinazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+32	2017	2017	NUM	N	NumType=Card	31	nummod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	4.841	4.841	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Il resto è fatto di ipotesi: « Presumiamo che un medico che abbia mille assistiti avrà 20-25 persone interessate », ipotizza ancora Aprile.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	resto	resto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	ipotesi	ipotesi	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+8	«	«	PUNCT	FB	_	9	punct	_	_
+9	Presumiamo	Presumare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10	che	che	SCONJ	CS	_	17	mark	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	medico	medico	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	mille	mille	NUM	N	NumType=Card	16	nummod	_	_
+16	assistiti	assistito	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	ccomp	_	_
+18	20	20	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+20	25	25	NUM	N	NumType=Card	18	compound	_	_
+21	persone	persona	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+22	interessate	interessato	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	»	»	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	ipotizza	ipotizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+26	ancora	ancora	ADV	B	_	27	advmod	_	_
+27	Aprile	aprile	PROPN	SP	_	25	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = Ma se i medici di medicina generale volessero, potrebbero facilmente individuare fra i loro pazienti quelli interessati a difendersi dall'herpes zoster.
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	se	se	SCONJ	CS	_	12	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	medici	medico	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	generale	generale	ADJ	A	Number=Sing	6	amod	_	_
+8	volessero	volere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	facilmente	facilmente	ADV	B	_	12	advmod	_	_
+12	individuare	individuare	VERB	V	VerbForm=Inf	0	root	_	_
+13	fra	fra	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	pazienti	paziente	NOUN	S	Number=Plur	12	obl	_	_
+17	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	12	obj	_	_
+18	interessati	interessare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20-21	difendersi	_	_	_	_	_	_	_	_
+20	difender	difendere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22-23	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+22	da	da	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	herpes	herpes	NOUN	S	_	20	obl	_	_
+25	zoster	zoster	NOUN	S	_	24	compound	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 30
+# text = E potrebbero fare richiesta all'Asl per avere le dosi di Zostavax.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Asl	Asl	PROPN	SP	_	3	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	dosi	dose	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Zostavax	Zostavax	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 31
+# text = Proprio come accade ogni anno per il vaccino anti-antinfluenzale.
+1	Proprio	proprio	ADV	B	_	3	advmod	_	_
+2	come	come	SCONJ	CS	_	3	mark	_	_
+3	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	anti	anti	ADJ	A	_	8	amod	_	SpaceAfter=No
+10	-antinfluenzale	-antinfluenzale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

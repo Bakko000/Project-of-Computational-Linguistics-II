@@ -1,0 +1,937 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Minkiaman, un antieroe nella città perduta
+1	Minkiaman	Minkiaman	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	antieroe	antieroe	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	città	città	NOUN	S	Gender=Fem	4	nmod	_	_
+8	perduta	perduto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Beato quel popolo che non ha bisogno di eroi, diceva Bertolt Brecht.
+1	Beato	Beare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	parataxis	_	_
+12	Bertolt	Bertolt	PROPN	SP	_	11	nsubj	_	_
+13	Brecht	Brecht	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Sfortunatissimo, potremmo aggiungere, quello che necessita di supereroi.
+1	Sfortunatissimo	Sfortunatissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	potremmo	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	aggiungere	aggiungere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	necessita	necessitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	supereroi	superero	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = E se gli eroi, da soli, non possono salvarci, figuriamoci i supereroi, i superuomini della mitologia moderna, schiacciati dal peso delle loro responsabilità e della loro schizofrenica diversità.
+1	E	e	CCONJ	CC	_	14	cc	_	_
+2	se	se	SCONJ	CS	_	11	mark	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	soli	solo	ADJ	A	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11-12	salvarci	_	_	_	_	_	_	_	SpaceAfter=No
+11	salvar	salvare	VERB	V	VerbForm=Inf	14	advcl	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14-15	figuriamoci	_	_	_	_	_	_	_	_
+14	figuriamo	figurare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	iobj	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	supereroi	supereroe	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	superuomini	superuomino	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	mitologia	mitologia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	_
+26	schiacciati	schiacciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+27-28	dal	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	peso	peso	NOUN	S	Gender=Masc|Number=Sing	26	obl:agent	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	loro	loro	DET	AP	Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	responsabilità	responsabilità	NOUN	S	Gender=Fem	29	nmod	_	_
+34	e	e	CCONJ	CC	_	39	cc	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	39	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+37	loro	loro	DET	AP	Poss=Yes|PronType=Prs	39	det:poss	_	_
+38	schizofrenica	schizofrenico	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	_
+39	diversità	diversità	NOUN	S	Gender=Fem	33	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Gianni Allegra, versatile poligrafo e storica firma della satira politica, dà vita con "La guerra di Minkiaman" (Tunuè, pagine 160, euro 17, la presentazione oggi a Una Marina di libri) a un graphic novel (il primo interamente a sua firma) di devastante e disperato pessimismo, in cui a un'umanità abbrutita non rimane altra opzione possibile che il bivio tra la violenza vindice di una giovane barbarie e il potere distruttivo di una mafia dominante senza scrupoli né pietà.
+1	Gianni	Gianni	PROPN	SP	_	14	nsubj	_	_
+2	Allegra	allegra	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	versatile	versatila	ADJ	A	Number=Sing	5	amod	_	_
+5	poligrafo	poligrafo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	storica	storico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	firma	firma	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	satira	satira	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	politica	politico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Minkiaman	Minkiaman	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	19	punct	_	_
+23	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	Tunuè	Tunué	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+27	160	160	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	euro	euro	NOUN	S	Gender=Masc	26	nmod	_	_
+30	17	17	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	24	punct	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	presentazione	presentazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+34	oggi	oggi	ADV	B	_	33	advmod	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Marina	marina	PROPN	SP	_	33	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	libri	libro	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	24	punct	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	graphic	graphic	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+44	novel	novel	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+45	(	(	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	43	appos	_	_
+48	interamente	interamente	ADV	B	_	51	advmod	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	51	det:poss	_	_
+51	firma	firma	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	SpaceAfter=No
+52	)	)	PUNCT	FB	_	47	punct	_	_
+53	di	di	ADP	E	_	57	case	_	_
+54	devastante	devastante	ADJ	A	Number=Sing	57	amod	_	_
+55	e	e	CCONJ	CC	_	56	cc	_	_
+56	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	54	conj	_	_
+57	pessimismo	pessimismo	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	57	punct	_	_
+59	in	in	ADP	E	_	60	case	_	_
+60	cui	cui	PRON	PR	PronType=Rel	66	obl	_	_
+61	a	a	ADP	E	_	63	case	_	_
+62	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	SpaceAfter=No
+63	umanità	umanità	NOUN	S	Gender=Fem	66	obl	_	_
+64	abbrutita	abbrutito	ADJ	A	Gender=Fem|Number=Sing	63	amod	_	_
+65	non	non	ADV	BN	PronType=Neg	66	advmod	_	_
+66	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	acl:relcl	_	_
+67	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	68	det	_	_
+68	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	66	obj	_	_
+69	possibile	possibile	ADJ	A	Number=Sing	68	amod	_	_
+70	che	che	PRON	PR	PronType=Rel	76	obj	_	_
+71	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	bivio	bivio	NOUN	S	Gender=Masc|Number=Sing	76	nsubj	_	_
+73	tra	tra	ADP	E	_	75	case	_	_
+74	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	75	det	_	_
+75	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	72	nmod	_	_
+76	vindice	vindire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	acl:relcl	_	_
+77	di	di	ADP	E	_	80	case	_	_
+78	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	80	det	_	_
+79	giovane	giovane	ADJ	A	Number=Sing	80	amod	_	_
+80	barbarie	barbario	NOUN	S	Gender=Fem	76	obl	_	_
+81	e	e	CCONJ	CC	_	83	cc	_	_
+82	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	83	det	_	_
+83	potere	potere	NOUN	S	Gender=Masc|Number=Sing	80	conj	_	_
+84	distruttivo	distruttivo	ADJ	A	Gender=Masc|Number=Sing	83	amod	_	_
+85	di	di	ADP	E	_	87	case	_	_
+86	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	87	det	_	_
+87	mafia	mafia	NOUN	S	Gender=Fem|Number=Sing	83	nmod	_	_
+88	dominante	dominante	ADJ	A	Number=Sing	87	amod	_	_
+89	senza	senza	ADP	E	_	90	case	_	_
+90	scrupoli	scrupolo	NOUN	S	Gender=Masc|Number=Plur	87	nmod	_	_
+91	né	né	CCONJ	CC	_	92	cc	_	_
+92	pietà	pietà	NOUN	S	Gender=Fem	90	conj	_	SpaceAfter=No
+93	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Non c'è speranza e non c'è futuro, sembra dirci Gianni Allegra, se non un nuovo inizio ultra-umano e sub-umano di cui i cani, nella loro purezza e innocenza, possono essere gli apripista.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	futuro	futuro	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12-13	dirci	_	_	_	_	_	_	_	_
+12	dir	dire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	expl	_	_
+14	Gianni	Gianni	PROPN	SP	_	12	obj	_	_
+15	Allegra	allegra	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	se	se	SCONJ	CS	_	41	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	41	nsubj	_	_
+22	ultra-umano	ultra-umano	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	sub	sub	NOUN	S	_	22	conj	_	SpaceAfter=No
+25	-umano	-umano	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	cui	cui	PRON	PR	PronType=Rel	29	nmod	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	cani	cane	NOUN	S	Gender=Masc|Number=Plur	24	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31-32	nella	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	34	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	loro	loro	DET	AP	Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	purezza	purezza	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	innocenza	innocenza	NOUN	S	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	21	punct	_	_
+38	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+39	essere	essere	AUX	V	VerbForm=Inf	41	cop	_	_
+40	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	apripista	apripista	NOUN	S	Number=Sing	11	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = L'incipit è un buio onirico:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incipit	incipit	NOUN	S	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	buio	buio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	onirico	onirico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 8
+# text = l'incubo, contiguo alla realtà, in cui si svolge la scena primordiale di un Adamo e di un'Eva già corrotti dalla peste mafiosa, dal male assoluto di una società priva di valori morali.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incubo	incubo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	contiguo	contiguo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	realtà	realtà	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	svolge	svolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	scena	scena	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+15	primordiale	primordiale	ADJ	A	Number=Sing	14	amod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Adamo	Adamo	PROPN	SP	_	14	nmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	Eva	Eva	PROPN	SP	_	18	conj	_	_
+23	già	già	ADV	B	_	24	advmod	_	_
+24	corrotti	corrotto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+25-26	dalla	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	peste	peste	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	mafiosa	mafioso	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30-31	dal	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	male	male	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	_
+33	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	società	società	NOUN	S	Gender=Fem	32	nmod	_	_
+37	priva	privo	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	valori	valore	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	_
+40	morali	morale	ADJ	A	Number=Plur	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Il loro bambino, Totuccio, è un fardello destinato all'abbandono, a una inconsolabile orfanezza.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Totuccio	Totuccio	PROPN	SP	_	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fardello	fardello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	inconsolabile	inconsolabile	ADJ	A	Number=Sing	18	amod	_	_
+18	orfanezza	orfanezza	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Non sarà una lupa ad accudirlo, ma un trio di giocosi e candidi cagnolini, a loro volta affidati all'ospitalità affettuosa di un vecchio emarginato, una sorta di nonno putativo.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lupa	lupo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	ad	a	ADP	E	_	6	mark	_	_
+6-7	accudirlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	accudir	accudire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	trio	trio	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	giocosi	giocoso	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	candidi	candidio	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	cagnolini	cagnolino	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	volta	volta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+21	affidati	affidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+22-23	all'	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	ospitalità	ospitalità	NOUN	S	Gender=Fem	21	obl	_	_
+25	affettuosa	affettuoso	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+29	emarginato	emarginato	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	4	punct	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	putativo	putativo	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Siamo alla periferia di Balarm Town, orribile Dite di un inferno che non concede scampo o illusioni.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	periferia	periferia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Balarm	Balarm	PROPN	SP	_	4	nmod	_	_
+7	Town	Town	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	orribile	orribile	ADJ	A	Number=Sing	10	amod	_	_
+10	Dite	dite	PROPN	SP	_	6	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	inferno	inferno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	concede	concedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	scampo	scampo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+18	o	o	CCONJ	CC	_	19	cc	_	_
+19	illusioni	illusione	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Qui si consuma ogni scelleratezza, ogni trivialità, ogni scempio.
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	consuma	consumare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	scelleratezza	scelleratezza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	trivialità	trivialità	NOUN	S	Gender=Fem	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	scempio	scempio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Dalla notte iniziale, profondissimo pozzo nero, Allegra attinge la sordida materia con cui costruisce la sua storia:
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+4	iniziale	iniziale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	profondissimo	profondo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	7	amod	_	_
+7	pozzo	pozzo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	nero	nero	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	Allegra	allegra	PROPN	SP	_	7	nmod	_	_
+11	attinge	attingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sordida	sordido	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	materia	materia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+17	costruisce	costruire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	storia	storia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 14
+# text = un universo scatologico e stercorario di infamie e turpitudini, di depravazione e degrado.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	universo	universo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	scatologico	scatologico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	stercorario	stercorario	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	infamie	infamia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	turpitudini	turpitudine	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	depravazione	depravazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	degrado	degrado	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = La città appare quasi vuota, come soggiogata da un sortilegio che l'ha sottratta a una vita normale, consegnandola quasi totalmente nelle mani della criminalità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	città	città	NOUN	S	Gender=Fem	3	nsubj	_	_
+3	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quasi	quasi	ADV	B	_	5	advmod	_	_
+5	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	come	come	SCONJ	CS	_	8	mark	_	_
+8	soggiogata	soggiogare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sortilegio	sortilegio	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	sottratta	sottrarre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vita	vita	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	normale	normale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	consegnandola	consegnandolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	quasi	quasi	ADV	B	_	23	advmod	_	_
+23	totalmente	totalmente	ADV	B	_	21	advmod	_	_
+24-25	nelle	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	mani	mano	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	criminalità	criminalità	NOUN	S	Gender=Fem	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Intanto Totuccio cresce, abbandona la sua condizione di bambino-cucciolo e si affaccia alle problematiche perturbanti dell'adolescenza.
+1	Intanto	intanto	ADV	B	_	3	advmod	_	_
+2	Totuccio	Totuccio	PROPN	SP	_	3	nsubj	_	_
+3	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	abbandona	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	cucciolo	cucciolo	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	affaccia	affacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	problematiche	problematica	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+19	perturbanti	perturbante	ADV	B	_	22	advmod	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	adolescenza	adolescenza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Brutto e ignaro del bene e del male, strabuzza il suo occhio losco, gettando sul mondo uno sguardo guercio e idiota.
+1	Brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	ignaro	ignaro	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	bene	bene	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	male	male	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	strabuzza	strabuzzare	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+16	losco	losco	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	gettando	gettare	VERB	V	VerbForm=Ger	1	advcl	_	_
+19-20	sul	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+24	guercio	guercio	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	idiota	idioto	ADJ	A	Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = È destinato a diventare la vittima della crudele perfidia dei coetanei, ma trova in Giacomo, giovane maestro mancato, una guida fraterna, sebbene non priva di equivoche virtù da malaffare.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	diventare	diventare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	crudele	crudela	ADJ	A	Number=Sing	10	amod	_	_
+10	perfidia	perfidio	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	coetanei	coetaneo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ma	ma	CCONJ	CC	_	16	cc	_	_
+16	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Giacomo	Giacomo	PROPN	SP	_	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	giovane	giovane	ADJ	A	Number=Sing	21	amod	_	_
+21	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+22	mancato	mancato	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	guida	guida	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+26	fraterna	fraterno	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	sebbene	sebbene	SCONJ	CS	_	30	mark	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	priva	privo	ADJ	A	Gender=Fem|Number=Sing	25	advcl	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	equivoche	equivoco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	33	det	_	_
+33	virtù	virtù	NOUN	S	Gender=Fem	30	obl	_	_
+34	da	da	ADP	E	_	35	mark	_	_
+35	malaffare	malaffare	VERB	V	VerbForm=Inf	33	acl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Inizia quindi un apprendistato erotico e alle dure leggi della sopravvivenza nella borgata.
+1	Inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quindi	quindi	ADV	B	_	1	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	apprendistato	apprendistato	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	erotico	erotico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	dure	duro	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sopravvivenza	sopravvivenza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	borgata	borgata	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Si tratta ancora di un'educazione para-mafiosa, contrassegnata da un primitivo spirito di difesa e rivalsa e da un viscerale machismo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	para-mafiosa	para-mafioso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	contrassegnata	contrassegnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	primitivo	primitivo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	9	obl:agent	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	rivalsa	rivalsa	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	da	da	ADP	E	_	22	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	viscerale	viscerale	ADJ	A	Number=Sing	22	amod	_	_
+22	machismo	machismo	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Non ci sono buoni a tutto tondo in questa storia.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	buoni	buono	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	_
+7	tondo	tondo	VERB	V	VerbForm=Ger	4	advcl	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Gianni Allegra rappresenta perfettamente questo scenario desolato, che a tratti ricorda "Los olvidados" di Buñuel o gli apocalittici ghetti del cinema di Ciprì e Maresco, ricorrendo a un segno marcato, a un espressionismo deformante, a una sensualità greve e disfatta, a una carica rabbiosa.
+1	Gianni	Gianni	PROPN	SP	_	3	nsubj	_	_
+2	Allegra	allegra	PROPN	SP	_	1	flat:name	_	_
+3	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	perfettamente	perfettamente	ADV	B	_	3	advmod	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	desolato	desolato	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	tratti	trattare	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+12	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Los	Los	PROPN	SP	_	12	obj	_	_
+15	olvidados	olvidados	PROPN	SW	Foreign=Yes	14	flat:name	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	14	punct	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Buñuel	Buñuel	PROPN	SP	_	14	nmod	_	_
+19	o	o	CCONJ	CC	_	22	cc	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	apocalittici	apocalittico	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+22	ghetti	ghetto	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	cinema	cinema	NOUN	S	Gender=Masc	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Ciprì	Ciprì	PROPN	SP	_	25	nmod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	Maresco	Maresco	PROPN	SP	_	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	12	punct	_	_
+31	ricorrendo	ricorrere	VERB	V	VerbForm=Ger	12	advcl	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	segno	segno	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35	marcato	marcato	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	39	punct	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	espressionismo	espressionismo	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	_
+40	deformante	deformante	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	44	punct	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	sensualità	sensualità	NOUN	S	Gender=Fem	34	conj	_	_
+45	greve	greve	ADJ	A	Number=Sing	44	amod	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	disfatta	disfatto	ADJ	A	Gender=Fem|Number=Sing	45	conj	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	31	punct	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	carica	carica	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+52	rabbiosa	rabbioso	ADJ	A	Gender=Fem|Number=Sing	51	amod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = La narrazione procede senza freni inibitori o autocensure, ma come regredendo antropologicamente al linguaggio di strada dell'adolescenza screanzata, al suo iperbolico turpiloquio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	procede	procedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	senza	senza	ADP	E	_	6	case	_	_
+5	freni	freno	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	inibitori	inibitore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	autocensure	autocensure	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	come	come	ADV	B	_	12	advmod	_	_
+12	regredendo	regredere	VERB	V	VerbForm=Ger	3	conj	_	_
+13	antropologicamente	antropologicamente	ADV	B	_	12	advmod	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	linguaggio	linguaggio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	strada	strada	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	adolescenza	adolescenza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	screanzata	screanzato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	28	punct	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	28	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+26	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+27	iperbolico	iperbolico	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	turpiloquio	turpiloquio	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Il romanzo di formazione assurge così a romanzo di trasformazione, nei modi di una tragica e oscena parodia:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	assurge	assurgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	modi	modo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+15	di	di	ADP	E	_	20	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+17	tragica	tragico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	oscena	osceno	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	_
+20	parodia	parodia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 25
+# text = il misero Totuccio, ragazzo-cane che vive ai margini della città perduta, è stravolto da una fantastica metamorfosi.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	misero	midere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Totuccio	Totuccio	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	cane	cane	NOUN	S	Gender=Masc|Number=Sing	5	compound	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+10-11	ai	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	margini	margine	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	città	città	NOUN	S	Gender=Fem	12	nmod	_	_
+16	perduta	perduto	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	stravolto	stravogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fantastica	fantastica	NOUN	S	Gender=Fem|Number=Sing	19	obl:agent	_	_
+23	metamorfosi	metamorfoso	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Grazie alle pillole blu che gli ha fornito una prostituta ha potuto convertire la sua inespressa sessualità in una dirompente energia liberatoria con la quale sconfigge, umilia e punisce i criminali nei panni grotteschi di Minkiaman, un supereroe mascherato alla bell'e meglio che si muove rapido e rapace con l'ausilio di un paio di pattini.
+1	Grazie	grazie	NOUN	S	_	4	case	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	pillole	pillola	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+5	blu	blu	ADJ	A	_	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fornito	fornire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	prostituta	prostituta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
+14	convertire	convertire	VERB	V	VerbForm=Inf	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+17	inespressa	inespresso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	sessualità	sessualità	NOUN	S	Gender=Fem	14	obj	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	dirompente	dirompente	ADJ	A	Number=Sing	22	amod	_	_
+22	energia	energia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+23	liberatoria	liberatorio	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	quale	quale	PRON	PR	Number=Sing|PronType=Rel	27	obl	_	_
+27	sconfigge	sconfiggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	umilia	umiliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	punisce	punire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	criminali	criminale	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	_
+34-35	nei	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	panni	panno	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	_
+37	grotteschi	grottesco	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	Minkiaman	Minkiaman	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	42	punct	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	supereroe	supereroe	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+43	mascherato	mascherato	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+44-45	alla	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	bell'	bello	ADJ	A	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	meglio	meglio	ADJ	A	_	46	conj	_	_
+49	che	che	PRON	PR	PronType=Rel	51	nsubj	_	_
+50	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	51	expl	_	_
+51	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+52	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	51	xcomp	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	rapace	rapace	ADJ	A	Number=Sing	52	conj	_	_
+55	con	con	ADP	E	_	57	case	_	_
+56	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
+57	ausilio	ausilio	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	_
+58	di	di	ADP	E	_	60	case	_	_
+59	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	paio	paio	NOUN	S	Gender=Masc|Number=Sing	57	nmod	_	_
+61	di	di	ADP	E	_	62	case	_	_
+62	pattini	patto	NOUN	S	Gender=Masc|Number=Plur	60	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Allegra gioca la sua linea figurativa e narrativa a un passo dal caricaturale, con tanto di anti-edipica agnizione, fino ai limiti estremi dell'inenarrabile e dell'ambiguità.
+1	Allegra	allegra	PROPN	SP	_	2	nsubj	_	_
+2	gioca	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	linea	linea	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	figurativa	figurativo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	narrativa	narrativo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	passo	passo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	caricaturale	caricaturale	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	tanto	tanto	ADV	B	_	2	advmod	_	_
+18	di	di	ADP	E	_	22	case	_	_
+19	anti	anti	ADJ	A	_	22	amod	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+21	edipica	edipico	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	agnizione	agnizione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	fino	fino	ADV	B	_	27	case	_	_
+25-26	ai	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+28	estremi	estremio	ADJ	A	Number=Plur	27	amod	_	_
+29-30	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+29	di	di	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	inenarrabile	inenarrabile	ADJ	A	Number=Sing	27	nmod	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+33	di	di	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	ambiguità	ambiguità	NOUN	S	Gender=Fem	31	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Non concede nulla al politicamente corretto, non ricorre a eufemismi per nessuna delle sue scelte estetiche.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	concede	concedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	politicamente	politicamente	ADV	B	_	7	advmod	_	_
+7	corretto	corretto	ADJ	A	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	ricorre	ricorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	eufemismi	eufemismo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	nessuna	nessuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	obl	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+19	estetiche	estetico	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

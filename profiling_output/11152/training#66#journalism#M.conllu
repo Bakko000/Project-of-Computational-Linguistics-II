@@ -1,0 +1,373 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Torino, boom del panino a scuola:
+1	Torino	Torino	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	boom	boom	NOUN	S	Gender=Masc	1	appos	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	panino	panino	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = mensa addio per quasi un bambino su quattro
+1	mensa	mensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	addio	addio	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	quasi	quasi	ADV	B	_	6	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	quattro	quattro	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = I dati ufficiali dell'assessorato alle Risorse educative:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dati	dato	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	ufficiali	ufficiale	ADJ	A	Number=Plur	2	amod	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	assessorato	assessorato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	educative	educativo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = in elementari e medie refezione per 28mila mentre 8mila rinunciano
+1	in	in	ADP	E	_	5	case	_	_
+2	elementari	elementare	ADJ	A	Number=Plur	5	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	medie	medio	ADJ	A	Gender=Fem|Number=Plur	2	conj	_	_
+5	refezione	refezione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	28mila	28mila	NUM	N	NumType=Card	5	nummod	_	_
+8	mentre	mentre	SCONJ	CS	_	10	mark	_	_
+9	8mila	8mila	NUM	N	NumType=Card	10	nummod	_	_
+10	rinunciano	rinunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Un bambino su quattro a Torino non mangia più in mensa a scuola.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	su	su	ADP	E	_	4	case	_	_
+4	quattro	quattro	NUM	N	NumType=Card	2	nummod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Torino	Torino	PROPN	SP	_	2	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	mangia	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	più	più	ADV	B	_	8	advmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	mensa	mensa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Le famiglie hanno deciso di optare per il pasto da casa, tra panino o "schiscetta", in quasi 8mila casi su un totale di 36mila.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	optare	optare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pasto	pasto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	tra	tra	ADP	E	_	14	case	_	_
+14	panino	panino	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+15	o	o	CCONJ	CC	_	17	cc	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	schiscetta	schiscetta	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	quasi	quasi	ADV	B	_	22	advmod	_	_
+22	8mila	8mila	NUM	N	NumType=Card	23	nummod	_	_
+23	casi	caso	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	totale	totale	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	36mila	36mila	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = E il dato è in crescita nonostante a settembre 2017 la situazione sembrasse in assestamento, come spiega la stessa direzione dell'assessorato alle Risorse educative rispondendo alla richiesta, avanzata dal capogruppo della Lega Nord Fabrizio Ricca, di avere dati precisi.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dato	dato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+7	nonostante	nonostante	ADJ	A	Number=Sing	6	amod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	2017	2017	NUM	N	NumType=Card	9	nummod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	sembrasse	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	assestamento	assestamento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	come	come	SCONJ	CS	_	18	mark	_	_
+18	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22-23	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	assessorato	assessorato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	alle	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	Risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+28	educative	educativo	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+29	rispondendo	rispondere	VERB	V	VerbForm=Ger	18	advcl	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	avanzata	avanzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+35-36	dal	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	capogruppo	capogruppo	NOUN	S	Gender=Masc|Number=Sing	34	obl:agent	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Lega	lega	PROPN	SP	_	37	nmod	_	_
+41	Nord	Nord	PROPN	SP	_	40	flat:name	_	_
+42	Fabrizio	Fabrizio	PROPN	SP	_	40	flat:name	_	_
+43	Ricca	ricca	PROPN	SP	_	40	flat:name	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	13	punct	_	_
+45	di	di	ADP	E	_	46	mark	_	_
+46	avere	avere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+47	dati	dato	NOUN	S	Gender=Masc|Number=Plur	46	obj	_	_
+48	precisi	preciso	ADJ	A	Gender=Masc|Number=Plur	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Replica poi rilanciata dalla pagina Facebook del Comitato Caro Mensa di Torino.
+1	Replica	replicare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	rilanciata	rilanciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	Facebook	Facebook	PROPN	SP	_	6	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	Caro	Caro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	Mensa	Mensa	PROPN	SP	_	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Torino	Torino	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Il direttore dell'assessorato guidato da Federica Patti, Aldo Garbarini, spiega che "nel mese di gennaio 2018, in fase di assestamento, il numero degli iscritti al servizio di ristorazione scolastica nella scuola dell'obbligo ammontava a 27.897, mentre quello degli utenti che consumano il pasto domestico nei locali scolastici nel secondo quadrimestre è
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	assessorato	assessorato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Federica	Federica	PROPN	SP	_	6	obl:agent	_	_
+9	Patti	patti	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	Aldo	Aldo	PROPN	SP	_	2	appos	_	_
+12	Garbarini	Garbarini	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	che	che	SCONJ	CS	_	46	mark	_	_
+16	"	"	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mese	mese	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	2018	2018	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	fase	fase	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	assestamento	assestamento	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	numero	numero	NOUN	S	Gender=Masc|Number=Sing	46	nsubj	_	_
+31-32	degli	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34-35	al	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	ristorazione	ristorazione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+39	scolastica	scolastico	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+40-41	nella	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+43-44	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+43	di	di	ADP	E	_	45	case	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	_
+45	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+46	ammontava	ammontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	ccomp	_	_
+47	a	a	ADP	E	_	48	case	_	_
+48	27.897	27.897	NUM	N	NumType=Card	46	nummod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	51	punct	_	_
+50	mentre	mentre	CCONJ	CC	_	51	cc	_	_
+51	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	46	conj	_	_
+52-53	degli	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	utenti	utente	NOUN	S	Number=Plur	51	nmod	_	_
+55	che	che	PRON	PR	PronType=Rel	56	nsubj	_	_
+56	consumano	consumare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	acl:relcl	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	pasto	pasto	NOUN	S	Gender=Masc|Number=Sing	56	obj	_	_
+59	domestico	domestico	ADJ	A	Gender=Masc|Number=Sing	58	amod	_	_
+60-61	nei	_	_	_	_	_	_	_	_
+60	in	in	ADP	E	_	62	case	_	_
+61	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
+62	locali	locale	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	_
+63	scolastici	scolastico	ADJ	A	Gender=Masc|Number=Plur	62	amod	_	_
+64-65	nel	_	_	_	_	_	_	_	_
+64	in	in	ADP	E	_	67	case	_	_
+65	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+66	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	67	amod	_	_
+67	quadrimestre	quadrimestra	NOUN	S	Gender=Masc|Number=Sing	62	nmod	_	_
+68	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = pari a 7.906".
+1	pari	pari	ADJ	A	_	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	7.906	7.906	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = A gennaio, aggiungendo i 13.008 iscritti alla mensa delle scuole dell'infanzia, il numero complessivo di chi ha scelto il servizio di refezione è quindi di 40.905.
+1	A	a	ADP	E	_	2	case	_	_
+2	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	aggiungendo	aggiungere	VERB	V	VerbForm=Ger	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	13.008	13.008	NUM	N	NumType=Card	7	nummod	_	_
+7	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mensa	mensa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	numero	numero	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+20	complessivo	complessivo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	chi	chi	PRON	PR	PronType=Rel	19	nmod	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	refezione	refezione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+30	quindi	quindi	ADV	B	_	32	advmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	40.905	40.905	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Dice l'avvocato Giorgio Vecchione, che assiste i genitori "No mensa":
+1	Dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	Giorgio	Giorgio	PROPN	SP	_	3	nmod	_	_
+5	Vecchione	Vecchione	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	assiste	assistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	No	no	INTJ	I	Polarity=Neg	13	discourse	_	_
+13	mensa	mensa	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 13
+# text = "Invitiamo a riflettere chi di dovere sulle tariffe, sulla qualità e anche sulla scelta politica di andare in causa in Cassazione contro gli interessi di tutte queste famiglie torinesi".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Invitiamo	Invitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	riflettere	riflettere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	sulle	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	tariffe	tariffa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	qualità	qualità	NOUN	S	Gender=Fem	4	obl	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	anche	anche	ADV	B	_	19	advmod	_	_
+17-18	sulla	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+20	politica	politico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	andare	andare	VERB	V	VerbForm=Inf	19	acl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	causa	causa	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	Cassazione	cassazione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+27	contro	contro	ADP	E	_	29	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	33	det:predet	_	_
+32	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	33	det	_	_
+33	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+34	torinesi	torinese	ADJ	A	Number=Plur	33	amod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

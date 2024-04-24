@@ -1,0 +1,907 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Mi disintossico da internet"
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	disintossico	disintossico	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	internet	internet	NOUN	S	_	3	obl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Usa, l'ospedale contro la web dipendenza
+1	Usa	Usa	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	contro	contro	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	web	web	NOUN	S	Gender=Masc	4	nmod	_	_
+8	dipendenza	dipendenza	NOUN	S	Gender=Fem|Number=Sing	7	compound	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Parte a Bradford, in Pennsylvania, il primo programma statunitense destinato ai malati gravi della Rete, quelli che hanno compromesso la propria vita in un'ossessione senza uscita.
+1	Parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Bradford	Bradford	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Pennsylvania	Pennsylvania	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+10	programma	programma	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+11	statunitense	statunitense	ADJ	A	Number=Sing	10	amod	_	_
+12	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	malati	malato	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	gravi	grave	ADJ	A	Number=Plur	15	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	15	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	compromesso	compromettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	vita	vita	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	ossessione	ossessione	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+31	senza	senza	ADP	E	_	32	case	_	_
+32	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = "Internet è gratuito, legale e senza zuccheri - spiega la fondatrice Kimberly Young - e può quindi essere più pericoloso dell'alcolismo"
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Internet	Internet	PROPN	SP	_	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	gratuito	gratuito	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	legale	legale	ADJ	A	Number=Sing	4	conj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	senza	senza	ADP	E	_	9	case	_	_
+9	zuccheri	zucchero	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+10	-	-	PUNCT	FB	_	4	punct	_	_
+11	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fondatrice	fondatore	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+14	Kimberly	Kimberly	PROPN	SP	_	13	nmod	_	_
+15	Young	Young	PROPN	SP	_	14	flat:name	_	_
+16	-	-	PUNCT	FF	_	11	punct	_	_
+17	e	e	CCONJ	CC	_	22	cc	_	_
+18	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+19	quindi	quindi	ADV	B	_	22	advmod	_	_
+20	essere	essere	AUX	V	VerbForm=Inf	22	cop	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	alcolismo	alcolismo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Dipendenza da internet.
+1	Dipendenza	dipendenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	internet	internet	NOUN	S	_	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Meglio nota come Iad, Internet addiction disorder.
+1	Meglio	meglio	ADV	B	_	2	advmod	_	_
+2	nota	noto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	Iad	Iad	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Internet	Internet	X	SW	Foreign=Yes	4	appos	_	_
+7	addiction	addiction	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	disorder	disorder	X	SW	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Sesso, gambling - cioè gioco e scommesse online - sovraccarico cognitivo, assoluta e definitiva pervasività della connessione mobile.
+1	Sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	gambling	gambling	NOUN	S	Gender=Masc	6	nmod	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	cioè	cioè	ADV	B	_	3	advmod	_	_
+6	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	scommesse	scommettere	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+9	online	online	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	-	-	PUNCT	FF	_	8	punct	_	_
+11	sovraccarico	sovraccarico	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	cognitivo	cognitivo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+17	pervasività	pervasività	NOUN	S	Gender=Fem	11	compound	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	connessione	connessione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	mobile	mobile	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Le sfumature sono tante, ciascuna con le proprie caratteristiche, la malattia la stessa.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	sfumature	sfumatura	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	tante	tante	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ciascuna	ciascuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = È uno dei fronti di guerra più delicati della psichiatria contemporanea, che ci riflette da quasi vent'anni e che tuttavia mostra ancora segni di resistenza nell'innalzare il Web alla stregua di alcol e droghe.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	fronti	fronte	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	delicati	delicato	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	psichiatria	psichiatria	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	contemporanea	contemporaneo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	obj	_	_
+17	riflette	riflettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	da	da	ADP	E	_	21	case	_	_
+19	quasi	quasi	ADV	B	_	20	advmod	_	_
+20	vent'	venti	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	tuttavia	tuttavia	ADV	B	_	25	advmod	_	_
+25	mostra	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+26	ancora	ancora	ADV	B	_	25	advmod	_	_
+27	segni	segno	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30-31	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+30	in	in	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	innalzare	innalzare	VERB	V	VerbForm=Inf	29	nmod	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Web	web	PROPN	SP	_	32	obj	_	_
+35-36	alla	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	stregua	stregua	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	droghe	droga	NOUN	S	Gender=Fem|Number=Plur	39	conj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = I primi studi risalgono infatti alla metà degli anni Novanta.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	studi	studio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	risalgono	risalire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	infatti	infatti	ADV	B	_	4	advmod	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	metà	metà	NOUN	S	Gender=Fem	4	obl	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	Novanta	novanta	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Ma certo negli ultimi dieci il fenomeno è esploso:
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	certo	certo	ADV	B	_	10	advmod	_	_
+3-4	negli	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	dieci	dieci	NUM	N	NumType=Card	10	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	esploso	esplodere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 12
+# text = secondo la Società italiana di psichiatria in Italia nel 2012 ne soffrivano quasi tre milioni di italiani.
+1	secondo	secondo	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Società	società	NOUN	S	Gender=Fem	13	obl	_	_
+4	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	psichiatria	psichiatria	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	6	nmod	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	2012	2012	NUM	N	NumType=Card	13	obl	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+13	soffrivano	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	quasi	quasi	ADV	B	_	15	advmod	_	_
+15	tre	tre	NUM	N	NumType=Card	16	nummod	_	_
+16	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 13
+# text = Gente che trascorre dalle otto alle 12 ore al giorno di fronte al monitor e non trova alcuno stimolo nelle altre attività di una normale giornata.
+1	Gente	gente	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	trascorre	trascorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	otto	otto	NUM	N	NumType=Card	3	obl	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	12	12	NUM	N	NumType=Card	10	nummod	_	_
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	fronte	fronte	NOUN	S	Number=Sing	13	nmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	monitor	monitor	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	alcuno	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	23	det	_	_
+23	stimolo	stimolo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	nelle	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	27	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	altre	altro	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+27	attività	attività	NOUN	S	Gender=Fem	21	obl	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	normale	normale	ADJ	A	Number=Sing	31	amod	_	_
+31	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Negli Stati Uniti, al Behavioral Health Services del Bradford Regional Medical Center, Pennsylvania, parte il 9 settembre il primo programma statunitense dedicato ai malati gravi della Rete.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Stati	Stati	PROPN	SP	_	0	root	_	_
+4	Uniti	Uniti	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Behavioral	Behavioral	PROPN	SP	_	3	nmod	_	_
+9	Health	Health	PROPN	SP	_	8	flat:name	_	_
+10	Services	Services	PROPN	SP	_	8	flat:name	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Bradford	Bradford	PROPN	SP	_	8	nmod	_	_
+14	Regional	Regional	PROPN	SP	_	13	flat:name	_	_
+15	Medical	Medical	PROPN	SP	_	13	flat:name	_	_
+16	Center	Center	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	Pennsylvania	Pennsylvania	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	9	9	NUM	N	NumType=Card	20	nmod	_	_
+23	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	22	flat	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	26	amod	_	_
+26	programma	programma	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+27	statunitense	statunitense	ADJ	A	Number=Sing	26	amod	_	_
+28	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	malati	malato	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+32	gravi	grave	ADJ	A	Number=Plur	31	amod	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Il piano di cura - a cui si partecipa volontariamente e che costa14mila dollari - è intensivo:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	piano	piano	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cura	cura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	-	-	PUNCT	FB	_	4	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	partecipa	partecipare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	volontariamente	volontariamente	ADV	B	_	9	advmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	costa14mila	costa14mila	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	-	-	PUNCT	FB	_	2	punct	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	intensivo	intensivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 16
+# text = dura infatti dieci giorni, prevede una serie di attività lavorative ed è il primo degli Stati Uniti esclusivamente dedicato alla dipendenza dal Web senza apparente via d'uscita.
+1	dura	durare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	infatti	infatti	ADV	B	_	1	advmod	_	_
+3	dieci	dieci	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	serie	serie	NOUN	S	Gender=Fem	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	attività	attività	NOUN	S	Gender=Fem	8	nmod	_	_
+11	lavorative	lavorativo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	ed	e	CCONJ	CC	_	15	cc	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	conj	_	_
+16-17	degli	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Stati	Stati	PROPN	SP	_	15	obl	_	_
+19	Uniti	Uniti	PROPN	SP	_	18	flat:name	_	_
+20	esclusivamente	esclusivamente	ADV	B	_	21	advmod	_	_
+21	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	dipendenza	dipendenza	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	dal	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Web	web	PROPN	SP	_	24	nmod	_	_
+28	senza	senza	ADP	E	_	30	case	_	_
+29	apparente	apparente	ADJ	A	Number=Sing	30	amod	_	_
+30	via	via	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+31	d'	di	ADP	E	_	32	case	_	SpaceAfter=No
+32	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Si tratta di una patologia che "può essere più pervasiva dell'alcolismo - spiega Kimberly Young, la psicologa che ha fondato il centro - internet infatti è gratuito, legale e senza zuccheri".
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	patologia	patologia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+7	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	essere	essere	AUX	V	VerbForm=Inf	11	cop	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	pervasiva	pervasivo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	alcolismo	alcolismo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	-	-	PUNCT	FB	_	16	punct	_	_
+16	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+17	Kimberly	Kimberly	PROPN	SP	_	16	nsubj	_	_
+18	Young	Young	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	psicologa	psicologo	NOUN	S	Gender=Fem|Number=Sing	17	appos	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	fondato	fondare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	centro	centro	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	-	-	PUNCT	FB	_	16	punct	_	_
+28	internet	internet	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+29	infatti	infatti	ADV	B	_	28	advmod	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	gratuito	gratuito	ADJ	A	Gender=Masc|Number=Sing	28	xcomp	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	legale	legale	ADJ	A	Number=Sing	31	conj	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	senza	senza	ADP	E	_	36	case	_	_
+36	zuccheri	zucchero	NOUN	S	Gender=Masc|Number=Plur	31	conj	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = A dimostrazione della singolarità e dell'eccezionalità della struttura, il programma è riservato a quattro pazienti adulti alla volta ed è messo in atto in un'ala un tempo riservata ai malati da dipendenze classiche, ora destinata anche ai nuovi sofferenti della Rete.
+1	A	a	ADP	E	_	2	case	_	_
+2	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	singolarità	singolarità	NOUN	S	Gender=Fem	2	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	eccezionalità	eccezionalità	NOUN	S	Gender=Fem	5	conj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	programma	programma	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	riservato	riservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	quattro	quattro	NUM	N	NumType=Card	20	nummod	_	_
+20	pazienti	paziente	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	adulti	adulto	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	volta	volta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+25	ed	e	CCONJ	CC	_	27	cc	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	atto	atto	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	ala	ala	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
+35	riservata	riservato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	34	acl	_	_
+36-37	ai	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	malati	malato	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+39	da	da	ADP	E	_	40	case	_	_
+40	dipendenze	dipendenza	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+41	classiche	classico	ADJ	A	Gender=Fem|Number=Plur	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	27	punct	_	_
+43	ora	ora	ADV	B	_	44	advmod	_	_
+44	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+45	anche	anche	ADV	B	_	49	advmod	_	_
+46-47	ai	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	49	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+48	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	49	amod	_	_
+49	sofferenti	sofferente	NOUN	S	Gender=Masc|Number=Plur	44	obl	_	_
+50-51	della	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 19
+# text = Insomma, un vero e proprio ospedale per web-degenti.
+1	Insomma	insomma	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+7	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	web-degenti	web-degento	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Attenzione però: non basta essere smanettoni o trascorrere troppo tempo circondati da aggeggi hi-tech per candidarsi al costoso "digital detox" statunitense.
+1	Attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	però	però	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+7	smanettoni	smanettone	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	trascorrere	trascorrere	VERB	V	VerbForm=Inf	7	conj	_	_
+10	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+11	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	circondati	circondare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	aggeggi	aggeggio	NOUN	S	Gender=Masc|Number=Plur	12	obl:agent	_	_
+15	hi	o	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	-	-	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+17	tech	tech	NOUN	S	_	7	compound	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19-20	candidarsi	_	_	_	_	_	_	_	_
+19	candidar	candidare	VERB	V	VerbForm=Inf	5	advcl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	26	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+23	costoso	costoso	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+24	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	digital	digital	ADJ	A	_	26	amod	_	_
+26	detox	detox	NOUN	S	_	19	obl	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	_
+28	statunitense	statunitense	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Quella è ormai una condizione abbastanza comune.
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ormai	ormai	ADV	B	_	5	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	abbastanza	abbastanza	ADV	B	_	7	advmod	_	_
+7	comune	comune	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Come dicono anche la dottoressa Young e i suoi colleghi, il ventenne che divide la sua vita fra la fidanzata e World of Warcraft o qualsiasi altro videogame in Rete, magari multiruolo, non ha per forza bisogno di una terapia d'urto del genere.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	dottoressa	dottoressa	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	Young	Young	PROPN	SP	_	5	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ventenne	ventenne	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	divide	dividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	vita	vita	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	fra	fra	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	World	World	PROPN	SP	_	21	conj	_	_
+24	of	of	ADP	E	_	25	case	_	_
+25	Warcraft	Warcraft	PROPN	SP	_	23	nmod	_	_
+26	o	o	CCONJ	CC	_	29	cc	_	_
+27	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+28	altro	altro	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	videogame	videogame	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	23	punct	_	_
+33	magari	magari	ADV	B	_	34	advmod	_	_
+34	multiruolo	multiruolo	NOUN	S	Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+37	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+38	per	per	ADP	E	_	39	case	_	_
+39	forza	forza	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+40	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+44	d'	di	ADP	E	_	45	case	_	SpaceAfter=No
+45	urto	urto	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+46-47	del	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	genere	genere	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = L'ospedale della Pennsylvania è riservato a quelli che hanno distrutto le proprie vite, dando in pasto la propria normalità all'ossessione per la Rete.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Pennsylvania	Pennsylvania	PROPN	SP	_	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	riservato	riservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	7	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	distrutto	distruggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	vite	vita	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	dando	dare	VERB	V	VerbForm=Ger	7	advcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	pasto	pasto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	normalità	normalità	NOUN	S	Gender=Fem	17	obj	_	_
+23-24	all'	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	ossessione	ossessione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 24
+# text = Magari provando a salvarsi, in passato, ma senza esito.
+1	Magari	magari	ADV	B	_	2	advmod	_	_
+2	provando	provare	VERB	V	VerbForm=Ger	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4-5	salvarsi	_	_	_	_	_	_	_	SpaceAfter=No
+4	salvar	salvare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	passato	passato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	esito	esito	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = Gente finita in una spirale senza ritorno, all'ultimo stadio, come si direbbe in caso di disturbi classici.
+1	Gente	gente	NOUN	S	Number=Sing	0	root	_	_
+2	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	spirale	spirale	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	12	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+11	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	come	come	SCONJ	CS	_	16	mark	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	direbbe	dire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	caso	caso	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	classici	classico	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 26
+# text = Ai quali tuttavia la Iad finisce spesso con l'associarsi.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	7	obl	_	_
+4	tuttavia	tuttavia	ADV	B	_	7	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Iad	Iad	PROPN	SP	_	7	nsubj	_	_
+7	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	spesso	spesso	ADV	B	_	7	advmod	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11-12	associarsi	_	_	_	_	_	_	_	SpaceAfter=No
+11	associar	associare	VERB	V	VerbForm=Inf	7	obl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 27
+# text = Almeno secondo il dottor Roger Laroche, direttore medico del dipartimento di psichiatria all'ospedale di Bradford.
+1	Almeno	almeno	ADV	B	_	4	advmod	_	_
+2	secondo	secondo	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	Roger	Roger	PROPN	SP	_	4	nmod	_	_
+6	Laroche	Laroco	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+9	medico	medico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	psichiatria	psichiatria	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Bradford	Bradford	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Non tutti gli spiecialisti sono però d'accordo sull'effettiva gravità della patologia.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	spiecialisti	spiecialista	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	però	però	ADV	B	_	8	advmod	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+9	su	su	ADP	E	_	12	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+11	effettiva	effettivo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	gravità	gravità	NOUN	S	Gender=Fem	8	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	patologia	patologia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 29
+# text = E quindi sui sistemi per curarla:
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	quindi	quindi	ADV	B	_	5	advmod	_	_
+3-4	sui	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	curarla	_	_	_	_	_	_	_	SpaceAfter=No
+7	curar	curare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 30
+# text = "Se possiamo essere dipendenti dal gambling e da internet perché non includere anche le dipendenze dallo shopping, dalla palestra, dal sesso, dal lavoro, dal golf, dalla tintarella, dal modellismo o come volete?" si è polemicamente domandanto in un post sull'Huffington Post Usa Allen Frances, psichiatra della Duke University e direttore del Manuale diagnostico e statistico dei disordini mentali dell'American Psychiatric Association, la Bibbia del settore.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	5	mark	_	_
+3	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	cop	_	_
+5	dipendenti	dipendere	NOUN	S	Number=Plur	0	root	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gambling	gambling	NOUN	S	Gender=Masc	5	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	internet	internet	NOUN	S	Gender=Masc	5	conj	_	_
+12	perché	perché	SCONJ	CS	_	14	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	includere	includere	VERB	V	VerbForm=Inf	5	advcl	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	dipendenze	dipendenza	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+18-19	dallo	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	shopping	shopping	NOUN	S	Gender=Masc	14	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	palestra	palestra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	5	punct	_	_
+30-31	dal	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	5	punct	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	golf	golf	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	5	punct	_	_
+38-39	dalla	_	_	_	_	_	_	_	_
+38	da	da	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	tintarella	tintarella	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	5	punct	_	_
+42-43	dal	_	_	_	_	_	_	_	_
+42	da	da	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	modellismo	modellismo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+45	o	o	CCONJ	CC	_	47	cc	_	_
+46	come	come	ADP	E	_	47	case	_	_
+47	volete	volere	NOUN	S	Gender=Fem|Number=Plur	44	conj	_	SpaceAfter=No
+48	?	?	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+49	"	"	PUNCT	FB	_	5	punct	_	_
+50	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	93	expl	_	_
+51	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	89	cop	_	_
+52	polemicamente	polemico	ADV	B	_	53	advmod	_	_
+53	domandanto	domandanto	ADV	B	_	89	advmod	_	_
+54	in	in	ADP	E	_	56	case	_	_
+55	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	post	post	NOUN	S	Gender=Masc	53	obl	_	_
+57-58	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+57	su	su	ADP	E	_	59	case	_	_
+58	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	59	det	_	_
+59	Huffington	Huffington	PROPN	SP	_	56	nmod	_	_
+60	Post	post	PROPN	SP	_	59	flat:name	_	_
+61	Usa	Usa	PROPN	SP	_	59	flat:name	_	_
+62	Allen	Allen	PROPN	SP	_	59	nmod	_	_
+63	Frances	Frances	PROPN	SP	_	62	flat:name	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	62	punct	_	_
+65	psichiatra	psichiatra	NOUN	S	Number=Sing	62	appos	_	_
+66-67	della	_	_	_	_	_	_	_	_
+66	di	di	ADP	E	_	68	case	_	_
+67	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
+68	Duke	Duke	PROPN	SP	_	65	nmod	_	_
+69	University	University	PROPN	SP	_	68	flat:name	_	_
+70	e	e	CCONJ	CC	_	71	cc	_	_
+71	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	65	conj	_	_
+72-73	del	_	_	_	_	_	_	_	_
+72	di	di	ADP	E	_	74	case	_	_
+73	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+74	Manuale	manuale	NOUN	S	Gender=Masc|Number=Sing	71	nmod	_	_
+75	diagnostico	diagnostico	ADJ	A	Gender=Masc|Number=Sing	74	amod	_	_
+76	e	e	CCONJ	CC	_	77	cc	_	_
+77	statistico	statistico	ADJ	A	Gender=Masc|Number=Sing	75	conj	_	_
+78-79	dei	_	_	_	_	_	_	_	_
+78	di	di	ADP	E	_	80	case	_	_
+79	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	80	det	_	_
+80	disordini	disordine	NOUN	S	Gender=Masc|Number=Plur	74	nmod	_	_
+81	mentali	mentale	ADJ	A	Number=Plur	80	amod	_	_
+82-83	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+82	di	di	ADP	E	_	84	case	_	_
+83	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	84	det	_	_
+84	American	American	PROPN	SP	_	80	nmod	_	_
+85	Psychiatric	Psychiatric	PROPN	SP	_	84	flat:name	_	_
+86	Association	Association	PROPN	SP	_	84	flat:name	_	SpaceAfter=No
+87	,	,	PUNCT	FF	_	53	punct	_	_
+88	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	89	det	_	_
+89	Bibbia	Bibbia	PROPN	SP	_	50	nsubj	_	_
+90-91	del	_	_	_	_	_	_	_	_
+90	di	di	ADP	E	_	92	case	_	_
+91	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	92	det	_	_
+92	settore	settore	NOUN	S	Gender=Masc|Number=Sing	89	nmod	_	SpaceAfter=No
+93	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = La partita - non in Rete, per fortuna - è ancora aperta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	partita	partita	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	-	-	PUNCT	FB	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+10	-	-	PUNCT	FB	_	13	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	ancora	ancora	ADV	B	_	13	advmod	_	_
+13	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+

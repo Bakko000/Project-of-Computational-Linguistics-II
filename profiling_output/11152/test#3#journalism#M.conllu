@@ -1,0 +1,615 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "MAKE TIGER GREAT AGAIN" IL RITORNO DI UNA FEDE
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	MAKE	MAKE	PROPN	SP	_	0	root	_	_
+3	TIGER	TIGER	PROPN	SP	_	2	flat:name	_	_
+4	GREAT	GREAT	PROPN	SP	_	2	flat:name	_	_
+5	AGAIN	AGAIN	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	7	punct	_	_
+7	IL	il	PROPN	SP	_	5	flat:name	_	_
+8	RITORNO	ritorno	PROPN	SP	_	5	flat:name	_	_
+9	DI	Di	ADP	E	_	10	case	_	_
+10	UNA	Una	PROPN	SP	_	2	nmod	_	_
+11	FEDE	Fede	PROPN	SP	_	10	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Sono passati 3.709 giorni.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	3.709	3.709	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = 41 tornei major si sono consumati, e 26 golfisti si sono rivelati vincendone uno per la prima volta.
+1	41	41	NUM	N	NumType=Card	2	nummod	_	_
+2	tornei	tornei	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	major	major	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	consumati	consumare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	13	punct	_	_
+8	e	e	CCONJ	CC	_	13	cc	_	_
+9	26	26	NUM	N	NumType=Card	10	nummod	_	_
+10	golfisti	golfista	NOUN	S	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	rivelati	rivelare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+14-15	vincendone	_	_	_	_	_	_	_	_
+14	vincendo	vincere	VERB	V	VerbForm=Ger	13	advcl	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+16	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	volta	volta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Tra di loro, un formidabile ragazzone della Florida che scaglia palline a trecento metri, si chiama Brooks Koepka e in 14 mesi ha vinto tre tornei major, gli Slam del golf, insomma un predestinato.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	formidabile	formidabile	ADJ	A	Number=Sing	7	amod	_	_
+7	ragazzone	ragazzone	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Florida	Florida	PROPN	SP	_	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	scaglia	scagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	palline	pallina	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	trecento	trecento	NUM	N	NumType=Card	16	nummod	_	_
+16	metri	metro	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	Brooks	Brooks	PROPN	SP	_	27	nsubj	_	_
+21	Koepka	Koepka	PROPN	SP	_	20	flat:name	_	_
+22	e	e	CCONJ	CC	_	27	cc	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	14	14	NUM	N	NumType=Card	25	nummod	_	_
+25	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+28	tre	tre	NUM	N	NumType=Card	29	nummod	_	_
+29	tornei	tornei	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30	major	major	NOUN	S	_	29	compound	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	Slam	Slam	PROPN	SP	_	19	conj	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	golf	golf	NOUN	S	Gender=Masc	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	40	punct	_	_
+38	insomma	insomma	ADV	B	_	40	advmod	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	predestinato	predestinato	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 5
+# text = Eppure, domenica è stato comparsa nonostante il successo al Pga Championship.
+1	Eppure	eppure	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	comparsa	comparsa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	nonostante	nonostante	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	successo	successo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Pga	Pga	PROPN	SP	_	6	obl	_	_
+13	Championship	Championship	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Il suo putt finale è stato accolto da applausi e ovazioni di routine, dallo stesso pubblico che ha fatto tremare, e non è un modo di dire, il campo di Bellerive, non lontano dal Gateway Arch di Saint Louis.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	putt	putt	NOUN	S	_	7	nsubj:pass	_	_
+4	finale	finale	ADJ	A	Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	applausi	applauso	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	ovazioni	ovazioni	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	routine	routine	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15-16	dallo	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+22	tremare	tremare	VERB	V	VerbForm=Inf	21	ccomp	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	28	punct	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	modo	modo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	dire	dire	VERB	V	VerbForm=Inf	28	acl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	campo	campo	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Bellerive	Bellerive	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	7	punct	_	_
+37	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+38	lontano	lontano	ADV	B	_	41	case	_	_
+39-40	dal	_	_	_	_	_	_	_	_
+39	da	da	ADP	E	_	38	fixed	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Gateway	Gateway	PROPN	SP	_	7	nmod	_	_
+42	Arch	Arch	PROPN	SP	_	41	flat:name	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	Saint	Saint	PROPN	SP	_	41	nmod	_	_
+45	Louis	Louis	PROPN	SP	_	44	flat:name	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = E quel delirio collettivo nasceva dai colpi di un giocatore che non vince un major da dieci anni, da 3709 giorni appunto.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	collettivo	collettivo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	nasceva	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	dai	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	major	major	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	dieci	dieci	NUM	N	NumType=Card	19	nummod	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	3709	3709	NUM	N	NumType=Card	23	nummod	_	_
+23	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+24	appunto	appunto	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Ma nonostante la testa ormai spelacchiata, l'espressione sofferente e il sudore, la schiena ricucita quattro volte, continua a chiamarsi Tiger Woods, e la novità è che sta tornando a giocare alla Tiger:
+1	Ma	ma	CCONJ	CC	_	17	cc	_	_
+2	nonostante	nonostante	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	testa	testa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+5	ormai	ormai	ADV	B	_	6	advmod	_	_
+6	spelacchiata	spelacchiato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+10	sofferente	sofferente	ADJ	A	Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sudore	sudore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	schiena	schiena	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+17	ricucita	ricucitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	quattro	quattro	NUM	N	NumType=Card	19	nummod	_	_
+19	volte	volta	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23-24	chiamarsi	_	_	_	_	_	_	_	_
+23	chiamar	chiamare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	Tiger	Tiger	PROPN	SP	_	23	obj	_	_
+26	Woods	Woods	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	novità	novità	NOUN	S	Gender=Fem	31	nsubj	_	_
+31	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+32	che	che	SCONJ	CS	_	34	mark	_	_
+33	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	tornando	tornare	VERB	V	VerbForm=Ger	31	ccomp	_	_
+35	a	a	ADP	E	_	36	mark	_	_
+36	giocare	giocare	VERB	V	VerbForm=Inf	34	xcomp	_	_
+37-38	alla	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Tiger	Tiger	PROPN	SP	_	36	obl	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 9
+# text = secondo domenica, nell'ultimo Slam stagionale, a due colpi da Koepka.
+1	secondo	secondo	ADP	E	_	2	case	_	_
+2	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	7	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	Slam	Slam	PROPN	SP	_	2	nmod	_	_
+8	stagionale	stagionale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	Koepka	Koepka	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Alimentando i suoi fedelissimi, che credevano nel miracolo anche quando lui non sapeva nemmeno se sarebbe tornato a camminare e le telecamere della polizia stradale lo riprendevano stordito dagli antidolorifici dopo l'ennesimo passaggio in sala operatoria.
+1	Alimentando	Alimentare	VERB	V	VerbForm=Ger	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fedelissimi	fedelissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	credevano	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	miracolo	miracolo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	anche	anche	ADV	B	_	15	advmod	_	_
+12	quando	quando	SCONJ	CS	_	15	mark	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+16	nemmeno	nemmeno	ADV	BN	PronType=Neg	15	advmod	_	_
+17	se	se	SCONJ	CS	_	19	mark	_	_
+18	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	advcl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	camminare	camminare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	telecamere	telecamera	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	stradale	stradale	ADJ	A	Number=Sing	27	amod	_	_
+29	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+30	riprendevano	riprendere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+31	stordito	stordito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+32-33	dagli	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	antidolorifici	antidolorificio	NOUN	S	Gender=Masc|Number=Plur	31	obl:agent	_	_
+35	dopo	dopo	ADP	E	_	38	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+37	ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	38	amod	_	_
+38	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	sala	sala	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+41	operatoria	operatorio	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 11
+# text = Una fede mai spenta, un paradigma di fedeltà con tempi di attesa lunghissimi dopo i 14 major vinti fino al lontano 2008.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fede	fede	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	spenta	spengere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	paradigma	paradigma	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	fedeltà	fedeltà	NOUN	S	Gender=Fem	7	nmod	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	lunghissimi	lungho	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	13	amod	_	_
+15	dopo	dopo	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	14	14	NUM	N	NumType=Card	18	nummod	_	_
+18	major	major	NOUN	S	Gender=Masc	14	obl	_	_
+19	vinti	vincere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20	fino	fino	ADV	B	_	24	case	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	2008	2008	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Quanto tempo sarebbe stato atteso Eddy Merckx se non avesse vinto un Tour de France per dieci anni?
+1	Quanto	quanto	ADV	B	_	2	advmod	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	atteso	attendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	Eddy	Eddy	PROPN	SP	_	5	nsubj:pass	_	_
+7	Merckx	Merckx	PROPN	SP	_	6	flat:name	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Tour	Tour	PROPN	SP	_	11	obj	_	_
+14	de	de	X	SW	Foreign=Yes	15	case	_	_
+15	France	France	X	SW	Foreign=Yes	13	nmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	dieci	dieci	NUM	N	NumType=Card	18	nummod	_	_
+18	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Quanto Usain Bolt senza un oro olimpico o mondiale?
+1	Quanto	quanto	ADV	B	_	2	advmod	_	_
+2	Usain	Usain	PROPN	SP	_	0	root	_	_
+3	Bolt	Bolt	PROPN	SP	_	2	flat:name	_	_
+4	senza	senza	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	oro	oro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	olimpico	olimpico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	mondiale	mondiale	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Oppure Michael Phelps, spettatore guarda caso al seguito di Woods domenica al Bellerive Country Club.
+1	Oppure	oppure	CCONJ	CC	_	2	cc	_	_
+2	Michael	Michael	PROPN	SP	_	6	nsubj	_	_
+3	Phelps	Phelps	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	spettatore	spettatore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Woods	Woods	PROPN	SP	_	10	nmod	_	_
+13	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Bellerive	Bellerive	PROPN	SP	_	6	obl	_	_
+17	Country	Country	PROPN	SP	_	16	flat:name	_	_
+18	Club	Club	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Tifoso tra i tanti che si abbracciavano ogni volta che Tiger otteneva un birdie (alla fine saranno 4 nelle ultime 7 buche).
+1	Tifoso	tifoso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	abbracciavano	abbracciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	Tiger	Tiger	PROPN	SP	_	12	nsubj	_	_
+12	otteneva	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	birdie	birdia	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	fine	fine	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+19	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	advcl	_	_
+20	4	4	NUM	N	NumType=Card	19	nummod	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	25	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+23	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	25	amod	_	_
+24	7	7	NUM	N	NumType=Card	25	nummod	_	_
+25	buche	buca	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Oppure indossavano la maglietta Make Tiger Great Again, rossa come il colore feticcio che il redivivo veste da sempre nell'ultimo giro, quello in cui bisogna attaccare, vincere, seguendo teorie new age della madre thailandese Kultida.
+1	Oppure	oppure	CCONJ	CC	_	2	cc	_	_
+2	indossavano	indossare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	maglietta	maglietta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	Make	Make	PROPN	SP	_	4	nmod	_	_
+6	Tiger	Tiger	PROPN	SP	_	5	flat:name	_	_
+7	Great	Great	PROPN	SP	_	5	flat:name	_	_
+8	Again	Again	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	colore	colore	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	feticcio	fetire	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	redivivo	redivivo	NOUN	S	Gender=Masc|Number=Sing	13	acl:relcl	_	_
+18	veste	vestire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	sempre	sempre	ADV	B	_	18	advmod	_	_
+21-22	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	in	in	ADP	E	_	24	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+23	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	giro	giro	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	_
+26	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	appos	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+29	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	attaccare	attaccare	VERB	V	VerbForm=Inf	29	ccomp	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	vincere	vincere	VERB	V	VerbForm=Inf	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34	seguendo	seguire	VERB	V	VerbForm=Ger	30	advcl	_	_
+35	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	_
+36	new	new	X	SW	Foreign=Yes	35	compound	_	_
+37	age	age	X	SW	Foreign=Yes	36	flat:foreign	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	madre	madre	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+41	thailandese	thailandese	ADJ	A	Number=Sing	40	amod	_	_
+42	Kultida	Kultido	PROPN	SP	_	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Uno slogan trumpiano, per un campione che invece ha rotto la barriera dell'afroamericano più bravo di tutti in uno sport ritenuto "da bianchi".
+1	Uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	slogan	slogan	NOUN	S	Gender=Masc	0	root	_	_
+3	trumpiano	trumpiano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	campione	campione	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	invece	invece	ADV	B	_	11	advmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	rotto	rompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	barriera	barriera	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	afroamericano	afroamericano	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	nmod	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sport	sport	NOUN	S	Gender=Masc	11	obl	_	_
+24	ritenuto	ritenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+25	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+26	da	da	ADP	E	_	27	case	_	_
+27	bianchi	bianco	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Anche la sua gestualità sembrava quella dei tempi belli, il pugnetto se le cose vanno bene, il bastone ruotato se la pallina finisce chissà dove (ma lui saprà di nuovo come recuperarla).
+1	Anche	anche	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	gestualità	gestualità	NOUN	S	Gender=Fem	5	nsubj	_	_
+5	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	xcomp	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	belli	bello	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pugnetto	pugnetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+14	se	se	SCONJ	CS	_	17	mark	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+17	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+18	bene	bene	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	bastone	bastone	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	ruotato	ruotato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+23	se	se	SCONJ	CS	_	26	mark	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	pallina	pallina	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+26	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+27	chissà	chissà	ADV	B	_	26	advmod	_	_
+28	dove	dove	ADV	B	_	27	advmod	_	_
+29	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+30	ma	ma	CCONJ	CC	_	32	cc	_	_
+31	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+32	saprà	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	acl:relcl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	32	obl	_	_
+35	come	come	ADP	E	_	36	mark	_	_
+36-37	recuperarla	_	_	_	_	_	_	_	SpaceAfter=No
+36	recuperar	recuperare	VERB	V	VerbForm=Inf	32	advcl	_	_
+37	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+38	)	)	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Un delirio collettivo che riporta indietro di dieci anni, e accende ancora di più la sfida della Ryder Cup tra poco più di un mese.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	collettivo	collettivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	indietro	indietro	ADV	B	_	5	advmod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	dieci	dieci	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	accende	accendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	ancora	ancora	ADV	B	_	12	advmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	più	più	ADV	B	_	12	advmod	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Ryder	Ryder	PROPN	SP	_	17	nmod	_	_
+21	Cup	Cup	PROPN	SP	_	20	flat:name	_	_
+22	tra	tra	ADP	E	_	23	case	_	_
+23	poco	poco	ADV	B	_	24	advmod	_	_
+24	più	più	ADV	B	_	20	advmod	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mese	mese	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Ottimo sesto dopo la vittoria all'Open di Carnoustie, Francesco Molinari guiderà l'Europa contro una fede, più che un campione di golf.
+1	Ottimo	ottimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	sesto	sesto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+3	dopo	dopo	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Open	Open	PROPN	SP	_	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Carnoustie	Carnoustie	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	Francesco	Francesco	PROPN	SP	_	14	nsubj	_	_
+13	Molinari	Molinario	PROPN	SP	_	12	flat:name	_	_
+14	guiderà	guidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	Europa	Europa	PROPN	SP	_	14	obj	_	_
+17	contro	contro	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fede	fede	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	più	più	ADV	B	_	24	advmod	_	_
+22	che	che	SCONJ	CS	_	21	fixed	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	campione	campione	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	golf	golf	NOUN	S	Gender=Masc	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,743 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L' ira dei camici bianchi al Sant' Orsola
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	ira	ira	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	camici	camico	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Sant'	Sant'	PROPN	SP	_	2	nmod	_	_
+10	Orsola	Orsola	PROPN	SP	_	9	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = LA PANTERA bianca torna a graffiare.
+1	LA	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PANTERA	pantera	PROPN	SP	_	4	nsubj	_	_
+3	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	graffiare	graffiare	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = È la rivolta dei giovani medici contro il taglio dei posti nelle scuole di specializzazione.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	rivolta	rivolta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giovani	giovane	NOUN	S	Number=Plur	3	nmod	_	_
+7	medici	medico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	contro	contro	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	taglio	taglio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	posti	posto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	nelle	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	specializzazione	specializzazione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Domani (ore 13.30) gli studenti in camice bianco dell' Alma Mater si incateneranno, per cinque minuti, negli atri, nelle sale d' aspetto e nei vialetti del policlinico Sant' Orsola legandosi le mani con gli strumenti della futura professione:
+1	Domani	domani	ADV	B	_	16	advmod	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+4	13.30	13.30	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	3	punct	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	camice	camice	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	dell'	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Alma	Alma	PROPN	SP	_	9	nmod	_	_
+14	Mater	Mater	PROPN	SP	_	13	flat:name	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	incateneranno	incatenare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	cinque	cinque	NUM	N	NumType=Card	20	nummod	_	_
+20	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22-23	negli	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	atri	atro	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	16	punct	_	_
+26-27	nelle	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	sale	sala	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+29	d'	di	ADP	E	_	30	case	_	_
+30	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32-33	nei	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	vialetti	vialetto	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	policlinico	policlinico	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	Sant'	Sant'	ADJ	A	Number=Sing	37	amod	_	_
+39	Orsola	Orsola	PROPN	SP	_	37	nmod	_	_
+40-41	legandosi	_	_	_	_	_	_	_	_
+40	legando	legare	VERB	V	VerbForm=Ger	16	advcl	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	40	expl	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	mani	mano	NOUN	S	Gender=Fem|Number=Plur	40	obj	_	_
+44	con	con	ADP	E	_	46	case	_	_
+45	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	_
+47-48	della	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	50	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+49	futura	futuro	ADJ	A	Gender=Fem|Number=Sing	50	amod	_	_
+50	professione	professione	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
+51	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 5
+# text = cerotti, stetoscopi, lacci emostatici.
+1	cerotti	cerotto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	stetoscopi	stetoscopo	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	lacci	laccio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+6	emostatici	emostatico	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Il tam tam è partito nei social network:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tam	tam	NOUN	S	_	5	nsubj	_	_
+3	tam	tam	NOUN	S	_	2	compound	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	social	social	ADJ	A	Number=Sing	9	amod	_	_
+9	network	network	NOUN	S	Gender=Masc	5	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = un flash mob diffuso, una protesta simbolica lanciata dall' associazione Prometeo e appoggiata dalla Federspecializzandi di Bologna, in concomitanza con la manifestazione nazionale a Roma, il «Giovani medici Day», promossa dal segretariato italiano dei giovani medici.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	flash	flash	NOUN	S	_	0	root	_	_
+3	mob	mob	NOUN	S	Gender=Masc	2	compound	_	_
+4	diffuso	diffuso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	simbolica	simbolico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	lanciata	lanciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+10-11	dall'	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	_
+13	Prometeo	Prometeo	PROPN	SP	_	12	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	appoggiata	appoggiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Federspecializzandi	Federspecializzandi	PROPN	SP	_	15	obl:agent	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Bologna	Bologna	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	concomitanza	concomitanza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	nazionale	nazionale	ADJ	A	Number=Sing	26	amod	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	Roma	Roma	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	2	punct	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	«	«	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	Giovani	giovani	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+34	medici	medico	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+35	Day	day	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+36	»	»	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	2	punct	_	_
+38	promossa	promuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+39-40	dal	_	_	_	_	_	_	_	_
+39	da	da	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	segretariato	segretariato	NOUN	S	Gender=Masc|Number=Sing	38	obl:agent	_	_
+42	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+43-44	dei	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	giovani	giovane	NOUN	S	Number=Plur	41	nmod	_	_
+46	medici	medico	ADJ	A	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = «Invitiamo tutti a manifestare il proprio sdegno, anche attraverso l' applicazione al proprio camice di adesivi con slogan che denuncino la situazione», l' appello degli studenti di Medicina rivolto a specializzandi, neolaureati, professori, medici.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Invitiamo	Invitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	manifestare	manifestare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	anche	anche	ADV	B	_	13	advmod	_	_
+11	attraverso	attraverso	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	camice	camice	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	adesivi	adesivo	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	slogan	slogan	NOUN	S	Gender=Masc	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	denuncino	denunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	appello	appello	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+30-31	degli	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Medicina	medicina	PROPN	SP	_	32	nmod	_	_
+35	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	specializzandi	specializzando	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	39	punct	_	_
+39	neolaureati	neolaureato	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	professori	professore	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	43	punct	_	_
+43	medici	medico	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = «Ne va della nostra formazione.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ne va della salute di tutti».
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	salute	salute	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nmod	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = La situazione?
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Il Governo ha annunciato una riduzione dei contratti di formazione specialistica da 4500 a duemila.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	contratti	contratto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	specialistica	specialistico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	4500	4500	NUM	N	NumType=Card	12	nummod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	duemila	duemila	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = I neo-medici che escono dalle università italiane sono circa novemila all' anno, oltre trecento a Bologna, in costante aumento.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+2	neo	neo	ADJ	A	_	4	amod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	medici	medico	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	escono	uscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	università	università	NOUN	S	Gender=Fem	6	obl	_	_
+10	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	circa	circa	ADV	B	_	13	advmod	_	_
+13	novemila	novemila	NUM	N	NumType=Card	0	root	_	_
+14-15	all'	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	oltre	oltre	ADV	B	_	19	advmod	_	_
+19	trecento	trecento	NUM	N	NumType=Card	13	nummod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Bologna	Bologna	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	costante	costante	ADJ	A	Number=Sing	25	amod	_	_
+25	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 14
+# text = Significa che tre laureati su quattro non potranno accedere alle scuole di specialità, necessarie per completare il percorso formativo e per lavorare nella maggior parte delle strutture del sistema sanitario.
+1	Significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	9	mark	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	laureati	laureato	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+5	su	su	ADP	E	_	6	case	_	_
+6	quattro	quattro	NUM	N	NumType=Card	4	nummod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	accedere	accedere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	specialità	specialità	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	1	conj	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	completare	completare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	formativo	formativo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	lavorare	lavorare	VERB	V	VerbForm=Inf	18	conj	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	28	amod	_	_
+28	parte	parte	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+29-30	delle	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = «Un disastro», commenta Luca Vizioli, presidente della Federspecializzandi di Bologna.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	disastro	disastro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+7	Luca	Luca	PROPN	SP	_	6	nsubj	_	_
+8	Vizioli	Vizioli	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Federspecializzandi	Federspecializzandi	PROPN	SP	_	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Bologna	Bologna	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = «Un taglio clamoroso, inaccettabile».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	taglio	taglio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	clamoroso	clamoroso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	inaccettabile	inaccettabile	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Il Senato accademico dell' Alma Mater ha approvato una mozione, presentata dallo Student Office, per chiedere un passo indietro a Roma.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Senato	Senato	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	accademico	accademico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	dell'	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Alma	Alma	PROPN	SP	_	2	nmod	_	_
+7	Mater	Mater	PROPN	SP	_	6	flat:name	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	approvato	approvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mozione	mozione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+14-15	dallo	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Student	Student	PROPN	SP	_	13	obl:agent	_	_
+17	Office	Office	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	chiedere	chiedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	passo	passo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	indietro	indietro	ADV	B	_	22	advmod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Roma	Roma	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 18
+# text = Il presidente della scuola di Medicina Luigi Bolondi allarga le braccia:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Medicina	Medicina	PROPN	SP	_	5	nmod	_	_
+8	Luigi	Luigi	PROPN	SP	_	2	nmod	_	_
+9	Bolondi	Bolondi	PROPN	SP	_	8	flat:name	_	_
+10	allarga	allargare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 19
+# text = «Non possiamo che condividere la posizione degli studenti:
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	possiamo	potere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	condividere	condividere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = già iscritti si vedono cambiare le prospettive, nonè giusto.
+1	già	già	ADV	B	_	4	advmod	_	_
+2	iscritti	iscritto	ADJ	A	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	cambiare	cambiare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	prospettive	prospettiva	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	nonè	noné	CCONJ	CC	_	10	cc	_	_
+10	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Non possiamo formare laureati che poi non potranno trovare occupazione nel servizio pubblico perché non riusciranno ad ottenere la specializzazione necessaria.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	formare	formare	VERB	V	VerbForm=Inf	0	root	_	_
+4	laureati	laureato	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+6	poi	poi	ADV	B	_	9	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	trovare	trovare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+10	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	perché	perché	SCONJ	CS	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	riusciranno	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	_
+18	ad	a	ADP	E	_	19	mark	_	_
+19	ottenere	ottenere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	specializzazione	specializzazione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = E non è un problema solo dell' università, ma anche del sistema sanitario».
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	solo	solo	ADV	B	_	9	advmod	_	_
+7-8	dell'	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	università	università	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+16	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = La Conferenza nazionale delle scuole e facoltà mediche ha scritto al ministro Carrozza una nota di protesta e di preoccupazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	nazionale	nazionale	ADJ	A	Number=Sing	2	amod	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	facoltà	facoltà	NOUN	S	Gender=Fem	6	conj	_	_
+9	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	Carrozza	carrozza	PROPN	SP	_	14	nmod	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	nota	nota	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 24
+# text = «I provvedimenti non sono ancora chiari, si parla anche di ridurre di un anno le scuole di specializzazione», aggiunge Bolondi.
+1	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	provvedimenti	provvedimento	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	chiari	chiaro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	anche	anche	ADV	B	_	10	advmod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	ridurre	ridurre	VERB	V	VerbForm=Inf	10	ccomp	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	specializzazione	specializzazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	7	punct	_	_
+23	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+24	Bolondi	Bolondi	PROPN	SP	_	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = Il clima di incertezza è anche sui nuovi iscritti:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	clima	clima	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	incertezza	incertezza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+6	anche	anche	ADV	B	_	10	advmod	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 26
+# text = 440 gli ammessi a Medicina a Bologna, ai quali si aggiungeranno i riammessi dopo che è stata riconosciuta la validità del bonus Maturità.
+1	440	440	NUM	N	NumType=Card	3	nummod	_	_
+2	gli	lo	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ammessi	ammettere	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Medicina	medicina	PROPN	SP	_	3	nmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Bologna	Bologna	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	quali	quale	PRON	PR	Number=Plur|PronType=Rel	13	obl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	aggiungeranno	aggiungere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	acl:relcl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	riammessi	riammesso	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+16	dopo	dopo	ADV	B	_	20	mark	_	_
+17	che	che	SCONJ	CS	_	16	fixed	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	riconosciuta	riconoscere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	validità	validità	NOUN	S	Gender=Fem	20	nsubj:pass	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	bonus	bonus	NOUN	S	Gender=Masc	22	nmod	_	_
+26	Maturità	maturità	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = «Ancora non sappiamo quanti studenti in più arriveranno», conclude Bolondi.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ancora	ancora	ADV	B	_	4	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	6	det	_	_
+6	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	arriveranno	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+13	Bolondi	Bolondi	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = Oltre al flash mob è partito anche un twitter-mob con l' hashtag:
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	flash	flash	NOUN	S	_	7	obl	_	_
+5	mob	mob	ADJ	A	_	4	amod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	twitter-mob	twitter-mob	NOUN	S	Gender=Masc	7	nsubj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	hashtag	hashtag	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 29
+# text = «dai futuro ai giovani della sanità».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2-3	dai	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	giovani	giovane	NOUN	S	Number=Plur	4	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sanità	sanità	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = «C' è assoluta necessità ed urgenza di trovare soluzioni per garantire un futuro professionale ai giovani medici», insiste Luca Vizioli.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	necessità	necessità	NOUN	S	Gender=Fem	3	nsubj	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	trovare	trovare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	garantire	garantire	VERB	V	VerbForm=Inf	9	advcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	professionale	professionale	ADJ	A	Number=Sing	14	amod	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	giovani	giovane	NOUN	S	Number=Plur	12	obl	_	_
+19	medici	medico	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	insiste	insistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+23	Luca	Luca	PROPN	SP	_	22	nsubj	_	_
+24	Vizioli	Vizioli	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 31
+# text = Tra le richieste, anche il reinvestimento dei 400 milioni destinati ai policlinici privati nella formazione post laurea dei camici bianchi.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	reinvestimento	reinvestimento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	400	400	NUM	N	NumType=Card	11	nummod	_	_
+11	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	destinati	destinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	policlinici	policlinico	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	privati	privato	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+20	post	post	ADV	B	_	21	advmod	_	_
+21	laurea	laureo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	camici	camico	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+25	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,934 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Usa, sulla scena del delitto i batteri rivelano il nome dei colpevoli
+1	Usa	Usa	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	sulla	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scena	scena	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+11	rivelano	rivelare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	nome	nome	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	colpevoli	colpevole	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Il microbioma di ognuno di noi è unico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	microbioma	microbioma	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	unico	unico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = E può individuarci.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	individuarci	_	_	_	_	_	_	_	SpaceAfter=No
+3	individuar	individuare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Per dimostrarlo un professore ha mandato gli studenti a rapinare case vicine.
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	dimostrarlo	_	_	_	_	_	_	_	_
+2	dimostrar	dimostrare	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	professore	professore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	mandato	mandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	rapinare	rapinare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+12	case	casa	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	vicine	vicino	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = E li ha incastrati
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	incastrati	incastrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Mentre Jose Lopez beveva il caffè, due rapinatori entrarono in casa mettendo tutto a soqquadro.
+1	Mentre	mentre	SCONJ	CS	_	4	mark	_	_
+2	Jose	Jose	PROPN	SP	_	4	nsubj	_	_
+3	Lopez	Lopez	PROPN	SP	_	2	flat:name	_	_
+4	beveva	bevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caffè	caffè	NOUN	S	Gender=Masc	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	rapinatori	rapinatore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+10	entrarono	entrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	mettendo	mettere	VERB	V	VerbForm=Ger	10	advcl	_	_
+14	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	soqquadro	soqquadro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = La prima stranezza è che, fra i ladri, il professore di Biologia della Nova Southeastern University a Fort Lauderdale, in Florida, riconobbe un suo studente.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	stranezza	stranezza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	27	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	27	punct	_	_
+7	fra	fra	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	professore	professore	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Biologia	biologia	PROPN	SP	_	12	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Nova	Nova	PROPN	SP	_	14	nmod	_	_
+18	Southeastern	Southeastern	PROPN	SP	_	17	flat:name	_	_
+19	University	University	PROPN	SP	_	17	flat:name	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Fort	Fort	PROPN	SP	_	12	nmod	_	_
+22	Lauderdale	Lauderdale	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	12	punct	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	Florida	Florida	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	12	punct	_	_
+27	riconobbe	riconoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	studente	studente	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = La seconda è che la polizia arrivò in meno di dieci minuti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	seconda	seconda	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	meno	meno	PRON	PI	PronType=Ind	7	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	dieci	dieci	NUM	N	NumType=Card	12	nummod	_	_
+12	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Una squadra della scientifica iniziò a raccogliere con grande rapidità campioni da tutte le superfici della casa, incluso il frigo da cui i rapinatori avevano prelevato una lattina di Coca.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scientifica	scientifica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	iniziò	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	raccogliere	raccogliere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	rapidità	rapidità	NOUN	S	Gender=Fem	8	obl	_	_
+12	campioni	campione	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	superfici	superficie	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	incluso	includere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	frigo	frigo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	rapinatori	rapinatore	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	_
+28	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	prelevato	prelevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	lattina	lattina	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Coca	Coca	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Raramente la polizia si impegna così per una rapina in casa.
+1	Raramente	raramente	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	impegna	impegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	rapina	rapina	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = E infatti, più che un crimine, quello avvenuto a casa del professor Lopez nel 2016 era un esperimento scientifico, i cui risultati sono appena stati presentati al congresso dell'American Society for Microbiology ad Atlanta.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	infatti	infatti	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	più	più	ADV	B	_	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	crimine	crimine	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nmod	_	_
+10	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	professor	professore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	Lopez	Lopez	PROPN	SP	_	15	nmod	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2016	2016	NUM	N	NumType=Card	22	nummod	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	esperimento	esperimento	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+23	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	cui	cui	DET	DR	PronType=Rel	27	det:poss	_	_
+27	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	31	nsubj:pass	_	_
+28	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+29	appena	appena	ADV	B	_	31	advmod	_	_
+30	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	aux:pass	_	_
+31	presentati	presentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+32-33	al	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	congresso	congresso	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35-36	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+35	di	di	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	American	American	PROPN	SP	_	34	nmod	_	_
+38	Society	Society	PROPN	SP	_	37	flat:name	_	_
+39	for	for	ADP	E	_	40	case	_	_
+40	Microbiology	Microbiology	PROPN	SP	_	31	obl	_	_
+41	ad	a	ADP	E	_	42	case	_	_
+42	Atlanta	Atlanta	PROPN	SP	_	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = La tesi dei ricercatori è che i criminali, sulla scena del delitto, non lasciano solo impronte digitali e Dna.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tesi	tesi	NOUN	S	Gender=Fem	6	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	19	mark	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	criminali	criminale	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scena	scena	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	lasciano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+20	solo	solo	ADV	B	_	19	advmod	_	_
+21	impronte	impronta	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	digitali	digitale	ADJ	A	Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	Dna	Dna	PROPN	SP	_	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Fra le tracce ci sono anche i batteri che normalmente vivono sul corpo.
+1	Fra	fra	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	normalmente	normalmente	ADV	B	_	11	advmod	_	_
+11	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Ognuno di noi ne rilascia in una stanza 36 milioni in un'ora, soprattutto da pelle e naso, ha spiegato ad Atlanta Jarrad Hampton- Marcell dell'università di Chicago, coordinatore del Burglary Microbiome Project.
+1	Ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nmod	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	rilascia	rilasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	36	36	NUM	N	NumType=Card	10	nummod	_	_
+10	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	ora	ora	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	soprattutto	soprattutto	ADV	B	_	17	advmod	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	naso	naso	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+23	ad	a	ADP	E	_	24	case	_	_
+24	Atlanta	Atlanta	PROPN	SP	_	22	obl	_	_
+25	Jarrad	Jarrad	PROPN	SP	_	24	flat:name	_	_
+26	Hampton	Hampton	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	24	punct	_	_
+28	Marcell	Marcell	PROPN	SP	_	22	xcomp	_	_
+29-30	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+29	di	di	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	università	università	NOUN	S	Gender=Fem	28	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Chicago	Chicago	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	coordinatore	coordinatore	NOUN	S	Gender=Masc|Number=Sing	33	appos	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Burglary	Burglary	PROPN	SP	_	35	nmod	_	_
+39	Microbiome	Microbiome	PROPN	SP	_	38	flat:name	_	_
+40	Project	Project	PROPN	SP	_	38	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Il progetto è finanziato dal Dipartimento di Giustizia americano e parte dal presupposto che ognuno di noi vive in simbiosi con una comunità di vari trilioni di batteri ( il microbioma) il cui mix è unico e irripetibile.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	finanziato	finanziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Giustizia	Giustizia	PROPN	SP	_	7	nmod	_	_
+10	americano	americano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	presupposto	presupposto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+17	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	17	nmod	_	_
+20	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	simbiosi	simbioso	NOUN	S	Gender=Fem	20	obl	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	comunità	comunità	NOUN	S	Gender=Fem	20	obl	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	28	det	_	_
+28	trilioni	trilione	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+31	(	(	PUNCT	FB	_	33	punct	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	microbioma	microbioma	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	33	punct	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	cui	cui	DET	DR	PronType=Rel	37	det:poss	_	_
+37	mix	mix	NOUN	S	Gender=Masc|Number=Sing	39	nsubj	_	_
+38	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+39	unico	unico	ADJ	A	Gender=Masc|Number=Sing	4	acl:relcl	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	irripetibile	irripetibile	ADJ	A	Number=Sing	39	conj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Perfino due gemelli identici condividono il Dna, ma non il microbioma.
+1	Perfino	perfino	ADV	B	_	3	advmod	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	gemelli	gemello	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	identici	identico	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	condividono	condividere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Dna	Dna	PROPN	SP	_	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	microbioma	microbioma	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = « I batteri sono una firma che gli individui lasciano negli edifici che occupano», ha spiegato Hampton- Marcell.
+1	«	«	PUNCT	FB	_	6	punct	_	_
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	firma	firma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+10	lasciano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+11-12	negli	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	occupano	occupare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+16	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+20	Hampton	Hampton	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	20	punct	_	_
+22	Marcell.	Marcellii	PROPN	SP	_	20	nmod	_	_
+
+# sent_id = 18
+# text = « Una firma che può servire come indizio nelle indagini poliziesche».
+1	«	«	PUNCT	FB	_	3	punct	_	_
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	firma	firma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	servire	servire	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	indizio	indizio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+12	poliziesche	poliziesco	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Oltre al professor Lopez, altri nove individui di Fort Lauderdale e Chicago hanno subito simili, strane, intrusioni in casa.
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	professor	professore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+5	Lopez	Lopez	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	_
+8	nove	nove	NUM	N	NumType=Card	7	nummod	_	_
+9	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Fort	fort	PROPN	SP	_	9	nmod	_	_
+12	Lauderdale	Lauderdale	PROPN	SP	_	11	flat:name	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Chicago	Chicago	PROPN	SP	_	15	nsubj	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	subito	subito	ADV	B	_	17	advmod	_	_
+17	simili	simile	ADJ	A	Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	strane	strano	ADJ	A	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	intrusioni	intrusione	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	casa	casa	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 20
+# text = A commetterle, quattro studenti delle università locali e un gruppo di poliziotti incaricati di istruirli sulle abitudini più diffuse dei topi d'appartamento (inclusa, pare, quella di dissetarsi dal frigo prima di fuggire).
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	commetterle	_	_	_	_	_	_	_	SpaceAfter=No
+2	commetter	commettere	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	quattro	quattro	NUM	N	NumType=Card	6	nummod	_	_
+6	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	2	advcl	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	università	università	NOUN	S	Gender=Fem	6	nmod	_	_
+10	locali	locale	ADJ	A	Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	incaricati	incaricare	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18-19	istruirli	_	_	_	_	_	_	_	_
+18	istruir	istruire	VERB	V	VerbForm=Inf	15	acl	_	_
+19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+20-21	sulle	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	abitudini	abitudine	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	diffuse	diffuso	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	topi	topio	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+28	d'	di	ADP	E	_	29	case	_	SpaceAfter=No
+29	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	(	(	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	inclusa	includere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	31	conj	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37-38	dissetarsi	_	_	_	_	_	_	_	_
+37	dissetar	dissetare	VERB	V	VerbForm=Inf	35	acl	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+39-40	dal	_	_	_	_	_	_	_	_
+39	da	da	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	frigo	frigo	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+42	prima	prima	ADV	B	_	44	mark	_	_
+43	di	di	ADP	E	_	42	fixed	_	_
+44	fuggire	fuggire	VERB	V	VerbForm=Inf	37	advcl	_	SpaceAfter=No
+45	)	)	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = L'analisi dei batteri lasciati dai ladri sulle superfici della casa ha permesso di identificare il colpevole nel 70% dei casi.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	analisi	analisi	NOUN	S	Gender=Fem	17	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	lasciati	lasciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dai	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	6	obl:agent	_	_
+10-11	sulle	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	superfici	superficie	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	identificare	identificare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	colpevole	colpevole	NOUN	S	Number=Sing	19	obj	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	70	70	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+25	%	%	SYM	SYM	_	21	nmod	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	casi	caso	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 22
+# text = Troppo poco per poter aspirare già oggi a entrare nei tribunali.
+1	Troppo	troppo	ADV	B	_	5	advmod	_	_
+2	poco	poco	ADV	B	_	5	advmod	_	_
+3	per	per	ADP	E	_	5	mark	_	_
+4	poter	potere	AUX	VM	VerbForm=Inf	5	aux	_	_
+5	aspirare	aspirare	VERB	V	VerbForm=Inf	0	root	_	_
+6	già	già	ADV	B	_	7	advmod	_	_
+7	oggi	oggi	ADV	B	_	5	advmod	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	entrare	entrare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10-11	nei	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	tribunali	tribunale	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Ma abbastanza per affiancarsi ad altre tecniche più consolidate, come quelle delle impronte digitali e del Dna.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	abbastanza	abbastanza	ADV	B	_	4	advmod	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4-5	affiancarsi	_	_	_	_	_	_	_	_
+4	affiancar	affiancare	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	ad	a	ADP	E	_	8	case	_	_
+7	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	tecniche	tecnica	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	consolidate	consolidato	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	8	nmod	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	impronte	impronta	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	digitali	digitale	ADJ	A	Number=Plur	16	amod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Dna	Dna	PROPN	SP	_	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Rispetto alla prova del Dna, quella del microbioma non è concettualmente diversa.
+1	Rispetto	rispetto	ADV	B	_	4	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	prova	prova	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Dna	Dna	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	16	nsubj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	microbioma	microbioma	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	concettualmente	concettualmente	ADV	B	_	16	advmod	_	_
+16	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 25
+# text = Sulla scena del delitto un criminale può lasciare capelli come batteri.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	scena	scena	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	criminale	criminala	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	lasciare	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+11	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 26
+# text = Entrambi possono essere raccolti dagli inquirenti, portati in laboratorio e messi all'interno di un apparecchio scientifico che fornirà una sequenza genetica come risultato.
+1	Entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj:pass	_	_
+2	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	raccolti	raccogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dagli	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	portati	portare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	interno	interno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	apparecchio	apparecchio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	fornirà	fornire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sequenza	sequenza	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	genetica	genetico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	come	come	ADP	E	_	27	case	_	_
+27	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Diversa però resta l'affidabilità, almeno per il momento, e l'unico crimine risolto con il microbioma finora è avvenuto nella serie tv Csi.
+1	Diversa	diverso	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	però	però	ADV	B	_	3	advmod	_	_
+3	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	affidabilità	affidabilità	NOUN	S	Gender=Fem	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	almeno	almeno	ADV	B	_	10	advmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	unico	unico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	crimine	crimine	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+16	risolto	risolvere	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	microbioma	microbioma	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	finora	finora	ADV	B	_	19	advmod	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	serie	serie	NOUN	S	Gender=Fem	22	obl	_	_
+26	tv	tv	NOUN	S	Gender=Fem	25	compound	_	_
+27	Csi	Csi	PROPN	SP	_	22	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 28
+# text = Mentre il Dna resta invariabile per tutta la vita, il mix di batteri è il frutto della nostra interazione con l'ambiente.
+1	Mentre	mentre	SCONJ	CS	_	4	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Dna	Dna	PROPN	SP	_	4	nsubj	_	_
+4	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+5	invariabile	invariabile	ADJ	A	Number=Sing	4	xcomp	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	9	det:predet	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mix	mix	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	interazione	interazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 29
+# text = Varia se facciamo un viaggio, andiamo a vivere in campagna, prendiamo un farmaco, adottiamo un animale, baciamo qualcuno o cambiamo dieta.
+1	Varia	vario	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	vivere	vivere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	prendiamo	prendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	adottiamo	adottare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	animale	animale	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	baciamo	baciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+22	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	obj	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	cambiamo	cambiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	conj	_	_
+25	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = Identificare le singole sottospecie di batteri poi non è facilissimo nemmeno con le tecnologie di oggi.
+1	Identificare	identificare	VERB	V	VerbForm=Inf	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	singole	singolo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	sottospecie	sottospecie	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	poi	poi	ADV	B	_	10	advmod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	facilissimo	facile	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	1	amod	_	_
+11	nemmeno	nemmeno	ADV	BN	PronType=Neg	10	advmod	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	oggi	oggi	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = E se i microrganismi lasciati su telefoni, mouse e tastiere sono abbastanza facili da recuperare ( possono permettere addirittura di risalire ai tasti usati), in altre superfici di casa o ufficio potrebbero confondersi con quelle degli altri occupanti.
+1	E	e	CCONJ	CC	_	37	cc	_	_
+2	se	se	SCONJ	CS	_	14	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	microrganismi	microrganismo	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+5	lasciati	lasciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	telefoni	telefono	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	mouse	mouse	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	tastiere	tastiere	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	abbastanza	abbastanza	ADV	B	_	14	advmod	_	_
+14	facili	facile	ADJ	A	Number=Plur	37	advcl	_	_
+15	da	da	ADP	E	_	16	mark	_	_
+16	recuperare	recuperare	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	(	(	PUNCT	FB	_	19	punct	_	_
+18	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	permettere	permettere	VERB	V	VerbForm=Inf	14	advcl	_	_
+20	addirittura	addirittura	ADV	B	_	22	advmod	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	risalire	risalire	VERB	V	VerbForm=Inf	19	xcomp	_	_
+23-24	ai	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	tasti	tasto	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+26	usati	usato	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	14	punct	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	altre	altro	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+31	superfici	superficie	NOUN	S	Gender=Fem|Number=Plur	37	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	casa	casa	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	o	o	CCONJ	CC	_	35	cc	_	_
+35	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	33	conj	_	_
+36	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37-38	confondersi	_	_	_	_	_	_	_	_
+37	confonder	confondere	VERB	V	VerbForm=Inf	0	root	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+39	con	con	ADP	E	_	40	case	_	_
+40	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	37	obl	_	_
+41-42	degli	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	44	case	_	_
+42	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+43	altri	altro	ADJ	A	Gender=Masc|Number=Plur	44	amod	_	_
+44	occupanti	occupante	NOUN	S	Number=Plur	40	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	37	punct	_	_
+
+# sent_id = 32
+# text = Hampton-Marcell e i suoi colleghi sono comunque ottimisti:
+1	Hampton	Hampton	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Marcell	Marcell	PROPN	SP	_	1	flat:name	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	comunque	comunque	ADV	B	_	10	advmod	_	_
+10	ottimisti	ottimedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 33
+# text = «È pur sempre uno strumento di informazione in più » .
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	pur	pure	ADV	B	_	6	advmod	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	più	più	ADV	B	_	8	advmod	_	_
+11	»	»	PUNCT	FB	_	6	punct	_	_
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 34
+# text = Il Dna per scopi forensi iniziò a essere studiato negli anni ' 70 per approdare in un'aula di giustizia solo nel 1985.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Dna	Dna	PROPN	SP	_	6	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	scopi	scopo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	forensi	forenso	ADJ	A	Number=Plur	4	amod	_	_
+6	iniziò	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	9	mark	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+10-11	negli	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	'	'	PUNCT	FB	_	9	punct	_	_
+14	70	70	NUM	N	NumType=Card	9	nummod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	approdare	approdare	VERB	V	VerbForm=Inf	9	advcl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	aula	aula	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	solo	solo	ADV	B	_	25	advmod	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	1985	1985	NUM	N	NumType=Card	16	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 35
+# text = Oggi solo negli Usa è stato usato come prova in 340mila processi.
+1	Oggi	oggi	ADV	B	_	8	advmod	_	_
+2	solo	solo	ADV	B	_	5	advmod	_	_
+3-4	negli	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Usa	Usa	PROPN	SP	_	8	obl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	prova	prova	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	340mila	340mila	NUM	N	NumType=Card	13	nummod	_	_
+13	processi	processo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+

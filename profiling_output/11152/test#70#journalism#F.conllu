@@ -1,0 +1,612 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Israele minaccia " i tiranni di Teheran"
+1	Israele	Israele	ADJ	A	Number=Sing	2	amod	_	_
+2	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tiranni	tiranno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Teheran	Teheran	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = La Conferenza sulla sicurezza si chiude con una minaccia che rischia di alimentare un'escalation nell'area più calda del Medio Oriente.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Conferenza	Conferenza	PROPN	SP	_	7	nsubj	_	_
+3-4	sulla	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	chiude	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	alimentare	alimentare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	escalation	escalation	NOUN	S	Gender=Fem	14	obj	_	_
+17-18	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	in	in	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	area	area	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Medio	Medio	PROPN	SP	_	19	nmod	_	_
+25	Oriente	Oriente	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Per il suo esordio a Monaco, Benjamin Netanyahu sceglie il colpo di teatro, sventola a fine discorso un pezzo di un drone all'indirizzo del ministro degli Esteri iraniano Mohammed Zarif, seduto in platea.
+1	Per	per	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	esordio	esordio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Monaco	Monaco	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	Benjamin	Benjamin	PROPN	SP	_	10	nsubj	_	_
+9	Netanyahu	Netanyahu	PROPN	SP	_	8	flat:name	_	_
+10	sceglie	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	sventola	sventolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	fine	fine	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+19	discorso	discordere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	drone	drone	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31-32	degli	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	Esteri	estero	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34	iraniano	iraniano	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+35	Mohammed	Mohammed	PROPN	SP	_	30	nmod	_	_
+36	Zarif	Zarif	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	30	punct	_	_
+38	seduto	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	platea	platea	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = «Lo riconosci?».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	riconosci	riconoscere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Secondo il premier israeliano non è un drone qualunque, è quello che il 10 febbraio scorso ha rischiato di far esplodere la situazione tesissima che si registra da mesi sul confine siriano.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	premier	premier	NOUN	S	_	8	obl	_	_
+4	israeliano	israeliano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	drone	drone	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	qualunque	qualunque	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+13	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	10	10	NUM	N	NumType=Card	19	obl	_	_
+16	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	15	flat	_	_
+17	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	rischiato	rischiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	far	fare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	esplodere	esplodere	VERB	V	VerbForm=Inf	21	ccomp	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	tesissima	teso	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	24	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	registra	registrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+31-32	sul	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	confine	confine	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+34	siriano	siriano	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Un drone colpito dopo aver violato lo spazio aereo israeliano, e che aveva scatenato una rappresaglia in Siria finita con un F- 16 israeliano abbattuto sulla via del ritorno.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	drone	drone	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+3	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	dopo	dopo	SCONJ	CS	_	6	mark	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	violato	violare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	aereo	aereo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	israeliano	israeliano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	scatenato	scatenato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	rappresaglia	rappresaglia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	Siria	Siria	PROPN	SP	_	17	nmod	_	_
+20	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	F	F	PROPN	SP	_	20	obl	_	SpaceAfter=No
+24	-	-	PUNCT	FF	_	23	punct	_	_
+25	16	16	NUM	N	NumType=Card	23	nummod	_	_
+26	israeliano	israeliano	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	abbattuto	abbattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+28-29	sulla	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	via	via	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 7
+# text = Secondo Netanyahu, da Teheran.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	Netanyahu	Netanyahu	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Teheran	Teheran	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Il confronto diretto tra i due arcinemici tiene il mondo intero col fiato sospeso da allora.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	diretto	diretto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	tra	tra	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	arcinemici	arcinemico	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	intero	intero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	col	_	_	_	_	_	_	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	fiato	fiato	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+15	sospeso	sospendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	allora	allora	ADV	B	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = « Riporti un messaggio ai tiranni di Teheran » , ha scandito ieri il premier israeliano davanti alla platea pietrificata di esperti militari, politici e lobbyisti della difesa, « non mettete alla prova la nostra determinazione » .
+1	«	«	PUNCT	FB	_	2	punct	_	_
+2	Riporti	riportare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	tiranni	tiranno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Teheran	Teheran	PROPN	SP	_	7	nmod	_	_
+10	»	»	PUNCT	FB	_	2	punct	_	_
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	scandito	scandire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+14	ieri	ieri	ADV	B	_	13	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	premier	premier	NOUN	S	_	13	obj	_	_
+17	israeliano	israeliano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	davanti	davanti	ADV	B	_	21	case	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	18	fixed	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	platea	platea	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+22	pietrificata	pietrificata	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	militari	militare	ADJ	A	Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	politici	politico	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	lobbyisti	lobbyista	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	2	punct	_	_
+34	«	«	PUNCT	FB	_	36	punct	_	_
+35	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+36	mettete	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+37-38	alla	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	prova	prova	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+43	»	»	PUNCT	FB	_	36	punct	_	_
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Il messaggio di " Bibi" al regime degli ayatollah è chiaro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	_
+5	Bibi	Bibi	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	regime	regime	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	ayatollah	ayatollah	NOUN	S	Gender=Masc	9	nmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 11
+# text = Israele teme l'espansionismo iraniano in Siria, in Libano e in tutta l'area e avverte:
+1	Israele	Israele	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	teme	temere	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	espansionismo	espansionismo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	iraniano	iraniano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Siria	Siria	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Libano	Libano	PROPN	SP	_	1	nmod	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det:predet	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	area	area	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	avverte	avverta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = « Se necessario, Israele è determinata ad agire non soltanto contro gli alleati dell'Iran, ma anche contro l'Iran».
+1	«	«	PUNCT	FB	_	7	punct	_	_
+2	Se	se	SCONJ	CS	_	7	mark	_	_
+3	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Israele	Israele	PROPN	SP	_	7	nsubj:pass	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	determinata	determinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	ad	a	ADP	E	_	9	mark	_	_
+9	agire	agire	VERB	V	VerbForm=Inf	7	ccomp	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	soltanto	soltanto	ADV	B	_	9	advmod	_	_
+12	contro	contro	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	alleati	alleato	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	Iran	Iran	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	23	punct	_	_
+19	ma	ma	CCONJ	CC	_	23	cc	_	_
+20	anche	anche	ADV	B	_	23	advmod	_	_
+21	contro	contro	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	Iran	Iran	PROPN	SP	_	9	conj	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Forte dell'appoggio dell'amministrazione Trump, Netanyahu si è rivolto anche all'Europa, che sta tentando di salvare l'accordo nucleare firmato due anni fa con Teheran — e le riunioni a margine della Conferenza lo dimostrano.
+1	Forte	forte	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+2-3	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	di	di	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	Trump	Trump	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	Netanyahu	Netanyahu	PROPN	SP	_	13	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	anche	anche	ADV	B	_	17	advmod	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	Europa	Europa	PROPN	SP	_	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	tentando	tentare	VERB	V	VerbForm=Ger	17	acl:relcl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	salvare	salvare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	nucleare	nucleare	ADJ	A	Number=Sing	25	amod	_	_
+27	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+28	due	due	NUM	N	NumType=Card	29	nummod	_	_
+29	anni	anno	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+30	fa	fa	ADV	B	_	29	advmod	_	_
+31	con	con	ADP	E	_	32	case	_	_
+32	Teheran	Teheran	PROPN	SP	_	27	obl	_	_
+33	—	—	PUNCT	FF	_	36	punct	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	riunioni	riunione	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	margine	margine	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	43	obl	_	_
+42	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+43	dimostrano	dimostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 14
+# text = Ma per Israele « è arrivato il momento di fermare l'Iran».
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	Israele	Israele	PROPN	SP	_	6	obl	_	_
+4	«	«	PUNCT	FB	_	3	punct	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	fermare	fermare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	Iran	Iran	PROPN	SP	_	10	obj	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Zarif gli ha risposto a stretto giro, derubricando lo show con il drone a « numero ridicolo da circo che non merita neanche una risposta».
+1	Zarif	Zarif	PROPN	SP	_	4	nsubj	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	giro	giro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	derubricando	derubricare	VERB	V	VerbForm=Ger	4	advcl	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	show	show	NOUN	S	Gender=Masc	9	obj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	drone	drone	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	«	«	PUNCT	FB	_	17	punct	_	_
+17	numero	numero	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	ridicolo	ridicolare	NOUN	S	Gender=Masc|Number=Sing	17	compound	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	circo	circo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	merita	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+24	neanche	neanche	ADV	BN	PronType=Neg	23	advmod	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+27	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Ma più tardi anche il suo omologo saudita, Adel Al- Jubeir, l'altra potenza dell'area coinvolta nel conflitto siriano, ha avvertito l'odiato regime sciita che rischia di pagare « per il suo atteggiamento aggressivo».
+1	Ma	ma	CCONJ	CC	_	29	cc	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	tardi	tardi	ADV	B	_	29	advmod	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	omologo	omologo	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+8	saudita	saudita	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	Adel	Adel	PROPN	SP	_	7	nmod	_	_
+11-12	Al	_	_	_	_	_	_	_	SpaceAfter=No
+11	A	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	-	-	PUNCT	FF	_	14	punct	_	_
+14	Jubeir	Jubeir	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+17	altra	altro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	potenza	potenza	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	area	area	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	coinvolta	coinvolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	conflitto	conflitto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	siriano	siriano	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	7	punct	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	avvertito	avvertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+31	odiato	odiato	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+32	regime	regime	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+33	sciita	sciito	ADJ	A	Number=Sing	32	amod	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	pagare	pagare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	«	«	PUNCT	FB	_	42	punct	_	_
+39	per	per	ADP	E	_	42	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+43	aggressivo	aggressivo	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+44	»	»	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	29	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Lo show di Netanyahu ricorda quello che inscenò nel 2012 all'Assemblea generale dell'Onu, quando tentò di spiegare il pericolo del programma nucleare iraniano con il fumetto di una bomba.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	show	show	NOUN	S	Gender=Masc	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Netanyahu	Netanyahu	PROPN	SP	_	2	nmod	_	_
+5	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	inscenò	inscenare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	2012	2012	NUM	N	NumType=Card	8	obl	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Assemblea	assemblea	PROPN	SP	_	8	obl	_	_
+15	generale	generale	ADJ	A	Number=Sing	14	amod	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	Onu	Onu	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	quando	quando	SCONJ	CS	_	21	mark	_	_
+21	tentò	tentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	spiegare	spiegare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	programma	programma	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	nucleare	nucleare	ADJ	A	Number=Sing	28	amod	_	_
+30	iraniano	iraniare	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	fumetto	fumetto	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	bomba	bomba	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Allora lo spettro del riarmo sembrava confinato a poche aree del mondo.
+1	Allora	allora	ADV	B	_	7	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	spettro	spettro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	riarmo	riarmo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	confinato	confinato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	aree	area	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = Oggi il rischio di un confronto atomico — a cominciare dalla penisola coreana — è diventato talmente reale da monopolizzare molte conversazioni a margine della Conferenza sulla sicurezza.
+1	Oggi	oggi	ADV	B	_	17	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	atomico	atomico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	—	—	PUNCT	FF	_	6	punct	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	cominciare	cominciare	VERB	V	VerbForm=Inf	6	acl	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	coreana	coreano	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	—	—	PUNCT	FF	_	3	punct	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	talmente	talmente	ADV	B	_	19	advmod	_	_
+19	reale	reale	ADJ	A	Number=Sing	17	xcomp	_	_
+20	da	da	ADP	E	_	21	mark	_	_
+21	monopolizzare	monopolizzare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+22	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	conversazioni	conversazione	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	margine	margine	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Conferenza	conferenza	PROPN	SP	_	25	nmod	_	_
+29-30	sulla	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 20
+# text = Che è risultata, a detta di molti partecipanti a microfoni spenti, una delle più cupe di sempre.
+1	Che	che	PRON	PQ	PronType=Int	3	nsubj:pass	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	risultata	risultare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	detta	detta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	partecipanti	partecipante	NOUN	S	Number=Plur	6	nmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	microfoni	microfone	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+12	spenti	spento	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	appos	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	cupe	cupo	ADJ	A	Gender=Fem|Number=Plur	14	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sempre	sempre	ADV	B	_	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

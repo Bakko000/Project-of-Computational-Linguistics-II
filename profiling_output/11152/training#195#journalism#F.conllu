@@ -1,0 +1,840 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mattarella convoca i capi dei servizi
+1	Mattarella	Mattarello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	convoca	convocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	capi	capo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = ROMA - Servizi segreti e caso Ocalan: stasera, alle 20,15, l' affaire approda al Comitato parlamentare di controllo.
+1	ROMA	Roma	PROPN	SP	_	3	nmod	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	Servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	segreti	segreto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	caso	caso	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+7	Ocalan	Ocalan	PROPN	SP	_	17	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+9	stasera	stasera	ADV	B	_	17	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	20,15	20,15	NUM	N	NumType=Card	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	affaire	affaira	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	approda	approdare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	parlamentare	parlamentare	ADJ	A	Number=Sing	20	amod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Per la prima volta, da quando ne è diventato il ministro politicamente responsabile, il vicepresidente del Consiglio Sergio Mattarella (Ppi) dovrà sottoporsi all' interrogatorio del presidente Franco Frattini (Fi) e dei cinque componenti.
+1	Per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	da	da	ADP	E	_	10	mark	_	_
+7	quando	quando	SCONJ	CS	_	6	fixed	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	10	xcomp	_	_
+13	politicamente	politicamente	ADV	B	_	14	advmod	_	_
+14	responsabile	responsabile	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	vicepresidente	vicepresidente	NOUN	S	Number=Sing	27	nsubj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Consiglio	Consiglio	PROPN	SP	_	17	nmod	_	_
+21	Sergio	Sergio	PROPN	SP	_	20	flat:name	_	_
+22	Mattarella	Mattarella	PROPN	SP	_	20	flat:name	_	_
+23	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	Ppi	Ppi	PROPN	SP	_	20	appos	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	24	punct	_	_
+26	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	aux	_	_
+27-28	sottoporsi	_	_	_	_	_	_	_	_
+27	sottopor	sottoporre	VERB	V	VerbForm=Inf	0	root	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29-30	all'	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	interrogatorio	interrogatorio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	Franco	Franco	PROPN	SP	_	34	nmod	_	_
+36	Frattini	Frattini	PROPN	SP	_	35	flat:name	_	_
+37	(	(	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	Fi	Fi	PROPN	SP	_	31	appos	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	38	punct	_	_
+40	e	e	CCONJ	CC	_	44	cc	_	_
+41-42	dei	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	44	case	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+43	cinque	cinque	NUM	N	NumType=Card	44	nummod	_	_
+44	componenti	componente	NOUN	S	Number=Plur	31	conj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 4
+# text = Non ci sarà Luigi Saraceni (Verdi) che difende il leader del Pkk.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	Luigi	Luigi	PROPN	SP	_	3	nsubj	_	_
+5	Saraceni	Saraceni	PROPN	SP	_	4	flat:name	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Verdi	Verdi	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	difende	difendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	leader	leader	NOUN	S	_	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Pkk	pkk	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ieri sera Mattarella ha riunito i direttori del Cesis (la struttura di coordinamento), del Sismi (servizio militare) e del Sisde (civile).
+1	Ieri	ieri	ADV	B	_	5	advmod	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	Mattarella	Mattarella	PROPN	SP	_	2	nmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	riunito	riunire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	direttori	direttore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Cesis	Cesis	PROPN	SP	_	7	nmod	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	coordinamento	coordinamento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Sismi	Sismi	PROPN	SP	_	7	nmod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	20	appos	_	_
+23	militare	militare	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	22	punct	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Sisde	Sisde	PROPN	SP	_	20	conj	_	_
+29	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	civile	civile	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = I prefetti Francesco Berardino e Vittorio Stelo e l' ammiraglio Gianfranco Battelli hanno fatto buon viso a cattiva sorte.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	prefetti	prefetto	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+3	Francesco	Francesco	PROPN	SP	_	2	nmod	_	_
+4	Berardino	Berardino	PROPN	SP	_	3	flat:name	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Vittorio	Vittorio	PROPN	SP	_	2	conj	_	_
+7	Stelo	stelo	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	ammiraglio	ammiraglio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+11	Gianfranco	Gianfranco	PROPN	SP	_	10	nmod	_	_
+12	Battelli	battelli	PROPN	SP	_	11	flat:name	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	buon	buono	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	viso	viso	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	cattiva	cattivo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 7
+# text = Da giorni si stanno facendo una guerra aspra, senza esclusione di colpi, per addossarsi le responsabilità della brutta figura Ocalan.
+1	Da	da	ADP	E	_	2	case	_	_
+2	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	aspra	aspra	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	esclusione	esclusione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16-17	addossarsi	_	_	_	_	_	_	_	_
+16	addossar	addossare	VERB	V	VerbForm=Inf	11	acl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	responsabilità	responsabilità	NOUN	S	Gender=Fem	16	obj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	figura	figura	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+24	Ocalan	Ocalan	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Ma ieri sera - molto disciplinatamente - hanno spiegato ciascuno che cosa ha fatto, che cosa non ha fatto, che cosa avrebbe potuto fare.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ieri	ieri	ADV	B	_	0	root	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+4	-	-	PUNCT	FF	_	6	punct	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	disciplinatamente	disciplinatamente	ADV	B	_	2	advmod	_	_
+7	-	-	PUNCT	FB	_	6	punct	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+10	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+11	che	che	DET	DQ	PronType=Int	12	det	_	_
+12	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	14	obj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	che	che	DET	DQ	PronType=Int	17	det	_	_
+17	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	che	che	DET	DQ	PronType=Int	23	det	_	_
+23	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+24	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux	_	_
+26	fare	fare	VERB	V	VerbForm=Inf	20	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Agli atti del comitato, sulla loro attività, c' è ben poco.
+1-2	Agli	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	atti	atto	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	attività	attività	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	ben	bene	ADV	B	_	16	advmod	_	_
+16	poco	poco	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 10
+# text = Innanzitutto la certezza di una data:
+1	Innanzitutto	innanzitutto	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	data	data	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 11
+# text = dalla presidenza del Consiglio partì una segnalazione per il Cesis su Ocalan solo mercoledì 11 novembre, e cioè il giorno prima dell' arrivo di Apo in Italia.
+1-2	dalla	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Consiglio	consiglio	PROPN	SP	_	3	nmod	_	_
+7	partì	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	segnalazione	segnalazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Cesis	Cesis	PROPN	SP	_	9	nmod	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	Ocalan	Ocalan	PROPN	SP	_	16	nmod	_	_
+15	solo	solo	ADV	B	_	16	advmod	_	_
+16	mercoledì	mercoledì	NOUN	S	Gender=Masc	9	nmod	_	_
+17	11	11	NUM	N	NumType=Card	16	nmod	_	_
+18	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	cioè	cioè	ADV	B	_	23	advmod	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+24	prima	prima	ADV	B	_	27	case	_	_
+25-26	dell'	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	24	fixed	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Apo	Apo	PROPN	SP	_	27	nmod	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	Italia	Italia	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Al Comitato è noto che Berardino avvisò la polizia e che si cominciò a studiare il caso, scoprendo così che il curdo era un ricercato europeo e che doveva essere arrestato.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	noto	noto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	Berardino	Berardino	PROPN	SP	_	8	nsubj	_	_
+8	avvisò	avvisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	studiare	studiare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	caso	caso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	scoprendo	scoprire	VERB	V	VerbForm=Ger	14	advcl	_	_
+21	così	così	ADV	B	_	20	advmod	_	_
+22	che	che	SCONJ	CS	_	27	mark	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	curdo	curdo	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+25	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ricercato	ricercato	NOUN	S	Gender=Masc|Number=Sing	20	ccomp	_	_
+28	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	_
+30	che	che	PRON	PR	PronType=Rel	33	nsubj:pass	_	_
+31	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+32	essere	essere	AUX	VA	VerbForm=Inf	33	aux:pass	_	_
+33	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Frattini ha potuto leggere le carte inviate dal solo Cesis.
+1	Frattini	Frattini	PROPN	SP	_	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4	leggere	leggere	VERB	V	VerbForm=Inf	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	carte	carta	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	inviate	inviare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	solo	solo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	Cesis	Cesis	PROPN	SP	_	7	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Si tratta di ben poca cosa: in sostanza, la cosiddetta "bimestrale" in cui sono contenute informazioni sul Pkk e sul pericolo curdo in Italia legato ai problemi dell' immigrazione.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	ben	bene	ADV	B	_	6	advmod	_	_
+5	poca	poco	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	cosiddetta	cosiddetto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	bimestrale	bimestrale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	contenute	contenere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Pkk	pkk	PROPN	SP	_	20	nmod	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25-26	sul	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+28	curdo	curdo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	Italia	Italia	PROPN	SP	_	27	nmod	_	_
+31	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+32-33	ai	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	_
+35-36	dell'	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	immigrazione	immigrazione	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Nulla, quindi, che riguardi il sospetto di una permanenza Ocalan in Italia.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quindi	quindi	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	riguardi	riguardare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	permanenza	permanenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	Ocalan	Ocalan	PROPN	SP	_	11	nmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Italia	Italia	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Da Mattarella il Comitato vorrà sapere fino a che punto il governo era informato dell' arrivo di Ocalan.
+1	Da	da	ADP	E	_	2	case	_	_
+2	Mattarella	Mattarella	PROPN	SP	_	6	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	vorrà	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+7	fino	fino	ADV	B	_	10	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	che	che	DET	DQ	PronType=Int	10	det	_	_
+10	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	governo	governo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:pass	_	_
+14	informato	informare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+15-16	dell'	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Ocalan	Ocalan	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = Frattini non ha nascosto le convinzione che i servizi non sapessero nulla e che invece era il governo a sapere.
+1	Frattini	Frattini	PROPN	SP	_	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	nascosto	nascondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	convinzione	convinzione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	sapessero	sapere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+12	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	_
+13	e	e	CCONJ	CC	_	18	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+15	invece	invece	ADV	B	_	18	advmod	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	governo	governo	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	sapere	sapere	VERB	V	VerbForm=Inf	18	acl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = D' altra parte, ancora ieri, il premier Massimo D' Alema ha tagliato corto sui servizi:
+1	D'	da	ADP	E	_	3	case	_	_
+2	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	ieri	ieri	ADV	B	_	14	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	premier	premier	NOUN	S	_	14	nsubj	_	_
+10	Massimo	Massimo	PROPN	SP	_	9	nmod	_	_
+11	D'	D'	PROPN	SP	_	10	flat:name	_	_
+12	Alema	Alema	PROPN	SP	_	10	flat:name	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	tagliato	tagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	corto	corto	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	_
+16-17	sui	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 19
+# text = "Non ho nulla da rimproverare a nessuno".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	rimproverare	rimproverare	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = E il ministro della Difesa, Carlo Scognamiglio, è stato ancora più netto:
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Difesa	difesa	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Carlo	Carlo	PROPN	SP	_	3	appos	_	_
+9	Scognamiglio	Scognamiglio	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+13	ancora	ancora	ADV	B	_	14	advmod	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	netto	netto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 21
+# text = "Ocalan non rappresentava un pericolo per l' Italia.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ocalan	Ocalan	PROPN	SP	_	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	rappresentava	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Italia	Italia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = E quindi il Sismi non se ne doveva occupare".
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	quindi	quindi	ADV	B	_	9	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Sismi	Sismi	PROPN	SP	_	9	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+6	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+8	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	occupare	occupare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 23
+# text = Il che significa: nessuna testa, per il momento, verrà tagliata.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	testa	testa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	momento	momento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux:pass	_	_
+13	tagliata	tagliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Che il presidente D' Alema volesse mettere fine alla querelle sui servizi s' era già capito venerdì scorso, dopo il secco comunicato uscito dal consiglio dei ministri.
+1	Che	che	SCONJ	CS	_	7	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	D'	D'	PROPN	SP	_	3	nmod	_	_
+5	Alema	Alema	PROPN	SP	_	4	flat:name	_	_
+6	volesse	volere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	mettere	mettere	VERB	V	VerbForm=Inf	18	advcl	_	_
+8	fine	fine	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	querelle	querella	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	7	obl	_	_
+12-13	sui	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+17	già	già	ADV	B	_	18	advmod	_	_
+18	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	venerdì	venerdì	NOUN	S	Gender=Masc	18	obl	_	_
+20	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	dopo	dopo	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	secco	secco	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+25	comunicato	comunicato	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+27-28	dal	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	ministri	ministro	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 25
+# text = A palazzo Chigi, ancora ieri, il ragionamento era più o meno questo:
+1	A	a	ADP	E	_	2	case	_	_
+2	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+3	Chigi	Chigi	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	ieri	ieri	ADV	B	_	14	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ragionamento	ragionamento	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+11	più	più	ADV	B	_	14	advmod	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	meno	meno	ADV	B	_	11	conj	_	_
+14	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 26
+# text = "Non si cambiano i capi dei servizi sull' onda dell' emergenza.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	cambiano	cambiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	capi	capo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10-11	sull'	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	onda	onda	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Prima viene la riforma.
+1	Prima	prima	ADV	B	_	2	advmod	_	_
+2	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Poi si vedrà".
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	vedrà	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = Ieri, però, l' Udr ha fatto sentire la sua voce con un' interpellanza al governo:
+1	Ieri	ieri	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Udr	Udr	PROPN	SP	_	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	sentire	sentire	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	voce	voce	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	interpellanza	interpellanza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	governo	governo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 30
+# text = gli uomini di Francesco Cossiga sollecitano la riforma e vogliono sapere come il governo intenda mettere una pezza alle "inquietanti disfunzioni" degli 007.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Francesco	Francesco	PROPN	SP	_	2	nmod	_	_
+5	Cossiga	Cossiga	PROPN	SP	_	4	flat:name	_	_
+6	sollecitano	sollecitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	sapere	sapere	VERB	V	VerbForm=Inf	6	conj	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	governo	governo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	intenda	intendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	mettere	mettere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	pezza	pezza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	23	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+21	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	inquietanti	inquietante	ADJ	A	Number=Plur	23	amod	_	_
+23	disfunzioni	disfunzione	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	23	punct	_	_
+25-26	degli	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	007	007	NUM	N	NumType=Card	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 31
+# text = Sin dalla nascita del governo Cossiga non ha fatto mistero di voler ridiscutere l' organigramma dei servizi:
+1	Sin	sino	PROPN	SP	_	11	nsubj	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	governo	governo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	Cossiga	Cossiga	PROPN	SP	_	7	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	di	di	ADP	E	_	15	mark	_	_
+14	voler	volere	AUX	VM	VerbForm=Inf	15	aux	_	_
+15	ridiscutere	ridiscutere	VERB	V	VerbForm=Inf	12	acl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	organigramma	organigramma	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 32
+# text = il caso Ocalan è un' occasione troppo ghiotta per lasciarla perdere.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Ocalan	Ocalan	PROPN	SP	_	2	nmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	troppo	troppo	ADV	B	_	8	advmod	_	_
+8	ghiotta	ghiotto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	lasciarla	_	_	_	_	_	_	_	_
+10	lasciar	lasciare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	perdere	perdere	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 33
+# text = E gli attuali direttori di Cesis, Sismi e Sisde?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	attuali	attuale	ADJ	A	Number=Plur	4	amod	_	_
+4	direttori	direttore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Cesis	Cesis	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Sismi	Sismi	PROPN	SP	_	6	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Sisde	Sisde	PROPN	SP	_	6	conj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 34
+# text = Vivono l' incubo di una fase di passaggio, cercando di scaricarsi addosso le responsabilità.
+1	Vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	incubo	incubo	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fase	fase	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	cercando	cercare	VERB	V	VerbForm=Ger	1	advcl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	scaricarsi	_	_	_	_	_	_	_	_
+12	scaricar	scaricare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	addosso	adduovere	ADV	B	_	12	advmod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	responsabilità	responsabilità	NOUN	S	Gender=Fem	12	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 35
+# text = Tutti contro tutti, senza escludere polemiche con la polizia.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+2	contro	contro	ADP	E	_	3	case	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	senza	senza	ADP	E	_	6	mark	_	_
+6	escludere	escludere	VERB	V	VerbForm=Inf	1	advcl	_	_
+7	polemiche	polemica	ADJ	A	Gender=Fem|Number=Plur	6	obj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 36
+# text = Che il Sisde rimprovera di aver giocato da sola, tagliando fuori gli 007 del Viminale.
+1	Che	che	SCONJ	CS	_	4	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Sisde	Sisde	PROPN	SP	_	4	nsubj	_	_
+4	rimprovera	rimprovero	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	sola	solo	ADJ	A	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	tagliando	tagliare	VERB	V	VerbForm=Ger	7	advcl	_	_
+12	fuori	fuori	ADV	B	_	11	advmod	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	007	007	NUM	N	NumType=Card	11	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Viminale	Viminale	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

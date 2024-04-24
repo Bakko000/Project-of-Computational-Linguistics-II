@@ -1,0 +1,432 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La bugia è adulta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bugia	bugia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	adulta	adulto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = E viaggia in tram
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	viaggia	viaggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	tram	tram	NOUN	S	Gender=Masc	2	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = PIZZICATI dai controllori Gtt senza biglietto, pur di sfuggire alla multa hanno fornito generalità false.
+1	PIZZICATI	pizzicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	advcl	_	_
+2-3	dai	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	controllori	controllore	NOUN	S	Gender=Masc|Number=Plur	1	obl:agent	_	_
+5	Gtt	Gtt	PROPN	SP	_	4	nmod	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	pur	pure	ADV	B	_	11	mark	_	_
+10	di	di	ADP	E	_	9	fixed	_	_
+11	sfuggire	sfuggire	VERB	V	VerbForm=Inf	16	advcl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	multa	multa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fornito	fornire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	generalità	generalità	NOUN	S	Gender=Fem	16	obj	_	_
+18	false	falso	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = No, non si tratta dei soliti ragazzini che sfidano impavidi l' autorità, ma di individui fatti e cresciuti che per evitare l' ammenda hanno fornito nome, cognome e indirizzo di pura fantasia:
+1	No	no	INTJ	I	Polarity=Neg	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	soliti	solito	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	ragazzini	ragazzino	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	sfidano	sfidare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	impavidi	impavidere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	csubj	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	autorità	autorità	NOUN	S	Gender=Fem	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+19	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	cresciuti	crescere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	conj	_	_
+22	che	che	SCONJ	CS	_	28	mark	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	evitare	evitare	VERB	V	VerbForm=Inf	28	advcl	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	ammenda	ammenda	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	fornito	fornire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	ccomp	_	_
+29	nome	nome	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	cognome	cognome	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	pura	puro	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+36	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = talvolta quelli di un malcapitato conoscente.
+1	talvolta	talvolta	ADV	B	_	2	advmod	_	_
+2	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	malcapitato	malcapitato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	conoscente	conoscente	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Da qui l' invasione nelle buche dei torinesi di verbali attribuiti ad altri.
+1	Da	da	ADP	E	_	2	case	_	_
+2	qui	qui	ADV	B	_	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	invasione	invasione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	buche	buca	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	torinesi	torinese	NOUN	S	Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	verbali	verbale	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	attribuiti	attribuire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+14	ad	a	ADP	E	_	15	case	_	_
+15	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = «È un fenomeno - spiega l' assessore comunale ai Trasporti, Maria Grazia Sestero - che interessa sempre più gli over 25.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	-	-	PUNCT	FB	_	6	punct	_	_
+6	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	assessore	assessore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	comunale	comunale	ADJ	A	Number=Sing	8	amod	_	_
+10-11	ai	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Trasporti	trasporto	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	Maria	Maria	PROPN	SP	_	8	appos	_	_
+15	Grazia	grazia	PROPN	SP	_	14	flat:name	_	_
+16	Sestero	Sestero	PROPN	SP	_	14	flat:name	_	_
+17	-	-	PUNCT	FB	_	14	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+20	sempre	sempre	ADV	B	_	19	advmod	_	_
+21	più	più	ADV	B	_	19	advmod	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	over	over	NOUN	S	_	19	obj	_	_
+24	25	25	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = E non mi riferisco ai trentenni:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	riferisco	riferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	trentenni	trentenne	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 9
+# text = i controllori si sono imbattuti in anziani che non si sono fatti molti problemi a mentire sulle loro generalità.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	controllori	controllore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	imbattuti	imbattere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	12	nsubj:pass	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:pass	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	mentire	mentire	VERB	V	VerbForm=Inf	12	xcomp	_	_
+17-18	sulle	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	generalità	generalità	NOUN	S	Gender=Fem	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Che sia colpa della crisi?».
+1	Che	che	SCONJ	CS	_	3	mark	_	_
+2	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	crisi	crisi	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = A chiedere delucidazioni in proposito era stato Vincenzo Cugusi, consigliere comunale di Sd. «Ho presentato la mia interpellanza - ha spiegato - dopo che a mia figlia è arrivata una multa per non aver pagato il biglietto dell' autobus:
+1	A	a	ADP	E	_	2	mark	_	_
+2	chiedere	chiedere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+3	delucidazioni	delucidazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+8	Vincenzo	Vincenzo	PROPN	SP	_	0	root	_	_
+9	Cugusi	Cuguso	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+12	comunale	comunala	ADJ	A	Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Sd	Sd	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+16	«	«	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	interpellanza	interpellanza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	-	-	PUNCT	FB	_	24	punct	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	parataxis	_	_
+25	-	-	PUNCT	FF	_	24	punct	_	_
+26	dopo	dopo	ADV	B	_	32	mark	_	_
+27	che	che	SCONJ	CS	_	26	fixed	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+31	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	multa	multa	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
+35	per	per	ADP	E	_	38	mark	_	_
+36	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+37	aver	avere	AUX	VA	VerbForm=Inf	38	aux	_	_
+38	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	advcl	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41-42	dell'	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	autobus	autobus	NOUN	S	Gender=Masc	40	nmod	_	SpaceAfter=No
+44	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 12
+# text = peccato a quell' ora lei fosse a scuola.
+1	peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	_
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	1	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Lo stesso episodio è capitato a molti miei conoscenti.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	capitato	capitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	conoscenti	conoscente	NOUN	S	Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Ma pensavo che fosse un fenomeno limitato ai giovani».
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+7	limitato	limitato	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	giovani	giovane	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Invece no:
+1	Invece	invece	ADV	B	_	2	advmod	_	_
+2	no	no	ADV	BN	PronType=Neg	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 16
+# text = stando agli ultimi dati forniti dal Gtt, il 62,6 per cento dei "falsari" ha più di 25 anni, il 20,8 per cento tra i 19 e i 25 e appena il 17,4 è ancora in età da liceo.
+1	stando	stare	VERB	V	VerbForm=Ger	20	advcl	_	_
+2-3	agli	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+5	dati	dato	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+6	forniti	fornire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Gtt	Gtt	PROPN	SP	_	6	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	62,6	62,6	NUM	N	NumType=Card	20	nsubj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	cento	cento	NUM	N	NumType=Card	12	nummod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	falsari	falsario	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	_
+20	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	più	più	ADV	B	_	20	advmod	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	25	25	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	20,8	20,8	NUM	N	NumType=Card	20	obj	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	cento	cento	NUM	N	NumType=Card	27	nummod	_	_
+30	tra	tra	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	19	19	NUM	N	NumType=Card	27	nummod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	25	25	NUM	N	NumType=Card	32	conj	_	_
+36	e	e	CCONJ	CC	_	43	cc	_	_
+37	appena	appena	ADV	B	_	43	advmod	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	17,4	17,4	NUM	N	NumType=Card	43	nsubj	_	_
+40	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+41	ancora	ancora	ADV	B	_	43	advmod	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	età	età	NOUN	S	Gender=Fem	20	conj	_	_
+44	da	da	ADP	E	_	45	case	_	_
+45	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 17
+# text = E l' azienda può fare ben poco per contrastare i "ladri di generalità".
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	ben	bene	ADV	B	_	7	advmod	_	_
+7	poco	poco	ADV	B	_	5	advmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	contrastare	contrastare	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	generalità	generalità	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = «Colpa dei limitati poteri di accertamento che la legge riconosce ai "verificatori dei titoli di viaggio" - si legge in una nota del Gtt - Infatti il Codice Penale punisce il rifiuto di dare indicazioni sulla propria identità personale se richiesta da un pubblico ufficiale, non la mancata esibizione di un documento di identità».
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Colpa	colpa	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	limitati	limitare	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	poteri	potere	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	accertamento	accertamento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	legge	legge	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	riconosce	riconoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	verificatori	verificatore	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	titoli	titolo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	16	punct	_	_
+23	-	-	PUNCT	FB	_	2	punct	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl:impers	_	_
+25	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	parataxis	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	nota	nota	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Gtt	Gtt	PROPN	SP	_	28	nmod	_	_
+32	-	-	PUNCT	FF	_	25	punct	_	_
+33	Infatti	infatti	ADV	B	_	37	advmod	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Codice	Codice	PROPN	SP	_	37	nsubj	_	_
+36	Penale	penale	PROPN	SP	_	35	flat:name	_	_
+37	punisce	punire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	rifiuto	rifiuto	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+40	di	di	ADP	E	_	41	mark	_	_
+41	dare	dare	VERB	V	VerbForm=Inf	39	acl	_	_
+42	indicazioni	indicazione	NOUN	S	Gender=Fem|Number=Plur	41	obj	_	_
+43-44	sulla	_	_	_	_	_	_	_	_
+43	su	su	ADP	E	_	46	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	46	det:poss	_	_
+46	identità	identità	NOUN	S	Gender=Fem	41	obl	_	_
+47	personale	personale	ADJ	A	Number=Sing	46	amod	_	_
+48	se	se	SCONJ	CS	_	49	mark	_	_
+49	richiesta	richiedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	41	advcl	_	_
+50	da	da	ADP	E	_	52	case	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	49	obl:agent	_	_
+53	ufficiale	ufficiale	ADJ	A	Number=Sing	52	amod	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	58	punct	_	_
+55	non	non	ADV	BN	PronType=Neg	58	advmod	_	_
+56	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+57	mancata	mancato	ADJ	A	Gender=Fem|Number=Sing	58	amod	_	_
+58	esibizione	esibizione	NOUN	S	Gender=Fem|Number=Sing	37	conj	_	_
+59	di	di	ADP	E	_	61	case	_	_
+60	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	documento	documento	NOUN	S	Gender=Masc|Number=Sing	58	nmod	_	_
+62	di	di	ADP	E	_	63	case	_	_
+63	identità	identità	NOUN	S	Gender=Fem	61	nmod	_	SpaceAfter=No
+64	»	»	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+65	.	.	PUNCT	FS	_	37	punct	_	SpacesAfter=\n\n
+

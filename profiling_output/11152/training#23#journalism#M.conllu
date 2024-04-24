@@ -1,0 +1,893 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gol e vittoria, Marassi da sfatare
+1	Gol	gol	NOUN	S	_	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	Marassi	Marassi	PROPN	SP	_	1	nmod	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7	sfatare	sfatare	VERB	V	VerbForm=Inf	5	acl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Smaltita la sbornia di euforia per il clamoroso e meritato successo in casa della Juventus, prima vittoria contro una grande dal ritorno in serie A, la Sampdoria tenta oggi contro la Fiorentina di invertire anche la rotta a Marassi.
+1	Smaltita	Smaltire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sbornia	sbornia	NOUN	S	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	euforia	euforia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	per	per	ADP	E	_	11	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+8	clamoroso	clamoroso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	meritato	meritare	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	successo	successo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Juventus	Juventus	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	prima	prima	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+20	contro	contro	ADP	E	_	32	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+22	grande	grande	ADJ	A	Number=Sing	32	amod	_	_
+23-24	dal	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	serie	serie	NOUN	S	Gender=Fem	25	nmod	_	_
+28	A	A	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	22	punct	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Sampdoria	Sampdoria	PROPN	SP	_	32	nsubj	_	_
+32	tenta	tentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+33	oggi	oggi	ADV	B	_	32	advmod	_	_
+34	contro	contro	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Fiorentina	fiorentina	PROPN	SP	_	32	obl	_	_
+37	di	di	ADP	E	_	38	mark	_	_
+38	invertire	invertire	VERB	V	VerbForm=Inf	36	acl	_	_
+39	anche	anche	ADV	B	_	41	advmod	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	rotta	rotta	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	Marassi	Marassi	PROPN	SP	_	38	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = La squadra di Walter Novellino ha infatti pareggiato le ultime due partite tra le mura amiche ed ha un rendimento in trasferta nettamente superiore a quello interno.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Walter	Walter	PROPN	SP	_	2	nmod	_	_
+5	Novellino	Novellino	PROPN	SP	_	4	flat:name	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	infatti	infatti	ADV	B	_	8	advmod	_	_
+8	pareggiato	pareggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+10	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	12	amod	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	partite	partita	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+13	tra	tra	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	mura	muro	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+16	amiche	amico	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	ed	e	CCONJ	CC	_	18	cc	_	_
+18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	rendimento	rendimento	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	trasferta	trasferta	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	nettamente	netto	ADV	B	_	24	advmod	_	_
+24	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	22	amod	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	obl	_	_
+27	interno	interno	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Venti sono infatti i punti (su trentacinque totali) conquistati lontano dal Ferraris, dove la Samp ha segnato solamente sette delle ventitré reti realizzate in questa stagione.
+1	Venti	venti	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	infatti	infatti	ADV	B	_	5	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	punti	punto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7	su	su	ADP	E	_	9	case	_	_
+8	trentacinque	trentacinque	NUM	N	NumType=Card	9	nummod	_	_
+9	totali	totale	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	conquistati	conquistare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+12	lontano	lontano	ADV	B	_	15	case	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	12	fixed	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Ferraris	Ferraris	PROPN	SP	_	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	dove	dove	ADV	B	_	21	advmod	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Samp	Samp	PROPN	SP	_	21	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	segnato	segnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+22	solamente	solo	ADV	B	_	23	advmod	_	_
+23	sette	sette	NUM	N	NumType=Card	21	obj	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	ventitré	ventitré	NOUN	S	Gender=Masc	23	nmod	_	_
+27	reti	rete	NOUN	S	Gender=Fem|Number=Plur	26	compound	_	_
+28	realizzate	realizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+31	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Una tendenza che il tecnico blucerchiato attribuisce però soprattutto alle circostanze.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	blucerchiato	blucerchiato	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	attribuisce	attribuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	però	però	ADV	B	_	7	advmod	_	_
+9	soprattutto	soprattutto	ADV	B	_	7	advmod	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	circostanze	circostanza	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = «Io credo che la mia squadra abbia giocato allo stesso modo in casa come in trasferta.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10-11	allo	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	trasferta	trasferta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = A Marassi ci è probabilmente mancata solo un po' di concretezza sotto porta.
+1	A	a	ADP	E	_	2	case	_	_
+2	Marassi	Marassi	PROPN	SP	_	6	obl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	probabilmente	probabilmente	ADV	B	_	6	advmod	_	_
+6	mancata	mancare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po'	poco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	concretezza	concretezza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	sotto	sotto	ADP	E	_	13	case	_	_
+13	porta	porta	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Basta guardare le ultime due partite interne contro Bologna e Siena.
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	guardare	guardare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+4	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	6	amod	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	partite	partita	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+7	interne	interno	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	contro	contro	ADP	E	_	9	case	_	_
+9	Bologna	Bologna	PROPN	SP	_	2	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Siena	Siena	PROPN	SP	_	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Occasioni per segnare ne abbiamo avute parecchie, ma non le abbiamo capitalizzate e così sono arrivati due pareggi».
+1	Occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	segnare	segnare	VERB	V	VerbForm=Inf	1	acl	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+5	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	avute	avere	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	parecchie	parecchia	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	capitalizzate	capitalizzare	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	così	così	ADV	B	_	17	advmod	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+18	due	due	NUM	N	NumType=Card	19	nummod	_	_
+19	pareggi	pareggio	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = L' impegno di oggi non si presenta comunque dei più semplici.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	oggi	oggi	ADV	B	_	2	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	presenta	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	comunque	comunque	ADV	B	_	7	advmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	semplici	semplice	ADJ	A	Number=Plur	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Il momento della Fiorentina è infatti estremamente negativo ma la campagna rafforzamenti di gennaio è stata la più ricca della serie A, con l' acquisto boom di Bojinov, oggi in campo dal primo minuto al pari dell' ex blucerchiato Donadel.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Fiorentina	fiorentina	PROPN	SP	_	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	infatti	infatti	ADV	B	_	9	advmod	_	_
+8	estremamente	estremamente	ADV	B	_	9	advmod	_	_
+9	negativo	negativo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	ma	ma	CCONJ	CC	_	20	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+13	rafforzamenti	rafforzamente	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+17	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	cop	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	serie	serie	NOUN	S	Gender=Fem	20	obl	_	_
+24	A	A	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	9	punct	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	acquisto	acquisto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+29	boom	boom	NOUN	S	Gender=Masc	28	compound	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Bojinov	Bojinov	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	oggi	oggi	ADV	B	_	35	advmod	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	campo	campo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+36-37	dal	_	_	_	_	_	_	_	_
+36	da	da	ADP	E	_	39	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	39	amod	_	_
+39	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+40-41	al	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	pari	pari	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+43-44	dell'	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	46	case	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+45	ex	ex	ADJ	A	_	46	amod	_	_
+46	blucerchiato	blucerchiato	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+47	Donadel	Donadel	PROPN	SP	_	46	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = «La partita sarà tutt' altro che facile.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	partita	partita	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
+5	tutt'	tutto	ADJ	A	Number=Sing	0	root	_	_
+6	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	facile	facile	ADJ	A	Number=Sing	5	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = La Fiorentina ha perso le ultime gare ma resta una grande squadra.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Fiorentina	fiorentina	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	7	amod	_	_
+7	gare	gara	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Ha tanti giocatori di valore, basti pensare che a un attacco che vantava già elementi del calibro di Nakata e Miccoli ha aggiunto giovani fortissimi come Bojinov e Pazzini.
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	valore	valore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	basti	bastare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+8	pensare	pensare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	che	che	SCONJ	CS	_	25	mark	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	vantava	vantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	già	già	ADV	B	_	14	advmod	_	_
+16	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	calibro	calibro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Nakata	Nakata	PROPN	SP	_	19	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	Miccoli	Miccoli	PROPN	SP	_	12	conj	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+26	giovani	giovane	NOUN	S	Number=Plur	25	nsubj	_	_
+27	fortissimi	forte	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	26	amod	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	Bojinov	Bojinov	PROPN	SP	_	26	nmod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	Pazzini	Pazzini	PROPN	SP	_	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = La gioia per la vittoria di Torino è stata enorme e giustificata, visto che è stato il primo nostro successo contro una grande.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Torino	Torino	PROPN	SP	_	5	nmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+10	enorme	enorme	ADJ	A	Number=Sing	0	root	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	giustificata	giustificato	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+15	che	che	SCONJ	CS	_	21	mark	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+17	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	cop	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+20	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	successo	successo	NOUN	S	Gender=Masc|Number=Sing	14	ccomp	_	_
+22	contro	contro	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	grande	grande	ADJ	A	Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 16
+# text = Ma per quanto mi riguarda, da giovedì mattina ho iniziato a pensare solamente alla Fiorentina.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	11	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	giovedì	giovedì	NOUN	S	Gender=Masc	11	obl	_	_
+9	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	8	compound	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	pensare	pensare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	solamente	solo	ADV	B	_	13	advmod	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Fiorentina	fiorentina	PROPN	SP	_	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = Ed anche i miei giocatori hanno fatto altrettanto».
+1	Ed	e	CCONJ	CC	_	7	cc	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	altrettanto	altrettanto	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = La partita di oggi sarà resa ancora più difficoltosa dalle intenzioni tattiche di Zoff, finora sempre sconfitto da quando ha sostituito Buso sulla panchina viola.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	partita	partita	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	oggi	oggi	ADV	B	_	2	advmod	_	_
+5	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	resa	rendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ancora	ancora	ADV	B	_	8	advmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	difficoltosa	difficoltoso	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	_
+10-11	dalle	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	6	obl:agent	_	_
+13	tattiche	tattico	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Zoff	Zoff	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	finora	finora	ADV	B	_	18	advmod	_	_
+18	sempre	sempre	ADV	B	_	19	advmod	_	_
+19	sconfitto	sconfivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+20	da	da	ADP	E	_	23	mark	_	_
+21	quando	quando	SCONJ	CS	_	20	fixed	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	sostituito	sostituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+24	Buso	Buso	PROPN	SP	_	23	obj	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+28	viola	violo	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = Il tecnico sembrava deciso a schierare la Fiorentina con un 3-4-1-2 solo in apparenza offensivo ma forse alla fine confermerà il 4-4-2 con Jorgensen esterno di centrocampo a destra e Ariatti, più difensore, a sinistra.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	deciso	deciso	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	schierare	schierare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Fiorentina	fiorentina	PROPN	SP	_	6	obj	_	_
+9	con	con	ADP	E	_	19	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+11	3	3	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+12	-4	-4	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	1	1	NUM	N	NumType=Card	12	compound	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+16	2	2	NUM	N	NumType=Card	14	compound	_	_
+17	solo	solo	ADV	B	_	19	advmod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	apparenza	apparenza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+20	offensivo	offensivo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	ma	ma	CCONJ	CC	_	26	cc	_	_
+22	forse	forse	ADV	B	_	26	advmod	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fine	fine	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+26	confermerà	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	4	4	NUM	N	NumType=Card	26	obj	_	SpaceAfter=No
+29	-	-	PUNCT	FF	_	28	punct	_	SpaceAfter=No
+30	4	4	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+31	-	-	PUNCT	FF	_	30	punct	_	SpaceAfter=No
+32	2	2	NUM	N	NumType=Card	30	compound	_	_
+33	con	con	ADP	E	_	34	case	_	_
+34	Jorgensen	Jorgensen	PROPN	SP	_	26	obl	_	_
+35	esterno	esterno	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	centrocampo	centrocampo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+38	a	a	ADP	E	_	39	case	_	_
+39	destra	destra	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	Ariatti	Ariatti	PROPN	SP	_	34	conj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	41	punct	_	_
+43	più	più	ADV	B	_	44	advmod	_	_
+44	difensore	difensore	ADJ	A	Degree=Cmp|Number=Sing	41	amod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	41	punct	_	_
+46	a	a	ADP	E	_	47	case	_	_
+47	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 20
+# text = L' obiettivo resta quello di mettere in crisi una Samp che ha sempre faticato contro gli avversari molto coperti e pungere con attaccanti abili nelle ripartenze.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	xcomp	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	mettere	mettere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	crisi	crisi	NOUN	S	Gender=Fem	6	obl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Samp	Samp	PROPN	SP	_	6	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	sempre	sempre	ADV	B	_	14	advmod	_	_
+14	faticato	faticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+15	contro	contro	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	avversari	avversario	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	molto	molto	ADV	B	_	19	advmod	_	_
+19	coperti	coperto	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	pungere	pungere	VERB	V	VerbForm=Inf	14	conj	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	attaccanti	attaccante	NOUN	S	Number=Plur	21	obl	_	_
+24	abili	abile	ADJ	A	Number=Plur	23	amod	_	_
+25-26	nelle	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	ripartenze	ripartenza	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Novellino schiererà, fedele al motto "squadra che vince non si tocca", la stessa Sampdoria che ha vinto al Delle Alpi.
+1	Novellino	Novellino	ADV	B	_	2	advmod	_	_
+2	schiererà	schierare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	fedele	fedele	ADJ	A	Number=Sing	2	amod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	motto	motto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	Sampdoria	Sampdoria	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25-26	Delle	_	_	_	_	_	_	_	_
+25	Di	Di	PROPN	SP	_	22	obl	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	Alpi	Alpi	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Simone Inzaghi rientra dalla squalifica ma, non solo per le sue condizioni fisiche non ottimali, partirà dalla panchina, con Rossini ancora una volta al fianco di Flachi.
+1	Simone	Simone	PROPN	SP	_	3	nsubj	_	_
+2	Inzaghi	Inzaghi	PROPN	SP	_	1	flat:name	_	_
+3	rientra	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	squalifica	squalifica	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	ma	ma	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	solo	solo	ADV	B	_	14	advmod	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+15	fisiche	fisico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	ottimali	ottimale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	partirà	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	Rossini	Rossini	PROPN	SP	_	3	obl	_	_
+26	ancora	ancora	ADV	B	_	28	advmod	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	volta	volta	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Flachi	Flachi	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Arbitra Dondarini, non molto amato dal pubblico blucerchiato che lo ricorda protagonista dello 0-3 di Sampdoria-Juventus dell' andata.
+1	Arbitra	Arbitra	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Dondarini	Dondarini	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	blucerchiato	blucerchiato	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	protagonista	protagonista	NOUN	S	Number=Sing	13	xcomp	_	_
+15-16	dello	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	0	0	NUM	N	NumType=Card	14	nmod	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+19	3	3	NUM	N	NumType=Card	17	nummod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Sampdoria-Juventus	Sampdoria-Juventus	PROPN	SP	_	14	nmod	_	_
+22-23	dell'	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	andata	andata	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Il grande lavoro di Novellino ha avuto ieri anche l' ennesimo attestato di stima da parte del presidente Riccardo Garrone.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Novellino	Novellino	PROPN	SP	_	3	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	ieri	ieri	ADV	B	_	7	advmod	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+11	ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	attestato	attestato	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	stima	stima	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Riccardo	Riccardo	PROPN	SP	_	19	nmod	_	_
+21	Garrone	Garrone	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = Il numero uno blucerchiato, dopo l' intervista a «Repubblica» rilasciata giovedì, è tornato ieri sulla vittoria di mercoledì sera («Una gioia paragonabile a quella della promozione») e sui suoi investimenti nel calcio («Nella Samp abbiamo investito già 80 milioni di euro e non abbiamo intenzione di usare il calcio per ottenere favori a livello locale o per conquistare nuovi mercati») per poi confermare "a vita" l' allenatore.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	numero	numero	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	blucerchiato	blucerchiato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	«	«	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Repubblica	Repubblica	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	11	punct	_	_
+13	rilasciata	rilasciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+14	giovedì	giovedì	NOUN	S	Gender=Masc	13	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	ieri	ieri	ADV	B	_	17	advmod	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	mercoledì	mercoledì	NOUN	S	Gender=Masc	21	nmod	_	_
+24	sera	sera	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+25	(	(	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+26	«	«	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+27	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	17	appos	_	_
+29	paragonabile	paragonabile	ADJ	A	Number=Sing	28	amod	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	28	nmod	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	promozione	promozione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+35	»	»	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+36	)	)	PUNCT	FB	_	28	punct	_	_
+37	e	e	CCONJ	CC	_	41	cc	_	_
+38-39	sui	_	_	_	_	_	_	_	_
+38	su	su	ADP	E	_	41	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+40	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+42-43	nel	_	_	_	_	_	_	_	_
+42	in	in	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45	(	(	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+46	«	«	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+47-48	Nella	_	_	_	_	_	_	_	_
+47	In	in	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Samp	Samp	PROPN	SP	_	51	obl	_	_
+50	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	investito	investire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	acl	_	_
+52	già	già	ADV	B	_	53	advmod	_	_
+53	80	80	NUM	N	NumType=Card	54	nummod	_	_
+54	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	51	obj	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	euro	euro	NOUN	S	Gender=Masc	54	nmod	_	_
+57	e	e	CCONJ	CC	_	59	cc	_	_
+58	non	non	ADV	BN	PronType=Neg	59	advmod	_	_
+59	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	51	conj	_	_
+60	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	59	obj	_	_
+61	di	di	ADP	E	_	62	mark	_	_
+62	usare	usare	VERB	V	VerbForm=Inf	60	acl	_	_
+63	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	62	obj	_	_
+65	per	per	ADP	E	_	66	mark	_	_
+66	ottenere	ottenere	VERB	V	VerbForm=Inf	62	advcl	_	_
+67	favori	favore	NOUN	S	Gender=Masc|Number=Plur	66	obj	_	_
+68	a	a	ADP	E	_	69	case	_	_
+69	livello	livello	NOUN	S	Gender=Masc|Number=Sing	67	nmod	_	_
+70	locale	locale	ADJ	A	Number=Sing	69	amod	_	_
+71	o	o	CCONJ	CC	_	73	cc	_	_
+72	per	per	ADP	E	_	73	mark	_	_
+73	conquistare	conquistare	VERB	V	VerbForm=Inf	66	conj	_	_
+74	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	75	amod	_	_
+75	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	73	obj	_	SpaceAfter=No
+76	»	»	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+77	)	)	PUNCT	FB	_	51	punct	_	_
+78	per	per	ADP	E	_	80	mark	_	_
+79	poi	poi	ADV	B	_	80	advmod	_	_
+80	confermare	confermare	VERB	V	VerbForm=Inf	51	advcl	_	_
+81	"	"	PUNCT	FB	_	83	punct	_	SpaceAfter=No
+82	a	a	ADP	E	_	83	case	_	_
+83	vita	vita	NOUN	S	Gender=Fem|Number=Sing	80	obl	_	SpaceAfter=No
+84	"	"	PUNCT	FB	_	86	punct	_	_
+85	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	86	det	_	_
+86	allenatore	allenatore	NOUN	S	Gender=Masc|Number=Sing	83	nmod	_	SpaceAfter=No
+87	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 26
+# text = «Ha il contratto in scadenza fra due anni - ha detto Garrone - ma, per quanto mi riguarda, può restare sulla panchina della Sampdoria fino alla pensione.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	scadenza	scadenza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	fra	fra	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	-	-	PUNCT	FF	_	12	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+13	Garrone	Garrone	PROPN	SP	_	12	nsubj	_	_
+14	-	-	PUNCT	FF	_	12	punct	_	_
+15	ma	ma	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	23	punct	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	23	obl	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+20	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	restare	restare	VERB	V	VerbForm=Inf	2	conj	_	_
+24-25	sulla	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Sampdoria	Sampdoria	PROPN	SP	_	26	nmod	_	_
+30	fino	fino	ADV	B	_	33	case	_	_
+31-32	alla	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	30	fixed	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Insieme stiamo ottenendo risultati straordinari».
+1	Insieme	insieme	ADV	B	_	3	advmod	_	_
+2	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ottenendo	ottenere	VERB	V	VerbForm=Ger	0	root	_	_
+4	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	straordinari	straordinario	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 28
+# text = Parole che hanno fatto felice l' allenatore:
+1	Parole	parola	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	felice	felice	ADJ	A	Number=Sing	4	xcomp	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	allenatore	allenatore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 29
+# text = «Io qui sto bene, l' ho sempre detto.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	qui	qui	ADV	B	_	4	advmod	_	_
+4	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	sempre	sempre	ADV	B	_	10	advmod	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Sono già in una grande squadra e, da persona intuitiva, ho capito che qui si sono possono ottenere traguardi importanti.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	già	già	ADV	B	_	6	advmod	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11	intuitiva	intuitivo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+15	che	che	SCONJ	CS	_	20	mark	_	_
+16	qui	qui	ADV	B	_	20	advmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:pass	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	ottenere	ottenere	VERB	V	VerbForm=Inf	14	ccomp	_	_
+21	traguardi	traguardo	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+22	importanti	importante	ADJ	A	Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 31
+# text = Perché ci sono le due componenti fondamentali, un grande gruppo di giocatori ed una società seria».
+1	Perché	perché	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	componenti	componente	NOUN	S	Number=Plur	3	nsubj	_	_
+7	fondamentali	fondamentale	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+14	ed	e	CCONJ	CC	_	16	cc	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	società	società	NOUN	S	Gender=Fem	11	conj	_	_
+17	seria	serio	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

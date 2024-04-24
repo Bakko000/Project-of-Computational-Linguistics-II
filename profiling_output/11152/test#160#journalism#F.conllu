@@ -1,0 +1,813 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se il supereroe è un bambino in ospedale
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	supereroe	supereroe	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = PARIGI
+1	PARIGI	Parigi	ADJ	NO	Number=Sing|NumType=Ord	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = PHANTOM BOY È UN SUPE-REROE malato di leucemia.
+1	PHANTOM	PHANTOM	PROPN	SP	_	4	nsubj	_	_
+2	BOY	Boy	PROPN	SP	_	1	flat:name	_	_
+3	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	UN	Un	PROPN	SP	_	0	root	_	_
+5	SUPE	SUPE	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	REROE	REROE	PROPN	SP	_	5	nmod	_	_
+8	malato	malato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	leucemia	leucemio	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Un bimbo di undici anni, Leo, che riesce a uscire dal proprio corpo e attraversare i muri, aiutando l'amico commissario a fermare il gangster sfigurato che vuole distruggere New York con un virus informatico.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	undici	undici	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	Leo	Leo	PROPN	SP	_	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	uscire	uscire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	attraversare	attraversare	VERB	V	VerbForm=Inf	10	conj	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	muri	muro	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	aiutando	aiutare	VERB	V	VerbForm=Ger	2	advcl	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	amico	amico	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	commissario	commissario	NOUN	S	Number=Sing	24	compound	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	fermare	fermare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	gangster	gangster	NOUN	S	Gender=Masc	27	obj	_	_
+30	sfigurato	sfigurato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+31	che	che	SCONJ	CS	_	33	mark	_	_
+32	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	distruggere	distruggere	VERB	V	VerbForm=Inf	30	ccomp	_	_
+34	New	New	PROPN	SP	_	33	obj	_	_
+35	York	York	PROPN	SP	_	34	flat:name	_	_
+36	con	con	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	virus	virus	NOUN	S	Gender=Masc	33	obl	_	_
+39	informatico	informatico	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Dopo due anni arriva nelle sale italiane oggi
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	sale	sala	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	oggi	oggi	ADV	B	_	4	advmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Phantom boy, gioiello di animazione francese firmato dal duo Alain Gagnol e Jean-Loup Felicioli, già candidato all'Oscar nel 2012 con Un gatto a Parigi.
+1	Phantom	Phantom	NOUN	S	_	4	nmod	_	_
+2	boy	boy	NOUN	S	_	1	compound	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	gioiello	gioiello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	animazione	animazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	francese	francese	ADJ	A	Number=Sing	6	amod	_	_
+8	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	duo	duo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Alain	Alain	PROPN	SP	_	8	obl:agent	_	_
+13	Gagnol	Gagnol	PROPN	SP	_	12	flat:name	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Jean-Loup	Jean-Loup	PROPN	SP	_	12	conj	_	_
+16	Felicioli	Felicioli	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	già	già	ADV	B	_	19	advmod	_	_
+19	candidato	candidato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+20-21	all'	_	_	_	_	_	_	_	SpaceAfter=No
+20	a	a	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	Oscar	Oscar	PROPN	SP	_	19	obl	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	2012	2012	NUM	N	NumType=Card	19	obl	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	gatto	gatto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	Parigi	Parigi	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Il protagonista Leo deve sottoporsi ogni giorno a terapie invasive, ma un giorno scopre che il suo sangue malato gli regala anche un potere speciale, la capacità di staccarsi dal corpo e volare come un fantasma tra le strade di Manhattan, anche se deve fare poi rapidamente ritorno nel suo corpo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	protagonista	protagonista	NOUN	S	Number=Sing	5	nsubj	_	_
+3	Leo	Leo	PROPN	SP	_	2	nmod	_	_
+4	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	sottoporsi	_	_	_	_	_	_	_	_
+5	sottopor	sottoporre	VERB	V	VerbForm=Inf	0	root	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	terapie	terapia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+11	invasive	invasivo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+16	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	che	che	SCONJ	CS	_	23	mark	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+21	malato	malato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+23	regala	regalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+24	anche	anche	ADV	B	_	26	advmod	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	potere	potere	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+27	speciale	speciale	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	23	punct	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	capacità	capacità	NOUN	S	Gender=Fem	23	obj	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32-33	staccarsi	_	_	_	_	_	_	_	_
+32	staccar	staccare	VERB	V	VerbForm=Inf	30	acl	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	volare	volare	VERB	V	VerbForm=Inf	32	conj	_	_
+39	come	come	ADP	E	_	41	case	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+42	tra	tra	ADP	E	_	44	case	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	strade	strada	NOUN	S	Gender=Fem|Number=Plur	41	nmod	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	Manhattan	Manhattan	PROPN	SP	_	44	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	5	punct	_	_
+48	anche	anche	ADV	B	_	51	mark	_	_
+49	se	se	SCONJ	CS	_	48	fixed	_	_
+50	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	fare	fare	VERB	V	VerbForm=Inf	5	advcl	_	_
+52	poi	poi	ADV	B	_	51	advmod	_	_
+53	rapidamente	rapidamente	ADV	B	_	54	advmod	_	_
+54	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	51	obj	_	_
+55-56	nel	_	_	_	_	_	_	_	_
+55	in	in	ADP	E	_	58	case	_	_
+56	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+57	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	58	det:poss	_	_
+58	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Phantom Boy è un po' favola un po' noir.
+1	Phantom	Phantom	PROPN	SP	_	5	nsubj	_	_
+2	Boy	Boy	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po'	poco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	favola	favolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	po'	poco	ADV	B	_	9	advmod	_	_
+9	noir	noir	ADJ	A	_	6	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = «È il mio genere di riferimento», racconta Gagnol, «alcuni noir americani hanno avuto una grande influenza su di me,
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	genere	genere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+11	Gagnol	Gagnol	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	«	«	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+14	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	noir	noir	NOUN	S	_	18	nsubj	_	_
+16	americani	americano	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	grande	grande	ADJ	A	Number=Sing	21	amod	_	_
+21	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	di	di	ADP	E	_	22	fixed	_	_
+24	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+
+# sent_id = 10
+# text = La morte corre sul fiume di Charles Laughton a La furia umana di Raoul Walsh.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	morte	morte	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Charles	Charles	PROPN	SP	_	6	nmod	_	_
+9	Laughton	Laughton	PROPN	SP	_	8	flat:name	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	furia	furia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+13	umana	umano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Raoul	Raoul	PROPN	SP	_	12	nmod	_	_
+16	Walsh	Walsh	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Sono anche autore di romanzi gialli per adulti.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	autore	autore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	gialli	giallo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	adulti	adulto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Quando ho iniziato a scrivere Un gatto a Parigi per me la scelta del thriller è stata naturale».
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	scrivere	scrivere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gatto	gatto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Parigi	Parigi	PROPN	SP	_	7	nmod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	thriller	thriller	NOUN	S	Gender=Masc	13	nmod	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	_
+19	naturale	naturale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 13
+# text = Decisamente poco usuale, però, in un cartone per ragazzi.
+1	Decisamente	decisamente	ADV	B	_	3	advmod	_	_
+2	poco	poco	ADV	B	_	3	advmod	_	_
+3	usuale	usuale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cartone	cartone	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = «Nell'era del noir non c'erano film d'animazione, e questo ha reso il nostro progetto ancora più interessante.
+1	«	«	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2-3	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	In	in	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	era	era	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	noir	noir	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	film	film	NOUN	S	Gender=Masc	10	nsubj	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	animazione	animazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+22	ancora	ancora	ADV	B	_	23	advmod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	interessante	interessante	ADJ	A	Number=Sing	18	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = Per me i bambini non sono un pubblico a parte.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Si può, si deve essere creativi anche per plasmare il senso critico di futuri spettatori adulti».
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	0	root	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+5	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+7	creativi	creativare	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	plasmare	plasmare	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	senso	senso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	critico	critico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	futuri	futuro	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+17	adulti	adulto	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Phantom Boy non è un supereroe francese in trasferta a New York:
+1	Phantom	Phantom	PROPN	SP	_	6	nsubj	_	_
+2	Boy	Boy	PROPN	SP	_	1	flat:name	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	supereroe	supereroe	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	francese	francese	ADJ	A	Number=Sing	6	amod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	trasferta	trasferta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	New	New	PROPN	SP	_	6	nmod	_	_
+12	York	York	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 18
+# text = «Ci siamo ispirati ai personaggi creati da Stan Lee negli anni Settanta.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ispirati	ispirare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	creati	creare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	Stan	Stan	PROPN	SP	_	8	obl:agent	_	_
+11	Lee	Lee	PROPN	SP	_	10	flat:name	_	_
+12-13	negli	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+15	Settanta	Settanta	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Sono stati loro a inventare gli eroi imperfetti, sempre sul punto di fallire:
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	cop	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	inventare	inventare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	imperfetti	imperfetto	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	sempre	sempre	ADV	B	_	13	advmod	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	fallire	fallire	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = Peter Parker è un orfano, Devil un cieco».
+1	Peter	Peter	PROPN	SP	_	5	nsubj	_	_
+2	Parker	Parker	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	orfano	orfano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Devil	Devil	PROPN	SP	_	5	conj	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cieco	cieco	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = È decisamente più rischiosa però l'idea di affrontare la malattia terminale di un bambino.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	decisamente	decisamente	ADV	B	_	4	advmod	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	rischiosa	rischioso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	però	però	ADV	B	_	4	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	idea	idea	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	affrontare	affrontare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	terminale	terminale	ADJ	A	Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = «I bimbi non hanno paura di affrontare argomenti seri.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	affrontare	affrontare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	seri	serio	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = A spaventarsi di questo tema sono piuttosto i genitori.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	spaventarsi	_	_	_	_	_	_	_	_
+2	spaventar	spaventare	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	tema	tema	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	piuttosto	piuttosto	ADV	B	_	10	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 24
+# text = L'importante era non fare un film angosciante.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	importante	importante	ADJ	A	Number=Sing	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	film	film	NOUN	S	Gender=Masc	5	obj	_	_
+8	angosciante	angosciante	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = Il messaggio di Phantom Boy è un positivo, il bambino combatte e alla fine vince sulla sua malattia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Phantom	Phantom	PROPN	SP	_	2	nmod	_	_
+5	Boy	Boy	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	positivo	positivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	combatte	combatto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fine	fine	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+17	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 26
+# text = Questo è il punto centrale:
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	centrale	centrale	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 27
+# text = diciamo ai ragazzini che grazie al coraggio si possono sopportare le difficoltà più grandi».
+1	diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ragazzini	ragazzino	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+6	grazie	grazie	NOUN	S	_	9	case	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:pass	_	_
+11	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sopportare	sopportare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	difficoltà	difficoltà	NOUN	S	Gender=Fem	12	obj	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	grandi	grande	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+17	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = Nel cartoon non mancano momenti di tensione, «ma non si tratta di una violenza realistica.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cartoon	cartoon	NOUN	S	Gender=Masc	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	mancano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	«	«	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	realistica	realistico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = I gangster minacciosi sono anche ridicoli, a ogni scena di tensione ne segue una che strappa il sorriso:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	gangster	gangster	NOUN	S	Gender=Masc	6	nsubj	_	_
+3	minacciosi	minaccioso	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	ridicoli	ridicolo	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	scena	scena	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+14	segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	strappa	strappare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 30
+# text = la paura al cinema è un gioco», spiega Gagnol.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	paura	paura	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cinema	cinema	NOUN	S	Gender=Masc	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+12	Gagnol	Gagnol	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = Anche se il computer è oggi imprescindibile, l'animazione di Phantom Boy è disegnata a mano su carta, e il tratto a matita resta visibile sullo schermo.
+1	Anche	anche	ADV	B	_	7	mark	_	_
+2	se	se	SCONJ	CS	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	computer	computer	NOUN	S	Gender=Masc	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	oggi	oggi	ADV	B	_	7	advmod	_	_
+7	imprescindibile	imprescindibile	ADJ	A	Number=Sing	15	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	animazione	animazione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Phantom	Phantom	PROPN	SP	_	10	nmod	_	_
+13	Boy	Boy	PROPN	SP	_	12	flat:name	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	disegnata	disegnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	mano	mano	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	su	su	ADP	E	_	19	case	_	_
+19	carta	carta	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	matita	matita	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	resta	restare	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	visibile	visibila	ADJ	A	Number=Sing	26	amod	_	_
+28-29	sullo	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	schermo	schermo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 32
+# text = New York, come la Parigi del film precedente, è reinventata.
+1	New	New	PROPN	SP	_	13	nsubj	_	_
+2	York	York	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Parigi	Parigi	PROPN	SP	_	1	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	film	film	NOUN	S	Gender=Masc	6	nmod	_	_
+10	precedente	precedente	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	reinventata	reinventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 33
+# text = Gli sfondi sono stati disegnati partendo da fotografie, per poi essere ricomposti:
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sfondi	sfondo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	disegnati	disegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	partendo	partire	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	fotografie	fotografia	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	per	per	ADP	E	_	13	mark	_	_
+11	poi	poi	ADV	B	_	13	advmod	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	ricomposti	ricomporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 34
+# text = «Sia Parigi che New York nel cartone sono irrealistiche, oniriche».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sia	sia	CCONJ	CC	_	3	cc	_	_
+3	Parigi	Parigi	PROPN	SP	_	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+5	New	New	PROPN	SP	_	11	nsubj	_	_
+6	York	York	PROPN	SP	_	5	flat:name	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cartone	cartone	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	irrealistiche	irrealistico	ADJ	A	Gender=Fem|Number=Plur	3	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	oniriche	onirico	ADJ	A	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	»	»	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = L'aspetto grafico del film è frutto della visione di Felicioli, che ha studiato alla Scuola di Belle Arti e voleva fare il pittore.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	grafico	grafico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	film	film	NOUN	S	Gender=Masc	2	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	visione	visione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Felicioli	Felicioli	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Scuola	scuola	PROPN	SP	_	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Belle	belle	PROPN	SP	_	20	nmod	_	_
+23	Arti	arte	PROPN	SP	_	22	flat:name	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	fare	fare	VERB	V	VerbForm=Inf	8	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	pittore	pittore	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 36
+# text = Nella sua New York vintage ci sono Picasso, Modigliani, Bonnard, la pittura fiamminga.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	New	New	PROPN	SP	_	6	obl	_	_
+5	York	York	PROPN	SP	_	4	flat:name	_	_
+6	vintage	vintage	VERB	V	VerbForm=Inf	0	root	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	Picasso	Picasso	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Modigliani	Modigliani	PROPN	SP	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	Bonnard	Bonnard	PROPN	SP	_	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pittura	pittura	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+17	fiamminga	fiammingo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 37
+# text = «E tante finestre », ride Gagnol.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E	e	CCONJ	CC	_	4	cc	_	_
+3	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	ride	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	Gagnol	Gagnol	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 38
+# text = «Dopo averne disegnate migliaia, Jean-Loup ha ribattezzato New York "la città delle finestre"».
+1	«	«	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Dopo	dopo	SCONJ	CS	_	10	mark	_	_
+3-4	averne	_	_	_	_	_	_	_	_
+3	aver	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+5	disegnate	disegnare	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	Jean-Loup	Jean-Loup	PROPN	SP	_	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	ribattezzato	ribattezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	New	New	PROPN	SP	_	10	obj	_	_
+12	York	York	PROPN	SP	_	11	flat:name	_	_
+13	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	città	città	NOUN	S	Gender=Fem	11	nmod	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+

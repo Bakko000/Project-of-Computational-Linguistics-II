@@ -1,0 +1,770 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tumore: il dr Watson sbaglia la terapia.
+1	Tumore	tumore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	dr	dr	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	Watson	Watson	PROPN	SP	_	4	nmod	_	_
+6	sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = L'uomo è meglio del supercomputerTumore:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	meglio	meglio	ADV	B	_	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	supercomputerTumore	supercomputerTumore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = il dr Watson sbaglia la terapia.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpacesAfter=\s\s
+2	dr	dr	NOUN	S	_	4	nsubj	_	_
+3	Watson	Watson	PROPN	SP	_	2	nmod	_	_
+4	sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = L'uomo è meglio del supercomputer
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	meglio	meglio	ADV	B	_	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	supercomputer	supercomputer	NOUN	S	Gender=Masc	4	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Secondo un'inchiesta del magazine Stat, le letture del computer sviluppato da Ibm non hanno ancora dato i frutti sperati.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	magazine	magazino	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Stat	Stat	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	letture	letture	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	computer	computer	NOUN	S	Gender=Masc	10	nmod	_	_
+14	sviluppato	sviluppare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	Ibm	Ibm	PROPN	SP	_	14	obl:agent	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	ancora	ancora	ADV	B	_	20	advmod	_	_
+20	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	frutti	frutto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	sperati	sperato	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 6
+# text = Fra le altre debolezze il fatto di aver imparato "il mestiere" da un numero ristretto di medici, basandosi sulla loro esperienza individuale anziché su linee guida e raccomandazioni riconosciute a livello più ampio
+1	Fra	fra	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	altre	altro	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	debolezze	debolezza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mestiere	mestiere	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	numero	numero	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+17	ristretto	ristretto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	medici	medico	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	9	punct	_	_
+21-22	basandosi	_	_	_	_	_	_	_	_
+21	basando	basare	VERB	V	VerbForm=Ger	9	advcl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23-24	sulla	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+27	individuale	individuale	ADJ	A	Number=Sing	26	amod	_	_
+28	anziché	anziché	ADV	B	_	26	advmod	_	_
+29	su	su	ADP	E	_	30	case	_	_
+30	linee	linea	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+31	guida	guida	NOUN	S	Gender=Fem|Number=Sing	30	compound	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	raccomandazioni	raccomandazione	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	_
+34	riconosciute	riconoscere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	33	acl	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	livello	livello	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+37	più	più	ADV	B	_	38	advmod	_	_
+38	ampio	ampio	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = IL DOTTOR Watson deve ancora studiare, prima di iniziare la sua pratica in medicina.
+1	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	DOTTOR	Dottor	PROPN	SP	_	6	nsubj	_	_
+3	Watson	Watson	PROPN	SP	_	2	flat:name	_	_
+4	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	prima	prima	ADV	B	_	10	mark	_	_
+9	di	di	ADP	E	_	8	fixed	_	_
+10	iniziare	iniziare	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Il computer sviluppato dalla Ibm per riconoscere malattie e suggerire terapie è usato – in via del tutto sperimentale, si affrettano oggi a precisare i suoi mentori – in decine di ospedali nel mondo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	computer	computer	NOUN	S	Gender=Masc	14	nsubj:pass	_	_
+3	sviluppato	sviluppare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Ibm	Ibm	PROPN	SP	_	3	obl:agent	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	riconoscere	riconoscere	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	suggerire	suggerire	VERB	V	VerbForm=Inf	8	conj	_	_
+12	terapie	terapia	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	–	–	PUNCT	FB	_	14	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	via	via	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tutto	tutto	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	sperimentale	sperimentale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	affrettano	affrettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+25	oggi	oggi	ADV	B	_	24	advmod	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	precisare	precisare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	mentori	mentore	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+31	–	–	PUNCT	FB	_	24	punct	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	decine	decina	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	ospedali	ospedale	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+36-37	nel	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 9
+# text = Primo fra tutti, dal 2012, il Memorial Sloan-Kettering di New York, uno principali istituti di ricerca e cura del cancro.
+1	Primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+2	fra	fra	ADP	E	_	3	case	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	2012	2012	NUM	N	NumType=Card	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Memorial	Memorial	PROPN	SP	_	1	nsubj	_	_
+11	Sloan-Kettering	Sloan-Kettering	PROPN	SP	_	10	flat:name	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	New	New	PROPN	SP	_	10	nmod	_	_
+14	York	York	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	principali	principale	ADJ	A	Number=Plur	18	amod	_	_
+18	istituti	istituto	NOUN	S	Gender=Masc|Number=Plur	10	appos	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	cura	cura	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	cancro	cancro	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Il sistema di intelligenza artificiale aveva appena vinto il quiz televisivo Jeopardy!, battendo tutti i concorrenti in carne e ossa, quando i suoi programmatori iniziarono a fargli ingurgitare testi di medicina e articoli scientifici.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	artificiale	artificiale	ADJ	A	Number=Sing	4	amod	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	appena	appena	ADV	B	_	8	advmod	_	_
+8	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	quiz	quiz	NOUN	S	Gender=Masc	8	obj	_	_
+11	televisivo	televisivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	Jeopardy	Jeopardy	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	battendo	battere	VERB	V	VerbForm=Ger	8	advcl	_	_
+16	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	concorrenti	concorrente	NOUN	S	Number=Plur	15	obj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	carne	carne	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	ossa	ossa	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	8	punct	_	_
+24	quando	quando	SCONJ	CS	_	28	mark	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	programmatori	programmatore	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+28	iniziarono	iniziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30-31	fargli	_	_	_	_	_	_	_	_
+30	far	fare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+31	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+32	ingurgitare	ingurgitare	VERB	V	VerbForm=Inf	30	ccomp	_	_
+33	testi	testo	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	articoli	articolo	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	_
+38	scientifici	scientifico	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Oggi un’inchiesta del magazine Stat rivela che le letture di Watson non hanno ancora dato i frutti sperati.
+1	Oggi	oggi	ADV	B	_	8	advmod	_	_
+2	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	magazine	magazino	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Stat	Stat	PROPN	SP	_	6	nmod	_	_
+8	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	17	mark	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	letture	lettura	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Watson	Watson	PROPN	SP	_	11	nmod	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	ancora	ancora	ADV	B	_	17	advmod	_	_
+17	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	frutti	frutto	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	sperati	sperato	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = La rivista non è al suo primo articolo contro il computer-medico della Ibm.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	rivista	rivista	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	9	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	contro	contro	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	computer-medico	computer-medico	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Ibm	Ibm	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Ma oggi sostiene di essere entrata in possesso delle slide che il vicedirettore della divisione Salute dell’azienda, Andrew Norden, usò per un paio di presentazioni interne nell’estate del 2017, prima di lasciare Ibm per unirsi a un altro marchio.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	oggi	oggi	ADV	B	_	3	advmod	_	_
+3	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	entrata	entrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	possesso	possesso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	slide	slide	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	26	obj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vicedirettore	vicedirettore	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	Salute	salute	PROPN	SP	_	17	nmod	_	_
+19-20	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	Andrew	Andrew	PROPN	SP	_	14	appos	_	_
+24	Norden	Norden	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	14	punct	_	_
+26	usò	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	paio	paio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	presentazioni	presentazione	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+32	interne	interno	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+33-34	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+33	in	in	ADP	E	_	35	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	estate	estate	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	2017	2017	NUM	N	NumType=Card	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	3	punct	_	_
+40	prima	prima	ADV	B	_	42	mark	_	_
+41	di	di	ADP	E	_	40	fixed	_	_
+42	lasciare	lasciare	VERB	V	VerbForm=Inf	3	advcl	_	_
+43	Ibm	Ibm	PROPN	SP	_	42	obj	_	_
+44	per	per	ADP	E	_	45	mark	_	_
+45-46	unirsi	_	_	_	_	_	_	_	_
+45	unir	unire	VERB	V	VerbForm=Inf	42	advcl	_	_
+46	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+47	a	a	ADP	E	_	50	case	_	_
+48	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+49	altro	altro	ADJ	A	Gender=Masc|Number=Sing	50	amod	_	_
+50	marchio	marchio	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = “Vari medici – scrive Stat – hanno individuato molteplici esempi di raccomandazioni di cura errate e non sicure”.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	medici	medico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	–	–	PUNCT	FB	_	3	punct	_	_
+5	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Stat	Stat	PROPN	SP	_	5	obj	_	_
+7	–	–	PUNCT	FB	_	9	punct	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	individuato	individuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+10	molteplici	molteplice	ADJ	A	Number=Plur	11	amod	_	_
+11	esempi	esempio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	raccomandazioni	raccomandazione	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	cura	cura	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	errate	errato	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	sicure	sicuro	ADV	BN	PronType=Neg	9	advmod	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = In un caso, per fortuna solo teorico, a un paziente con un cancro ai polmoni che soffriva di emorragie venne prescritto un farmaco che avrebbe potuto esacerbare il problema, sempre secondo i documenti citati nell’inchiesta.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	solo	solo	ADV	B	_	8	advmod	_	_
+8	teorico	teorico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	paziente	paziente	NOUN	S	Number=Sing	24	obl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cancro	cancro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	polmoni	polmone	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	soffriva	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	emorragie	emorragia	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+23	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	prescritto	prescrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	aux	_	_
+30	esacerbare	esacerbare	VERB	V	VerbForm=Inf	26	acl:relcl	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	problema	problema	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34	sempre	sempre	ADV	B	_	37	advmod	_	_
+35	secondo	secondo	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+38	citati	citare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	acl	_	_
+39-40	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+39	in	in	ADP	E	_	41	case	_	_
+40	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 16
+# text = Il Bevacizumab, un medicinale che blocca la formazione di nuovi vasi sanguigni, può essere controindicato in presenza di emorragie.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bevacizumab	Bevacizumab	PROPN	SP	_	17	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	medicinale	medicinale	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	blocca	bloccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	vasi	vaso	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	sanguigni	sanguigno	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	17	aux:pass	_	_
+17	controindicato	controindicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	emorragie	emorragia	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Fra le altre debolezze elencate, Watson si sarebbe limitato a imparare da un numero ristretto di medici, concentrati in pochi ospedali, basandosi sulla loro esperienza individuale anziché su linee guida e raccomandazioni riconosciute a livello più ampio.
+1	Fra	fra	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	altre	altro	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	debolezze	debolezza	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+5	elencate	elencare	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	Watson	Watson	PROPN	SP	_	10	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	limitato	limitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	imparare	imparare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	numero	numero	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	ristretto	ristretto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	medici	medico	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	10	punct	_	_
+20	concentrati	concentrare	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+23	ospedali	ospedale	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	10	punct	_	_
+25-26	basandosi	_	_	_	_	_	_	_	_
+25	basando	basare	VERB	V	VerbForm=Ger	10	advcl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27-28	sulla	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+31	individuale	individuale	ADJ	A	Number=Sing	30	amod	_	_
+32	anziché	anziché	ADV	B	_	30	advmod	_	_
+33	su	su	ADP	E	_	34	case	_	_
+34	linee	linea	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+35	guida	guida	NOUN	S	Gender=Fem|Number=Sing	34	compound	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	raccomandazioni	raccomandazione	NOUN	S	Gender=Fem|Number=Plur	30	conj	_	_
+38	riconosciute	riconoscere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	37	acl	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	livello	livello	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+41	più	più	ADV	B	_	42	advmod	_	_
+42	ampio	ampio	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 18
+# text = Se è naturale che ai medici non piaccia la prospettiva di un computer che li sostituisca nel loro lavoro, è davvero colorito il commento di uno specialista del Florida’s Jupiter Hospital citato nelle slide di Stat: “Questo prodotto è merda.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	naturale	naturale	ADJ	A	Number=Sing	25	advcl	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	medici	medico	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	piaccia	piacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	prospettiva	prospettiva	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	computer	computer	NOUN	S	Gender=Masc	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+17	sostituisca	sostituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+24	davvero	davvero	ADV	B	_	25	advmod	_	_
+25	colorito	colorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	commento	commento	NOUN	S	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	specialista	specialista	NOUN	S	Number=Sing	27	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Florida	Florida	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+34	’	’	PUNCT	FF	_	33	punct	_	SpaceAfter=No
+35	s	s	NOUN	S	Gender=Masc	33	appos	_	_
+36	Jupiter	Jupiter	PROPN	SP	_	35	nmod	_	_
+37	Hospital	Hospital	PROPN	SP	_	36	flat:name	_	_
+38	citato	citare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl	_	_
+39-40	nelle	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	slide	slide	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	Stat	Stat	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+44	:	:	PUNCT	FC	_	25	punct	_	_
+45	“	“	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+46	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	47	det	_	_
+47	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	49	nsubj	_	_
+48	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
+49	merda	merdare	ADJ	A	Gender=Fem|Number=Sing	25	parataxis	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 19
+# text = L’abbiamo comprato per ragioni di marketing e nella speranza di realizzare la nostra visione.
+1	L’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	marketing	marketing	NOUN	S	Gender=Masc	5	nmod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	realizzare	realizzare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	visione	visione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Ma nella maggior parte dei casi non possiamo usarlo”.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	5	amod	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	casi	caso	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11-12	usarlo	_	_	_	_	_	_	_	SpaceAfter=No
+11	usar	usare	VERB	V	VerbForm=Inf	0	root	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	”	”	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 21
+# text = Altri clienti della Ibm si sarebbero limitati a dire che l’uso del computer nella pratica clinica era risultato “molto limitato”.
+1	Altri	altro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	clienti	cliente	NOUN	S	Number=Plur	8	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Ibm	Ibm	PROPN	SP	_	2	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	limitati	limitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	dire	dire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	che	che	SCONJ	CS	_	22	mark	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	uso	uso	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	computer	computer	NOUN	S	Gender=Masc	13	nmod	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+20	clinica	clinico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	risultato	risultato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+23	“	“	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+24	molto	molto	ADV	B	_	25	advmod	_	_
+25	limitato	limitato	ADJ	A	Gender=Masc|Number=Sing	22	xcomp	_	SpaceAfter=No
+26	”	”	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Gli studi pubblicati sulle riviste scientifiche negli ultimi due anni non sono così critici nei confronti di Watson.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	studi	studio	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+3	pubblicati	pubblicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	sulle	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	riviste	rivista	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	scientifiche	scientifico	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8-9	negli	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	12	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+10	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	così	così	ADV	B	_	16	advmod	_	_
+16	critici	critico	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+17-18	nei	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Watson	Watson	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 23
+# text = Ne riconoscono i limiti in alcuni casi, ma citano delle percentuali promettenti di diagnosi adeguate.
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	riconoscono	riconoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	casi	caso	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	citano	citare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	percentuali	percentuale	ADJ	A	Number=Plur	14	amod	_	_
+14	promettenti	promettente	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	diagnosi	diagnosi	NOUN	S	Gender=Fem	14	nmod	_	_
+17	adeguate	adeguato	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = L’azienda di computer e lo Sloan-Kettering sostengono che Watson è un prodotto ancora in via di sviluppo e il suo processo di miglioramento non ha mai messo a repentaglio la salute di nessuno.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	computer	computer	NOUN	S	Gender=Masc	2	nmod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Sloan-Kettering	Sloan-Kettering	PROPN	SP	_	4	conj	_	_
+8	sostengono	sostenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	Watson	Watson	PROPN	SP	_	13	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	8	ccomp	_	_
+14	ancora	ancora	ADV	B	_	16	advmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	via	via	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	e	e	CCONJ	CC	_	28	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	processo	processo	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	miglioramento	miglioramento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	mai	mai	ADV	B	_	28	advmod	_	_
+28	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	repentaglio	repentaglio	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	salute	salute	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 25
+# text = I pazienti sono sempre stati affidati a medici in carne, ossa e camice bianco.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	pazienti	paziente	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	affidati	affidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	medici	medico	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	carne	carne	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	ossa	ossa	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	camice	camice	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 26
+# text = Se anche il computer diventerà un bravo dottore saranno i prossimi esami a stabilirlo.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	computer	computer	NOUN	S	Gender=Masc	5	nsubj	_	_
+5	diventerà	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	dottore	dottore	NOUN	S	Gender=Masc|Number=Sing	5	xcomp	_	_
+9	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	esami	esame	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14-15	stabilirlo	_	_	_	_	_	_	_	SpaceAfter=No
+14	stabilir	stabilire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+

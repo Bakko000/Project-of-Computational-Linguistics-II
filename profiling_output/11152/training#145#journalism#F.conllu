@@ -1,0 +1,807 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La mia prima Giulietta
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	Giulietta	Giulietta	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = E'A mille, Antonella Albano da Bari, 28 anni di cui gli ultimi dieci spesi alla Scala sfidando il suo corpo, inseguendo ogni giorno il mezzo giro di piroetta in più, lo "jeté" che vola più alto.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+2	A	a	ADP	E	_	3	case	_	_
+3	mille	mille	NUM	N	NumType=Card	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Antonella	Antonella	PROPN	SP	_	0	root	_	_
+6	Albano	Albano	PROPN	SP	_	5	flat:name	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Bari	Bari	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	28	28	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	17	nmod	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+15	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+16	dieci	diece	NUM	N	NumType=Card	17	nummod	_	_
+17	spesi	spendere	NOUN	S	Gender=Masc|Number=Plur	42	nsubj	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Scala	Scala	PROPN	SP	_	17	nmod	_	_
+21	sfidando	sfidare	VERB	V	VerbForm=Ger	42	advcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	inseguendo	inseguire	VERB	V	VerbForm=Ger	21	advcl	_	_
+27	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+28	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	giro	giro	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	piroetta	piroetta	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	più	più	ADV	B	_	31	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	21	punct	_	_
+37	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
+38	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+39	jeté	jeté	CCONJ	CC	_	42	cc	_	SpaceAfter=No
+40	"	"	PUNCT	FB	_	42	punct	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	vola	volare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+43	più	più	ADV	B	_	44	advmod	_	_
+44	alto	alto	ADJ	A	Gender=Masc|Number=Sing	42	xcomp	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = E' a mille, perché tanta tenacia è stata ripagata:
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	mille	mille	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perché	perché	SCONJ	CS	_	10	mark	_	_
+6	tanta	tanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	7	det	_	_
+7	tenacia	tenacia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	ripagata	ripagare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 4
+# text = Giulietta, nel balletto di Sir Kenneth MacMillan che debutta lunedì, sarà lei.
+1	Giulietta	Giulietta	PROPN	SP	_	14	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	balletto	balletto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Sir	Sir	PROPN	SP	_	5	nmod	_	_
+8	Kenneth	Kenneth	PROPN	SP	_	7	flat:name	_	_
+9	MacMillan	MacMillan	PROPN	SP	_	7	flat:name	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	debutta	debuttare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	lunedì	lunedì	NOUN	S	Gender=Masc	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Lei, che fino a un anno e mezzo fa aveva un contratto a tempo determinato, danzerà la "prima", e per giunta accanto alla star del Bolscioi Alexander Volchkov, il suo Romeo.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+4	fino	fino	ADV	B	_	7	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+10	fa	fare	ADV	B	_	7	advmod	_	_
+11	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	determinato	determinato	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	danzerà	danzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+19	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	prima	prima	ADV	B	_	18	advmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	per	per	ADP	E	_	26	case	_	_
+26	giunta	giunta	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+27	accanto	accanto	ADV	B	_	30	case	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	star	star	VERB	V	VerbForm=Inf	18	conj	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Bolscioi	Bolscioio	PROPN	SP	_	30	obl	_	_
+34	Alexander	Alexander	PROPN	SP	_	33	flat:name	_	_
+35	Volchkov	Volchkov	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	30	punct	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	Romeo	Romeo	PROPN	SP	_	30	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 6
+# text = E' la sua prima Giulietta, alla Scala e con un partner così glamour.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	Giulietta	Giulietta	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Scala	Scala	PROPN	SP	_	5	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	partner	partner	NOUN	S	_	9	conj	_	_
+14	così	così	ADV	B	_	15	advmod	_	_
+15	glamour	glamourre	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = E' un sogno realizzato?
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	realizzato	realizzato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = «E' così.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	così	così	ADV	B	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Questo è stato il primo balletto che ho visto appena arrivata a Milano.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	balletto	balletto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	appena	appena	ADV	B	_	11	advmod	_	_
+11	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Milano	Milano	PROPN	SP	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Giulietta era Alessandra Ferri.
+1	Giulietta	Giulietta	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	Alessandra	Alessandra	PROPN	SP	_	0	root	_	_
+4	Ferri	ferri	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ho sempre sognato di danzarlo da protagonista;
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	sognato	sognare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	danzarlo	_	_	_	_	_	_	_	_
+5	danzar	danzare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	protagonista	protagonista	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = mi auguro solo di emozionarmi abbastanza per riuscire a mia volta a coinvolgere il pubblico.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	solo	solo	ADV	B	_	5	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	emozionarmi	arma|emozionarme	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	abbastanza	abbastanza	ADV	B	_	8	advmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	riuscire	riuscire	VERB	V	VerbForm=Inf	5	acl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	coinvolgere	coinvolgere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Un'ex ballerina mi ha raccomandato:
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	ballerina	ballerina	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	raccomandato	raccomandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 14
+# text = "dovrai "essere" Giulietta, non interpretarla».
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	dovrai	dovere	ADV	B	_	6	advmod	_	_
+3	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	6	punct	_	_
+6	Giulietta	Giulietta	PROPN	SP	_	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9-10	interpretarla	_	_	_	_	_	_	_	SpaceAfter=No
+9	interpretar	interpretare	VERB	V	VerbForm=Inf	0	root	_	_
+10	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	»	»	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = La coreografia di MacMillan è pulsante di vita in ogni passaggio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coreografia	coreografia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	MacMillan	MacMillan	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	pulsante	pulsante	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = C'è invece chi la etichetta come "ballerina tecnica".
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	invece	invece	ADV	B	_	2	advmod	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+5	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	etichetta	etichettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	ballerina	ballerina	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	tecnica	tecnico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Una giovane donna del Sud fredda.È possibile?
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	giovane	giovane	ADJ	A	Number=Sing	3	amod	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sud	Sud	PROPN	SP	_	3	nmod	_	_
+7	fredda.È	fredda.é	PROPN	SP	_	6	flat:name	_	_
+8	possibile	possibile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = «Infatti non lo è.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Infatti	infatti	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Sarà il pubblico a decidere se ho sufficiente talento drammatico, ma io mi sento a mio agio.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	decidere	decidere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	se	se	SCONJ	CS	_	9	mark	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	sufficiente	sufficiente	ADJ	A	Number=Sing	9	amod	_	_
+9	talento	talento	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+10	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	expl	_	_
+15	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	agio	agio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Addirittura mi immedesimo al massimo al III Atto, proprio quando la maturità, la tensionee la passione di Giulietta sono al culmine».
+1	Addirittura	addirittura	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	immedesimo	immedesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	III	terzo	ADJ	NO	Number=Sing|NumType=Ord	10	amod	_	_
+10	Atto	Atto	PROPN	SP	_	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	proprio	proprio	ADV	B	_	26	advmod	_	_
+13	quando	quando	SCONJ	CS	_	26	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	maturità	maturità	NOUN	S	Gender=Fem	26	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tensionee	tensionea	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	passione	passione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Giulietta	Giulietta	PROPN	SP	_	20	nmod	_	_
+23	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	culmine	culmine	NOUN	S	Gender=Masc|Number=Sing	3	advcl	_	SpaceAfter=No
+27	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = E' innamorata, in questo momento?
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	innamorata	innamorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = «Sì.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Ho una bellissima storia con Maurizio Licitra, solista nel Corpo di Ballo, che il pubblico vedrà nelle prossime sere nel ruolo di Mercuzio».
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	4	amod	_	_
+4	storia	storia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Maurizio	Maurizio	PROPN	SP	_	4	nmod	_	_
+7	Licitra	Licitra	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	solista	solista	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Corpo	Corpo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Ballo	ballo	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	vedrà	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	conj	_	_
+20-21	nelle	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	prossime	prossimo	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+23	sere	sera	VERB	V	VerbForm=Inf	19	xcomp	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Mercuzio	Mercuzio	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+29	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Sulla scena, invece, il suo amante è Alexander Volchkov.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	scena	scena	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	invece	invece	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	amante	amante	NOUN	S	Number=Sing	11	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	Alexander	Alexander	PROPN	SP	_	0	root	_	_
+12	Volchkov	Volchkov	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Com'è l'intesa tra voi?
+1	Com'	come	SCONJ	CS	_	4	mark	_	SpaceAfter=No
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	intesa	intesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	tra	tra	ADP	E	_	6	case	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = «Mi è piaciuto subito:
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	piaciuto	piacere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	subito	subito	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 27
+# text = è gentile, disponibile, ha l'aria ingenua del Romeo di Zeffirelli.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	gentile	gentile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	disponibile	disponibile	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	aria	aria	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	ingenua	ingenuo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Romeo	Romeo	PROPN	SP	_	8	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Zeffirelli	Zeffirelli	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Per prepararmi a questo debutto ho visto di tutto:
+1	Per	per	ADP	E	_	2	case	_	_
+2	prepararmi	arma|prepararme	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	debutto	debutto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 29
+# text = i video londinesi di Alessandra Ferri che ha avuto la fortuna di imparare il ruolo direttamente da MacMillan, e tutti i film sulla tragedia di Shakespeare, compreso quello con Leo Di Caprio.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	video	video	NOUN	S	Gender=Masc	0	root	_	_
+3	londinesi	londinese	ADJ	A	Number=Plur	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Alessandra	Alessandra	PROPN	SP	_	2	nmod	_	_
+6	Ferri	ferri	PROPN	SP	_	5	flat:name	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	imparare	imparare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	direttamente	direttamente	ADV	B	_	18	advmod	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	MacMillan	MacMillan	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	23	det:predet	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	film	film	NOUN	S	Gender=Masc	18	conj	_	_
+24-25	sulla	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Shakespeare	Shakespeare	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	23	punct	_	_
+30	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+31	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	30	obj	_	_
+32	con	con	ADP	E	_	33	case	_	_
+33	Leo	Leo	PROPN	SP	_	31	nmod	_	_
+34	Di	Di	PROPN	SP	_	33	flat:name	_	_
+35	Caprio	Caprio	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Tornando al feeling con Alexander:
+1	Tornando	tornare	VERB	V	VerbForm=Ger	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	feeling	feeling	NOUN	S	Gender=Masc	1	obl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Alexander	Alexander	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 31
+# text = abbiamo lavorato molto, perché qui, oltre alla tecnica, ci sono baci, abbracci, contatto fisico, e la naturalezzaè d'obbligo».
+1	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	perché	perché	SCONJ	CS	_	14	mark	_	_
+6	qui	qui	ADV	B	_	14	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	oltre	oltre	ADV	B	_	11	case	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tecnica	tecnica	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+15	baci	baco	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	abbracci	abbraccio	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+20	fisico	fisico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	naturalezzaè	naturalezzaè	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+25	d'	di	ADP	E	_	26	case	_	SpaceAfter=No
+26	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+27	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = E' stato altrettanto naturale, a 13 anni, lasciarsi alle spalle Bari per inseguire il suo sogno a Montecarlo, Cannes e poi a Milano?
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	altrettanto	altrettanto	ADV	B	_	4	advmod	_	_
+4	naturale	naturale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	13	13	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10-11	lasciarsi	_	_	_	_	_	_	_	_
+10	lasciar	lasciare	VERB	V	VerbForm=Inf	4	conj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12-13	alle	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+15	Bari	Bari	PROPN	SP	_	14	nmod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	inseguire	inseguire	VERB	V	VerbForm=Inf	10	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Montecarlo	Montecarlo	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	Cannes	Cannes	PROPN	SP	_	22	conj	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	poi	poi	ADV	B	_	28	advmod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	Milano	Milano	PROPN	SP	_	22	conj	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 33
+# text = «Sì, perché era talmente forte la mia passione per la danza che i sacrifici non mi sono pesati anche se la mia famiglia, che vive ancora giù ma che lunedì sarà tutta in platea, mi è mancata da morire.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	perché	perché	SCONJ	CS	_	7	mark	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	talmente	talmente	ADV	B	_	7	advmod	_	_
+7	forte	forte	ADJ	A	Number=Sing	2	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	passione	passione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	danza	danza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	sacrifici	sacrificio	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	expl	_	_
+19	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	pesati	pesare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+21	anche	anche	ADV	B	_	41	mark	_	_
+22	se	se	SCONJ	CS	_	21	fixed	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	41	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+29	ancora	ancora	ADV	B	_	30	advmod	_	_
+30	giù	giù	ADV	B	_	28	advmod	_	_
+31	ma	ma	CCONJ	CC	_	35	cc	_	_
+32	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+33	lunedì	lunedì	ADV	B	_	35	advmod	_	_
+34	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	aux	_	_
+35	tutta	tutto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	platea	platea	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	25	punct	_	_
+39	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	41	iobj	_	_
+40	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	mancata	mancare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+42	da	da	ADP	E	_	43	mark	_	_
+43	morire	morire	VERB	V	VerbForm=Inf	41	advcl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Papà e mamma volevano trasferirsi a Milano;
+1	Papà	papà	NOUN	S	Gender=Masc	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+4	volevano	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5-6	trasferirsi	_	_	_	_	_	_	_	_
+5	trasferir	trasferire	VERB	V	VerbForm=Inf	0	root	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Milano	Milano	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 35
+# text = sono io che non ho voluto perché "mi servono" a Bari così posso scappare lì app e n a p o s s o .
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	perché	perché	SCONJ	CS	_	10	mark	_	_
+8	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+10	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Bari	Bari	PROPN	SP	_	10	obl	_	_
+14	così	così	ADV	B	_	16	advmod	_	_
+15	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	scappare	scappare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+17	lì	lì	ADV	B	_	16	advmod	_	_
+18	app	app	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	n	n	NOUN	S	Gender=Masc	18	conj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	p	p	NOUN	S	Gender=Masc	16	obl	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	s	s	X	X	_	22	conj	_	_
+25	s	s	X	X	_	24	flat:foreign	_	_
+26	o	o	CCONJ	CC	_	22	cc	_	_
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 36
+# text = S o n o legatissima alla m i a città».
+1	S	S	PROPN	SP	_	0	root	_	_
+2	o	o	CCONJ	CC	_	8	cc	_	_
+3	n	n	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	legatissima	legatissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	3	conj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	m	metro	NOUN	S	_	1	conj	_	_
+9	i	europeo	ADJ	NO	Number=Sing|NumType=Ord	8	amod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	città	città	NOUN	S	Gender=Fem	1	nmod	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 37
+# text = E a Milano?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Milano	Milano	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 38
+# text = «Anche.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Anche	anche	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 39
+# text = Qui h o i n c o n t r a t o Maurizio e un direttore del Ballo come Vaziev che mi ha sempre dato fiducia.
+1	Qui	qui	ADV	B	_	2	advmod	_	_
+2	h	h	X	X	_	0	root	_	_
+3	o	o	CCONJ	CC	_	6	cc	_	_
+4	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	n	n	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	c	c	NOUN	S	Gender=Masc	2	conj	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	n	n	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	t	t	NOUN	S	Gender=Masc	2	conj	_	_
+10	r	r	VERB	V	VerbForm=Inf	9	acl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	t	t	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	Maurizio	Maurizio	PROPN	SP	_	17	conj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Ballo	ballo	PROPN	SP	_	17	nmod	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	Vaziev	Vaziev	PROPN	SP	_	17	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	sempre	sempre	ADV	B	_	27	advmod	_	_
+27	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+28	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = Lo apprezzo molto soprattutto perché difende le sue scelte fino in fondo.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	apprezzo	apprezzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	soprattutto	soprattutto	ADV	B	_	6	advmod	_	_
+5	perché	perché	SCONJ	CS	_	6	mark	_	_
+6	difende	difendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+10	fino	fino	ADV	B	_	12	case	_	_
+11	in	in	ADP	E	_	10	fixed	_	_
+12	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 41
+# text = Anche adesso, affidandomi, a dispetto di tutti e tutto, un ruolo drammatico.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	adesso	adesso	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	affidandomi	_	_	_	_	_	_	_	SpaceAfter=No
+4	affidando	affidare	VERB	V	VerbForm=Ger	0	root	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	dispetto	dispetto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+16	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 42
+# text = Ma io amo mettermi in gioco».
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mettermi	mettermo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,546 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I neolaureati (se lavorano) guadagnano 900 euro
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	neolaureati	neolaureato	NOUN	S	Number=Plur	7	nsubj	_	_
+3	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	se	se	SCONJ	CS	_	5	mark	_	_
+5	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	guadagnano	guadagnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	900	900	NUM	N	NumType=Card	9	nummod	_	_
+9	euro	euro	NOUN	S	Gender=Masc	7	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Finito di studiare, il problema diventa la busta paga, diventa il vivere di collaborazioni e di contratti a tempo determinato.
+1	Finito	Finito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	studiare	studiare	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	problema	problema	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	busta	busto	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	paga	paga	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vivere	vivere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	collaborazioni	collaborazione	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	contratti	contratto	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+22	determinato	determinato	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = A un anno dalla laurea all' università di Firenze, quelli che lavorano guadagnano in media 961 euro netti al mese.
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	all'	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	università	università	NOUN	S	Gender=Fem	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Firenze	Firenze	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	16	nsubj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+16	guadagnano	guadagnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	media	medio	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	961	961	NUM	N	NumType=Card	20	nummod	_	_
+20	euro	euro	NOUN	S	Gender=Masc	18	nmod	_	_
+21	netti	netto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mese	mese	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = Le donne anche meno, 858 contro i 1.120 euro dei maschi.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	meno	meno	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	858	858	NUM	N	NumType=Card	10	nummod	_	_
+7	contro	contro	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	1.120	1.120	NUM	N	NumType=Card	10	nummod	_	_
+10	euro	euro	NOUN	S	Gender=Masc	2	nmod	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	maschi	maschio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = La metà di loro ha un lavoro atipico, il 37,5% un' occupazione già stabile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	metà	metà	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	atipico	atipico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	37,5	37,5	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	5	nmod	_	_
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+15	già	già	ADV	B	_	16	advmod	_	_
+16	stabile	stabile	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = In tutto però il 60 per cento dei neodottori, dodici mesi dopo la discussione della tesi, è riuscito a trovare un' occupazione e questo è positivo:
+1	In	in	ADP	E	_	2	case	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obl	_	_
+3	però	però	ADV	B	_	2	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	60	60	NUM	N	NumType=Card	13	nummod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	cento	cento	NUM	N	NumType=Card	5	nummod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	neodottori	neodottore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	dodici	dodici	NUM	N	NumType=Card	13	nummod	_	_
+13	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+14	dopo	dopo	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tesi	tesi	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	trovare	trovare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	30	nsubj	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	positivo	positivo	ADJ	A	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	22	punct	_	_
+
+# sent_id = 7
+# text = il dato è superiore di sei punti rispetto alla media nazionale e di 13 punti rispetto alla media di occupazione dei laureati nel Sud Italia e nelle Isole.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dato	dato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	sei	sei	NUM	N	NumType=Card	7	nummod	_	_
+7	punti	punto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	rispetto	rispetto	ADV	B	_	11	case	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	media	media	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	nazionale	nazionale	ADJ	A	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	13	13	NUM	N	NumType=Card	16	nummod	_	_
+16	punti	punto	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+17	rispetto	rispetto	ADV	B	_	20	case	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	media	media	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	laureati	laureato	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Sud	Sud	PROPN	SP	_	25	nmod	_	_
+29	Italia	Italia	PROPN	SP	_	28	flat:name	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31-32	nelle	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	Isole	isola	NOUN	S	Gender=Fem|Number=Plur	25	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = E' la fotografia che consegna al rettore Augusto Marinelli Almalaurea, il consorzio che raggruppa 49 università italiane.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	consegna	consegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rettore	rettore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	Augusto	Augusto	PROPN	SP	_	8	nmod	_	_
+10	Marinelli	Marinelli	PROPN	SP	_	9	flat:name	_	_
+11	Almalaurea	Almalaurea	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	consorzio	consorzio	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	raggruppa	raggruppare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	49	49	NUM	N	NumType=Card	18	nummod	_	_
+18	università	università	NOUN	S	Gender=Fem	16	obj	_	_
+19	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Per Firenze sono stati sentiti nell' indagine 4.570 laureati.
+1	Per	per	ADP	E	_	2	case	_	_
+2	Firenze	Firenze	PROPN	SP	_	5	obl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	sentiti	sentire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nell'	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	4.570	4.570	NUM	N	NumType=Card	8	nummod	_	_
+10	laureati	laureato	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Il lavoro si fa meno precario col passare del tempo:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	meno	meno	ADV	B	_	4	advmod	_	_
+6	precario	precario	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+7-8	col	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	passare	passare	VERB	V	VerbForm=Inf	6	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 11
+# text = a cinque anni dalla laurea l' 89% degli ex studenti fiorentini lavora (di questi il 72% in maniera stabile), mentre cinque su cento sono ancora a mandare curriculum e a compilare moduli in cerca di un posto.
+1	a	a	ADP	E	_	3	case	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	89	89	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	SYM	_	15	nsubj	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	ex	ex	ADJ	A	_	13	amod	_	_
+13	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+14	fiorentini	fiorentino	ADJ	A	Number=Plur	13	amod	_	_
+15	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+17	di	di	ADP	E	_	18	case	_	_
+18	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	21	nmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	72	72	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	SYM	_	15	obl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	stabile	stabile	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	15	punct	_	_
+27	mentre	mentre	SCONJ	CS	_	34	mark	_	_
+28	cinque	cinque	NUM	N	NumType=Card	34	nsubj	_	_
+29	su	su	ADP	E	_	30	case	_	_
+30	cento	cento	NUM	N	NumType=Card	28	nummod	_	_
+31	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+32	ancora	ancora	ADV	B	_	34	advmod	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34	mandare	mandare	VERB	V	VerbForm=Inf	15	advcl	_	_
+35	curriculum	curriculum	NOUN	S	Gender=Masc	34	obj	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	a	a	ADP	E	_	38	mark	_	_
+38	compilare	compilare	VERB	V	VerbForm=Inf	34	conj	_	_
+39	moduli	modulo	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	posto	posto	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 12
+# text = Col tempo anche la busta paga si fa più pesante, ma non fa sognare, né diventare ricchi:
+1-2	Col	_	_	_	_	_	_	_	_
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	busta	busto	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	paga	paga	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	pesante	pesante	ADJ	A	Number=Sing	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+16	sognare	sognare	VERB	V	VerbForm=Inf	15	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	né	né	CCONJ	CC	_	19	cc	_	_
+19	diventare	diventare	VERB	V	VerbForm=Inf	16	conj	_	_
+20	ricchi	ricco	ADJ	A	Gender=Masc|Number=Plur	19	xcomp	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 13
+# text = a cinque anni, secondo l' indagine condotta dal consorzio che ha sede a Bologna, siamo poco sopra i 1.200 euro.
+1	a	a	ADP	E	_	3	case	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	condotta	condurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	consorzio	consorzio	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	sede	sede	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Bologna	Bologna	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	cop	_	_
+19	poco	poco	ADV	B	_	23	advmod	_	_
+20	sopra	sopra	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	1.200	1.200	NUM	N	NumType=Card	23	nummod	_	_
+23	euro	euro	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 14
+# text = Peggio, al solito, per le donne che dopo un lustro guadagnano all' incirca quattrocento euro meno degli uomini.
+1	Peggio	peggio	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	solito	solito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+11	dopo	dopo	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	lustro	lustro	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+14	guadagnano	guadagnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+15-16	all'	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	19	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+17	incirca	incirca	ADV	B	_	19	advmod	_	_
+18	quattrocento	quattrocento	NUM	N	NumType=Card	19	nummod	_	_
+19	euro	euro	NOUN	S	Gender=Masc	14	obl	_	_
+20	meno	meno	ADV	B	_	1	advmod	_	_
+21-22	degli	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = E in genere faticano anche di più a trovare un' occupazione.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	genere	genere	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	faticano	faticare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	più	più	ADV	B	_	9	advmod	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	trovare	trovare	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = «L' analisi di Almalaurea - ha spiegato ieri il rettore Marinelli sfogliando le tabelle - sottolinea una tendenza che è stata già evidenziata negli scorsi anni.
+1	«	«	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	analisi	analisi	NOUN	S	Gender=Fem	17	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Almalaurea	Almalaurea	PROPN	SP	_	3	nmod	_	_
+6	-	-	PUNCT	FB	_	8	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	ieri	ieri	ADV	B	_	8	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rettore	rettore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+12	Marinelli	Marinelli	PROPN	SP	_	11	nmod	_	_
+13	sfogliando	sfogliare	VERB	V	VerbForm=Ger	8	advcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	tabelle	tabella	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	-	-	PUNCT	FF	_	8	punct	_	_
+17	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	24	nsubj:pass	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+23	già	già	ADV	B	_	24	advmod	_	_
+24	evidenziata	evidenziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+25-26	negli	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+28	anni	anno	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 17
+# text = I neolaureati da noi trovano lavoro prima rispetto alla media nazionale e il risultato è un incoraggiamento per quanto fatto finora coinvolgendo le imprese e il territorio e studiando nuove modalità per fare incontrare domanda e offerta di laureati».
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	neolaureati	neolaureato	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
+5	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	prima	primo	ADV	B	_	5	advmod	_	_
+8	rispetto	rispetto	ADV	B	_	11	case	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	media	media	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	nazionale	nazionale	ADJ	A	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	18	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	incoraggiamento	incoraggiamento	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	18	nmod	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+22	finora	finora	ADV	B	_	21	advmod	_	_
+23	coinvolgendo	coinvolgere	VERB	V	VerbForm=Ger	21	advcl	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	studiando	studiare	VERB	V	VerbForm=Ger	23	conj	_	_
+31	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	_
+32	modalità	modalità	NOUN	S	Gender=Fem	30	obj	_	_
+33	per	per	ADP	E	_	34	mark	_	_
+34	fare	fare	VERB	V	VerbForm=Inf	32	acl	_	_
+35	incontrare	incontrare	VERB	V	VerbForm=Inf	34	ccomp	_	_
+36	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	offerta	offerta	NOUN	S	Gender=Fem|Number=Sing	36	conj	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	laureati	laureato	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+41	»	»	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Ma come si fa la caccia al lavoro da neodottori fiorentini?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	come	come	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	neodottori	neodottore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+12	fiorentini	fiorentino	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Dandosi molto da fare, spedendo curriculum e bussando alle porte (35%), soltanto un 10% viene reclutato dall' azienda in cui ha fatto lo stage e pochi sperano nei concorsi pubblici o nella chiamata dagli annunci.
+1-2	Dandosi	_	_	_	_	_	_	_	_
+1	Dando	dare	VERB	V	VerbForm=Ger	24	advcl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	molto	molto	ADV	B	_	5	advmod	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	spedendo	spedire	VERB	V	VerbForm=Ger	24	advcl	_	_
+8	curriculum	curriculum	NOUN	S	Gender=Masc	7	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	bussando	bussare	VERB	V	VerbForm=Ger	24	advcl	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	porte	porta	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	35	35	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	10	obl	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	soltanto	soltanto	ADV	B	_	22	advmod	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	10	10	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	SYM	_	24	nsubj:pass	_	_
+23	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	reclutato	reclutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25-26	dall'	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	24	obl:agent	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	31	obl	_	_
+30	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+32	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	stage	stage	NOUN	S	Gender=Masc	31	obj	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	36	obl	_	_
+36	sperano	sperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	_
+37-38	nei	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	concorsi	concorso	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	_
+40	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	39	amod	_	_
+41	o	o	CCONJ	CC	_	44	cc	_	_
+42-43	nella	_	_	_	_	_	_	_	_
+42	in	in	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	chiamata	chiamata	NOUN	S	Gender=Fem|Number=Sing	39	conj	_	_
+45-46	dagli	_	_	_	_	_	_	_	_
+45	da	da	ADP	E	_	47	case	_	_
+46	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	annunci	annunco	NOUN	S	Gender=Masc|Number=Plur	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	24	punct	_	SpacesAfter=\n\n
+

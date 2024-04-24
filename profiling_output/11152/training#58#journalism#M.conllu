@@ -1,0 +1,609 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L' Eni fa il pieno di profitti
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	Eni	Eni	PROPN	SP	_	3	nsubj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pieno	pieno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	profitti	profitto	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = MILANO - L' Eni va.
+1	MILANO	Milano	PROPN	SP	_	5	obl	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	Eni	Eni	PROPN	SP	_	5	nsubj	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Incamera i primi 2 miliardi di euro di utile netto del suo esercizio, relativi al primo trimestre.
+1	Incamera	Incamerare	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+4	2	2	NUM	N	NumType=Card	5	nummod	_	_
+5	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	euro	euro	NOUN	S	Gender=Masc	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	utile	utile	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	netto	netto	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	relativi	relativo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+20	trimestre	trimestre	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Un progresso del 45% da dodici mesi prima, legato in parte a entrate extra (191 milioni di proventi per il contenzioso ex Enimont) e al caro petrolio.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	45	45	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+6	%	%	SYM	SYM	_	2	nmod	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	dodici	dodici	NUM	N	NumType=Card	9	nummod	_	_
+9	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+10	prima	prima	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	entrate	entrata	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	extra	extra	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	191	191	NUM	N	NumType=Card	20	nummod	_	_
+20	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	proventi	provento	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+23	per	per	ADP	E	_	27	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	contenzioso	contenzioso	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+26	ex	ex	ADJ	A	_	27	amod	_	_
+27	Enimont	Enimont	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	20	punct	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	caro	caro	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	petrolio	petrolio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Non a caso balzi analoghi dei profitti trimestrali registrano le rivali TotalFina (+48%), Royal Dutch (+136%) ed Exxon (+237%).
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	balzi	balzo	ADP	E	_	5	case	_	_
+5	analoghi	analogo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	profitti	profitto	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	trimestrali	trimestrale	ADJ	A	Number=Plur	8	amod	_	_
+10	registrano	registrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	rivali	rivale	NOUN	S	Number=Plur	10	nsubj	_	_
+13	TotalFina	TotalFina	PROPN	SP	_	12	nmod	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	+48	+48	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	10	obl	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	Royal	Royal	PROPN	SP	_	10	nsubj	_	_
+20	Dutch	Dutch	PROPN	SP	_	19	flat:name	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	+136	+136	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+23	%	%	SYM	SYM	_	19	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	_
+25	ed	e	CCONJ	CC	_	26	cc	_	_
+26	Exxon	Exxon	PROPN	SP	_	19	conj	_	_
+27	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+28	+237	+237	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	26	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Tuttavia la società guidata da Vittorio Mincato è tra le più colpite dall' effetto cambi:
+1	Tuttavia	tuttavia	ADV	B	_	12	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	società	società	NOUN	S	Gender=Fem	12	nsubj:pass	_	_
+4	guidata	guidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Vittorio	Vittorio	PROPN	SP	_	4	obl:agent	_	_
+7	Mincato	Mincato	PROPN	SP	_	6	flat:name	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+9	tra	tra	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	colpite	colpire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	dall'	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16	cambi	cambio	NOUN	S	Gender=Masc|Number=Plur	15	compound	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 7
+# text = l' euro ha rubato il 22,5% al dollaro in un anno, dimezzando l' effetto degli aumenti del greggio.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	euro	euro	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	22,5	22,5	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	SYM	SYM	_	4	obj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dollaro	dollaro	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	dimezzando	dimezzare	VERB	V	VerbForm=Ger	4	advcl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	aumenti	aumente	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	greggio	greggio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Secondo stime della società, ogni rafforzamento di 5 centesimi della valuta unica sul biglietto verde, in uno scenario di nove mesi, erode all' Eni 250 milioni di utile operativo, ossia 110 milioni netti.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	stime	stima	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	società	società	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	rafforzamento	rafforzamento	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	5	5	NUM	N	NumType=Card	11	nummod	_	_
+11	centesimi	centesimo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	valuta	valuta	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	unica	unico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+19	verde	verde	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	8	punct	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	nove	nove	NUM	N	NumType=Card	26	nummod	_	_
+26	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	8	punct	_	_
+28	erode	erode	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29-30	all'	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	Eni	Eni	PROPN	SP	_	28	obl	_	_
+32	250	250	NUM	N	NumType=Card	33	nummod	_	_
+33	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	utile	utile	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	operativo	operativo	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	40	punct	_	_
+38	ossia	ossia	CCONJ	CC	_	40	cc	_	_
+39	110	110	NUM	N	NumType=Card	40	nummod	_	_
+40	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+41	netti	netto	ADJ	A	Gender=Masc|Number=Plur	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 9
+# text = «Se l' euro rimarrà ai livelli attuali, il prezzo effettivo del barile nel 2003 sarà per noi inferiore all' anno prima, le società europee sono meno favorite» ha detto Mincato, pur sottolineando «un risultato di queste dimensioni nonostante la congiuntura avversa».
+1	«	«	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	5	mark	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	euro	euro	NOUN	S	Gender=Masc	5	nsubj	_	_
+5	rimarrà	rimarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	advcl	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	attuali	attuale	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+13	effettivo	effettivo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	barile	barile	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2003	2003	NUM	N	NumType=Card	5	obl	_	_
+20	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	cop	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	23	obl	_	_
+23	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	_
+24-25	all'	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	anno	anno	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	prima	prima	ADV	B	_	23	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	23	punct	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	società	società	NOUN	S	Gender=Fem	34	nsubj	_	_
+31	europee	europeo	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	meno	meno	ADV	B	_	34	advmod	_	_
+34	favorite	favorito	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	conj	_	SpaceAfter=No
+35	»	»	PUNCT	FB	_	23	punct	_	_
+36	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	parataxis	_	_
+38	Mincato	Mincato	PROPN	SP	_	37	nsubj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	pur	pure	ADV	B	_	41	advmod	_	_
+41	sottolineando	sottolineare	VERB	V	VerbForm=Ger	37	advcl	_	_
+42	«	«	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	47	det	_	_
+47	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	44	nmod	_	_
+48	nonostante	nonostante	ADP	E	_	50	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	congiuntura	congiuntura	NOUN	S	Gender=Fem|Number=Sing	44	nmod	_	_
+51	avversa	avverso	ADJ	A	Gender=Fem|Number=Sing	50	amod	_	SpaceAfter=No
+52	»	»	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 10
+# text = Profitti operativi a 3,3 miliardi (+23%), ricavi caratteristici a 14,36 miliardi (+13%), grazie a una produzione giornaliera salita a 1,5 milioni di barili da 1,44.
+1	Profitti	profitto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	operativi	operativo	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	3,3	3,3	NUM	N	NumType=Card	5	nummod	_	_
+5	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	+23	+23	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	SYM	_	1	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	ricavi	ricavo	ADV	B	_	12	advmod	_	_
+12	caratteristici	caratteristico	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	14,36	14,36	NUM	N	NumType=Card	15	nummod	_	_
+15	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	+13	+13	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	SYM	_	15	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	grazie	grazie	NOUN	S	_	24	case	_	_
+22	a	a	ADP	E	_	21	fixed	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+25	giornaliera	giornaliero	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	salita	salire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	1,5	1,5	NUM	N	NumType=Card	29	nummod	_	_
+29	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	barili	barile	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+32	da	da	ADP	E	_	33	case	_	_
+33	1,44	1,44	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = I flussi di cassa hanno coperto quasi tutto il fabbisogno per investimenti e partecipazioni:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	flussi	flusso	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cassa	cassa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	coperto	coprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	quasi	quasi	ADV	B	_	10	advmod	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fabbisogno	fabbisogno	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	partecipazioni	partecipazione	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 12
+# text = oltre 5,24 miliardi di cui circa metà spesi per l' Opa Italgas e un altro miliardo per l' Opa Fortum.
+1	oltre	oltre	ADV	B	_	2	advmod	_	_
+2	5,24	5,24	NUM	N	NumType=Card	3	nummod	_	_
+3	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	3	nmod	_	_
+6	circa	circa	ADV	B	_	7	advmod	_	_
+7	metà	metà	NOUN	S	Gender=Fem	5	obl	_	_
+8	spesi	spendere	ADJ	A	Number=Plur	7	amod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Opa	Opa	PROPN	SP	_	7	nmod	_	_
+12	Italgas	Italgas	PROPN	SP	_	11	flat:name	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	altro	altro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	miliardo	miliardo	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Opa	Opa	PROPN	SP	_	16	nmod	_	_
+20	Fortum	Fortum	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Non si intacca quindi il rapporto tra debiti e patrimonio netto, a 0,41 contro 0,39 a fine anno;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:pass	_	_
+3	intacca	intaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quindi	quindi	ADV	B	_	3	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	debiti	debito	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+11	netto	netto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	0,41	0,41	NUM	N	NumType=Card	3	nmod	_	_
+15	contro	contro	ADP	E	_	16	case	_	_
+16	0,39	0,39	NUM	N	NumType=Card	14	nummod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	fine	fine	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	anno	anno	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = per gli analisti è la notizia migliore.
+1	per	per	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	analisti	analista	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Nel settore gas, ultima scommessa manageriale, gli ambiziosi target forniti con l' incorporazione di Italgas «sono finora stati rispettati», ha detto Mincato.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	settore	settore	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+4	gas	gas	NOUN	S	Gender=Masc	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	scommessa	scommessa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+8	manageriale	manageriale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	ambiziosi	ambizioso	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	target	target	NOUN	S	Gender=Masc	23	nsubj:pass	_	_
+13	forniti	fornire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	incorporazione	incorporazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Italgas	Italgas	PROPN	SP	_	16	nmod	_	_
+19	«	«	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+21	finora	finora	ADV	B	_	23	advmod	_	_
+22	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	rispettati	rispettare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	parataxis	_	_
+28	Mincato	Mincato	PROPN	SP	_	27	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 16
+# text = La crescita dei volumi è tutta sull' estero, dove salgono a 5,3 i miliardi di metri cubi (+51%), stabili in Italia a 18,9 miliardi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	volumi	volume	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+8-9	sull'	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	estero	estero	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	dove	dove	ADV	B	_	13	advmod	_	_
+13	salgono	salire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	5,3	5,3	NUM	N	NumType=Card	17	nummod	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	metri	metro	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	cubi	cubo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	+51	+51	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+23	%	%	SYM	SYM	_	17	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	stabili	stabile	ADJ	A	Number=Plur	7	amod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	Italia	Italia	PROPN	SP	_	26	obl	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	18,9	18,9	NUM	N	NumType=Card	31	nummod	_	_
+31	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Da lunedì aprirà, sotto la guida dell' ex presidente Italgas, Alberto Meomartini, una vice direzione generale italiana della Divisione gas & power, che concentra le attività commerciali di Snam, Italgas ed Enipower.
+1	Da	da	ADP	E	_	2	case	_	_
+2	lunedì	lunedì	NOUN	S	Gender=Masc	3	obl	_	_
+3	aprirà	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sotto	sotto	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	guida	guida	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	dell'	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	ex	ex	ADJ	A	_	11	amod	_	_
+11	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	Italgas	Italgas	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	Alberto	Alberto	PROPN	SP	_	11	nmod	_	_
+15	Meomartini	Meomartini	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	vice	vice	ADJ	A	_	19	amod	_	_
+19	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+20	generale	generale	ADJ	A	Number=Sing	19	amod	_	_
+21	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+25	gas	gas	NOUN	S	Gender=Masc	24	compound	_	_
+26	&	&	SYM	SYM	_	27	nmod	_	_
+27	power	power	NOUN	S	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	19	punct	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	concentra	concentrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	attività	attività	NOUN	S	Gender=Fem	30	obj	_	_
+33	commerciali	commerciale	ADJ	A	Number=Plur	32	amod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Snam	Snam	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	Italgas	Italgas	PROPN	SP	_	35	conj	_	_
+38	ed	e	CCONJ	CC	_	39	cc	_	_
+39	Enipower	Enipower	PROPN	SP	_	35	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Un' altra, nuova frontiera potrebbe essere l' Iraq.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	frontiera	frontiera	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Iraq	Iraq	PROPN	SP	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 19
+# text = «Ci riteniamo in buona posizione per essere tenuti in considerazione», ha detto Mincato parlando della ricostruzione dei campi di Saddam.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+3	riteniamo	ritenere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	buona	buono	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	per	per	ADP	E	_	9	mark	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+16	Mincato	Mincato	PROPN	SP	_	15	nsubj	_	_
+17	parlando	parlare	VERB	V	VerbForm=Ger	15	advcl	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ricostruzione	ricostruzione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	campi	campo	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Saddam	Saddam	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Eni e la controllata Saipem hanno competenze tecniche ed entrature politiche per riuscire;
+1	Eni	Eni	PROPN	SP	_	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	controllata	controllata	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+5	Saipem	Saipem	PROPN	SP	_	4	nmod	_	_
+6	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	competenze	competenza	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	tecniche	tecnico	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	entrature	entratura	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+11	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	riuscire	riuscire	VERB	V	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 21
+# text = specie dopo che Halliburton, testa d' ariete dell' entourage dei Bush, ha ammesso il caso di corruzione in Nigeria finendo nel mirino della Sec.
+1	specie	specie	ADV	B	_	2	advmod	_	_
+2	dopo	dopo	ADV	B	_	17	mark	_	_
+3	che	che	SCONJ	CS	_	2	fixed	_	_
+4	Halliburton	Halliburton	PROPN	SP	_	17	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	testa	testa	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+7	d'	di	ADP	E	_	8	case	_	_
+8	ariete	arieta	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	dell'	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	entourage	entourage	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Bush	Bush	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	caso	caso	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	corruzione	corruzione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	Nigeria	Nigeria	PROPN	SP	_	21	nmod	_	_
+24	finendo	finire	VERB	V	VerbForm=Ger	17	advcl	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mirino	mirino	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Sec	Sec	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n\n
+

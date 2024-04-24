@@ -1,0 +1,749 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parchi gioco: troppe spese, si taglia
+1	Parchi	parco	NOUN	S	Gender=Masc|Number=Plur	8	advcl	_	_
+2	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+4	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:pass	_	_
+8	taglia	tagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = IL COMUNE rivoluzionerà i parchi gioco in città.
+1	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	COMUNE	Comune	PROPN	SP	_	3	nsubj	_	_
+3	rivoluzionerà	rivoluzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	parchi	parco	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	5	compound	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	città	città	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dagli attuali 257 passeranno a 237:
+1-2	Dagli	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	attuali	attuale	ADJ	A	Number=Plur	4	amod	_	_
+4	257	257	NUM	N	NumType=Card	5	obl	_	_
+5	passeranno	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	237	237	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = l' obiettivo di Palazzo civico è la razionalizzazione.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Palazzo	Palazzo	PROPN	SP	_	2	nmod	_	_
+5	civico	civico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	razionalizzazione	razionalizzazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = «Oggi - spiega la dirigente Marisa Cortese che ha messo a punto il progetto - ci troviamo di fronte a una miriade di aree:
+1	«	«	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+2	Oggi	oggi	ADV	B	_	18	advmod	_	_
+3	-	-	PUNCT	FB	_	4	punct	_	_
+4	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	dirigente	dirigente	NOUN	S	Number=Sing	4	nsubj	_	_
+7	Marisa	Marisa	PROPN	SP	_	6	nmod	_	_
+8	Cortese	Cortesa	PROPN	SP	_	7	flat:name	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+16	-	-	PUNCT	FF	_	4	punct	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+18	troviamo	trovare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	fronte	fronte	NOUN	S	Number=Sing	18	obl	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	miriade	miriade	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	aree	area	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 6
+# text = non tutte sono in buono stato o si trovano in collocazioni ottimali, ma tutte pesano sulle casse comunali».
+1	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	6	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	buono	buono	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	stato	stato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	collocazioni	collocazione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+12	ottimali	ottimale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	16	nsubj	_	_
+16	pesano	pesare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+17-18	sulle	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	casse	cassa	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	comunali	comunale	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Ogni anno infatti il Comune spende 4 milioni di euro solo in manutenzione.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	infatti	infatti	ADV	B	_	6	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Comune	Comune	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	spende	spendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	4	4	NUM	N	NumType=Card	8	nummod	_	_
+8	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	euro	euro	NOUN	S	Gender=Masc	8	nmod	_	_
+11	solo	solo	ADV	B	_	13	advmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	manutenzione	manutenzione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = «Il piano che abbiamo messo a punto - sottolinea Cortese - mira a ridurre gli sprechi e a migliorare i giardini presenti in città».
+1	«	«	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	piano	piano	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	-	-	PUNCT	FB	_	10	punct	_	_
+10	sottolinea	sottolinea	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+11	Cortese	Cortesa	PROPN	SP	_	10	nsubj	_	_
+12	-	-	PUNCT	FF	_	10	punct	_	_
+13	mira	mira	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	ridurre	ridurre	VERB	V	VerbForm=Inf	13	ccomp	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	sprechi	spreco	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	migliorare	migliorare	VERB	V	VerbForm=Inf	15	conj	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	giardini	giardino	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	presenti	presente	ADJ	A	Number=Plur	22	amod	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	città	città	NOUN	S	Gender=Fem	20	obl	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 9
+# text = L' intervento, curato dagli assessori Ilda Curti e Roberto Tricarico, ha visto la collaborazione di ben 5mila bambini.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	curato	curare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dagli	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	assessori	assessore	NOUN	S	Gender=Masc|Number=Plur	4	obl:agent	_	_
+8	Ilda	Ildo	PROPN	SP	_	7	nmod	_	_
+9	Curti	Curto	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Roberto	Roberto	PROPN	SP	_	8	conj	_	_
+12	Tricarico	Tricarico	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	ben	bene	ADV	B	_	21	advmod	_	_
+20	5mila	5mila	NUM	N	NumType=Card	21	nummod	_	_
+21	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 10
+# text = E sono stati proprio loro a dare i voti alle aree gioco e a indirizzarne il destino:
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	cop	_	_
+4	proprio	proprio	ADV	B	_	5	advmod	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	dare	dare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	voti	voto	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	aree	area	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+13	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	12	compound	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	indirizzarne	indirizzarne	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	destino	destino	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 11
+# text = ben 86 le bocciate, 113 quelle sufficienti, 55 si sono guadagnate un buono e appena 4 un ottimo.
+1	ben	bene	ADV	B	_	2	advmod	_	_
+2	86	86	NUM	N	NumType=Card	13	nummod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	bocciate	bocciata	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	113	113	NUM	N	NumType=Card	7	nummod	_	_
+7	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	4	nmod	_	_
+8	sufficienti	sufficiente	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	55	55	NUM	N	NumType=Card	4	nummod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	guadagnate	guadagnare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	buono	buono	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	appena	appena	ADV	B	_	18	advmod	_	_
+18	4	4	NUM	N	NumType=Card	15	conj	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 12
+# text = Il "piano regolatore" delle zone per i giochi prevede nel complesso di crearne 7 ex novo, sottoporne 67 a un restyling totale e apportare qualche miglioria ad altre 83.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	piano	piano	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+4	regolatore	regolatore	NOUN	S	_	3	compound	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	zone	zona	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	complesso	complesso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	crearne	crearne	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	7	7	NUM	N	NumType=Card	20	nummod	_	_
+19	ex	ex	ADJ	A	_	20	amod	_	_
+20	novo	novo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22-23	sottoporne	_	_	_	_	_	_	_	_
+22	sottopor	sottoporre	VERB	V	VerbForm=Inf	12	conj	_	_
+23	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+24	67	67	NUM	N	NumType=Card	22	obj	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	restyling	restyling	NOUN	S	Gender=Masc	22	obl	_	_
+28	totale	totale	ADJ	A	Number=Sing	27	amod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	apportare	apportare	VERB	V	VerbForm=Inf	12	conj	_	_
+31	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	32	det	_	_
+32	miglioria	miglioria	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	ad	a	ADP	E	_	34	case	_	_
+34	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	30	obl	_	_
+35	83	83	NUM	N	NumType=Card	34	nummod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 13
+# text = Un' ottantinai giardini che vanno bene così come sono e 28 quelli invece da smantellare.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ottantinai	ottantinaio	NOUN	S	_	0	root	_	_
+3	giardini	giardino	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	_
+7	così	così	ADV	B	_	5	advmod	_	_
+8	come	come	SCONJ	CS	_	9	mark	_	_
+9	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	28	28	NUM	N	NumType=Card	12	nummod	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	2	conj	_	_
+13	invece	invece	ADV	B	_	12	advmod	_	_
+14	da	da	ADP	E	_	15	mark	_	_
+15	smantellare	smantellare	VERB	V	VerbForm=Inf	12	acl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = In centro il piano intende cancellare l' aiuola Balbo e la piccola area gioco di via Bertolotti:
+1	In	in	ADP	E	_	2	case	_	_
+2	centro	centro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	piano	piano	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	intende	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	cancellare	cancellare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	aiuola	aiuola	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	Balbo	Balbo	PROPN	SP	_	8	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	area	area	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+14	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	via	via	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	Bertolotti	Bertolotti	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 15
+# text = in compenso ne nascerà una nuova, il giardino "Cavour", di ben 2mila metri quadrati.
+1	in	in	ADP	E	_	2	case	_	_
+2	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	nascerà	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Cavour	Cavour	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	ben	bene	ADV	B	_	17	advmod	_	_
+16	2mila	2mila	NUM	N	NumType=Card	17	nummod	_	_
+17	metri	metro	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+18	quadrati	quadrato	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = A Santa Rita spariranno il giardino Barlettae le micro aree di corso Adriatico e corso Unione Sovietica.
+1	A	a	ADP	E	_	2	case	_	_
+2	Santa	Santa	PROPN	SP	_	4	obl	_	_
+3	Rita	Rita	PROPN	SP	_	2	flat:name	_	_
+4	spariranno	sparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	Barlettae	Barlettae	PROPN	SP	_	6	nmod	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	micro	micro	ADJ	A	_	10	amod	_	_
+10	aree	area	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	corso	corso	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+13	Adriatico	Adriatico	PROPN	SP	_	10	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	corso	corso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+16	Unione	unione	PROPN	SP	_	15	obj	_	_
+17	Sovietica	sovietica	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = In zona Mirafiori nord, il giardino "Correnti" subirà un restyling totale.
+1	In	in	ADP	E	_	2	case	_	_
+2	zona	zona	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+3	Mirafiori	Mirafiori	PROPN	SP	_	2	nmod	_	_
+4	nord	nord	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Correnti	corrente	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	subirà	subire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	restyling	restyling	NOUN	S	Number=Sing	11	obj	_	_
+14	totale	totale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 18
+# text = E ancora, nella circoscrizione tre verranno smantellate l' area di corso Ferrucci e quella tra il piazzale Chiribiri e via Pollenzo.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	ancora	ancora	ADV	B	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	circoscrizione	circoscrizione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+7	tre	tre	NUM	N	NumType=Card	9	nummod	_	_
+8	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+9	smantellate	smantellare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	area	area	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	corso	corso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	Ferrucci	Ferrucci	PROPN	SP	_	13	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	conj	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	piazzale	piazzale	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Chiribiri	Chiribiri	PROPN	SP	_	19	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	via	via	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+23	Pollenzo	Pollenzo	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 19
+# text = Bocciati anche lo spiazzo in largo Luca Della Robbia e quelli su piazzale San Benedetto, via Tofanee via Valsugana.
+1	Bocciati	Bocciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	spiazzo	spiazzo	NOUN	S	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	largo	largo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+7	Luca	Luca	PROPN	SP	_	4	nmod	_	_
+8-9	Della	_	_	_	_	_	_	_	_
+8	Di	Di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Robbia	Robbia	PROPN	SP	_	1	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	10	conj	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	piazzale	piazzale	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	San	San	PROPN	SP	_	14	nmod	_	_
+16	Benedetto	Benedetto	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	via	via	ADP	E	_	19	case	_	_
+19	Tofanee	Tofanee	PROPN	SP	_	10	conj	_	_
+20	via	via	ADP	E	_	21	case	_	_
+21	Valsugana	Valsugana	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Per contro saranno ampliati l' area Cenisia, che dagli attuali 200 metri quadrati passerà a 2mila, il parco giochi di via Challant, da 150 a 700, quello di via Chambery, da 150 a mille, e ancora, quello in via Thures, da 500 a 1.500.
+1	Per	per	ADP	E	_	2	case	_	_
+2	contro	contro	ADV	B	_	4	advmod	_	_
+3	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	ampliati	ampliare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	area	area	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7	Cenisia	Cenisia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+10-11	dagli	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	14	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+12	attuali	attuale	ADJ	A	Number=Plur	14	amod	_	_
+13	200	200	NUM	N	NumType=Card	14	nummod	_	_
+14	metri	metro	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+15	quadrati	quadrato	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	passerà	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	2mila	2mila	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	parco	parco	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+22	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	21	compound	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	via	via	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	Challant	Challant	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	21	punct	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	150	150	NUM	N	NumType=Card	21	nummod	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	700	700	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	21	punct	_	_
+32	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	via	via	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35	Chambery	Chambery	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	21	punct	_	_
+37	da	da	ADP	E	_	38	case	_	_
+38	150	150	NUM	N	NumType=Card	4	nummod	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	mille	mille	NUM	N	NumType=Card	38	nummod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	45	punct	_	_
+42	e	e	CCONJ	CC	_	45	cc	_	_
+43	ancora	ancora	ADV	B	_	45	advmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	conj	_	_
+46	in	in	ADP	E	_	47	case	_	_
+47	via	via	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+48	Thures	Thures	PROPN	SP	_	47	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	51	punct	_	_
+50	da	da	ADP	E	_	51	case	_	_
+51	500	500	NUM	N	NumType=Card	4	conj	_	_
+52	a	a	ADP	E	_	53	case	_	_
+53	1.500	1.500	NUM	N	NumType=Card	51	nummod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Il piano prevede inoltre la creazione di un giardino da 6mila metri quadri in via Brenta (Borgata Vittoria).
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	piano	piano	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	inoltre	inoltre	ADV	B	_	3	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	creazione	creazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	6mila	6mila	NUM	N	NumType=Card	12	nummod	_	_
+12	metri	metro	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+13	quadri	quadre	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	via	via	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+16	Brenta	Brenta	PROPN	SP	_	15	nmod	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	Borgata	borgata	PROPN	SP	_	6	appos	_	_
+19	Vittoria	Vittorio	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Ben tre spunteranno nella circoscrizione sei:
+1	Ben	bene	ADV	B	_	2	advmod	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	spunteranno	spuntare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	circoscrizione	circoscrizione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	sei	sei	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 23
+# text = vicino all' ex Ceat, nell' area villaggio Snia e sulla Spina 4 (1.700 metri).
+1	vicino	vicino	ADV	B	_	5	case	_	_
+2-3	all'	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	ex	ex	ADJ	A	_	5	amod	_	_
+5	Ceat	Ceat	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	nell'	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	area	area	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	9	compound	_	_
+11	Snia	Snia	PROPN	SP	_	9	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Spina	spina	PROPN	SP	_	9	conj	_	_
+16	4	4	NUM	N	NumType=Card	19	nummod	_	_
+17	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	1.700	1.700	NUM	N	NumType=Card	19	nummod	_	_
+19	metri	metro	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = Anche Borgo Po godrà di una nuova area verde, accanto a Villa Glori.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Borgo	Borgo	PROPN	SP	_	4	nsubj	_	_
+3	Po	Po	PROPN	SP	_	2	flat:name	_	_
+4	godrà	godere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	area	area	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	verde	verde	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	accanto	accanto	ADV	B	_	13	case	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	Villa	Villa	PROPN	SP	_	8	nmod	_	_
+14	Glori	Glori	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 25
+# text = Cancellati invece 1.100 metri quadrati del parco Millefonti e spariranno del tutto i giardini Notta al Lingotto, quelli di via Faccioli (Mirafiori sud) e le aree gioco di corso Farini (Vanchiglia) e corso Telesio (Parella).
+1	Cancellati	cancellare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	invece	invece	ADV	B	_	1	advmod	_	_
+3	1.100	1.100	NUM	N	NumType=Card	4	nummod	_	_
+4	metri	metro	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	quadrati	quadrato	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	parco	parco	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	Millefonti	Millefonti	PROPN	SP	_	8	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	spariranno	sparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	giardini	giardino	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+17	Notta	Notto	ADJ	A	_	16	amod	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Lingotto	Lingotto	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	16	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	via	via	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	Faccioli	Faccioli	PROPN	SP	_	24	nmod	_	_
+26	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	Mirafiori	Mirafiori	PROPN	SP	_	24	nmod	_	_
+28	sud	sud	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	27	punct	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	aree	area	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+33	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	corso	corso	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	Farini	Farini	PROPN	SP	_	35	nmod	_	_
+37	(	(	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	Vanchiglia	Vanchiglia	PROPN	SP	_	36	appos	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	38	punct	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	corso	correre	NOUN	S	Gender=Masc|Number=Sing	42	conj	_	_
+42	Telesio	Telesio	PROPN	SP	_	36	nmod	_	_
+43	(	(	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	Parella	Parella	PROPN	SP	_	42	nmod	_	SpaceAfter=No
+45	)	)	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 26
+# text = Prima di decidere del suo destino, il Comune ha censito ogni area tenendo conto di vari elementi.
+1	Prima	prima	ADV	B	_	3	mark	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	decidere	decidere	VERB	V	VerbForm=Inf	12	advcl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	destino	destino	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Comune	comune	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	censito	censire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	area	area	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	tenendo	tenere	VERB	V	VerbForm=Ger	12	advcl	_	_
+16	conto	conto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 27
+# text = Uno è la "giocabilità", ovvero il numero di altalene o scivoli e l' età delle attrezzature.
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	giocabilità	giocabilità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ovvero	ovvero	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	numero	numero	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	altalene	altalene	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	scivoli	scivolo	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	età	età	NOUN	S	Gender=Fem	5	conj	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	attrezzature	attrezzatura	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = In pagella hanno un voto anche sicurezza, accessibilità, qualità urbanae ambientale.
+1	In	in	ADP	E	_	2	case	_	_
+2	pagella	pagella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	voto	voto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	sicurezza	sicurezzo	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	accessibilità	accessibilità	NOUN	S	Gender=Fem	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	qualità	qualità	NOUN	S	Gender=Fem	7	conj	_	_
+12	urbanae	urbanae	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	ambientale	ambientale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = La vicinanza con un corso trafficato certo non aiuta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vicinanza	vicinanza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corso	corso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+6	trafficato	trafficato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+7	certo	certo	ADV	B	_	6	advmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 30
+# text = Per le nuove aree gioco e per tutti gli interventi che il Comune vuole fare, il progetto prevede "linee guida":
+1	Per	per	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	aree	area	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+5	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Comune	Comune	PROPN	SP	_	15	nsubj	_	_
+14	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	linee	linea	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	guida	guida	NOUN	S	Gender=Fem|Number=Sing	21	compound	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 31
+# text = altalene e scivoli di facile manutenzione, la presenza dell' acqua e del verde e livelli limite di inquinamento acustico e atmosferico.
+1	altalene	altalene	ADV	B	_	9	advmod	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	scivoli	scivolo	ADJ	A	Number=Plur	1	conj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	facile	facile	ADJ	A	Number=Sing	6	amod	_	_
+6	manutenzione	manutenzione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10-11	dell'	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	verde	verde	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+19	limite	limite	NOUN	S	Gender=Masc|Number=Sing	18	compound	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	acustico	acustico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	atmosferico	atmosferico	ADJ	A	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+

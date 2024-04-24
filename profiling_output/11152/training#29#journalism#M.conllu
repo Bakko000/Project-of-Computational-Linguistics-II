@@ -1,0 +1,804 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Da sesto a primo, solo Valentino
+1	Da	da	ADP	E	_	2	case	_	_
+2	sesto	sesto	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	solo	solo	ADV	B	_	7	advmod	_	_
+7	Valentino	Valentino	PROPN	SP	_	2	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = LE MANS - Tutto gli è favorevole nella livida Le Mans, rugginoso circuito Bugatti:
+1	LE	il	PROPN	SP	_	0	root	_	_
+2	MANS	MANS	PROPN	SP	_	1	flat:name	_	_
+3	-	-	PUNCT	FF	_	7	punct	_	_
+4	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	favorevole	favorevole	ADJ	A	Number=Sing	1	amod	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	livida	livida	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	Le	Le	PROPN	SP	_	10	nmod	_	_
+12	Mans	Mans	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	rugginoso	rugginoso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	circuito	circuito	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+16	Bugatti	Bugatti	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = non piove, la sua Yamaha è tirata a lucido, lui ha preso la pole position il sabato con un ultimo giro in apnea.
+1	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+2	piove	piove	SCONJ	CS	_	8	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Yamaha	Yamaha	PROPN	SP	_	8	nsubj	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	tirata	tirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	lucido	lucido	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pole	pole	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	position	position	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	giro	giro	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	apnea	apnea	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = Poi Sete Gibernau fatica e Massimiliano Biaggi è caduto nel warm up (è uscito in barella, ma poi partirà) e sabato Marco Melandri è rimasto in clinica mobile fino a mezzanotte per una colica renale.
+1	Poi	poi	ADV	B	_	9	advmod	_	_
+2	Sete	Sete	PROPN	SP	_	9	nsubj	_	_
+3	Gibernau	Gibernau	PROPN	SP	_	2	flat:name	_	_
+4	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Massimiliano	Massimiliano	PROPN	SP	_	4	conj	_	_
+7	Biaggi	Biaggi	PROPN	SP	_	6	flat:name	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	warm	warm	NOUN	S	_	9	obl	_	_
+13	up	up	NOUN	S	_	12	compound	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	barella	barella	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	ma	ma	CCONJ	CC	_	22	cc	_	_
+21	poi	poi	ADV	B	_	22	advmod	_	_
+22	partirà	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	conj	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	16	punct	_	_
+24	e	e	CCONJ	CC	_	29	cc	_	_
+25	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+26	Marco	Marco	PROPN	SP	_	29	nsubj	_	_
+27	Melandri	Melandri	PROPN	SP	_	26	flat:name	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	clinica	clinica	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+32	mobile	mobile	ADJ	A	Number=Sing	31	amod	_	_
+33	fino	fino	ADP	E	_	35	case	_	_
+34	a	a	ADP	E	_	33	fixed	_	_
+35	mezzanotte	mezzanotte	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+36	per	per	ADP	E	_	38	case	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	colica	colica	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+39	renale	renale	ADJ	A	Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Troppo facile.
+1	Troppo	troppo	ADV	B	_	2	advmod	_	_
+2	facile	facile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Che può creare Valentino Rossi per infiammare i tifosi francesi, fini intenditori di moto in precario equilibrio sugli spalti?
+1	Che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	creare	creare	VERB	V	VerbForm=Inf	0	root	_	_
+4	Valentino	Valentino	PROPN	SP	_	3	obj	_	_
+5	Rossi	Rossi	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	infiammare	infiammare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	francesi	francese	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	fini	fine	ADJ	A	Number=Plur	13	amod	_	_
+13	intenditori	intenditore	NOUN	S	Gender=Masc|Number=Plur	9	appos	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	moto	moto	NOUN	S	Gender=Fem	13	nmod	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	precario	precario	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	sugli	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	spalti	spalto	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Affidarsi al suo colpo peggiore, la partenza, e inventare una rimonta.
+1-2	Affidarsi	_	_	_	_	_	_	_	_
+1	Affidar	Affidare	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	inventare	inventare	VERB	V	VerbForm=Inf	1	conj	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	rimonta	rimonta	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La costruzione di una nuova rincorsa, genere che inchioda alla tv anche chi di moto non si occupa, non è un falso d' autore:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	rincorsa	rincorsa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	genere	genere	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	inchioda	inchiodare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tv	televisione	NOUN	S	Gender=Fem	10	obl	_	_
+14	anche	anche	ADV	B	_	10	advmod	_	_
+15	chi	chi	PRON	PR	Number=Sing|PronType=Rel	10	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	moto	moto	NOUN	S	Gender=Fem	20	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+20	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	falso	falso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+26	d'	di	ADP	E	_	27	case	_	_
+27	autore	autore	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	25	punct	_	_
+
+# sent_id = 9
+# text = Rossi sbaglia spesso in gara, e poi vince.
+1	Rossi	Rossi	PROPN	SP	_	2	nsubj	_	_
+2	sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	spesso	spesso	ADV	B	_	2	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	gara	gara	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	poi	poi	ADV	B	_	9	advmod	_	_
+9	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Si distrae, poi recupera.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	distrae	distrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	poi	poi	ADV	B	_	5	advmod	_	_
+5	recupera	recuperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Non è perfetto, ma è geniale.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	geniale	geniale	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = E così a Le Mans sbaglia e da primo finisce subito sesto.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	così	così	ADV	B	_	6	advmod	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Mans	Mans	PROPN	SP	_	6	obl	_	_
+6	sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	obl	_	_
+10	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	subito	subito	ADV	B	_	12	advmod	_	_
+12	sesto	sesto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Intorno la coreografia è un quadro post-industriale:
+1	Intorno	intorno	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	coreografia	coreografia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	post	post	ADV	B	_	8	advmod	_	SpaceAfter=No
+8	-industriale	-industriale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 14
+# text = l' immagine dall' alto del parcheggio per le moto è sterminata, emozionante.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3-4	dall'	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	alto	alto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	parcheggio	parcheggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	moto	moto	NOUN	S	Gender=Fem	8	nmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	sterminata	sterminato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	emozionante	emozionante	ADJ	A	Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 15
+# text = Dentro il quadro si muove lui e catalizza ogni attenzione.
+1	Dentro	dentro	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	catalizza	catalizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Dieci minuti prima della gara ecco un accenno di pioggia, ma Valentino non conosce maledizioni:
+1	Dieci	dieci	NUM	N	NumType=Card	2	nummod	_	_
+2	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3	prima	prima	ADV	B	_	6	case	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gara	gara	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+7	ecco	ecco	ADV	B	_	9	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	accenno	accenno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	Valentino	Valentino	PROPN	SP	_	16	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17	maledizioni	maledizione	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 17
+# text = il cielo si placa e si corre all' asciutto.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	placa	placare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8-9	all'	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	asciutto	asciutto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Primo-sesto, si diceva.
+1	Primo-	primo-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	sesto	sesto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Il compagno Colin Edwards si mette alla testa e Loris Capirossi sfrutta la potenza Ducati in partenza: secondo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Colin	Colin	PROPN	SP	_	2	nmod	_	_
+4	Edwards	Edwards	PROPN	SP	_	3	flat:name	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	testa	testa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Loris	Loris	PROPN	SP	_	9	conj	_	_
+12	Capirossi	Capirossi	PROPN	SP	_	11	flat:name	_	_
+13	sfrutta	sfruttare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	potenza	potenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	Ducati	Ducati	PROPN	SP	_	15	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	13	punct	_	_
+20	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = Carlos Checa tampona Biaggi e cade sul prato, Roberto Rolfo non riesce a evitarlo:
+1	Carlos	Carlos	PROPN	SP	_	6	nsubj	_	_
+2	Checa	Checa	PROPN	SP	_	1	flat:name	_	_
+3	tampona	tamponare	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	Biaggi	Biaggi	PROPN	SP	_	1	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	cade	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	prato	prato	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	Roberto	Roberto	PROPN	SP	_	6	nsubj	_	_
+12	Rolfo	Rolfo	PROPN	SP	_	11	flat:name	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	evitarlo	_	_	_	_	_	_	_	SpaceAfter=No
+16	evitar	evitare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 21
+# text = va giù, poi riprende la gara.
+1	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	giù	giù	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	poi	poi	ADV	B	_	5	advmod	_	_
+5	riprende	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gara	gara	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Si capisce dal suo assetto in moto che Rossi resterà poco nel gruppone.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	capisce	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	assetto	assetto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	moto	moto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	Rossi	Rossi	PROPN	SP	_	11	nsubj	_	_
+11	resterà	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	advcl	_	_
+12	poco	poco	ADV	B	_	11	advmod	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	gruppone	gruppone	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Nel corso del giro due salta Nakano e poi Melandri mentre Gibernau retrocede e Biaggi è già decimo.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giro	giro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	due	due	NUM	N	NumType=Card	6	nummod	_	_
+8	salta	salta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Nakano	Nakano	PROPN	SP	_	8	nsubj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	poi	poi	ADV	B	_	12	advmod	_	_
+12	Melandri	Melandri	PROPN	SP	_	9	conj	_	_
+13	mentre	mentre	SCONJ	CS	_	15	mark	_	_
+14	Gibernau	Gibernau	PROPN	SP	_	15	nsubj	_	_
+15	retrocede	retrocedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	Biaggi	Biaggi	PROPN	SP	_	20	nsubj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	già	già	ADV	B	_	20	advmod	_	_
+20	decimo	decimo	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 24
+# text = Il leader va così forte che esce larghissimo nel curvone prima del rettilineo e al quinto giro supera Capirossi, ma la tornata dopo è Gibernau, lontano da Valentino tre secondi e mezzo, a fabbricare la rincorsa parallela: inizia a mangiargli decimi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	leader	leader	NOUN	S	_	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	forte	forte	ADJ	A	Number=Sing	3	xcomp	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	larghissimo	larghissimo	ADV	B	Degree=Abs	11	advmod	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	curvone	curvone	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	prima	prima	ADV	B	_	15	case	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	rettilineo	rettilineo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+20	giro	giro	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+21	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	parataxis	_	_
+22	Capirossi	Capirossi	PROPN	SP	_	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	29	punct	_	_
+24	ma	ma	CCONJ	CC	_	29	cc	_	_
+25	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	tornata	tornare	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+27	dopo	dopo	ADV	B	_	26	advmod	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	Gibernau	Gibernau	PROPN	SP	_	21	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	lontano	lontano	ADV	B	_	33	case	_	_
+32	da	da	ADP	E	_	31	fixed	_	_
+33	Valentino	Valentino	PROPN	SP	_	29	nmod	_	_
+34	tre	tre	NUM	N	NumType=Card	35	nummod	_	_
+35	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	21	punct	_	_
+39	a	a	ADP	E	_	40	mark	_	_
+40	fabbricare	fabbricare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	rincorsa	rincorsa	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	_
+43	parallela	parallela	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+44	:	:	PUNCT	FC	_	21	punct	_	_
+45	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+46	a	a	ADP	E	_	47	mark	_	_
+47-48	mangiargli	_	_	_	_	_	_	_	_
+47	mangiar	mangiare	VERB	V	VerbForm=Inf	45	xcomp	_	_
+48	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	decimi	decimo	NOUN	S	Gender=Masc|Number=Plur	47	obj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Michelin, accusata di averlo boicottato a Shanghai, qui gli ha trovato la gomma ideale.
+1	Michelin	Michelino	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	accusata	accusare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	di	di	ADP	E	_	7	mark	_	_
+5-6	averlo	_	_	_	_	_	_	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+6	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	boicottato	boicottato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Shanghai	Shanghaio	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	qui	qui	ADV	B	_	14	advmod	_	_
+12	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	gomma	gomma	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	ideale	ideale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 26
+# text = Le Bridgestone di Capirossi, invece, dopo dieci giri si sgonfiano.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Bridgestone	Bridgestone	PROPN	SP	_	12	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Capirossi	Capirossi	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	invece	invece	ADV	B	_	12	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dopo	dopo	ADP	E	_	10	case	_	_
+9	dieci	dieci	NUM	N	NumType=Card	10	nummod	_	_
+10	giri	giro	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	sgonfiano	sgonfiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 27
+# text = Rossi ora salta l' ex compagno Hayden ed è secondo, Barros non finisce metà gara:
+1	Rossi	Rossi	PROPN	SP	_	3	nsubj	_	_
+2	ora	ora	ADV	B	_	3	advmod	_	_
+3	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	ex	ex	ADJ	A	_	6	amod	_	_
+6	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	Hayden	Hayden	PROPN	SP	_	6	nmod	_	_
+8	ed	e	CCONJ	CC	_	14	cc	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+10	secondo	secondo	ADP	E	_	14	case	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	Barros	Barros	PROPN	SP	_	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	metà	metà	NOUN	S	Gender=Fem	14	obj	_	_
+16	gara	gara	NOUN	S	Gender=Fem|Number=Sing	15	compound	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 28
+# text = troppo incostante per puntare al titolo.
+1	troppo	troppo	ADV	B	_	2	advmod	_	_
+2	incostante	incostante	ADJ	A	Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	puntare	puntare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = Gibernau lima tempi al biondo e supera i suoi sorpassati:
+1	Gibernau	Gibernau	ADP	E	_	3	case	_	_
+2	lima	limo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sorpassati	sorpassare	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 30
+# text = passata e ripassata.
+1	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	ripassata	ripassare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = Si arriva al giro 17 che è già attaccato al codone di Rossi.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giro	giro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	17	17	NUM	N	NumType=Card	5	nummod	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj:pass	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	già	già	ADV	B	_	10	advmod	_	_
+10	attaccato	attaccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	codone	codone	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Rossi	Rossi	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = Addirittura lo passa, ma il leader replica dopo due tornate.
+1	Addirittura	addirittura	ADV	B	_	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	ma	ma	CCONJ	CC	_	8	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	leader	leader	NOUN	S	_	8	nsubj	_	_
+8	replica	replico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	dopo	dopo	ADP	E	_	11	case	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	tornate	tornata	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 33
+# text = Insieme allora, Vale e Gibe, decidono di superare Edwards il battistrada:
+1	Insieme	insieme	ADV	B	_	4	advmod	_	_
+2	allora	allora	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Vale	vale	PROPN	SP	_	8	nsubj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Gibe	Gibe	PROPN	SP	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	decidono	decidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	superare	superare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	Edwards	Edwards	PROPN	SP	_	10	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	battistrada	battistrada	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 34
+# text = un gesto unisono, da nuoto sincronizzato.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	unisono	esunisere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	nuoto	nuoto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+7	sincronizzato	sincronizzato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 35
+# text = Ester Canadas, la modella dalle labbra tumide che accompagna in pubblico il catalano, sorride al duello degli ultimi otto giri:
+1	Ester	Ester	PROPN	SP	_	17	nsubj	_	_
+2	Canadas	Canadas	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	modella	modella	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+6-7	dalle	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	tumide	tumido	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	accompagna	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	catalano	catalano	ADJ	A	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	duello	duello	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	degli	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	25	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+23	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	25	amod	_	_
+24	otto	otto	NUM	N	NumType=Card	25	nummod	_	_
+25	giri	giro	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 36
+# text = Rossi guida d' istinto, Sete controlla.
+1	Rossi	Rossi	PROPN	SP	_	2	nsubj	_	_
+2	guida	guidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	d'	di	ADP	E	_	4	case	_	_
+4	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	Sete	Sete	PROPN	SP	_	2	obj	_	_
+7	controlla	controllo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 37
+# text = Dietro, Biaggi e Melandri lottano per mostrare a tutti - Honda e spettatori - chi è il secondo italiano su piazza e per ora vince il talento crescente, quarto alla fine.
+1	Dietro	dietro	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Biaggi	Biaggi	PROPN	SP	_	6	nsubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Melandri	Melandri	PROPN	SP	_	3	conj	_	_
+6	lottano	lottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	mostrare	mostrare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obl	_	_
+11	-	-	PUNCT	FF	_	12	punct	_	_
+12	Honda	Honda	PROPN	SP	_	8	obj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15	-	-	PUNCT	FB	_	12	punct	_	_
+16	chi	chi	PRON	PR	PronType=Rel	20	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+20	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	12	acl:relcl	_	_
+21	su	su	ADP	E	_	22	case	_	_
+22	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	ora	ora	ADV	B	_	26	advmod	_	_
+26	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	talento	talento	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	crescente	crescere	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	28	punct	_	_
+31	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	28	amod	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	fine	fine	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 38
+# text = Così la tensione si sposta sull' ultimo giro e lì accadono due cose:
+1	Così	così	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	sposta	spostare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	sull'	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	9	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	giro	giro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	lì	lì	ADV	B	_	12	advmod	_	_
+12	accadono	accadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 39
+# text = Gibernau fa un errore in discesa e Rossi fa il round record, segno di una moto perfetta.
+1	Gibernau	Gibernau	PROPN	SP	_	2	nsubj	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	errore	errore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	discesa	discesa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Rossi	Rossi	PROPN	SP	_	6	conj	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	round	round	NOUN	S	Gender=Masc	9	obj	_	_
+12	record	record	NOUN	S	Gender=Masc	11	compound	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	segno	segno	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	moto	moto	NOUN	S	Gender=Fem	14	nmod	_	_
+18	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = Arriva la vittoria 71, terza su quattro quest' anno:
+1	Arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	71	71	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8	quattro	quattro	NUM	N	NumType=Card	10	nummod	_	_
+9	quest'	questo	DET	DD	Number=Sing|PronType=Dem	10	det	_	_
+10	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 41
+# text = il pubblico in equilibrio instabile festeggia la grande fuga.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	instabile	instabile	ADJ	A	Number=Sing	4	amod	_	_
+6	festeggia	festeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
