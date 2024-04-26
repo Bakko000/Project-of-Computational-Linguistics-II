@@ -1,0 +1,36 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = #notizie #Catanzaro CRONACA:
+1	#notizie	#notizia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	#	#	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Catanzaro	Catanzaro	PROPN	SP	_	1	nmod	_	_
+4	CRONACA	cronaca	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = 'Felici che altri si ritrovino sulle nostre denunce': 2016-04-0... http:// bit.ly/1oJ9U9s #Calabria #Italia
+1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Felici	felice	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+3	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+4	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	ritrovino	ritrovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7-8	sulle	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+11	'	'	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+13	2016-04	2016-04	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+14	-0...	-0...	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+15	http:	http:	PUNCT	FC	_	14	punct	_	SpaceAfter=No
+16	/	/	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+17	/	/	PUNCT	FF	_	14	punct	_	_
+18	bit.ly/1oJ9U9s	bit.ly/1oJ9U9s	PROPN	SP	_	2	conj	_	_
+19	#	#	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+20	Calabria	Calabria	PROPN	SP	_	18	flat:name	_	_
+21	#	#	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+22	Italia	Italia	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

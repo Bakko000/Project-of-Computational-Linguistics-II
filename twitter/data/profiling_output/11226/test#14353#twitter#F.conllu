@@ -1,0 +1,46 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Feci di cani in strada addio:
+1	Feci	Feci	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	cani	cane	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	strada	strada	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	addio	addio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = il Dna per risalire ai proprietari e multarli http://www.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Dna	Dna	PROPN	SP	_	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	risalire	risalire	VERB	V	VerbForm=Inf	2	acl	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	proprietari	proprietario	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9-10	multarli	_	_	_	_	_	_	_	_
+9	multar	multare	VERB	V	VerbForm=Inf	4	conj	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	http://www	http://www	NOUN	S	_	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = tgregione.it/cronaca-region ale/feci-di-cani-in-strada-addio-il-dna-per-risalire-ai-proprietari-e-multarli/ …
+1	tgregione.it/cronaca-region	tgregione.it/cronaca-regione	NOUN	S	Gender=Masc	7	nmod	_	_
+2	ale	ale	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+3	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	feci-di	feci-do	X	SW	Foreign=Yes	1	appos	_	SpaceAfter=No
+5	-cani-in-strada-addio-il-dna-per	-cani-in-strada-addio-il-dna-per	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+7	risalire-ai	risalire-aio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+8	-proprietari	-proprietario	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	-	-	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10-11	e-multarli	_	_	_	_	_	_	_	SpaceAfter=No
+10	e-multar	e-multare	VERB	V	VerbForm=Inf	7	acl	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	/	/	PUNCT	FF	_	10	punct	_	_
+13	…	…	PUNCT	FF	_	7	punct	_	SpacesAfter=\n\n
+

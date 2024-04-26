@@ -1,0 +1,30 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Righe verticali:
+1	Righe	riga	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	verticali	verticale	ADJ	A	Number=Plur	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = le righe che fanno sembrare più magre e alte https://www.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	righe	riga	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	sembrare	sembrare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	magre	magro	ADJ	A	Gender=Fem|Number=Plur	5	xcomp	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	alte	alto	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	https://www	https://www	NOUN	S	_	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = bloglovin.com/blog/post/3914 093/4826183953 … on @bloglovin
+1	bloglovin.com/blog/post/3914	bloglovin.com/blog/post/3914	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	093/4826183953	093/4826183953	NUM	N	NumType=Card	1	nummod	_	_
+3	…	…	PUNCT	FF	_	1	punct	_	_
+4	on	on	X	SW	Foreign=Yes	1	compound	_	_
+5	@bloglovin	@bloglovino	X	SW	Foreign=Yes	4	flat:foreign	_	SpacesAfter=\n\n
+

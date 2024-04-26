@@ -1,0 +1,40 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E neppure con la testa.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	neppure	neppure	ADV	BN	PronType=Neg	5	advmod	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	testa	testa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = I NAPOLISTI hanno messo in giro la foto tarocca per I fessi Che ci cascano!
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	NAPOLISTI	NAPOLISTI	PROPN	SP	_	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	giro	giro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	foto	foto	NOUN	S	Gender=Fem	4	obj	_	_
+9	tarocca	tarocco	ADV	B	_	12	advmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	fessi	fesso	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	Che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	iobj	_	_
+15	cascano	cascare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = https:// twitter.com/enricobertolin o/status/717324307542761474 …
+1	https:	https:	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	/	/	PUNCT	FF	_	1	punct	_	_
+4	twitter.com/enricobertolin	twitter.com/enricobertolino	X	SW	Foreign=Yes	0	root	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+6	/status/717324307542761474	/status/717324307542761474	NUM	N	NumType=Card	4	conj	_	_
+7	…	…	PUNCT	FF	_	4	punct	_	SpacesAfter=\n\n
+

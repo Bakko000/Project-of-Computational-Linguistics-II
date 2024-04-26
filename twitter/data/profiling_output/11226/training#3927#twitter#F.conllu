@@ -1,0 +1,36 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = DIO!
+1	DIO	Dio	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = DOVRA INTERVENIRE LUI!CERTAMENTE!CHI LO GUARDA E ASPETTA,NON È CERTTAMENTE FACILE!SE DIO STESSO NON DÀ PRESENZA!
+1	DOVRA	DOVRA	ADP	E	_	2	case	_	_
+2	INTERVENIRE	intervenire	PROPN	SP	_	0	root	_	_
+3	LUI	lui	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	!CERTAMENTE!CHI	!CERTAMENTE!CHI	PROPN	SP	_	3	flat:name	_	_
+5	LO	Lo	PROPN	SP	_	3	flat:name	_	_
+6	GUARDA	guarda	PROPN	SP	_	3	flat:name	_	_
+7	E	e	CCONJ	CC	_	10	cc	_	_
+8	ASPETTA,NON	ASPETTA,NON	PROPN	SP	_	10	nsubj	_	_
+9	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	CERTTAMENTE	CERTTAMENTE	PROPN	SP	_	3	conj	_	_
+11	FACILE!SE	FACILE!SE	PROPN	SP	_	10	flat:name	_	_
+12	DIO	dio	PROPN	SP	_	10	flat:name	_	_
+13	STESSO	stesso	PROPN	SP	_	10	flat:name	_	_
+14	NON	non	PROPN	SP	_	10	flat:name	_	_
+15	DÀ	dare	PROPN	SP	_	14	flat:name	_	_
+16	PRESENZA	presenza	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = https:// twitter.com/MonsDiBruno/st atus/718381332527738880 …
+1	https:	https:	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	/	/	PUNCT	FF	_	1	punct	_	_
+4	twitter.com/MonsDiBruno/st	twitter.com/MonsDiBruno/st	PROPN	SP	_	0	root	_	_
+5	atus/718381332527738880	atus/718381332527738880	NUM	N	NumType=Card	4	nummod	_	_
+6	…	…	PUNCT	FF	_	4	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,36 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ore 1.30 circa Caserta.
+1	Ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	1.30	1.30	NUM	N	NumType=Card	1	nummod	_	_
+3	circa	circa	ADV	B	_	1	advmod	_	_
+4	Caserta.	Caserta.	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..dispiegamento di auto e forze dell'ordine che neppure a bagdad.
+1	..dispiegamento	..dispiegamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	auto	auto	NOUN	S	Gender=Fem	1	nmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	forze	forza	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	neppure	neppure	ADV	BN	PronType=Neg	12	advmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	bagdad.	bagdad.	NOUN	S	Gender=Masc|Number=Sing	1	acl:relcl	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ..mi fermano, documenti,... http:// fb.me/2bV5amf4e
+1	..mi	..mo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	fermano	fermano	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	documenti,...	documenti,.	PUNCT	FF	_	1	punct	_	_
+5	http:	http:	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	1	punct	_	_
+8	fb.me/2bV5amf4e	fb.me/2bV5amf4e	PROPN	SP	_	1	nmod	_	SpacesAfter=\n\n
+

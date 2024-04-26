@@ -1,0 +1,36 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Volo Perugia-Roma, la politica in pressing:
+1	Volo	volo	PROPN	SP	_	0	root	_	_
+2	Perugia	Perugia	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	Roma	Roma	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	politica	politica	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	pressing	pressing	NOUN	S	_	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = «Le istituzioni facciano qualcosa».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	facciano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Si muove l’Abruzzo http:// fb.me/4jE5Dchaf
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Abruzzo	Abruzzo	PROPN	SP	_	2	nsubj	_	_
+5	http:	http:	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+6	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	4	punct	_	_
+8	fb.me/4jE5Dchaf	fb.me/4jE5Dchaf	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n\n
+

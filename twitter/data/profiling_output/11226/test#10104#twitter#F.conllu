@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oddio Emiliano...
+1	Oddio	oddio	INTJ	I	_	0	root	_	_
+2	Emiliano..	Emiliano..	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = L'ho incrociato all'inizio della carriera, fine anni '80, inizio '90.
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	incrociato	incrociare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	fine	fine	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+13	'80	'80	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+16	'90	'90	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Lui a quel tempo faceva ... http:// fb.me/3wWXWcuLO
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	...	...	PUNCT	FF	_	7	punct	_	_
+7	http:	http:	PUNCT	FC	_	5	punct	_	SpaceAfter=No
+8	/	/	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	/	/	PUNCT	FF	_	5	punct	_	_
+10	fb.me/3wWXWcuLO	fb.me/3wWXWcuLO	PROPN	SP	_	5	conj	_	SpacesAfter=\n\n
+

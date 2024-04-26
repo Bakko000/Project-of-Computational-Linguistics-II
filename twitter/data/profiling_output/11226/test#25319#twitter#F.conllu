@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = " @FattiCuriosi :
+1	"	"	PUNCT	FB	_	2	punct	_	_
+2	@FattiCuriosi	@FattiCurioso	PROPN	SP	_	0	root	_	_
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Le patatine fritte furono inventate per dispetto dallo chef statunitense George Crum"
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	patatine	patatina	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	fritte	fritto	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	inventate	inventare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	dispetto	dispetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	dallo	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	chef	chef	NOUN	S	Gender=Masc	5	obl:agent	_	_
+11	statunitense	statunitense	ADJ	A	Number=Sing	10	amod	_	_
+12	George	George	PROPN	SP	_	10	nmod	_	_
+13	Crum	Crum	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	5	punct	_	SpacesAfter=\n\n
+

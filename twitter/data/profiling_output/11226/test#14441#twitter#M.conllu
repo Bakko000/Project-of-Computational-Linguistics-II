@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = @RobertoRedSox hahaha...
+1	@RobertoRedSox	@RobertoRedSox	ADJ	NO	Number=Sing|NumType=Ord	0	root	_	_
+2	hahaha...	hahaha.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = io l'autografo di @mlupoi me lo feci secoli fa su un tascabile di Arancia Meccanica che avevo con me.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	autografo	autografo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	@mlupoi	@mlupoi	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+7	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	feci	feco	NUM	N	NumType=Card	9	nummod	_	_
+9	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+10	fa	fare	ADV	B	_	9	advmod	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tascabile	tascabile	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Arancia	arancia	PROPN	SP	_	13	nmod	_	_
+16	Meccanica	meccanica	PROPN	SP	_	15	flat:name	_	_
+17	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+18	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Mito MML!
+1	Mito	mito	PROPN	SP	_	0	root	_	_
+2	MML	MML	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,53 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "È una malattia terribile:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	terribile	terribile	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = o si muore o si resta scemi.
+1	o	o	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	muore	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	scemi	scema	NOUN	S	Gender=Masc|Number=Plur	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Io lo so perché l'ho avuta ".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	perché	perché	SCONJ	CS	_	7	mark	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avuta	avere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Paolo Poli ne "Il ponte di San Luis Rey".
+1	Paolo	Paolo	PROPN	SP	_	0	root	_	_
+2	Poli	Poli	PROPN	SP	_	1	flat:name	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	case	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	San	San	PROPN	SP	_	6	nmod	_	_
+9	Luis	Luis	PROPN	SP	_	8	flat:name	_	_
+10	Rey	Rey	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = RIP
+1	RIP	RIP	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

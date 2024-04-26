@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = #Juglans #Regia , cioè la ghianda di #Giove più importante:
+1	#Juglans	#Juglans	PROPN	SP	_	0	root	_	_
+2	#	#	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Regia	regia	PROPN	SP	_	1	flat:name	_	_
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	cioè	cioè	CCONJ	CC	_	7	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ghianda	ghianda	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	#Giove	#Giove	PROPN	SP	_	7	nmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	importante	importante	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = la #noce è in anteprima #gratuita -link: https://www.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	#noce	#noce	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	anteprima	anteprima	ADV	B	_	6	advmod	_	_
+6	#gratuita	#gratuire	ADJ	A	Number=Sing	7	amod	_	_
+7	-link	-link	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+9	https://www	https://www	NOUN	S	_	7	compound	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = createspace.com/Preview/1180176
+1	createspace.com/Preview/1180176	createspace.com/Preview/1180176	SYM	X	_	0	root	_	SpacesAfter=\n\n
+

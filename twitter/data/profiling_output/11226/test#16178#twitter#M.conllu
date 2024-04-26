@@ -1,0 +1,35 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bruno Giordana IMMENSI GRANDIOSI!!
+1	Bruno	Bruno	PROPN	SP	_	0	root	_	_
+2	Giordana	Giordana	PROPN	SP	_	1	flat:name	_	_
+3	IMMENSI	immenso	PROPN	SP	_	1	flat:name	_	_
+4	GRANDIOSI!	GRANDIOSI!	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = IN QUESTI GIORNI AVETE DATO TUTTO!
+1	IN	in	ADP	E	_	3	case	_	_
+2	QUESTI	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	GIORNI	giorno	PROPN	SP	_	5	obl	_	_
+4	AVETE	avere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	DATO	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	TUTTO	tutto	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = ! SENZA RISPARMIARVI DOMENICA ERAVATE A... http:// fb.me/S9kBKvRV
+1	!	!	PUNCT	FF	_	2	punct	_	_
+2	SENZA	Senza	PROPN	SP	_	0	root	_	_
+3-4	RISPARMIARVI	_	_	_	_	_	_	_	_
+3	RISPARMIAR	risparmiar	PROPN	SP	_	2	flat:name	_	_
+4	VI	sesto	ADJ	NO	Number=Sing|NumType=Ord	2	amod	_	_
+5	DOMENICA	domenica	PROPN	SP	_	2	nmod	_	_
+6	ERAVATE	ERAVATE	PROPN	SP	_	5	flat:name	_	_
+7	A...	A...	PROPN	SP	_	5	flat:name	_	_
+8	http:	http:	PUNCT	FC	_	5	punct	_	SpaceAfter=No
+9	/	/	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+10	/	/	PUNCT	FF	_	5	punct	_	_
+11	fb.me/S9kBKvRV	fb.me/S9kBKvRV	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n\n
+

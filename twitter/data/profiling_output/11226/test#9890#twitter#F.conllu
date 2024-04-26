@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = BELLO.
+1	BELLO	bello	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = PROPRIO BELLO.
+1	PROPRIO	proprio	PROPN	SP	_	0	root	_	_
+2	BELLO	bello	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Farò gli italiani a Darfo per il 4 anno consecutivo pic.twitter.com/NDtR30pmL5
+1	Farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Darfo	Darfo	PROPN	SP	_	1	obl	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	4	4	NUM	N	NumType=Card	9	nummod	_	_
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+10	consecutivo	consecutivo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	pic.twitter.com/NDtR30pmL5	pic.twitter.com/NDtR30pmL5	PROPN	SP	_	1	conj	_	SpacesAfter=\n\n
+

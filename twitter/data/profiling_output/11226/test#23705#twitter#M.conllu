@@ -1,0 +1,41 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Osea 12:7
+1	Osea	Osea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	12:7	12:7	NUM	N	NumType=Card	1	nummod	_	_
+
+# sent_id = 2
+# text = RIV 7 (H12-8) Efraim è un Cananeo che tiene in mano bilance false;
+1	RIV	RIV	ADJ	NO	Number=Sing|NumType=Ord	8	amod	_	_
+2	7	7	NUM	N	NumType=Card	1	nummod	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	H12	H12	PROPN	SP	_	1	obl	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	8	8	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	4	punct	_	_
+8	Efraim	Efraim	PROPN	SP	_	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Cananeo	Cananeo	PROPN	SP	_	0	root	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	mano	mano	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	bilance	bilance	ADJ	A	Number=Sing	15	amod	_	_
+17	false	falso	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = egli ama estorcere....
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	estorcere....	estorcere..	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = http:// fb.me/CpvDS1Hc
+1	http:	http:	PUNCT	FC	_	4	punct	_	SpaceAfter=No
+2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	/	/	PUNCT	FF	_	1	punct	_	_
+4	fb.me/CpvDS1Hc	fb.me/CpvDS1Hc	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

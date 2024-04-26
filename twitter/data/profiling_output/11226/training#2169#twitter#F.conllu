@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Sono vuoti dentro .
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vuoti	vuoto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	dentro	dentro	ADV	B	_	3	advmod	_	_
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Disgustosi e vuoti.
+1	Disgustosi	Disgustoso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	vuoti	vuoto	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E soffrono la peggiore delle solitudini, la solitudine di chi non ha neppure un sé."
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	soffrono	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	peggiore	peggiore	NOUN	S	Number=Sing	2	obj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	solitudini	solitudine	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	chi	chi	PRON	PR	Number=Sing|PronType=Rel	10	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	neppure	neppure	ADV	BN	PronType=Neg	17	advmod	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sé	sé	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	2	punct	_	_
+
+# sent_id = 4
+# text = #LaTregua
+1	#LaTregua	#LaTregua	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+

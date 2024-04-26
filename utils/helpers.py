@@ -151,3 +151,63 @@ def load_document_sentences(document):
         if line == '\n':  # se la riga è vuota significa che la frase è finita
             document.add_sentence(sentence)
             sentence = Sentence()
+
+
+def extract_word_ngrams_from_sentence(word_ngrams, sentence, el, n):
+    # creiamo una lista con tutte le parole
+    if el == 'word':
+        all_words = sentence.get_words()
+    elif el == 'lemma':
+        all_words = sentence.get_lemmas()
+    elif el == 'pos':
+        all_words = sentence.get_pos()
+    else:
+        raise Exception(f'Invalid element {el}')
+    
+
+    # scorriamo la lista delle parole ed estraiamo gli n-grammi
+    for i in range(0, len(all_words) - n + 1): # -n+1 serve per non uscire dal vettore
+        ngram_words = all_words[i: i + n]
+        ngram = f'{el.upper()}_{n}_' + '_'.join(ngram_words)
+        # print(f'{i}: {ngram_words} -> {ngram}')
+        if ngram not in word_ngrams:
+            word_ngrams[ngram] = 1
+        else:
+            word_ngrams[ngram] += 1
+
+    return word_ngrams
+
+
+def extract_char_ngrams_from_sentence(char_ngrams, sentence, n):
+    # creiamo una lista con tutte le parole
+    all_words = sentence.get_words()
+
+    # creiamo una stringa che contenga tutte le parole separate tra spazi perchè vogliamo scorrere i caratteri
+    all_words = ' '.join(all_words)
+    # print(all_words)
+    # all_words = all_words.lower()
+
+    # scorriamo la stringa ed estraiamo gli n-grammi di caratteri
+    for i in range(0, len(all_words) - n + 1):
+        ngram_chars = all_words[i:i + n]
+        ngram = f'CHAR_{n}_' + ngram_chars
+        # print(f'{i}: {ngram_chars} -> {ngram}')
+
+        if ngram not in char_ngrams:
+            char_ngrams[ngram] = 1
+        else:
+            char_ngrams[ngram] += 1
+
+    return char_ngrams
+
+
+def extract_documents_ngrams(all_documents):
+    for document in all_documents:
+        document_ngrams = dict()
+        for sentence in document.sentences:
+            extract_word_ngrams_from_sentence(document_ngrams, sentence, 'word', 1)
+            extract_word_ngrams_from_sentence(document_ngrams, sentence, 'word', 2)
+            extract_char_ngrams_from_sentence(document_ngrams, sentence, 1)
+            extract_char_ngrams_from_sentence(document_ngrams, sentence, 2)
+
+        document.features = document_ngrams

@@ -1,0 +1,35 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oggi a Napoli Renzi dice:
+1	Oggi	oggi	ADV	B	_	5	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Napoli	Napoli	PROPN	SP	_	5	obl	_	_
+4	Renzi	Renzi	PROPN	SP	_	3	flat:name	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = il turismo e' cultura politica e orgoglio nazionale...
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	turismo	turismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+4	'	'	PUNCT	FB	_	5	punct	_	_
+5	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	politica	politico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+9	nazionale..	nazionale	NOUN	S	_	8	compound	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Vale questo per le nostre concessioni balneari,Presidente?
+1	Vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	concessioni	concessione	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+7	balneari,Presidente	balneari,Presidente	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

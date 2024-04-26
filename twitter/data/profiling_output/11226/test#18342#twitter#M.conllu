@@ -1,0 +1,36 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = COMUNALI, BERTOLASO:
+1	COMUNALI	comunali	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	BERTOLASO	BERTOLASO	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = ROMA RINASCE DALLE PERIFERIE “Voglio toccare con mano le aree della città che vivono un... http:// fb.me/3LHXthggo
+1	ROMA	Roma	PROPN	SP	_	8	nsubj	_	_
+2	RINASCE	RINASCE	PROPN	SP	_	1	flat:name	_	_
+3-4	DALLE	_	_	_	_	_	_	_	_
+3	DA	Da	PROPN	SP	_	1	flat:name	_	_
+4	LE	Le	PROPN	SP	_	1	flat:name	_	_
+5	PERIFERIE	periferie	PROPN	SP	_	1	flat:name	_	_
+6	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	toccare	toccare	VERB	V	VerbForm=Inf	0	root	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	aree	area	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	città	città	NOUN	S	Gender=Fem	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+18	un...	un.	NUM	N	NumType=Card	15	nummod	_	_
+19	http:	http:	PUNCT	FC	_	18	punct	_	SpaceAfter=No
+20	/	/	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+21	/	/	PUNCT	FF	_	18	punct	_	_
+22	fb.me/3LHXthggo	fb.me/3LHXthggo	PROPN	SP	_	8	obj	_	SpacesAfter=\n\n
+

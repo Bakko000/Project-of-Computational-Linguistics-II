@@ -1,0 +1,39 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Scempio #Cenacolo chiuso a #Milano per #sciopero .
+1	Scempio	scempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	#	#	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Cenacolo	Cenacolo	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	_
+4	chiuso	chiuso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	#Milano	#Milano	PROPN	SP	_	4	obl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	#sciopero	#sciopero	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tutelare patrimoni nostre città vuol dire anche tutelare economia.
+1	Tutelare	tutelare	VERB	V	VerbForm=Inf	0	root	_	_
+2	patrimoni	patrimonio	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	città	città	NOUN	S	Gender=Fem	2	nmod	_	_
+5	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	1	advcl	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	tutelare	tutelare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	economia	economia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Basta farci del male!
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	farci	_	_	_	_	_	_	_	_
+2	far	fare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	male	male	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

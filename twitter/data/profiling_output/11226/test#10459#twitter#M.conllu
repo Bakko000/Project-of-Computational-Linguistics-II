@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Averne uno così oggi...
+1-2	Averne	_	_	_	_	_	_	_	_
+1	Aver	avere	VERB	V	VerbForm=Inf	0	root	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	1	iobj	_	_
+3	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+4	così	così	ADV	B	_	3	advmod	_	_
+5	oggi...	oggi.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = visto come siamo messi servirebbe assai ... #Sixers #iverson #nba http://www.
+1	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	come	come	SCONJ	CS	_	4	mark	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5	servirebbe	servire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+6	assai	assai	ADV	B	_	5	advmod	_	_
+7	...	...	PUNCT	FF	_	8	punct	_	_
+8	#Sixers	#Sixers	PROPN	SP	_	5	nsubj	_	_
+9	#iverson	es#iversere	ADP	E	_	10	case	_	_
+10	#nba	#nbare	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	http://www	http://www	NOUN	S	_	10	compound	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = csnphilly.com/basketball-phi ladelphia-76ers/answer-sixers-great-allen-iverson-named-2016-naismith-memorial-basketball-hall-fame-class …
+1	csnphilly.com/basketball-phi	csnphilly.com/basketball-po	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	ladelphia-76ers/answer-sixers	ladelphia-76ers/answer-sixers	PROPN	SW	Foreign=Yes	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	great-allen	great-allen	INTJ	I	_	12	punct	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+6	iverson	iverson	X	SW	Foreign=Yes	12	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	named-2016	named-2016	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	naismith-memorial	naismith-memorial	ADJ	A	_	12	amod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	basketball-hall	basketball-hall	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	fame-class	fame-class	NOUN	S	Gender=Fem	1	nmod	_	_
+15	…	…	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

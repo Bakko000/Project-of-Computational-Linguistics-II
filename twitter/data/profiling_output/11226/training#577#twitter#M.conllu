@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = #migranti .
+1	#migranti	#migrante	ADV	B	_	0	root	_	_
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = L'Europa paga 6 miliardi la Turchia per eliminare i migranti;
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Europa	Europa	PROPN	SP	_	3	nsubj	_	_
+3	paga	pagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	6	6	NUM	N	NumType=Card	5	nummod	_	_
+5	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Turchia	Turchia	PROPN	SP	_	3	conj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	eliminare	eliminare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	migranti	migrante	NOUN	S	Number=Plur	9	obj	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = avremmo risparmiato se li avessimo accolti.
+1	avremmo	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	risparmiato	risparmiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+5	avessimo	avessimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	accolti	accogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Tutti i grandi sono stati bambini una volta.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	grandi	grando	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	cop	_	_
+7	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ma pochi di essi se ne ricordano”.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	ricordano	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = @Barbie exposition @MudecMi pic.twitter.com/UnEJ3ZB4nS
+1	@Barbie	@Barbia	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	2	det	_	_
+2	exposition	exposition	NOUN	S	Gender=Fem	0	root	_	_
+3	@MudecMi	@MudecMi	PROPN	SP	_	2	nmod	_	_
+4	pic.twitter.com/UnEJ3ZB4nS	pic.twitter.com/UnEJ3ZB4nS	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n\n
+

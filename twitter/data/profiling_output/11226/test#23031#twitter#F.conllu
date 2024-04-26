@@ -1,0 +1,39 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = la difficoltà di un uomo l'8 marzo:
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	difficoltà	difficoltà	NOUN	S	Gender=Fem	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	8	8	NUM	N	NumType=Card	2	nmod	_	_
+8	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = donne incazzate perché le fate gli auguri donne incazzate perché non glieli fate io nessuno dei due casi
+1	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	incazzate	incazzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	perché	perché	SCONJ	CS	_	9	mark	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	fate	fare	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	donne	donna	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	incazzate	incazzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+10	perché	perché	SCONJ	CS	_	14	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12-13	glieli	_	_	_	_	_	_	_	_
+12	glie	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+14	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+15	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+16	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	casi	caso	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpacesAfter=\n\n
+

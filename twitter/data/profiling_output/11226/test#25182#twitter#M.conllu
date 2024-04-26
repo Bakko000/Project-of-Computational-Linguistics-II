@@ -1,0 +1,41 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quattro in fuga.
+1	Quattro	quattro	NUM	N	NumType=Card	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Colpiremo ancora:
+1	Colpiremo	Colpire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = «Uccideremo i miscredenti».
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Uccideremo	Uccidere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	miscredenti	miscredento	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Son gli tessi di Parigi.
+1	Son	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	tessi	tesso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Parigi	Parigi	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Furono fermati e rilasciati pic.twitter.com/jyaUOWkGz6
+1	Furono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	fermati	fermare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	rilasciati	rilasciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+5	pic.twitter.com/jyaUOWkGz6	pic.twitter.com/jyaUOWkGz6	PROPN	SP	_	2	nsubj:pass	_	SpacesAfter=\n\n
+

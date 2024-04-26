@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questi due vecchietti fanno morire.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	vecchietti	vecchietto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	morire	morire	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Maria stará pensando:
+1	Maria	Mario	PROPN	SP	_	3	nsubj	_	_
+2	stará	stará	PROPN	SP	_	1	flat:name	_	_
+3	pensando	pensare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = "dovrebbero pagarmi di più" #cepostaperte
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	dovrebbero	dovere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pagarmi	arma|pagarme	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	più	più	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	7	punct	_	_
+7	#cepostaperte	#cepostaperto	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpacesAfter=\n\n
+

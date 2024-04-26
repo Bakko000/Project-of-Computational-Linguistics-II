@@ -1,0 +1,41 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = @sebanderas Infatti .
+1	@sebanderas	@sebanderas	PROPN	SW	Foreign=Yes	0	root	_	_
+2	Infatti	infatti	PROPN	SP	_	1	flat:name	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Che poi ci sia anche bella gente ok, ma non chi tifa Napoli .
+1	Che	che	SCONJ	CS	_	0	root	_	_
+2	poi	poi	ADV	B	_	7	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+4	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	bella	bello	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	gente	gente	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+8	ok	ok	ADJ	A	_	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	conj	_	_
+13	tifa	tifare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+14	Napoli	Napoli	PROPN	SP	_	13	obj	_	_
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Quelli sono accecati dalla cattiveria e dall'odio
+1	Quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj:pass	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	accecati	accecare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cattiveria	cattiveria	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	odio	odio	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpacesAfter=\n\n
+

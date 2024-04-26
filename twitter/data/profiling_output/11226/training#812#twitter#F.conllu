@@ -1,0 +1,39 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = #Valdano :
+1	#	#	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	Valdano	Valdare	PROPN	SP	_	0	root	_	_
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Se noi calciatori avessimo immaginato quanto è duro l'addio, avremmo fatto i pittori per non smettere mai http://www.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	calciatori	calciatore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	avessimo	avessimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	immaginato	immaginato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	duro	duro	ADJ	A	Gender=Masc|Number=Sing	6	acl:relcl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	addio	addio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	avremmo	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	pittori	pittore	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	per	per	ADP	E	_	18	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	smettere	smettere	VERB	V	VerbForm=Inf	15	acl	_	_
+19	mai	mai	ADV	B	_	20	advmod	_	_
+20	http://www	http://www	NOUN	S	_	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = cinquantamila.it/storyTellerArt icolo.php?storyId=56dd51c87bc8f …
+1	cinquantamila.it/storyTellerArt	cinquantamila.it/storyTellerArt	X	SW	Foreign=Yes	0	root	_	_
+2	icolo.php	icolo.php	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	?storyId=56dd51c87bc8f	?storyId=56dd51c87bc8f	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	…	…	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

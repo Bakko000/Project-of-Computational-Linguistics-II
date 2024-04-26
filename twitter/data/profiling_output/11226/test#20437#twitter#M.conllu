@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = #Roma , Berlusconi, Salvini, Meloni, continua teatrino a danno della Destra.
+1	#Roma	#Roma	PROPN	SP	_	9	nsubj	_	_
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Berlusconi	Berlusconi	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	Salvini	Salvini	PROPN	SP	_	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Meloni	Meloni	PROPN	SP	_	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	teatrino	teatrino	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	danno	danno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Destra	destra	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Primarie serie dovunque . @Tg3web @TgLa7 @Agenzia_Ansa
+1	Primarie	primario	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+2	serie	serie	NOUN	S	Gender=Fem	0	root	_	_
+3	dovunque	dovunque	NUM	N	NumType=Card	2	nummod	_	_
+4	.	.	PUNCT	FF	_	2	punct	_	_
+5	@Tg3web	@Tg3web	PROPN	SP	_	2	nmod	_	_
+6	@TgLa7	@TgLa7	PROPN	SP	_	5	flat:name	_	_
+7	@Agenzia_Ansa	@Agenzia_Ansa	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n\n
+

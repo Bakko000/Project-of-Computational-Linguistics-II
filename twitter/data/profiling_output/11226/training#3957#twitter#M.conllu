@@ -1,0 +1,33 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Guelfi:
+1	Guelfi	Guelfo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = "Il rapporto con Bruno Vespa ora dovrà cambiare" http://www.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	Bruno	Bruno	PROPN	SP	_	3	nmod	_	_
+6	Vespa	vespa	PROPN	SP	_	5	flat:name	_	_
+7	ora	ora	ADV	B	_	9	advmod	_	_
+8	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	cambiare	cambiare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	11	punct	_	_
+11	http://www	http://www	NOUN	S	_	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = repubblica.it/politica/2016/ 04/07/news/guelfi_il_rapporto_con_bruno_vespa_ora_dovra_cambiare_-137110396/ … via @repubblicait
+1	repubblica.it/politica/2016/	repubblica.it/politica/2016/	PUNCT	FF	_	3	punct	_	_
+2	04/07	04/07	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	/news	/news	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+4	/guelfi_il_rapporto_con_bruno_vespa_ora_dovra_cambiare_-137110396	/guelfi_il_rapporto_con_bruno_vespa_ora_dovra_cambiare_-137110396	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	_
+6	…	…	PUNCT	FF	_	4	punct	_	_
+7	via	via	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	@repubblicait	@repubblicait	NOUN	S	Gender=Masc	3	compound	_	SpacesAfter=\n\n
+
