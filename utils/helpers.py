@@ -58,3 +58,96 @@ def train_test_split(documents_info, features, labels):
             test_labels.append(doc_label)
 
     return train_features, train_labels, test_features, test_labels
+
+
+class Document:
+
+    def __init__(self, document_path):
+        self.document_path = document_path
+        self._parse_doc_info(document_path)
+        self.sentences = []
+        self.features = None
+
+    def _parse_doc_info(self, document_path):
+        document_path = document_path.split('/')[-1]
+        document_info = document_path.split('.')[0]
+        document_info = document_info.split('#')
+        self.split = document_info[0]
+        self.genre = document_info[2]
+        self.gender = document_info[3]
+
+    def add_sentence(self, sentences):
+        self.sentences.append(sentences)
+
+    # Per dopo
+
+    def get_num_tokens(self):
+        num_words = 0
+        for sentence in self.sentences:
+            num_words = num_words + sentence.get_num_tokens()
+        return num_words
+
+    def get_num_chars(self):
+        num_chars = 0
+        for sentence in self.sentences:
+            sentence_char_len = sentence.get_num_chars()
+            num_chars = num_chars + sentence_char_len
+        return num_chars
+
+class Sentence:
+
+    def __init__(self):
+        self.tokens = []
+
+    def add_token(self, token):
+        self.tokens.append(token)
+
+    # Per dopo
+
+    def get_words(self):
+        return [token.word for token in self.tokens]
+
+    def get_lemmas(self):
+        return [token.lemma for token in self.tokens]
+
+    def get_pos(self):
+        return [token.pos for token in self.tokens]
+
+    def get_num_tokens(self):
+        return len(self.tokens)
+
+    def get_num_chars(self):
+        num_chars = 0
+        for token in self.tokens:
+            num_chars = num_chars + token.get_num_chars()
+        num_chars = num_chars + self.get_num_tokens() - 1 # contiamo anche gli spazi
+        return num_chars
+
+    def __str__(self):
+        return ' '.join([token.word for token in self.tokens])
+
+class Token:
+
+    def __init__(self, word, lemma, pos):
+        self.word = word
+        self.lemma = lemma
+        self.pos = pos
+
+
+    # Per dopo
+
+    def get_num_chars(self):
+        return len(self.word)
+    
+
+def load_document_sentences(document):
+    sentence = Sentence()
+    for line in open(document.document_path, 'r'):
+        if line[0].isdigit():  # se la riga inizia con un numero
+            splitted_line = line.strip().split('\t')
+            if '-' not in splitted_line[0]:  # se l'id della parola non contiene un trattino
+                token = Token(splitted_line[1], splitted_line[2], splitted_line[3])
+                sentence.add_token(token)
+        if line == '\n':  # se la riga è vuota significa che la frase è finita
+            document.add_sentence(sentence)
+            sentence = Sentence()
