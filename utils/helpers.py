@@ -1,6 +1,7 @@
 
 import re
 import csv
+import numpy as np
 
 
 def get_split(file_path):
@@ -267,3 +268,164 @@ def filter_features(train_features_dict, min_occurrences):
                 document_features_dict.pop(feature)
 
     return train_features_dict
+
+
+
+####################### WORD EMBEDDINGS #############################
+
+def load_word_embeddings(src_path):
+    embeddings = dict()
+    for line in open(src_path, 'r'):
+        line = line.strip().split('\t')
+        word = line[0]
+        embedding = line[1:]
+        embedding = [float(comp) for comp in embedding] # convertiamo le componenti dell'embedding in float
+        embeddings[word] = np.asarray(embedding) # trasformiamo la lista delle componenti in un vettore di numpy
+    return embeddings
+
+
+def get_digits(text):
+    try:
+      val = int(text)
+    except:
+      text = re.sub('\d', '@Dg', text)
+      return text
+    if val >= 0 and val < 2100:
+      return str(val)
+    else:
+      return "DIGLEN_" + str(len(str(val)))
+
+def normalize_text(word):
+    if "http" in word or ("." in word and "/" in word):
+      word = str("___URL___")
+      return word
+    if len(word) > 26:
+      return "__LONG-LONG__"
+    new_word = get_digits(word)
+    if new_word != word:
+      word = new_word
+    if word[0].isupper():
+      word = word.capitalize()
+    else:
+      word = word.lower()
+    return word
+
+
+def get_tokens_from_file(src_path):
+    document_tokens = []
+    lines_to_skip = 0
+    take_pos = False
+    for line in open(src_path, 'r'):
+        # print(f'\nRiga: {line.strip()}')
+        if line[0].isdigit():
+            splitted_line = line.strip().split('\t')
+            if '-' in splitted_line[0]:
+                # print('Ho trovato un - ')
+                skip_ids = splitted_line[0].split('-')
+                # print('Indici da saltare', skip_ids)
+                lines_to_skip = int(skip_ids[1]) - int(skip_ids[0]) + 1 # l'indice ci indica quali righe saltare
+                take_pos = True # booleano che indica che dobbiamo prendere la pos della prossima parola
+                word = normalize_text(splitted_line[1])
+                pos = splitted_line[3]
+                token = {
+                    'word': word,
+                    'pos': '_'
+                }
+                # print(f'Preso token {word}')
+                document_tokens.append(token)
+            else:
+                if lines_to_skip == 0:
+                    
+                    word = normalize_text(splitted_line[1])
+                    pos = splitted_line[3]
+                    token = {
+                        'word': word,
+                        'pos': pos
+                    }
+                    # print(f'Preso token {word}')
+                    document_tokens.append(token)
+                if take_pos:
+                    pos = splitted_line[3]
+                    document_tokens[-1]['pos'] = pos
+                    take_pos = False
+                lines_to_skip = max(0, lines_to_skip-1)
+    return document_tokens
+
+
+
+def compute_embeddings_mean(document_embeddings):
+    sum_array = np.sum(document_embeddings, axis=0)
+    mean_array = np.divide(sum_array, len(document_embeddings))
+    return mean_array
+
+
+def compute_filtered_embeddings_mean(document_tokens):
+    document_embeddings = []
+    
+    for token in document_tokens:
+        word = token['word']
+        pos = token['pos']
+        if word in embeddings and pos in ['ADJ', 'NOUN', 'VERB']:
+            document_embeddings.append(embeddings[word])
+    
+    if len(document_embeddings) == 0:
+        mean_document_embeddings = np.zeros(embeddings_dim)
+    else:
+        mean_document_embeddings = compute_embeddings_mean(document_embeddings)
+    return mean_document_embeddings
+
+
+def compute_filtered_embeddings_sep_means(document_tokens):
+    adj_embeddings = []
+    noun_embeddings = []
+    verb_embeddings = []
+    
+    for token in document_tokens:
+        word = token['word']
+        pos = token['pos']
+        if word in embeddings and pos in ['ADJ']:
+            adj_embeddings.append(embeddings[word])
+        elif word in embeddings and pos in ['NOUN']:
+            noun_embeddings.append(embeddings[word])
+        elif word in embeddings and pos in ['VERB']:
+            verb_embeddings.append(embeddings[word])
+    
+    if len(adj_embeddings) == 0:
+        mean_adj_embeddings = np.zeros(embeddings_dim)
+    else:
+        mean_adj_embeddings = compute_embeddings_mean(adj_embeddings)
+        
+    if len(noun_embeddings) == 0:
+        mean_noun_embeddings = np.zeros(embeddings_dim)
+    else:
+        mean_noun_embeddings = compute_embeddings_mean(noun_embeddings)
+        
+    if len(verb_embeddings) == 0:
+        mean_verb_embeddings = np.zeros(embeddings_dim)
+    else:
+        mean_verb_embeddings = compute_embeddings_mean(verb_embeddings)  
+    
+    
+    mean_document_embeddings = np.concatenate([mean_adj_embeddings, mean_noun_embeddings, mean_verb_embeddings], axis=None)
+    return mean_document_embeddings
+
+
+def extract_features(documents):
+    dataset_features = []
+    for document_tokens in documents:
+        # document_embeddings = compute_all_embeddings_mean(document_tokens)
+        document_embeddings = compute_filtered_embeddings_sep_means(document_tokens)
+        # document_embeddings = compute_filtered_embeddings_sep_means(document_tokens)
+        dataset_features.append(document_embeddings)
+    return dataset_features
+
+
+def create_label_list(all_documents_paths):
+    labels = []
+    for document_path in all_documents_paths:
+        document_path = document_path[:-len('.conllu')]
+        splitted_file_path = document_path.split('#')
+        genre = splitted_file_path[2]
+        gender = splitted_file_path[3]
+        labels.append(gender)
+    return labels
