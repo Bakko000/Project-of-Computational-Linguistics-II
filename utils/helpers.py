@@ -359,7 +359,7 @@ def compute_embeddings_mean(document_embeddings):
     return mean_array
 
 
-def compute_filtered_embeddings_mean(document_tokens):
+def compute_filtered_embeddings_mean(document_tokens, embeddings, embeddings_dim):
     document_embeddings = []
     
     for token in document_tokens:
@@ -375,7 +375,7 @@ def compute_filtered_embeddings_mean(document_tokens):
     return mean_document_embeddings
 
 
-def compute_filtered_embeddings_sep_means(document_tokens):
+def compute_filtered_embeddings_sep_means(document_tokens, embeddings, embeddings_dim):
     adj_embeddings = []
     noun_embeddings = []
     verb_embeddings = []
@@ -410,22 +410,4 @@ def compute_filtered_embeddings_sep_means(document_tokens):
     return mean_document_embeddings
 
 
-def extract_features(documents):
-    dataset_features = []
-    for document_tokens in documents:
-        # document_embeddings = compute_all_embeddings_mean(document_tokens)
-        document_embeddings = compute_filtered_embeddings_sep_means(document_tokens)
-        # document_embeddings = compute_filtered_embeddings_sep_means(document_tokens)
-        dataset_features.append(document_embeddings)
-    return dataset_features
 
-
-def create_label_list(all_documents_paths):
-    labels = []
-    for document_path in all_documents_paths:
-        document_path = document_path[:-len('.conllu')]
-        splitted_file_path = document_path.split('#')
-        genre = splitted_file_path[2]
-        gender = splitted_file_path[3]
-        labels.append(gender)
-    return labels
