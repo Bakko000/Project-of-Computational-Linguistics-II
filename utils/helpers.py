@@ -2,6 +2,7 @@
 import re
 import csv
 
+
 def get_split(file_path):
     if 'training' in file_path:
         return 'training'
@@ -211,3 +212,58 @@ def extract_documents_ngrams(all_documents):
             extract_char_ngrams_from_sentence(document_ngrams, sentence, 2)
 
         document.features = document_ngrams
+
+
+def normalize_ngrams(ngrams_dict, doc_len):
+    for ngram in ngrams_dict:
+        ngrams_dict[ngram] = ngrams_dict[ngram] / float(doc_len)
+        
+def extract_documents_ngrams_normalized(all_documents):
+    for document in all_documents:
+        word_unigrams = dict()
+        word_bigrams = dict()
+        char_unigrams = dict()
+        char_bigrams = dict()
+        for sentence in document.sentences:
+            extract_word_ngrams_from_sentence(word_unigrams, sentence, 'word', 1)
+            extract_word_ngrams_from_sentence(word_bigrams, sentence, 'word', 2)
+            extract_char_ngrams_from_sentence(char_unigrams, sentence, 1)
+            extract_char_ngrams_from_sentence(char_bigrams, sentence, 2)
+
+        num_words = document.get_num_tokens()
+        num_chars = document.get_num_chars()
+        normalize_ngrams(word_unigrams, num_words)
+        normalize_ngrams(word_bigrams, num_words)
+        normalize_ngrams(char_unigrams, num_chars)
+        normalize_ngrams(char_bigrams, num_chars)
+
+        document_ngrams = word_unigrams | word_bigrams | char_unigrams | char_bigrams
+
+        document.features = document_ngrams
+
+
+
+def get_num_features(features_dict):
+    all_features = set()
+    for document_feats in features_dict:
+        all_features.update(list(document_feats.keys()))
+    return len(all_features)
+
+def filter_features(train_features_dict, min_occurrences):
+    # contiamo ogni feature in quanti user diversi compare
+    features_counter = dict()
+    for document_features_dict in train_features_dict:
+        for feature in document_features_dict:
+            if feature in features_counter:
+                features_counter[feature] += 1
+            else:
+                features_counter[feature] = 1
+
+    # per ogni user, togliamo le features che compaiono in meno di "min_occurrences" utenti
+    for document_features_dict in train_features_dict:
+        document_features = list(document_features_dict.keys())
+        for feature in document_features:
+            if features_counter[feature] < min_occurrences:
+                document_features_dict.pop(feature)
+
+    return train_features_dict
