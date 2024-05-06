@@ -1,0 +1,368 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Roma, 9 Giungo 2012
+1	Roma	Roma	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	9	9	NUM	N	NumType=Card	4	nummod	_	_
+4	Giungo	Giungo	PROPN	SP	_	1	nmod	_	_
+5	2012	2012	NUM	N	NumType=Card	4	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Caro diario,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	diario	Diario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Oggi vorrei raccontarti la fine delle elementari, siamo entrati a scuola tristi.
+1	Oggi	oggi	ADV	B	_	3	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	raccontarti	raccontartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fine	fine	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	elementari	elementare	ADJ	A	Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	tristi	triste	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Stanno per cominciare le medie significa che stiamo diventando grandi.
+1	Stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	advcl	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	cominciare	cominciare	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	medie	media	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	diventando	diventare	VERB	V	VerbForm=Ger	6	ccomp	_	_
+10	grandi	grande	ADJ	A	Number=Plur	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Sono molto contento e triste di lasciare i miei compagni dal quale ci ho passato insieme cinque anni bellissimi e indimenticabili.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	triste	triste	ADJ	A	Number=Sing	3	conj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	lasciare	lasciare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	quale	quale	PRON	PR	Number=Sing|PronType=Rel	16	obl	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	16	expl	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+17	insieme	insieme	ADV	B	_	18	advmod	_	_
+18	cinque	cinque	NUM	N	NumType=Card	19	nummod	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	bellissimi	bello	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	indimenticabili	indimenticabile	ADJ	A	Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Abbiamo incominciato a fare lezione con le maestre Daniela e Lidia, dopo verso le 13:00 andavamo a mangiare.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	incominciato	incominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9-10	Daniela	_	_	_	_	_	_	_	_
+9	Danie	Danie	PROPN	SP	_	8	nmod	_	_
+10	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Lidia	Lidia	PROPN	SP	_	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	dopo	dopo	ADV	B	_	17	case	_	_
+15	verso	verso	ADP	E	_	14	fixed	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	13:00	13:00	NUM	N	NumType=Card	18	nummod	_	_
+18	andavamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	mangiare	mangiare	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Siamo andati in giardino mezzoretta e abbiamo giocato a calcio, risaliti su la maestra ci ha fatto riposare fino alle 15:30 e dopo abbiamo fatto un gioco, e cinque minuti di lezione.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	mezzoretta	mezzoretto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	risaliti	risalire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	riposare	riposare	VERB	V	VerbForm=Inf	18	ccomp	_	_
+20	fino	fino	ADV	B	_	23	case	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	15:30	15:30	NUM	N	NumType=Card	19	nummod	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	dopo	dopo	SCONJ	CS	_	27	mark	_	_
+26	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	cinque	cinque	NUM	N	NumType=Card	33	nummod	_	_
+33	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 8
+# text = Alle 16:30 siamo usciti e, appena suonata la campanella, abbiamo urlato tutti, tutte le mamme si sono messe a piangere.
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	16:30	16:30	NUM	N	NumType=Card	5	obl	_	_
+4	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	usciti	uscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	appena	appena	ADV	B	_	9	advmod	_	_
+9	suonata	suonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	campanella	campanella	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	urlato	urlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+15	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	14	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	22	punct	_	_
+17	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	19	det:predet	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	mamme	mamme	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	messe	mettere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	SpacesAfter=\s\s
+23	a	a	ADP	E	_	24	mark	_	_
+24	piangere	piangere	VERB	V	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Non scorderò mai i miei compagni delle elementari.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	scorderò	scorderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	mai	mai	ADV	B	_	2	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	elementari	elementare	ADJ	A	Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Ciao diario
+1	Ciao	ciao	INTJ	I	_	2	discourse	_	_
+2	diario	diario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Roma 12 Settembre 20120
+1	Roma	Roma	PROPN	SP	_	0	root	_	_
+2	12	12	NUM	N	NumType=Card	1	nmod	_	_
+3	Settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	20120	20120	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Caro diario,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	diario	Diario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Questo è il mio primo giorno delle medie sono molto anzioso, non vedo l’ora di entrare a scuola.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	medie	media	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpacesAfter=\s\s
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	molto	molto	ADV	B	_	12	advmod	_	_
+12	anzioso	anzioso	ADJ	A	Gender=Masc|Number=Sing	6	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	ora	ora	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	entrare	entrare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 14
+# text = Entriamo tutti i bambini con le mamme nel cancello e dovevamo aspettare solo che suonasse la campanella, per entrare a scuola.
+1	Entriamo	Entrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	mamme	mamme	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cancello	cancello	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	dovevamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	aspettare	aspettare	VERB	V	VerbForm=Inf	1	conj	_	_
+14	solo	solo	ADV	B	_	16	advmod	_	_
+15	che	che	SCONJ	CS	_	16	mark	_	_
+16	suonasse	suonare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	campanella	campanella	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	entrare	entrare	VERB	V	VerbForm=Inf	16	advcl	_	SpacesAfter=\s\s
+22	a	a	ADP	E	_	23	case	_	_
+23	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Suona ed entriamo scuola nella sala teatro, lì piano piano ci hanno chiamato a tutti i bambini per dire le classi.
+1	Suona	suonare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ed	e	CCONJ	CC	_	3	cc	_	_
+3	entriamo	entrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sala	sala	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+8	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	lì	lì	ADV	B	_	11	advmod	_	_
+11	piano	piano	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+12	piano	piano	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	obj	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	19	det:predet	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	dire	dire	VERB	V	VerbForm=Inf	15	advcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	classi	classe	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Io sono della 1° A e sono molto fiero dei miei compagni e dei miei professori.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	1°	1°	ADJ	NO	NumType=Ord	6	amod	_	_
+6	A	A	PROPN	SP	_	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	fiero	fiero	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	professori	professore	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = Siamo andati nella nuova classe che per me non era un gran ché ma mi trovo bene lo stesso.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	classe	classe	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	gran	grande	ADJ	A	Number=Sing	6	acl:relcl	_	_
+14	ché	poiché	SCONJ	CS	_	17	mark	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	expl	_	_
+17	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+18	bene	bene	ADV	B	_	17	advmod	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 18
+# text = Il professore che ci ha accompagnato nella classe si chiama Antonio Barillari che ad uno per uno ci ha chiamati per nome.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	professore	professore	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	classe	classe	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	Antonio	Antonio	PROPN	SP	_	11	xcomp	_	_
+13	Barillari	Barillari	PROPN	SP	_	12	flat:name	_	_
+14	che	che	SCONJ	CS	_	21	mark	_	_
+15	ad	a	ADP	E	_	16	case	_	_
+16	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	obl	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	21	obl	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	chiamati	chiamare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	advcl	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	nome	nome	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\n
+

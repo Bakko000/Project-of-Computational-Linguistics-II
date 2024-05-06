@@ -1,0 +1,188 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro amico;
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = sò che ora sei nervoso per la 5°, la classe più dura, ma sono sicura che tutta la fatica ti servirà per le medie.
+1	sò	se	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	ora	ora	ADV	B	_	5	advmod	_	_
+4	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	nervoso	nervoso	ADJ	A	Gender=Masc|Number=Sing	1	ccomp	_	_
+6	per	per	ADP	E	_	11	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+8	5°	5umero	ADJ	NO	Number=Sing|NumType=Ord	11	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	classe	classe	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	dura	duro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+18	che	che	SCONJ	CS	_	23	mark	_	_
+19	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	21	det:predet	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	23	obj	_	_
+23	servirà	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	medie	media	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Per tirarti un po' su ti racconto gli errori che facevo e che ancora faccio.
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	tirarti	_	_	_	_	_	_	_	_
+2	tirar	tirare	VERB	V	VerbForm=Inf	8	advcl	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpacesAfter=\s\s
+5	po'	poco	ADV	B	_	8	advmod	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	obl	_	_
+8	racconto	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	errori	errore	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+15	ancora	ancora	ADV	B	_	16	advmod	_	_
+16	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = La cosa che sbagliavo di più erano le doppie;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	sbagliavo	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	più	più	ADV	B	_	4	advmod	_	_
+7	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	doppie	doppia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 5
+# text = un giorno addirittura la maestra mi ha dato da fare delle schede, le doppie.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+3	addirittura	addirittura	ADV	B	_	8	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	da	da	ADP	E	_	10	mark	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	schede	scheda	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	doppie	doppia	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Poi io in geografia non andavo meglio, la mia maestra mi ha fatto rifare due quaderni.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	geografia	geografia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	meglio	meglio	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+15	rifare	rifare	VERB	V	VerbForm=Inf	14	ccomp	_	_
+16	due	due	NUM	N	NumType=Card	17	nummod	_	_
+17	quaderni	quaderno	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Le materie in cui in vece andavo bene erano storia, matematica religione musica arte.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	materie	materia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	10	nmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	vece	vece	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+7	andavo	andavo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	bene	bene	ADV	B	_	10	advmod	_	_
+9	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	matematica	matematica	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+13	religione	religione	ADJ	A	Number=Sing	12	amod	_	_
+14	musica	musica	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	arte	arte	NOUN	S	Gender=Fem|Number=Sing	12	compound	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Nei temi andavo bene.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	temi	tema	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Scusami è che è passato 1 anno e non mi ricordo.
+1	Scusami	Scusami	PROPN	SP	_	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	1	1	NUM	N	NumType=Card	7	nummod	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	ricordo	ricordo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Spero che i miei consigli ti servano.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+7	servano	serre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = PS: (Mi dispiace sarai con la maestra Susanna).
+1	PS	PS	NOUN	S	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+6	sarai	sarare	ADV	B	_	5	advmod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	Susanna	Susanna	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

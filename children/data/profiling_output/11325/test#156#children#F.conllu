@@ -1,0 +1,203 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao Alberto come va?
+1	Ciao	ciao	INTJ	I	_	2	punct	_	_
+2	Alberto	Alberto	PROPN	SP	_	0	root	_	_
+3	come	come	SCONJ	CS	_	4	mark	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Sei ansioso di venire in questa classe a proposito dei cinque punti.
+1	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ansioso	ansioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	venire	venire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	classe	classe	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	cinque	cinque	NUM	N	NumType=Card	13	nummod	_	_
+13	punti	punto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = li elenco qui sotto in ordine cosi se non ti ricordi una cosa fai prima a rivedere.
+1	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+2	elenco	elenco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	qui	qui	ADV	B	_	2	advmod	_	_
+4	sotto	sotto	ADV	B	_	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+7	cosi	coso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	iobj	_	_
+11	ricordi	ricordare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+14	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+15	prima	prima	ADV	B	_	17	mark	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	rivedere	rivedere	VERB	V	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = 1.Stai attento alla grammatica è una delle cose a cui ci tiene di più, un singolo errore ti può far rischiare la bocciatura “scherzo”
+1	1.Stai	1.Stai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	nsubj	_	_
+2	attento	attento	ADJ	A	Gender=Masc|Number=Sing	1	xcomp	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
+14	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	più	più	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	errore	errore	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+21	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	23	iobj	_	_
+22	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	far	fare	VERB	V	VerbForm=Inf	7	conj	_	_
+24	rischiare	rischiare	VERB	V	VerbForm=Inf	23	ccomp	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	bocciatura	bocciatura	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	“	“	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	scherzo	scherzo	NOUN	S	Gender=Masc|Number=Sing	26	compound	_	SpaceAfter=No
+29	”	”	PUNCT	FB	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = 2.Cerca di usare le parole giuste.
+1	2.Cerca	2.Cerca	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	usare	usare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	parole	parola	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	giuste	giusto	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ci tiene tanto e sono sicura che questa frase non ti uscira più dalla mente “le parole sono importanti”
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tanto	tanto	ADV	B	_	2	advmod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	frase	frase	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
+12	uscira	uscirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+13	più	più	ADV	B	_	12	advmod	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mente	mente	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+17	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	parole	parola	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	importanti	importante	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = 3.Fai pochi errori di ortografia più sono pochi più il voto si alza.
+1	3.Fai	3.Fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	errori	errore	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	ortografia	ortografia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	più	più	ADV	B	_	8	advmod	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	_
+9	più	più	ADV	B	_	8	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	voto	voto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	alza	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = 4.la struttura deve essere organizzato bene perché al professore piace leggere i teme tranquillamente con tutto in ordine e non andare al ricerca dell’origine del testo.
+1	4.la	4.la	DET	RD	Gender=Fem|Number=Sing	2	det	_	_
+2	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	_
+7	perché	perché	SCONJ	CS	_	11	mark	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	professore	professore	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+11	piace	piace	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	leggere	leggere	VERB	V	VerbForm=Inf	11	ccomp	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	teme	teme	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	tranquillamente	tranquillo	ADV	B	_	14	advmod	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	andare	andare	VERB	V	VerbForm=Inf	12	conj	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26-27	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+26	di	di	ADP	E	_	28	case	_	_
+27	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	origine	origine	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	testo	testo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = 5.il contenuto dev’essere di alta qualita.
+1	5.il	5.il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	dev’	devo	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+4	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	alta	alto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	qualita	qualita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Ciao e buono anno in anticipo!
+1	Ciao	ciao	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	buono	buono	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	_
+4	anno	anno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	anticipo	anticipo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

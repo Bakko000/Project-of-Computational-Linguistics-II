@@ -1,0 +1,222 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Roma, 12, 05, 2014-05-16
+1	Roma	Roma	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	12	12	NUM	N	NumType=Card	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	05	05	NUM	N	NumType=Card	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	2014	2014	NUM	N	NumType=Card	3	flat	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	05	05	NUM	N	NumType=Card	7	compound	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+11	16	16	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Cara Lucia,
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Lucia	Lucia	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = mi ha fatto molto piacere che tu mi abbia chiesto dei consigli.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+9	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Le cose più importanti sono:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	importanti	importante	ADJ	A	Number=Plur	2	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = la sintattica, cioè l’uso di parole specifiche per ogni argomento;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sintattica	sintattica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	cioè	cioè	ADV	B	_	6	advmod	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	uso	uso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	specifiche	specifico	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = la semantica, che è il modo in cui si collegano le frasi;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	semantica	semantica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+11	collegano	collegare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	11	nsubj:pass	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = tecnica, che comprende l’uso di apostrofi, accenti, punteggiatura e delle doppie;
+1	tecnica	tecnica	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	comprende	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	uso	uso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	apostrofi	apostrofe	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	accenti	accento	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	punteggiatura	punteggiatura	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	doppie	doppia	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = la grafia, cioè il modo in cui si scrive;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	grafia	grafia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	cioè	cioè	CCONJ	CC	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = contenuti, quindi tutto ciò che si mette nel tema;
+1	contenuti	contenere	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quindi	quindi	ADV	B	_	5	advmod	_	_
+4	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tema	tema	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = ideativa e testuale, cioè le idee, i pensieri…
+1	ideativa	ideativo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	testuale	testuale	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	cioè	cioè	CCONJ	CC	_	7	cc	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	idee	idea	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	pensieri…	pensieri…	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = In base a questo ti consiglio di specificare e di non lasciare niente al caso, di riflettere sul posto e sull’uso di punteggiatura, doppie e degli accenti, di stare attenti a come e a cosa produci, di non usare troppo il bianchetto ed infine cerca sempre cose nuove ed originali.
+1	In	in	ADP	E	_	2	case	_	_
+2	base	base	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+5	ti	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	expl	_	_
+6	consiglio	consiglio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	specificare	specificare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	lasciare	lasciare	VERB	V	VerbForm=Inf	8	conj	_	_
+13	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	caso	caso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	riflettere	riflettere	VERB	V	VerbForm=Inf	6	advcl	_	_
+20-21	sul	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	posto	posto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24-25	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+24	su	su	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	uso	uso	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	punteggiatura	punteggiatura	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	doppie	doppia	NOUN	S	Gender=Fem|Number=Plur	28	conj	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32-33	degli	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	accenti	accento	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	19	punct	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	stare	stare	VERB	V	VerbForm=Inf	19	advcl	_	_
+38	attenti	attento	ADJ	A	Gender=Masc|Number=Plur	37	obl	_	_
+39	a	a	ADP	E	_	38	case	_	_
+40	come	come	ADV	B	_	39	fixed	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	38	conj	_	_
+44	produci	produco	ADJ	A	Number=Plur	43	amod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	43	punct	_	_
+46	di	di	ADP	E	_	48	mark	_	_
+47	non	non	ADV	BN	PronType=Neg	48	advmod	_	_
+48	usare	usare	VERB	V	VerbForm=Inf	43	acl	_	_
+49	troppo	troppo	ADV	B	_	48	advmod	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	bianchetto	bianchetto	NOUN	S	Gender=Masc|Number=Sing	48	obj	_	_
+52	ed	e	CCONJ	CC	_	54	cc	_	_
+53	infine	infine	ADV	B	_	54	advmod	_	_
+54	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	_
+55	sempre	sempre	ADV	B	_	54	advmod	_	_
+56	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	54	nsubj	_	_
+57	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	56	amod	_	_
+58	ed	e	CCONJ	CC	_	59	cc	_	_
+59	originali	originale	ADJ	A	Number=Plur	57	conj	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+

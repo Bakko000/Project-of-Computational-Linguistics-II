@@ -1,0 +1,206 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Marco
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Marco	Marco	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Mi hai detto che verrai nella mia scuola.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	verrai	verere	ADV	B	_	9	advmod	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sono scuro che ti troverrai molto bene perché il team dei docenti è molto bravo e competitivo ma credo che anche le altre sono brave…
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	scuro	scuro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	expl	_	_
+5	troverrai	troverere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	molto	molto	ADV	B	_	5	advmod	_	_
+7	bene	bene	ADV	B	_	5	advmod	_	_
+8	perché	perché	SCONJ	CS	_	16	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	team	team	NOUN	S	Gender=Masc	16	nsubj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	docenti	docente	NOUN	S	Number=Plur	10	nmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	5	advcl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	competitivo	competitivo	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	_
+19	ma	ma	CCONJ	CC	_	20	cc	_	_
+20	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj	_	_
+21	che	che	SCONJ	CS	_	24	mark	_	_
+22	anche	anche	ADV	B	_	24	advmod	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	20	ccomp	_	_
+25	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+26	brave…	brave…	PUNCT	FF	_	24	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Nell’E-mail che mia hai invitatomi chiedevi consigli su come prendere buoni risultati.
+1-2	Nell’	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	E-mail	e-mail	PROPN	SP	_	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	iobj	_	_
+6	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	invitatomi	invitatomo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+8	chiedevi	chiedere	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	su	su	ADP	E	_	12	mark	_	_
+11	come	come	SCONJ	CS	_	10	fixed	_	_
+12	prendere	prendere	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Bè almeno alla mia Professoressa di Italiano valuta quante parole conosci gli piace anche molto che cerchi di seguire tutta la traccia e, giustamente, è molto pignola sugli errori ortografici:
+1	Bè	Bé	CCONJ	CC	_	9	cc	_	_
+2	almeno	almeno	ADV	B	_	6	advmod	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Italiano	italiano	PROPN	SP	_	6	nmod	_	_
+9	valuta	valutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	11	det	_	_
+11	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+12	conosci	conoscere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+13	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	piace	piace	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	obj	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	molto	molto	ADV	B	_	14	advmod	_	_
+17	che	che	SCONJ	CS	_	18	mark	_	_
+18	cerchi	cercare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	seguire	seguire	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	23	det:predet	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+24	e	e	CCONJ	CC	_	30	cc	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	giustamente	giusto	ADV	B	_	30	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	molto	molto	ADV	B	_	30	advmod	_	_
+30	pignola	pignolo	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	_
+31-32	sugli	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	errori	errore	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+34	ortografici	ortografico	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 6
+# text = alla mia professoressa piace anche se cerchi di fare il tema più lungo possibile e inventandoti più avvenimenti possibili anche de fai errori ortografici ti dà la sufficienza.
+1-2	alla	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+5	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	se	se	SCONJ	CS	_	8	mark	_	_
+8	cerchi	cercare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tema	tema	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	possibile	possibile	ADJ	A	Number=Sing	12	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17-18	inventandoti	_	_	_	_	_	_	_	_
+17	inventando	inventare	VERB	V	VerbForm=Ger	8	conj	_	_
+18	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	obj	_	_
+19	più	più	ADV	B	_	17	advmod	_	_
+20	avvenimenti	avvenimento	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	possibili	possibile	ADJ	A	Number=Plur	20	amod	_	_
+22	anche	anche	ADV	B	_	24	mark	_	_
+23	de	di	ADP	E	_	22	fixed	_	_
+24	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+25	errori	errore	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+26	ortografici	ortografico	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	28	iobj	_	_
+28	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	sufficienza	sufficienza	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Alla professoressa piace anche un ortografia originale cioè un’ortografia che riesci a fare solo tu.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	4	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ortografia	ortografia	NOUN	S	Number=Sing	4	nsubj	_	_
+8	originale	originale	ADJ	A	Number=Sing	7	amod	_	_
+9	cioè	cioè	ADV	B	_	11	advmod	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	ortografia	ortografia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	riesci	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	solo	solo	ADV	B	_	17	advmod	_	_
+17	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ma questo è un consiglio superfluo.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	superfluo	superfluo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Spero di essere stato d’aiuto e ti aspetto nella mia scuola.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	6	mark	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	d’	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	1	ccomp	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+9	aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Ciao.
+1	Ciao	ciao	INTJ	I	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

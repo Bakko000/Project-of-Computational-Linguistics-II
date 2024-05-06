@@ -1,0 +1,433 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il pittore
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pittore	pittore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = L’uomo vestito con una giacca scura tiene in pugno una tavolozza e dei pennelli ed è fisso davanti a un quadro.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	giacca	giacca	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	scura	scuro	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	pugno	pugno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tavolozza	tavolozza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	pennelli	pennello	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+17	ed	e	CCONJ	CC	_	23	cc	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+19	fisso	fisso	ADV	B	_	23	advmod	_	_
+20	davanti	davanti	ADV	B	_	23	case	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = È un ambiente cupo, scuro.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	cupo	cupo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	scuro	scuro	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = I colori poco vivaci del quadro che spesso si ritrova nel periodo Medievale.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	colori	colore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	poco	poco	ADV	B	_	4	advmod	_	_
+4	vivaci	vivace	ADJ	A	Number=Plur	2	amod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	spesso	spesso	ADV	B	_	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	ritrova	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	Medievale	medievale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = L’uomo è vestito in modo semplice, poco vistoso.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	semplice	semplice	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	poco	poco	ADV	B	_	10	advmod	_	_
+10	vistoso	vistoso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Sembra impressionato, da qualcosa ad esempio un particolare del quadro.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	impressionato	impressionato	ADJ	A	Gender=Masc|Number=Sing	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	1	obl	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Dal portamento sembra però poco felice infatti non sorride i suoi occhi indicano allo stesso tempo malinconia e soddisfazione.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	portamento	portamento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	però	però	ADV	B	_	4	advmod	_	_
+6	poco	poco	ADV	B	_	7	advmod	_	_
+7	felice	felice	ADJ	A	Number=Sing	4	xcomp	_	_
+8	infatti	infatti	ADV	B	_	4	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+14	indicano	indicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+15-16	allo	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	soddisfazione	soddisfazione	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = I colori poco vivaci della sala e dell’uomo stesso fanno capire che i ritratti appartengono all’era di giotto e non al rinascimento.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	colori	colore	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+3	poco	poco	ADV	B	_	4	advmod	_	_
+4	vivaci	vivace	ADJ	A	Number=Plur	2	amod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sala	sala	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	capire	capire	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	che	che	SCONJ	CS	_	18	mark	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	ritratti	ritratto	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	appartengono	appartenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+19-20	all’	_	_	_	_	_	_	_	SpaceAfter=No
+19	a	a	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	era	era	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	giotto	giotto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	rinascimento	rinascimento	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 9
+# text = Anche se sfocato il viso è ben fatto.
+1	Anche	anche	ADV	B	_	3	mark	_	_
+2	se	se	SCONJ	CS	_	1	fixed	_	_
+3	sfocato	sfocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	viso	viso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	ben	bene	ADV	B	_	8	advmod	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Questo quadro mi emana tristezza.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	emana	emanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = A prima vista sia l’autore del quadro che modello erano poco felici.
+1	A	a	ADP	E	_	3	case	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	vista	vista	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	autore	autore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+11	modello	modello	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+12	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	poco	poco	ADV	B	_	14	advmod	_	_
+14	felici	felice	ADJ	A	Number=Plur	9	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Wïchtor Tönischï fu uno dei più grandi pittori medievali, dopo la perdita della moglie e la fuga della figlia si ritrovò solo e la malinconia lo perseguito per molti anni divento alcolista, poi un giorno venne a cercarlo un gallerista.
+1	Wïchtor	Wïchtor	PROPN	SP	_	4	nsubj	_	_
+2	Tönischï	Tönischï	PROPN	SP	_	1	flat:name	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	9	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	grandi	grande	ADJ	A	Number=Plur	9	amod	_	_
+9	pittori	pittore	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+10	medievali	medievale	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	dopo	dopo	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	ritrovò	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+26	solo	solo	ADV	B	_	25	advmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+30	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	perseguito	perseguire	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	34	det	_	_
+34	anni	anno	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	_
+35	divento	divento	NUM	N	NumType=Card	36	nummod	_	_
+36	alcolista	alcolista	NOUN	S	Number=Sing	31	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	45	punct	_	_
+38	poi	poi	ADV	B	_	45	advmod	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	_
+41	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	cop	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	cercarlo	cercarlare	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	_
+44	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	gallerista	gallerista	NOUN	S	Number=Sing	31	conj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Gli disse che le sue opere erano molto richieste e che poteva riscattarsi.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	opere	opera	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+7	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	richieste	richiesto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13-14	riscattarsi	_	_	_	_	_	_	_	SpaceAfter=No
+13	riscattar	riscattare	VERB	V	VerbForm=Inf	9	conj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Wïchtor decise di accettare perché infondo aveva solo 40 anni, prese in mano le sue cose e si vide scorrere la sua vita.
+1	Wïchtor	Wïchtor	PROPN	SP	_	2	nsubj	_	_
+2	decise	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	accettare	accettare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	perché	perché	SCONJ	CS	_	7	mark	_	_
+6	infondo	infondo	VERB	V	VerbForm=Ger	7	advcl	_	_
+7	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	40	40	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	mano	mano	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+21	scorrere	scorrere	VERB	V	VerbForm=Inf	20	xcomp	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	vita	vita	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Ma c’era un problema, non era ispirato, le uniche cose che provava era tristezza e dolore.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	ispirato	ispirare	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	uniche	unico	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	provava	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 16
+# text = I mesi passavano ma l’ispirazione non veniva.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	passavano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	ma	ma	CCONJ	CC	_	8	cc	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ispirazione	ispirazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	veniva	venivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Il gallerista torno e disperato gli disse il suo problema;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gallerista	gallerista	NOUN	S	Number=Sing	7	nsubj	_	_
+3	torno	tornare	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+6	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+7	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	problema	problema	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 18
+# text = il gallerista penso di portarlo in un posto tranquillo gli venne in mente un posto.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gallerista	gallerista	NOUN	S	Number=Sing	3	nsubj	_	_
+3	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	portarlo	_	_	_	_	_	_	_	_
+5	portar	portare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+12	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	mente	mente	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Lo porto in posto incantevole e lo lasciò li.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	porto	porto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpacesAfter=\s\s
+3	in	in	ADP	E	_	4	case	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	incantevole	incantevole	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Wïchtor ne rimase incantato e appena prese il pennello gli tornò in mente la figlia che giocava.
+1	Wïchtor	Wïchtor	PROPN	SP	_	3	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	incantato	incantato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	appena	appena	ADV	B	_	7	advmod	_	_
+7	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pennello	pennello	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	mente	mente	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	giocava	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Il gallerista tornò ed era una opera d’arte.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gallerista	gallerista	NOUN	S	Number=Sing	3	nsubj	_	_
+3	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ed	e	CCONJ	CC	_	7	cc	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	opera	opera	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+8	d’	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	arte	arte	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Questa è la storia del talentuoso Wïchtor Tönischï.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	talentuoso	talentuoso	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	Wïchtor	Wïchtor	PROPN	SP	_	7	nmod	_	_
+9	Tönischï	Tönischï	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

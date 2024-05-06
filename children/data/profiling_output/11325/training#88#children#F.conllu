@@ -1,0 +1,373 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao, sono Laura e mi piace molto leggere.
+1	Ciao	ciao	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Laura	Laura	PROPN	SP	_	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	leggere	leggero	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = I miei libri preferiti sono i romanzi e in particolare “L’amico immaginario” ma anche i libri misteriosi come “Caroline e la porta magica”.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	libri	libro	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	preferiti	preferito	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	e	e	CCONJ	CC	_	13	cc	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+11	“	“	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	amico	amico	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+14	immaginario	immaginario	NOUN	S	Gender=Masc|Number=Sing	13	compound	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	13	punct	_	_
+16	ma	ma	CCONJ	CC	_	19	cc	_	_
+17	anche	anche	ADV	B	_	19	advmod	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	libri	libro	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+20	misteriosi	misterioso	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	come	come	ADP	E	_	23	case	_	_
+22	“	“	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	Caroline	Caroline	PROPN	SP	_	19	nmod	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	porta	porta	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+27	magica	magico	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	”	”	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Quando leggo provo un’emozione indescrivibile...
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	leggo	leggo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+3	provo	provo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	indescrivibile...	indescrivibile.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = è come sognare ad occhi aperti, è un’emozione fantastica, per quanto sono contenta non esiste una sola parola nel vocabolario che la rappresenta.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	sognare	sognare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+11	fantastica	fantastico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	per	per	ADP	E	_	16	mark	_	_
+14	quanto	quanto	ADV	B	_	13	fixed	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	contenta	contentire	ADJ	A	Gender=Fem|Number=Sing	3	advcl	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sola	solo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	parola	parola	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	vocabolario	vocabolario	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ci sono storie commoventi e tristi o di bambini che soffrono.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	storie	storia	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+4	commoventi	commovente	ADJ	A	Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	tristi	triste	ADJ	A	Number=Plur	4	conj	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	soffrono	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = I libri, secondo me, sono stati creati per bambini, uomini e donne per far ragionare, ma soprattutto a chi vuole sognare e a chi vuole arricchire il proprio vocabolario per poi sapere parole nuove che non conosceva prima e usare parole più italiane.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	libri	libro	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	creati	creare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	far	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+18	ragionare	ragionare	VERB	V	VerbForm=Inf	17	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	ma	ma	CCONJ	CC	_	23	cc	_	_
+21	soprattutto	soprattutto	ADV	B	_	23	advmod	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	chi	chi	PRON	PR	Number=Sing|PronType=Rel	17	conj	_	_
+24	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	sognare	sognare	VERB	V	VerbForm=Inf	23	acl:relcl	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	chi	chi	PRON	PR	Number=Sing|PronType=Rel	25	conj	_	_
+29	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	arricchire	arricchire	VERB	V	VerbForm=Inf	28	acl:relcl	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	vocabolario	vocabolario	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+34	per	per	ADP	E	_	36	mark	_	_
+35	poi	poi	ADV	B	_	36	advmod	_	_
+36	sapere	sapere	VERB	V	VerbForm=Inf	30	advcl	_	_
+37	parole	parola	NOUN	S	Gender=Fem|Number=Plur	36	obj	_	_
+38	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	_
+39	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+40	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+41	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	acl:relcl	_	_
+42	prima	prima	ADV	B	_	41	advmod	_	_
+43	e	e	CCONJ	CC	_	44	cc	_	_
+44	usare	usare	VERB	V	VerbForm=Inf	41	conj	_	_
+45	parole	parola	NOUN	S	Gender=Fem|Number=Plur	44	obj	_	_
+46	più	più	ADV	B	_	47	advmod	_	_
+47	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	45	amod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = I libri trasmette diverse emozioni:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	libri	libro	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	trasmette	trasmettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = tristezza, felicità e cose varie, e queste emozioni che trasmettono sono solo delle parole in fondo.
+1	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	felicità	felicità	NOUN	S	Gender=Fem	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+6	varie	vario	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	trasmettono	trasmettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	solo	solo	ADV	B	_	17	advmod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = I libri possono anche aiutare a smettere di fumare, cosa mangiare quando sei in gravidanza I libri ti possono servire quindi anche per il futuro e per il presente.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	libri	libro	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	aiutare	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	smettere	smettere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	fumare	fumare	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	12	obj	_	_
+12	mangiare	mangiare	VERB	V	VerbForm=Inf	5	conj	_	_
+13	quando	quando	SCONJ	CS	_	21	mark	_	_
+14	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	aux	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	gravidanza	gravidanza	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+17	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	libri	libro	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+19	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	21	expl	_	_
+20	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	servire	servire	VERB	V	VerbForm=Inf	12	advcl	_	_
+22	quindi	quindi	ADV	B	_	21	advmod	_	_
+23	anche	anche	ADV	B	_	26	advmod	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	presente	presente	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Nei libri ci possono essere parole intense che ti possono far sorridere, piangere.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	libri	libro	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	_
+5	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	essere	essere	VERB	V	VerbForm=Inf	0	root	_	_
+7	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+8	intense	intenso	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
+11	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	far	fare	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+13	sorridere	sorridere	VERB	V	VerbForm=Inf	12	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	piangere	piangere	VERB	V	VerbForm=Inf	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Quindi leggere è stupendo!
+1	Quindi	quindi	ADV	B	_	4	advmod	_	_
+2	leggere	leggere	VERB	V	VerbForm=Inf	4	csubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	stupendo	stupire	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = I libri ti fanno pensare, riflettere.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	libri	libro	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	pensare	pensare	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	riflettere	riflettere	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Poi ci sono dei libri con misteri, con investigatori e cerchi di andare dentro al libro a scoprire chi è il colpevole con le fonti che ti dà il libro.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	misteri	mistero	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	investigatori	investigatore	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	cerchi	cercare	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	andare	andare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	dentro	dentro	ADV	B	_	15	advmod	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	libro	libro	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	scoprire	scoprire	VERB	V	VerbForm=Inf	15	xcomp	_	_
+22	chi	chi	PRON	PQ	PronType=Int	21	obj	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	colpevole	colpevole	NOUN	S	Number=Sing	3	nsubj	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	31	iobj	_	_
+31	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	libro	libro	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Dopo aver letto sono lunatica ossia che cambio umore velocemente mentre stò in silenzio.
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	lunatica	lunatico	ADJ	A	Gender=Fem|Number=Sing	3	ccomp	_	_
+6	ossia	ossia	CCONJ	CC	_	8	cc	_	_
+7	che	che	ADP	E	_	8	case	_	_
+8	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	umore	umore	ADJ	A	Number=Sing	8	amod	_	_
+10	velocemente	velocemente	ADV	B	_	12	advmod	_	_
+11	mentre	mentre	SCONJ	CS	_	12	mark	_	_
+12	stò	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Una cosa che ho notato ultimamente è che dopo aver letto almeno un capitolo ho fame e non sò perché?
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	notato	notare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	ultimamente	ultimo	ADV	B	_	5	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+8	che	che	SCONJ	CS	_	19	advmod	_	_
+9	dopo	dopo	SCONJ	CS	_	11	mark	_	_
+10	aver	avere	AUX	VA	VerbForm=Inf	11	aux	_	_
+11	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+12	almeno	almeno	ADV	B	_	14	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	capitolo	capitolo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	ho	avere	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	fame	fame	ADJ	A	Number=Sing	14	amod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	sò	se	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	perché	perché	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 16
+# text = !?!
+1	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+2	?	?	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Leggere è tutto secondo me!!
+1	Leggere	leggere	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Diciamo che è il mio hobby preferito!
+1	Diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	hobby	hobby	NOUN	S	Gender=Masc	1	ccomp	_	_
+7	preferito	preferito	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 19
+# text = !.
+1	!.	!.	PUNCT	FF	_	0	root	_	SpacesAfter=\n\n
+

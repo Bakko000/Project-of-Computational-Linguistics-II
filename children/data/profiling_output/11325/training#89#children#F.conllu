@@ -1,0 +1,411 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mi ricordo il primo giorno di scuola di prima elementare, avevo paura.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	prima	prima	ADV	B	_	10	advmod	_	_
+10	elementare	elementare	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	csubj	_	_
+13	paura	paura	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Subito una figura dolce che cercava di rassicurarmi, mi accolse nel giardino della scuola.
+1	Subito	subito	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	figura	figura	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	dolce	dolce	ADJ	A	Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	rassicurarmi	arma|rassicurarme	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	accolse	accogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Questa donna, questa maestra si chiama Daniela, la maestra Daniela: chiamata da tutti così.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	Daniela	_	_	_	_	_	_	_	SpaceAfter=No
+8	Danie	Danie	PROPN	SP	_	7	xcomp	_	_
+9	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+13-14	Daniela	_	_	_	_	_	_	_	SpaceAfter=No
+13	Danie	Danie	PROPN	SP	_	12	nmod	_	_
+14	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	:	:	PUNCT	FC	_	16	punct	_	_
+16	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	obl	_	_
+19	così	così	ADV	B	_	16	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Ha sui cinquant'anni, ma, secondo me ha ancora l'animo di quasi una bambina.
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	sui	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	cinquant'	cinquanta	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	secondo	secondo	ADP	E	_	10	case	_	_
+10	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+12	ancora	ancora	ADV	B	_	11	advmod	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	animo	animo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	quasi	quasi	ADV	B	_	18	advmod	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Porta i capelli in un caschetto biondo castano ed ha un viso leggermente tondeggiante, con degli occhi castani che ti fanno capire subito che di lei ci si può fidare, sciogliendoti il cuore.
+1	Porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caschetto	caschetto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+7	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	castano	castare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	viso	viso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	leggermente	leggermente	ADV	B	_	14	advmod	_	_
+14	tondeggiante	tondeggiante	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17-18	degli	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	16	fixed	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+20	castani	castano	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	23	iobj	_	_
+23	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+24	capire	capire	VERB	V	VerbForm=Inf	23	ccomp	_	_
+25	subito	subito	ADV	B	_	24	advmod	_	_
+26	che	che	SCONJ	CS	_	32	mark	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	32	obl	_	_
+29	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	32	expl	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl:impers	_	_
+31	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	fidare	fidare	VERB	V	VerbForm=Inf	24	ccomp	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34-35	sciogliendoti	_	_	_	_	_	_	_	_
+34	sciogliendo	sciogliere	VERB	V	VerbForm=Ger	32	advcl	_	_
+35	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	34	iobj	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Ha sette figli, di cui si occupa continuamente, anche se ormai sono tutti abbastanza grandi (il più piccolo frequenta la scuola media).
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sette	sette	NUM	N	NumType=Card	3	nummod	_	_
+3	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9	continuamente	continuo	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	anche	anche	ADV	B	_	17	mark	_	_
+12	se	se	SCONJ	CS	_	11	fixed	_	_
+13	ormai	ormai	ADV	B	_	17	advmod	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	obl	_	_
+16	abbastanza	abbastanza	ADV	B	_	17	advmod	_	_
+17	grandi	grande	ADJ	A	Number=Plur	1	advcl	_	_
+18	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	frequenta	frequentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	media	medio	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Fà la maestra di italiano da tantissimo tempo ed è bravissima.
+1	Fà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	tantissimo	tanto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	8	amod	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	bravissima	bravo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Mi consolava sempre in prima elementare e per me lei e mia vecchia classe erano diventati una seconda famiglia numerosa.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	consolava	consolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	in	in	ADP	E	_	6	mark	_	_
+5	prima	prima	ADV	B	_	6	advmod	_	_
+6	elementare	elementare	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	e	e	CCONJ	CC	_	16	cc	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obl	_	_
+10	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	classe	classe	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+15	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	diventati	diventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	16	xcomp	_	_
+20	numerosa	numeroso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ci leggeva i libri per far migliorare la nostra scrittura:come un incantatore di serpenti, suonando involge l'animale a fare qualcosa, come la luce fa crescere un minuto germoglio, per farlo poi diventare un albero gigantesco.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	libri	libro	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	far	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	migliorare	migliorare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	scrittura:come	scrittura:come	NOUN	S	Gender=Fem	7	obj	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	incantatore	incantatore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	serpenti	serpente	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	suonando	suonare	VERB	V	VerbForm=Ger	2	advcl	_	_
+17	involge	involgere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	animale	animale	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+22	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	come	come	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	luce	luce	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+27	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+28	crescere	crescere	VERB	V	VerbForm=Inf	27	ccomp	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	germoglio	germoglio	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	21	punct	_	_
+33	per	per	ADP	E	_	34	mark	_	_
+34-35	farlo	_	_	_	_	_	_	_	_
+34	far	fare	VERB	V	VerbForm=Inf	21	advcl	_	_
+35	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+36	poi	poi	ADV	B	_	37	advmod	_	_
+37	diventare	diventare	VERB	V	VerbForm=Inf	34	xcomp	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	albero	albero	NOUN	S	Gender=Masc|Number=Sing	37	xcomp	_	_
+40	gigantesco	gigantesco	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = è anche una maestra molto simpatica ed è lei che mi ha passato la passione per la scrittura.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	simpatica	simpatico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+7	ed	e	CCONJ	CC	_	9	cc	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	passione	passione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = I suoi pregi sono: la sua gentilezza, il suo talento nel capire le persone, la sua serenità e tranquillità.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	pregi	pregio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	gentilezza	gentilezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	talento	talento	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	capire	capire	VERB	V	VerbForm=Inf	12	acl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	serenità	serenità	NOUN	S	Gender=Fem	17	conj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	tranquillità	tranquillità	NOUN	S	Gender=Fem	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Adoravo quando ci parlava dei suoi bellissimi viaggi da tutte le parti, che poi trasformava in una lezione di storia.
+1	Adoravo	Adorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	9	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	bellissimi	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	9	amod	_	_
+9	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	parti	parte	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	poi	poi	ADV	B	_	17	advmod	_	_
+17	trasformava	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	storia	storia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Con la maestra Daniela ho passato cinque anni stupendi ed in lei non ho ancora individuato alcun difetto, non mi importa se gli altri ne intravedono qualcuno, perché per me non ne ha nessuno ugualmente.
+1	Con	con	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4-5	Daniela	_	_	_	_	_	_	_	_
+4	Danie	Danie	PROPN	SP	_	7	nsubj	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	cinque	cinque	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+10	stupendi	stupendi	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	ed	e	CCONJ	CC	_	17	cc	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	ancora	ancora	ADV	B	_	17	advmod	_	_
+17	individuato	individuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+18	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	difetto	difetto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+23	importa	imporgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+24	se	se	SCONJ	CS	_	28	mark	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	28	nsubj	_	_
+27	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	28	iobj	_	_
+28	intravedono	intravedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+29	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	28	punct	_	_
+31	perché	perché	SCONJ	CS	_	36	mark	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	36	obl	_	_
+34	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+35	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	36	iobj	_	_
+36	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+37	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	36	obj	_	_
+38	ugualmente	ugualmente	ADV	B	_	36	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Se non ho detto tutto di lei, non importa (anche perché ci vorrebbe un' altra giornata) perché è questa parte di lei che voglio far conoscere, la parte della maestra Daniela.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13	perché	perché	SCONJ	CS	_	15	mark	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+15	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	altra	altro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	15	punct	_	_
+20	perché	perché	SCONJ	CS	_	23	mark	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	advcl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	23	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	obj	_	_
+27	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	far	fare	VERB	V	VerbForm=Inf	25	acl:relcl	_	_
+29	conoscere	conoscere	VERB	V	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	10	punct	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36-37	Daniela	_	_	_	_	_	_	_	SpaceAfter=No
+36	Danie	Danie	PROPN	SP	_	35	nmod	_	_
+37	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+38	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+

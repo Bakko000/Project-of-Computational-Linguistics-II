@@ -1,0 +1,937 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Titolo:
+1	Titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Autore; contesto storico:
+1	Autore	autore	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	;	;	PUNCT	FC	_	1	punct	_	_
+3	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	storico	storico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = 1.
+1	1	1	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La famiglia di Cosimo
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Cosimo	Cosimo	PROPN	SP	_	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = 2.
+1	2	2	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Perché Cosimo sale sugli alberi; spiega il significato simbolico del testo.
+1	Perché	perché	SCONJ	CS	_	3	mark	_	_
+2	Cosimo	Cosimo	PROPN	SP	_	3	nsubj	_	_
+3	sale	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	sugli	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	3	punct	_	_
+8	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	significato	significato	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	simbolico	simbolico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	testo	testo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = 2.
+1	2	2	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Scenderà mai più Cosimo dagli alberi;
+1	Scenderà	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	mai	mai	ADV	B	_	3	advmod	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	Cosimo	Cosimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	xcomp	_	_
+5-6	dagli	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 9
+# text = spiega il significato simbolico.
+1	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	significato	significato	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	simbolico	simbolico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = 4.
+1	4	4	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Chi si occupa dell'educazione dei ragazzi e fino a quando?
+1	Chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	fino	fino	ADV	B	_	3	conj	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	quando	quando	ADV	B	_	11	fixed	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Racconta la sua fine.
+1	Racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fine	fine	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = 5.
+1	5	5	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Chi sono gli amici animali di Cosimo
+1	Chi	chi	PRON	PQ	PronType=Int	0	root	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+5	animali	animale	ADJ	A	Number=Plur	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Cosimo	Cosimo	PROPN	SP	_	4	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = 6.
+1	6	6	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Con chi condivide la passione per la lettura; spiega il significato simbolico
+1	Con	con	ADP	E	_	2	case	_	_
+2	chi	chi	PRON	PQ	PronType=Int	3	obl	_	_
+3	condivide	condividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	passione	passione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+10	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	significato	significato	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	simbolico	simbolico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = 7.
+1	7	7	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Con chi vivrà:
+1	Con	con	ADP	E	_	2	case	_	_
+2	chi	chi	PRON	PQ	PronType=Int	3	obl	_	_
+3	vivrà	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 19
+# text = tappe della loro relazione
+1	tappe	tappa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	loro	loro	DET	AP	Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = 8.
+1	8	8	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Come si conclude il libro.
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	libro	libro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Eseguo
+1	Eseguo	Eseguo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Il barone rampante
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	barone	barone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	rampante	rampante	ADJ	A	Number=Sing	2	amod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Italo Calvino
+1	Italo	Italo	PROPN	SP	_	0	root	_	_
+2	Calvino	Calvino	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Siamo nel 1750-1800
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	1750	1750	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	1800	1800	NUM	N	NumType=Card	4	compound	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Questo libro racconta della storia di Cosimo, il secondogenito della famiglia “Di Rondò”.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	libro	libro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	storia	storia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Cosimo	Cosimo	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	secondogenito	secondogenito	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	Di	Di	ADP	E	_	17	case	_	_
+17	Rondò	Rondò	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Egli ha una sorella più grande, Battista, e un fratello più piccolo, Biagio.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	grande	grande	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Battista	Battista	PROPN	SP	_	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	Biagio	Biagio	PROPN	SP	_	12	appos	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = I loro genitori sono il Barone e la Generalessa.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Barone	Barone	PROPN	SP	_	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Generalessa	Generalessa	PROPN	SP	_	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = Cosimo un giorno litiga con la sua famiglia perché ritiene ingiusto dover per forza rispettare delle regole secondo lui sbagliate.
+1	Cosimo	Cosimo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	litiga	litigare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	perché	perché	SCONJ	CS	_	10	mark	_	_
+10	ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+11	ingiusto	ingiusto	ADJ	A	Gender=Masc|Number=Sing	10	xcomp	_	_
+12	dover	dovere	AUX	VM	VerbForm=Inf	21	aux	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	forza	forza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+15	rispettare	rispettare	VERB	V	VerbForm=Inf	21	csubj	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	regole	regola	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+19	secondo	secondo	ADP	E	_	20	case	_	_
+20	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	_
+21	sbagliate	sbagliare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 30
+# text = In quel caso, i genitori gli avevano imposto di mangiare il cibo cucinato dalla sorella, delle lumache, anche se non gli piacevano per non risultare maleducato e ingrato.
+1	In	in	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+8	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	imposto	imporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	mangiare	mangiare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	cucinato	cucinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	14	obl:agent	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	lumache	lumaca	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	9	punct	_	_
+23	anche	anche	ADV	B	_	27	advmod	_	_
+24	se	se	SCONJ	CS	_	27	mark	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+27	piacevano	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+28	per	per	ADP	E	_	30	mark	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	risultare	risultare	VERB	V	VerbForm=Inf	27	advcl	_	_
+31	maleducato	maleducato	ADJ	A	Gender=Masc|Number=Sing	30	xcomp	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	ingrato	ingrato	ADJ	A	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = Cosimo, allora, decide di salire sugli alberi, non scenderà più, ne è sicuro.
+1	Cosimo	Cosimo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	allora	allora	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	salire	salire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8-9	sugli	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	scenderà	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	conj	_	_
+14	più	più	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 32
+# text = Questa sua scelta sta a significare che lui, non facendo in qualche modo più parte del mondo, potesse essere padrone della sua vita.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	significare	significare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	che	che	SCONJ	CS	_	23	mark	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	facendo	fare	VERB	V	VerbForm=Ger	23	advcl	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+22	essere	essere	AUX	V	VerbForm=Inf	23	cop	_	_
+23	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	6	ccomp	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = 3.
+1	3	3	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 34
+# text = Cosimo non scenderà più dagli alberi, quando ci era salito, si era ripromesso di non toccare più terra.
+1	Cosimo	Cosimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	scenderà	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5-6	dagli	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	quando	quando	SCONJ	CS	_	12	mark	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	salito	salire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	ripromesso	ripromettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+17	di	di	ADP	E	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	toccare	toccare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+20	più	più	ADV	B	_	19	advmod	_	_
+21	terra	terra	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = Scendere dagli alberi, avrebbe significato per lui arrendersi e sarebbe dovuto ritornare a dover rispettare quelle regole.
+1	Scendere	scendere	VERB	V	VerbForm=Inf	7	advcl	_	_
+2-3	dagli	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	significato	significare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+10-11	arrendersi	_	_	_	_	_	_	_	_
+10	arrender	arrendere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux	_	_
+15	ritornare	ritornare	VERB	V	VerbForm=Inf	7	conj	_	_
+16	a	a	ADP	E	_	18	mark	_	_
+17	dover	dovere	AUX	VM	VerbForm=Inf	18	aux	_	_
+18	rispettare	rispettare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+19	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	regole	regole	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 36
+# text = Il piccolo barone coraggioso si impegnerà per sempre a vivere, notte e giorno, sopra i rami.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	barone	barone	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	impegnerà	impegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	sempre	sempre	ADV	B	_	6	advmod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	vivere	vivere	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	notte	notte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	sopra	sopra	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	rami	ramo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 37
+# text = 5. * Cosimo aveva bisogno di un compagno che lo aiutasse a cacciare e a tenergli compagnia perciò, quando vide il bassotto che prima era di Viola, un'amica di cui poi si parlerà, lo prende con se e lo addestra.
+1	5	5	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	_
+3	*	*	PUNCT	FF	_	1	punct	_	_
+4	Cosimo	Cosimo	PROPN	SP	_	5	nsubj	_	_
+5	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	aiutasse	aiutare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	cacciare	cacciare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17-18	tenergli	_	_	_	_	_	_	_	_
+17	tener	tenere	VERB	V	VerbForm=Inf	14	conj	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	perciò	perciò	ADV	B	_	17	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	quando	quando	SCONJ	CS	_	23	mark	_	_
+23	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	bassotto	bassotto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+27	prima	prima	ADV	B	_	30	advmod	_	_
+28	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Viola	viola	PROPN	SP	_	25	acl:relcl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	5	punct	_	_
+32	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	amica	amico	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	cui	cui	PRON	PR	PronType=Rel	38	obl	_	_
+36	poi	poi	ADV	B	_	38	advmod	_	_
+37	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	38	expl:impers	_	_
+38	parlerà	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obj	_	_
+41	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+42	con	con	ADP	E	_	46	mark	_	_
+43	se	se	SCONJ	CS	_	42	fixed	_	_
+44	e	e	CCONJ	CC	_	46	cc	_	_
+45	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	obj	_	_
+46	addestra	addestra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 38
+# text = 6.
+1	6	6	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 39
+# text = Cosimo condivide la sua passione per la lettura con Gian de Brughi, un malvivente che ha conosciuto quando lo aveva aiutato a scappare dalla polizia che lo cercava per dei furti commessi.
+1	Cosimo	Cosimo	PROPN	SP	_	2	nsubj	_	_
+2	condivide	condividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	passione	passione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	Gian	Gian	PROPN	SP	_	8	nmod	_	_
+11	de	de	ADP	E	_	12	case	_	_
+12	Brughi	Brughi	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	malvivente	malvivente	NOUN	S	Gender=Masc|Number=Sing	10	appos	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+19	quando	quando	SCONJ	CS	_	22	mark	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	scappare	scappare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25-26	dalla	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+30	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+31	per	per	ADP	E	_	34	case	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	31	fixed	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	furti	furto	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+35	commessi	commesso	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 40
+# text = Cosimo presta il suo libro al brigante ed egli si immerge così tanto nella lettura che smette addirittura di fare rapine con i suoi compagni.
+1	Cosimo	Cosimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	nsubj	_	_
+2	presta	prestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	libro	libro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	brigante	brigante	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	ed	e	CCONJ	CC	_	12	cc	_	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	immerge	immergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	così	così	ADV	B	_	12	advmod	_	_
+14	tanto	tanto	ADV	B	_	17	advmod	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	smette	smettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	addirittura	addirittura	ADV	B	_	19	advmod	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	fare	fare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+23	rapine	rapina	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+24	con	con	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 41
+# text = Un giorno, però, viene trovato e in seguito decapitato, proprio come il protagonista del racconto di cui di era innamorato.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	decapitato	decapitato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	proprio	proprio	ADV	B	_	16	advmod	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	protagonista	protagonista	NOUN	S	Number=Sing	10	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+22	di	di	ADP	E	_	24	mark	_	_
+23	era	era	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	innamorato	innamorato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 42
+# text = 7.
+1	7	7	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 43
+# text = Nei primi giorni in cui Cosimo vive sugli alberi, conosce Viola, una bambina che viveva nella casa vicino alla sua e che conosceva tutti i ladri di frutta.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	Cosimo	Cosimo	PROPN	SP	_	8	nsubj	_	_
+8	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9-10	sugli	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	Viola	viola	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	casa	casa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	vicino	vicino	ADV	B	_	29	case	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+26	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+30	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	32	det:predet	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 44
+# text = I due fanno subito amicizia, il loro rapporto è però molto strano, si crea una sorta di sfida e Cosimo si innamora di lei.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nsubj	_	_
+3	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	subito	subito	ADV	B	_	3	advmod	_	_
+5	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	però	però	ADV	B	_	13	advmod	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	strano	strano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	crea	creare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	Cosimo	Cosimo	PROPN	SP	_	24	nsubj	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	innamora	innamorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 45
+# text = Loro crescono, Viola va in colleggio e per lui è un duro colpo.
+1	Loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	crescono	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	Viola	viola	PROPN	SP	_	5	nsubj	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	colleggio	colleggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	e	e	CCONJ	CC	_	14	cc	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	duro	duro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 46
+# text = Molto tempo dopo lei ritorna ad Ombrosa, i due si innamorano ma lei poi si trasferirà in Francia per volere del padre.
+1	Molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	dopo	dopo	ADP	E	_	4	case	_	_
+4	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+5	ritorna	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	Ombrosa	Ombrosa	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	due	due	NUM	N	NumType=Card	12	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	innamorano	innamorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	ma	ma	CCONJ	CC	_	17	cc	_	_
+14	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	poi	poi	ADV	B	_	17	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	trasferirà	trasferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	conj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	Francia	Francia	PROPN	SP	_	17	obl	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	volere	volere	VERB	V	VerbForm=Inf	17	advcl	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	padre	padre	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 47
+# text = 8.
+1	8	8	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 48
+# text = Alla fine del libro Cosimo, che era ormai vecchio, si arrampica sulla punta di un albero e, dato che una molgonfiera gli passa vicino, lui salta e si aggrappa alla corda che era appena alla molgonfiera e rimane in aria fino a quando non lo si riesce più a vedere.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	libro	libro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Cosimo	Cosimo	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	ormai	ormai	ADV	B	_	12	advmod	_	_
+12	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	6	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	arrampica	arrampicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16-17	sulla	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	punta	punta	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	albero	albero	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+25	che	che	SCONJ	CS	_	29	mark	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	molgonfiera	molgonfiera	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+28	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+29	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+30	vicino	vicino	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl	_	_
+36	aggrappa	aggrappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
+37-38	alla	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	corda	corda	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+40	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+41	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	cop	_	_
+42	appena	appena	ADV	B	_	45	advmod	_	_
+43-44	alla	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	molgonfiera	molgonfiera	NOUN	S	Gender=Fem|Number=Sing	39	acl:relcl	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+48	in	in	ADP	E	_	49	case	_	_
+49	aria	aria	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	_
+50	fino	fino	ADV	B	_	56	mark	_	_
+51	a	a	ADP	E	_	50	fixed	_	_
+52	quando	quando	SCONJ	CS	_	50	fixed	_	_
+53	non	non	ADV	BN	PronType=Neg	56	advmod	_	_
+54	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	obj	_	_
+55	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	56	expl:impers	_	_
+56	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	advcl	_	_
+57	più	più	ADV	B	_	56	advmod	_	_
+58	a	a	ADP	E	_	59	mark	_	_
+59	vedere	vedere	VERB	V	VerbForm=Inf	56	xcomp	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 49
+# text = La gente pensa che egli sia scomparso nel vuoto, che volò via, il suo corpo non lo ritrovò più nessuno.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	scomparso	scomparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	volò	volare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+14	via	via	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	21	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	ritrovò	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+22	più	più	ADV	B	_	21	advmod	_	_
+23	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 50
+# text = Sulla stele della sua tomba hanno scritto:
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	stele	stela	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 51
+# text = “Cosimo Piovasco di Rondò, visse sugli alberi, amò sempre la terra, salì in cielo”.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Cosimo	Cosimo	PROPN	SP	_	7	nsubj	_	_
+3	Piovasco	Piovasco	PROPN	SP	_	2	flat:name	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Rondò	Rondò	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	visse	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8-9	sugli	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	amò	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+13	sempre	sempre	ADV	B	_	12	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	terra	terra	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	salì	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 52
+# text = *4 Fachelafleur si occupa dell'educazione dei ragazzi fino a quando non viene arrestato per aver comprato libri scomunicati.
+1	*4	*4	NUM	N	NumType=Card	2	nummod	_	_
+2	Fachelafleur	Fachelafleur	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	fino	fino	ADV	B	_	16	mark	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	quando	quando	SCONJ	CS	_	11	fixed	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+17	per	per	ADP	E	_	19	mark	_	_
+18	aver	avere	AUX	VA	VerbForm=Inf	19	aux	_	_
+19	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+20	libri	libro	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	scomunicati	scomunicato	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

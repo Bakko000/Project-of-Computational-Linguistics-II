@@ -1,0 +1,612 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io mi chiamo Marta, ho undici anni e sono piuttosto complessa.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Marta	Marta	PROPN	SP	_	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	undici	undici	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	piuttosto	piuttosto	ADV	B	_	12	advmod	_	_
+12	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Sono una femmina ed amo stare in compagnia.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	femmina	femmina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	ed	e	CCONJ	CC	_	5	cc	_	_
+5	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	stare	stare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ho i capelli biondo scuro, lisci e sottili che mi cadono spesso sul viso in ciocche scomposte, quest'ultimo è aguzzo, alto e abbastanza sottile, la carnagione è chiara, ma non pallida.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	scuro	scuro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	lisci	lisce	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	sottili	sottile	ADJ	A	Number=Plur	5	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	cadono	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+13	spesso	spesso	ADV	B	_	12	advmod	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	viso	viso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	ciocche	ciocca	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	scomposte	scomposto	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	quest'	questo	DET	DD	Number=Sing|PronType=Dem	22	det	_	SpaceAfter=No
+22	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	24	nsubj	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	aguzzo	aguzzo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	alto	alto	ADJ	A	Gender=Masc|Number=Sing	24	conj	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	abbastanza	abbastanza	ADV	B	_	29	advmod	_	_
+29	sottile	sottile	ADJ	A	Number=Sing	24	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	34	punct	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	carnagione	carnagione	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	38	punct	_	_
+36	ma	ma	CCONJ	CC	_	38	cc	_	_
+37	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+38	pallida	pallido	ADJ	A	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 4
+# text = Gli occhi sono marroni, penetranti, di media grandezza e regolari, con ciglia corte e scure.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	marroni	marroni	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	penetranti	penetrante	ADV	B	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	media	medio	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	grandezza	grandezzo	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	regolari	regolare	ADJ	A	Number=Plur	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	ciglia	ciglio	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+16	corte	corto	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	scure	scuro	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = L'occhio è sempre in movimento, lento, attento e circospetto, così la pupilla color tenebra assorbe ogni attimo della mia vita.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	lento	lento	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	attento	attento	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	circospetto	circospetto	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	così	così	ADV	B	_	16	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pupilla	pupillo	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+17	color	colore	ADJ	A	Number=Sing	16	amod	_	_
+18	tenebra	tenebrare	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+19	assorbe	assorbire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+20	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	21	det	_	_
+21	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	vita	vita	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Il naso è abbastanza piccolo, occupa una posizione centrale ed ha una strana riga che divide la zona delle narici dalla parte superiore;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	naso	naso	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	abbastanza	abbastanza	ADV	B	_	5	advmod	_	_
+5	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	centrale	centrale	ADJ	A	Number=Sing	9	amod	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	strana	strano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	riga	riga	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	divide	dividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	zona	zona	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	narici	naore	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	parte	parte	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	25	amod	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = le labbra sono sottili, di un color rosso tenue, come un corallo spento, spesso spaccate o screpolate.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sottili	sottile	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	color	colore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+9	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	tenue	tenuo	PRON	PI	Number=Sing|PronType=Ind	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	corallo	corallo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+15	spento	spento	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	spesso	spesso	ADV	B	_	18	advmod	_	_
+18	spaccate	spaccare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+19	o	o	CCONJ	CC	_	20	cc	_	_
+20	screpolate	screpolare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Dicono che io abbia la lingua biforcuta, perché mi piace molto parlare, ma nelle mie parole è spesso presente una piccola e vivace punta di perfidia.
+1	Dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	biforcuta	biforcuto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	perché	perché	SCONJ	CS	_	11	mark	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+12	molto	molto	ADV	B	_	11	advmod	_	_
+13	parlare	parlare	VERB	V	VerbForm=Inf	11	csubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	22	punct	_	_
+15	ma	ma	CCONJ	CC	_	22	cc	_	_
+16-17	nelle	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	parole	parola	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	spesso	spesso	ADV	B	_	22	advmod	_	_
+22	presente	presente	ADJ	A	Number=Sing	1	conj	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+24	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	vivace	vivace	ADJ	A	Number=Sing	24	conj	_	_
+27	punta	punta	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	perfidia	perfidia	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = La bocca è ornata da due file di denti bianco opaco, ancora quasi tutti da latte, presentanti grandi incisivi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	ornata	ornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	file	fila	NOUN	S	Gender=Fem|Number=Plur	4	obl:agent	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	denti	dente	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	opaco	opaco	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	ancora	ancora	ADV	B	_	15	advmod	_	_
+14	quasi	quasi	ADV	B	_	15	advmod	_	_
+15	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	latte	latte	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	presentanti	presentante	NOUN	S	Number=Plur	7	conj	_	_
+20	grandi	grande	ADJ	A	Number=Plur	21	amod	_	_
+21	incisivi	incisivo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Il mento è prominente, forse troppo, infatti esce con importanza dalla forma del viso.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mento	mento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	prominente	prominente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	forse	forse	ADV	B	_	7	advmod	_	_
+7	troppo	troppo	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	infatti	infatti	ADV	B	_	10	advmod	_	_
+10	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	forma	forma	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	viso	viso	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = La corporatura è robusta e il busto ben bilanciato rispetto alle altre parti del corpo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	corporatura	corporatura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	robusta	robusto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	busto	busto	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8	ben	bene	ADV	B	_	9	advmod	_	_
+9	bilanciato	bilanciato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+10	rispetto	rispetto	ADV	B	_	14	case	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	altre	altro	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	parti	parte	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Le gambe sono potenti, sempre in movimento, in una corsa sfrenata.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	potenti	potente	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	sempre	sempre	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	sfrenata	sfrenato	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Le braccia sono forti, ma amiche, perché servono soprattutto a proteggere e ad aiutare.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	braccia	braccia	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	forti	forte	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	amiche	amico	ADJ	A	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	perché	perché	SCONJ	CS	_	10	mark	_	_
+10	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11	soprattutto	soprattutto	ADV	B	_	10	advmod	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	proteggere	proteggere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	ad	a	ADP	E	_	16	mark	_	_
+16	aiutare	aiutare	VERB	V	VerbForm=Inf	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Le mani sono rovinate, ma belle;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mani	mano	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rovinate	rovinare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	belle	bello	ADJ	A	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 15
+# text = le dita sono abbastanza lunghe e sottili, abili e veloci nei loro impieghi.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	dita	dito	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	abbastanza	abbastanza	ADV	B	_	5	advmod	_	_
+5	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	sottili	sottile	ADJ	A	Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	abili	abile	ADJ	A	Number=Plur	5	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	veloci	veloce	ADJ	A	Number=Plur	5	conj	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	impieghi	impiego	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Tutta la mano è attraversata da vene color verde smeraldo che la rendono bella, la nonna dice che ho le mani nobili, come quelle di mio nonno.
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	attraversata	attraversare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	vene	vena	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	color	colorre	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	verde	verde	ADJ	A	Number=Sing	7	amod	_	_
+10	smeraldo	smeraldo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	bella	bello	ADJ	A	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	nonna	nonna|nonno	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+18	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+19	che	che	SCONJ	CS	_	20	mark	_	_
+20	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	mani	mano	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	nobili	nobile	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	come	come	ADP	E	_	26	case	_	_
+26	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	20	obl	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Mi piace vestirmi semplicemente, generalmente sono abbigliata da jeans e maglietta colorata, indosso anche felpe, anch'esse in tinta unita.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	vestirmi	_	_	_	_	_	_	_	_
+3	vestir	vestire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	semplicemente	semplicemente	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	generalmente	generalmente	ADV	B	_	9	advmod	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	abbigliata	abbigliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	jeans	jeans	NOUN	S	Gender=Masc	9	obl:agent	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	maglietta	maglietta	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+14	colorata	colorato	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	indosso	indosso	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	anche	anche	ADV	B	_	18	advmod	_	_
+18	felpe	felpo	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	anch'	anche	ADV	B	_	21	advmod	_	SpaceAfter=No
+21	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	conj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	tinta	tinta	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	unita	unito	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Mi piace portare lunghe sciarpe, perché adoro quando le codine svolazzano nella brezza mattutina.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	portare	portare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	sciarpe	sciarpa	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	perché	perché	SCONJ	CS	_	8	mark	_	_
+8	adoro	adorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	quando	quando	SCONJ	CS	_	12	mark	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	codine	codine	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+12	svolazzano	svolazzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	brezza	brezza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	mattutina	mattutino	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Sono irascibile e riflessiva ma con le persone che conosco divento amichevole e gioviale, come un cubetto di ghiaccio scaldato dal sole.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	irascibile	irascibile	ADJ	A	Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	riflessiva	riflessivo	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	_
+5	ma	ma	CCONJ	CC	_	8	cc	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	divento	divento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12	amichevole	amichevole	ADJ	A	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	gioviale	gioviale	ADJ	A	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cubetto	cubetto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	ghiaccio	ghiaccio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	scaldato	scaldare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+22-23	dal	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	sole	sole	NOUN	S	Gender=Masc|Number=Sing	21	obl:agent	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Ho l'abitudine di sbuffare per sollevarmi i capelli dal viso e di schioccare le dita, soprattutto quando sono agitata.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	abitudine	abitudine	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	sbuffare	sbuffare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	sollevarmi	arma|sollevarme	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	viso	viso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	schioccare	schioccare	VERB	V	VerbForm=Inf	5	conj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	dita	dito	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	soprattutto	soprattutto	ADV	B	_	22	advmod	_	_
+20	quando	quando	SCONJ	CS	_	22	mark	_	_
+21	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	agitata	esagiere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Negli anni sono cambiata, quand'ero piccola ero più solare, più allegra e più spontanea, ma poi ho costruito un angolo tutto mio, dove nessun altro poteva entrare, mattone per mattone, la parte chiusa della mia mente.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cambiata	cambiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	quand'	quandi	ADP	E	_	8	case	_	SpaceAfter=No
+8	ero	ero	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+9	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	solare	solare	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	allegra	allegro	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	spontanea	spontaneo	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	ma	ma	CCONJ	CC	_	23	cc	_	_
+21	poi	poi	ADV	B	_	23	advmod	_	_
+22	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	33	obj	_	_
+27	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	33	punct	_	_
+29	dove	dove	ADV	B	_	33	advmod	_	_
+30	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	31	det	_	_
+31	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	33	nsubj	_	_
+32	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+33	entrare	entrare	VERB	V	VerbForm=Inf	25	csubj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	mattone	mattone	NOUN	S	Gender=Fem|Number=Plur	33	conj	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	mattone	mattone	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	33	punct	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	parte	parte	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+41	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+42-43	della	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	45	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	mente	mente	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Mi piace leggere ed anche scrivere, spesso quando leggo mi brillano gli occhi e prendo il volo per mondi lontani, dove i miei problemi non esistono.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	leggere	leggere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	ed	e	CCONJ	CC	_	6	cc	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	scrivere	scrivere	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	spesso	spesso	ADV	B	_	12	advmod	_	_
+9	quando	quando	SCONJ	CS	_	12	mark	_	_
+10	leggo	leggo	ADV	B	_	12	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	brillano	brillare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	prendo	prendere	VERB	V	VerbForm=Ger	12	conj	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	volo	volo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	mondi	mondo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+21	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	dove	dove	ADV	B	_	28	advmod	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Insomma, sono piuttosto strana, complessa, ma chi riesce a trovare la chiave del mio mondo, può scoprire qualcosa di meraviglioso.
+1	Insomma	insomma	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	piuttosto	piuttosto	ADV	B	_	5	advmod	_	_
+5	strana	strano	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	conj	_	_
+11	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	trovare	trovare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	5	punct	_	_
+21	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	scoprire	scoprire	VERB	V	VerbForm=Inf	5	conj	_	_
+23	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	22	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	meraviglioso	meraviglioso	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

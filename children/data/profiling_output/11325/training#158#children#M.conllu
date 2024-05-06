@@ -1,0 +1,341 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Firenze, 4/5 Maggio 2014-06-24 23:30
+1	Firenze	Firenze	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	4	4	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	/	/	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	5	5	NUM	N	NumType=Card	3	nmod	_	_
+6	Maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	2014	2014	NUM	N	NumType=Card	5	flat	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+9	06	06	NUM	N	NumType=Card	3	compound	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+11	24	24	NUM	N	NumType=Card	9	compound	_	_
+12	23:30	23:30	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Un ciclista, nella mattina del 5 Maggio mentre usciva dalla “Via del cimitero” sull’ultimo tratto di strada vide “qualcosa” appesa ad una specie di croce.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ciclista	ciclista	NOUN	S	Number=Sing	27	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	5	5	NUM	N	NumType=Card	6	nmod	_	_
+10	Maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	9	flat	_	_
+11	mentre	mentre	SCONJ	CS	_	12	mark	_	_
+12	usciva	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	advcl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Via	via	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	19	punct	_	_
+21-22	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+21	su	su	ADP	E	_	24	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+23	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	24	amod	_	_
+24	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	strada	strada	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	“	“	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	31	obj	_	SpaceAfter=No
+30	”	”	PUNCT	FB	_	29	punct	_	_
+31	appesa	appendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	_
+32	ad	a	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	specie	specie	NOUN	S	Gender=Fem	31	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	croce	croce	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 3
+# text = «All’inizio pensavo che fosse un’anima ma poi vidi i capelli e le braccia » ha raccontato agli inquirenti.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2-3	All’	_	_	_	_	_	_	_	SpaceAfter=No
+2	A	a	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	_
+7	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	anima	anima	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	poi	poi	ADV	B	_	12	advmod	_	_
+12	vidi	videre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+18	»	»	PUNCT	FB	_	5	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+21-22	agli	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Il corpo era quello di Andrea Cristina Zomfir.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Andrea	Andrea	PROPN	SP	_	4	nmod	_	_
+7	Cristina	Cristina	PROPN	SP	_	6	flat:name	_	_
+8	Zomfir.	Zomfir.	PROPN	SP	_	4	appos	_	_
+
+# sent_id = 5
+# text = 26 anni tossico dipendente e donna di strada morta per emoraggia interna C’è già un’identikit del presunto mostro .
+1	26	26	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+3	tossico	tossico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	dipendente	dipendente	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	acl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	morta	morire	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	emoraggia	emoraggia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+12	interna	interno	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	già	già	ADV	B	_	14	advmod	_	_
+16	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	identikit	identikit	NOUN	S	_	14	nsubj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	presunto	presunto	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	mostro	mostro	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = La stessa cosa successe nel Marzo del 2013.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	successe	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Marzo	marzo	PROPN	SP	_	4	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	2013	2013	NUM	N	NumType=Card	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Un’altra donna aveva avuto lo stesso “trattamento”.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = un’altra donna di strada italiana di 46 anni era stata trovata ancora viva.
+1	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	strada	strada	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	46	46	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	trovata	trovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	ancora	ancora	ADV	B	_	14	advmod	_	_
+14	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = Per qualche soldo in più aveva deciso di sottomettersi al rischio eretico.
+1	Per	per	ADP	E	_	3	case	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	più	più	ADV	B	_	3	advmod	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	sottomettersi	_	_	_	_	_	_	_	_
+9	sottometter	sottomettere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	eretico	eretico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Prima che il Maniaco se ne andasse però la donna di strada l’aveva visto in faccia e cos’ gli inquirenti hanno un identikit.
+1	Prima	prima	ADV	B	_	7	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Maniaco	Maniaco	PROPN	SP	_	7	nsubj	_	_
+5	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	andasse	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+8	però	però	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	strada	strada	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	cos’	coso	DET	RD	Definite=Def	21	det:predet	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+22	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	identikit	identikit	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Nella notte la ragazza aveva urlato per chiedere aiuto per chiedere aiuto gli abitanti però credevano che fosse un lamento di un cane altri invece non avevano il coraggio di uscire perché, dicono agli inquirenti, che succedono cose orribili la sera in quella vi a.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	urlato	urlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	chiedere	chiedere	VERB	V	VerbForm=Inf	17	advcl	_	_
+10	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpacesAfter=\s\s
+11	per	per	ADP	E	_	12	mark	_	_
+12	chiedere	chiedere	VERB	V	VerbForm=Inf	17	advcl	_	_
+13	aiuto	aere	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	abitanti	abitante	NOUN	S	Number=Plur	17	nsubj	_	_
+16	però	però	ADV	B	_	17	advmod	_	_
+17	credevano	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	lamento	lamento	NOUN	S	Gender=Masc|Number=Sing	17	ccomp	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cane	cane	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	28	nsubj	_	_
+26	invece	invece	ADV	B	_	28	advmod	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	conj	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	uscire	uscire	VERB	V	VerbForm=Inf	30	acl	_	_
+33	perché	perché	SCONJ	CS	_	35	mark	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+36-37	agli	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	inquirenti	inquirente	ADJ	A	Number=Plur	35	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+41	succedono	succedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+42	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	41	obj	_	_
+43	orribili	orribile	ADJ	A	Number=Plur	42	amod	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	sera	sera	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+46	in	in	ADP	E	_	47	case	_	_
+47	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	41	obl	_	_
+48	vi	vi	ADV	B	_	49	advmod	_	_
+49	a	a	X	X	_	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = AL cosa strana è che ancora nessuno aveva presentato una denuncia.
+1-2	AL	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	IL	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	strana	strano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	ancora	ancora	ADV	B	_	10	advmod	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = La ragazza era stata trovata vestita e gli abiti sono stati ritrovati a un km di distanza dove c’erano vestiti, borsa, telefono.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	trovata	trovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	vestita	vestita	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	ritrovati	ritrovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	km	chilometro	NOUN	S	Gender=Masc	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	dove	dove	ADV	B	_	21	advmod	_	_
+19	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	SpaceAfter=No
+20	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	vestiti	vestire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Grazie agli inquirenti potranno risalire al maniaco.
+1	Grazie	grazie	NOUN	S	_	4	case	_	_
+2-3	agli	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	risalire	risalire	VERB	V	VerbForm=Inf	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	maniaco	maniaco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+

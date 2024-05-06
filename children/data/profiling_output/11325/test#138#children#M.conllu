@@ -1,0 +1,166 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro amico,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = io sono cristian e so che tu hai paura della quinta per i compiti scritti io ti potrei dare alcuni consigli io alla quinta non avevo paura a me le maestre mi facevano fare i temi, riassunti e prose.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	cristian	cristian	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+8	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	paura	paura	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	nmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+18	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	20	iobj	_	_
+19	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	dare	dare	VERB	V	VerbForm=Inf	16	advcl	_	_
+21	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	35	nsubj	_	_
+23	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	22	nmod	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	35	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+26	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	35	amod	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	35	advcl	_	_
+29	paura	paura	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	28	obl	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	35	nsubj	_	_
+34	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	35	iobj	_	_
+35	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+36	fare	fare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	temi	tema	NOUN	S	Gender=Masc|Number=Plur	36	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	riassunti	riassunto	ADJ	A	Number=Plur	38	amod	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	prose	proso	ADJ	A	Gender=Fem|Number=Plur	40	conj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Le maestre mi consigliavano di stare calmo io a ogni compito scritto non avevo paura, anzi, li facevo con sicurezza.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	consigliavano	consigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	stare	stare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	calmo	calmo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	6	advcl	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	compito	compito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	scritto	scritto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+15	paura	paura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	anzi	anzi	ADV	B	_	20	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+20	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	conj	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = I temi a volte sono carini ad esempio io facevo sempre un tema dopo ogni festa come Natale e Pasqua poi facevo i riassunti dopo ogni lettura di una storia e una o due volte a settimana facevo la spiegazione della poesia, ricordati devi fare questi compiti scritti con tranquillità.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	temi	tema	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	carini	carino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	ad	a	ADP	E	_	8	case	_	_
+8	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+11	sempre	sempre	ADV	B	_	10	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tema	tema	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	dopo	dopo	ADP	E	_	16	case	_	_
+15	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	festa	festa	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	Natale	Natale	PROPN	SP	_	16	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Pasqua	Pasqua	PROPN	SP	_	18	conj	_	_
+21	poi	poi	ADV	B	_	22	advmod	_	_
+22	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	riassunti	riassunto	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+25	dopo	dopo	ADP	E	_	27	case	_	_
+26	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	27	det	_	_
+27	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	storia	storia	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	e	e	CCONJ	CC	_	38	cc	_	_
+32	una	uno	NUM	N	NumType=Card	35	nummod	_	_
+33	o	o	CCONJ	CC	_	34	cc	_	_
+34	due	due	NUM	N	NumType=Card	32	conj	_	_
+35	volte	volta	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+38	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	30	conj	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	spiegazione	spiegazione	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	38	punct	_	_
+45-46	ricordati	_	_	_	_	_	_	_	_
+45	ricorda	ricordare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	38	advcl	_	_
+46	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	45	obj	_	_
+47	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	48	aux	_	_
+48	fare	fare	VERB	V	VerbForm=Inf	45	ccomp	_	_
+49	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	50	det	_	_
+50	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	48	obj	_	_
+51	scritti	scrivere	ADJ	A	Gender=Masc|Number=Plur	50	amod	_	_
+52	con	con	ADP	E	_	53	case	_	_
+53	tranquillità	tranquillità	NOUN	S	Gender=Fem	51	obl	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Se tu farai così passi sempre al quinta elementare con successo!
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	farai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	così	così	ADV	B	_	3	advmod	_	_
+5	passi	passo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	sempre	sempre	ADV	B	_	5	advmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	elementare	elementare	VERB	V	VerbForm=Inf	3	obl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	successo	successo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Ciao.
+1	Ciao	ciao	INTJ	I	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

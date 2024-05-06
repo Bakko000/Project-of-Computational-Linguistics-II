@@ -1,0 +1,243 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ognuno entra in quotidiano contatto con altre persone, tutti, come me, hanno amici più stretti.
+1	Ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	quotidiano	quotidiano	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	amici	amico	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	stretti	stretto	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = I miei amici sono: Dennis, Davide, Lorenzo, Chiara, Alessio, Alessandra ecc.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amici	amico	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	Dennis	Dennis	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Davide	Davide	PROPN	SP	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	Lorenzo	Lorenzo	PROPN	SP	_	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Chiara	Chiara	PROPN	SP	_	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	Alessio	Alessio	PROPN	SP	_	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	Alessandra	Alessandra	PROPN	SP	_	6	conj	_	_
+17	ecc	eccetera	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = il legame più stretto è con Alessia, che è l amia ragazza.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	legame	legame	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Alessia	Alessia	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	l	l	X	X	_	7	acl:relcl	_	_
+12	amia	amio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ci sto benissimo insieme e quando non ci vediamo mi manca molto.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	benissimo	bene	ADV	B	Degree=Abs	2	advmod	_	_
+4	insieme	insieme	ADV	B	_	2	advmod	_	_
+5	e	e	CCONJ	CC	_	11	cc	_	_
+6	quando	quando	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	expl	_	_
+9	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	manca	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	molto	molto	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = La cosa principale per far durare l’amicizia è il rispetto reciproco, ma preferisco stare con al mia famiglia anche se delle volte ci sono incomprensioni, con papà o mamma, ma alla fine si chiarisce tutto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	principale	principale	ADJ	A	Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	far	fare	VERB	V	VerbForm=Inf	2	acl	_	_
+6	durare	durare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	reciproco	reciproco	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	preferisco	preferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	stare	stare	VERB	V	VerbForm=Inf	15	conj	_	_
+17	con	con	ADP	E	_	21	case	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+22	anche	anche	ADV	B	_	28	mark	_	_
+23	se	se	SCONJ	CS	_	22	fixed	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	volte	volta	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+27	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	28	expl	_	_
+28	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+29	incomprensioni	incomprensione	NOUN	S	Gender=Fem|Number=Plur	28	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	con	con	ADP	E	_	32	case	_	_
+32	papà	papà	NOUN	S	Gender=Masc	29	nmod	_	_
+33	o	o	CCONJ	CC	_	34	cc	_	_
+34	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	41	punct	_	_
+36	ma	ma	CCONJ	CC	_	41	cc	_	_
+37-38	alla	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	fine	fine	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	41	expl:pass	_	_
+41	chiarisce	chiarire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+42	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	41	obj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = Io ho un buon rapporto con Valerio, che è mio cugino, tutti i giorni giochiamo a Fifa14 o andiamo giù a giocare a pallone.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	buon	buono	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Valerio	Valerio	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	7	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+17	giochiamo	giochare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Fifa14	Fifa14	PROPN	SP	_	17	obl	_	_
+20	o	o	CCONJ	CC	_	21	cc	_	_
+21	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22	giù	giù	ADV	B	_	21	advmod	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	giocare	giocare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	pallone	pallone	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Poi tutti i giorni vedo i miei professori e quelli ch preferisco sono: Montinaro, Carminati, Moscatelli il prof. Giuseppe e la prof Venturi.
+1	Poi	poi	ADV	B	_	5	advmod	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+5	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	professori	professore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
+11	ch	ch	NOUN	S	Gender=Masc	10	appos	_	_
+12	preferisco	preferisco	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+15	Montinaro	Montinaro	PROPN	SP	_	5	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Carminati	Carminato	PROPN	SP	_	5	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	Moscatelli	Moscatelli	PROPN	SP	_	5	conj	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	prof.	professore	NOUN	S	_	19	appos	_	_
+22	Giuseppe	Giuseppe	PROPN	SP	_	21	nmod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	prof	prof	NOUN	S	_	21	conj	_	_
+26	Venturi	Venturi	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Io non vado d’accordo con la scuola, perché non mi piace molto studiare, ma purtroppo lo devo fare e quindi proverò ad impegnarmi.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d’	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	perché	perché	SCONJ	CS	_	13	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	studiare	studiare	VERB	V	VerbForm=Inf	13	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	ma	ma	CCONJ	CC	_	21	cc	_	_
+18	purtroppo	purtroppo	ADV	B	_	21	advmod	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+20	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	3	conj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	quindi	quindi	ADV	B	_	24	advmod	_	_
+24	proverò	proverare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+25	ad	a	ADP	E	_	26	case	_	_
+26	impegnarmi	arma|impegnarme	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ho anche un brutto rapporto con Valentina perché non ci vado d’accordo e poi mi sta antipatica per come si comporta.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Valentina	Valentina	PROPN	SP	_	5	nmod	_	_
+8	perché	perché	SCONJ	CS	_	11	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	_
+11	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+12	d’	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	poi	poi	ADV	B	_	17	advmod	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+18	antipatica	antipatico	ADJ	A	Gender=Fem|Number=Sing	17	xcomp	_	_
+19	per	per	ADP	E	_	22	mark	_	_
+20	come	come	SCONJ	CS	_	19	fixed	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

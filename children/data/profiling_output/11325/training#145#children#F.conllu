@@ -1,0 +1,284 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La mano assassina
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	assassina	assassino	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = In un giorno d’estate Serena stava giocando con suoi amici n un grande prato fiorito in Irlanda.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	d’	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	estate	estate	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	Serena	Serena	PROPN	SP	_	5	nsubj	_	_
+7	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	giocando	giocare	VERB	V	VerbForm=Ger	0	root	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	n	no	X	X	_	11	compound	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	grande	grande	ADJ	A	Number=Sing	15	amod	_	_
+15	prato	prato	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+16	fiorito	fiorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Irlanda	Irlanda	PROPN	SP	_	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Lei aveva una casa ì, vicino alla sua c’erano altre due case:
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	ì	ì	INTJ	I	Polarity=Pos	12	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	vicino	vicino	ADV	B	_	12	case	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+13	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	case	casa	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = in una ci abitava a sua migliore amica, Rosa.
+1	in	in	ADP	E	_	3	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
+4	abitava	abitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+8	amica	amico	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	Rosa	Rosa	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = L’altra casa era disabitata, ma quando tornò a casa trovò una strana persona che si stava trasferendo in quella casa.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	disabitata	disabitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	12	punct	_	_
+7	ma	ma	CCONJ	CC	_	12	cc	_	_
+8	quando	quando	SCONJ	CS	_	9	mark	_	_
+9	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	strana	strano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	persona	persona	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	trasferendo	trasferire	VERB	V	VerbForm=Ger	15	acl:relcl	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	casa	casa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Dopo quattro giorni Serena lo andò a trovare, per conoscerlo.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	quattro	quattro	NUM	N	NumType=Card	3	nummod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	Serena	Serena	PROPN	SP	_	6	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	trovare	trovare	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	conoscerlo	_	_	_	_	_	_	_	SpaceAfter=No
+11	conoscer	conoscere	VERB	V	VerbForm=Inf	8	advcl	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Si chiamava Mr.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	Mr	Mr	PROPN	SP	_	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Prescott, le disse che veniva da Londra e si era trasferita perché sua moglie era morta strangolata, e lui aveva paura.
+1	Prescott	Prescott	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Londra	Londra	PROPN	SP	_	6	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	trasferita	trasferire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+13	perché	perché	SCONJ	CS	_	17	mark	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+18	strangolata	strangolato	ADJ	A	Gender=Fem|Number=Sing	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+23	paura	paura	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = LA invitò a guardare la casa e lei accettò.
+1	LA	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	invitò	invitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	guardare	guardare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	accettò	accette	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Una cosa la inquietò … aveva una mano umana incorniciata.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	inquietò	inquiete	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	…	…	PUNCT	FF	_	6	punct	_	_
+6	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	umana	umano	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	incorniciata	incorniciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Gli chiese perché avesse una mano sulla parete e lui le disse che gli era stata regalata sa una tribù indigena.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	chiese	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	perché	perché	SCONJ	CS	_	4	mark	_	_
+4	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	parete	parete	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+13	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+14	che	che	SCONJ	CS	_	18	mark	_	_
+15	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+17	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	regalata	regalare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+19	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	tribù	tribù	NOUN	S	Gender=Fem	19	nsubj	_	_
+22	indigena	indigeno	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 12
+# text = Poi cominciò a preparare il pranzo e Serena se ne andò casa sua.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	preparare	preparare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	Serena	Serena	PROPN	SP	_	11	nsubj	_	_
+9	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Di notte si sentì un gridò inquietante.
+1	Di	di	ADP	E	_	2	case	_	_
+2	notte	notte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	gridò	gridò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+7	inquietante	inquietante	ADJ	A	Number=Sing	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Lei, la madre e il padre corsero a casa del Signor Prescott e lo trovarono morto, con un segno di una mano sul collo e un pezzo di dito in bocca.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8	corsero	cordere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Signor	Signor	PROPN	SP	_	10	nmod	_	_
+14	Prescott	Prescott	PROPN	SP	_	13	flat:name	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	trovarono	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+18	morto	morto	ADJ	A	Gender=Masc|Number=Sing	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	segno	segno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	mano	mano	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26-27	sul	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	collo	collo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	dito	dito	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = Serena pensò subito alla mano e corse a controllare, la mano era sparita…
+1	Serena	Serena	PROPN	SP	_	2	nsubj	_	_
+2	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	subito	subito	ADV	B	_	2	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	corse	corsa	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	controllare	controllare	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mano	mano	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	sparita…	sparita…	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+

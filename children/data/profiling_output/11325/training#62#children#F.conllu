@@ -1,0 +1,328 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se io fossi una musica non avrei problemi.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	fossi	essere	AUX	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	musica	musica	NOUN	S	Gender=Fem|Number=Sing	7	advcl	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	avrei	avre	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Sarei allegra, spensierata.
+1	Sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	allegra	allegro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	spensierata	spensierato	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sarei un motivetto.
+1	Sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	motivetto	motivetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Come quelli che si cantano in ascensore.
+1	Come	come	ADP	E	_	2	case	_	_
+2	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	cantano	cantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	ascensore	ascensore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Vorrei essere una canzoncina insensata, ma anche divertente, Forse sarei una canzone dei Beatles.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	canzoncina	canzoncina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	insensata	insensato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	divertente	divertente	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	Forse	forse	ADV	B	_	14	advmod	_	_
+12	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	4	parataxis	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Beatles	Beatles	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Mi piacerebbe essere quella che parla di un giardino di polipi.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	piacerebbe	piaceere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	advcl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	polipi	polipo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Non ha alcun senso ma è molto divertente.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	senso	senso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	ma	ma	CCONJ	CC	_	8	cc	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	divertente	divertente	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = È anche molto bella.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Forse mi piacerebbe essere un’altra canzone dei Beatles di cui non ricordo il nome.
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	altra	altro	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	3	csubj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Beatles	Beatles	PROPN	SP	_	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	nome	nome	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ha il ritmo di una filastrocca per dei bambini e invece parla di un ragazzo che va in giro ad uccidere le persone con un martello.
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ritmo	ritmo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	filastrocca	filastrocca	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	invece	invece	ADV	B	_	13	advmod	_	_
+13	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	giro	giro	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	ad	a	ADP	E	_	22	mark	_	_
+22	uccidere	uccidere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	persone	persona	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	martello	martello	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = È molto allegra e saltellante e sembra quasi nervosa.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	allegra	allegro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	saltellante	saltellante	ADJ	A	Number=Sing	3	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	quasi	quasi	ADV	B	_	9	advmod	_	_
+9	nervosa	nervoso	ADJ	A	Gender=Fem|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Mi piace molto e forse è una delle migliori canzoni dei Beatles.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	forse	forse	ADV	B	_	7	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	conj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	11	amod	_	_
+11	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Beatles	Beatles	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Mi piacerebbe essere una di quelle canzoni inglesi che si cantano senza saperne il significato.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacerebbe	piaceere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+4	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	ccomp	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	inglesi	inglese	ADJ	A	Number=Plur	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	cantano	cantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	saperne	sapernere	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	significato	significato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Se fossi una musica sarei decisamente felice e non avrei problemi di lavoro, sovrappopolazione nel mondo, di risorse, di soldi, di cibo.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	fossi	essere	AUX	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	musica	musica	NOUN	S	Gender=Fem|Number=Sing	7	advcl	_	_
+5	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	decisamente	decisamente	ADV	B	_	7	advmod	_	_
+7	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	avrei	avere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	sovrappopolazione	sovrappopolazione	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Starei decisamente meglio, perché, se fossi un motivetto tutti mi canterebbero, anche se sono senza senso.
+1	Starei	Staere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	decisamente	decisamente	ADV	B	_	13	advmod	_	_
+3	meglio	meglio	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perché	perché	SCONJ	CS	_	13	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	13	punct	_	_
+7	se	se	SCONJ	CS	_	13	mark	_	_
+8	fossi	essere	AUX	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	aux	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	motivetto	motivetto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+13	canterebbero	cantare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	anche	anche	ADV	B	_	19	mark	_	_
+16	se	se	SCONJ	CS	_	15	fixed	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	senza	senza	ADP	E	_	19	case	_	_
+19	senso	senso	NOUN	S	Gender=Masc|Number=Sing	13	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Mi divertirei a cambiarmi e reinventarmi.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	divertirei	divertire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	cambiarmi	arma|cambiarme	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6-7	reinventarmi	_	_	_	_	_	_	_	SpaceAfter=No
+6	reinventar	reinventare	VERB	V	VerbForm=Inf	2	conj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Non penso di voler per forza essere una canzone precisa, perché penso che una canzone, anche insensata, non dovrebbe avere alcun limite, come il fischio prodotto dal mio fratellino quando prova ad usare il flauto.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	voler	volere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	forza	forza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+10	precisa	preciso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	perché	perché	SCONJ	CS	_	13	mark	_	_
+13	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+14	che	che	SCONJ	CS	_	23	mark	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	insensata	insensare	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	avere	avere	VERB	V	VerbForm=Inf	13	ccomp	_	_
+24	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
+25	limite	limite	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	come	come	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	fischio	fischio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+30	prodotto	produrre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+31-32	dal	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	fratellino	fratellino	NOUN	S	Gender=Masc|Number=Sing	30	obl:agent	_	_
+35	quando	quando	SCONJ	CS	_	36	mark	_	_
+36	prova	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+37	ad	a	ADP	E	_	38	mark	_	_
+38	usare	usare	VERB	V	VerbForm=Inf	36	xcomp	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	flauto	flauto	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Però un po’ più dolce!
+1	Però	però	ADV	B	_	5	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	po’	poco	ADV	B	_	5	advmod	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	dolce	dolce	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

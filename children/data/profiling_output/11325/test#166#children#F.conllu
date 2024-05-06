@@ -1,0 +1,261 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao Valerio!
+1	Ciao	ciao	INTJ	I	_	2	discourse	_	_
+2	Valerio	Valerio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Come va?
+1	Come	come	SCONJ	CS	_	2	advmod	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Benvenuto alla mia scuola!
+1	Benvenuto	Benvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Spero che ti piace la tua nuova classe!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	classe	classe	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il tuo professore di italiano è Castelli come il mio!
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	professore	professore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	Castelli	castelli	PROPN	SP	_	0	root	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Castelli è molto simpatico è gentile e tenero ed ecc.
+1	Castelli	castelli	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	simpatico	simpatico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	gentile	gentile	ADJ	A	Number=Sing	4	conj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	tenero	tenero	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	ecc	eccetera	ADV	B	_	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Quando lui si arrabbia diventa una bestia (ho isagerato sai come sono fatta!) ti fa fare subbito le cose che tu odi di più!
+1	Quando	quando	SCONJ	CS	_	5	mark	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	arrabbia	arravere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	diventa	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	bestia	bestia	NOUN	S	Gender=Fem|Number=Sing	5	xcomp	_	_
+8	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	isagerato	isagerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+11	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+12	come	come	SCONJ	CS	_	14	mark	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	10	punct	_	_
+17	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	18	iobj	_	_
+18	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	18	ccomp	_	_
+20	subbito	subbire	ADV	B	_	19	advmod	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+23	che	che	PRON	PR	PronType=Rel	25	obj	_	_
+24	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
+25	odi	odare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	più	più	ADV	B	_	25	advmod	_	SpaceAfter=No
+28	!	!	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 8
+# text = Per esempio un tema!
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tema	tema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ti consiglio ti comportati bene!
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	comportati	comportare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Allora prima di iniziare a scrivere fai uno schema su un foglio o in mente!
+1	Allora	allora	ADV	B	_	4	advmod	_	_
+2	prima	prima	ADV	B	_	4	mark	_	_
+3	di	di	ADP	E	_	2	fixed	_	_
+4	iniziare	iniziare	VERB	V	VerbForm=Inf	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	scrivere	scrivere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	schema	schema	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	foglio	foglio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	o	o	CCONJ	CC	_	15	cc	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	mente	menta	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = All’ inizio devi fare un inizio nel mezzo scrivi tutto poi alla fine è molto difficile devi fare un finale!
+1-2	All’	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+11	scrivi	scrivo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	_
+13	poi	poi	ADV	B	_	11	advmod	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fine	fine	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	molto	molto	ADV	B	_	19	advmod	_	_
+19	difficile	difficile	ADJ	A	Number=Sing	5	ccomp	_	_
+20	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	19	csubj	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	finale	finale	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Devi fare molto adenzione alla grammatica, l’ ortografia e ecc.
+1	Devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	adenzione	adenzione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	ortografia	ortografia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	ecc	eccetera	ADV	B	_	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = tu spero che non fa gli erori molto grandi!
+1	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	erori	erore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	grandi	grande	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Adesso non avere paura di Castelli dopo tutto ti fa tante cose belle e non avere paura della scuola e delle uscite e altre cose!!!!
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+4	paura	paura	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Castelli	castelli	PROPN	SP	_	4	nmod	_	_
+7	dopo	dopo	ADP	E	_	8	case	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obl	_	_
+9	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	iobj	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+13	belle	bello	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	avere	avere	VERB	V	VerbForm=Inf	3	conj	_	_
+17	paura	paura	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	delle	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	uscite	uscita	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	altre	altro	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+27	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+28	!	!	PUNCT	FS	_	27	punct	_	SpaceAfter=No
+29	!!	!!	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+30	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Alla fine dell’ anno si fa il gavettone con un’ altra scuola quella della Bondi e mera comando di Vincere!
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Number=Sing	8	obl	_	_
+4-5	dell’	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:pass	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gavettone	gavettone	NOUN	S	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	altra	altro	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+15	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	10	nmod	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Bondi	Bondi	PROPN	SP	_	15	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	mera	mero	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+21	comando	comando	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	Vincere	vincere	VERB	V	VerbForm=Inf	21	acl	_	SpaceAfter=No
+24	!	!	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 16
+# text = !!!!!!!
+1	!!!!!!!	!!!!!!!	PUNCT	FF	_	0	root	_	SpacesAfter=\n\n
+

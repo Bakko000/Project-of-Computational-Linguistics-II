@@ -1,0 +1,160 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Oliver,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Oliver	Oliver	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = ti vorrei dare dei consigli visto che stai per andare in prima media, ti dico che non è difficile, ma ti dovrai impegnare.
+1	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	andare	andare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	14	amod	_	_
+14	media	media	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	iobj	_	_
+17	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	difficile	difficile	ADJ	A	Number=Sing	17	ccomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	ma	ma	CCONJ	CC	_	26	cc	_	_
+24	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	26	expl	_	_
+25	dovrai	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	26	aux	_	_
+26	impegnare	impegnare	VERB	V	VerbForm=Inf	21	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Se ti iscrivi alla mia sezione avrai sicuramente la professoressa Bruna Iannucci che ti insegnerà italiano questa prof non è severa, quando ti prende di mira non è che sia arrabbiata con te è che ci tiene a te e ti metterà sempre sotto pressione, una cosa a cui devi stare molto attento ai temi.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	iscrivi	iscrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	avrai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	11	cop	_	_
+9	sicuramente	sicuramente	ADV	B	_	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+12	Bruna	Bruna	PROPN	SP	_	11	nmod	_	_
+13	Iannucci	Iannucci	PROPN	SP	_	12	flat:name	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	iobj	_	_
+16	insegnerà	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	_
+17	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	16	xcomp	_	_
+18	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	prof	prof	NOUN	S	_	16	obj	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	severa	severo	ADJ	A	Gender=Fem|Number=Sing	30	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	quando	quando	SCONJ	CS	_	26	mark	_	_
+25	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	26	expl	_	_
+26	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	mira	mira	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+31	che	che	SCONJ	CS	_	33	mark	_	_
+32	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
+33	arrabbiata	arrabbiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	ccomp	_	_
+34	con	con	ADP	E	_	35	case	_	_
+35	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	33	obl	_	_
+36	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+37	che	che	SCONJ	CS	_	39	mark	_	_
+38	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	39	expl	_	_
+39	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	ccomp	_	_
+40	a	a	ADP	E	_	41	case	_	_
+41	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	39	obl	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	44	iobj	_	_
+44	metterà	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	39	conj	_	_
+45	sempre	sempre	ADV	B	_	44	advmod	_	_
+46	sotto	sotto	ADP	E	_	47	case	_	_
+47	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	44	punct	_	_
+49	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	_
+51	a	a	ADP	E	_	52	case	_	_
+52	cui	cui	PRON	PR	PronType=Rel	54	obl	_	_
+53	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	54	aux	_	_
+54	stare	stare	VERB	V	VerbForm=Inf	50	acl:relcl	_	_
+55	molto	molto	ADV	B	_	56	advmod	_	_
+56	attento	attento	ADJ	A	Gender=Masc|Number=Sing	54	advmod	_	_
+57-58	ai	_	_	_	_	_	_	_	_
+57	a	a	ADP	E	_	59	case	_	_
+58	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
+59	temi	tema	NOUN	S	Gender=Masc|Number=Plur	56	obl	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 4
+# text = In un tema la prof pretende la semantica:
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tema	tema	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prof	prof	NOUN	S	_	6	nsubj	_	_
+6	pretende	pretendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	semantica	semantica	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 5
+# text = uso di parole, poi la sintattica, unire una o due frasi in modo corretto, idee e testuali:
+1	uso	uso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	poi	poi	ADV	B	_	7	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sintattica	sintattica	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	unire	unire	VERB	V	VerbForm=Inf	1	acl	_	_
+10	una	uno	NUM	N	NumType=Card	13	nummod	_	_
+11	o	o	CCONJ	CC	_	12	cc	_	_
+12	due	due	NUM	N	NumType=Card	10	conj	_	_
+13	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+16	corretto	corretto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	idee	idea	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	testuali	testuale	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = contenuti idee e infine la tecnica:
+1	contenuti	contenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	idee	idea	NOUN	S	Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	infine	infine	ADV	B	_	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tecnica	tecnica	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = errori
+1	errori	errore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Saluti
+1	Saluti	Saluto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,536 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo è uno shock per me, sapere che ci sono dei bambini che lavorano rubando.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	shock	shock	NOUN	S	Gender=Masc	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	sapere	sapere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	rubando	rubare	VERB	V	VerbForm=Ger	16	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Questi bambini (dai 8-12 anni), che sono costretti dai genitori a rubare per arricchirgli, ricevendo in cambio del cibo.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+4-5	dai	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	8	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+6	8	8	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+7	-12	-12	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj:pass	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+14-15	dai	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	rubare	rubare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	arricchirgli	_	_	_	_	_	_	_	SpaceAfter=No
+20	arricchir	arricchire	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	ricevendo	ricevere	VERB	V	VerbForm=Ger	20	advcl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Bambini costretti a lavorare come schiavi rubando le cose per i loro stessi parenti (o capi).
+1	Bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	lavorare	lavorare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	schiavi	schiavo	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	rubando	rubare	VERB	V	VerbForm=Ger	4	advcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	per	per	ADP	E	_	14	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+12	loro	loro	DET	AP	Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	parenti	parente	NOUN	S	Number=Plur	9	nmod	_	_
+15	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17	capi	capo	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = I bambini-ladri non sono gli unici ad essere sfruttati, ma anche i baby-lavoratori.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	2	compound	_	_
+5	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	unici	unico	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	ad	ad	NOUN	S	_	11	nsubj:pass	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux:pass	_	_
+11	sfruttati	sfruttare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	ma	ma	CCONJ	CC	_	17	cc	_	_
+14	anche	anche	ADV	B	_	17	advmod	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	baby	baby	ADJ	A	_	17	amod	_	SpaceAfter=No
+17	-lavoratori	-lavoratore	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = I bambini di 6-14 anni sono costretti a lavorare per tutto il tempo e con tutte le loro forze.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	6-14	6-14	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	lavorare	lavorare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	per	per	ADP	E	_	13	case	_	_
+11	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	13	det:predet	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	e	e	CCONJ	CC	_	19	cc	_	_
+15	con	con	ADP	E	_	19	case	_	_
+16	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	19	det:predet	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	forze	forza	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = I bambini producono i tappeti, piccola meccanica, ecc.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	producono	produrre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tappeti	tappeto	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	meccanica	meccanica	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	ecc	eccetera	ADV	B	_	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = e lavorano portando il materiale o aiutando nella costruzione degli edifici.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	portando	portare	VERB	V	VerbForm=Ger	2	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	aiutando	aiutare	VERB	V	VerbForm=Ger	3	conj	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = I baby-lavoratori stanno diminuendo, ma ancora cisono a causa di famiglie povere che vendono i propri figli per dei soldi che sono sempre pochi per sfamare tutta la famiglia.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	baby	baby	ADJ	A	_	3	amod	_	SpaceAfter=No
+3	-lavoratori	-lavoratore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	diminuendo	diminuire	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	cisono	escisere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	causa	causa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	povere	povero	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	vendono	vendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+20	per	per	ADP	E	_	23	case	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	20	fixed	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	sempre	sempre	ADV	B	_	27	advmod	_	_
+27	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	23	acl:relcl	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29	sfamare	sfamare	VERB	V	VerbForm=Inf	27	advcl	_	_
+30	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	32	det:predet	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = L'80% dei bambini venduti sono le femmine a causa dello sfruttamento sessuale e del lavoro domestico.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	80	80	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	10	nsubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	venduti	venduto	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	femmine	femmina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	causa	causa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	dello	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sfruttamento	sfruttamento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	sessuale	sessuale	ADJ	A	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+21	domestico	domestico	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Ma la tecnologia di oggi dovrebbe diminuire il numero dei schiavisti, ma la schiavitù è molto diffusa e non è facile fermarla.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	oggi	oggi	ADV	B	_	3	advmod	_	_
+6	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	diminuire	diminuire	VERB	V	VerbForm=Inf	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	schiavisti	schiavista	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	19	punct	_	_
+14	ma	ma	CCONJ	CC	_	19	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	schiavitù	schiavitù	NOUN	S	Gender=Fem	19	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	molto	molto	ADV	B	_	19	advmod	_	_
+19	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	facile	facile	ADJ	A	Number=Sing	7	conj	_	_
+24	fermarla	fermarla	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Oltre allo schiavismo ci sta anche la prostituzione che sono costretti a fare i ragazzi di 12-22 anni!
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2-3	allo	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	schiavismo	schiavismo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	prostituzione	prostituzione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	di	di	ADP	E	_	21	case	_	_
+18	12	12	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+20	22	22	NUM	N	NumType=Card	18	compound	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Il lavoro domestico è anche aumentato, non solo per i minorenni, ma anche per i bambini di cinque anni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	domestico	domestico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	aumentato	aumentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	solo	solo	ADV	B	_	12	advmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	minorenni	minorenne	NOUN	S	Number=Plur	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	anche	anche	ADV	B	_	18	advmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	cinque	cinque	NUM	N	NumType=Card	21	nummod	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Il modo di aiutare questi bambini c'è ed è: l'istruzione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	aiutare	aiutare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = La schiavitù e i bambini-ladro sono cose bruttissime, ma la cosa ancora più orribile sono i bambini-soldato.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	schiavitù	schiavitù	NOUN	S	Gender=Fem	9	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	ladro	ladro	NOUN	S	Gender=Masc|Number=Sing	5	compound	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+10	bruttissime	brutto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	20	punct	_	_
+12	ma	ma	CCONJ	CC	_	20	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+15	ancora	ancora	ADV	B	_	16	advmod	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	orribile	orribile	ADJ	A	Number=Sing	14	amod	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+22	soldato	soldato	NOUN	S	Gender=Masc|Number=Sing	20	compound	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = I bambini sono reclutati negli anni 15-17, ma possono ammettere anche quelli di 10.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	reclutati	reclutare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	negli	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	15	15	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	17	17	NUM	N	NumType=Card	8	compound	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	ammettere	ammettere	VERB	V	VerbForm=Inf	4	conj	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	10	10	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Questi bambini non vogliono la guerra, ma sono spinti dalla fame.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	spinti	spingere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fame	fame	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = I bambini sono in aumento e le armi diventano più leggere per la taglia dei bambini.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	armi	arma	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+9	diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	più	più	ADV	B	_	9	advmod	_	_
+11	leggere	leggere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	taglia	taglia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Nell'esercito i bambini entrano tutti, dai maschi alle femmine, ma le conseguenze sono gravi, non solo il pericolo di morte in battaglia, ma anche il rischio di ammalarsi gravemente di malattie della pelle o dell'apparato respiratorio.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	entrano	entrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	maschi	maschio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+12-13	alle	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	femmine	femmina	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	ma	ma	CCONJ	CC	_	20	cc	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+19	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	gravi	grave	ADJ	A	Number=Plur	6	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	solo	solo	ADV	B	_	25	advmod	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	morte	morte	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	34	punct	_	_
+31	ma	ma	CCONJ	CC	_	34	cc	_	_
+32	anche	anche	ADV	B	_	34	advmod	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36-37	ammalarsi	_	_	_	_	_	_	_	_
+36	ammalar	ammalare	VERB	V	VerbForm=Inf	34	acl	_	_
+37	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl	_	_
+38	gravemente	gravemente	ADV	B	_	40	advmod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+44	o	o	CCONJ	CC	_	47	cc	_	_
+45-46	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+45	di	di	ADP	E	_	47	case	_	_
+46	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+47	apparato	apparato	NOUN	S	Gender=Masc|Number=Sing	43	conj	_	_
+48	respiratorio	respiratorio	ADJ	A	Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = Ma la psicologia non si può curare in nessun modo;
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	psicologia	psicologia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	curare	curare	VERB	V	VerbForm=Inf	0	root	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	modo	modo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 20
+# text = né vedendo le cose belle, né andando via dall'esercito;
+1	né	né	CCONJ	CC	_	2	cc	_	_
+2	vedendo	vedere	VERB	V	VerbForm=Ger	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	belle	bello	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	né	né	CCONJ	CC	_	8	cc	_	_
+8	andando	andare	VERB	V	VerbForm=Ger	2	conj	_	_
+9	via	via	ADV	B	_	8	advmod	_	_
+10-11	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+10	da	da	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 21
+# text = solo resistere e non ricordare più quei momenti.
+1	solo	solo	ADV	B	_	2	advmod	_	_
+2	resistere	resistere	VERB	V	VerbForm=Inf	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	ricordare	ricordare	VERB	V	VerbForm=Inf	2	conj	_	_
+6	più	più	ADV	B	_	5	advmod	_	_
+7	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Ecco cosa succede nel mondo che non possiamo conoscere, ed ecco perché è meglio restare così come sei.
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+3	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	conoscere	conoscere	VERB	V	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	ecco	ecco	ADV	B	_	3	conj	_	_
+14	perché	perché	SCONJ	CS	_	17	mark	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	meglio	meglio	ADV	B	_	17	advmod	_	_
+17	restare	restare	VERB	V	VerbForm=Inf	3	advcl	_	_
+18	così	così	ADV	B	_	17	advmod	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	sei	sei	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,422 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I contadini e le tre donne.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	donne	donna	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = C’era tempo fa, in una casetta in mezzo a una depressione in campagna, due poveri contadini.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	fa	fa	ADJ	A	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	casetta	casetta	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	due	due	NUM	N	NumType=Card	19	nummod	_	_
+18	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Erano enormemente poveri e la loro unica ricchezza erano due piccoli cucchiaini d’argento.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	enormemente	enormemente	ADV	B	_	3	advmod	_	_
+3	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	e	e	CCONJ	CC	_	12	cc	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	unica	unico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	ricchezza	ricchezza	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+9	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+10	due	due	NUM	N	NumType=Card	12	nummod	_	_
+11	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	cucchiaini	cucchiaino	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+13	d’	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	argento	argento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Poco lontano dalla campagna, c’era una casa, dove abitavano tre colte signore, di buon cuore e con un ottimo stipendio.
+1	Poco	poco	ADV	B	_	2	advmod	_	_
+2	lontano	lontano	ADV	B	_	8	advmod	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	dove	dove	ADV	B	_	13	advmod	_	_
+13	abitavano	abitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+14	tre	tre	NUM	N	NumType=Card	16	nummod	_	_
+15	colte	colta	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	signore	signore	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	buon	buono	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	con	con	ADP	E	_	25	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Le due famiglie si conoscevano, ma poco.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	conoscevano	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	poco	poco	ADV	B	_	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Le tre donne decisero di travestirsi da contadine e andare nel campo per raccogliere dell’acqua e per non far sentire soli i due poveri contadini.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	decisero	decidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	travestirsi	_	_	_	_	_	_	_	_
+6	travestir	travestire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	contadine	contadino	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	andare	andare	VERB	V	VerbForm=Inf	6	conj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	campo	campo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	raccogliere	raccogliere	VERB	V	VerbForm=Inf	11	advcl	_	_
+17-18	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	per	per	ADP	E	_	23	mark	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	far	fare	VERB	V	VerbForm=Inf	16	conj	_	_
+24	sentire	sentire	VERB	V	VerbForm=Inf	23	ccomp	_	_
+25	soli	solo	ADJ	A	Gender=Masc|Number=Plur	24	xcomp	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+27	due	due	NUM	N	NumType=Card	29	nummod	_	_
+28	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+29	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Le donne si prepararono, sporcandosi il viso con della terra e indossando abiti a fiori;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	prepararono	preparare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	sporcandosi	_	_	_	_	_	_	_	_
+6	sporcando	sporcare	VERB	V	VerbForm=Ger	4	advcl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	viso	viso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	terra	terra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	indossando	indossare	VERB	V	VerbForm=Ger	4	conj	_	_
+16	abiti	abito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	xcomp	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = presero dei cesti e degli attrezzi e andarono nel campo.
+1	presero	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cesti	cesto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	attrezzi	attrezzo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	andarono	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	campo	campo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = I poveri contadini vedendole, corsero verso di loro, lasciando attrezzi e ceste piene di frutta, cadere nel vuoto dalla felicità.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4-5	vedendole	_	_	_	_	_	_	_	SpaceAfter=No
+4	vedendo	vedere	VERB	V	VerbForm=Ger	7	advcl	_	_
+5	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	corsero	cordere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	verso	verso	ADP	E	_	10	case	_	_
+9	di	di	ADP	E	_	8	fixed	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	lasciando	lasciare	VERB	V	VerbForm=Ger	20	advcl	_	_
+13	attrezzi	attrezzo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	ceste	cesta	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+16	piene	pieno	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	cadere	cadere	VERB	V	VerbForm=Inf	7	conj	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24-25	dalla	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	felicità	felicità	NOUN	S	Gender=Fem	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Le tre donne, vedendoli sorrisero e continuarono il loro lavoro.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	vedendoli	_	_	_	_	_	_	_	_
+5	vedendo	vedere	VERB	V	VerbForm=Ger	7	advcl	_	_
+6	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	sorrisero	sorridere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	continuarono	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Una delle tre alzò lo sguardo e fece un passo verso la depressione della casa e un serpente la morse e la donna morì.
+1	Una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	nsubj	_	_
+2-3	delle	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	tre	tre	NUM	N	NumType=Card	1	nmod	_	_
+5	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	advcl	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	passo	passo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	verso	verso	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	serpente	serpente	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	morse	morsa	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	donna	donna	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+26	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 12
+# text = Le due donne piangendo tornarono a casa lasciando i due poveri contadini lì davanti.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	piangendo	piangere	VERB	V	VerbForm=Ger	5	advcl	_	_
+5	tornarono	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	lasciando	lasciare	VERB	V	VerbForm=Ger	5	advcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+10	due	due	NUM	N	NumType=Card	12	nummod	_	_
+11	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+13	lì	lì	ADV	B	_	12	advmod	_	_
+14	davanti	davanti	ADV	B	_	8	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Qualche giorno dopo le due donne si rivelarono ai contadini, gli spiegarono la morte della compagna e gli portarono del pane e del vino.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+3	dopo	dopo	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	rivelarono	rivelare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	spiegarono	spiegare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	morte	morte	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	compagna	compagna	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	portarono	portarono	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	pane	pane	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	vino	vino	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = I due erano così felici, che chiesero alle due donne di restare con loro e dividere il loro più grande regalo.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	due	due	NUM	N	NumType=Card	5	nsubj	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	felici	felice	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	chiesero	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	restare	restare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	14	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	dividere	dividere	VERB	V	VerbForm=Inf	8	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	grande	grande	ADJ	A	Number=Sing	23	amod	_	_
+23	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Le donne non potettero fermarsi e i due contadini rividero le due donne allontanarsi di nuovo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	potettero	potere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	fermarsi	_	_	_	_	_	_	_	_
+5	fermar	fermare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+11	rividero	rividerare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	donne	donna	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+15-16	allontanarsi	_	_	_	_	_	_	_	_
+15	allontanar	allontanare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Qualche tempo dopo il contadino morì, la moglie, ricordandosi le due donne, che nel frattempo non erano più tornate, fece fondere i due cucchiaini d’ argento e ne fece fare due piccole croci, poi le portò alle donne e si impiccò.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	dopo	dopo	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contadino	contadino	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+6	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11-12	ricordandosi	_	_	_	_	_	_	_	_
+11	ricordando	ricordare	VERB	V	VerbForm=Ger	6	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+21	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+22	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	tornate	tornare	ADJ	A	Gender=Fem|Number=Plur	15	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	6	punct	_	_
+26	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+27	fondere	fondere	VERB	V	VerbForm=Inf	26	xcomp	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	due	due	NUM	N	NumType=Card	30	nummod	_	_
+30	cucchiaini	cucchiaino	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+31	d’	di	ADP	E	_	32	case	_	_
+32	argento	argento	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	35	iobj	_	_
+35	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	conj	_	_
+36	fare	fare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+37	due	due	NUM	N	NumType=Card	39	nummod	_	_
+38	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+39	croci	croce	NOUN	S	Gender=Fem|Number=Plur	36	obj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	43	punct	_	_
+41	poi	poi	ADV	B	_	43	advmod	_	_
+42	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	43	obj	_	_
+43	portò	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	conj	_	_
+44-45	alle	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+46	donne	donna	NOUN	S	Gender=Fem|Number=Plur	43	obl	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	49	expl	_	_
+49	impiccò	impiccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	conj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,554 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2 Racconta un esperienza particolare che chi è capitato nell'ultimo anno:
+1	2	2	NUM	N	NumType=Card	2	nummod	_	_
+2	Racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	particolare	particolare	ADJ	A	Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+7	chi	chi	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	capitato	capitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10-11	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	13	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = buffo, bello, brutto...
+1	buffo	buffo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	bello	bello	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	brutto..	brutto	NOUN	S	_	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Sono parecchi anni che vivo e, di conseguenza, ho vissuto molti momenti:
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+5	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+13	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = belli, brutti, buffi...
+1	belli	bello	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	brutti	brutto	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	buffi...	buffi.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Ho soprattutto collezionato figuracce, ed è proprio di queste ultime esperienze di cui voglio parlare, soprattutto di una, successa un po' di mesi fa, la figuraccia più grossa che abbia mai fatto.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	soprattutto	soprattutto	ADV	B	_	3	advmod	_	_
+3	collezionato	collezionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	figuracce	figuraccia	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	12	punct	_	_
+6	ed	e	CCONJ	CC	_	12	cc	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+8	proprio	proprio	ADV	B	_	12	advmod	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+11	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	12	amod	_	_
+12	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	parlare	parlare	VERB	V	VerbForm=Inf	12	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	soprattutto	soprattutto	ADV	B	_	20	advmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	12	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	successa	successare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	po'	poco	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	fa	fa	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	3	punct	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	figuraccia	figuraccia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	grossa	grosso	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+33	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+34	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	mai	mai	ADV	B	_	36	advmod	_	_
+36	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Già da un po' di tempo mia sorella maggiore, Elena, è fidanzata con un ragazzo, Alessandro, che ormai praticamente vive da noi:
+1	Già	già	ADV	B	_	14	advmod	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	Elena	Elena	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fidanzata	fidanzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	Alessandro	Alessandro	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+22	ormai	ormai	ADV	B	_	24	advmod	_	_
+23	praticamente	praticamente	ADV	B	_	24	advmod	_	_
+24	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	24	obl	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 7
+# text = mangia a casa nostra tantissime volte, ed altrettante volte viene da noi nel pomeriggio.
+1	mangia	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	tantissime	tanto	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	6	amod	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ed	e	CCONJ	CC	_	11	cc	_	_
+9	altrettante	altrettante	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	volte	volta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+11	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Insomma, il sesto componente della nostra famiglia.
+1	Insomma	insomma	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sesto	sesto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	componente	componente	ADJ	A	Number=Sing	4	amod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Un giorno, tornando da scuola, dovevo andare urgentemente al bagno, perché a scuola i prof non mi mandavano, e a ricreazione i bagni erano pienissimi.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tornando	tornare	VERB	V	VerbForm=Ger	9	advcl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+10	urgentemente	urgentemente	ADV	B	_	9	advmod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	perché	perché	SCONJ	CS	_	22	mark	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	prof	prof	NOUN	S	_	22	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	iobj	_	_
+22	mandavano	mandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	30	punct	_	_
+24	e	e	CCONJ	CC	_	30	cc	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	ricreazione	ricreazione	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	bagni	bagno	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	_
+29	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+30	pienissimi	pieno	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Così appena tornata a casa, ha sbattuto la porta di casa e ho urlato:
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	appena	appena	ADV	B	_	3	advmod	_	_
+3	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	sbattuto	sbattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	porta	porta	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	urlato	urlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 11
+# text = «Devo fare una pipì da paura, starò in bagno per almeno tre ore!», ho buttato lo zaino sul mio letto, ho alzato lo sguardo e... c'è Alessandro che mi guarda mezzo spaventato e mezzo divertito:
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pipì	pipì	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	paura	paura	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	20	punct	_	_
+9	starò	stare	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	20	aux	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	almeno	almeno	ADV	B	_	14	advmod	_	_
+14	tre	tre	NUM	N	NumType=Card	15	nummod	_	_
+15	ore	ora	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+17	»	»	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	buttato	buttare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+21	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	zaino	zaino	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	sul	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	letto	letto	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	e...	e.	PUNCT	FF	_	34	punct	_	_
+33	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	34	expl	_	SpaceAfter=No
+34	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+35	Alessandro	Alessandro	PROPN	SP	_	34	nsubj	_	_
+36	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+37	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	38	iobj	_	_
+38	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+39	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+40	spaventato	spaventato	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+43	divertito	divertito	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+44	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = insomma, una figura degna di nota.
+1	insomma	insomma	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	figura	figura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	degna	degno	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	nota	nota	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Non credo di essermi mai vergognata così tanto!
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	essermi	essermo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	vergognata	vergognare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+7	così	così	ADV	B	_	6	advmod	_	_
+8	tanto	tanto	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Anche ora, se ripenso a quella figura vorrei sprofondare per terra, anche se è passato tanto tempo!
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	ora	ora	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	5	mark	_	_
+5	ripenso	ripensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	figura	figura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sprofondare	sprofondare	VERB	V	VerbForm=Inf	0	root	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	terra	terra	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	anche	anche	ADV	B	_	17	mark	_	_
+15	se	se	SCONJ	CS	_	14	fixed	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+18	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+20	!	!	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Dopo essere andata in bagno (ovviamente!), sono uscita ed ho evitato Alessandro per tutto il pomeriggio, ma chiamatela sfortuna, sfiga, o che so io, lui è rimasto a cena.
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	ovviamente	ovviamente	ADV	B	_	3	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	ed	e	CCONJ	CC	_	15	cc	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	evitato	evitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+16	Alessandro	Alessandro	PROPN	SP	_	15	obj	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	20	det:predet	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	ma	ma	CCONJ	CC	_	23	cc	_	_
+23	chiamatela	chiamatelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+24	sfortuna	sfortuna	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	sfiga	sfiga	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	o	o	CCONJ	CC	_	30	cc	_	_
+29	che	che	PRON	PR	PronType=Rel	30	obj	_	_
+30	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
+31	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	30	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	cena	cena	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Ho cercato di non guardarlo per tutto il tempo, ma non ci riuscivo:
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5-6	guardarlo	_	_	_	_	_	_	_	_
+5	guardar	guardare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+15	riuscivo	riuscire	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = volevo capire se pensava che fossi una matta psicopatica (era una delle prime volte che lo vedevo).
+1	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	capire	capire	VERB	V	VerbForm=Inf	0	root	_	_
+3	se	se	SCONJ	CS	_	4	mark	_	_
+4	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	fossi	essere	AUX	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	matta	matta	NOUN	S	Gender=Fem|Number=Sing	4	ccomp	_	_
+9	psicopatica	psicopatico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	8	advcl	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	16	amod	_	_
+16	volte	volta	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Poi, verso la fine della cena mia madre mi ha chiesto:
+1	Poi	poi	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	verso	verso	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fine	fine	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cena	cena	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 19
+# text = «Che hai fatto questo pomeriggio?» e Alessandro ha detto, scherzoso:
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Che	che	PRON	PR	PronType=Rel	4	obj	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	4	punct	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	Alessandro	Alessandro	PROPN	SP	_	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	scherzoso	scherzoso	ADJ	A	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 20
+# text = «È stata in bagno».
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Signore e signori, ecco a voi la donna-peperone.
+1	Signore	signore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	signori	signore	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	ecco	ecco	ADV	B	_	7	advmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	9	nmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	donna-peperone	donna-peperone	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Volevo prendere una pala e preparare una buca, dove mi sarei sotterrata.
+1	Volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pala	pala	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	preparare	preparare	VERB	V	VerbForm=Inf	2	conj	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	buca	buca	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	dove	dove	ADV	B	_	13	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+12	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	sotterrata	sotterrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Mamma mia, se mi fossi stata zitta mi sarei risparmiata tantissima vergogna.
+1	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	det:poss	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	se	se	SCONJ	CS	_	8	mark	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+6	fossi	essere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	zitta	ziggere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	risparmiata	risparmiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	xcomp	_	_
+12	tantissima	tanto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	13	amod	_	_
+13	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 24
+# text = Una cosa che ho imparato in questa brutta esperienza, forse la più importante che abbia mai appreso dopo anni e anni di scuola:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	forse	forse	ADV	B	_	14	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	importante	importante	ADJ	A	Number=Sing	2	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	mai	mai	ADV	B	_	18	advmod	_	_
+18	appreso	apprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+19	dopo	dopo	ADP	E	_	20	case	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 25
+# text = ogni volta, prima di entrare in casa e dire qualcosa di imbarazzante, SEMPRE, sempre accertarsi che il ragazzo di mia sorella sia a casa.
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	prima	prima	ADV	B	_	6	mark	_	_
+5	di	di	ADP	E	_	4	fixed	_	_
+6	entrare	entrare	VERB	V	VerbForm=Inf	18	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	dire	dire	VERB	V	VerbForm=Inf	6	conj	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	imbarazzante	imbarazzante	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	SEMPRE	sempre	ADV	B	_	6	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	sempre	sempre	ADV	B	_	18	advmod	_	_
+18-19	accertarsi	_	_	_	_	_	_	_	_
+18	accertar	accertare	VERB	V	VerbForm=Inf	0	root	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	che	che	SCONJ	CS	_	28	mark	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	sia	sia	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	casa	casa	NOUN	S	Gender=Fem|Number=Sing	18	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n\n
+

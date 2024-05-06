@@ -1,0 +1,460 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Enrico,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Enrico	Enrico	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = io alle elementari non facevo compiti scritti tranne che i temi.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	elementari	elementare	NOUN	S	Number=Plur	6	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	7	acl:relcl	_	_
+9	tranne	tranne	ADP	E	_	10	case	_	_
+10	che	che	PRON	PR	PronType=Rel	8	obl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	temi	tema	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = All’inizio più che temi facevamo “storie inventate”.
+1-2	All’	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	più	più	ADV	B	_	7	advmod	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	temi	tema	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	facevamo	facere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	storie	storia	NOUN	S	Gender=Fem|Number=Plur	7	xcomp	_	_
+10	inventate	inventato	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Nella terza iniziarono a comparire i temi (da noi chiamati “testi”) Solitamente ci davano dei testi a piacere ma in qualche caso ci davano delle tracce.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	obl	_	_
+4	iniziarono	iniziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	comparire	comparire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	temi	tema	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	da	da	ADP	E	_	11	case	_	_
+11	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	nmod	_	_
+12	chiamati	chiamare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+13	“	“	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	testi	testo	NOUN	S	Gender=Masc|Number=Plur	12	xcomp	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	14	punct	_	_
+17	Solitamente	solitamente	ADV	B	_	19	advmod	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	expl	_	_
+19	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	testi	testo	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	ma	ma	CCONJ	CC	_	30	cc	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+28	caso	caso	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+29	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	30	expl	_	_
+30	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Mi ricordo che “Descrivi il tuo migliore amico” mi suona banale avevo utilizzato la medesima traccia in un tema a piacere.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Descrivi	Descrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	9	amod	_	_
+9	amico	amico	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	SpacesAfter=\s\s
+12	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+13	banale	banale	ADJ	A	Number=Sing	12	xcomp	_	_
+14	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	medesima	medesimo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tema	tema	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Questo non mi è piaciuto ed ho avuto difficoltà ad evitare di rifarlo identico.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	piaciuto	piacere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	ed	e	CCONJ	CC	_	8	cc	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+9	difficoltà	difficoltà	NOUN	S	Gender=Fem	8	obj	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11	evitare	evitare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	rifarlo	rifarlo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	identico	identico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ma una cosa che è stata secondo me la più difficile sono state le lettere di saluto alla fine delle elementari che avevano quasi tutte lo stesso identico schema.
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+7	secondo	secondo	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	obl	_	SpacesAfter=\s\s
+9	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	difficile	difficile	ADJ	A	Number=Sing	3	acl:relcl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	saluto	salere	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fine	fine	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	elementari	elementare	NOUN	S	Number=Plur	20	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	_
+26	quasi	quasi	ADV	B	_	31	advmod	_	_
+27	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	31	det:predet	_	_
+28	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+29	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+30	identico	identico	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	schema	schema	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Altre due tracce che mi ricordo bene e che mi sono piaciute erano:
+1	Altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	bene	bene	ADV	B	_	6	advmod	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	piaciute	piacere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+13	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 9
+# text = “La prima volta in cui mi sono sentito grande”, nel quale ho scritto di quando avevo fatto un racconto di cento pagine, l’altro aveva una traccia che non ricordo qualcosa tipo “L’evento più rilevante della settimana” nel quale ho scritto della mia prima visita dalla psicologa.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	grande	grande	ADJ	A	Number=Sing	9	xcomp	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	quale	quale	PRON	PR	Number=Sing|PronType=Rel	17	obl	_	_
+16	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+18	di	di	ADP	E	_	21	mark	_	_
+19	quando	quando	SCONJ	CS	_	18	fixed	_	_
+20	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	cento	cento	NUM	N	NumType=Card	26	nummod	_	_
+26	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	nsubj	_	_
+30	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	conj	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+36	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	37	obj	_	_
+37	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38	“	“	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+39	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
+40	evento	evento	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+41	più	più	ADV	B	_	42	advmod	_	_
+42	rilevante	rilevante	ADJ	A	Number=Sing	40	amod	_	_
+43-44	della	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+46	”	”	PUNCT	FB	_	40	punct	_	_
+47-48	nel	_	_	_	_	_	_	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	quale	quale	PRON	PR	Number=Sing|PronType=Rel	51	obl	_	_
+50	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+52-53	della	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	56	case	_	_
+53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+54	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	56	det:poss	_	_
+55	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	56	amod	_	_
+56	visita	visita	NOUN	S	Gender=Fem|Number=Sing	51	obl	_	_
+57-58	dalla	_	_	_	_	_	_	_	_
+57	da	da	ADP	E	_	59	case	_	_
+58	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	psicologa	psicologo	NOUN	S	Gender=Fem|Number=Sing	51	obl:agent	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Forse ti potrebbe infastidire il fatto che la maestra legga a voce alta i temi.
+1	Forse	forse	ADV	B	_	4	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	infastidire	infastidire	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	che	che	SCONJ	CS	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	legga	leggare	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	voce	voce	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	alta	alto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	temi	tema	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = A me comunque non dava alcun fastidio.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+3	comunque	comunque	ADV	B	_	2	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	fastidio	fastidio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = Purtroppo non ricordo nessun suggerimento che l amia maestra ha dato alla mia vecchia classe, oltre alla spiegazione di come si scrivono i temi alle medie.
+1	Purtroppo	purtroppo	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	suggerimento	suggerimento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+7	l	l	X	X	_	11	obj	_	_
+8	amia	amio	ADV	B	_	9	advmod	_	_
+9	maestra	maestra	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	16	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	classe	classe	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	oltre	oltre	ADV	B	_	21	case	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	18	fixed	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	spiegazione	spiegazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+22	di	di	ADP	E	_	25	mark	_	_
+23	come	come	SCONJ	CS	_	22	fixed	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl:pass	_	_
+25	scrivono	scrivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	temi	tema	NOUN	S	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
+28-29	alle	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	medie	media	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = La mia maestra non ci ha mai scritto gli errori sul quaderno ma ci diceva cos’era sbagliato oralmente.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	mai	mai	ADV	B	_	8	advmod	_	_
+8	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	errori	errore	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	quaderno	quaderno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	expl	_	_
+16	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+17	cos’	coso	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	_
+20	oralmente	oralmente	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = La cosa che mi piaceva di più delle mie tre maestre (una di lettere, una di inglese e matematica e una di scienze) era il fatto che non mettevano né voti né note e la classe rimaneva ugualmente silenziosa e faceva sempre i compiti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	piaceva	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	più	più	ADV	B	_	5	advmod	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	12	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+10	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+12	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	12	appos	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	14	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	inglese	inglese	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	matematica	matematica	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	14	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	scienze	scienza	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	14	punct	_	_
+28	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+31	che	che	SCONJ	CS	_	33	mark	_	_
+32	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+33	mettevano	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	advcl	_	_
+34	né	né	CCONJ	CC	_	35	cc	_	_
+35	voti	voto	NOUN	S	Gender=Masc|Number=Plur	33	obj	_	_
+36	né	né	CCONJ	CC	_	37	cc	_	_
+37	note	noto	NOUN	S	Gender=Fem|Number=Plur	35	conj	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	classe	classe	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	_
+41	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	advcl	_	_
+42	ugualmente	ugualmente	ADV	B	_	43	advmod	_	_
+43	silenziosa	silenzioso	ADJ	A	Gender=Fem|Number=Sing	41	xcomp	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	conj	_	_
+46	sempre	sempre	ADV	B	_	45	advmod	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	45	obj	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 15
+# text = Non posso dirti niente altro sui compiti scritti delle altre materie dato che non li facevamo.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	dirti	_	_	_	_	_	_	_	_
+3	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+6	altro	altro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+10	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	altre	altro	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	materie	materia	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+15	dato	dato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+19	facevamo	facere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	15	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Io ti do un unico consiglio che vale per tutta la vita.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+3	do	do	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	unico	unico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	12	det:predet	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Forse è un po’ banale ma mi ha aiutato parecchio:
+1	Forse	forse	ADV	B	_	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	po’	poco	ADV	B	_	5	advmod	_	_
+5	banale	banale	ADJ	A	Number=Sing	0	root	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+10	parecchio	parecchio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 18
+# text = leggi più spesso che puoi.
+1	leggi	legge	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	spesso	spesso	ADV	B	_	1	advmod	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	puoi	potere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

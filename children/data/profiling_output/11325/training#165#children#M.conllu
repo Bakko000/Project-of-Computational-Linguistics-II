@@ -1,0 +1,423 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 1 Secondo me l'articolo è comprensibile
+1	1	1	NUM	N	NumType=Card	7	nummod	_	_
+2	Secondo	secondo	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	comprensibile	comprensibile	ADJ	A	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = È scritto molto bene grammaticalmente, ma soprattutto è scritto con una logica precisa.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	bene	bene	ADV	B	_	2	advmod	_	_
+5	grammaticalmente	grammaticale	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	soprattutto	soprattutto	ADV	B	_	10	advmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	logica	logica	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	precisa	preciso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = I temi che affronta sono vari ma collegati tra loro perché esprimono tutti uno stesso concetto.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	temi	tema	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	affronta	affrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	vari	vario	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	collegati	collegare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+9	tra	tra	ADP	E	_	10	case	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	obl	_	_
+11	perché	perché	SCONJ	CS	_	12	mark	_	_
+12	esprimono	esprimere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obj	_	_
+14	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Poche volte esce fuori tema abbandonandosi ai ricordi della sua esperienza in India e facendo degli accenni alla grammatica.
+1	Poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+3	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fuori	fuori	ADV	B	_	5	advmod	_	_
+5	tema	tema	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	abbandonandosi	_	_	_	_	_	_	_	_
+6	abbandonando	abbandonare	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	India	India	PROPN	SP	_	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	facendo	fare	VERB	V	VerbForm=Ger	6	conj	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	accenni	accenne	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = 2 Gli argomenti affrontati sono vari.
+1	2	2	NUM	N	NumType=Card	6	nummod	_	_
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	affrontati	affrontato	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	vari	vario	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = la difficoltà che i ragazzi stranieri incontrano nell'imparare la grammatica italiana;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	difficoltà	difficoltà	NOUN	S	Gender=Fem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	incontrano	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8-9	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	in	in	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	imparare	imparare	VERB	V	VerbForm=Inf	7	obl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = l'assassinio di due pescatori indiani da parte di due ufficiali di marina italiani;
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	assassinio	assassinio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	pescatori	pescatore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	indiani	indiano	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	marina	marina	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = l'ingiustizia del fatto che gli assassini verranno ricordati per questo fatto perche considerati innocenti, mentre le vittime assassinate saranno prima o poi dimenticate;
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	assassini	assassino	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	_
+10-11	ricordati	_	_	_	_	_	_	_	_
+10	ricorda	ricordare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	perche	perco	ADV	B	_	16	advmod	_	_
+16	considerati	considerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+17	innocenti	innocente	ADJ	A	Number=Plur	16	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	mentre	mentre	SCONJ	CS	_	23	mark	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+22	assassinate	assassinato	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+24	prima	prima	ADV	B	_	23	advmod	_	_
+25	o	o	CCONJ	CC	_	27	cc	_	_
+26	poi	poi	ADV	B	_	27	advmod	_	_
+27	dimenticate	dimenticare	ADJ	A	Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = I privilegi e le ricchezze di due ufficiali di marina in confronto alla povertà di due pescatori che navigavano per portare il cibo alla propria famiglia;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	privilegi	privilegio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ricchezze	ricchezza	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	marina	marina	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	povertà	povertà	NOUN	S	Gender=Fem	12	nmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	pescatori	pescatore	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	navigavano	navigare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	portare	portare	VERB	V	VerbForm=Inf	20	advcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25-26	alla	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = l'uso errato del lessico italiano da parte dei giornalisti
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uso	uso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	errato	errato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = 3 Io, personalmente sono molto d'accordo con le considerazioni dell'autore.
+1	3	3	NUM	N	NumType=Card	8	nummod	_	_
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	personalmente	personalmente	ADV	B	_	8	advmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	molto	molto	ADV	B	_	8	advmod	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	considerazioni	considerazione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	autore	autore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Soprattutto sono d'accordo il fatto che è un'ingiustizia considerare terroristi persone che hanno danneggiato un compressore e persone che hanno ucciso.
+1	Soprattutto	soprattutto	ADV	B	_	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	4	csubj	_	_
+11	considerare	considerare	VERB	V	VerbForm=Inf	10	csubj	_	_
+12	terroristi	terrorista	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	danneggiato	danneggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	compressore	compressore	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	persone	persona	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Con questo l'autore vuole indicare che capita molto spesso usare una parola per poi indicarne una completamente diversa.
+1	Con	con	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	autore	autore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	indicare	indicare	VERB	V	VerbForm=Inf	0	root	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	capita	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	spesso	spesso	ADV	B	_	8	advmod	_	_
+11	usare	usare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	parola	parola	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	per	per	ADP	E	_	16	mark	_	_
+15	poi	poi	ADV	B	_	16	advmod	_	_
+16-17	indicarne	_	_	_	_	_	_	_	_
+16	indicar	indicare	VERB	V	VerbForm=Inf	11	advcl	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	completamente	completamente	ADV	B	_	20	advmod	_	_
+20	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	16	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Sono d'accordo sul fatto che non è giusto che due ufficiali di marina guadagnino dieci volte quello che guadagno un professore che insegna all'estero.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	giusto	giusto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+11	che	che	SCONJ	CS	_	16	mark	_	_
+12	due	due	NUM	N	NumType=Card	13	nummod	_	_
+13	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	marina	marina	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	guadagnino	guadagnare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+17	dieci	dieci	NUM	N	NumType=Card	18	nummod	_	_
+18	volte	volta	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	guadagno	guadagre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	professore	professore	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26-27	all'	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	estero	estero	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Trovo ingiusto anche il fatto che probabilmente i due pescatori indiani assassinati che vanno a pesca per portare il cibo ai propri familiari verranno probabilmente dimenticati.
+1	Trovo	trovo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ingiusto	ingiusto	ADV	B	_	1	advmod	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+6	che	che	SCONJ	CS	_	27	mark	_	_
+7	probabilmente	probabilmente	ADV	B	_	10	advmod	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	pescatori	pescatore	NOUN	S	Gender=Masc|Number=Plur	27	nsubj:pass	_	_
+11	indiani	indiano	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	assassinati	assassinare	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	pesca	pesca	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	portare	portare	VERB	V	VerbForm=Inf	14	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	familiari	familiare	NOUN	S	Number=Plur	18	obl	_	_
+25	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	27	aux:pass	_	_
+26	probabilmente	probabilmente	ADV	B	_	27	advmod	_	_
+27	dimenticati	dimenticare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Mentre coloro che hanno ucciso delle persone innocenti per difendere una petroliera verranno ricordati perche per l'Italia il comportamento dell'India è ritenuto ingiusto.
+1	Mentre	mentre	SCONJ	CS	_	15	mark	_	_
+2	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	15	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	innocenti	innocente	ADJ	A	Number=Plur	8	amod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	difendere	difendere	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	petroliera	petroliera	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
+15-16	ricordati	_	_	_	_	_	_	_	_
+15	ricorda	ricordare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+16	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obj	_	_
+17	perche	perca	ADV	B	_	16	advmod	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	Italia	Italia	PROPN	SP	_	16	nmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	India	India	PROPN	SP	_	22	nmod	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+27	ritenuto	ritenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+28	ingiusto	ingiusto	ADJ	A	Gender=Masc|Number=Sing	27	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 17
+# text = Infine sono sorpreso che non solo i ragazzi stranieri trovano difficoltà nell'imparare la grammatica italiana ma anche gli italiani si sbagliano nell'uso del lessico
+1	Infine	infine	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	sorpreso	sorprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	difficoltà	difficoltà	NOUN	S	Gender=Fem	10	obj	_	_
+12-13	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	in	in	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	imparare	imparare	VERB	V	VerbForm=Inf	10	obl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	ma	ma	CCONJ	CC	_	23	cc	_	_
+19	anche	anche	ADV	B	_	21	advmod	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	sbagliano	sbagliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+24-25	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	in	in	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	uso	uso	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpacesAfter=\n\n
+

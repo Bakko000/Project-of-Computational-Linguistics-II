@@ -1,0 +1,405 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un messaggio non inviato
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	inviato	inviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Mi chiamo Gianmarco, mi piace stare molto con gli amici.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Gianmarco	Gianmarco	PROPN	SP	_	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	stare	stare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	molto	molto	ADV	B	_	7	advmod	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Un giorno stavo a casa facendo i compiti, appena finì presi il cellulare e lo accesi.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+3	stavo	stare	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	facendo	fare	VERB	V	VerbForm=Ger	11	advcl	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	appena	appena	ADV	B	_	11	advmod	_	_
+11	finì	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	accesi	accese	NOUN	S	Number=Plur	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Quando si accese mi arrivarono molti messaggi, li visualizzò ed erano tutti miei amici che mi chiedevano se questa sera uscissi con loro.
+1	Quando	quando	SCONJ	CS	_	5	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+3	accese	accendere	ADJ	A	Number=Sing	2	amod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	arrivarono	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+6	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+10	visualizzò	visualizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	ed	e	CCONJ	CC	_	15	cc	_	_
+12	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
+14	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	amici	amico	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	chiedevano	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+19	se	se	SCONJ	CS	_	22	mark	_	_
+20	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	sera	sera	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+22	uscissi	usciggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	_	_
+23	con	con	ADP	E	_	24	case	_	_
+24	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Io ci riflettei un po’, quando finì di ragionarci decisi di si; perché i miei non tornavano prima di una certa ora.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	riflettei	riflette	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po’	poco	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	quando	quando	SCONJ	CS	_	8	mark	_	_
+8	finì	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	ragionarci	_	_	_	_	_	_	_	_
+10	ragionar	ragionare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	decisi	decidere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	20	punct	_	_
+16	perché	perché	SCONJ	CS	_	20	mark	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	tornavano	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+21	prima	prima	ADV	B	_	25	case	_	_
+22	di	di	ADP	E	_	21	fixed	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	certa	certo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	ora	ora	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Risposi al messaggio dicendo che io uscivo con loro però senza permesso.
+1	Risposi	Risposare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	dicendo	dire	VERB	V	VerbForm=Ger	1	advcl	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	uscivo	uscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	obl	_	_
+11	però	però	ADV	B	_	8	advmod	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Mamma e papà lavorano tutte e due insieme ad un supermercato dentro a quei grandi centri commerciali e di solito ritornavano per le 19:00-21:00; per il traffico e la lontananza del negozio.
+1	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	papà	papà	NOUN	S	Gender=Masc	1	conj	_	_
+4	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	4	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	due	due	NUM	N	NumType=Card	5	conj	_	_
+8	insieme	insieme	ADV	B	_	11	case	_	_
+9	ad	a	ADP	E	_	8	fixed	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	supermercato	supermercato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	dentro	dentro	ADV	B	_	16	case	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+15	grandi	grande	ADJ	A	Number=Plur	16	amod	_	_
+16	centri	centro	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+17	commerciali	commerciale	ADJ	A	Number=Plur	16	amod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	solito	solito	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+21	ritornavano	ritornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	19:00-21:00	19:00-21:00	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	21	punct	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	lontananza	lontananza	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Arrivata l’ora per uscire i miei amici mi vennero a prendere, andammo al parco per due ore precise, stanchi di stare al parco andammo un po’ in giro nel piccolo quartiere.
+1	Arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	uscire	uscire	VERB	V	VerbForm=Inf	10	advcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	amici	amico	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+10	vennero	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	prendere	prendere	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	andammo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	parco	parco	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	ore	ora	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+21	precise	preciso	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	stanchi	stanco	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	stare	stare	VERB	V	VerbForm=Inf	23	advcl	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	parco	parco	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	andammo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	25	ccomp	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	po’	poco	ADV	B	_	29	advmod	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	giro	giro	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+34-35	nel	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+37	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Verso le 21:10 mi iniziarono ad arrivare messaggi a raffica, guardai erano i miei che scrivevano, dove sei, perché non ci hai avvertito, ti davamo il permesso almeno lo sapevamo dove stavi e stavamo tranquilli.
+1	Verso	verso	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	21:10	21:10	NUM	N	NumType=Card	5	nummod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	iniziarono	iniziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ad	a	ADP	E	_	7	mark	_	_
+7	arrivare	arrivare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	raffica	raffica	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	guardai	guardare	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+13	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	34	nsubj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	scrivevano	scrivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	dove	dove	ADV	B	_	29	advmod	_	_
+20	sei	sei	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	perché	perché	SCONJ	CS	_	26	mark	_	_
+23	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	26	iobj	_	_
+25	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	avvertito	avvertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	29	iobj	_	_
+29	davamo	dare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	34	acl:relcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	almeno	almeno	ADV	B	_	34	advmod	_	_
+33	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+34	sapevamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+35	dove	dove	ADV	B	_	39	advmod	_	_
+36	stavi	stave	ADV	B	_	39	advmod	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	stavamo	stare	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	39	cop	_	_
+39	tranquilli	tranquillo	ADJ	A	Gender=Masc|Number=Plur	34	xcomp	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Beh, si sa le solite cose che dicono sempre i genitori.
+1	Beh	beh	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	solite	solito	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	sempre	sempre	ADV	B	_	9	advmod	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Io neanche le visualizzavo ero sicurissima di cosa ci fosse scritto e continuavo a dare retta ai miei amici.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	neanche	neanche	ADV	BN	PronType=Neg	4	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	visualizzavo	visualizzavo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	sicurissima	sicurissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	11	obl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+10	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux:pass	_	_
+11	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	continuavo	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	conj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	dare	dare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	retta	retta	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	amici	amico	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 12
+# text = Solo che dopo ho pensato che avevo fatto una brutta azione e mi sentivo molto in colpa.
+1	Solo	solo	ADV	B	_	5	advmod	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	dopo	dopo	ADV	B	_	5	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	azione	azione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	expl	_	_
+14	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	conj	_	_
+15	molto	molto	ADV	B	_	17	advmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Decisi di tornare a casa erano le 21:30, io mi vergognavo di dire ai miei amici che i miei genitori mi volevano a casa, avevo paura che mi prendessero in giro;
+1	Decisi	decisi	NOUN	S	Number=Sing	8	nsubj	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	tornare	tornare	VERB	V	VerbForm=Inf	1	acl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	21:30	21:30	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	expl	_	_
+12	vergognavo	vergognare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	conj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	dire	dire	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	amici	amico	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
+24	volevano	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	casa	casa	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	conj	_	_
+29	paura	paura	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	32	iobj	_	_
+32	prendessero	prendere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	giro	giro	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+35	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 14
+# text = usai la scusa che ero stanco.
+1	usai	usare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	scusa	scusa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	stanco	stanco	ADJ	A	Gender=Masc|Number=Sing	3	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Quando arrivai a casa i genitori mi dissero:
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	arrivai	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	advcl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	dissero	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 16
+# text = «Benedetto ragazzo, ma dove ti eri cacciato?
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Benedetto	Benedetto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	dove	dove	ADV	B	_	3	advmod	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+8	eri	ero	ADV	B	_	9	advmod	_	_
+9	cacciato	cacciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Si può sapere cosa sei andato a fare fuori in questa notte da lupi?!».
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+4	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	6	nsubj	_	_
+5	sei	sei	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	fuori	fuori	ADV	B	_	8	advmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	notte	notte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	lupi	lupio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+17	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

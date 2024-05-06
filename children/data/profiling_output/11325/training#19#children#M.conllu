@@ -1,0 +1,385 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La primavera (Sandro Botticelli)
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Sandro	Sandro	PROPN	SP	_	2	appos	_	_
+5	Botticelli	Botticelli	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = L’immagine rappresenta in primo piano tre donne che si stanno esibendo in una specie di danza.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	piano	piano	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	esibendo	esibire	VERB	V	VerbForm=Ger	8	acl:relcl	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	specie	specie	NOUN	S	Gender=Fem	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	danza	danza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sono vestite con abiti lunghi e trasparenti ed ognuna ha capelli lunghi, una di queste però li tiene raccolti.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	vestite	vestire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	trasparenti	trasparente	ADJ	A	Number=Plur	5	conj	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	ognuna	ognuna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	nsubj	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	19	nsubj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	17	det	_	_
+17	però	però	ADV	B	_	14	advmod	_	_
+18	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+19	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+20	raccolti	raccogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Due di loto hanno capelli chiari e biondi ed una collana mentre l’altra, diversamente, ha capelli rossi e non possiede nessuna collana.
+1	Due	due	NUM	N	NumType=Card	4	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	loto	loto	NOUN	S	Gender=Fem	1	nmod	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+6	chiari	chiaro	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	biondi	biondo	ADJ	A	Number=Plur	6	conj	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	collana	collana	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+12	mentre	mentre	SCONJ	CS	_	18	mark	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	18	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	diversamente	diversamente	ADV	B	_	18	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+19	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	possiede	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+24	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+25	collana	collana	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Le tre donne si tengono la mano.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	tengono	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Al lato delle tre donne si intravedono i corpo di due uomini.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lato	lato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	intravedono	intravedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Di quest’ultimi mi riesce a capire che uno è muscoloso e possiede una tunica rossa, mentre l’altro indossa uno strano abito blu, con segni d’oro, sotto al quale ha una maglietta a maniche lunghe bianca.
+1	Di	di	ADP	E	_	3	case	_	_
+2	quest’	questo	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	capire	capire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	muscoloso	muscoloso	ADJ	A	Gender=Masc|Number=Sing	7	ccomp	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	possiede	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tunica	tunica	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	mentre	mentre	SCONJ	CS	_	21	mark	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	_
+21	indossa	indossare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	strano	strano	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	abito	abito	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+25	blu	blu	ADJ	A	_	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	5	punct	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	segni	segno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+29	d’	di	ADP	E	_	30	case	_	SpaceAfter=No
+30	oro	oro	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	5	punct	_	_
+32	sotto	sotto	ADV	B	_	5	advmod	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	quale	quale	PRON	PR	Number=Sing|PronType=Rel	36	obl	_	_
+36	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	maglietta	maglietta	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	maniche	manica	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+41	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	40	amod	_	_
+42	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = In secondo piano vi sono piante ed alberi, che coprono la chiarezza del cielo azzurro.
+1	In	in	ADP	E	_	3	case	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	piano	piano	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	piante	pianta	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+7	ed	e	CCONJ	CC	_	8	cc	_	_
+8	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	coprono	coprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	azzurro	azzurro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Il terreno dell’immagine è ricoperto da petali e foglie.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	ricoperto	ricoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	petali	petale	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	foglie	foglia	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = L’immagine suscita in me un senso di libertà.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	suscita	suscitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	senso	senso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	libertà	libertà	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Guardando il quadro sento il fruscio delle foglie mosse da un leggero vento proveniente da ovest.
+1	Guardando	guardare	VERB	V	VerbForm=Ger	4	advcl	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+4	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fruscio	fruscio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	foglie	foglia	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	mosse	muovere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	da	da	ADP	E	_	14	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	leggero	leggero	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	vento	vento	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	_
+15	proveniente	provenire	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	14	acl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	ovest	ovest	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = I vestiti delle donne si agitano visto il continuo movimento.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	vestiti	vestite	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	donne	donna	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	agitano	agitere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	continuo	continuo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Stanno ammirando il bellissimo paesaggio messo in risalto dalla splendida giornata.
+1	Stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ammirando	ammirare	VERB	V	VerbForm=Ger	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	5	amod	_	_
+5	paesaggio	paesaggio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	risalto	risalto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	splendida	splendido	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Il sole cuocente non lo sento più di tanto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sole	sole	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	cuocente	cuocente	ADJ	A	Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	più	più	ADV	B	_	9	advmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tanto	tanto	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Il vento ed il loro vestiario quasi li eliminano dal proprio pensiero.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vento	vento	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	ed	e	CCONJ	CC	_	6	cc	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	loro	loro	DET	AP	Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	vestiario	vestiario	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+7	quasi	quasi	ADV	B	_	9	advmod	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	eliminano	eliminare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 16
+# text = Mi fa pensare anche, che è in pieno svolgimento una festa.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pensare	pensare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	svolgimento	svolgimento	NOUN	S	Gender=Masc|Number=Sing	3	acl:relcl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	festa	festa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = La famosa festa di primavera.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	famosa	famoso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	festa	festa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = In un meraviglioso luogo di campagna.
+1	In	in	ADP	E	_	4	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = È in corso una grande festa:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	festa	festa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = la festa di primavera.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	festa	festa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Quest’ultima si svolge solo in questo posto.
+1	Quest’	questo	DET	DD	Number=Sing|PronType=Dem	2	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	svolge	svolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	solo	solo	ADV	B	_	8	advmod	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Ci sono ballerine, giocolieri e tutti i cittadini del paese vicino.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ballerine	ballerina	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	giocolieri	giocoliere	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	paese	paese	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	vicino	vicino	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

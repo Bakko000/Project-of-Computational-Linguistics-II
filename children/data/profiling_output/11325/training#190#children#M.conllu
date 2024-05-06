@@ -1,0 +1,469 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Traccia.
+1	Traccia	traccia	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = 1.
+1	1	1	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Immagina di essere un fantasma e di avere la possibilità di materializzarsi ogni notte.
+1	Immagina	Immagina	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	1	ccomp	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	avere	avere	VERB	V	VerbForm=Inf	5	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	possibilità	possibilità	NOUN	S	Gender=Fem	8	obj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	materializzarsi	_	_	_	_	_	_	_	_
+12	materializzar	materializzar	VERB	V	VerbForm=Inf	10	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	notte	notte	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Che faresti?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	faresti	fare	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Racconta.
+1	Racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ero un motociclista acrobatico, famoso in tutto il mondo, avevo un evento ogni settimana e facevo salti e acrobazie mai viste prima.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	motociclista	motociclista	NOUN	S	Number=Sing	0	root	_	_
+4	acrobatico	acrobatico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	famoso	famoso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	evento	evento	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	conj	_	_
+19	salti	salto	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	acrobazie	acrobazia	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+22	mai	mai	ADV	B	_	23	advmod	_	_
+23	viste	vedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	_	_
+24	prima	prima	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Una sera prima dello spettacolo avevo preso uno drink alcolico con i miei amici e compagni motociclisti:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	prima	prima	ADV	B	_	2	advmod	_	_
+4-5	dello	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	drink	drink	NOUN	S	Gender=Masc	8	obj	_	_
+11	alcolico	alcolico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	amici	amico	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+18	motociclisti	motociclista	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 8
+# text = avevo sbagliato.
+1	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Era tutto pronto per lo spettacolo ma io ero in stato di ebrezza, non potevo deludere il mio pubblico e quindi mi sono fatto avanti:
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
+3	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	stato	stato	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	ebrezza	ebrezza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	deludere	deludere	VERB	V	VerbForm=Inf	3	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	quindi	quindi	ADV	B	_	25	advmod	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+24	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+26	avanti	avanti	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = il pubblico in piedi, le luci puntate su me e la musica, aspettavano tutti il mio salto mortale.....
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	luci	luce	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+8	puntate	puntare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	musica	musica	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	aspettavano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	obl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	salto	salto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+20	mortale.....	mortale...	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = spinsi l'accelleratore e la moto partii, la rampa era davanti a me... non ce l'ho fatta.
+1	spinsi	spinse	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	accelleratore	accelleratore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	moto	moto	NOUN	S	Gender=Fem	3	conj	_	_
+7	partii	partii	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	rampa	rampa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+12	davanti	davanti	ADV	B	_	14	case	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	me...	me...	NOUN	S	Gender=Masc	3	conj	_	_
+15	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+16	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+17	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = L'ultima cosa che ricordo della mia vita reale è stato il suono assordante delle sirene della ambulanza, che mi hanno soccorso....
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+5	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	reale	reale	ADJ	A	Number=Sing	9	amod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	suono	suono	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+15	assordante	assordante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	14	acl	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	sirene	sirena	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ambulanza	ambulanza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	obj	_	_
+25	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+26	soccorso...	soccorso.	PUNCT	FS	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 13
+# text = poi improvvisamente mi sono ritrovato nel mio camerino;
+1	poi	poi	ADV	B	_	5	advmod	_	_
+2	improvvisamente	improvvisamente	ADV	B	_	5	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ritrovato	ritrovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	camerino	camerino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 14
+# text = sono uscito ho visto me, morto sulla barella dell'ambulanza.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	barella	barella	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	ambulanza	ambulanza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Pensavo che qualcuno potesse sentirmi e vedermi, ma urlavo e non mi sentiva nessuno...
+1	Pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+4	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5-6	sentirmi	_	_	_	_	_	_	_	_
+5	sentir	sentire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8-9	vedermi	_	_	_	_	_	_	_	SpaceAfter=No
+8	veder	vedere	VERB	V	VerbForm=Inf	5	conj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	ma	ma	CCONJ	CC	_	12	cc	_	_
+12	urlavo	urlavo	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+17	nessuno...	nessuno.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = ero un fantasma.
+1	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = All'inizio mi piaceva l'idea di fare quello che mi pareva, ma ogni giorno non riuscivo a smettere di pensare al mio pubblico e al mio brutto incidente che ha creato tutto questo.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	piaceva	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	idea	idea	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	ma	ma	CCONJ	CC	_	19	cc	_	_
+16	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	riuscivo	riuscire	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	smettere	smettere	VERB	V	VerbForm=Inf	19	advcl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	pensare	pensare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	27	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+28	e	e	CCONJ	CC	_	33	cc	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	33	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+31	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+32	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
+37	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	38	det	_	_
+38	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	36	obj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Di notte ridivento visibile e mi materializzo e solo queste brevi ore posso di nuovo comunicare con qualche ragazzo notturno e racconto loro la mia storia.
+1	Di	di	ADP	E	_	2	case	_	_
+2	notte	notte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+3	ridivento	ridivento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	visibile	visibile	ADJ	A	Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	materializzo	materializzare	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+8	e	e	CCONJ	CC	_	16	cc	_	_
+9	solo	solo	ADV	B	_	12	advmod	_	_
+10	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+11	brevi	breve	ADJ	A	Number=Plur	12	amod	_	_
+12	ore	ora	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+13	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	16	obl	_	_
+16	comunicare	comunicare	VERB	V	VerbForm=Inf	3	conj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	notturno	notturno	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	racconto	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	22	iobj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	storia	storia	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 19
+# text = Molti non ci credono e pensano solamente che sono impazzito.
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	solamente	solo	ADV	B	_	6	advmod	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	impazzito	impazzire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Alcune notti quando sono di buono umore mi diverto facendo quello che mi piace; rubo le Lamborghini e le Ferrari ai negozi, vado ai go kart, in discoteca...!
+1	Alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	notti	notte	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+3	quando	quando	SCONJ	CS	_	7	mark	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	buono	buono	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	umore	umore	NOUN	S	Gender=Masc|Number=Sing	2	advcl	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	diverto	divrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+10	facendo	fare	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	16	punct	_	_
+16	rubo	rubo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	Lamborghini	Lamborghini	PROPN	SP	_	16	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	Ferrari	Ferrari	PROPN	SP	_	18	conj	_	_
+22-23	ai	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	negozi	negozio	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	2	punct	_	_
+26	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+27-28	ai	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	go	go	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	kart	kart	NOUN	S	Gender=Masc	29	compound	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	discoteca...	discoteca...	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+34	!	!	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 21
+# text = Sono ancora un ragazzo e mi diverte fare queste cose.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ancora	ancora	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	diverte	diverto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Infine mi piace essere un fantasma.
+1	Infine	infine	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	3	csubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Ogni notte vado a visitare il mio stadio e la rampa dove purtroppo sono morto, ripensavo sempre al mio pubblico e alle luci, erano la mia vita, che ormai non esiste più...
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	notte	notte	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	visitare	visitare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rampa	rampa	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+12	dove	dove	ADV	B	_	15	advmod	_	_
+13	purtroppo	purtroppo	ADV	B	_	15	advmod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	ripensavo	ripensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+18	sempre	sempre	ADV	B	_	17	advmod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24-25	alle	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	luci	luce	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	31	cop	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+34	ormai	ormai	ADV	B	_	36	advmod	_	_
+35	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+36	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+37	più	più	ADV	B	_	36	advmod	_	SpaceAfter=No
+38	..	..	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

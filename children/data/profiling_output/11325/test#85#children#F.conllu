@@ -1,0 +1,325 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Lorenzo,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Lorenzo	Lorenzo	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = sono molto contenta della tua decisione dell’iscrizione nella mia scuola.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	iscrizione	iscrizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Qui ci sono tantissimi bravi insegnanti che correggono gli errori degli alunni e che insegnano per loro.
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tantissimi	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+5	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	insegnanti	insegnante	NOUN	S	Number=Plur	3	nsubj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	correggono	correggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	errori	errore	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	alunni	alunno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	insegnano	insegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = In questa scuola ho scritto temi in classe che sono fantasiosi e abbastanza difficili, ma non ti preoccupare perché quando hai difficoltà quindi quando non ti riquadra qualcosa la professoressa di italiano che è molto brava a insegnare, è sempre disponibile ad aiutarti.
+1	In	in	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	temi	tema	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	classe	classe	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	fantasiosi	fantasioso	ADJ	A	Gender=Masc|Number=Plur	6	acl:relcl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	abbastanza	abbastanza	ADV	B	_	14	advmod	_	_
+14	difficili	difficile	ADJ	A	Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	ma	ma	CCONJ	CC	_	19	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	19	iobj	_	_
+19	preoccupare	preoccuparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+20	perché	perché	SCONJ	CS	_	43	mark	_	_
+21	quando	quando	SCONJ	CS	_	22	mark	_	_
+22	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	43	advcl	_	_
+23	difficoltà	difficoltà	NOUN	S	Gender=Fem	22	obj	_	_
+24	quindi	quindi	ADV	B	_	43	advmod	_	_
+25	quando	quando	SCONJ	CS	_	28	mark	_	_
+26	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+27	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	28	expl	_	_
+28	riquadra	riquadrare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	advcl	_	_
+29	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	28	obj	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+35	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	molto	molto	ADV	B	_	37	advmod	_	_
+37	brava	bravare	ADJ	A	Gender=Fem|Number=Sing	31	acl:relcl	_	_
+38	a	a	ADP	E	_	39	mark	_	_
+39	insegnare	insegnare	VERB	V	VerbForm=Inf	37	advcl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	28	punct	_	_
+41	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+42	sempre	sempre	ADV	B	_	43	advmod	_	_
+43	disponibile	disponibile	ADJ	A	Number=Sing	19	advcl	_	_
+44	ad	a	ADP	E	_	45	case	_	_
+45	aiutarti	aiutarto	NOUN	S	Gender=Masc|Number=Plur	43	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Per prendere un bel voto in un tema devi rispettare delle regole:
+1	Per	per	ADP	E	_	2	mark	_	_
+2	prendere	prendere	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bel	bello	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	voto	voto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tema	tema	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+9	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	rispettare	rispettare	VERB	V	VerbForm=Inf	0	root	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	regole	regola	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 6
+# text = prima di tutto l’ortografia quindi devi formulare bene le frasi e devi stare attento alla punteggiatura.
+1	prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ortografia	ortografia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	quindi	quindi	ADV	B	_	8	advmod	_	_
+7	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	formulare	formulare	VERB	V	VerbForm=Inf	0	root	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	stare	stare	VERB	V	VerbForm=Inf	8	conj	_	_
+15	attento	attento	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	punteggiatura	punteggiatura	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = È molto importante è l’aderenza alla traccia quindi il contenuto deve riguardare la traccia, perché sennò fai fuori tema quindi prendi l’insufficenza anche se hai rispettato tutte le altre regole come l’ortografia, la sintassi…
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	aderenza	aderenza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+10	quindi	quindi	ADV	B	_	14	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	riguardare	riguardare	VERB	V	VerbForm=Inf	6	acl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	perché	perché	SCONJ	CS	_	20	mark	_	_
+19	sennò	sennare	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	nsubj	_	_
+20	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+21	fuori	fuori	ADV	B	_	20	advmod	_	_
+22	tema	tema	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+23	quindi	quindi	ADV	B	_	24	advmod	_	_
+24	prendi	prendere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	insufficenza	insufficenza	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	anche	anche	ADV	B	_	30	mark	_	_
+28	se	se	SCONJ	CS	_	27	fixed	_	_
+29	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	rispettato	rispettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+31	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	34	det:predet	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+33	altre	altro	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	_
+34	regole	regola	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+35	come	come	ADP	E	_	37	case	_	_
+36	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	ortografia	ortografia	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	39	punct	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	advcl	_	_
+40	sintassi…	sintassi…	PUNCT	FF	_	24	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = È molto importante anche la sintassi cioè la struttura delle frasi quindi devi collegarli bene.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sintassi	sintasso	NOUN	S	Gender=Fem	3	nsubj	_	_
+7	cioè	cioè	ADV	B	_	9	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	frasi	fraso	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	quindi	quindi	ADV	B	_	15	advmod	_	_
+14	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-16	collegarli	_	_	_	_	_	_	_	_
+15	collegar	collegare	VERB	V	VerbForm=Inf	12	acl	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	bene	bene	ADV	B	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Devi stare attento soprattutto ai verbi perché è molto frequente.
+1	Devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	stare	stare	VERB	V	VerbForm=Inf	0	root	_	_
+3	attento	attento	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	soprattutto	soprattutto	ADV	B	_	7	advmod	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	verbi	verbo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	perché	perché	SCONJ	CS	_	11	mark	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	frequente	frequente	ADJ	A	Number=Sing	2	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Per prendere un voto alto ti consiglio di approfondire il tuo tema rielaborandolo personalmente.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	prendere	prendere	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	voto	voto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	alto	alto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+7	consiglio	consiglio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	approfondire	approfondire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	tema	tema	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13-14	rielaborandolo	_	_	_	_	_	_	_	_
+13	rielaborando	rielaborare	VERB	V	VerbForm=Ger	9	advcl	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	personalmente	personalmente	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = È meglio scriverlo in ordine e di scrivere in corsivo perché se non è scritto in questa scrittura il tuo tema non può essere corretto.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	meglio	meglio	ADV	B	_	3	advmod	_	_
+3-4	scriverlo	_	_	_	_	_	_	_	_
+3	scriver	scrivere	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	scrivere	scrivere	VERB	V	VerbForm=Inf	3	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	corsivo	corsivo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	perché	perché	SCONJ	CS	_	26	mark	_	_
+13	se	se	SCONJ	CS	_	16	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	tema	tema	NOUN	S	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+23	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+24	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	essere	essere	AUX	VA	VerbForm=Inf	26	aux:pass	_	_
+26	corretto	corretto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = È l’ultima cosa che ti consiglio è di leggere attentamente la correzione dell’insegnante che è molto importante e che ti aiuta a non sbagliare ripetutamente.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+7	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	leggere	leggere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+11	attentamente	attento	ADV	B	_	10	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	correzione	correzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14-15	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	insegnante	insegnante	NOUN	S	Number=Sing	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	molto	molto	ADV	B	_	20	advmod	_	_
+20	importante	importante	ADJ	A	Number=Sing	16	acl:relcl	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	24	obj	_	_
+24	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+25	a	a	ADP	E	_	27	mark	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	sbagliare	sbagliare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+28	ripetutamente	ripetutamente	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Spero che questa lettera sia stata utile e tanti saluti.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	utile	utile	ADJ	A	Number=Sing	1	ccomp	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

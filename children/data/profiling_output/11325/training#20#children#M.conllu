@@ -1,0 +1,451 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I bambini felici
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	felici	felice	ADJ	A	Number=Plur	2	amod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Tutti i ricchi pensavano di non avere problemi, ma non è stato sempre cosi.
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ricchi	ricco	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	pensavano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	avere	avere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	cosi	coso	ADJ	A	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Tutto era cominciato quando i meno fortunati di noi vedevano ogni giorno quelli più ricchi che mangiavano molto bene e speravano che lasciassero gli avanzi.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	quando	quando	SCONJ	CS	_	10	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	meno	meno	ADV	B	_	7	advmod	_	_
+7	fortunati	fortunato	ADJ	A	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+10	vedevano	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	10	obj	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	ricchi	ricco	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	mangiavano	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+18	molto	molto	ADV	B	_	19	advmod	_	_
+19	bene	bene	ADV	B	_	17	advmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	speravano	sperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+22	che	che	SCONJ	CS	_	23	mark	_	_
+23	lasciassero	lasciare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	ccomp	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	avanzi	avanzo	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Però un figlio dei ricchi di nome Federico gli faceva pena e cosi ogni giorno di nascosto prendeva del cibo e glielo portava, dopo un po’ di tempo si fece nuovi amici molto simpatici soprattutto uno di nome Giancarlo, però tutti lo chiamavano Carlo.
+1	Però	però	ADV	B	_	11	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ricchi	ricco	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	nome	nome	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	Federico	Federico	PROPN	SP	_	8	nmod	_	_
+10	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	pena	pena	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	cosi	coso	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24-25	glielo	_	_	_	_	_	_	_	_
+24	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	iobj	_	_
+25	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+26	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	dopo	dopo	ADP	E	_	34	mark	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	po’	poco	ADV	B	_	34	advmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+34	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	advcl	_	_
+35	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+36	amici	amico	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+37	molto	molto	ADV	B	_	38	advmod	_	_
+38	simpatici	simpatico	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+39	soprattutto	soprattutto	ADV	B	_	40	advmod	_	_
+40	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	26	nsubj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	nome	nome	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+43	Giancarlo	Giancarlo	PROPN	SP	_	42	flat:name	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	26	punct	_	_
+45	però	però	ADV	B	_	48	advmod	_	_
+46	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	48	nsubj	_	_
+47	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	obj	_	_
+48	chiamavano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	conj	_	_
+49	Carlo	Carlo	PROPN	SP	_	48	xcomp	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Dopo un po’ di tempo i genitori cominciarono ad insospettirsi, quindi ingaggiarono un detective per spiarlo.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po’	poco	ADV	B	_	5	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	cominciarono	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	ad	a	ADP	E	_	10	mark	_	_
+10-11	insospettirsi	_	_	_	_	_	_	_	SpaceAfter=No
+10	insospettir	insospettire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	quindi	quindi	ADV	B	_	14	advmod	_	_
+14	ingaggiarono	ingaggiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	detective	detectiva	NOUN	S	Gender=Masc	14	obj	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18-19	spiarlo	_	_	_	_	_	_	_	SpaceAfter=No
+18	spiar	spiare	VERB	V	VerbForm=Inf	14	advcl	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Allora, ogni volta che usciva il figlio lui lo seguiva ma Federico non si era insospettito, e quando arrivò dai bimbi e gli diede da mangiare allora il detective si inteneri mentre vide i bimbi cosi felici e usci allo scoperto e gli disse:
+1	Allora	allora	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	usciva	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	seguiva	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	ma	ma	CCONJ	CC	_	17	cc	_	_
+13	Federico	Federico	PROPN	SP	_	17	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	insospettito	insospettire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	quando	quando	SCONJ	CS	_	21	mark	_	_
+21	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+22-23	dai	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	bimbi	bimbio	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+27	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+28	da	da	ADP	E	_	29	mark	_	_
+29	mangiare	mangiare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	allora	allora	ADV	B	_	27	advmod	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	detective	detectiva	NOUN	S	Gender=Masc	34	nsubj	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+34	inteneri	intenero	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+35	mentre	mentre	SCONJ	CS	_	36	mark	_	_
+36	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	advcl	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	36	obj	_	_
+39	cosi	coso	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	_
+40	felici	felice	ADJ	A	Number=Plur	38	amod	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	usci	ure	ADJ	A	Gender=Masc|Number=Plur	40	conj	_	_
+43-44	allo	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	45	case	_	_
+44	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	scoperto	scoperto	ADJ	A	Gender=Masc|Number=Sing	40	obl	_	_
+46	e	e	CCONJ	CC	_	48	cc	_	_
+47	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	iobj	_	_
+48	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+49	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 7
+# text = «Cia io mi chiamo Massimo e non mi ero accorto che meno fortunati non erano trattati molto bene.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Cia	Cia	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	Massimo	Massimo	PROPN	SP	_	5	obj	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	expl	_	_
+10	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	accorto	accorgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	meno	meno	ADV	B	_	14	advmod	_	_
+14	fortunati	fortunato	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	_
+17	trattati	trattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	xcomp	_	_
+18	molto	molto	ADV	B	_	19	advmod	_	_
+19	bene	bene	ADV	B	_	17	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Federico ora capi perché esci sempre di casa, per aiutare i bimbi» Da quel giorno Federico e Massimo incominciarono a dare il cibo.
+1	Federico	Federire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ora	ora	ADV	B	_	1	advmod	_	_
+3	capi	cape	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	perché	perché	SCONJ	CS	_	5	mark	_	_
+5	esci	escere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+6	sempre	sempre	ADV	B	_	5	advmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	aiutare	aiutare	VERB	V	VerbForm=Inf	21	advcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	»	»	PUNCT	FB	_	11	punct	_	_
+15	Da	da	ADP	E	_	17	case	_	_
+16	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+18	Federico	Federico	PROPN	SP	_	21	nsubj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Massimo	Massimo	PROPN	SP	_	18	conj	_	_
+21	incominciarono	incominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	dare	dare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Però Carlo ma non si fidava molto allora lo segui ogni volta.
+1	Però	però	ADV	B	_	6	advmod	_	_
+2	Carlo	Carlo	PROPN	SP	_	6	nsubj	_	_
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	fidava	fidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	molto	molto	ADV	B	_	10	advmod	_	_
+8	allora	allora	ADV	B	_	10	advmod	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	segui	seguire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Dopo settimane Massimo si era scordato perché doveva seguire Federico e alla fine se lo ricordo che i genitori l’avevano ingaggiato per vedere che faceva il figlio.
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+3	Massimo	Massimo	PROPN	SP	_	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	scordato	scordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	perché	perché	SCONJ	CS	_	9	mark	_	_
+8	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	seguire	seguire	VERB	V	VerbForm=Inf	6	advcl	_	_
+10	Federico	Federico	PROPN	SP	_	9	obj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fine	fine	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+15	se	se	SCONJ	CS	_	17	mark	_	_
+16	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ricordo	ricordare	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+21	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+22	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	ingaggiato	ingaggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	vedere	vedere	VERB	V	VerbForm=Inf	23	advcl	_	_
+26	che	che	SCONJ	CS	_	27	mark	_	_
+27	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	ccomp	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Massimo però senti che qualcosa lo stesse fissando e allora si volto di colpo, ma gniente.
+1	Massimo	Massimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	però	però	ADV	B	_	3	advmod	_	_
+3	senti	sentire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	8	nsubj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	stesse	stare	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	fissando	fissare	VERB	V	VerbForm=Ger	3	ccomp	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	allora	allora	ADV	B	_	12	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	volto	volgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	gniente	gniente	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Carlo era bravo ha nascondersi infatti nessuno riusciva a vederlo.
+1	Carlo	Carlo	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5-6	nascondersi	_	_	_	_	_	_	_	_
+5	nasconder	nascondere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	obj	_	_
+7	infatti	infatti	ADV	B	_	4	advmod	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+9	riusciva	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11-12	vederlo	_	_	_	_	_	_	_	SpaceAfter=No
+11	veder	vedere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Massimo andò dai genitori e gli disse:
+1	Massimo	Massimo	PROPN	SP	_	2	nsubj	_	_
+2	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	dai	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = «Vostro figlio quando esce va ha giocare con gli amici al parco»;
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	quando	quando	SCONJ	CS	_	5	mark	_	_
+5	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	giocare	giocare	VERB	V	VerbForm=Inf	7	obj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	parco	parco	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 15
+# text = i genitori erano sorpresi perché lui non trovava quasi mai amici, quindi volettero congratularsi con lui, però Carlo aveva solo visto Massimo lavorava con i genitori.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	sorpresi	sorprendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	perché	perché	SCONJ	CS	_	8	mark	_	_
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+9	quasi	quasi	ADV	B	_	10	advmod	_	_
+10	mai	mai	ADV	B	_	8	advmod	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	quindi	quindi	ADV	B	_	14	advmod	_	_
+14	volettero	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+15-16	congratularsi	_	_	_	_	_	_	_	_
+15	congratular	congratulare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	però	però	ADV	B	_	24	advmod	_	_
+21	Carlo	Carlo	PROPN	SP	_	24	nsubj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+23	solo	solo	ADV	B	_	24	advmod	_	_
+24	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+25	Massimo	Massimo	PROPN	SP	_	24	obj	_	_
+26	lavorava	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Allora Carlo andò da Federico che gli aveva portato il pranzo ma prima di mangiare Carla racconta tutto quello che aveva visto, dopo aver sentito tutto Federico scappò via, purtroppo fu preso dai genitori mentre scappava e lo portarono a casa.
+1	Allora	allora	PROPN	SP	_	3	nsubj	_	_
+2	Carlo	Carlo	PROPN	SP	_	1	flat:name	_	_
+3	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Federico	Federico	PROPN	SP	_	3	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	ma	ma	CCONJ	CC	_	17	cc	_	_
+13	prima	prima	ADV	B	_	15	mark	_	_
+14	di	di	ADP	E	_	13	fixed	_	_
+15	mangiare	mangiare	VERB	V	VerbForm=Inf	17	advcl	_	_
+16	Carla	Carla	PROPN	SP	_	15	obj	_	_
+17	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	22	obj	_	_
+21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	dopo	dopo	SCONJ	CS	_	26	mark	_	_
+25	aver	avere	AUX	VA	VerbForm=Inf	26	aux	_	_
+26	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	_
+27	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	28	det	_	_
+28	Federico	Federico	PROPN	SP	_	29	nsubj	_	_
+29	scappò	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+30	via	via	ADV	B	_	3	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	purtroppo	purtroppo	ADV	B	_	34	advmod	_	_
+33	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	aux:pass	_	_
+34	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+35-36	dai	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+38	mentre	mentre	SCONJ	CS	_	39	mark	_	_
+39	scappava	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	advcl	_	_
+40	e	e	CCONJ	CC	_	42	cc	_	_
+41	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
+42	portarono	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	39	conj	_	_
+43	a	a	ADP	E	_	44	case	_	_
+44	casa	casa	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

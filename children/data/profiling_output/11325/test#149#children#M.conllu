@@ -1,0 +1,435 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro ragazzo io non sono mai stato uno buono scrittore, infatti non prendo mai voti più alti del sei e mezzo.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+6	mai	mai	ADV	B	_	10	advmod	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	buono	buono	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	infatti	infatti	CCONJ	CC	_	14	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	prendo	prendere	VERB	V	VerbForm=Ger	10	conj	_	_
+15	mai	mai	ADV	B	_	14	advmod	_	_
+16	voti	voto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	alti	alto	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sei	sei	NUM	N	NumType=Card	18	obl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Ora io dovrei scriverti su come la nostra professoressa di italiano valuta i nostri temi.
+1	Ora	ora	ADV	B	_	4	advmod	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	scriverti	_	_	_	_	_	_	_	_
+4	scriver	scrivere	VERB	V	VerbForm=Inf	0	root	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+6	su	su	ADP	E	_	13	mark	_	_
+7	come	come	SCONJ	CS	_	6	fixed	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	valuta	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	temi	tema	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = io, di solito, scrivo due mezze pagine, e quando mi riconsegna il tema, ritrovo il foglio, un tempo bianco e blu, pieno di cancellature rosse, spesso sulle forme verbali, sulle ripetizioni e sul lessico, molto spesso, inoltre, il mio contenuto è pertinente.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	solito	solito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	56	advcl	_	_
+7	due	due	NUM	N	NumType=Card	9	nummod	_	_
+8	mezze	mezzo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	quando	quando	SCONJ	CS	_	14	mark	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	riconsegna	riconsegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tema	tema	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	ritrovo	ritrovare	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	foglio	foglio	NOUN	S	Gender=Masc|Number=Sing	56	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+24	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	blu	blu	ADJ	A	_	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	cancellature	cancellatura	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+31	rosse	rosso	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	spesso	spesso	ADV	B	_	36	advmod	_	_
+34-35	sulle	_	_	_	_	_	_	_	_
+34	su	su	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	forme	forma	NOUN	S	Gender=Fem|Number=Plur	30	conj	_	_
+37	verbali	verbale	ADJ	A	Number=Plur	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	41	punct	_	_
+39-40	sulle	_	_	_	_	_	_	_	_
+39	su	su	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	ripetizioni	ripetizione	NOUN	S	Gender=Fem|Number=Plur	30	conj	_	_
+42	e	e	CCONJ	CC	_	45	cc	_	_
+43-44	sul	_	_	_	_	_	_	_	_
+43	su	su	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	20	punct	_	_
+47	molto	molto	ADV	B	_	48	advmod	_	_
+48	spesso	spesso	ADV	B	_	20	advmod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	20	punct	_	_
+50	inoltre	inoltre	ADV	B	_	56	advmod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	50	punct	_	_
+52	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+53	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	54	det:poss	_	_
+54	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	56	nsubj	_	_
+55	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+56	pertinente	pertinente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	56	punct	_	_
+
+# sent_id = 4
+# text = Ogni volta che ci corregge un tema, la professoressa scrive un commento personale sul retro del foglio, dove ci dice i nostri errori e i suoi commenti:
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	corregge	correggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tema	tema	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	commento	commento	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	personale	personale	ADJ	A	Number=Sing	13	amod	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	retro	retro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	foglio	foglio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	dove	dove	ADV	B	_	24	advmod	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	iobj	_	_
+24	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	errori	errore	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 5
+# text = contenuto pertinente, lessico non sempre appropriato e calligrafia leggibile.
+1	contenuto	contenere	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+2	pertinente	pertinente	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	lessico	lessico	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	appropriato	appropriato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	calligrafia	calligrafia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+10	leggibile	leggibile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Spesso la professoressa ci da tre tracce , di qui una o due sono delle tracce prese dai brani che leggiamo e svolgiamo di antologia.
+1	Spesso	spesso	ADV	B	_	7	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	di	di	ADP	E	_	17	case	_	_
+10	qui	qui	ADV	B	_	17	advmod	_	_
+11	una	uno	NUM	N	NumType=Card	14	nsubj	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	due	due	NUM	N	NumType=Card	11	conj	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+18	prese	prendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19-20	dai	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	brani	brano	NOUN	S	Gender=Masc|Number=Plur	18	obl:agent	_	_
+22	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+23	leggiamo	leggere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	svolgiamo	svolgere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	antologia	antologia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Io spesso la scelgo perché è dal mio punto di vista, la più semplice.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	spesso	spesso	ADV	B	_	4	advmod	_	_
+3	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	scelgo	scelgo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	perché	perché	SCONJ	CS	_	10	mark	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	advcl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vista	vista	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	semplice	semplice	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Quando scrivi devi sfogare la tua immaginazione e metterla sulla carta.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	scrivi	scrivo	ADV	B	_	4	advmod	_	_
+3	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sfogare	sfogare	VERB	V	VerbForm=Inf	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9-10	metterla	_	_	_	_	_	_	_	_
+9	metter	mettere	VERB	V	VerbForm=Inf	4	conj	_	_
+10	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	carta	carta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = La professoressa non conta la lunghezza del tema, ma guarda se è ben articolato.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lunghezza	lunghezza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tema	tema	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	ma	ma	CCONJ	CC	_	12	cc	_	_
+12	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	se	se	SCONJ	CS	_	16	mark	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	ben	bene	ADV	B	_	16	advmod	_	_
+16	articolato	articolare	ADJ	A	Gender=Masc|Number=Sing	12	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Per avere un buon voto bisogna essere:
+1	Per	per	ADP	E	_	2	mark	_	_
+2	avere	avere	VERB	V	VerbForm=Inf	6	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	buon	buono	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	voto	voto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	essere	essere	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 11
+# text = pertinenti alla traccia, devi usare una calligrafia leggibile, usare un lessico appropriato, bisogna sempre usare la stessa forma verbale e bisogna usare la corretta punteggiatura.
+1	pertinenti	pertinere	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	calligrafia	calligrafia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	leggibile	leggibile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	usare	usare	VERB	V	VerbForm=Inf	7	conj	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	appropriato	appropriato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	sempre	sempre	ADV	B	_	17	advmod	_	_
+19	usare	usare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	forma	forma	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+23	verbale	verbale	ADJ	A	Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+26	usare	usare	VERB	V	VerbForm=Inf	25	ccomp	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	corretta	corretto	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	punteggiatura	punteggiatura	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Essere pertinenti alla traccia serve molto perché, se non lo sei, perdi molti punti.
+1	Essere	essere	AUX	V	VerbForm=Inf	2	cop	_	_
+2	pertinenti	pertinente	ADJ	A	Number=Plur	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	molto	molto	ADV	B	_	6	advmod	_	_
+8	perché	perché	SCONJ	CS	_	17	mark	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	17	punct	_	_
+10	se	se	SCONJ	CS	_	17	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+12	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+13	sei	sei	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	perdi	perde	ADV	B	_	17	advmod	_	_
+16	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	punti	punto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Usare il lessico appropriato serve a non scrivere le ripetizioni e quindi ad imparare le forme della lingua.
+1	Usare	usare	VERB	V	VerbForm=Inf	5	csubj	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	appropriato	appropriato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	scrivere	scrivere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	ripetizioni	ripetizione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	quindi	quindi	ADV	B	_	14	advmod	_	_
+13	ad	a	ADP	E	_	14	mark	_	_
+14	imparare	imparare	VERB	V	VerbForm=Inf	10	conj	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	forme	forma	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Usare una calligrafia leggibile aiuta il lettore a leggere più facilmente.
+1	Usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	calligrafia	calligrafia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	leggibile	leggibile	ADJ	A	Number=Sing	3	amod	_	_
+5	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lettore	lettore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	leggere	leggere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	facilmente	facilmente	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Usare la stessa forma verbale serve a tenere il ritmo del tema e quindi una forma lineare corretta.
+1	Usare	usare	VERB	V	VerbForm=Inf	6	csubj	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	forma	forma	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	verbale	verbale	ADJ	A	Number=Sing	4	amod	_	_
+6	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	tenere	tenere	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ritmo	ritmo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tema	tema	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	quindi	quindi	ADV	B	_	17	advmod	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	forma	forma	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+18	lineare	lineare	ADJ	A	Number=Sing	17	amod	_	_
+19	corretta	corretto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Usare una corretta punteggiatura serve a dare una giusta intonazione al lettore, a non affaticarlo e a dare un senso compiuto alla frase scritta.
+1	Usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	corretta	corretto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	punteggiatura	punteggiatura	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	dare	dare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	intonazione	intonazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	lettore	lettore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	a	a	ADP	E	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17-18	affaticarlo	_	_	_	_	_	_	_	_
+17	affaticar	affaticare	VERB	V	VerbForm=Inf	5	conj	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	dare	dare	VERB	V	VerbForm=Inf	17	conj	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	senso	senso	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	compiuto	compiere	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25-26	alla	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	frase	frase	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+28	scritta	scritto	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Buon anno scolastico, studia e divertiti!
+1	Buon	buono	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	scolastico	scolastico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	studia	studiare	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	divertiti	divertire	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
