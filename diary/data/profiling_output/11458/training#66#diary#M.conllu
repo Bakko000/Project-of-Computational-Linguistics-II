@@ -1,0 +1,327 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: andrea@...
+1	From	from	ADP	IN	_	3	case	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	andrea@	andrea@	SYM	NFP	_	4	obl	_	SpaceAfter=No
+4	...	...	PUNCT	.	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date: Wed Oct 9 10:14:35 1996
+1	Date	date	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Wed	we	PROPN	NNP	Number=Sing	1	appos	_	_
+4	Oct	Oct	PROPN	NNP	Number=Sing	3	flat	_	_
+5	9	9	NUM	CD	NumType=Card	1	appos	_	_
+6	10:14:35	10:14:35	NUM	CD	NumType=Card	7	nummod	_	_
+7	1996	1996	NUM	CD	NumType=Card	5	nmod:tmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Subject: Lecce cha cha cha
+1	Subject	subject	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Lecce	Lecce	PROPN	NNP	Number=Sing	5	compound	_	_
+4	cha	cha	NOUN	NN	Number=Sing	5	compound	_	_
+5	cha	cha	NOUN	NN	Number=Sing	1	appos	_	_
+6	cha	cha	NOUN	NN	Number=Sing	1	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Il campionato è lungo e, come tutti sanno, la palla è rotonda, e non si può mai dire, nel calcio.
+1	Il	Il	PROPN	NNP	Number=Sing	2	compound	_	_
+2	campionato	campionato	NOUN	NN	Number=Sing	3	compound	_	_
+3	è	è	NOUN	NN	Number=Sing	4	compound	_	_
+4	lungo	lungo	NOUN	NN	Number=Sing	5	compound	_	_
+5	e	e	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	5	appos	_	_
+8	tutti	tutti	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	7	obj	_	_
+9	sanno	sanno	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	la	la	NOUN	NN	Number=Sing	12	compound	_	_
+12	palla	palla	NOUN	NN	Number=Sing	14	compound	_	_
+13	è	è	NOUN	NN	Number=Sing	14	compound	_	_
+14	rotonda	rotonda	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	_
+16	e	e	X	GW	_	19	goeswith	_	_
+17	non	non	X	FW	Foreign=Yes	19	goeswith	_	_
+18	si	si	X	AFX	_	19	goeswith	_	_
+19	può	può	NOUN	NN	Number=Sing	21	compound	_	_
+20	mai	maus	NOUN	NN	Number=Sing	21	compound	_	_
+21	dire	dire	NOUN	NN	Number=Sing	5	list	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	5	punct	_	_
+23	nel	nel	NOUN	NN	Number=Sing	24	compound	_	_
+24	calcio	calcio	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Per il momento rimane la cruda realtà e devo accontentarmi di un faticato successo con il Cosenza, dopo aver rischiato di perdere in casa con il Barimerda.
+1	Per	per	ADP	IN	_	7	case	_	_
+2	il	il	NOUN	NN	Number=Sing	3	compound	_	_
+3	momento	momento	NOUN	NN	Number=Sing	5	compound	_	_
+4	rimane	rimane	NUM	CD	NumType=Card	3	nummod	_	_
+5	la	la	NOUN	NN	Number=Sing	6	compound	_	_
+6	cruda	cruda	NOUN	NN	Number=Sing	7	compound	_	_
+7	realtà	realtà	NOUN	NN	Number=Sing	15	nmod	_	_
+8	e	e	X	GW	_	15	goeswith	_	_
+9	devo	devo	X	FW	Foreign=Yes	15	goeswith	_	_
+10	accontentarmi	accontentarmi	X	AFX	_	15	goeswith	_	_
+11	di	di	X	AFX	_	15	goeswith	_	_
+12	un	un	X	GW	_	15	goeswith	_	_
+13	faticato	faticato	X	AFX	_	15	goeswith	_	_
+14	successo	successo	X	FW	Foreign=Yes	15	goeswith	_	_
+15	con	con	NOUN	NN	Number=Sing	0	root	_	_
+16	il	ill	ADP	IN	Typo=Yes	17	case	_	_
+17	Cosenza	Cosenza	PROPN	NNP	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
+19	dopo	dopo	X	FW	Foreign=Yes	23	amod	_	_
+20	aver	aver	X	AFX	_	21	compound	_	_
+21	rischiato	rischiato	NOUN	NN	Number=Sing	23	compound	_	_
+22	di	di	NOUN	NN	Number=Sing	23	compound	_	_
+23	perdere	perdere	NOUN	NN	Number=Sing	15	appos	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	casa	casa	NOUN	NN	Number=Sing	26	compound	_	_
+26	con	con	NOUN	NN	Number=Sing	23	nmod	_	_
+27	il	ill	ADP	IN	Typo=Yes	28	case	_	_
+28	Barimerda	Barimerda	PROPN	NNP	Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 6
+# text = Oltretutto, sembra che il Toro giochi sempre peggio, di partita in partita.
+1	Oltretutto	Oltretutto	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	sembra	sembra	INTJ	UH	_	6	discourse	_	_
+4	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	il	il	AUX	MD	Typo=Yes|VerbForm=Fin	6	cop	_	_
+6	Toro	Toro	PROPN	NNP	Number=Sing	0	root	_	_
+7	giochi	giochi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	8	nsubj	_	_
+8	sempre	sempre	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	peggio	peggio	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	di	dus	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	partita	partita	NOUN	NN	Number=Sing	6	appos	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	partita	partita	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Secondo me non hanno azzeccato la preparazione atletica.
+1	Secondo	Secondo	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	non	non	X	FW	Foreign=Yes	6	goeswith	_	_
+4	hanno	hanno	X	FW	Foreign=Yes	6	goeswith	_	_
+5	azzeccato	azzeccato	X	AFX	_	6	goeswith	_	_
+6	la	la	NOUN	NN	Number=Sing	8	conj	_	_
+7	preparazione	preparazione	NUM	CD	NumType=Card	8	nummod	_	_
+8	atletica	atletica	NOUN	NN	Number=Sing	1	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Probabilmente li avrai già trovati da solo, ma a livello internet sono reperibili “C siamo” e “A tutta B” (non credo però che sia possibile procurarsi le sigle e le facce di Gianni Vasino e Mariolino Corso, indimenticati opinion meichers).
+1	Probabilmente	Probabilment	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	li	lus	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	6	nmod:poss	_	_
+3	avrai	avrai	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	già	già	NOUN	NN	Number=Sing	5	compound	_	_
+5	trovati	trovati	NOUN	NN	Number=Sing	6	compound	_	_
+6	da	day	NOUN	NN	Number=Sing	1	obj	_	_
+7	solo	solo	ADV	RB	_	1	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	_
+9	ma	ma	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	livello	livello	NOUN	NN	Number=Sing	12	compound	_	_
+12	internet	internet	NOUN	NN	Number=Sing	1	obl	_	_
+13	so	so	ADV	RB	_	15	advmod	_	SpaceAfter=No
+14	no	no	DET	DT	_	15	det	_	_
+15	reperibili	reperibili	NOUN	NN	Number=Sing	1	parataxis	_	_
+16	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+17	C	class	NOUN	NN	Number=Sing	18	compound	_	_
+18	siamo	siamo	NOUN	NN	Number=Sing	15	appos	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	18	punct	_	_
+20	e	e	X	GW	_	23	goeswith	_	_
+21	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+22	A	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	tut	tut	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+24	ta	of	ADP	IN	Abbr=Yes	25	case	_	_
+25	B	B	PROPN	NNP	Number=Sing	23	nmod	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	15	punct	_	_
+27	(	(	PUNCT	-LRB-	_	30	punct	_	SpaceAfter=No
+28	non	non	X	AFX	_	30	goeswith	_	_
+29	credo	credo	X	AFX	_	30	goeswith	_	_
+30	però	però	NOUN	NN	Number=Sing	31	compound	_	_
+31	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	appos	_	_
+32	sia	sia	X	FW	Foreign=Yes	39	goeswith	_	_
+33	possibile	possibile	X	GW	_	39	goeswith	_	_
+34	procurarsi	procurarsi	X	AFX	_	39	goeswith	_	_
+35	le	le	X	GW	_	39	goeswith	_	_
+36	sigle	sigle	X	GW	_	39	goeswith	_	_
+37	e	e	X	GW	_	39	goeswith	_	_
+38	le	le	X	GW	_	39	goeswith	_	_
+39	facce	facce	NOUN	NN	Number=Sing	31	appos	_	_
+40	di	di	NOUN	NN	Number=Sing	41	compound	_	_
+41	Gianni	Gianni	PROPN	NNP	Number=Sing	39	compound	_	_
+42	Vasino	Vasino	PROPN	NNP	Number=Sing	41	flat	_	_
+43	e	e	ADP	IN	_	45	case	_	_
+44	Mariolino	Mariolino	PROPN	NNP	Number=Sing	45	compound	_	_
+45	Corso	Corso	PROPN	NNP	Number=Sing	41	flat	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	39	punct	_	_
+47	indimenticati	indimenticati	ADJ	JJ	Degree=Pos	49	amod	_	_
+48	opinion	opinion	NOUN	NN	Number=Sing	49	compound	_	_
+49	meichers	meicher	NOUN	NNS	Number=Plur	39	appos	_	SpaceAfter=No
+50	)	)	PUNCT	-RRB-	_	39	punct	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Ho ricevuto sporadiche notizie sul tuo Albionico soggiorno, ma credo mi manchi qualche pezzo.
+1	Ho	Ho	INTJ	UH	_	3	discourse	_	_
+2	ricevuto	ricevuto	INTJ	UH	_	3	discourse	_	_
+3	sporadiche	sporadiche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4	notizie	notizie	X	FW	_	3	parataxis	_	_
+5	sul	sul	X	FW	Foreign=Yes	4	goeswith	_	_
+6	tuo	tuo	X	FW	Foreign=Yes	4	goeswith	_	_
+7	Albionico	Albionico	X	FW	Foreign=Yes	4	goeswith	_	_
+8	soggiorno	soggiorno	X	FW	Foreign=Yes	4	goeswith	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	ma	ma	X	AFX	_	13	goeswith	_	_
+11	credo	credo	X	AFX	_	13	goeswith	_	_
+12	mi	mi	X	LS	_	13	goeswith	_	_
+13	manchi	manchi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	15	conj	_	_
+14	qualche	qualche	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	pezzo	pezzo	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Soprattutto, non so come ti trovi lì e se tutto fila liscio.
+1	Soprattutto	Soprattutto	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	non	non	X	FW	Foreign=Yes	1	appos	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	ti	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	5	obj	_	_
+7	trovi	trovi	NUM	CD	NumType=Card	6	nummod	_	_
+8	lì	lì	NOUN	NN	Number=Sing	9	compound	_	_
+9	e	e	NOUN	NN	Number=Sing	11	compound	_	_
+10	se	se	NOUN	NN	Number=Sing	11	compound	_	_
+11	tutto	tutto	NOUN	NN	Number=Sing	6	appos	_	_
+12	fila	fila	NOUN	NN	Number=Sing	13	compound	_	_
+13	liscio	liscio	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = E' quello che cercavi?
+1	E	e	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	'	'	PUNCT	``	_	1	punct	_	_
+3	quello	quello	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+4	che	che	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	cercavi	cercavi	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = Hai trovato nuovi stimoli per l'esercizio della nostra nobile professione?
+1	Hai	Hai	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+2	trovato	trovato	X	AFX	_	10	goeswith	_	_
+3	nuovi	nuovi	X	AFX	_	10	goeswith	_	_
+4	stimoli	stimoli	X	AFX	_	10	goeswith	_	_
+5	per	per	X	GW	_	10	goeswith	_	_
+6	l'esercizio	l'esercizio	X	FW	Foreign=Yes	10	goeswith	_	_
+7	della	della	X	FW	Foreign=Yes	10	goeswith	_	_
+8	nostra	nostra	X	FW	Foreign=Yes	10	goeswith	_	_
+9	nobile	nobile	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	professione	professione	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 13
+# text = Come funziona la Regata?
+1	Come	come	PROPN	NNP	Number=Sing	2	compound	_	_
+2	funziona	funziona	PROPN	NNP	Number=Sing	0	root	_	_
+3	la	la	PROPN	NNP	Number=Sing	2	flat	_	_
+4	Regata	Regata	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = E' stato tradotto Fantozzi in Inglese?
+1	E	e	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	'	'	PUNCT	``	_	1	punct	_	_
+3	stato	stato	NOUN	NN	Number=Sing	1	obj	_	_
+4	tradotto	tradotto	ADP	IN	_	5	case	_	_
+5	Fantozzi	Fantozzi	PROPN	NNP	Number=Sing	1	obl	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Inglese	Inglese	PROPN	NNP	Number=Sing	1	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Ti raccomando di scrivermi messaggi che non richiedano più di tre minuti lordi per la lettura, dato che, come al solito, ho molto da fare.
+1	Ti	ti	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	2	nsubj	_	_
+2	raccomando	raccomando	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	scrivermi	scrivermi	NOUN	NN	Number=Sing	5	compound	_	_
+5	messaggi	messaggi	NOUN	NN	Number=Sing	2	obj	_	_
+6	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+7	non	non	X	FW	Foreign=Yes	9	goeswith	_	_
+8	richiedano	richiedano	X	FW	Foreign=Yes	9	goeswith	_	_
+9	più	più	NOUN	NN	Number=Sing	21	nsubj	_	_
+10	di	di	NOUN	NN	Number=Sing	11	compound	_	_
+11	tre	tre	NOUN	NN	Number=Sing	12	compound	_	_
+12	minuti	iminut	NOUN	NN	Number=Sing	13	compound	_	_
+13	lordi	lordi	NOUN	NN	Number=Sing	9	appos	_	_
+14	per	per	ADP	IN	_	16	case	_	_
+15	la	la	NOUN	NN	Number=Sing	16	compound	_	_
+16	lettura	lettura	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	9	punct	_	_
+18	dato	dato	NOUN	NN	Number=Sing	19	compound	_	_
+19	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	appos	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	9	punct	_	_
+21	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+22	al	al	ADV	RB	_	23	advmod	_	_
+23	solito	solitoo	ADV	RB	_	21	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	21	punct	_	_
+25	ho	ho	ADP	IN	_	28	case	_	_
+26	molto	molto	NOUN	NN	Number=Sing	27	compound	_	_
+27	da	day	NOUN	NN	Number=Sing	28	compound	_	_
+28	fare	fare	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Se non riesci a compattare i contenuti, prova ad eliminare le vocali.
+1	Se	se	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	non	non	X	AFX	_	3	goeswith	_	_
+3	riesci	riesci	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	5	obj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	compattare	compattare	NOUN	NN	Number=Sing	1	obl	_	_
+6	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	contenuti	contenuto	NOUN	NNS	Number=Plur	5	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	_
+9	prova	prova	INTJ	UH	_	10	discourse	_	_
+10	ad	ad	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+11	eliminare	eliminare	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	le	le	NOUN	NN	Number=Sing	13	compound	_	_
+13	vocali	vocali	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = E poi, tutto sommato, chemmenefregammè?
+1	E	e	ADP	IN	_	2	case	_	_
+2	poi	poi	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	tutto	tutto	NOUN	NN	Number=Sing	5	compound	_	_
+5	sommato	sommato	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	chemmenefregammè	chemmenefregammè	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = C
+1	C	class	X	LS	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Andrea
+1	Andrea	andrea	PROPN	NNP	Number=Sing	0	root	_	SpacesAfter=\n\n
+

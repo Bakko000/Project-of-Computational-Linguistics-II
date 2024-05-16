@@ -1,0 +1,362 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Brno 28 novembre 1989 ore 15
+1	Brno	Brno	PROPN	NNP	Number=Sing	0	root	_	_
+2	28	28	NUM	CD	NumType=Card	1	nummod	_	_
+3	novembre	novembre	ADV	WRB	PronType=Int	4	advmod	_	_
+4	1989	1989	NUM	CD	NumType=Card	1	nmod:tmod	_	_
+5	ore	ore	ADP	IN	_	6	case	_	_
+6	15	15	NUM	CD	NumType=Card	4	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Mia cara
+1	Mia	Mia	PROPN	NNP	Number=Sing	2	compound	_	_
+2	cara	cara	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = Athe,
+1	Athe	Athe	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = non riesco precisamente ricordarmi quanti giorni fa, ti ho mandato mia seconda lettera dopo la vostra partenza.
+1	non	non	X	FW	Foreign=Yes	7	goeswith	_	_
+2	riesco	riesco	X	FW	Foreign=Yes	7	goeswith	_	_
+3	precisamente	precisamente	X	ADD	_	7	goeswith	_	_
+4	ricordarmi	ricordarmi	X	AFX	_	7	goeswith	_	_
+5	quanti	quanti	X	AFX	_	7	goeswith	_	_
+6	giorni	giorni	NOUN	NN	Number=Sing	7	compound	_	_
+7	fa	fa	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	ti	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	18	nmod:poss	_	_
+10	ho	ho	X	AFX	_	18	goeswith	_	_
+11	mandato	mandato	X	AFX	_	10	goeswith	_	_
+12	mia	mia	X	FW	Foreign=Yes	10	goeswith	_	_
+13	seconda	seconda	X	FW	Foreign=Yes	10	goeswith	_	_
+14	lettera	lettera	X	FW	Foreign=Yes	10	flat:foreign	_	_
+15	dopo	dopo	X	FW	Foreign=Yes	18	goeswith	_	_
+16	la	la	X	FW	Foreign=Yes	18	goeswith	_	_
+17	vostra	vostra	X	FW	Foreign=Yes	18	goeswith	_	_
+18	partenza	partenza	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = La presente è lettera terza.
+1	La	la	PROPN	NNP	Number=Sing	3	compound	_	_
+2	presente	present	NOUN	NN	Number=Sing	3	compound	_	_
+3	è	è	NOUN	NN	Number=Sing	5	compound	_	_
+4	lettera	lettera	NOUN	NN	Number=Sing	5	compound	_	_
+5	terza	terza	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Sicuro sapete in Italia cosa tutti abbiamo vissuto in queste ore, in questi giorni.
+1	Sicuro	Sicuro	PROPN	NNP	Number=Sing	2	compound	_	_
+2	sapete	sapete	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	Italia	Italia	PROPN	NNP	Number=Sing	5	compound	_	_
+5	cosa	cosa	NOUN	NN	Number=Sing	6	compound	_	_
+6	tutti	tutti	NOUN	NN	Number=Sing	2	nmod	_	_
+7	abbiamo	abbiamo	ADP	IN	_	8	case	_	_
+8	vissuto	vissuto	NOUN	NN	Number=Sing	2	nmod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	queste	queste	NOUN	NN	Number=Sing	2	nmod	_	_
+11	ore	ore	ADV	RB	_	2	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	questi	questi	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	giorni	giorni	NOUN	NNS	Number=Plur	2	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Sono i giorni pieni della felicità, grande speranza, ma anche grande paura.
+1	So	so	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	no	no	DET	DT	_	7	det	_	_
+3	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	giorni	giorni	ADJ	JJ	Degree=Pos	7	amod	_	_
+5	pieni	pieni	NOUN	NN	Number=Sing	6	compound	_	_
+6	della	della	NOUN	NN	Number=Sing	7	compound	_	_
+7	felicità	felicità	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	grande	grande	NOUN	NN	Number=Sing	10	compound	_	_
+10	speranza	speranza	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	ma	ma	NOUN	NN	Number=Sing	7	appos	_	_
+13	anche	anche	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	grande	grande	NOUN	NN	Number=Sing	15	compound	_	_
+15	paura	paura	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Abbiamo nei nostri cuori la angustia se non verrà (venire) ripetizione dall'anno 1968.
+1	Abbiamo	Abbiamo	X	GW	_	9	amod	_	_
+2	nei	nei	X	ADD	_	1	goeswith	_	_
+3	nostri	nostri	X	AFX	_	1	goeswith	_	_
+4	cuori	cuori	X	AFX	_	1	goeswith	_	_
+5	la	la	X	FW	Foreign=Yes	1	goeswith	_	_
+6	angustia	angustia	X	FW	Foreign=Yes	7	compound	_	_
+7	se	se	NOUN	NN	Number=Sing	9	compound	_	_
+8	non	non	NOUN	NN	Number=Sing	9	compound	_	_
+9	verrà	verrà	NOUN	NN	Number=Sing	0	root	_	_
+10	(	(	PUNCT	-LRB-	_	9	punct	_	SpaceAfter=No
+11	venire	venire	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	11	punct	_	_
+13	ripetizione	ripetizio	NUM	CD	NumType=Card	14	nummod	_	_
+14	dall	dall	NOUN	NN	Number=Sing	9	list	_	SpaceAfter=No
+15	'anno	'anno	ADP	IN	_	16	case	_	_
+16	1968	1968	NUM	CD	NumType=Card	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 9
+# text = Gli studenti, artisti drammatici, operai sono stati meravigliosi, disciplinati.
+1	Gli	Gli	PROPN	NNP	Number=Sing	2	compound	_	_
+2	studenti	studento	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	artisti	artisto	NOUN	NN	Number=Sing	5	compound	_	_
+5	drammatici	drammatici	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	operai	operai	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	sono	sono	DET	DT	_	10	det	_	_
+9	stati	status	NOUN	NN	Number=Sing	10	compound	_	_
+10	meravigliosi	meravigliosi	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	disciplinati	disciplinato	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = Peccato che siamo già molto vecchi.
+1	Peccato	Peccato	PROPN	NNP	Number=Sing	0	root	_	_
+2	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
+3	siamo	siamo	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	già	già	NOUN	NN	Number=Sing	5	compound	_	_
+5	molto	molto	NOUN	NN	Number=Sing	6	compound	_	_
+6	vecchi	vecchi	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Abbiamo perduto 40 anni della vita.
+1	Abbiamo	Abbiamo	PROPN	NNP	Number=Sing	2	compound	_	_
+2	perduto	perduto	NOUN	NN	Number=Sing	6	compound	_	_
+3	40	40	NUM	CD	NumType=Card	2	nummod	_	_
+4	anni	anni	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	della	della	NOUN	NN	Number=Sing	6	compound	_	_
+6	vita	vita	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = Invano.
+1	Invano	Invano	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 13
+# text = Hai visto nostra capitale Praha, siamo stati sotto la statua di santo Venceslao sulla piazza di Venceslav, puoi immaginarti là 500.000 persone e tutti gridano (gridare): “Vogliamo libertà”.
+1	Hai	Hai	PROPN	NNP	Number=Sing	0	root	_	_
+2	visto	visto	NOUN	NN	Number=Sing	3	compound	_	_
+3	nostra	nostra	NOUN	NN	Number=Sing	4	compound	_	_
+4	capitale	capitale	NOUN	NN	Number=Sing	1	flat	_	_
+5	Praha	Praha	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	siamo	siamo	X	FW	Foreign=Yes	1	list	_	_
+8	stati	status	X	AFX	_	18	goeswith	_	_
+9	sotto	sotto	X	AFX	_	18	goeswith	_	_
+10	la	la	X	FW	Foreign=Yes	18	goeswith	_	_
+11	statua	statua	X	FW	Foreign=Yes	18	goeswith	_	_
+12	di	di	X	AFX	_	18	goeswith	_	_
+13	santo	santo	X	AFX	_	18	goeswith	_	_
+14	Venceslao	Venceslao	X	FW	Foreign=Yes	18	goeswith	_	_
+15	sulla	sulla	X	FW	Foreign=Yes	18	goeswith	_	_
+16	piazza	piazza	X	FW	Foreign=Yes	18	goeswith	_	_
+17	di	di	X	AFX	_	18	goeswith	_	_
+18	Venceslav	Venceslav	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	puoi	puoi	NUM	CD	NumType=Card	27	nummod	_	_
+21	immaginarti	immaginarti	NUM	CD	NumType=Card	27	nummod	_	_
+22	là	là	NOUN	NN	Number=Sing	27	compound	_	_
+23	500.000	500.000	NUM	CD	NumType=Card	27	nummod	_	_
+24	persone	persone	NUM	CD	NumType=Card	25	nummod	_	_
+25	e	e	NOUN	NN	Number=Sing	27	compound	_	_
+26	tutti	tutti	NOUN	NN	Number=Sing	27	compound	_	_
+27	gridano	gridano	NOUN	NN	Number=Sing	18	appos	_	_
+28	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
+29	gridare	gridare	NOUN	NN	Number=Sing	27	appos	_	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	_	1	punct	_	SpaceAfter=No
+31	:	:	PUNCT	:	_	1	punct	_	_
+32	“	"	PUNCT	``	_	1	punct	_	SpaceAfter=No
+33	Vogliamo	Vogliamo	PROPN	NNP	Number=Sing	34	compound	_	_
+34	libertà	libertà	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Abbiamo potuto seguire in televisia da Vaticano la canonizzazione della nostra Agnese Prémislovna.
+1	Abbiamo	Abbiamo	X	GW	_	8	goeswith	_	_
+2	potuto	potuto	X	AFX	_	8	goeswith	_	_
+3	seguire	seguire	X	GW	_	8	goeswith	_	_
+4	in	in	X	GW	_	8	goeswith	_	_
+5	televisia	television	X	GW	_	8	goeswith	_	_
+6	da	day	X	GW	_	8	goeswith	_	_
+7	Vaticano	Vaticano	X	GW	_	8	goeswith	_	_
+8	la	la	NOUN	NN	Number=Sing	0	root	_	_
+9	canonizzazione	canonizzazione	NUM	CD	NumType=Card	8	nummod	_	_
+10	della	della	NOUN	NN	Number=Sing	11	compound	_	_
+11	nostra	nostra	NOUN	NN	Number=Sing	12	compound	_	_
+12	Agnese	Agnese	PROPN	NNP	Number=Sing	8	appos	_	_
+13	Prémislovna	Prémislovna	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Adesso, proprio in questo momento seguisco conferenza stampa Gorbacov-Andreoti.
+1	Adesso	Adesso	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	proprio	proprio	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	12	case	_	_
+5	questo	questo	NOUN	NN	Number=Sing	6	compound	_	_
+6	momento	momento	NOUN	NN	Number=Sing	7	compound	_	_
+7	seguisco	seguisco	NOUN	NN	Number=Sing	8	compound	_	_
+8	conferenza	conferenza	NOUN	NN	Number=Sing	12	compound	_	_
+9	stampa	stampa	NOUN	NN	Number=Sing	12	compound	_	_
+10	Gorbacov	Gorbacov	PROPN	NNP	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	Andreoti	Andreoti	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Vi prego, pensate a noi.
+1	Vi	vi	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	prego	prego	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	pensate	pensate	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	noi	noi	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Anche a Brno ci sono alla piazza della Libertà ohni giorno 50.000-100.000 persone.
+1	Anche	Anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+3	Brno	Brno	PROPN	NNP	Number=Sing	4	compound	_	_
+4	ci	cus	NOUN	NN	Number=Sing	5	compound	_	_
+5	sono	sono	NOUN	NN	Number=Sing	6	compound	_	_
+6	alla	alla	NOUN	NN	Number=Sing	7	compound	_	_
+7	piazza	piazza	NOUN	NN	Number=Sing	8	compound	_	_
+8	della	della	NOUN	NN	Number=Sing	9	compound	_	_
+9	Libertà	Libertà	NOUN	NN	Number=Sing	1	appos	_	_
+10	ohni	ohni	NUM	CD	NumType=Card	11	nummod	_	_
+11	giorno	giorno	NOUN	NN	Number=Sing	9	appos	_	_
+12	50.000	50.000	NUM	CD	NumType=Card	15	compound	_	SpaceAfter=No
+13	-	-	SYM	SYM	_	14	case	_	SpaceAfter=No
+14	100.000	100.000	NUM	CD	NumType=Card	12	nmod	_	_
+15	persone	persone	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Da noi in questi giorni fa molto freddo, gela il termometro segna –10° –20°.
+1	Da	Da	PROPN	NNP	Number=Sing	2	compound	_	_
+2	noi	noi	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	ADP	IN	_	8	case	_	_
+4	questi	questi	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	giorni	giorni	NOUN	NN	Number=Sing	6	compound	_	_
+6	fa	fa	NOUN	NN	Number=Sing	8	compound	_	_
+7	molto	molto	NOUN	NN	Number=Sing	8	compound	_	_
+8	freddo	freddo	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	gela	gela	NOUN	NN	Number=Sing	14	compound	_	_
+11	il	ill	NOUN	NN	Number=Sing	14	compound	_	_
+12	termometro	termometro	NUM	CD	NumType=Card	14	nummod	_	_
+13	segna	segna	NOUN	NN	Number=Sing	14	compound	_	_
+14	–10°	–10°	NOUN	NN	Number=Sing	8	appos	_	_
+15	–	-	PUNCT	:	_	2	punct	_	SpaceAfter=No
+16	20°	20°	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Alès era a Praha e ti ha mandato cartolina con saluto.
+1	Alès	Alès	NOUN	NNS	Number=Plur	0	root	_	_
+2	era	era	ADP	IN	_	11	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+4	Praha	Praha	PROPN	NNP	Number=Sing	10	compound	_	_
+5	e	e	NOUN	NN	Number=Sing	10	compound	_	_
+6	ti	ti	NUM	CD	NumType=Card	5	nummod	_	_
+7	ha	ha	NOUN	NN	Number=Sing	8	compound	_	_
+8	mandato	mandato	NOUN	NN	Number=Sing	9	compound	_	_
+9	cartolina	cartolina	NOUN	NN	Number=Sing	10	compound	_	_
+10	con	con	NOUN	NN	Number=Sing	11	compound	_	_
+11	saluto	saluto	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 20
+# text = Hai ricevuto?
+1	Hai	Hai	PROPN	NNP	Number=Sing	0	root	_	_
+2	ricevuto	ricevuto	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Ti voglio bene, Marie
+1	Ti	it	PROPN	NNP	Number=Sing	0	root	_	_
+2	voglio	voglio	NOUN	NN	Number=Sing	1	list	_	_
+3	bene	bene	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	Marie	Marie	PROPN	NNP	Number=Sing	1	list	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Cordiali saluti per tuo marito
+1	Cordiali	Cordiali	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	saluti	isalut	NOUN	NNS	Number=Plur	0	root	_	_
+3	per	per	ADP	IN	_	5	case	_	_
+4	tuo	tuo	NOUN	NN	Number=Sing	5	compound	_	_
+5	marito	marito	NOUN	NN	Number=Sing	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Grazie a lui ci siamo incontrate di persona.
+1	Grazie	Grazie	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	lui	lui	NOUN	NN	Number=Sing	4	compound	_	_
+4	ci	cus	NOUN	NN	Number=Sing	1	obj	_	_
+5	siamo	siamo	ADP	IN	_	8	case	_	_
+6	incontrate	incontrate	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	di	dus	NOUN	NN	Number=Sing	8	compound	_	_
+8	persona	persona	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Vogliamo socialismo con la faccia l'umana!
+1	Vogliamo	Vogliamo	X	FW	Foreign=Yes	0	root	_	_
+2	socialismo	socialismo	X	FW	Foreign=Yes	1	goeswith	_	_
+3	con	con	X	FW	Foreign=Yes	1	goeswith	_	_
+4	la	la	X	FW	Foreign=Yes	1	goeswith	_	_
+5	faccia	faccia	X	FW	Foreign=Yes	1	goeswith	_	_
+6	l'umana	l'umana	X	FW	Foreign=Yes	1	goeswith	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Aspetto presto tua risposta anche alla mia lettera scorsa.
+1	Aspetto	Aspetto	ADP	IN	_	3	case	_	_
+2	presto	presto	NOUN	NN	Number=Sing	3	compound	_	_
+3	tua	tua	NOUN	NN	Number=Sing	0	root	_	_
+4	risposta	risposof	ADP	IN	Abbr=Yes	9	case	_	_
+5	anche	anche	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+6	alla	alla	NOUN	NN	Number=Sing	7	compound	_	_
+7	mia	mia	NOUN	NN	Number=Sing	8	compound	_	_
+8	lettera	lettera	NOUN	NN	Number=Sing	9	compound	_	_
+9	scorsa	scorsa	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 26
+# text = Ti bacio
+1	Ti	it	PROPN	NNP	Number=Sing	2	compound	_	_
+2	bacio	bacio	NOUN	NN	Number=Sing	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,851 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nonno mi racconti di quando”...
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Nonno	Nonno	X	FW	Foreign=Yes	5	goeswith	_	_
+3	mi	mi	X	AFX	_	5	goeswith	_	_
+4	racconti	racconti	X	AFX	_	5	goeswith	_	_
+5	di	di	NOUN	NN	Number=Sing	6	compound	_	_
+6	quando	quando	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	6	punct	_	SpaceAfter=No
+8	...	...	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Sara, la mia nipotina la incuriosisce la mia vita, la mia infanzia così diversa e così lontana, sprofondata nel tempo e con radici così lontane da questa casa.
+1	Sara	Sara	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	la	la	X	FW	Foreign=Yes	10	compound	_	_
+4	mia	mia	X	FW	Foreign=Yes	3	flat:foreign	_	_
+5	nipotina	nipotina	X	FW	Foreign=Yes	3	flat:foreign	_	_
+6	la	la	X	FW	Foreign=Yes	8	compound	_	_
+7	incuriosisce	incuriosisce	NOUN	NN	Number=Sing	8	compound	_	_
+8	la	la	NOUN	NN	Number=Sing	10	compound	_	_
+9	mia	mia	NOUN	NN	Number=Sing	10	compound	_	_
+10	vita	vita	NOUN	NN	Number=Sing	1	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	1	punct	_	_
+12	la	la	X	FW	Foreign=Yes	19	compound	_	_
+13	mia	mia	X	FW	Foreign=Yes	12	flat:foreign	_	_
+14	infanzia	infanzia	X	FW	Foreign=Yes	15	goeswith	_	_
+15	così	così	NOUN	NN	Number=Sing	19	compound	_	_
+16	diversa	diversa	NOUN	NN	Number=Sing	19	compound	_	_
+17	e	e	NOUN	NN	Number=Sing	19	compound	_	_
+18	così	così	NOUN	NN	Number=Sing	19	compound	_	_
+19	lontana	lontana	NOUN	NN	Number=Sing	1	flat	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	1	punct	_	_
+21	sprofondata	sprofondata	X	FW	Foreign=Yes	31	compound	_	_
+22	nel	nel	X	FW	Foreign=Yes	21	flat:foreign	_	_
+23	tempo	tempo	X	FW	Foreign=Yes	21	flat:foreign	_	_
+24	e	e	X	GW	_	27	goeswith	_	_
+25	con	con	X	FW	Foreign=Yes	27	goeswith	_	_
+26	radici	radici	X	AFX	_	27	goeswith	_	_
+27	così	così	NOUN	NN	Number=Sing	31	compound	_	_
+28	lontane	lontane	NUM	CD	NumType=Card	27	nummod	_	_
+29	da	day	NOUN	NN	Number=Sing	30	compound	_	_
+30	questa	questa	NOUN	NN	Number=Sing	31	compound	_	_
+31	casa	casa	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Samuele, il fratellino e Giacomo, Ambra e Achille, i cuginetti, vogliono sapere come vivevano e cosa facevano gli “antichi”, poichè io oltre a nonno e vecchio sono anche “antico”, come antica è questa nostra casa.
+1	Samuele	Samuele	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	il	il	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	fratellino	fratellino	NOUN	NN	Number=Sing	1	list	_	_
+5	e	e	ADP	IN	_	6	case	_	_
+6	Giacomo	Giacomo	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	Ambra	Ambra	PROPN	NNP	Number=Sing	10	compound	_	_
+9	e	e	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Achille	Achille	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	cuginetti	cuginetti	NOUN	NNS	Number=Plur	1	list	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	1	punct	_	_
+15	vogliono	vogliono	DET	DT	_	16	det	_	_
+16	sapere	sapere	NOUN	NN	Number=Sing	1	appos	_	_
+17	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	vivevano	vivevano	X	GW	_	22	goeswith	_	_
+19	e	e	X	GW	_	22	goeswith	_	_
+20	cosa	cosa	X	GW	_	22	goeswith	_	_
+21	facevano	facevano	X	GW	_	22	goeswith	_	_
+22	gli	gli	NOUN	NN	Number=Sing	24	compound	_	_
+23	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+24	antichi	antichi	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	24	punct	_	_
+27	poichè	poichè	NOUN	NN	Number=Sing	38	compound	_	_
+28	io	io	X	GW	_	36	goeswith	_	_
+29	oltre	oltre	X	GW	_	36	goeswith	_	_
+30	a	a	X	GW	_	36	goeswith	_	_
+31	no	no	X	GW	_	36	goeswith	_	SpaceAfter=No
+32	nno	nno	X	GW	_	36	goeswith	_	_
+33	e	e	X	GW	_	36	goeswith	_	_
+34	vecchio	vecchio	X	GW	_	36	goeswith	_	_
+35	sono	sono	X	GW	_	36	goeswith	_	_
+36	anche	anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	conj	_	_
+37	“	"	PUNCT	``	_	38	punct	_	SpaceAfter=No
+38	antico	antico	NOUN	NN	Number=Sing	24	appos	_	SpaceAfter=No
+39	”	"	PUNCT	''	_	38	punct	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	41	punct	_	_
+41	come	come	VERB	VB	VerbForm=Inf	38	conj	_	_
+42	antica	antica	ADP	IN	_	46	case	_	_
+43	è	è	NOUN	NN	Number=Sing	44	compound	_	_
+44	questa	questa	NOUN	NN	Number=Sing	45	compound	_	_
+45	nostra	nostra	NOUN	NN	Number=Sing	46	compound	_	_
+46	casa	casa	NOUN	NN	Number=Sing	41	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	38	punct	_	_
+
+# sent_id = 4
+# text = E così pesco a casaccio nel mio passato fatti e fatterelli, giochi e avventure da raccontare.
+1	E	e	ADP	IN	_	2	case	_	_
+2	così	così	NOUN	NN	Number=Sing	0	root	_	_
+3	pesco	pesco	ADP	IN	_	11	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+5	casaccio	casaccio	X	FW	Foreign=Yes	11	compound	_	_
+6	nel	nel	X	FW	Foreign=Yes	11	goeswith	_	_
+7	mio	mio	X	FW	Foreign=Yes	11	goeswith	_	_
+8	passato	passato	X	AFX	_	11	goeswith	_	_
+9	fatti	fatti	X	AFX	_	11	goeswith	_	_
+10	e	e	X	GW	_	11	goeswith	_	_
+11	fatterelli	fatterelli	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	giochi	giochi	X	AFX	_	17	goeswith	_	_
+14	e	e	X	GW	_	17	goeswith	_	_
+15	avventure	avventure	X	FW	Foreign=Yes	17	goeswith	_	_
+16	da	da	X	FW	Foreign=Yes	17	goeswith	_	_
+17	raccontare	raccontare	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Naturalmente li abbellisco, li coloro, li allungo e li allargo.
+1	Naturalmente	Naturalmente	PROPN	NNP	Number=Sing	0	root	_	_
+2	li	li	NOUN	NN	Number=Sing	1	flat	_	_
+3	abbellisco	abbellisco	ADV	RB	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	li	lus	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	coloro	coloro	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	li	li	X	AFX	_	1	list	_	_
+9	allungo	allungo	X	FW	Foreign=Yes	1	list	_	_
+10	e	e	X	GW	_	11	goeswith	_	_
+11	li	li	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	allargo	allargo	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ma ora i nipotini crescono, quando certi episodi li abbellisco un pò troppo cominciano a pungermi con occhietti maliziosi: “ma noonnoo”...
+1	Ma	ma	NOUN	NN	Number=Sing	2	compound	_	_
+2	ora	ora	NOUN	NN	Number=Sing	5	compound	_	_
+3	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	nipotini	nipotini	ADJ	NNP	Number=Sing	5	amod	_	_
+5	crescono	crescono	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	quando	quando	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	_
+8	certi	certi	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	episodi	episodi	NOUN	NN	Number=Sing	10	compound	_	_
+10	li	li	NOUN	NN	Number=Sing	7	obj	_	_
+11	abbellisco	abbellisco	ADP	IN	_	14	case	_	_
+12	un	un	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	pò	pò	NOUN	NN	Number=Sing	14	compound	_	_
+14	troppo	troppo	NOUN	NN	Number=Sing	7	obl	_	_
+15	cominciano	cominciano	ADP	IN	_	20	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+17	pungermi	pungermi	NOUN	NN	Number=Sing	18	compound	_	_
+18	con	con	NOUN	NN	Number=Sing	19	compound	_	_
+19	occhietti	iocchiett	NOUN	NN	Number=Sing	20	compound	_	_
+20	maliziosi	maliziosi	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+21	:	:	PUNCT	:	_	5	punct	_	_
+22	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+23	ma	ma	NOUN	NN	Number=Sing	24	compound	_	_
+24	noonnoo	noonnoo	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	24	punct	_	SpaceAfter=No
+26	...	...	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Va bè, passiamo ai fatti.
+1	Va	va	PROPN	NNP	Number=Sing	2	compound	_	_
+2	bè	bè	NOUN	NN	Number=Sing	6	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	passiamo	passiamo	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	ai	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	fatti	fatti	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Racconto senza pitturare troppo prima che diventi così vecchio da non avere più niente da dire.
+1	Racconto	Racconto	PROPN	NNP	Number=Sing	2	compound	_	_
+2	senza	senza	NOUN	NN	Number=Sing	4	compound	_	_
+3	pitturare	pitturare	NOUN	NN	Number=Sing	4	compound	_	_
+4	troppo	troppo	NOUN	NN	Number=Sing	8	list	_	_
+5	prima	prima	ADP	IN	_	8	case	_	_
+6	che	che	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	diventi	diventi	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	così	così	NOUN	NN	Number=Sing	16	compound	_	_
+9	vecchio	vecchio	X	GW	_	13	goeswith	_	_
+10	da	da	X	GW	_	13	goeswith	_	_
+11	non	non	X	GW	_	13	goeswith	_	_
+12	avere	avere	X	GW	_	13	goeswith	_	_
+13	più	più	NOUN	NN	Number=Sing	16	compound	_	_
+14	niente	niente	NOUN	NN	Number=Sing	15	compound	_	_
+15	da	day	NOUN	NN	Number=Sing	16	compound	_	_
+16	dire	dire	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Torno indietro, dopo un lungo viaggio e mi ritrovo là dove sono nato... nel 1927 in una zona fra le più squallide della Val Padana, la zona “bergamasca” della provincia di Cremona: il cremasco.
+1	Torno	Torno	DET	DT	_	2	det	_	_
+2	indietro	indietro	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	dopo	dopo	X	GW	_	12	goeswith	_	_
+5	un	un	X	GW	_	12	goeswith	_	_
+6	lungo	lungo	X	GW	_	12	goeswith	_	_
+7	viaggio	viaggio	X	GW	_	12	goeswith	_	_
+8	e	e	X	GW	_	12	goeswith	_	_
+9	mi	mi	X	AFX	_	12	goeswith	_	_
+10	ritrovo	ritrovo	X	FW	Foreign=Yes	12	goeswith	_	_
+11	là	là	NOUN	NN	Number=Sing	12	compound	_	_
+12	dove	dove	NOUN	NN	Number=Sing	2	appos	_	_
+13	so	so	ADV	RB	_	15	advmod	_	SpaceAfter=No
+14	no	no	DET	DT	_	15	det	_	_
+15	nato	nato	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+16	...	...	PUNCT	,	_	2	punct	_	_
+17	nel	nell	INTJ	UH	Abbr=Yes	2	discourse	_	_
+18	1927	1927	NUM	CD	NumType=Card	17	nummod	_	_
+19	in	in	ADP	IN	_	26	case	_	_
+20	una	una	ADJ	JJ	Degree=Pos	23	amod	_	_
+21	zona	zona	NOUN	NN	Number=Sing	22	compound	_	_
+22	fra	fra	NOUN	NN	Number=Sing	23	compound	_	_
+23	le	le	NOUN	NN	Number=Sing	24	compound	_	_
+24	più	più	NOUN	NN	Number=Sing	25	compound	_	_
+25	squallide	squallide	NOUN	NN	Number=Sing	26	compound	_	_
+26	della	della	NOUN	NN	Number=Sing	17	compound	_	_
+27	Val	Val	PROPN	NNP	Number=Sing	26	flat	_	_
+28	Padana	Padana	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	2	punct	_	_
+30	la	la	X	FW	Foreign=Yes	31	compound	_	_
+31	zona	zona	X	FW	Foreign=Yes	2	compound	_	_
+32	“	"	PUNCT	``	_	33	punct	_	SpaceAfter=No
+33	bergamasca	bergamasca	NOUN	NN	Number=Sing	36	compound	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	33	punct	_	_
+35	della	della	NOUN	NN	Number=Sing	36	compound	_	_
+36	provincia	provincia	NOUN	NN	Number=Sing	31	flat	_	_
+37	di	di	NOUN	NN	Number=Sing	38	compound	_	_
+38	Cremona	Cremona	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+39	:	:	PUNCT	:	_	2	punct	_	_
+40	il	il	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	cremasco	cremasco	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = I miei ricordi d'infanzia si associano sempre al freddo intenso e alle fitte nebbie dell'inverno e al caldo afoso dell'estate padano, quasi che le altre stagioni non esistessero.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	miei	miei	X	LS	_	15	compound	_	_
+3	ricordi	ricordi	X	AFX	_	15	compound	_	_
+4	d'infanzia	d'infanzia	X	FW	Foreign=Yes	15	compound	_	_
+5	si	si	X	AFX	_	15	compound	_	_
+6	associano	associano	X	FW	Foreign=Yes	15	compound	_	_
+7	sempre	sempre	X	AFX	_	15	compound	_	_
+8	al	al	X	FW	_	15	compound	_	_
+9	freddo	freddo	X	AFX	_	15	compound	_	_
+10	intenso	intenso	X	GW	_	15	compound	_	_
+11	e	e	X	GW	_	15	goeswith	_	_
+12	alle	alle	X	GW	_	15	compound	_	_
+13	fitte	fitte	X	ADD	_	15	compound	_	_
+14	nebbie	nebbie	X	FW	_	15	compound	_	_
+15	dell	dell	NOUN	NN	Number=Sing	1	flat	_	SpaceAfter=No
+16	'	'	PUNCT	''	_	1	punct	_	SpaceAfter=No
+17	inver	inver	X	GW	_	25	goeswith	_	SpaceAfter=No
+18	no	no	X	GW	_	25	goeswith	_	_
+19	e	e	X	GW	_	25	goeswith	_	_
+20	al	al	X	FW	_	25	compound	_	_
+21	caldo	caldo	X	AFX	_	25	compound	_	_
+22	afoso	afoso	X	FW	Foreign=Yes	23	compound	_	_
+23	dell	dell	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	'estate	'estate	NOUN	NN	Number=Sing	25	compound	_	_
+25	padano	padano	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	quasi	quasi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	25	appos	_	_
+28	che	che	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	le	le	NOUN	NN	Number=Sing	27	appos	_	_
+30	altre	altre	ADV	WRB	PronType=Rel	31	advmod	_	_
+31	stagioni	stagioni	X	AFX	_	25	acl:relcl	_	_
+32	non	non	X	FW	Foreign=Yes	31	goeswith	_	_
+33	esistessero	esistessero	X	FW	Foreign=Yes	31	goeswith	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 11
+# text = Non ne ho più un ricordo preciso.
+1	Non	non	PROPN	NNP	Number=Sing	4	compound	_	_
+2	ne	ne	NUM	CD	NumType=Card	4	nummod	_	_
+3	ho	ho	NOUN	NN	Number=Sing	4	compound	_	_
+4	più	più	NOUN	NN	Number=Sing	0	root	_	_
+5	un	un	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	ricordo	ricordo	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	preciso	preciso	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = La nostra cascina non era di quelle che si vedono nella pubblicità; belle, colorate, coi fiori variopinti e ruscelli con simpatici animaletti.
+1	La	la	X	FW	Foreign=Yes	7	aux	_	_
+2	nostra	nostra	X	FW	Foreign=Yes	1	flat:foreign	_	_
+3	cascina	cascina	X	FW	Foreign=Yes	1	flat:foreign	_	_
+4	non	non	X	FW	Foreign=Yes	7	goeswith	_	_
+5	era	era	X	AFX	_	7	goeswith	_	_
+6	di	di	X	AFX	_	7	goeswith	_	_
+7	quelle	quelle	VERB	VB	VerbForm=Inf	0	root	_	_
+8	che	che	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+9	si	si	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	vedono	vedono	NOUN	NN	Number=Sing	11	compound	_	_
+11	nella	nella	NOUN	NN	Number=Sing	12	compound	_	_
+12	pubblicità	pubblicità	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	7	punct	_	_
+14	belle	belle	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	colorate	colorate	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	coi	coi	X	AFX	_	25	goeswith	_	_
+19	fiori	fiori	X	AFX	_	25	goeswith	_	_
+20	variopinti	variopinti	X	AFX	_	25	goeswith	_	_
+21	e	e	X	GW	_	25	goeswith	_	_
+22	ruscelli	ruscelli	X	AFX	_	25	goeswith	_	_
+23	con	con	X	FW	Foreign=Yes	25	goeswith	_	_
+24	simpatici	simpatici	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	animaletti	animaletti	NOUN	NN	Number=Sing	7	parataxis	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 13
+# text = La nostra cascina, come tutte, era sporca e malinconica.
+1	La	La	PROPN	NNP	Number=Sing	3	compound	_	_
+2	nostra	nostra	NOUN	NN	Number=Sing	3	compound	_	_
+3	cascina	cascina	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	tutte	tutte	ADV	RB	_	11	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	era	era	X	AFX	_	11	goeswith	_	_
+9	sporca	sporca	X	FW	Foreign=Yes	11	goeswith	_	_
+10	e	e	X	GW	_	11	goeswith	_	_
+11	malinconica	malinconica	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = Immersa in porcilaie e stalle soffocanti, pollai e fango e acquitrini nauseabondi e liquami ove sedevano massicce e troneggianti montagne di letame.
+1	Immersa	Immersa	ADP	IN	_	6	case	_	_
+2	in	in	ADP	IN	_	6	case	_	_
+3	porcilaie	porcilaie	NOUN	NN	Number=Sing	6	compound	_	_
+4	e	e	NOUN	NN	Number=Sing	6	compound	_	_
+5	stalle	stalle	NOUN	NN	Number=Sing	6	compound	_	_
+6	soffocanti	soffocanto	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	15	punct	_	_
+8	pollai	pollai	X	AFX	_	15	goeswith	_	_
+9	e	e	X	GW	_	15	goeswith	_	_
+10	fango	fango	X	GW	_	15	goeswith	_	_
+11	e	e	X	GW	_	15	goeswith	_	_
+12	acquitrini	acquitrini	X	AFX	_	15	goeswith	_	_
+13	nauseabondi	nauseabondi	X	AFX	_	15	goeswith	_	_
+14	e	e	X	GW	_	15	goeswith	_	_
+15	liquami	liquami	NOUN	NN	Number=Sing	0	root	_	_
+16	ove	ove	ADP	IN	_	18	case	_	_
+17	sedevano	sedevano	DET	DT	_	18	det	_	_
+18	massicce	massicce	NOUN	NN	Number=Sing	15	nmod	_	_
+19	e	e	ADP	IN	_	23	case	_	_
+20	troneggianti	troneggianti	NUM	CD	NumType=Card	23	nummod	_	_
+21	montagne	montagne	NUM	CD	NumType=Card	23	nummod	_	_
+22	di	di	NOUN	NN	Number=Sing	23	compound	_	_
+23	letame	letame	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Miseria, bigottismo e fatiche sovrumane.
+1	Miseria	Miseria	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	bigottismo	bigottismo	X	FW	Foreign=Yes	6	goeswith	_	_
+4	e	e	X	GW	_	6	goeswith	_	_
+5	fatiche	fatiche	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sovrumane	sovrumane	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = Il tempo scandito dal chiaro e dallo scuro, dal caldo e dal freddo e dal "sammartì”.
+1	Il	Il	PROPN	NNP	Number=Sing	8	compound	_	_
+2	tempo	tempo	X	FW	Foreign=Yes	8	goeswith	_	_
+3	scandito	scandito	X	AFX	_	8	goeswith	_	_
+4	dal	dal	X	FW	Foreign=Yes	8	goeswith	_	_
+5	chiaro	chiaro	X	FW	Foreign=Yes	8	goeswith	_	_
+6	e	e	X	GW	_	8	goeswith	_	_
+7	dallo	dallo	X	FW	Foreign=Yes	8	goeswith	_	_
+8	scuro	scuro	NOUN	NN	Number=Sing	18	nmod:tmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	16	punct	_	_
+10	dal	dal	X	FW	_	16	goeswith	_	_
+11	caldo	caldo	X	AFX	_	16	goeswith	_	_
+12	e	e	X	GW	_	16	goeswith	_	_
+13	dal	dal	X	FW	Foreign=Yes	16	goeswith	_	_
+14	freddo	freddo	X	AFX	_	16	goeswith	_	_
+15	e	e	X	GW	_	16	goeswith	_	_
+16	dal	dal	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	"	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	sammartì	sammartì	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = S. Martino al mio paese è sinonimo di trasloco.
+1	S.	S.	PROPN	NNP	Number=Sing	4	compound	_	_
+2	Martino	Martino	PROPN	NNP	Number=Sing	1	flat	_	_
+3	al	al	PROPN	NNP	Number=Sing	4	compound	_	_
+4	mio	mio	NOUN	NN	Number=Sing	6	flat	_	_
+5	paese	paese	NOUN	NN	Number=Sing	6	compound	_	_
+6	è	è	NOUN	NN	Number=Sing	0	root	_	_
+7	sinonimo	sinonimo	ADP	IN	_	9	case	_	_
+8	di	di	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	trasloco	trasloco	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 18
+# text = E' il trasloco.
+1	E	e	ADP	IN	_	4	case	_	SpaceAfter=No
+2	'	'	PUNCT	``	_	4	punct	_	_
+3	il	il	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	trasloco	trasloco	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Ho saputo molti anni dopo che S. Martino si chiamava anche trasloco.
+1	Ho	Ho	X	AFX	_	10	goeswith	_	_
+2	saputo	saputo	X	AFX	_	10	goeswith	_	_
+3	molti	molti	X	AFX	_	10	goeswith	_	_
+4	anni	anni	X	AFX	_	10	goeswith	_	_
+5	dopo	dopo	X	FW	Foreign=Yes	10	goeswith	_	_
+6	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	compound	_	_
+7	S.	S.	PROPN	NNP	Number=Sing	10	compound	_	_
+8	Martino	Martino	PROPN	NNP	Number=Sing	7	flat	_	_
+9	si	si	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	chiamava	chiamava	NOUN	NN	Number=Sing	0	root	_	_
+11	anche	anche	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	trasloco	trasloco	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Intorno ai primi di novembre la zona brulicava di carovane.
+1	Intorno	Intorno	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	ai	ai	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	primi	primi	ADJ	JJ	Degree=Pos	0	root	_	_
+4	di	di	X	AFX	_	10	goeswith	_	_
+5	novembre	novembre	X	GW	_	10	goeswith	_	_
+6	la	la	X	FW	Foreign=Yes	10	goeswith	_	_
+7	zona	zona	X	FW	Foreign=Yes	10	goeswith	_	_
+8	brulicava	brulicava	X	FW	Foreign=Yes	10	goeswith	_	_
+9	di	di	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	carovane	carovane	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 21
+# text = Scadevano i contratti annuali, chi veniva cacciato e chi se ne andava per cercare di meglio.
+1	Scadevano	Scadevano	INTJ	UH	_	4	discourse	_	_
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	contratti	contratti	X	AFX	_	4	goeswith	_	_
+4	annuali	annuali	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	chi	chi	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	veniva	veniva	NOUN	NN	Number=Sing	8	compound	_	_
+8	cacciato	cacciato	NOUN	NN	Number=Sing	9	compound	_	_
+9	e	e	NOUN	NN	Number=Sing	10	compound	_	_
+10	chi	chi	NOUN	NN	Number=Sing	11	compound	_	_
+11	se	se	NOUN	NN	Number=Sing	13	compound	_	_
+12	ne	ne	NUM	CD	NumType=Card	11	nummod	_	_
+13	andava	andava	NOUN	NN	Number=Sing	4	appos	_	_
+14	per	per	ADP	IN	_	17	case	_	_
+15	cercare	cercare	NOUN	NN	Number=Sing	16	compound	_	_
+16	di	di	NOUN	NN	Number=Sing	17	compound	_	_
+17	meglio	meglio	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 22
+# text = In realtà era quasi sempre uno scambio di tugurio dove, sul fuoco, con la polenta ci mettevi anche le speranze.
+1	In	in	ADP	IN	_	3	case	_	_
+2	realtà	realtà	NOUN	NN	Number=Sing	3	compound	_	_
+3	era	era	NOUN	NN	Number=Sing	5	obl	_	_
+4	quasi	quasi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	5	nsubj	_	_
+5	sempre	sempre	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	uno	uno	DET	DT	_	8	det	_	_
+7	scambio	scambio	NOUN	NN	Number=Sing	8	compound	_	_
+8	di	di	NOUN	NN	Number=Sing	5	obj	_	_
+9	tugurio	tugurio	ADP	IN	_	10	case	_	_
+10	dove	dove	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	sul	sul	INTJ	UH	_	18	discourse	_	_
+13	fuoco	fuoco	INTJ	UH	_	18	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	con	con	ADP	IN	_	18	case	_	_
+16	la	la	NOUN	NN	Number=Sing	17	compound	_	_
+17	polenta	polenta	NOUN	NN	Number=Sing	18	compound	_	_
+18	ci	ci	NOUN	NN	Number=Sing	5	parataxis	_	_
+19	mettevi	mettevi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	22	nmod:poss	_	_
+20	anche	anche	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+21	le	le	NOUN	NN	Number=Sing	22	compound	_	_
+22	speranze	speranze	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Ma il rito si ripeteva.
+1	Ma	ma	NOUN	NN	Number=Sing	5	compound	_	_
+2	il	il	NOUN	NN	Number=Sing	3	compound	_	_
+3	rito	rito	NOUN	NN	Number=Sing	4	compound	_	_
+4	si	si	NOUN	NN	Number=Sing	5	compound	_	_
+5	ripeteva	ripeteva	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 24
+# text = Prima dell'alba si caricavano i carri di quelle incredibili e miserabili masserizie, vi si attaccava il cavallo o una mucca e noi tutti intorno al carro, avvolti negli stracci, nella nebbia e nel sonno, ciondolavamo per chilometri, su strade di pozzanghere lungo pallidi filari di pioppi, fissando i neri spettrali tabarri degli uomini che, precedendoci, fendevano la nebbia trascinandoci alla nuova cascina.
+1	Prima	Prima	X	GW	_	17	goeswith	_	_
+2	dell'alba	dell'alba	X	ADD	_	17	goeswith	_	_
+3	si	si	X	AFX	_	17	goeswith	_	_
+4	caricavano	caricavano	X	FW	Foreign=Yes	17	goeswith	_	_
+5	i	i	X	AFX	_	17	goeswith	_	_
+6	carri	carri	X	AFX	_	17	goeswith	_	_
+7	di	di	X	AFX	_	17	goeswith	_	_
+8	quelle	quelle	X	GW	_	17	goeswith	_	_
+9	incredibili	incredibili	X	AFX	_	17	goeswith	_	_
+10	e	e	X	GW	_	17	goeswith	_	_
+11	miserabili	miserabili	X	AFX	_	17	goeswith	_	_
+12	masserizie	masserizie	X	FW	_	17	goeswith	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	vi	vi	X	AFX	_	17	goeswith	_	_
+15	si	si	X	AFX	_	17	goeswith	_	_
+16	attaccava	attaccava	X	FW	Foreign=Yes	17	goeswith	_	_
+17	il	il	NOUN	NN	Number=Sing	0	root	_	_
+18	cavallo	cavallo	X	GW	_	27	goeswith	_	_
+19	o	o	X	GW	_	27	goeswith	_	_
+20	una	una	X	GW	_	27	goeswith	_	_
+21	mucca	mucca	X	GW	_	27	goeswith	_	_
+22	e	e	X	GW	_	27	goeswith	_	_
+23	noi	noi	X	AFX	_	27	goeswith	_	_
+24	tutti	tutti	X	AFX	_	27	goeswith	_	_
+25	intorno	intorno	X	FW	Foreign=Yes	27	goeswith	_	_
+26	al	al	X	FW	_	27	goeswith	_	_
+27	carro	carro	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	avvolti	avvolti	NUM	CD	NumType=Card	31	compound	_	_
+30	negli	negli	NUM	CD	NumType=Card	31	compound	_	_
+31	stracci	stracci	NOUN	NN	Number=Sing	17	flat	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	17	punct	_	_
+33	nella	nella	X	GW	_	37	goeswith	_	_
+34	nebbia	nebbia	X	GW	_	37	goeswith	_	_
+35	e	e	X	GW	_	37	goeswith	_	_
+36	nel	nel	X	GW	_	37	goeswith	_	_
+37	sonno	sonno	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	17	punct	_	_
+39	ciondolavamo	ciondolavamo	VERB	VB	Mood=Imp|VerbForm=Fin	17	parataxis	_	_
+40	per	per	ADP	IN	_	41	case	_	_
+41	chilometri	chilometri	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	39	punct	_	_
+43	su	su	PRON	PRP	Case=Nom|Person=2|PronType=Prs	44	nsubj	_	_
+44	strade	strade	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+45	di	di	ADJ	JJ	Degree=Pos	51	amod	_	_
+46	pozzanghere	pozzanghere	NOUN	NN	Number=Sing	47	compound	_	_
+47	lungo	lungo	NOUN	NN	Number=Sing	48	compound	_	_
+48	pallidi	pallidi	NOUN	NN	Number=Sing	49	compound	_	_
+49	filari	filari	NOUN	NN	Number=Sing	50	compound	_	_
+50	di	di	NOUN	NN	Number=Sing	51	compound	_	_
+51	pioppi	pioppi	NOUN	NN	Number=Sing	44	obj	_	SpaceAfter=No
+52	,	,	PUNCT	,	_	58	punct	_	_
+53	fissando	fissando	AUX	VB	Mood=Imp|VerbForm=Fin	58	cop	_	_
+54	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	58	nsubj	_	_
+55	neri	neri	ADJ	JJ	Degree=Pos	58	amod	_	_
+56	spettrali	spettrali	NOUN	NN	Number=Sing	57	compound	_	_
+57	tabarri	tabarri	NOUN	NN	Number=Sing	58	compound	_	_
+58	degli	degli	NOUN	NN	Number=Sing	17	parataxis	_	_
+59	uomini	uomini	ADJ	JJ	Degree=Pos	60	amod	_	_
+60	che	che	NOUN	NN	Number=Sing	58	flat	_	SpaceAfter=No
+61	,	,	PUNCT	,	_	58	punct	_	_
+62	precedendoci	precedendoci	NOUN	NN	Number=Sing	58	list	_	SpaceAfter=No
+63	,	,	PUNCT	,	_	62	punct	_	_
+64	fendevano	fendevano	DET	DT	_	70	det	_	_
+65	la	la	NOUN	NN	Number=Sing	66	compound	_	_
+66	nebbia	nebbia	NOUN	NN	Number=Sing	67	compound	_	_
+67	trascinandoci	trascinandoci	NOUN	NN	Number=Sing	68	compound	_	_
+68	alla	alla	NOUN	NN	Number=Sing	69	compound	_	_
+69	nuova	nuova	NOUN	NN	Number=Sing	70	compound	_	_
+70	cascina	cascina	NOUN	NN	Number=Sing	62	appos	_	SpaceAfter=No
+71	.	.	PUNCT	.	_	58	punct	_	_
+
+# sent_id = 25
+# text = Nuova?
+1	Nuova	Nuova	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Ci si fermava sempre all'entrata del cortile per buttare uno sguardo d'insieme e ogni volta la casa appariva sempre peggio della “nostra”.
+1	Ci	Ci	X	LS	_	10	goeswith	_	_
+2	si	si	X	LS	_	10	goeswith	_	_
+3	fermava	fermava	X	FW	Foreign=Yes	10	goeswith	_	_
+4	sempre	sempre	X	AFX	_	10	goeswith	_	_
+5	all	all	X	GW	_	10	goeswith	_	SpaceAfter=No
+6	'entrata	'entrata	X	FW	Foreign=Yes	10	goeswith	_	_
+7	del	del	X	FW	Foreign=Yes	10	goeswith	_	_
+8	cortile	cortile	X	GW	_	10	goeswith	_	_
+9	per	per	X	GW	_	10	goeswith	_	_
+10	buttare	buttare	NOUN	NN	Number=Sing	0	root	_	_
+11	uno	uno	X	GW	_	22	goeswith	_	_
+12	sguardo	sguardo	X	AFX	_	22	goeswith	_	_
+13	d'insieme	d'insieme	X	GW	_	22	goeswith	_	_
+14	e	e	X	GW	_	22	goeswith	_	_
+15	ogni	ogni	X	AFX	_	22	goeswith	_	_
+16	volta	volta	X	FW	Foreign=Yes	22	goeswith	_	_
+17	la	la	X	FW	Foreign=Yes	22	goeswith	_	_
+18	casa	casa	X	FW	Foreign=Yes	22	goeswith	_	_
+19	appariva	appariva	X	FW	Foreign=Yes	22	goeswith	_	_
+20	sempre	sempre	X	AFX	_	22	goeswith	_	_
+21	peggio	peggio	X	FW	Foreign=Yes	22	goeswith	_	_
+22	della	della	NOUN	NN	Number=Sing	24	appos	_	_
+23	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+24	nostra	nostra	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 27
+# text = Buia e fredda, grande e vuota, sconosciuta sbrecciata e umida.
+1	Buia	Buia	PROPN	NNP	Number=Sing	3	compound	_	_
+2	e	e	NOUN	NN	Number=Sing	3	compound	_	_
+3	fredda	fredda	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	grande	grande	NOUN	NN	Number=Sing	7	compound	_	_
+6	e	e	NOUN	NN	Number=Sing	7	compound	_	_
+7	vuota	vuota	NOUN	NN	Number=Sing	3	list	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	sconosciuta	sconosciuta	X	AFX	_	3	list	_	_
+10	sbrecciata	sbrecciata	X	FW	Foreign=Yes	3	appos	_	_
+11	e	e	X	GW	_	10	goeswith	_	_
+12	umida	umida	X	FW	Foreign=Yes	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 28
+# text = Sempre. I più piccoli piangevano immancabilmente, non si sapeva il perché, del resto nessuno gli dava retta.
+1	Sempre	Sempre	ADV	WRB	PronType=Int	13	advmod	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	7	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	compound	_	_
+4	più	più	NOUN	NN	Number=Sing	5	compound	_	_
+5	piccoli	piccoli	NOUN	NN	Number=Sing	6	compound	_	_
+6	piangevano	piangevano	NOUN	NN	Number=Sing	7	compound	_	_
+7	immancabilmente	immancabilment	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	non	non	X	AFX	_	12	goeswith	_	_
+10	si	si	X	AFX	_	12	goeswith	_	_
+11	sapeva	sapeva	X	FW	Foreign=Yes	12	goeswith	_	_
+12	il	il	NOUN	NN	Number=Sing	7	appos	_	_
+13	perché	perché	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	del	del	X	FW	Foreign=Yes	13	appos	_	_
+16	resto	resto	X	AFX	_	19	goeswith	_	_
+17	nessuno	nessuno	X	FW	Foreign=Yes	19	goeswith	_	_
+18	gli	gli	X	AFX	_	19	goeswith	_	_
+19	dava	dava	NOUN	NN	Number=Sing	20	compound	_	_
+20	retta	retta	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 29
+# text = “Gli si allargano i polmoni” sentenziavano i grandi.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Gli	Gli	X	LS	_	4	compound	_	_
+3	si	si	X	AFX	_	4	compound	_	_
+4	allargano	allargano	X	FW	Foreign=Yes	6	nummod	_	_
+5	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	polmoni	polmoni	ADJ	NNP	Number=Sing	0	root	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	6	punct	_	_
+8	sentenziavano	ksentenziavanow	NOUN	NN	Number=Sing	6	appos	_	_
+9	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	grandi	grandi	NOUN	NNS	Number=Plur	8	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 30
+# text = Di uguale c'era sempre, laggiù, in qualche angolo appartato del cortile, il cesso.
+1	Di	di	PROPN	NNP	Number=Sing	0	root	_	_
+2	uguale	uguale	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	c'era	c'era	NOUN	NN	Number=Sing	4	compound	_	_
+4	sempre	sempre	NOUN	NN	Number=Sing	1	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	laggiù	laggiù	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	qualche	qualche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod	_	_
+10	angolo	angolo	X	FW	Foreign=Yes	13	goeswith	_	_
+11	appartato	appartato	X	AFX	_	13	goeswith	_	_
+12	del	del	X	FW	Foreign=Yes	13	goeswith	_	_
+13	cortile	cortile	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	il	il	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	cesso	cesso	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 31
+# text = Uno sgangherato sgabuzzino di legno, una spece di garrita intorno ad un grosso buco con una tavola posto di traverso, una tavola di legno fradicia, putrida e scivolosa dove ci si appollaiava per i bisogni.
+1	Uno	Uno	PROPN	NNP	Number=Sing	2	compound	_	_
+2	sgangherato	sgangherato	NOUN	NN	Number=Sing	3	compound	_	_
+3	sgabuzzino	sgabuzzino	NOUN	NN	Number=Sing	4	compound	_	_
+4	di	di	NOUN	NN	Number=Sing	5	compound	_	_
+5	legno	legno	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	una	una	ADJ	JJ	Degree=Pos	10	amod	_	_
+8	spece	spece	NOUN	NN	Number=Sing	9	compound	_	_
+9	di	di	NOUN	NN	Number=Sing	10	compound	_	_
+10	garrita	garrita	NOUN	NN	Number=Sing	5	appos	_	_
+11	intorno	intorno	ADP	IN	_	12	case	_	_
+12	ad	ad	NOUN	NN	Number=Sing	5	nmod	_	_
+13	un	un	X	GW	_	21	compound	_	_
+14	grosso	grosso	X	FW	Foreign=Yes	13	flat:foreign	_	_
+15	buco	buco	X	FW	Foreign=Yes	13	flat:foreign	_	_
+16	con	con	X	FW	Foreign=Yes	13	flat:foreign	_	_
+17	una	una	X	FW	Foreign=Yes	20	goeswith	_	_
+18	tavola	tavola	X	FW	Foreign=Yes	20	goeswith	_	_
+19	posto	posto	X	AFX	_	20	goeswith	_	_
+20	di	di	NOUN	NN	Number=Sing	21	conj	_	_
+21	traverso	traverso	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	una	una	ADJ	JJ	Degree=Pos	27	amod	_	_
+24	tavola	tavola	NOUN	NN	Number=Sing	25	compound	_	_
+25	di	di	NOUN	NN	Number=Sing	26	compound	_	_
+26	legno	legno	NOUN	NN	Number=Sing	27	compound	_	_
+27	fradicia	fradicia	NOUN	NN	Number=Sing	21	appos	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	21	punct	_	_
+29	putrida	putrida	X	GW	_	32	goeswith	_	_
+30	e	e	X	GW	_	32	goeswith	_	_
+31	scivolosa	scivolosa	X	GW	_	32	goeswith	_	_
+32	dove	dove	NOUN	NN	Number=Sing	38	conj	_	_
+33	ci	ci	X	AFX	_	38	goeswith	_	_
+34	si	si	X	AFX	_	38	goeswith	_	_
+35	appollaiava	appollaiava	X	FW	Foreign=Yes	38	goeswith	_	_
+36	per	per	X	GW	_	38	goeswith	_	_
+37	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	_
+38	bisogni	bisogni	ADJ	NNP	Number=Sing	21	parataxis	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	38	punct	_	_
+
+# sent_id = 32
+# text = Nel cesso ci andavano solo i grandi, e non sempre.
+1	Nel	Nel	X	FW	Foreign=Yes	7	amod	_	_
+2	cesso	cesso	X	FW	Foreign=Yes	1	goeswith	_	_
+3	ci	ci	X	AFX	_	7	goeswith	_	_
+4	andavano	andavano	X	FW	Foreign=Yes	7	goeswith	_	_
+5	solo	solo	X	AFX	_	7	goeswith	_	_
+6	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	grandi	grandi	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	e	e	X	GW	_	11	goeswith	_	_
+10	non	non	X	FW	Foreign=Yes	11	goeswith	_	_
+11	sempre	sempre	X	AFX	_	7	appos	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 33
+# text = Per i bambini era troppo pericoloso e del tutto inutile.
+1	Per	Per	ADP	IN	_	10	case	_	_
+2	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nmod:poss	_	_
+3	bambini	bambini	X	AFX	_	10	goeswith	_	_
+4	era	era	X	GW	_	10	goeswith	_	_
+5	troppo	troppo	X	GW	_	10	goeswith	_	_
+6	pericoloso	pericoloso	X	GW	_	10	goeswith	_	_
+7	e	e	X	GW	_	10	goeswith	_	_
+8	del	del	X	FW	Foreign=Yes	10	goeswith	_	_
+9	tutto	tutto	NOUN	NN	Number=Sing	10	compound	_	_
+10	inutile	inutile	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Mia madre per prima cosa attaccava al consueto gancio, nel mezzo del soffitto della cucina, di rimpetto al camino, la “lucerna”, il lume a petrolio.
+1	Mia	Mia	PROPN	NNP	Number=Sing	9	compound	_	_
+2	madre	madre	ADV	WRB	PronType=Int	8	advmod	_	_
+3	per	per	X	GW	_	8	goeswith	_	_
+4	prima	prima	X	FW	Foreign=Yes	8	goeswith	_	_
+5	cosa	cosa	X	FW	Foreign=Yes	8	goeswith	_	_
+6	attaccava	attaccava	X	FW	Foreign=Yes	8	goeswith	_	_
+7	al	al	X	FW	_	8	compound	_	_
+8	consueto	consueto	NOUN	NN	Number=Sing	9	compound	_	_
+9	gancio	gancio	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	nel	nel	X	FW	Foreign=Yes	15	goeswith	_	_
+12	mezzo	mezzo	X	FW	Foreign=Yes	15	goeswith	_	_
+13	del	del	X	FW	Foreign=Yes	15	goeswith	_	_
+14	soffitto	soffitto	X	AFX	_	15	goeswith	_	_
+15	della	della	NOUN	NN	Number=Sing	16	conj	_	_
+16	cucina	cucina	NOUN	NN	Number=Sing	9	list	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	di	di	X	AFX	_	21	goeswith	_	_
+19	rimpetto	rimpetto	X	AFX	_	21	goeswith	_	_
+20	al	al	X	FW	_	21	goeswith	_	_
+21	camino	camino	NOUN	NN	Number=Sing	16	appos	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	la	la	NOUN	NN	Number=Sing	25	compound	_	_
+24	“	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+25	lucerna	lucerna	NOUN	NN	Number=Sing	29	nsubj	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	25	punct	_	_
+28	il	il	ADV	RB	_	29	advmod	_	_
+29	lume	lume	VERB	VB	Mood=Imp|VerbForm=Fin	21	parataxis	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	petrolio	petrolio	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 35
+# text = Il barlume di luce giallognola gracile e dondolante che emanava a stento metteva ancora più malinconia.
+1	Il	Il	PROPN	NNP	Number=Sing	2	compound	_	_
+2	barlume	barlume	NOUN	NN	Number=Sing	4	compound	_	_
+3	di	di	NOUN	NN	Number=Sing	4	compound	_	_
+4	luce	luce	NOUN	NN	Number=Sing	5	compound	_	_
+5	giallognola	giallognola	NOUN	NN	Number=Sing	6	compound	_	_
+6	gracile	gracile	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	e	e	X	GW	_	8	advmod	_	_
+8	dondolante	dondolante	VERB	VB	VerbForm=Inf	0	root	_	_
+9	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	emanava	emanava	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	stento	stento	NOUN	NN	Number=Sing	13	compound	_	_
+13	metteva	metteva	NOUN	NN	Number=Sing	9	nmod	_	_
+14	ancora	ancora	ADP	IN	_	16	case	_	_
+15	più	più	NOUN	NN	Number=Sing	16	compound	_	_
+16	malinconia	malinconia	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 36
+# text = Gli angoli della cucina rimanevano sempre al buio.
+1	Gli	Gli	X	LS	_	8	goeswith	_	_
+2	angoli	angoli	X	LS	_	8	goeswith	_	_
+3	della	della	X	FW	Foreign=Yes	8	goeswith	_	_
+4	cucina	cucina	X	FW	Foreign=Yes	8	goeswith	_	_
+5	rimanevano	rimanevano	X	FW	Foreign=Yes	8	goeswith	_	_
+6	sempre	sempre	X	AFX	_	8	goeswith	_	_
+7	al	al	X	FW	_	8	goeswith	_	_
+8	buio	buio	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 37
+# text = Poi attaccava all'altro consueto gancio la cesta del pane a pagnotte di granoturco, inacessibile ai bambini.
+1	Poi	Poi	X	LS	_	10	goeswith	_	_
+2	attaccava	attaccava	X	FW	Foreign=Yes	10	goeswith	_	_
+3	all	all	X	GW	_	10	goeswith	_	SpaceAfter=No
+4	'altro	'altro	X	FW	Foreign=Yes	10	goeswith	_	_
+5	consueto	consueto	X	AFX	_	10	goeswith	_	_
+6	gancio	gancio	X	FW	Foreign=Yes	10	aux	_	_
+7	la	la	X	FW	Foreign=Yes	6	flat:foreign	_	_
+8	cesta	cesta	X	FW	Foreign=Yes	6	flat:foreign	_	_
+9	del	del	X	FW	Foreign=Yes	10	goeswith	_	_
+10	pane	pane	VERB	VB	VerbForm=Inf	0	root	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+12	pagnotte	pagnotte	NOUN	NN	Number=Sing	14	compound	_	_
+13	di	di	NOUN	NN	Number=Sing	14	compound	_	_
+14	granoturco	granoturco	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	inacessibile	inacessibile	NOUN	NN	Number=Sing	18	nsubj	_	_
+17	ai	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	bambini	bambini	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giovedì 15 giugno 1978
+1	Giovedì	Giovedì	NOUN	NN	Number=Sing	3	compound	_	_
+2	15	15	NUM	CD	NumType=Card	1	nummod	_	_
+3	giugno	giugno	NOUN	NN	Number=Sing	0	root	_	_
+4	1978	1978	NUM	CD	NumType=Card	3	nmod:tmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = A Roma con la padrona che rompe i coglioni come sempre.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+2	Roma	Roma	PROPN	NNP	Number=Sing	4	compound	_	_
+3	con	con	NOUN	NN	Number=Sing	4	compound	_	_
+4	la	la	NOUN	NN	Number=Sing	5	compound	_	_
+5	padrona	padrona	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	rompe	rompe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	coglioni	coglioni	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	sempre	sempre	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = E' sempre la solita solfa con la solita stronza, più me, ancora più scema.
+1	E	e	ADP	IN	_	10	case	_	SpaceAfter=No
+2	'	'	PUNCT	``	_	3	punct	_	_
+3	sempre	sempre	X	AFX	_	10	compound	_	_
+4	la	la	X	FW	Foreign=Yes	3	goeswith	_	_
+5	solita	solita	X	FW	Foreign=Yes	3	goeswith	_	_
+6	solfa	solfa	X	FW	Foreign=Yes	3	goeswith	_	_
+7	con	con	X	FW	Foreign=Yes	3	goeswith	_	_
+8	la	la	X	FW	Foreign=Yes	3	goeswith	_	_
+9	solita	solita	X	FW	Foreign=Yes	10	goeswith	_	_
+10	stronza	stronza	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	più	più	NOUN	NN	Number=Sing	13	conj	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	ancora	ancora	ADP	IN	_	17	case	_	_
+16	più	più	NOUN	NN	Number=Sing	17	compound	_	_
+17	scema	scema	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = DIMISSIONI DEL PRESIDENTE DELLA REPUBBLICA LEONE GUFONE BUFFONE.
+1	DIMISSIONI	DIMISSIONI	PROPN	NNP	Number=Sing	0	root	_	_
+2	DEL	Del	PROPN	NNP	Number=Sing	1	flat	_	_
+3	PRESIDENTE	PRESIDENTE	PROPN	NNP	Number=Sing	1	flat	_	_
+4	DELLA	della	PROPN	NNP	Number=Sing	6	compound	_	_
+5	REPUBBLICA	REPUBBLICA	PROPN	NNP	Number=Sing	4	flat	_	_
+6	LEONE	LEONE	PROPN	NNP	Number=Sing	7	flat	_	_
+7	GUFONE	GUFONE	PROPN	NNP	Number=Sing	8	compound	_	_
+8	BUFFONE	BUFFONE	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sono le nove e mezza e piove a dirotto.
+1	So	so	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	no	no	DET	DT	_	3	det	_	_
+3	le	le	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	nove	nove	ADV	RB	_	8	advmod	_	_
+5	e	e	X	GW	_	8	goeswith	_	_
+6	mezza	mezza	X	GW	_	8	goeswith	_	_
+7	e	e	X	GW	_	8	goeswith	_	_
+8	piove	piove	VERB	VB	VerbForm=Inf	0	root	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	dirotto	dirotto	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Dio, che lampi e che tuoni.
+1	Dio	Dio	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	che	che	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	lampi	lampi	NOUN	NN	Number=Sing	0	root	_	_
+5	e	e	ADP	IN	_	7	case	_	_
+6	che	che	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	tuoni	tuoni	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Felice non telefona.
+1	Felice	Felice	NOUN	NN	Number=Sing	3	compound	_	_
+2	non	non	NOUN	NN	Number=Sing	3	compound	_	_
+3	telefona	telefona	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = In treno mi sono ricordata di come batteva il suo cuore, l'ultima volta.
+1	In	in	ADP	IN	_	3	case	_	_
+2	treno	treno	DET	DT	_	3	det	_	_
+3	mi	mi	NOUN	NN	Number=Sing	8	obl	_	_
+4	so	so	ADV	RB	_	8	advmod	_	SpaceAfter=No
+5	no	no	DET	DT	_	7	det	_	_
+6	ricordata	ricordata	NOUN	NN	Number=Sing	7	compound	_	_
+7	di	di	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+9	batteva	batteva	ADV	RB	_	12	advmod	_	_
+10	il	ill	ADP	IN	Typo=Yes	12	case	_	_
+11	suo	suo	X	AFX	_	12	goeswith	_	_
+12	cuore	cuore	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	l'ultima	l'ultima	NOUN	NN	Number=Sing	15	compound	_	_
+15	volta	volta	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n
+

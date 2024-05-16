@@ -1,0 +1,832 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 08/05/02 ore 11,00 MER
+1	08/05/02	08/05/02	NUM	CD	NumType=Card	4	nummod	_	_
+2	ore	ore	ADP	IN	_	3	case	_	_
+3	11,00	11,00	NUM	CD	NumType=Card	1	nmod	_	_
+4	MER	Mer	NOUN	NN	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Ciao!
+1	Ciao	Ciao	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Nuovo quaderno, nuovo diario, ma sempre il solito vecchio argomento:
+1	Nuovo	Nuovo	INTJ	UH	_	0	root	_	_
+2	quaderno	quaderno	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	nuovo	nuovo	INTJ	UH	_	1	discourse	_	_
+5	diario	diario	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	ma	ma	X	AFX	_	9	goeswith	_	_
+8	sempre	sempre	X	AFX	_	9	goeswith	_	_
+9	il	ill	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	solito	solito	NOUN	NN	Number=Sing	11	compound	_	_
+11	vecchio	vecchio	NOUN	NN	Number=Sing	12	compound	_	_
+12	argomento	argomento	NOUN	NN	Number=Sing	1	vocative	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	1	punct	_	_
+
+# sent_id = 4
+# text = dieta!!!
+1	dieta	dieta	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!!!	!!!	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = È così: ogni volta che decido di affrontare una dieta ricorro al solito modo per sfogarmi, incitarmi, stimolarmi etcc…,
+1	È	È	NOUN	NN	Number=Sing	2	compound	_	_
+2	così	così	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	ogni	ogni	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	volta	volof	NOUN	NN	Number=Sing	2	appos	_	_
+6	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	decido	decido	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	di	di	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	affrontare	affrontare	NOUN	NN	Number=Sing	17	compound	_	_
+10	una	una	X	FW	Foreign=Yes	17	goeswith	_	_
+11	dieta	dieta	X	FW	Foreign=Yes	17	goeswith	_	_
+12	ricorro	ricorro	X	FW	Foreign=Yes	17	goeswith	_	_
+13	al	al	X	FW	_	17	goeswith	_	_
+14	solito	solito	X	AFX	_	17	goeswith	_	_
+15	modo	modo	X	AFX	_	17	goeswith	_	_
+16	per	per	X	GW	_	17	goeswith	_	_
+17	sfogarmi	sfogarmi	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	incitarmi	incitarmi	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	stimolarmi	stimolarmi	NOUN	NN	Number=Sing	22	compound	_	_
+22	etcc	etcc	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+23	…	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 6
+# text = perchè altrimenti non riesco a darmi la carica…….
+1	perchè	perchè	NOUN	NN	Number=Sing	8	compound	_	_
+2	altrimenti	altrimenti	X	LS	_	8	goeswith	_	_
+3	non	non	X	FW	Foreign=Yes	8	goeswith	_	_
+4	riesco	riesco	X	FW	Foreign=Yes	8	goeswith	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	darmi	darmi	NOUN	NN	Number=Sing	8	compound	_	_
+7	la	la	NOUN	NN	Number=Sing	8	compound	_	_
+8	carica	carica	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	…….	…….	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = La volta scorsa, però, ho fallito miseramente e invece di perdere peso sono vergognosamente ingrassata 3 Kg!!!
+1	La	La	PROPN	NNP	Number=Sing	3	compound	_	_
+2	volta	volta	PROPN	NNP	Number=Sing	1	flat	_	_
+3	scorsa	scorsa	NOUN	NN	Number=Sing	5	list	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	però	però	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	ho	ho	X	GW	_	11	goeswith	_	_
+8	fallito	fallito	X	AFX	_	11	goeswith	_	_
+9	miseramente	miseramente	X	ADD	_	11	goeswith	_	_
+10	e	e	X	GW	_	11	goeswith	_	_
+11	invece	invece	NOUN	NN	Number=Sing	5	appos	_	_
+12	di	di	NOUN	NN	Number=Sing	17	nsubj	_	_
+13	perdere	perdere	ADV	WRB	PronType=Rel	14	advmod	_	_
+14	peso	peso	ADV	RB	_	17	advmod	_	_
+15	so	so	ADV	RB	_	17	advmod	_	SpaceAfter=No
+16	no	no	DET	DT	_	17	det	_	_
+17	vergognosamente	vergognosamente	NOUN	NN	Number=Sing	11	nmod	_	_
+18	ingrassata	ingrassata	ADP	IN	_	20	case	_	_
+19	3	3	NUM	CD	NumType=Card	20	nummod	_	_
+20	Kg	kg	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	!!!	!!!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Colta da disperazione ho strappato le pagine del diario e le ho gettate via, anche se, in realtà, non contenevano la “telecronaca” del mio fallimento, perché da vigliacca quale sono mi ero ben guardata dallo scriverlo!!!
+1	Colta	Colta	PROPN	NNP	Number=Sing	2	compound	_	_
+2	da	day	NOUN	NN	Number=Sing	0	root	_	_
+3	disperazione	disperazione	NUM	CD	NumType=Card	2	nummod	_	_
+4	ho	ho	X	GW	_	13	goeswith	_	_
+5	strappato	strappato	X	AFX	_	13	goeswith	_	_
+6	le	le	X	GW	_	13	goeswith	_	_
+7	pagine	pagine	X	GW	_	13	goeswith	_	_
+8	del	del	X	FW	Foreign=Yes	13	goeswith	_	_
+9	diario	diario	X	GW	_	13	goeswith	_	_
+10	e	e	X	GW	_	13	goeswith	_	_
+11	le	le	X	GW	_	13	goeswith	_	_
+12	ho	ho	X	GW	_	13	goeswith	_	_
+13	gettate	gettate	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+14	via	via	PROPN	NNP	Number=Sing	26	compound	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	anche	anche	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	se	se	NOUN	NN	Number=Sing	14	appos	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	realtà	realtà	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	14	punct	_	_
+22	non	non	X	FW	Foreign=Yes	24	compound	_	_
+23	contenevano	contenevano	X	FW	Foreign=Yes	24	compound	_	_
+24	la	la	X	FW	Foreign=Yes	14	appos	_	_
+25	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+26	telecronaca	telecronaca	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	26	punct	_	_
+28	del	del	X	FW	Foreign=Yes	30	goeswith	_	_
+29	mio	mio	X	FW	Foreign=Yes	30	goeswith	_	_
+30	fallimento	fallimento	NOUN	NN	Number=Sing	26	appos	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	30	punct	_	_
+32	perché	perché	NOUN	NN	Number=Sing	33	compound	_	_
+33	da	day	NOUN	NN	Number=Sing	35	nsubj	_	_
+34	vigliacca	vigliacca	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	quale	quale	VERB	VB	VerbForm=Inf	30	parataxis	_	_
+36	so	so	ADV	RB	_	38	advmod	_	SpaceAfter=No
+37	no	no	DET	DT	_	38	det	_	_
+38	mi	mi	NOUN	NN	Number=Sing	35	obj	_	_
+39	ero	ero	ADP	IN	_	43	case	_	_
+40	ben	be	ADJ	JJ	Degree=Pos	43	amod	_	_
+41	guardata	guardata	NOUN	NN	Number=Sing	42	compound	_	_
+42	dallo	dallo	NOUN	NN	Number=Sing	43	compound	_	_
+43	scriverlo	scriverlo	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+44	!!!	!!!	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Adesso è più di una settimana che sono a stretto regime alimentare e ho passato il momento critico, per cui ritengo di poter andare avanti in questa mia nuova, ennesima dieta!!!
+1	Adesso	Adesso	ADP	IN	_	4	case	_	_
+2	è	è	NOUN	NN	Number=Sing	3	compound	_	_
+3	più	più	NOUN	NN	Number=Sing	4	compound	_	_
+4	di	di	NOUN	NN	Number=Sing	0	root	_	_
+5	una	una	ADP	IN	_	6	case	_	_
+6	settimana	settimana	NOUN	NN	Number=Sing	4	nmod	_	_
+7	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nmod:poss	_	_
+8	so	so	ADV	RB	_	19	advmod	_	SpaceAfter=No
+9	no	no	ADV	RB	_	19	advmod	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+11	stretto	stretto	NOUN	NN	Number=Sing	13	compound	_	_
+12	regime	regime	NOUN	NN	Number=Sing	13	compound	_	_
+13	alimentare	alimentare	NOUN	NN	Number=Sing	19	compound	_	_
+14	e	e	NOUN	NN	Number=Sing	15	compound	_	_
+15	ho	ho	NOUN	NN	Number=Sing	16	compound	_	_
+16	passato	passato	NOUN	NN	Number=Sing	19	compound	_	_
+17	il	il	NOUN	NN	Number=Sing	19	compound	_	_
+18	momento	momento	NOUN	NN	Number=Sing	19	compound	_	_
+19	critico	critico	NOUN	NN	Number=Sing	27	compound	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	per	per	X	GW	_	25	goeswith	_	_
+22	cui	cui	X	AFX	_	25	goeswith	_	_
+23	ritengo	ritengo	X	FW	Foreign=Yes	25	goeswith	_	_
+24	di	dus	X	AFX	_	25	goeswith	_	_
+25	poter	poter	NOUN	NN	Number=Sing	19	appos	_	_
+26	andare	andare	NOUN	NN	Number=Sing	27	compound	_	_
+27	avanti	avanto	NOUN	NN	Number=Sing	4	appos	_	_
+28	in	in	ADP	IN	_	31	case	_	_
+29	questa	questa	PROPN	NNP	Number=Sing	30	compound	_	_
+30	mia	mia	PROPN	NNP	Number=Sing	31	compound	_	_
+31	nuova	nuova	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	4	punct	_	_
+33	ennesima	ennesima	NOUN	NN	Number=Sing	34	compound	_	_
+34	dieta	dieta	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+35	!!!	!!!	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = C'è da dire che non mi sono più pesata da quando ho iniziato la mia “impresa” e non ho intenzione di farlo fino a che non saremo almeno a fine mese, anche se la tentazione c'è…
+1	C'è	C'è	NOUN	NN	Number=Sing	2	compound	_	_
+2	da	day	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	dire	dire	VERB	VB	VerbForm=Inf	0	root	_	_
+4	che	che	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	non	non	NOUN	NN	Number=Sing	6	compound	_	_
+6	mi	mi	NOUN	NN	Number=Sing	3	obj	_	_
+7	so	so	ADV	RB	_	18	advmod	_	SpaceAfter=No
+8	no	no	DET	DT	_	9	det	_	_
+9	più	più	NOUN	NN	Number=Sing	18	compound	_	_
+10	pesata	pesata	X	AFX	_	18	goeswith	_	_
+11	da	day	X	FW	Foreign=Yes	18	goeswith	_	_
+12	quando	quando	X	AFX	_	18	goeswith	_	_
+13	ho	ho	X	AFX	_	18	goeswith	_	_
+14	iniziato	iniziato	X	AFX	_	18	goeswith	_	_
+15	la	la	X	FW	Foreign=Yes	18	goeswith	_	_
+16	mia	mia	X	FW	Foreign=Yes	18	goeswith	_	_
+17	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	impresa	impresa	NOUN	NN	Number=Sing	3	list	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	18	punct	_	_
+20	e	e	X	GW	_	25	goeswith	_	_
+21	non	non	X	GW	_	25	goeswith	_	_
+22	ho	ho	X	GW	_	25	goeswith	_	_
+23	intenzione	intenzione	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	di	dus	NOUN	NN	Number=Sing	25	compound	_	_
+25	farlo	farlo	NOUN	NN	Number=Sing	18	appos	_	_
+26	fino	kfinow	VERB	VB	VerbForm=Inf	25	acl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+28	che	che	NOUN	NN	Number=Sing	30	compound	_	_
+29	non	non	NOUN	NN	Number=Sing	30	compound	_	_
+30	saremo	saremo	NOUN	NN	Number=Sing	26	obj	_	_
+31	almeno	almeno	ADP	IN	_	34	case	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+33	fine	fine	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	mese	mese	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	37	punct	_	_
+36	anche	anche	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	se	se	NOUN	NN	Number=Sing	26	conj	_	_
+38	la	la	ADP	IN	_	40	case	_	_
+39	tentazione	tentazione	NUM	CD	NumType=Card	40	nummod	_	_
+40	c'è	c'è	NOUN	NN	Number=Sing	37	nmod	_	SpaceAfter=No
+41	…	.	PUNCT	.	_	26	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Spero di dimagrire, quindi vorrei vedere i risultati "scritti" sulla bilancia, ma è bene che non ci guardi troppo, altrimenti anche trovarmi delusa e questo significherebbe chiudere nuovamente con le speranze di dimagrire!
+1	Spero	Spero	ADP	IN	_	3	case	_	_
+2	di	di	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	dimagrire	dimagrire	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	quindi	quindi	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	vorrei	vorrei	NOUN	NN	Number=Sing	18	nsubj	_	_
+7	vedere	vedere	ADV	WRB	PronType=Rel	9	advmod	_	_
+8	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	risultati	risultati	ADJ	JJ	Degree=Pos	14	amod	_	_
+10	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	scritti	scritti	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	"	"	PUNCT	''	_	11	punct	_	_
+13	sulla	sulla	NOUN	NN	Number=Sing	14	compound	_	_
+14	bilancia	bilancia	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	6	punct	_	_
+16	ma	ma	NOUN	NN	Number=Sing	17	compound	_	_
+17	è	è	NOUN	NN	Number=Sing	6	appos	_	_
+18	bene	be	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+19	che	che	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+20	non	non	NOUN	NN	Number=Sing	21	compound	_	_
+21	ci	cus	NOUN	NN	Number=Sing	23	compound	_	_
+22	guardi	guardi	NOUN	NN	Number=Sing	23	compound	_	_
+23	troppo	troppo	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	18	punct	_	_
+25	altrimenti	ialtriment	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	27	nmod:poss	_	_
+26	anche	anche	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+27	trovarmi	trovarmi	NOUN	NN	Number=Sing	18	appos	_	_
+28	delusa	delusa	X	FW	Foreign=Yes	35	goeswith	_	_
+29	e	e	X	GW	_	35	goeswith	_	_
+30	questo	questo	X	AFX	_	35	goeswith	_	_
+31	significherebbe	significherebbe	X	GW	_	35	goeswith	_	_
+32	chiudere	chiudere	X	GW	_	35	goeswith	_	_
+33	nuovamente	nuovament	X	ADD	_	35	goeswith	_	_
+34	con	con	X	FW	Foreign=Yes	35	goeswith	_	_
+35	le	le	NOUN	NN	Number=Sing	27	appos	_	_
+36	speranze	speranze	NOUN	NN	Number=Sing	37	compound	_	_
+37	di	di	NOUN	NN	Number=Sing	38	compound	_	_
+38	dimagrire	dimagrire	NOUN	NN	Number=Sing	35	appos	_	SpaceAfter=No
+39	!	!	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Comunque, a parte scherzi e discorsi, devo mettermi in testa di perdere peso perché sono veramente arrivata al limite e potrebbe già essere scattato per me il punto di “non ritorno”…
+1	Comunque	Comunque	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+4	parte	parte	ADJ	JJ	Degree=Pos	7	amod	_	_
+5	scherzi	scherzi	NOUN	NN	Number=Sing	7	compound	_	_
+6	e	e	NOUN	NN	Number=Sing	7	compound	_	_
+7	discorsi	discorsi	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	devo	devo	VERB	VB	Mood=Imp|VerbForm=Fin	7	parataxis	_	_
+10	mettermi	mettermi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	9	obj	_	_
+11	in	in	ADP	IN	_	16	case	_	_
+12	testa	testa	NOUN	NN	Number=Sing	13	compound	_	_
+13	di	di	NOUN	NN	Number=Sing	14	compound	_	_
+14	perdere	perdere	NOUN	NN	Number=Sing	15	compound	_	_
+15	peso	peso	NOUN	NN	Number=Sing	16	compound	_	_
+16	perché	perché	NOUN	NN	Number=Sing	9	obl	_	_
+17	so	so	ADV	RB	_	35	advmod	_	SpaceAfter=No
+18	no	no	X	GW	_	24	goeswith	_	_
+19	veramente	veramente	X	ADD	_	24	goeswith	_	_
+20	arrivata	arrivata	X	FW	Foreign=Yes	24	goeswith	_	_
+21	al	al	X	FW	_	24	goeswith	_	_
+22	limite	limite	X	ADD	_	24	goeswith	_	_
+23	e	e	X	GW	_	24	goeswith	_	_
+24	potrebbe	potrebbe	NOUN	NN	Number=Sing	35	compound	_	_
+25	già	già	NOUN	NN	Number=Sing	26	compound	_	_
+26	essere	essere	NOUN	NN	Number=Sing	27	compound	_	_
+27	scattato	scattato	NOUN	NN	Number=Sing	32	list	_	_
+28	per	per	ADP	IN	_	29	case	_	_
+29	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	nmod	_	_
+30	il	il	ADJ	JJ	Degree=Pos	32	amod	_	_
+31	punto	punto	NOUN	NN	Number=Sing	32	compound	_	_
+32	di	di	NOUN	NN	Number=Sing	35	compound	_	_
+33	“	"	PUNCT	``	_	32	punct	_	SpaceAfter=No
+34	non	non	NOUN	NN	Number=Sing	35	compound	_	_
+35	ritorno	ritorno	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	7	punct	_	SpaceAfter=No
+37	…	…	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Quanto peso?
+1	Quanto	Quanto	PROPN	NNP	Number=Sing	0	root	_	_
+2	peso	peso	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = Come sono?
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	sono	sono	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = Ho ragione di piangere disperatamente?
+1	Ho	Ho	ADV	RB	_	5	advmod	_	_
+2	ragione	ragione	NUM	CD	NumType=Card	5	nummod	_	_
+3	di	di	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	piangere	piangere	NOUN	NN	Number=Sing	5	compound	_	_
+5	disperatamente	disperatament	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 16
+# text = Ti faccio un'analisi mia e del mio fisico e poi tu giudicherai…
+1	Ti	ti	X	AFX	_	12	goeswith	_	_
+2	faccio	faccio	X	FW	Foreign=Yes	1	goeswith	_	_
+3	un'analisi	un'analisi	X	AFX	_	1	goeswith	_	_
+4	mia	mia	X	FW	Foreign=Yes	1	goeswith	_	_
+5	e	e	X	GW	_	1	goeswith	_	_
+6	del	del	X	FW	Foreign=Yes	1	goeswith	_	_
+7	mio	mio	X	FW	Foreign=Yes	12	goeswith	_	_
+8	fisico	fisico	X	FW	Foreign=Yes	12	goeswith	_	_
+9	e	e	X	GW	_	12	goeswith	_	_
+10	poi	poi	X	AFX	_	12	goeswith	_	_
+11	tu	tu	X	ADD	_	12	goeswith	_	_
+12	giudicherai	giudicherai	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+13	…	…	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 17
+# text = anche se queste cose tu già le sai dalle scorse puntate, ma è bene avere certe cose ben impresse nella testa!
+1	anche	anche	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	se	se	NOUN	NN	Number=Sing	3	compound	_	_
+3	queste	queste	NOUN	NN	Number=Sing	4	compound	_	_
+4	cose	cose	NOUN	NN	Number=Sing	19	nsubj	_	_
+5	tu	tough	ADP	IN	Abbr=Yes	11	case	_	_
+6	già	già	NOUN	NN	Number=Sing	7	compound	_	_
+7	le	le	NOUN	NN	Number=Sing	8	compound	_	_
+8	sai	sai	NOUN	NN	Number=Sing	9	compound	_	_
+9	dalle	dalle	NOUN	NN	Number=Sing	10	compound	_	_
+10	scorse	scorse	NOUN	NN	Number=Sing	11	compound	_	_
+11	puntate	puntate	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	ma	ma	NOUN	NN	Number=Sing	14	compound	_	_
+14	è	è	NOUN	NN	Number=Sing	4	list	_	_
+15	bene	be	NUM	CD	NumType=Card	18	nummod	_	_
+16	avere	avere	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	certe	certe	NOUN	NN	Number=Sing	18	compound	_	_
+18	cose	cose	NOUN	NN	Number=Sing	4	list	_	_
+19	ben	be	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+20	impresse	impresse	ADJ	JJ	Degree=Pos	22	amod	_	_
+21	nella	nella	NOUN	NN	Number=Sing	22	compound	_	_
+22	testa	testa	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+23	!	!	PUNCT	.	_	19	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Allora, Allora!!!...
+1	Allora	Allora	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	Allora	Allora	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+4	!!!...	!!!...	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Ho quasi 39 anni (età in cui anche un chilo può essere un problema!)…
+1	Ho	Ho	PROPN	NNP	Number=Sing	15	compound	_	_
+2	quasi	quasi	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	39	39	NUM	CD	NumType=Card	4	nummod	_	_
+4	anni	anni	NOUN	NNS	Number=Plur	1	list	_	_
+5	(	(	PUNCT	-LRB-	_	6	punct	_	SpaceAfter=No
+6	età	età	NOUN	NN	Number=Sing	12	appos	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	cui	cui	NOUN	NN	Number=Sing	6	nmod	_	_
+9	anche	anche	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	un	un	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	chilo	chilo	NOUN	NN	Number=Sing	12	compound	_	_
+12	può	può	NOUN	NN	Number=Sing	15	compound	_	_
+13	essere	essere	ADV	WRB	PronType=Rel	15	advmod	_	_
+14	un	un	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	problema	problema	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	15	punct	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	18	punct	_	SpaceAfter=No
+18	…	…	PUNCT	.	_	0	root	_	_
+
+# sent_id = 20
+# text = sono alta un metro e sessantaquattro e peso…aimè…
+1	sono	sono	X	FW	Foreign=Yes	9	goeswith	_	_
+2	alta	alta	X	FW	Foreign=Yes	9	goeswith	_	_
+3	un	un	X	GW	_	9	goeswith	_	_
+4	metro	metro	X	FW	Foreign=Yes	9	goeswith	_	_
+5	e	e	X	GW	_	9	goeswith	_	_
+6	sessantaquattro	sessantaquattro	X	FW	Foreign=Yes	9	goeswith	_	_
+7	e	e	X	GW	_	9	goeswith	_	_
+8	peso…	peso.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	aimè	aimè	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	…	…	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 21
+# text = 75 Kg!!!
+1	75	75	NUM	CD	NumType=Card	2	nummod	_	_
+2	Kg	kg	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!!!	!!!	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Sono in soprappeso di oltre 20 chili!...
+1	Sono	Sono	ADP	IN	_	4	case	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	soprappeso	soprappeso	NOUN	NN	Number=Sing	4	compound	_	_
+4	di	di	NOUN	NN	Number=Sing	7	nmod	_	_
+5	oltre	oltre	ADV	WRB	PronType=Rel	7	advmod	_	_
+6	20	20	NUM	CD	NumType=Card	7	nummod	_	_
+7	chili	chili	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	!...	!...	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 23
+# text = Fino allo scorso anno portavo la taglia 48, ma ho la vaga impressione che se vado adesso a comprarmi qualcosa dovrò andare alla 50!
+1	Fino	fino	INTJ	UH	_	3	discourse	_	_
+2	allo	allo	INTJ	UH	_	3	discourse	_	_
+3	scorso	scorso	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	SpaceAfter=No
+5	nno	nno	NOUN	NN	Number=Sing	6	compound	_	_
+6	portavo	portavo	NOUN	NN	Number=Sing	7	compound	_	_
+7	la	la	NOUN	NN	Number=Sing	8	compound	_	_
+8	taglia	taglia	NOUN	NN	Number=Sing	3	obj	_	_
+9	48	48	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	ma	ma	X	GW	_	16	goeswith	_	_
+12	ho	ho	X	GW	_	16	goeswith	_	_
+13	la	la	X	GW	_	16	goeswith	_	_
+14	vaga	vaga	X	GW	_	16	goeswith	_	_
+15	impressione	impressione	PRON	PRP	_	16	nsubj	_	_
+16	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	parataxis	_	_
+17	se	se	DET	DT	Number=Plur|PronType=Dem	18	det	_	_
+18	vado	vado	NOUN	NN	Number=Sing	16	appos	_	_
+19	adesso	adesso	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	comprarmi	comprarmi	NOUN	NN	Number=Sing	16	nmod	_	_
+22	qualcosa	qualcosa	ADP	IN	_	25	case	_	_
+23	dovrò	dovrò	NOUN	NN	Number=Sing	24	compound	_	_
+24	andare	andare	NOUN	NN	Number=Sing	25	compound	_	_
+25	alla	alla	NOUN	NN	Number=Sing	21	nmod	_	_
+26	50	50	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+27	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 24
+# text = Non so a questo punto se essere contenta di non avere i soldi per comprarmi i vestiti o no!!!
+1	Non	non	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	so	so	ADV	RB	_	4	advmod	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	questo	questo	NOUN	NN	Number=Sing	0	root	_	_
+5	punto	punto	PART	TO	_	6	mark	_	_
+6	se	se	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	essere	essere	ADV	WRB	PronType=Int	6	advmod	_	_
+8	contenta	contenta	X	AFX	_	19	goeswith	_	_
+9	di	di	X	AFX	_	19	goeswith	_	_
+10	non	non	X	FW	Foreign=Yes	19	goeswith	_	_
+11	avere	avere	X	GW	_	19	goeswith	_	_
+12	i	i	X	AFX	_	19	goeswith	_	_
+13	soldi	soldi	X	AFX	_	19	goeswith	_	_
+14	per	per	X	GW	_	19	goeswith	_	_
+15	comprarmi	comprarmi	X	AFX	_	19	goeswith	_	_
+16	i	i	X	AFX	_	19	goeswith	_	_
+17	vestiti	vestiti	X	AFX	_	19	goeswith	_	_
+18	o	o	X	GW	_	19	goeswith	_	_
+19	no	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+20	!!!	!!!	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Beh!... cerco di fare dello spirito perché non voglio cadere nella depressione, ma veramente stò soffrendo!
+1	Beh	Beh	INTJ	UH	_	13	discourse	_	SpaceAfter=No
+2	!...	!...	PUNCT	.	_	13	punct	_	_
+3	cerco	cerco	X	AFX	_	4	goeswith	_	_
+4	di	di	ADJ	JJ	Degree=Pos	8	amod	_	_
+5	fare	fare	NOUN	NN	Number=Sing	6	compound	_	_
+6	dello	dello	NOUN	NN	Number=Sing	7	compound	_	_
+7	spirito	spirito	NOUN	NN	Number=Sing	8	compound	_	_
+8	perché	perché	NOUN	NN	Number=Sing	13	compound	_	_
+9	non	non	X	GW	_	13	goeswith	_	_
+10	voglio	voglio	X	GW	_	13	goeswith	_	_
+11	cadere	cadere	X	GW	_	13	goeswith	_	_
+12	nella	nella	X	GW	_	13	goeswith	_	_
+13	depressione	depressione	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	ma	ma	NOUN	NN	Number=Sing	16	compound	_	_
+16	veramente	verament	NOUN	NN	Number=Sing	17	compound	_	_
+17	stò	stò	NOUN	NN	Number=Sing	18	compound	_	_
+18	soffrendo	soffrendo	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 26
+# text = Soffro per i miei chili di troppo, soffro per non avere i soldi per un guardaroba nuovo, soffro per non avere la forza e la capacità di cambiare tutto questo!
+1	Soffro	Soffro	PROPN	NNP	Number=Sing	0	root	_	_
+2	per	per	ADP	IN	_	7	case	_	_
+3	i	i	NUM	CD	NumType=Card	5	compound	_	_
+4	miei	miei	NUM	CD	NumType=Card	5	nummod	_	_
+5	chili	chili	NOUN	NN	Number=Sing	6	compound	_	_
+6	di	di	NOUN	NN	Number=Sing	7	compound	_	_
+7	troppo	troppo	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	_
+9	soffro	soffro	X	AFX	_	28	goeswith	_	_
+10	per	per	X	GW	_	28	goeswith	_	_
+11	non	non	X	GW	_	28	goeswith	_	_
+12	avere	avere	X	GW	_	28	goeswith	_	_
+13	i	i	X	AFX	_	28	goeswith	_	_
+14	soldi	soldi	X	AFX	_	28	goeswith	_	_
+15	per	per	X	GW	_	28	goeswith	_	_
+16	un	un	X	GW	_	28	goeswith	_	_
+17	guardaroba	guardaroba	X	ADD	_	28	goeswith	_	_
+18	nuovo	nuovo	X	FW	Foreign=Yes	28	goeswith	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	soffro	soffro	X	FW	Foreign=Yes	18	conj	_	_
+21	per	per	X	GW	_	28	goeswith	_	_
+22	non	non	X	GW	_	28	goeswith	_	_
+23	avere	avere	X	GW	_	28	goeswith	_	_
+24	la	la	X	GW	_	28	goeswith	_	_
+25	forza	forza	X	GW	_	28	goeswith	_	_
+26	e	e	X	GW	_	28	goeswith	_	_
+27	la	la	X	GW	_	28	goeswith	_	_
+28	capacità	capacità	NOUN	NN	Number=Sing	1	parataxis	_	_
+29	di	di	NOUN	NN	Number=Sing	30	compound	_	_
+30	cambiare	cambiare	NOUN	NN	Number=Sing	31	compound	_	_
+31	tutto	tutto	NOUN	NN	Number=Sing	32	compound	_	_
+32	questo	questo	NOUN	NN	Number=Sing	28	appos	_	SpaceAfter=No
+33	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 27
+# text = Forse è la sofferenza la vera causa del mio soprappeso!
+1	Forse	Forse	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	è	è	NOUN	NN	Number=Sing	0	root	_	_
+3	la	la	X	FW	Foreign=Yes	2	appos	_	_
+4	sofferenza	sofferenza	X	FW	Foreign=Yes	3	flat:foreign	_	_
+5	la	la	X	FW	Foreign=Yes	3	flat:foreign	_	_
+6	vera	vera	X	FW	Foreign=Yes	3	flat:foreign	_	_
+7	causa	causa	X	FW	Foreign=Yes	3	flat:foreign	_	_
+8	del	del	X	FW	Foreign=Yes	3	flat:foreign	_	_
+9	mio	mio	X	FW	Foreign=Yes	3	flat:foreign	_	_
+10	soprappeso	soprappeso	X	FW	Foreign=Yes	3	conj	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = I motivi di questo mio malessere sono molteplici, ed è difficile qui, ora, elencarli tutti e parlarne in maniera approfondita, ma nell'insieme devo dirti che mi sento un fallimento completo nonostante le mie capacità e la mia forza di volontà.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	motivi	motivi	X	LS	_	8	goeswith	_	_
+3	di	di	X	AFX	_	8	goeswith	_	_
+4	questo	questo	X	AFX	_	8	goeswith	_	_
+5	mio	mio	X	GW	_	8	goeswith	_	_
+6	malessere	malessere	X	GW	_	8	goeswith	_	_
+7	sono	sono	X	GW	_	8	goeswith	_	_
+8	molteplici	molteplici	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	ed	ed	NOUN	NN	Number=Sing	11	compound	_	_
+11	è	è	NOUN	NN	Number=Sing	13	compound	_	_
+12	difficile	difficile	NOUN	NN	Number=Sing	13	compound	_	_
+13	qui	qui	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	ora	ora	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	elencarli	elencarli	NUM	CD	NumType=Card	15	nummod	_	_
+18	tutti	tutti	NUM	CD	NumType=Card	20	nummod	_	_
+19	e	e	NOUN	NN	Number=Sing	20	compound	_	_
+20	parlarne	parlarne	NOUN	NN	Number=Sing	17	appos	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	maniera	maniera	NOUN	NN	Number=Sing	23	compound	_	_
+23	approfondita	approfondita	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	_
+25	ma	ma	NOUN	NN	Number=Sing	26	compound	_	_
+26	nell	nell	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+27	'	'	PUNCT	''	_	26	punct	_	SpaceAfter=No
+28	insieme	insieme	X	GW	_	32	goeswith	_	_
+29	devo	devo	X	FW	Foreign=Yes	32	goeswith	_	_
+30	dirti	dirti	X	LS	_	32	goeswith	_	_
+31	che	che	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	mi	mi	NOUN	NN	Number=Sing	8	appos	_	_
+33	sento	sento	ADP	IN	_	35	case	_	_
+34	un	un	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	fallimento	fallimento	NOUN	NN	Number=Sing	32	nmod	_	_
+36	completo	completo	PART	TO	_	46	case	_	_
+37	nonostante	nonostante	VERB	VB	VerbForm=Inf	46	compound	_	_
+38	le	le	NOUN	NN	Number=Sing	39	compound	_	_
+39	mie	mie	NOUN	NN	Number=Sing	40	compound	_	_
+40	capacità	capacità	NOUN	NN	Number=Sing	37	obj	_	_
+41	e	e	X	GW	_	46	goeswith	_	_
+42	la	la	X	FW	Foreign=Yes	41	goeswith	_	_
+43	mia	mia	X	FW	Foreign=Yes	41	goeswith	_	_
+44	forza	forza	X	FW	Foreign=Yes	45	compound	_	_
+45	di	dus	NOUN	NN	Number=Sing	46	compound	_	_
+46	volontà	volontà	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 29
+# text = Sbagliando continuo ad andare avanti per una strada che sò non essere quella giusta, ma non trovo il coraggio di cambiarla, per paura che anche le poche e misere certezze che ho ora possano svanire quindi rimanere con ancor meno di ciò che ho in questo momento.
+1	Sbagliando	Sbagliando	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	continuo	continuo	VERB	VB	Mood=Imp|VerbForm=Fin	1	xcomp	_	_
+3	ad	ad	NOUN	NN	Number=Sing	4	compound	_	_
+4	andare	andare	NOUN	NN	Number=Sing	5	compound	_	_
+5	avanti	avanto	NOUN	NN	Number=Sing	2	obj	_	_
+6	per	per	ADP	IN	_	7	case	_	_
+7	una	una	NOUN	NN	Number=Sing	5	nmod	_	_
+8	strada	strada	ADP	IN	_	14	case	_	_
+9	che	che	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+10	sò	sò	NOUN	NN	Number=Sing	14	compound	_	_
+11	non	non	X	GW	_	14	goeswith	_	_
+12	essere	essere	X	GW	_	14	goeswith	_	_
+13	quella	quella	X	GW	_	14	goeswith	_	_
+14	giusta	giusta	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	ma	ma	X	FW	Foreign=Yes	19	goeswith	_	_
+17	non	non	X	FW	Foreign=Yes	19	goeswith	_	_
+18	trovo	trovo	X	FW	Foreign=Yes	19	goeswith	_	_
+19	il	il	NOUN	NN	Number=Sing	1	parataxis	_	_
+20	coraggio	coraggio	NOUN	NN	Number=Sing	21	compound	_	_
+21	di	di	NOUN	NN	Number=Sing	22	compound	_	_
+22	cambiarla	cambiarla	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	19	punct	_	_
+24	per	per	ADP	IN	_	25	case	_	_
+25	paura	paura	NOUN	NN	Number=Sing	19	nmod	_	_
+26	che	chan	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nmod	_	_
+27	anche	anche	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	le	le	NOUN	NN	Number=Sing	26	obj	_	_
+29	poche	poche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	44	nmod:poss	_	_
+30	e	e	X	GW	_	44	goeswith	_	_
+31	misere	misere	X	GW	_	44	goeswith	_	_
+32	certezze	certezze	X	GW	_	44	goeswith	_	_
+33	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	44	punct	_	_
+34	ho	ho	X	GW	_	44	goeswith	_	_
+35	ora	ora	X	GW	_	44	goeswith	_	_
+36	possano	possano	X	GW	_	44	goeswith	_	_
+37	svanire	svanire	X	GW	_	44	goeswith	_	_
+38	quindi	quindi	X	AFX	_	44	goeswith	_	_
+39	rimanere	rimanere	X	GW	_	44	goeswith	_	_
+40	con	con	X	GW	_	44	goeswith	_	_
+41	ancor	ancor	X	GW	_	44	goeswith	_	_
+42	meno	meno	X	GW	_	44	goeswith	_	_
+43	di	di	X	AFX	_	44	goeswith	_	_
+44	ciò	ciò	NOUN	NN	Number=Sing	28	appos	_	_
+45	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	_
+46	ho	ho	PRON	WP	PronType=Rel	44	acl:relcl	_	_
+47	in	in	ADP	IN	_	49	case	_	_
+48	questo	questo	NOUN	NN	Number=Sing	49	compound	_	_
+49	momento	momento	NOUN	NN	Number=Sing	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	46	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = Il mio lavoro, grande cruccio della mia vita, stà andando malissimo ed è arrivato il momento di abbandonare quello che è stato il mio sogno di una vita e per il quale io ho sacrificato la vita….
+1	Il	Il	PROPN	NNP	Number=Sing	2	compound	_	_
+2	mio	mio	NOUN	NN	Number=Sing	14	nsubj	_	_
+3	lavoro	lavoro	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	grande	grande	NOUN	NN	Number=Sing	6	compound	_	_
+6	cruccio	cruccio	NOUN	NN	Number=Sing	7	compound	_	_
+7	della	della	NOUN	NN	Number=Sing	9	compound	_	_
+8	mia	mia	NOUN	NN	Number=Sing	9	compound	_	_
+9	vita	vita	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	stà	stà	NOUN	NN	Number=Sing	14	nsubj	_	_
+12	andando	andando	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	malissimo	malissimo	ADV	RB	_	14	advmod	_	_
+14	ed	ed	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	è	è	NOUN	NN	Number=Sing	14	obj	_	_
+16	arrivato	arrivato	ADP	IN	_	20	case	_	_
+17	il	il	ADJ	JJ	Degree=Pos	20	amod	_	_
+18	momento	momento	NOUN	NN	Number=Sing	19	compound	_	_
+19	di	di	NOUN	NN	Number=Sing	20	compound	_	_
+20	abbandonare	abbandonare	NOUN	NN	Number=Sing	15	nmod	_	_
+21	quello	quello	ADP	IN	_	24	case	_	_
+22	che	che	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	è	è	NOUN	NN	Number=Sing	24	compound	_	_
+24	stato	stato	NOUN	NN	Number=Sing	14	obl	_	_
+25	il	ill	ADP	IN	Typo=Yes	33	case	_	_
+26	mio	mio	X	FW	Foreign=Yes	33	goeswith	_	_
+27	sogno	sogno	X	FW	Foreign=Yes	33	goeswith	_	_
+28	di	di	X	AFX	_	33	goeswith	_	_
+29	una	una	X	GW	_	33	goeswith	_	_
+30	vita	vita	X	GW	_	33	goeswith	_	_
+31	e	e	X	GW	_	33	goeswith	_	_
+32	per	per	X	GW	_	33	goeswith	_	_
+33	il	il	NOUN	NN	Number=Sing	14	nmod	_	_
+34	quale	quale	X	GW	_	37	goeswith	_	_
+35	io	io	X	GW	_	37	goeswith	_	_
+36	ho	ho	X	GW	_	37	goeswith	_	_
+37	sacrificato	sacrificato	NOUN	NN	Number=Sing	39	compound	_	_
+38	la	la	NOUN	NN	Number=Sing	39	compound	_	_
+39	vita	vita	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+40	….	..	PUNCT	,	_	14	punct	_	_
+
+# sent_id = 31
+# text = non è facile, ma dovrò farlo…
+1	non	non	X	AFX	_	3	goeswith	_	_
+2	è	è	NOUN	NN	Number=Sing	3	compound	_	_
+3	facile	facile	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	ma	ma	NOUN	NN	Number=Sing	6	compound	_	_
+6	dovrò	dovrò	NOUN	NN	Number=Sing	7	compound	_	_
+7	farlo	farlo	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+8	…	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 32
+# text = Anche perché, in questo momento ne ho la nausea e il rifiuto, a causa dei bocconi amari che ho dovuto mandar giù...
+1	Anche	Anche	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	perché	perché	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	12	case	_	_
+5	questo	questo	X	AFX	_	12	goeswith	_	_
+6	momento	momento	X	AFX	_	12	goeswith	_	_
+7	ne	ne	X	GW	_	12	goeswith	_	_
+8	ho	ho	X	GW	_	12	goeswith	_	_
+9	la	la	X	GW	_	12	goeswith	_	_
+10	nausea	nausea	X	GW	_	12	goeswith	_	_
+11	e	e	X	GW	_	12	goeswith	_	_
+12	il	il	NOUN	NN	Number=Sing	2	nmod	_	_
+13	rifiuto	rifiuto	NOUN	NN	Number=Sing	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	causa	causa	NOUN	NN	Number=Sing	17	compound	_	_
+17	dei	dei	NOUN	NN	Number=Sing	18	compound	_	_
+18	bocconi	bocconi	NOUN	NN	Number=Sing	13	appos	_	_
+19	amari	amari	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	24	nmod:poss	_	_
+20	che	che	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+21	ho	ho	NOUN	NN	Number=Sing	22	compound	_	_
+22	dovuto	dovuto	NOUN	NN	Number=Sing	23	compound	_	_
+23	mandar	mandar	NOUN	NN	Number=Sing	24	compound	_	_
+24	giù	giù	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+25	...	...	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 33
+# text = Ho un sogno alternativo, che ha grande attinenza con ciò che è stato fino a questo momento il mio lavoro di stilista: mi piacerebbe avere un negozio di mercieria specializzata e filati, e anche di ricami e bomboniere in tessuto…
+1	Ho	Ho	ADV	RB	_	4	advmod	_	_
+2	un	un	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	sogno	sogno	NOUN	NN	Number=Sing	4	compound	_	_
+4	alternativo	alternativo	NOUN	NN	Number=Sing	15	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	che	che	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	ha	ha	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	grande	grande	NOUN	NN	Number=Sing	4	appos	_	_
+9	attinenza	attinenza	ADP	IN	_	11	case	_	_
+10	con	con	NOUN	NN	Number=Sing	11	compound	_	_
+11	ciò	ciò	NOUN	NN	Number=Sing	4	nmod	_	_
+12	che	che	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	è	è	NOUN	NN	Number=Sing	4	appos	_	_
+14	stato	stato	PART	TO	_	15	mark	_	_
+15	fino	kfinow	VERB	VB	VerbForm=Inf	0	root	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	questo	questo	NOUN	NN	Number=Sing	15	obj	_	_
+18	momento	momento	PART	TO	_	19	mark	_	_
+19	il	il	VERB	VB	VerbForm=Inf	15	advcl	_	_
+20	mio	mio	X	FW	Foreign=Yes	23	compound	_	_
+21	lavoro	lavoro	X	FW	Foreign=Yes	20	goeswith	_	_
+22	di	dus	X	AFX	_	20	goeswith	_	_
+23	stilista	stilista	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	:	:	PUNCT	:	_	23	punct	_	_
+25	mi	mi	X	AFX	_	34	goeswith	_	_
+26	piacerebbe	piacerebbe	X	GW	_	34	goeswith	_	_
+27	avere	avere	X	GW	_	34	goeswith	_	_
+28	un	un	X	GW	_	34	goeswith	_	_
+29	negozio	negozio	X	FW	Foreign=Yes	34	goeswith	_	_
+30	di	di	X	AFX	_	34	goeswith	_	_
+31	mercieria	mercieria	X	FW	Foreign=Yes	34	goeswith	_	_
+32	specializzata	specializzata	X	FW	Foreign=Yes	34	goeswith	_	_
+33	e	e	X	GW	_	34	goeswith	_	_
+34	filati	filato	NOUN	NN	Number=Sing	23	appos	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	23	punct	_	_
+36	e	e	X	GW	_	41	goeswith	_	_
+37	anche	anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nmod:poss	_	_
+38	di	dus	X	AFX	_	41	goeswith	_	_
+39	ricami	ricami	X	AFX	_	41	goeswith	_	_
+40	e	e	X	GW	_	41	goeswith	_	_
+41	bomboniere	bomboniere	NOUN	NN	Number=Sing	23	parataxis	_	_
+42	in	in	ADP	IN	_	43	case	_	_
+43	tessuto	tessuto	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No
+44	…	.	PUNCT	.	_	41	punct	_	_
+
+# sent_id = 34
+# text = ma ci sono motivi validi a trattenermi:
+1	ma	ma	NOUN	NN	Number=Sing	2	compound	_	_
+2	ci	ci	NOUN	NN	Number=Sing	3	compound	_	_
+3	sono	sono	NOUN	NN	Number=Sing	4	compound	_	_
+4	motivi	motivi	NOUN	NN	Number=Sing	5	compound	_	_
+5	validi	validi	NOUN	NN	Number=Sing	7	compound	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	trattenermi	trattenermi	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	7	punct	_	_
+
+# sent_id = 35
+# text = innanzitutto i soldi, poi l'incertezza dell'impresa, ma soprattutto la mia condizione familiare…
+1	innanzitutto	innanzitutto	SCONJ	IN	_	3	mark	_	_
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	soldi	soldi	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	poi	poi	NOUN	NNS	Number=Plur	9	nmod:poss	_	_
+6	l'	lg	PART	POS	_	5	case	_	SpaceAfter=No
+7	incertezza	incertezza	NOUN	NN	Number=Sing	9	compound	_	_
+8	dell	dell	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+9	'impresa	'impresa	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	ma	ma	X	AFX	_	16	goeswith	_	_
+12	soprattutto	soprattutto	X	AFX	_	16	goeswith	_	_
+13	la	la	X	FW	Foreign=Yes	16	goeswith	_	_
+14	mia	mia	X	FW	Foreign=Yes	16	goeswith	_	_
+15	condizione	condizione	NOUN	NN	Number=Sing	16	compound	_	_
+16	familiare	familiare	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+17	…	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n
+

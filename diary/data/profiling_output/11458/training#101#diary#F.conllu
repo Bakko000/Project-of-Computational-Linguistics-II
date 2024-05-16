@@ -1,0 +1,255 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 8 settembre 1943
+1	8	8	NUM	CD	NumType=Card	2	nummod	_	_
+2	settembre	settembre	NOUN	NN	Number=Sing	0	root	_	_
+3	1943	1943	NUM	CD	NumType=Card	2	nmod:tmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Filippo, è arrivata la pace.
+1	Filippo	Filippo	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	è	è	NOUN	NN	Number=Sing	4	compound	_	_
+4	arrivata	arrivaof	NOUN	NN	Number=Sing	5	compound	_	_
+5	la	la	NOUN	NN	Number=Sing	6	compound	_	_
+6	pace	pace	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Non so dirti altro, non so ripetermi altro che è arrivata la pace.
+1	Non	non	X	FW	Foreign=Yes	4	goeswith	_	_
+2	so	so	ADV	RB	_	4	advmod	_	_
+3	dirti	dirti	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	altro	altro	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	non	non	X	AFX	_	8	advmod	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	ripetermi	ripetermi	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+9	altro	altro	ADP	IN	_	11	case	_	_
+10	che	che	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	è	è	NOUN	NN	Number=Sing	8	obl	_	_
+12	arrivata	arrivaof	ADP	IN	_	14	case	_	_
+13	la	la	NOUN	NN	Number=Sing	14	compound	_	_
+14	pace	pace	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Figurati cosa significa questo per centinaia e milioni di persone, è arrivata la pace.
+1	Figurati	Figurati	X	LS	_	10	goeswith	_	_
+2	cosa	cosa	X	FW	Foreign=Yes	10	goeswith	_	_
+3	significa	significa	X	FW	Foreign=Yes	10	goeswith	_	_
+4	questo	questo	X	AFX	_	10	goeswith	_	_
+5	per	per	X	GW	_	10	goeswith	_	_
+6	centinaia	centinaia	X	GW	_	10	goeswith	_	_
+7	e	e	X	GW	_	10	goeswith	_	_
+8	milioni	milioni	X	AFX	_	10	goeswith	_	_
+9	di	di	X	AFX	_	10	goeswith	_	_
+10	persone	persone	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	è	è	NOUN	NN	Number=Sing	13	compound	_	_
+13	arrivata	arrivaof	NOUN	NN	Number=Sing	14	compound	_	_
+14	la	la	NOUN	NN	Number=Sing	15	compound	_	_
+15	pace	pace	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Avevo quasi la febbre, sono corsa in strada per vedere se era vero, il cuore mi batteva, gli occhi mi bruciavano.
+1	Avevo	Avevo	ADP	IN	_	4	case	_	_
+2	quasi	quasi	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	la	la	NOUN	NN	Number=Sing	4	compound	_	_
+4	febbre	febbre	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	sono	sono	X	GW	_	14	goeswith	_	_
+7	corsa	corsa	X	GW	_	14	goeswith	_	_
+8	in	in	X	GW	_	14	goeswith	_	_
+9	strada	strada	X	GW	_	14	goeswith	_	_
+10	per	per	X	GW	_	14	case	_	_
+11	vedere	vedere	X	GW	_	12	compound	_	_
+12	se	se	NOUN	NN	Number=Sing	14	compound	_	_
+13	era	era	NOUN	NN	Number=Sing	14	compound	_	_
+14	vero	vero	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	il	ill	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+17	cuore	cuore	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	mi	mi	NOUN	NN	Number=Sing	19	compound	_	_
+19	batteva	batteva	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	gli	gli	NUM	CD	NumType=Card	24	nummod	_	_
+22	occhi	occhi	NUM	CD	NumType=Card	24	nummod	_	_
+23	mi	mi	NOUN	NN	Number=Sing	24	compound	_	_
+24	bruciavano	bruciavano	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 6
+# text = Un uccellino piccolo piccolo era caduto.
+1	Un	un	X	GW	_	6	goeswith	_	_
+2	uccellino	uccellino	X	GW	_	6	goeswith	_	_
+3	piccolo	piccolo	X	GW	_	6	goeswith	_	_
+4	piccolo	piccolo	X	GW	_	6	goeswith	_	_
+5	era	era	X	GW	_	6	goeswith	_	_
+6	caduto	caduto	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Chissà da dove.
+1	Chissà	Chissà	NOUN	NN	Number=Sing	2	compound	_	_
+2	da	day	NOUN	NN	Number=Sing	3	compound	_	_
+3	dove	dove	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Un'anatra lo beccava.
+1	Un'anatra	Un'anatra	PROPN	NNP	Number=Sing	3	compound	_	_
+2	lo	lo	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	beccava	beccava	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Me lo hanno portato e lo stringevo nel pugno e correvo.
+1	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	lo	lo	X	AFX	_	11	goeswith	_	_
+3	hanno	hanno	X	FW	Foreign=Yes	11	goeswith	_	_
+4	portato	portato	X	AFX	_	11	goeswith	_	_
+5	e	e	X	GW	_	11	goeswith	_	_
+6	lo	lo	X	AFX	_	11	goeswith	_	_
+7	stringevo	stringevo	X	FW	Foreign=Yes	11	goeswith	_	_
+8	nel	nel	X	FW	Foreign=Yes	11	goeswith	_	_
+9	pugno	pugno	X	FW	Foreign=Yes	11	goeswith	_	_
+10	e	e	X	GW	_	11	goeswith	_	_
+11	correvo.	correvo.	NOUN	NN	Number=Sing	1	appos	_	_
+
+# sent_id = 10
+# text = La pace.
+1	La	la	PROPN	NNP	Number=Sing	2	compound	_	_
+2	pace	pace	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Una brutta pace.
+1	Una	Una	PROPN	NNP	Number=Sing	2	compound	_	_
+2	brutta	brutta	NOUN	NN	Number=Sing	3	compound	_	_
+3	pace	pace	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = La resa senza condizioni.
+1	La	la	PROPN	NNP	Number=Sing	2	compound	_	_
+2	resa	resa	NOUN	NN	Number=Sing	4	compound	_	_
+3	senza	senza	NOUN	NN	Number=Sing	4	compound	_	_
+4	condizioni	condizioni	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Ma cosa importa Filippo.
+1	Ma	ma	NOUN	NN	Number=Sing	2	compound	_	_
+2	cosa	cosa	NOUN	NN	Number=Sing	0	root	_	_
+3	importa	imporof	ADP	IN	Abbr=Yes	4	case	_	_
+4	Filippo	Filippo	PROPN	NNP	Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = Bella o brutta è la pace, la pace.
+1	Bella	Bella	ADP	IN	_	6	case	_	_
+2	o	of	ADP	IN	Abbr=Yes	6	case	_	_
+3	brutta	brutta	NOUN	NN	Number=Sing	4	compound	_	_
+4	è	è	NOUN	NN	Number=Sing	6	compound	_	_
+5	la	la	NOUN	NN	Number=Sing	6	compound	_	_
+6	pace	pace	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	la	la	NOUN	NN	Number=Sing	9	compound	_	_
+9	pace	pace	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 15
+# text = (…)
+1	(	(	PUNCT	-LRB-	_	3	punct	_	SpaceAfter=No
+2	…	…	PUNCT	.	_	3	punct	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	0	root	_	_
+
+# sent_id = 16
+# text = Nelle strade la gente ha gridato, cantato a lungo, a lungo.
+1	Nelle	Nelle	ADJ	JJ	Degree=Pos	6	amod	_	_
+2	strade	strade	NOUN	NN	Number=Sing	3	compound	_	_
+3	la	la	NOUN	NN	Number=Sing	4	compound	_	_
+4	gente	gent	NOUN	NN	Number=Sing	5	compound	_	_
+5	ha	ha	NOUN	NN	Number=Sing	6	compound	_	_
+6	gridato	gridato	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	cantato	cantato	VERB	VB	VerbForm=Inf	0	root	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	lungo	lungo	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	lungo	lungo	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 17
+# text = I semplici e puri di cuore erano felici.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	semplici	semplici	X	LS	_	6	goeswith	_	_
+3	e	e	X	GW	_	6	goeswith	_	_
+4	puri	puri	X	AFX	_	6	goeswith	_	_
+5	di	di	X	AFX	_	6	goeswith	_	_
+6	cuore	cuore	VERB	VB	VerbForm=Inf	0	root	_	_
+7	erano	erano	DET	DT	_	8	det	_	_
+8	felici	felici	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 18
+# text = Gli altri no.
+1	Gli	Gli	X	LS	_	2	goeswith	_	_
+2	altri	altri	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	0	root	_	_
+3	no	no	DET	DT	_	2	det	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Mi sentivo anch'io semplice e serena.
+1	Mi	mi	X	LS	_	2	advmod	_	_
+2	sentivo	sentivo	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	anch	anch	DET	WDT	PronType=Int	7	det	_	SpaceAfter=No
+4	'io	'io	NOUN	NN	Number=Sing	5	compound	_	_
+5	semplice	semplice	NOUN	NN	Number=Sing	7	compound	_	_
+6	e	e	NOUN	NN	Number=Sing	7	compound	_	_
+7	serena	serena	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = Come non mai.
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	non	non	NOUN	NN	Number=Sing	3	compound	_	_
+3	mai	mai	NOUN	NNS	Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = (…) C'è un grillo dietro al mio letto, non mi era mai capitato.
+1	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+2	…	…	PUNCT	.	_	4	punct	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	4	punct	_	_
+4	C'è	C'è	NOUN	NN	Number=Sing	0	root	_	_
+5	un	un	X	GW	_	10	goeswith	_	_
+6	grillo	grillo	X	FW	Foreign=Yes	10	goeswith	_	_
+7	dietro	dietro	X	FW	Foreign=Yes	10	goeswith	_	_
+8	al	al	X	FW	_	10	compound	_	_
+9	mio	mio	X	FW	Foreign=Yes	10	goeswith	_	_
+10	letto	letto	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	non	non	X	AFX	_	14	compound	_	_
+13	mi	mi	X	AFX	_	14	compound	_	_
+14	era	era	NOUN	NN	Number=Sing	16	compound	_	_
+15	mai	mai	NOUN	NN	Number=Sing	16	compound	_	_
+16	capitato	capitato	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 22
+# text = Canterà gioia o dolore?
+1	Canterà	Canterà	NOUN	NN	Number=Sing	2	compound	_	_
+2	gioia	gioia	NOUN	NN	Number=Sing	0	root	_	_
+3	o	of	ADP	IN	Abbr=Yes	4	case	_	_
+4	dolore	dolore	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+

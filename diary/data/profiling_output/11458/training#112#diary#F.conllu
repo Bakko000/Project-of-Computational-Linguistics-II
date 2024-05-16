@@ -1,0 +1,315 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sabato 15 aprile 1978
+1	Sabato	Sabato	PROPN	NNP	Number=Sing	3	compound	_	_
+2	15	15	NUM	CD	NumType=Card	1	nummod	_	_
+3	aprile	aprile	NOUN	NN	Number=Sing	0	root	_	_
+4	1978	1978	NUM	CD	NumType=Card	3	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Ore 13.
+1	Ore	Ore	ADP	IN	_	2	case	_	_
+2	13	13	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mi sono alzata alle 11.
+1	Mi	mi	X	LS	_	4	goeswith	_	_
+2	sono	sono	X	FW	Foreign=Yes	1	goeswith	_	_
+3	alzata	alzata	X	FW	Foreign=Yes	4	goeswith	_	_
+4	alle	alle	NOUN	NN	Number=Sing	0	root	_	_
+5	11	11	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non riesco a trovare le "Odi" del Foscolo che mi servirebbero per andare avanti.
+1	Non	non	NOUN	NN	Number=Sing	13	compound	_	_
+2	riesco	riesco	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	trovare	trovare	NOUN	NN	Number=Sing	5	compound	_	_
+5	le	le	NOUN	NN	Number=Sing	1	nmod	_	_
+6	"	"	PUNCT	``	_	1	punct	_	SpaceAfter=No
+7	Odi	Odi	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+8	"	"	PUNCT	''	_	1	punct	_	_
+9	del	del	X	FW	Foreign=Yes	13	goeswith	_	_
+10	Foscolo	Foscolo	X	FW	Foreign=Yes	13	goeswith	_	_
+11	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	mi	mi	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	servirebbero	servirebbero	NOUN	NN	Number=Sing	0	root	_	_
+14	per	per	ADP	IN	_	16	case	_	_
+15	andare	andare	NOUN	NN	Number=Sing	16	compound	_	_
+16	avanti	avanto	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 5
+# text = Anche stamattina, niente, cazzo, non ho scritto una riga, cazzo cazzo cazzo.
+1	Anche	Anche	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	stamattina	stamattina	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	niente	nient	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	cazzo	cazzo	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	non	non	X	AFX	_	12	goeswith	_	_
+9	ho	ho	X	GW	_	12	goeswith	_	_
+10	scritto	scritto	X	AFX	_	12	goeswith	_	_
+11	una	una	X	FW	Foreign=Yes	12	goeswith	_	_
+12	riga	riga	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	cazzo	cazzo	NOUN	NN	Number=Sing	15	compound	_	_
+15	cazzo	cazzo	NOUN	NN	Number=Sing	16	compound	_	_
+16	cazzo	cazzo	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ore 14,30.
+1	Ore	Ore	ADP	IN	_	2	case	_	_
+2	14,30	14,30	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ho trovato il nocciolo, le implicazioni foscoliane e pariniane della prima poesia del Satta.
+1	Ho	Ho	PROPN	NNP	Number=Sing	3	compound	_	_
+2	trovato	trovato	NOUN	NN	Number=Sing	3	compound	_	_
+3	il	il	NOUN	NN	Number=Sing	0	root	_	_
+4	nocciolo	nocciolo	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	le	le	ADJ	JJ	Degree=Pos	15	amod	_	_
+7	implicazioni	implicazioni	ADJ	JJ	Degree=Pos	15	amod	_	_
+8	foscoliane	foscoliane	X	GW	_	15	goeswith	_	_
+9	e	e	X	GW	_	15	goeswith	_	_
+10	pariniane	pariniane	X	GW	_	15	goeswith	_	_
+11	della	della	X	FW	Foreign=Yes	15	goeswith	_	_
+12	prima	prima	X	FW	Foreign=Yes	15	goeswith	_	_
+13	poesia	poesia	X	FW	Foreign=Yes	15	goeswith	_	_
+14	del	del	X	FW	Foreign=Yes	15	goeswith	_	_
+15	Satta	Satta	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Non ho ancora mangiato.
+1	Non	non	X	GW	_	4	goeswith	_	_
+2	ho	ho	X	GW	_	4	goeswith	_	_
+3	ancora	ancora	X	GW	_	4	goeswith	_	_
+4	mangiato	mangiato	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Sto facendo le patate lesse, un uovo sodo e i carciofi fritti e lessati con l'aglio, ricordo di come si fanno, più o meno.
+1	Sto	Sto	PART	TO	_	2	mark	_	_
+2	facendo	facendo	VERB	VB	VerbForm=Inf	0	root	_	_
+3	le	le	NOUN	NN	Number=Sing	5	compound	_	_
+4	patate	patate	NOUN	NN	Number=Sing	5	compound	_	_
+5	lesse	lesse	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	un	un	X	GW	_	16	goeswith	_	_
+8	uovo	uovo	X	FW	Foreign=Yes	16	goeswith	_	_
+9	sodo	sodo	X	AFX	_	16	goeswith	_	_
+10	e	e	X	GW	_	16	goeswith	_	_
+11	i	i	X	AFX	_	16	goeswith	_	_
+12	carciofi	carciofi	X	AFX	_	16	goeswith	_	_
+13	fritti	fritti	X	AFX	_	16	goeswith	_	_
+14	e	e	X	GW	_	16	goeswith	_	_
+15	lessati	lessati	X	AFX	_	16	goeswith	_	_
+16	con	con	NOUN	NN	Number=Sing	2	appos	_	_
+17	l'	lg	PUNCT	''	_	2	punct	_	SpaceAfter=No
+18	aglio	aglio	INTJ	UH	_	22	discourse	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	ricordo	ricordue	X	AFX	_	22	goeswith	_	_
+21	di	dus	X	AFX	_	22	goeswith	_	_
+22	come	come	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+23	si	si	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	24	nmod:poss	_	_
+24	fanno	fanno	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	più	più	NOUN	NN	Number=Sing	24	appos	_	_
+27	o	of	ADP	IN	Abbr=Yes	28	case	_	_
+28	meno	meno	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Mangio anche un po' di carne.
+1	Mangio	Mangio	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	anche	anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	_
+3	un	un	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	po	po	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	'	'	PUNCT	''	_	4	punct	_	_
+6	di	di	NOUN	NN	Number=Sing	7	compound	_	_
+7	carne	carne	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Questa gatta Misha è una palletta.
+1	Questa	Questa	PROPN	NNP	Number=Sing	0	root	_	_
+2	gatta	gatta	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Misha	Misha	PROPN	NNP	Number=Sing	1	flat	_	_
+4	è	è	NOUN	NN	Number=Sing	5	compound	_	_
+5	una	una	NOUN	NN	Number=Sing	6	compound	_	_
+6	palletta	palletta	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = E' tenera e noiosa.
+1	E	e	ADP	IN	_	5	case	_	SpaceAfter=No
+2	'	'	PUNCT	``	_	5	punct	_	_
+3	tenera	tenera	NOUN	NN	Number=Sing	4	compound	_	_
+4	e	e	NOUN	NN	Number=Sing	5	compound	_	_
+5	noiosa	noiosa	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Alla TV non c'è un cazzo.
+1	Alla	alla	X	GW	_	4	amod	_	_
+2	TV	tv	X	ADD	_	1	goeswith	_	_
+3	non	non	X	FW	Foreign=Yes	4	goeswith	_	_
+4	c'è	c'è	NOUN	NN	Number=Sing	0	root	_	_
+5	un	un	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	cazzo	cazzo	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = E' sabato.
+1	E'	E'	PROPN	NNP	Number=Sing	0	root	_	_
+2	sabato	sabato	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = Piove da più giorni e pioverà ancora.
+1	Piove	Piove	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	da	da	NOUN	NN	Number=Sing	3	compound	_	_
+3	più	più	NOUN	NN	Number=Sing	7	compound	_	_
+4	giorni	giorni	NOUN	NN	Number=Sing	7	compound	_	_
+5	e	e	NOUN	NN	Number=Sing	7	compound	_	_
+6	pioverà	pioverà	NOUN	NN	Number=Sing	7	compound	_	_
+7	ancora	ancora	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = Il nonno di Andreina ha detto:
+1	Il	Il	PROPN	NNP	Number=Sing	0	root	_	_
+2	nonno	nonno	DET	DT	_	6	det	_	_
+3	di	di	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	Andreina	Andreina	PROPN	NNP	Number=Sing	5	compound	_	_
+5	ha	ha	NOUN	NN	Number=Sing	6	compound	_	_
+6	detto	detto	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	1	punct	_	_
+
+# sent_id = 17
+# text = "Se piove il 9, piove tutto aprile!"
+1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Se	se	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+3	piove	piove	NOUN	NN	Number=Sing	4	compound	_	_
+4	il	ill	NOUN	NN	Number=Sing	0	root	_	_
+5	9	9	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	piove	piove	NUM	CD	NumType=Card	9	nummod	_	_
+8	tutto	tutto	NOUN	NN	Number=Sing	9	compound	_	_
+9	aprile	aprile	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	"	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 18
+# text = E infatti, ecco qua.
+1	E	e	ADP	IN	_	2	case	_	_
+2	infatti	iinfatt	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	ecco	ecco	NOUN	NN	Number=Sing	5	compound	_	_
+5	qua	qua	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Anzi, dovrebbe piovere per quaranta giorni.
+1	Anzi	Anzi	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	dovrebbe	dovrebbe	X	GW	_	7	goeswith	_	_
+4	piovere	piovere	X	GW	_	7	goeswith	_	_
+5	per	per	X	GW	_	7	goeswith	_	_
+6	quaranta	quaranta	X	GW	_	7	goeswith	_	_
+7	giorni	giorni	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 20
+# text = Che strazio.
+1	Che	Che	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	strazio	strazio	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 21
+# text = E io ho tanta voglia di sole, di mettermi al sole sulla sdraio.
+1	E	e	X	GW	_	7	goeswith	_	_
+2	io	io	X	GW	_	7	goeswith	_	_
+3	ho	ho	X	GW	_	7	goeswith	_	_
+4	tanta	tanta	X	GW	_	7	goeswith	_	_
+5	voglia	voglia	X	GW	_	7	goeswith	_	_
+6	di	di	X	AFX	_	7	goeswith	_	_
+7	sole	sole	ADJ	JJ	Degree=Pos	14	amod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	di	di	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	mettermi	mettermi	NOUN	NN	Number=Sing	14	compound	_	_
+11	al	al	X	FW	_	14	compound	_	_
+12	sole	sole	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	sulla	sulla	NOUN	NN	Number=Sing	14	compound	_	_
+14	sdraio	sdraio	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 22
+# text = Ore 24 circa.
+1	Ore	Ore	ADP	IN	_	3	case	_	_
+2	24	24	NUM	CD	NumType=Card	3	nummod	_	_
+3	circa	circa	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 23
+# text = Ma ho ancora dubbi, e molti, su tutto.
+1	Ma	ma	NOUN	NN	Number=Sing	2	compound	_	_
+2	ho	ho	NOUN	NN	Number=Sing	0	root	_	_
+3	ancora	ancora	ADP	IN	_	4	case	_	_
+4	dubbi	dubbi	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	e	e	NOUN	NN	Number=Sing	7	compound	_	_
+7	molti	molto	NOUN	NNS	Number=Plur	2	list	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	su	su	NOUN	NN	Number=Sing	10	compound	_	_
+10	tutto	tutto	NOUN	NN	Number=Sing	2	list	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 24
+# text = La stesura, poi, mi riempie di orrore e preoccupazione.
+1	La	la	PROPN	NNP	Number=Sing	2	compound	_	_
+2	stesura	stesura	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	poi	poi	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	mi	mi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	8	nmod:poss	_	_
+7	riempie	riempie	ADJ	JJ	Degree=Pos|Typo=Yes	8	amod	_	_
+8	di	di	NOUN	NN	Number=Sing	2	appos	_	_
+9	orrore	orrore	ADP	IN	_	11	case	_	_
+10	e	e	NOUN	NN	Number=Sing	11	compound	_	_
+11	preoccupazione	preoccupazione	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 25
+# text = "Interno di un convento" all'Aniene con Felice incazzato perché non sono andata da lui questo pomeriggio.
+1	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Inter	Inter	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+3	no	no	DET	DT	_	6	det	_	_
+4	di	di	NOUN	NN	Number=Sing	6	compound	_	_
+5	un	un	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	convento	convento	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	all'	allg	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+9	Aniene	Aniene	NUM	CD	NumType=Card	8	nummod	_	_
+10	con	con	NOUN	NN	Number=Sing	11	compound	_	_
+11	Felice	Felice	NOUN	NN	Number=Sing	8	appos	_	_
+12	incazzato	incazzato	NOUN	NN	Number=Sing	20	compound	_	_
+13	perché	perché	NOUN	NN	Number=Sing	12	flat	_	_
+14	non	non	X	FW	Foreign=Yes	19	goeswith	_	_
+15	sono	sono	X	FW	Foreign=Yes	19	goeswith	_	_
+16	andata	andata	X	FW	Foreign=Yes	19	goeswith	_	_
+17	da	da	X	FW	Foreign=Yes	19	goeswith	_	_
+18	lui	lui	X	AFX	_	19	goeswith	_	_
+19	questo	questo	NOUN	NN	Number=Sing	20	compound	_	_
+20	pomeriggio	pomeriggio	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n\n
+

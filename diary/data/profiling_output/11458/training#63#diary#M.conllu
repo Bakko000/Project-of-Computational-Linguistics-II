@@ -1,0 +1,609 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo è un nome come altri, un uomo come altri, una storia come tante altre.
+1	Questo	Questo	PROPN	NNP	Number=Sing	2	compound	_	_
+2	è	è	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	un	un	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	nome	nome	ADV	RB	_	5	advmod	_	_
+5	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+6	altri	altri	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	un	un	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	uomo	uomo	X	AFX	_	10	advmod	_	_
+10	come	come	VERB	VB	VerbForm=Inf	6	appos	_	_
+11	altri	altri	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	una	una	NOUN	NN	Number=Sing	14	compound	_	_
+14	storia	storia	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	come	come	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+16	tante	thante	DET	DT	Typo=Yes	17	det	_	_
+17	altre	altre	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Questo è Diego che con la sua anima è unico: Diego è uno, unico e solo!
+1	Questo	Questo	NOUN	NN	Number=Sing	2	compound	_	_
+2	è	è	NOUN	NN	Number=Sing	0	root	_	_
+3	Diego	Diego	PROPN	NNP	Number=Sing	2	flat	_	_
+4	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+5	con	con	X	FW	Foreign=Yes	9	compound	_	_
+6	la	la	X	FW	Foreign=Yes	5	flat:foreign	_	_
+7	sua	sua	X	FW	Foreign=Yes	5	flat:foreign	_	_
+8	anima	anima	X	FW	Foreign=Yes	9	goeswith	_	_
+9	è	è	NOUN	NN	Number=Sing	2	appos	_	_
+10	unico	unico	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	10	punct	_	_
+12	Diego	Diego	PROPN	NNP	Number=Sing	14	compound	_	_
+13	è	è	NOUN	NN	Number=Sing	14	compound	_	_
+14	uno	uno	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	unico	unico	X	AFX	_	18	goeswith	_	_
+17	e	e	X	GW	_	18	goeswith	_	_
+18	solo	solo	ADJ	JJ	Degree=Pos	9	appos	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Tutto inizia a Bergamo, la città dei mille.
+1	Tutto	Tutto	PROPN	NNP	Number=Sing	0	root	_	_
+2	inizia	inizia	ADP	IN	_	9	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+4	Bergamo	Bergamo	PROPN	NNP	Number=Sing	9	compound	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	la	la	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	città	città	NOUN	NN	Number=Sing	8	compound	_	_
+8	dei	dei	NOUN	NN	Number=Sing	9	compound	_	_
+9	mille	mille	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Garibaldi per unire l'Italia prese i mille più valorosi guerrieri che in maggioranza erano Bergamaschi.
+1	Garibaldi	Garibaldi	X	LS	_	7	advmod	_	_
+2	per	per	ADP	IN	_	5	case	_	_
+3	unire	unire	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	l'Italia	l'Italia	PROPN	NNP	Number=Sing	5	compound	_	_
+5	prese	prese	NOUN	NN	Number=Sing	1	nmod	_	_
+6	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	mille	mille	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	più	più	NOUN	NN	Number=Sing	9	compound	_	_
+9	valorosi	valorosi	NOUN	NN	Number=Sing	11	compound	_	_
+10	guerrieri	guerrierus	NOUN	NN	Number=Sing	11	compound	_	_
+11	che	che	NOUN	NN	Number=Sing	7	obj	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	maggioranza	maggioranza	NOUN	NN	Number=Sing	7	obl	_	_
+14	erano	erano	ADP	IN	_	15	case	_	_
+15	Bergamaschi	Bergamaschi	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Io sono un uomo sensibile e fragile, ma il mio sangue è Bergamasco e mi rende forte, tenace e combattivo.
+1	Io	Io	X	GW	_	7	goeswith	_	_
+2	sono	sono	X	GW	_	7	goeswith	_	_
+3	un	un	X	GW	_	7	goeswith	_	_
+4	uomo	uomo	X	GW	_	7	goeswith	_	_
+5	sensibile	sensibile	X	GW	_	7	goeswith	_	_
+6	e	e	X	GW	_	7	goeswith	_	_
+7	fragile	fragile	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	ma	ma	NOUN	NN	Number=Sing	10	compound	_	_
+10	il	il	NOUN	NN	Number=Sing	11	compound	_	_
+11	mio	mio	NOUN	NN	Number=Sing	12	compound	_	_
+12	sangue	sangue	NOUN	NN	Number=Sing	13	compound	_	_
+13	è	è	NOUN	NN	Number=Sing	14	compound	_	_
+14	Bergamasco	Bergamasco	PROPN	NNP	Number=Sing	7	appos	_	_
+15	e	e	PROPN	NNP	Number=Sing	14	flat	_	_
+16	mi	mi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	17	nsubj	_	_
+17	rende	rende	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+18	forte	forte	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	tenace	tenace	NOUN	NN	Number=Sing	22	compound	_	_
+21	e	e	NOUN	NN	Number=Sing	22	compound	_	_
+22	combattivo	combattivo	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = La vita mi ha insegnato che la vera forza non appartiene alle persone che non cadono mai, ma a quelle che quando cadono si rialzano.
+1	La	la	PROPN	NNP	Number=Sing	13	compound	_	_
+2	vita	vita	X	AFX	_	13	goeswith	_	_
+3	mi	mi	X	AFX	_	13	goeswith	_	_
+4	ha	ha	X	GW	_	13	goeswith	_	_
+5	insegnato	insegnato	X	AFX	_	13	goeswith	_	_
+6	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
+7	la	la	X	GW	_	13	goeswith	_	_
+8	vera	vera	X	GW	_	13	goeswith	_	_
+9	forza	forza	X	GW	_	13	goeswith	_	_
+10	non	non	X	GW	_	13	goeswith	_	_
+11	appartiene	appartiene	X	GW	_	13	goeswith	_	_
+12	alle	alle	X	GW	_	13	goeswith	_	_
+13	persone	persone	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+15	non	non	X	AFX	_	16	advmod	_	_
+16	cado	cado	VERB	VB	Mood=Imp|VerbForm=Fin	14	parataxis	_	SpaceAfter=No
+17	no	no	DET	DT	_	18	det	_	_
+18	mai	maus	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	ma	ma	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	quelle	quelle	NOUN	NN	Number=Sing	25	obl	_	_
+23	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	quando	quando	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	cado	cado	VERB	VB	Mood=Imp|VerbForm=Fin	16	parataxis	_	SpaceAfter=No
+26	no	no	DET	DT	_	28	det	_	_
+27	si	si	NOUN	NN	Number=Sing	28	compound	_	_
+28	rialzano	rialzano	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 7
+# text = Bergamo è una bellissima città divisa in due parti; la parte moderna è ai piedi della collina dove sorge la parte antica che non ha nulla da invidiare alle altre città d'arte.
+1	Bergamo	Bergamo	ADP	IN	_	3	case	_	_
+2	è	è	NOUN	NN	Number=Sing	3	compound	_	_
+3	una	una	NOUN	NN	Number=Sing	0	root	_	_
+4	bellissima	bellissima	ADP	IN	_	6	case	_	_
+5	città	città	NOUN	NN	Number=Sing	6	compound	_	_
+6	divisa	divisa	NOUN	NN	Number=Sing	3	nmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	due	due	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	parti	parto	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	3	punct	_	_
+11	la	la	X	FW	Foreign=Yes	3	appos	_	_
+12	parte	parte	X	FW	Foreign=Yes	11	flat:foreign	_	_
+13	moderna	moderna	X	FW	Foreign=Yes	14	compound	_	_
+14	è	è	NOUN	NN	Number=Sing	18	compound	_	_
+15	ai	be	NOUN	NN	Number=Sing	18	compound	_	_
+16	piedi	piedi	NOUN	NN	Number=Sing	17	compound	_	_
+17	della	della	NOUN	NN	Number=Sing	18	compound	_	_
+18	collina	collina	NOUN	NN	Number=Sing	11	flat	_	_
+19	dove	dove	NOUN	NN	Number=Sing	29	compound	_	_
+20	sorge	sorge	X	GW	_	29	goeswith	_	_
+21	la	la	X	FW	Foreign=Yes	29	goeswith	_	_
+22	parte	parte	X	FW	Foreign=Yes	21	goeswith	_	_
+23	antica	antican	X	FW	Foreign=Yes	24	goeswith	_	_
+24	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	conj	_	_
+25	non	non	X	FW	Foreign=Yes	29	goeswith	_	_
+26	ha	ha	X	GW	_	29	goeswith	_	_
+27	nulla	nulla	X	FW	Foreign=Yes	29	goeswith	_	_
+28	da	da	X	FW	Foreign=Yes	29	goeswith	_	_
+29	invidiare	invidiare	NOUN	NN	Number=Sing	11	nmod	_	_
+30	alle	alle	NOUN	NN	Number=Sing	31	compound	_	_
+31	altre	altre	NOUN	NN	Number=Sing	33	compound	_	_
+32	città	città	NOUN	NN	Number=Sing	33	compound	_	_
+33	d'arte	d'arte	NOUN	NN	Number=Sing	29	appos	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	29	punct	_	_
+
+# sent_id = 8
+# text = La provincia è ancora più bella; a sud pianure a perdita d'occhio con i loro profumi e sapori, ad est e ovest grandi laghi con i loro canneti e piccole barche di pescatori, a nord piccoli laghi d'alta montagna che disegnano le valli dove le montagne si fanno sempre più alte e imponenti superando i 3.000 metri; dove boschi, prati e fiori scompaiono lasciando il posto a rocce, ruscelli, marmotte; stambecchi ed aquile.
+1	La	la	PROPN	NNP	Number=Sing	3	compound	_	_
+2	provincia	provincia	NOUN	NN	Number=Sing	3	compound	_	_
+3	è	è	NOUN	NN	Number=Sing	0	root	_	_
+4	ancora	ancora	ADP	IN	_	6	case	_	_
+5	più	più	NOUN	NN	Number=Sing	6	compound	_	_
+6	bella	bella	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	sud	sud	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+10	pianure	pianure	NOUN	NN	Number=Sing	3	appos	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+12	perdita	perdita	X	FW	Foreign=Yes	19	amod	_	_
+13	d'occhio	d'occhio	X	FW	Foreign=Yes	12	flat:foreign	_	_
+14	con	con	X	FW	Foreign=Yes	12	flat:foreign	_	_
+15	i	i	X	AFX	_	19	goeswith	_	_
+16	loro	loro	X	FW	Foreign=Yes	19	goeswith	_	_
+17	profumi	profumi	X	AFX	_	19	goeswith	_	_
+18	e	e	X	GW	_	19	goeswith	_	_
+19	sapori	sapori	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	ad	ad	NOUN	NN	Number=Sing	19	appos	_	_
+22	est	est	ADP	IN	_	23	case	_	_
+23	e	e	NOUN	NN	Number=Sing	21	nmod	_	_
+24	ovest	ovest	ADP	IN	_	27	case	_	_
+25	grandi	grandi	NOUN	NN	Number=Sing	26	compound	_	_
+26	laghi	laghi	NOUN	NN	Number=Sing	27	compound	_	_
+27	con	con	NOUN	NN	Number=Sing	23	nmod	_	_
+28	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+29	loro	loro	X	FW	Foreign=Yes	32	goeswith	_	_
+30	canneti	canneti	X	AFX	_	32	goeswith	_	_
+31	e	e	X	GW	_	32	goeswith	_	_
+32	piccole	piccole	NOUN	NN	Number=Sing	27	appos	_	_
+33	barche	barche	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	di	di	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	pescatori	pescatori	NOUN	NN	Number=Sing	32	conj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	32	punct	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	42	det	_	_
+38	nord	nord	ADJ	JJ	Degree=Pos	42	amod	_	_
+39	piccoli	piccoli	NOUN	NN	Number=Sing	40	compound	_	_
+40	laghi	laghi	NOUN	NN	Number=Sing	41	compound	_	_
+41	d'alta	d'alta	NOUN	NN	Number=Sing	42	compound	_	_
+42	montagna	montagna	NOUN	NN	Number=Sing	32	appos	_	_
+43	che	che	DET	DT	Definite=Def|PronType=Art	55	det	_	_
+44	disegnano	disegnano	NOUN	NN	Number=Sing	45	compound	_	_
+45	le	le	NOUN	NN	Number=Sing	46	compound	_	_
+46	valli	valli	NOUN	NN	Number=Sing	47	compound	_	_
+47	dove	dove	NOUN	NN	Number=Sing	49	compound	_	_
+48	le	le	NOUN	NN	Number=Sing	49	compound	_	_
+49	montagne	montagne	NOUN	NN	Number=Sing	53	compound	_	_
+50	si	si	NOUN	NN	Number=Sing	52	compound	_	_
+51	fanno	fanno	NOUN	NN	Number=Sing	52	compound	_	_
+52	sempre	sempre	NOUN	NN	Number=Sing	49	appos	_	_
+53	più	più	NOUN	NN	Number=Sing	54	compound	_	_
+54	alte	alte	NOUN	NN	Number=Sing	55	compound	_	_
+55	e	e	NOUN	NN	Number=Sing	32	appos	_	_
+56	imponenti	iimponent	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	81	nsubj	_	_
+57	superando	superando	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	81	cop	_	_
+58	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	60	nsubj	_	_
+59	3.000	3.000	NUM	CD	NumType=Card	60	nummod	_	_
+60	metri	metri	NOUN	NN	Number=Sing	80	compound	_	SpaceAfter=No
+61	;	;	PUNCT	,	_	60	punct	_	_
+62	dove	dove	NOUN	NN	Number=Sing	63	compound	_	_
+63	boschi	boschi	NOUN	NN	Number=Sing	60	appos	_	SpaceAfter=No
+64	,	,	PUNCT	,	_	60	punct	_	_
+65	prati	prati	X	AFX	_	70	goeswith	_	_
+66	e	e	X	GW	_	70	goeswith	_	_
+67	fiori	fiori	X	AFX	_	70	goeswith	_	_
+68	scompaiono	scompaiono	X	FW	Foreign=Yes	70	goeswith	_	_
+69	lasciando	lasciando	X	AFX	_	70	goeswith	_	_
+70	il	il	NOUN	NN	Number=Sing	60	parataxis	_	_
+71	posto	posto	ADP	IN	_	73	case	_	_
+72	a	a	DET	DT	Definite=Ind|PronType=Art	73	det	_	_
+73	rocce	rocce	NOUN	NN	Number=Sing	70	nmod	_	SpaceAfter=No
+74	,	,	PUNCT	,	_	70	punct	_	_
+75	ruscelli	ruscelli	NOUN	NN	Number=Sing	70	appos	_	SpaceAfter=No
+76	,	,	PUNCT	,	_	75	punct	_	_
+77	marmotte	marmotte	NOUN	NN	Number=Sing	75	appos	_	SpaceAfter=No
+78	;	;	PUNCT	,	_	70	punct	_	_
+79	stambecchi	stambecchi	NOUN	NN	Number=Sing	80	compound	_	_
+80	ed	ed	NOUN	NN	Number=Sing	81	compound	_	_
+81	aquile	aquile	NOUN	NN	Number=Sing	32	parataxis	_	SpaceAfter=No
+82	.	.	PUNCT	.	_	32	punct	_	_
+
+# sent_id = 9
+# text = Mi rispecchio pienamente nella mia città perché anche il mio modo d'essere è diviso in due parti.
+1	Mi	mi	X	LS	_	7	amod	_	_
+2	rispecchio	rispecchio	X	FW	Foreign=Yes	1	goeswith	_	_
+3	pienamente	pienamente	X	ADD	_	1	goeswith	_	_
+4	nella	nella	X	FW	Foreign=Yes	1	goeswith	_	_
+5	mia	mia	X	FW	Foreign=Yes	7	goeswith	_	_
+6	città	città	NOUN	NN	Number=Sing	7	compound	_	_
+7	perché	perché	NOUN	NN	Number=Sing	0	root	_	_
+8	anche	anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+9	il	il	AUX	MD	Typo=Yes|VerbForm=Fin	14	cop	_	_
+10	mio	mio	X	AFX	_	14	goeswith	_	_
+11	modo	modo	X	AFX	_	14	goeswith	_	_
+12	d'essere	d'essere	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	è	è	NOUN	NN	Number=Sing	14	compound	_	_
+14	diviso	diviso	NOUN	NN	Number=Sing	7	parataxis	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	due	due	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	parti	parto	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 10
+# text = Una è la parte alta e antica che rappresenta i sani valori e principi che mi sono stati insegnati nell'infanzia.
+1	Una	Una	PROPN	NNP	Number=Sing	8	compound	_	_
+2	è	è	NOUN	NN	Number=Sing	1	flat	_	_
+3	la	la	X	FW	Foreign=Yes	1	list	_	_
+4	parte	parte	X	FW	Foreign=Yes	3	flat:foreign	_	_
+5	alta	alta	X	FW	Foreign=Yes	8	goeswith	_	_
+6	e	e	X	GW	_	8	goeswith	_	_
+7	antica	antica	X	FW	Foreign=Yes	8	goeswith	_	_
+8	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+9	rappresenta	rappresenta	X	FW	Foreign=Yes	14	goeswith	_	_
+10	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+11	sani	sani	X	AFX	_	14	goeswith	_	_
+12	valori	valori	X	AFX	_	14	goeswith	_	_
+13	e	e	X	GW	_	14	goeswith	_	_
+14	principi	principi	NOUN	NN	Number=Sing	8	parataxis	_	_
+15	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	_
+16	mi	mi	X	AFX	_	20	goeswith	_	_
+17	sono	sono	X	FW	Foreign=Yes	20	goeswith	_	_
+18	stati	stato	X	AFX	_	20	goeswith	_	_
+19	insegnati	iinsegnat	X	AFX	_	20	goeswith	_	_
+20	nell	nell	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	'	'	PUNCT	''	_	20	punct	_	SpaceAfter=No
+22	infanzia	infanzia	NOUN	NN	Number=Sing	14	appos	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 11
+# text = L'altra è la parte bassa e moderna con la corruzione e il Dio danaro.
+1	L'altra	L'altra	PROPN	NNP	Number=Sing	11	compound	_	_
+2	è	è	NOUN	NN	Number=Sing	1	flat	_	_
+3	la	la	X	FW	Foreign=Yes	1	list	_	_
+4	parte	parte	X	FW	Foreign=Yes	3	flat:foreign	_	_
+5	bassa	bassa	X	FW	Foreign=Yes	3	flat:foreign	_	_
+6	e	e	X	GW	_	11	goeswith	_	_
+7	moderna	moderna	X	FW	Foreign=Yes	11	goeswith	_	_
+8	con	con	X	FW	Foreign=Yes	11	goeswith	_	_
+9	la	la	X	FW	Foreign=Yes	11	goeswith	_	_
+10	corruzione	corruzione	NOUN	NN	Number=Sing	11	compound	_	_
+11	e	e	NOUN	NN	Number=Sing	0	root	_	_
+12	il	il	ADP	IN	Typo=Yes	14	case	_	_
+13	Dio	Dio	PROPN	NNP	Number=Sing	14	compound	_	_
+14	danaro	danaro	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 12
+# text = L'infanzia l'ho vissuta serenamente con genitori che si amano, un forte legame con mio fratello minore di nove anni e buoni rapporti con il resto dei parenti.
+1	L'infanzia	L'infanzia	X	GW	_	10	goeswith	_	_
+2	l	l	X	ADD	_	10	goeswith	_	SpaceAfter=No
+3	'ho	'ho	X	AFX	_	10	goeswith	_	_
+4	vissuta	vissuta	X	FW	Foreign=Yes	10	goeswith	_	_
+5	serenamente	serenamente	X	ADD	_	10	goeswith	_	_
+6	con	con	X	FW	Foreign=Yes	10	goeswith	_	_
+7	genitori	genitori	X	LS	_	10	goeswith	_	_
+8	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
+9	si	si	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	amano	amano	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	un	un	X	GW	_	18	goeswith	_	_
+13	forte	forte	X	FW	Foreign=Yes	18	goeswith	_	_
+14	legame	legame	X	GW	_	18	goeswith	_	_
+15	con	con	X	FW	Foreign=Yes	18	goeswith	_	_
+16	mio	mio	X	FW	Foreign=Yes	18	goeswith	_	_
+17	fratello	fratello	X	FW	Foreign=Yes	18	goeswith	_	_
+18	minore	minore	NOUN	NN	Number=Sing	10	appos	_	_
+19	di	dus	NOUN	NN	Number=Sing	29	compound	_	_
+20	nove	nove	NUM	CD	NumType=Card	19	nummod	_	_
+21	anni	anni	X	AFX	_	26	goeswith	_	_
+22	e	e	X	GW	_	26	goeswith	_	_
+23	buoni	buoni	X	AFX	_	26	goeswith	_	_
+24	rapporti	rapporti	X	AFX	_	26	goeswith	_	_
+25	con	con	X	FW	Foreign=Yes	26	goeswith	_	_
+26	il	il	NOUN	NN	Number=Sing	29	compound	_	_
+27	resto	resto	NOUN	NN	Number=Sing	28	compound	_	_
+28	dei	dei	NOUN	NN	Number=Sing	29	compound	_	_
+29	parenti	parento	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 13
+# text = L'adolescienza segna il mio ingresso nel mondo della droga con tante cadute e risalite, rapporti d'amore e odio con varie donne sino ad arrivare ad oggi: 35 anni e ritrovarsi nel carcere Don Bosco di Pisa.
+1	L'adolescienza	L'adolescienza	PROPN	NNP	Number=Sing	17	nsubj	_	_
+2	segna	segna	PROPN	NNP	Number=Sing	1	flat	_	_
+3	il	il	AUX	MD	Typo=Yes|VerbForm=Fin	17	aux	_	_
+4	mio	mio	X	FW	Foreign=Yes	17	conj	_	_
+5	ingresso	ingresso	X	FW	Foreign=Yes	4	goeswith	_	_
+6	nel	nel	X	FW	Foreign=Yes	4	goeswith	_	_
+7	mondo	mondo	X	AFX	_	4	goeswith	_	_
+8	della	della	X	FW	Foreign=Yes	4	goeswith	_	_
+9	droga	droga	X	FW	Foreign=Yes	14	goeswith	_	_
+10	con	con	X	FW	Foreign=Yes	14	goeswith	_	_
+11	tante	tante	X	ADD	_	14	goeswith	_	_
+12	cadute	cadute	X	ADD	_	14	goeswith	_	_
+13	e	e	X	GW	_	14	goeswith	_	_
+14	risalite	risalite	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	rapporti	rapporti	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	17	nsubj	_	_
+17	d'amore	d'amore	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	e	e	X	GW	_	24	goeswith	_	_
+19	odio	odio	X	GW	_	24	goeswith	_	_
+20	con	con	X	GW	_	24	goeswith	_	_
+21	varie	varie	X	GW	_	24	goeswith	_	_
+22	donne	donne	X	GW	_	24	goeswith	_	_
+23	sino	sino	X	GW	_	24	goeswith	_	_
+24	ad	ad	NOUN	NN	Number=Sing	26	compound	_	_
+25	arrivare	arrivare	NOUN	NN	Number=Sing	26	compound	_	_
+26	ad	ad	NOUN	NN	Number=Sing	17	obj	_	_
+27	oggi	oggi	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+28	:	:	PUNCT	:	_	17	punct	_	_
+29	35	35	NUM	CD	NumType=Card	30	nummod	_	_
+30	anni	anni	NUM	CD	NumType=Card	17	appos	_	_
+31	e	e	ADP	IN	_	34	case	_	_
+32	ritrovarsi	ritrovarsi	NUM	CD	NumType=Card	34	nummod	_	_
+33	nel	nel	NOUN	NN	Number=Sing	34	compound	_	_
+34	carcere	carcere	NOUN	NN	Number=Sing	30	nmod	_	_
+35	Don	Don	PROPN	NNP	Number=Sing	34	appos	_	_
+36	Bosco	Bosco	PROPN	NNP	Number=Sing	35	flat	_	_
+37	di	di	PROPN	NNP	Number=Sing	35	flat	_	_
+38	Pisa	Pisa	PROPN	NNP	Number=Sing	35	flat	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 14
+# text = Il martedì 5 Ottobre 2004 (maledetto giorno da cani), dopo svariati giorni che all'insaputa di tutti conservavo la terapia di psicofarmaci che viene concessa ai Detenuti per farli stare tranquilli, ho messo in atto un progetto deciso da molto tempo, da prima della carcerazione.
+1	Il	Il	PROPN	NNP	Number=Sing	2	compound	_	_
+2	martedì	martedì	NOUN	NN	Number=Sing	0	root	_	_
+3	5	5	NUM	CD	NumType=Card	2	appos	_	_
+4	Ottobre	Ottobre	NOUN	NN	Number=Sing	2	appos	_	_
+5	2004	2004	NUM	CD	NumType=Card	4	nummod	_	_
+6	(	(	PUNCT	-LRB-	_	10	punct	_	SpaceAfter=No
+7	maledetto	maledetto	NOUN	NN	Number=Sing	10	compound	_	_
+8	giorno	giorno	NOUN	NN	Number=Sing	10	compound	_	_
+9	da	day	NOUN	NN	Number=Sing	10	compound	_	_
+10	cani	cani	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	dopo	dopo	ADP	IN	_	15	case	_	_
+14	svariati	isvariat	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	giorni	giorni	NOUN	NN	Number=Sing	16	nmod	_	_
+16	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	list	_	_
+17	all	all	DET	DT	_	26	det	_	SpaceAfter=No
+18	'	'	PUNCT	``	_	19	punct	_	SpaceAfter=No
+19	insaputa	insaputa	X	FW	Foreign=Yes	26	compound	_	_
+20	di	di	X	LS	_	26	goeswith	_	_
+21	tutti	tutti	X	LS	_	26	goeswith	_	_
+22	conservavo	conservavo	X	FW	Foreign=Yes	26	goeswith	_	_
+23	la	la	X	FW	Foreign=Yes	26	goeswith	_	_
+24	terapia	terapia	X	FW	Foreign=Yes	26	goeswith	_	_
+25	di	di	X	AFX	_	26	goeswith	_	_
+26	psicofarmaci	psicofarmaci	NOUN	NN	Number=Sing	16	appos	_	_
+27	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+28	viene	viene	NUM	CD	NumType=Card	29	nummod	_	_
+29	concessa	concessa	NOUN	NN	Number=Sing	27	nsubj	_	_
+30	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	Detenuti	Detenuti	PROPN	NNP	Number=Sing	26	appos	_	_
+32	per	per	ADP	IN	_	35	case	_	_
+33	farli	farli	NUM	CD	NumType=Card	35	nummod	_	_
+34	stare	stare	NOUN	NN	Number=Sing	35	compound	_	_
+35	tranquilli	tranquilli	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	35	punct	_	_
+37	ho	ho	X	GW	_	46	goeswith	_	_
+38	messo	messo	X	GW	_	46	goeswith	_	_
+39	in	in	X	GW	_	46	goeswith	_	_
+40	atto	atto	X	AFX	_	46	goeswith	_	_
+41	un	un	X	GW	_	46	goeswith	_	_
+42	progetto	progetto	X	AFX	_	46	goeswith	_	_
+43	deciso	deciso	X	FW	Foreign=Yes	46	goeswith	_	_
+44	da	day	X	FW	Foreign=Yes	46	goeswith	_	_
+45	molto	molto	X	AFX	_	46	goeswith	_	_
+46	tempo	tempo	NOUN	NN	Number=Sing	35	appos	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	35	punct	_	_
+48	da	day	NOUN	NN	Number=Sing	49	compound	_	_
+49	prima	prima	NOUN	NN	Number=Sing	50	compound	_	_
+50	della	della	NOUN	NN	Number=Sing	51	compound	_	_
+51	carcerazione	carcerazione	NOUN	NN	Number=Sing	35	appos	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 15
+# text = Il suicidio tramite eutanasia, la morte dolce, dormire serenamente e non risvegliarmi mai più.
+1	Il	Il	PROPN	NNP	Number=Sing	4	compound	_	_
+2	suicidio	suicidio	NOUN	NN	Number=Sing	3	compound	_	_
+3	tramite	tramite	NOUN	NN	Number=Sing	4	compound	_	_
+4	eutanasia	eutanasia	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	la	la	NOUN	NN	Number=Sing	8	compound	_	_
+7	morte	morte	NOUN	NN	Number=Sing	8	compound	_	_
+8	dolce	docle	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	dormire	dormire	X	GW	_	4	list	_	_
+11	serenamente	serenamente	X	ADD	_	15	goeswith	_	_
+12	e	e	X	GW	_	15	goeswith	_	_
+13	non	non	X	FW	Foreign=Yes	15	goeswith	_	_
+14	risvegliarmi	risvegliarmi	X	AFX	_	15	goeswith	_	_
+15	mai	mai	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	più	più	NOUN	NN	Number=Sing	4	list	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = Tutto ciò dopo aver spedito 3 lettere alle persone a mè più care per alleggerire il peso di questa situazione e non provocare assurdi sensi di colpa.
+1	Tutto	Tutto	PROPN	NNP	Number=Sing	2	compound	_	_
+2	ciò	ciò	NOUN	NN	Number=Sing	4	compound	_	_
+3	dopo	dopo	NOUN	NN	Number=Sing	4	compound	_	_
+4	aver	aver	NOUN	NN	Number=Sing	5	list	_	_
+5	spedito	spedito	NOUN	NN	Number=Sing	7	compound	_	_
+6	3	3	NUM	CD	NumType=Card	5	nummod	_	_
+7	lettere	lettere	NOUN	NN	Number=Sing	8	compound	_	_
+8	alle	alle	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	persone	perso	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	mè	mè	NOUN	NN	Number=Sing	12	compound	_	_
+12	più	più	NOUN	NN	Number=Sing	13	compound	_	_
+13	care	care	NOUN	NN	Number=Sing	9	obj	_	_
+14	per	per	ADP	IN	_	18	case	_	_
+15	alleggerire	alleggerire	NOUN	NN	Number=Sing	16	compound	_	_
+16	il	ill	NOUN	NN	Number=Sing	17	compound	_	_
+17	peso	peso	NOUN	NN	Number=Sing	18	compound	_	_
+18	di	di	NOUN	NN	Number=Sing	9	obl	_	_
+19	questa	questa	ADP	IN	Abbr=Yes	27	case	_	_
+20	situazione	situazione	NUM	CD	NumType=Card	27	nummod	_	_
+21	e	e	X	GW	_	23	goeswith	_	_
+22	non	non	X	AFX	_	23	goeswith	_	_
+23	provocare	provocare	NOUN	NN	Number=Sing	27	compound	_	_
+24	assurdi	assurdi	NOUN	NN	Number=Sing	25	compound	_	_
+25	sensi	sensi	NOUN	NN	Number=Sing	26	compound	_	_
+26	di	di	NOUN	NN	Number=Sing	27	compound	_	_
+27	colpa	colpa	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 17
+# text = Una lettera per i miei genitori e mio fratello, una per la donna che amo e con la quale ho convissuto per 7 anni e la terza per i miei compagni di cella, fratelli non di sangue ma di sventura.
+1	Una	Una	PROPN	NNP	Number=Sing	2	compound	_	_
+2	lettera	lettera	NOUN	NN	Number=Sing	0	root	_	_
+3	per	per	ADP	IN	_	5	case	_	_
+4	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	miei	miei	X	AFX	_	2	nmod	_	_
+6	genitori	genitori	X	AFX	_	9	compound	_	_
+7	e	e	X	GW	_	9	punct	_	_
+8	mio	mio	X	FW	Foreign=Yes	7	goeswith	_	_
+9	fratello	fratello	X	FW	Foreign=Yes	5	goeswith	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	una	una	X	FW	Foreign=Yes	15	goeswith	_	_
+12	per	per	X	GW	_	15	goeswith	_	_
+13	la	la	X	FW	Foreign=Yes	15	goeswith	_	_
+14	don	don	X	FW	Foreign=Yes	15	goeswith	_	SpaceAfter=No
+15	na	na	NOUN	NN	Number=Sing	5	parataxis	_	_
+16	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nmod:poss	_	_
+17	amo	amo	X	GW	_	35	goeswith	_	_
+18	e	e	X	GW	_	35	goeswith	_	_
+19	con	con	X	GW	_	35	goeswith	_	_
+20	la	la	X	GW	_	35	goeswith	_	_
+21	quale	quale	X	GW	_	35	goeswith	_	_
+22	ho	ho	X	GW	_	35	goeswith	_	_
+23	convissuto	convissuto	X	AFX	_	35	goeswith	_	_
+24	per	per	X	GW	_	35	goeswith	_	_
+25	7	7	X	LS	_	35	goeswith	_	_
+26	anni	anni	X	AFX	_	35	goeswith	_	_
+27	e	e	X	GW	_	35	goeswith	_	_
+28	la	la	X	GW	_	35	goeswith	_	_
+29	terza	terza	X	GW	_	35	goeswith	_	_
+30	per	per	X	GW	_	35	goeswith	_	_
+31	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+32	miei	miei	X	AFX	_	35	goeswith	_	_
+33	compagni	compagni	ADJ	JJ	Degree=Pos	35	amod	_	_
+34	di	di	NOUN	NN	Number=Sing	35	compound	_	_
+35	cella	cella	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	35	punct	_	_
+37	fratelli	fratelli	ADJ	JJ	Degree=Pos	43	amod	_	_
+38	non	non	X	AFX	_	43	goeswith	_	_
+39	di	di	ADJ	JJ	Degree=Pos	43	amod	_	_
+40	sangue	sangue	NOUN	NN	Number=Sing	41	compound	_	_
+41	ma	ma	NOUN	NN	Number=Sing	42	compound	_	_
+42	di	di	NOUN	NN	Number=Sing	43	compound	_	_
+43	sventura	sventura	NOUN	NN	Number=Sing	35	appos	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	35	punct	_	_
+
+# sent_id = 18
+# text = Alle ore 11.00 si è impiccato nella cella singola numero 30, Alessandro.
+1	Alle	Alle	PROPN	NNP	Number=Sing	10	compound	_	_
+2	ore	ore	ADP	IN	_	5	case	_	_
+3	11.00	11.00	NUM	CD	NumType=Card	5	nummod	_	_
+4	si	si	NUM	CD	NumType=Card	5	compound	_	_
+5	è	è	NOUN	NN	Number=Sing	1	flat	_	_
+6	impiccato	impiccato	X	AFX	_	10	goeswith	_	_
+7	nella	nella	X	FW	Foreign=Yes	10	goeswith	_	_
+8	cella	cella	X	FW	Foreign=Yes	10	goeswith	_	_
+9	singola	singola	X	FW	Foreign=Yes	10	goeswith	_	_
+10	numero	numero	NOUN	NN	Number=Sing	0	root	_	_
+11	30	30	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	Alessandro	Alessandro	PROPN	NNP	Number=Sing	10	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 19
+# text = Un'ora prima, mi ha detto una poesia, la più corta e significativa che io abbia mai udito.
+1	Un'ora	Un'ora	PROPN	NNP	Number=Sing	2	compound	_	_
+2	prima	prima	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	mi	mi	X	AFX	_	8	goeswith	_	_
+5	ha	ha	X	GW	_	8	goeswith	_	_
+6	detto	detto	X	AFX	_	8	goeswith	_	_
+7	una	una	X	FW	Foreign=Yes	8	goeswith	_	_
+8	poesia	poesia	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	la	la	NOUN	NN	Number=Sing	11	compound	_	_
+11	più	più	NOUN	NN	Number=Sing	12	compound	_	_
+12	corta	corta	NOUN	NN	Number=Sing	13	compound	_	_
+13	e	e	NOUN	NN	Number=Sing	2	appos	_	_
+14	significativa	significativa	ADP	IN	_	16	case	_	_
+15	che	che	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	io	io	NOUN	NN	Number=Sing	13	nmod	_	_
+17	abbia	abbia	ADP	IN	_	19	case	_	_
+18	mai	mai	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	udito	udito	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Essa dice: Io!, Noi!,
+1	Essa	Essa	PROPN	NNP	Number=Sing	2	compound	_	_
+2	dice	dice	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	Io	Io	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	Noi	Noi	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 21
+# text = Voi!
+1	Voi	Voi	X	LS	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+

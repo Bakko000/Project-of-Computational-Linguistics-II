@@ -1,0 +1,298 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Buenos Aires, 1 maggio 1928
+1	Buenos	Buenos	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Aires	Aires	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	1	1	NUM	CD	NumType=Card	5	nummod	_	_
+5	maggio	maggio	NOUN	NN	Number=Sing	2	appos	_	_
+6	1928	1928	NUM	CD	NumType=Card	2	nmod:tmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Buenos Aires è piena di lustrascarpe : sicuramente migliaia.
+1	Buenos	Buenos	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Aires	Aires	PROPN	NNP	Number=Sing	4	compound	_	_
+3	è	è	NOUN	NN	Number=Sing	4	compound	_	_
+4	piena	piena	NOUN	NN	Number=Sing	5	compound	_	_
+5	di	di	NOUN	NN	Number=Sing	6	compound	_	_
+6	lustrascarpe	lustrascarpe	NOUN	NN	Number=Sing	0	root	_	_
+7	:	:	PUNCT	:	_	6	punct	_	_
+8	sicuramente	sicuramente	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	migliaia	migliaia	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Purtroppo italiani, quasi tutti:
+1	Purtroppo	Purtroppo	PROPN	NNP	Number=Sing	0	root	_	_
+2	italiani	italiani	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	quasi	quasi	NUM	CD	NumType=Card	1	list	_	_
+5	tutti	tutti	NUM	CD	NumType=Card	1	list	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	1	punct	_	_
+
+# sent_id = 4
+# text = calabresi.
+1	calabresi	calabresi	X	LS	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Ogni salòn para lustrar (ve ne sono a centinaia) ne ha una decina o più.
+1	Ogni	Ogni	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	salòn	salòn	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	para	para	NOUN	NN	Number=Sing	4	compound	_	_
+4	lustrar	lustrar	NOUN	NN	Number=Sing	6	appos	_	_
+5	(	(	PUNCT	-LRB-	_	6	punct	_	SpaceAfter=No
+6	ve	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+7	ne	ne	PRON	NN	Number=Sing	6	appos	_	_
+8	sono	sono	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	centinaia	centinaia	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	7	punct	_	_
+12	ne	ne	X	GW	_	17	goeswith	_	_
+13	ha	ha	X	GW	_	17	goeswith	_	_
+14	una	una	X	GW	_	17	goeswith	_	_
+15	decina	decina	X	GW	_	17	goeswith	_	_
+16	o	of	X	GW	_	17	goeswith	_	_
+17	più	più	NOUN	NN	Number=Sing	6	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Lustrano scarpe dalla mattina alla notte, meno quello di loro che è di turno sull’uscio a adescare i passanti: "Adelante caballero!
+1	Lustrano	Lustrano	DET	DT	_	6	det	_	_
+2	scarpe	scarpe	NOUN	NN	Number=Sing	3	compound	_	_
+3	dalla	dalla	NOUN	NN	Number=Sing	4	compound	_	_
+4	mattina	mattina	NOUN	NN	Number=Sing	5	compound	_	_
+5	alla	alla	NOUN	NN	Number=Sing	6	compound	_	_
+6	notte	notte	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	meno	meno	X	FW	Foreign=Yes	15	goeswith	_	_
+9	quello	quello	X	FW	Foreign=Yes	15	goeswith	_	_
+10	di	di	X	LS	_	15	goeswith	_	_
+11	loro	loro	X	FW	Foreign=Yes	15	goeswith	_	_
+12	che	che	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+13	è	è	NOUN	NN	Number=Sing	15	compound	_	_
+14	di	di	NOUN	NN	Number=Sing	15	compound	_	_
+15	turno	turno	NOUN	NN	Number=Sing	6	appos	_	_
+16	sull	sull	AUX	MD	VerbForm=Fin	17	aux	_	SpaceAfter=No
+17	’uscio	’uscio	VERB	VB	VerbForm=Inf	0	root	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	adescare	adescare	NOUN	NN	Number=Sing	21	compound	_	_
+20	i	i	NOUN	NN	Number=Sing	21	compound	_	_
+21	passanti	passanto	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+22	:	:	PUNCT	:	_	17	punct	_	_
+23	"	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+24	Adelante	Adelante	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	caballero	caballero	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 7
+# text = Se lustra!"
+1	Se	se	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	lustra	lustra	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Né il grido né l’aspetto dei lustrascarpe mi sembrano da sirene; ma evidentemente lo sono, per gli argentini.
+1	Né	Né	NOUN	NN	Number=Sing	2	compound	_	_
+2	il	il	NOUN	NN	Number=Sing	3	compound	_	_
+3	grido	grido	NOUN	NN	Number=Sing	4	compound	_	_
+4	né	né	NOUN	NN	Number=Sing	0	root	_	_
+5	l’	l'	PUNCT	''	_	4	punct	_	SpaceAfter=No
+6	aspetto	aspetto	ADP	IN	_	11	case	_	_
+7	dei	dei	ADJ	JJ	Degree=Pos	10	amod	_	_
+8	lustrascarpe	lustrascarpe	NOUN	NN	Number=Sing	9	compound	_	_
+9	mi	mi	NOUN	NN	Number=Sing	10	compound	_	_
+10	sembrano	sembrano	NOUN	NN	Number=Sing	11	compound	_	_
+11	da	day	NOUN	NN	Number=Sing	4	appos	_	_
+12	sirene	sirene	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	4	punct	_	_
+14	ma	ma	X	AFX	_	4	parataxis	_	_
+15	evidentemente	evidentemente	X	ADD	_	17	compound	_	_
+16	lo	lo	X	AFX	_	17	compound	_	_
+17	sono	sono	X	FW	Foreign=Yes	14	goeswith	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	per	per	ADP	IN	_	21	case	_	_
+20	gli	gli	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	argentini	argentini	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Questi lustrascarpe guadagnano da 150 a 200 pesos al mese, fra stipendio e mance, ossia molto meno di quel che guadagno io.
+1	Questi	iQuest	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	lustrascarpe	lustrascarpe	NOUN	NN	Number=Sing	3	compound	_	_
+3	guadagnano	guadagnano	NOUN	NN	Number=Sing	4	compound	_	_
+4	da	da	NOUN	NN	Number=Sing	5	compound	_	_
+5	150	150	NUM	CD	NumType=Card	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+7	200	200	NUM	CD	NumType=Card	8	nummod	_	_
+8	pesos	peso	NOUN	NNS	Number=Plur	10	compound	_	_
+9	al	al	X	FW	_	10	compound	_	_
+10	mese	mese	NOUN	NN	Number=Sing	5	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	fra	fra	X	GW	_	15	goeswith	_	_
+13	stipendio	stipendio	X	GW	_	15	goeswith	_	_
+14	e	e	X	GW	_	15	goeswith	_	_
+15	mance	mance	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	5	punct	_	_
+17	ossia	ossia	X	FW	Foreign=Yes	24	goeswith	_	_
+18	molto	molto	X	AFX	_	24	goeswith	_	_
+19	meno	meno	X	FW	Foreign=Yes	24	goeswith	_	_
+20	di	dus	X	AFX	_	24	goeswith	_	_
+21	quel	quel	X	FW	Foreign=Yes	24	goeswith	_	_
+22	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	guadagno	guadagno	DET	DT	_	24	det	_	_
+24	io	io	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Con la differenza che, fra dieci anni, loro avranno sicuramente una fortuna, in Italia; e io, chissà.
+1	Con	con	NOUN	NN	Number=Sing	2	compound	_	_
+2	la	la	NOUN	NN	Number=Sing	4	compound	_	_
+3	differenza	differenza	NOUN	NN	Number=Sing	4	compound	_	_
+4	che	che	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	fra	fra	NOUN	NN	Number=Sing	8	compound	_	_
+7	dieci	dieci	NOUN	NN	Number=Sing	8	compound	_	_
+8	anni	anni	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	loro	loro	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+11	avranno	avranno	DET	DT	_	12	det	_	_
+12	sicuramente	sicurament	NOUN	NN	Number=Sing|Typo=Yes	10	obj	_	_
+13	una	una	ADP	IN	_	14	case	_	_
+14	fortuna	fortuna	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	10	punct	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	Italia	Italia	PROPN	NNP	Number=Sing	10	obl	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	10	punct	_	_
+19	e	e	X	GW	_	20	goeswith	_	_
+20	io	io	NOUN	NN	Number=Sing	10	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	chissà	chissà	NOUN	NN	Number=Sing	20	appos	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 11
+# text = Spendono appena una cinquantina di pesos al mese; il resto lo mandano in Italia.
+1	Spendono	Spendono	X	FW	Foreign=Yes	8	goeswith	_	_
+2	appena	appena	X	FW	Foreign=Yes	8	goeswith	_	_
+3	una	una	X	FW	Foreign=Yes	8	goeswith	_	_
+4	cinquantina	cinquantina	X	FW	Foreign=Yes	8	goeswith	_	_
+5	di	di	X	AFX	_	8	goeswith	_	_
+6	pesos	pesos	X	GW	_	8	goeswith	_	_
+7	al	al	X	FW	_	8	goeswith	_	_
+8	mese	mese	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	8	punct	_	_
+10	il	il	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	resto	resto	NOUN	NN	Number=Sing	13	compound	_	_
+12	lo	lo	NOUN	NN	Number=Sing	13	compound	_	_
+13	mandano	mandano	NOUN	NN	Number=Sing	8	appos	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	Italia	Italia	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 12
+# text = A 120 pesos al mese, sono 1440 pesos all’anno di economie, 14.400 in dieci anni: ossia un 120.000 lire.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+2	120	120	NUM	CD	NumType=Card	3	nummod	_	_
+3	pesos	peso	NOUN	NNS	Number=Plur	5	compound	_	_
+4	al	al	X	FW	_	5	compound	_	_
+5	mese	mese	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	sono	sono	DET	DT	_	9	det	_	_
+8	1440	1440	NUM	CD	NumType=Card	9	nummod	_	_
+9	pesos	peso	NOUN	NNS	Number=Plur	5	list	_	_
+10	all	all	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	9	punct	_	SpaceAfter=No
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	SpaceAfter=No
+13	nno	nno	NOUN	NN	Number=Sing	15	compound	_	_
+14	di	di	NOUN	NN	Number=Sing	15	compound	_	_
+15	economie	economie	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	9	punct	_	_
+17	14.400	14.400	NUM	CD	NumType=Card	9	appos	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	dieci	dieci	NUM	CD	NumType=Card	17	nmod	_	_
+20	anni	anni	NUM	CD	NumType=Card	5	appos	_	SpaceAfter=No
+21	:	:	PUNCT	:	_	20	punct	_	_
+22	ossia	ossia	ADP	IN	_	25	case	_	_
+23	un	un	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	120.000	120.000	NUM	CD	NumType=Card	25	nummod	_	_
+25	lire	lire	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Che, in un paesello calabrese, rappresentano una fortuna.
+1	Che	Che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	un	un	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	paesello	paesello	NOUN	NN	Number=Sing	6	compound	_	_
+6	calabrese	calabrese	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	rappresentano	rappresentano	DET	DT	_	10	det	_	_
+9	una	una	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	fortuna	fortuna	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Il difficile, per me che spendo 75 pesos solo per la camera, è di riuscire a vivere con 50.
+1	Il	Il	PROPN	NNP	Number=Sing	2	compound	_	_
+2	difficile	difficile	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	per	per	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+6	che	co	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	spendo	spendo	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	75	75	NUM	CD	NumType=Card	9	nummod	_	_
+9	pesos	peso	NOUN	NNS	Number=Plur	7	obj	_	_
+10	solo	solo	ADV	RB	_	13	advmod	_	_
+11	per	per	ADP	IN	_	13	case	_	_
+12	la	la	NOUN	NN	Number=Sing	13	compound	_	_
+13	camera	camera	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	7	punct	_	_
+15	è	è	NOUN	NN	Number=Sing	16	compound	_	_
+16	di	di	NOUN	NNS	Number=Plur	17	nsubj	_	_
+17	riuscire	riuscire	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	vivere	vivere	NOUN	NN	Number=Sing	20	compound	_	_
+20	con	con	NOUN	NN	Number=Sing	17	obj	_	_
+21	50	50	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 15
+# text = Loro ci riescono: dormono in dieci in una stanza che costerà meno della mia, e mangiano quasi unicamente spaghetti fatti in cooperativa, nella stanza medesima.
+1	Loro	Loro	PROPN	NNP	Number=Sing	2	compound	_	_
+2	ci	cus	NOUN	NN	Number=Sing	3	compound	_	_
+3	riescono	riescono	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	3	punct	_	_
+5	dormono	dormono	NOUN	NN	Number=Sing	3	appos	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	dieci	dieci	NOUN	NN	Number=Sing	5	nmod	_	_
+8	in	in	ADP	IN	_	15	case	_	_
+9	una	una	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	stanza	stanza	NOUN	NN	Number=Sing	15	compound	_	_
+11	che	che	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+12	costerà	costerà	NOUN	NN	Number=Sing	13	compound	_	_
+13	meno	meno	NOUN	NN	Number=Sing	14	compound	_	_
+14	della	della	NOUN	NN	Number=Sing	15	compound	_	_
+15	mia	mia	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	e	e	X	GW	_	22	goeswith	_	_
+18	mangiano	mangiano	X	FW	Foreign=Yes	22	goeswith	_	_
+19	quasi	quasi	X	AFX	_	22	goeswith	_	_
+20	unicamente	unicamente	ADJ	JJ	Degree=Pos	22	amod	_	_
+21	spaghetti	spaghetti	NOUN	NN	Number=Sing	22	compound	_	_
+22	fatti	fatti	NOUN	NN	Number=Sing	3	appos	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	cooperativa	cooperativa	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	nella	nella	NOUN	NN	Number=Sing	27	compound	_	_
+27	stanza	stanza	NOUN	NN	Number=Sing	28	compound	_	_
+28	medesima	medesima	NOUN	NN	Number=Sing	24	appos	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n
+

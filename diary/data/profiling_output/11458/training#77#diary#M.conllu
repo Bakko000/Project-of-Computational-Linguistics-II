@@ -1,0 +1,262 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	ADP	IN	_	3	case	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	lino@	lino@	SYM	NFP	_	4	obl	_	SpaceAfter=No
+4	...	...	PUNCT	.	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date: Mon Feb 11 05:16:50 1997
+1	Date	date	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Mon	Mon	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Feb	Feb	PROPN	NNP	Number=Sing	1	appos	_	_
+5	11	11	NUM	CD	NumType=Card	4	appos	_	_
+6	05:16:50	05:16:50	NUM	CD	NumType=Card	7	nummod	_	_
+7	1997	1997	NUM	CD	NumType=Card	5	nmod:tmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Subject: Re: Viareggio
+1	Subject	subject	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Re	re	ADP	IN	_	5	case	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	5	punct	_	_
+5	Viareggio	Viareggio	PROPN	NNP	Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Innanzitutto, si dice “A tutta B”.
+1	Innanzitutto	Innanzitutto	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	si	si	NUM	CD	NumType=Card	4	nummod	_	_
+4	dice	dice	NOUN	NN	Number=Sing	0	root	_	_
+5	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+6	A	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	tutta	tutta	NOUN	NN	Number=Sing	8	compound	_	_
+8	B	b	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = La suddetta è, come dovresti sapere, una rubrica su unternet (non l'ho fatto apposta, ma d'ora in poi dirò “unternet”).
+1	La	la	PROPN	NNP	Number=Sing	3	compound	_	_
+2	suddetta	suddetta	PROPN	NNP	Number=Sing	1	flat	_	_
+3	è	è	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	dovresti	dovresto	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	7	obj	_	_
+7	sapere	sapere	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	una	una	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	rubrica	rubrica	NOUN	NN	Number=Sing	11	compound	_	_
+11	su	su	NOUN	NN	Number=Sing	12	compound	_	_
+12	unternet	unternet	NOUN	NN	Number=Sing	7	appos	_	_
+13	(	(	PUNCT	-LRB-	_	7	punct	_	SpaceAfter=No
+14	non	non	X	AFX	_	18	goeswith	_	_
+15	l	l	X	FW	Foreign=Yes	18	goeswith	_	SpaceAfter=No
+16	'ho	'ho	X	AFX	_	18	goeswith	_	_
+17	fatto	fatto	NOUN	NN	Number=Sing	18	compound	_	_
+18	apposta	apposta	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	ma	ma	NOUN	NN	Number=Sing	21	compound	_	_
+21	d'ora	d'ora	NOUN	NN	Number=Sing	18	appos	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	poi	poi	NOUN	NN	Number=Sing	24	compound	_	_
+24	dirò	dirò	NOUN	NN	Number=Sing	18	nmod	_	_
+25	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+26	unternet	unternet	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	26	punct	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	26	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Sono appena tornato dopo un'influenza turbociclonica con mal di testa senza sosta per 5 0 6 giorni.
+1	Sono	Sono	DET	DT	_	4	det	_	_
+2	appena	appena	NOUN	NN	Number=Sing	3	compound	_	_
+3	tornato	tornato	NOUN	NN	Number=Sing	4	compound	_	_
+4	dopo	dopo	NOUN	NN	Number=Sing	0	root	_	_
+5	un'	un'	PUNCT	''	_	4	punct	_	SpaceAfter=No
+6	influenza	influenza	X	FW	Foreign=Yes	4	appos	_	_
+7	turbociclonica	turbociclonica	X	FW	Foreign=Yes	6	flat:foreign	_	_
+8	con	con	X	FW	Foreign=Yes	6	flat:foreign	_	_
+9	mal	mal	X	FW	Foreign=Yes	6	flat:foreign	_	_
+10	di	di	X	AFX	_	12	punct	_	_
+11	testa	testa	X	FW	Foreign=Yes	12	punct	_	_
+12	senza	senza	X	FW	Foreign=Yes	6	goeswith	_	_
+13	sosta	sosta	X	FW	Foreign=Yes	12	conj	_	_
+14	per	per	ADP	IN	_	15	case	_	_
+15	5	5	NUM	CD	NumType=Card	18	nmod	_	_
+16	0	0	NUM	CD	NumType=Card	17	compound	_	_
+17	6	6	NUM	CD	NumType=Card	18	nummod	_	_
+18	giorni	giorni	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 7
+# text = Ho avuto quindi il privilegio di vedermi la diretta di Torino-Bari.
+1	Ho	Ho	ADV	RB	_	13	advmod	_	_
+2	avuto	avuto	ADP	IN	_	13	case	_	_
+3	quindi	quindi	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	il	il	NOUN	NN	Number=Sing	5	compound	_	_
+5	privilegio	privilegio	NOUN	NN	Number=Sing	6	compound	_	_
+6	di	di	NOUN	NN	Number=Sing	7	compound	_	_
+7	vedermi	vedermi	NOUN	NN	Number=Sing	8	compound	_	_
+8	la	la	NOUN	NN	Number=Sing	9	compound	_	_
+9	diretta	diretta	NOUN	NN	Number=Sing	13	compound	_	_
+10	di	di	NOUN	NN	Number=Sing	13	compound	_	_
+11	Torino	Torino	PROPN	NNP	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	Bari	Bari	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 8
+# text = Il Toro era più forte, ma un idiota si è fatto subito espellere.
+1	Il	Il	PROPN	NNP	Number=Sing	3	compound	_	_
+2	Toro	Toro	PROPN	NNP	Number=Sing	1	flat	_	_
+3	era	era	NOUN	NN	Number=Sing	5	compound	_	_
+4	più	più	NOUN	NN	Number=Sing	5	compound	_	_
+5	forte	forte	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	ma	ma	X	GW	_	11	compound	_	_
+8	un	un	X	GW	_	11	compound	_	_
+9	idiota	idiota	X	GW	_	11	compound	_	_
+10	si	si	X	AFX	_	11	compound	_	_
+11	è	è	NOUN	NN	Number=Sing	5	appos	_	_
+12	fatto	fatto	NOUN	NN	Number=Sing	13	compound	_	_
+13	subito	subito	NOUN	NN	Number=Sing	0	root	_	_
+14	espellere	espellere	ADV	WRB	PronType=Rel	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 9
+# text = Il Torino ha comunque attaccato, ma il Barimberda ha fatto un golle in contropiede.
+1	Il	Il	PROPN	NNP	Number=Sing	0	root	_	_
+2	Torino	Torino	PROPN	NNP	Number=Sing	1	flat	_	_
+3	ha	ha	PROPN	NNP	Number=Sing	1	flat	_	_
+4	comunque	comunque	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	attaccato	attaccato	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	ma	ma	NOUN	NN	Number=Sing	1	appos	_	_
+8	il	ill	ADP	IN	Typo=Yes	10	case	_	_
+9	Barimberda	Barimberda	PROPN	NNP	Number=Sing	10	compound	_	_
+10	ha	ha	NOUN	NN	Number=Sing	7	nmod	_	_
+11	fatto	fatto	ADP	IN	_	13	case	_	_
+12	un	un	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	golle	golle	NOUN	NN	Number=Sing	1	nmod	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	contropiede	contropiede	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 10
+# text = Siete sempre dei polli.
+1	Siete	Siete	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	WRB	PronType=Int	4	advmod	_	_
+3	dei	dei	NUM	CD	NumType=Card	4	nummod	_	_
+4	polli	polli	NOUN	NNS	Number=Plur	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Forse Torino-Lecce sarebbe stata la finale più giusta.
+1	Forse	Forse	PROPN	NNP	Number=Sing	0	root	_	_
+2	Torino	Torino	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	Lecce	Lecce	PROPN	NNP	Number=Sing	1	flat	_	_
+5	sarebbe	sarebbe	NOUN	NN	Number=Sing	6	compound	_	_
+6	stata	stata	NOUN	NN	Number=Sing	7	compound	_	_
+7	la	la	NOUN	NN	Number=Sing	8	compound	_	_
+8	finale	finale	NOUN	NN	Number=Sing	9	compound	_	_
+9	più	più	NOUN	NN	Number=Sing	10	compound	_	_
+10	giusta	giusta	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Il Leccione ha miracolosamente pareggiato.
+1	Il	Il	PROPN	NNP	Number=Sing	0	root	_	_
+2	Leccione	Leccione	PROPN	NNP	Number=Sing	1	flat	_	_
+3	ha	ha	PROPN	NNP	Number=Sing	1	flat	_	_
+4	miracolosamente	miracolosament	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	pareggiato	pareggiato	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 13
+# text = Mancava mezza squadra, e l'ultimo quarto di partita eravamo in dieci (come quasi sempre).
+1	Mancava	Mancava	PROPN	NNP	Number=Sing	3	compound	_	_
+2	mezza	mezza	NOUN	NN	Number=Sing	3	compound	_	_
+3	squadra	squadra	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	e	e	X	GW	_	12	goeswith	_	_
+6	l'ultimo	l'ultimo	X	FW	Foreign=Yes	12	goeswith	_	_
+7	quarto	quarto	X	AFX	_	12	goeswith	_	_
+8	di	dus	X	LS	_	12	goeswith	_	_
+9	partita	partita	X	FW	Foreign=Yes	12	goeswith	_	_
+10	eravamo	eravamo	X	FW	Foreign=Yes	12	goeswith	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	dieci	dieci	NOUN	NN	Number=Sing	3	appos	_	_
+13	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
+14	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	_
+15	quasi	quasi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	16	nmod:poss	_	_
+16	sempre	sempre	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	14	punct	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Pare abbia dimostrato di essere una squadra solida, ma temo il tracollo.
+1	Pare	Pare	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	abbia	abbia	ADP	IN	_	4	case	_	_
+3	dimostrato	dimostrato	NOUN	NN	Number=Sing	4	compound	_	_
+4	di	di	NOUN	NN	Number=Sing	1	obl	_	_
+5	essere	essere	ADV	WRB	PronType=Rel	4	advmod	_	_
+6	una	una	ADP	IN	_	8	case	_	_
+7	squadra	squadra	NOUN	NN	Number=Sing	8	compound	_	_
+8	solida	solida	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	ma	ma	NOUN	NN	Number=Sing	11	compound	_	_
+11	temo	temo	NOUN	NN	Number=Sing	12	compound	_	_
+12	il	il	NOUN	NN	Number=Sing	13	compound	_	_
+13	tracollo	tracollo	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = Per il Toro non ti preoccupare, solo una domenica di relax, lo controllo io con il satellite.
+1	Per	per	ADP	IN	_	4	case	_	_
+2	il	il	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	Toro	Toro	PROPN	NNP	Number=Sing	4	compound	_	_
+4	non	non	NOUN	NN	Number=Sing|Typo=Yes	6	obl	_	_
+5	ti	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	6	nsubj	_	_
+6	preoccupare	preoccupare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	solo	solo	X	AFX	_	12	goeswith	_	_
+9	una	una	X	FW	Foreign=Yes	12	goeswith	_	_
+10	domenica	domenica	X	FW	Foreign=Yes	12	goeswith	_	_
+11	di	di	NOUN	NN	Number=Sing	12	compound	_	_
+12	relax	relax	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	lo	lo	X	AFX	_	19	goeswith	_	_
+15	controllo	controllo	X	FW	Foreign=Yes	19	goeswith	_	_
+16	io	io	X	FW	Foreign=Yes	19	goeswith	_	_
+17	con	con	X	FW	Foreign=Yes	19	goeswith	_	_
+18	il	il	NOUN	NN	Number=Sing	19	compound	_	_
+19	satellite	satellite	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Ho la testa confusa, ti saluto.
+1	Ho	Ho	PROPN	NNP	Number=Sing	4	compound	_	_
+2	la	la	NOUN	NN	Number=Sing	3	compound	_	_
+3	testa	testa	NOUN	NN	Number=Sing	4	compound	_	_
+4	confusa	confusa	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	ti	it	NUM	CD	NumType=Card	7	nummod	_	_
+7	saluto	saluto	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Lino
+1	Lino	Lino	PROPN	NNP	Number=Sing	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,447 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	ADP	IN	_	3	case	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	lino@	lino@	SYM	NFP	_	4	obl	_	SpaceAfter=No
+4	...	...	PUNCT	.	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date: Fri May 9 12:57:12 1997
+1	Date	date	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Fri	Fri	PROPN	NNP	Number=Sing	1	appos	_	_
+4	May	May	PROPN	NNP	Number=Sing	3	appos	_	_
+5	9	9	NUM	CD	NumType=Card	4	nummod	_	_
+6	12:57:12	12:57:12	NUM	CD	NumType=Card	4	nummod	_	_
+7	1997	1997	NUM	CD	NumType=Card	3	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Subject: Cheope
+1	Subject	subject	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Cheope	Cheope	PROPN	NNP	Number=Sing	1	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = I soldi: borsa da 430 sterline + 30-40 per correzione compiti + 180 che la mamma mi regala per l'affitto (io accetto volentieri, se non me li danno ora non li usano per loro, come li invitiamo sempre a fare io e mio fratello, ma me li tengono da parte per quando mi sposo, e credo che anche in questo caso debbano ricomparire i dinosauri).
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	soldi	soldi	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	borsa	borsa	NOUN	NN	Number=Sing	17	compound	_	_
+5	da	da	ADP	IN	_	9	advmod	_	_
+6	430	430	NUM	CD	NumType=Card	7	nummod	_	_
+7	sterline	sterline	NUM	CD	NumType=Card	9	nummod	_	_
+8	+	+	SYM	SYM	_	9	punct	_	_
+9	30	30	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+10	-	-	SYM	SYM	_	11	case	_	SpaceAfter=No
+11	40	40	NUM	CD	NumType=Card	9	nmod	_	_
+12	per	per	ADP	IN	_	14	case	_	_
+13	correzione	correzione	NUM	CD	NumType=Card	14	nummod	_	_
+14	compiti	compito	NOUN	NN	Number=Sing	9	nmod	_	_
+15	+	+	SYM	SYM	_	9	advmod	_	_
+16	180	180	NUM	CD	NumType=Card	15	nummod	_	_
+17	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	appos	_	_
+18	la	la	X	FW	Foreign=Yes	24	goeswith	_	_
+19	mamma	mamma	X	FW	Foreign=Yes	24	goeswith	_	_
+20	mi	mi	X	AFX	_	24	goeswith	_	_
+21	regala	regala	X	FW	Foreign=Yes	24	goeswith	_	_
+22	per	per	X	GW	_	24	goeswith	_	_
+23	l'	lg	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+24	affitto	affitto	NOUN	NN	Number=Sing	17	appos	_	_
+25	(	(	PUNCT	-LRB-	_	2	punct	_	SpaceAfter=No
+26	io	io	VERB	VB	Mood=Imp|VerbForm=Fin	30	parataxis	_	_
+27	accetto	accetto	NOUN	NN	Number=Sing	28	compound	_	_
+28	volentieri	volentierus	NOUN	NNS	Number=Plur	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	26	punct	_	_
+30	se	se	VERB	VB	Mood=Imp|VerbForm=Fin	42	parataxis	_	_
+31	non	non	X	AFX	_	32	goeswith	_	_
+32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	30	obj	_	_
+33	li	li	X	AFX	_	40	goeswith	_	_
+34	danno	danno	X	FW	Foreign=Yes	40	goeswith	_	_
+35	ora	ora	X	FW	Foreign=Yes	40	goeswith	_	_
+36	non	non	X	FW	Foreign=Yes	40	goeswith	_	_
+37	li	li	X	AFX	_	40	goeswith	_	_
+38	usano	usano	X	FW	Foreign=Yes	40	goeswith	_	_
+39	per	per	X	GW	_	40	goeswith	_	_
+40	loro	loro	NOUN	NN	Number=Sing	32	appos	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	42	punct	_	_
+42	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	45	parataxis	_	_
+43	li	lus	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	42	obj	_	_
+44	invitiamo	invitiamo	ADV	RB	_	45	advmod	_	_
+45	sempre	sempre	VERB	VB	Mood=Imp|VerbForm=Fin	52	conj	_	_
+46	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	_
+47	fare	fare	NOUN	NN	Number=Sing	45	obj	_	_
+48	io	io	X	FW	Foreign=Yes	45	appos	_	_
+49	e	e	X	GW	_	48	goeswith	_	_
+50	mio	mio	X	FW	Foreign=Yes	48	goeswith	_	_
+51	fratello	fratello	X	FW	Foreign=Yes	48	goeswith	_	SpaceAfter=No
+52	,	,	PUNCT	,	_	2	punct	_	_
+53	ma	ma	ADP	IN	_	54	case	_	_
+54	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+55	li	li	X	AFX	_	62	goeswith	_	_
+56	tengono	tengono	X	FW	Foreign=Yes	62	goeswith	_	_
+57	da	da	X	FW	Foreign=Yes	62	goeswith	_	_
+58	parte	parte	X	FW	Foreign=Yes	62	goeswith	_	_
+59	per	per	X	GW	_	62	goeswith	_	_
+60	quando	quando	X	AFX	_	62	goeswith	_	_
+61	mi	mi	X	AFX	_	62	goeswith	_	_
+62	sposo	sposo	NOUN	NN	Number=Sing	54	flat	_	SpaceAfter=No
+63	,	,	PUNCT	,	_	2	punct	_	_
+64	e	e	X	GW	_	66	advmod	_	_
+65	credo	credo	X	AFX	_	64	goeswith	_	_
+66	che	che	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+67	anche	anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	66	obj	_	_
+68	in	in	ADP	IN	_	70	case	_	_
+69	questo	questo	NOUN	NN	Number=Sing	70	compound	_	_
+70	caso	caso	NOUN	NN	Number=Sing	67	nmod	_	_
+71	debbano	debbano	INTJ	UH	_	72	discourse	_	_
+72	ricomparire	ricomparire	VERB	VB	Mood=Imp|VerbForm=Fin	66	parataxis	_	_
+73	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	74	nsubj	_	_
+74	dinosauri	dinosauri	NOUN	NN	Number=Sing	72	obj	_	SpaceAfter=No
+75	)	)	PUNCT	-RRB-	_	72	punct	_	SpaceAfter=No
+76	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = In tutto fa 650 sterline.
+1	In	in	ADP	IN	_	3	case	_	_
+2	tutto	tutto	NOUN	NN	Number=Sing	3	compound	_	_
+3	fa	fa	NOUN	NN	Number=Sing	0	root	_	_
+4	650	650	NUM	CD	NumType=Card	5	nummod	_	_
+5	sterline	sterline	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Riuscendo a metterne da parte sui 300 al mese ogni mese e avendo ancora da parte sui 1500, strascico del regalo di laurea, posso permettermi di viaggiare quasi ovunque, tenendo presente che: (i) non penso assolutamente a mettere soldi da parte, (ii) i biglietti aerei qui costano molto meno che in Italia, (iii) sono ufficialmente uno studente e quindi usufruisco di sconti, (iv) mi ospiterebbero in buona parte dei posti che ho in mente, e (v) quello che ho in mente si può realizzare solo in parte.
+1	Riuscendo	Riuscendue	ADP	IN	_	11	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+3	metterne	metterne	NUM	CD	NumType=Card	6	nummod	_	_
+4	da	day	NOUN	NN	Number=Sing	5	compound	_	_
+5	parte	parte	NOUN	NN	Number=Sing	6	compound	_	_
+6	sui	sui	NOUN	NN	Number=Sing	11	compound	_	_
+7	300	300	NUM	CD	NumType=Card	6	nummod	_	_
+8	al	al	X	FW	_	11	case	_	_
+9	mese	mese	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	ogni	ogni	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	mese	mese	NOUN	NN	Number=Sing	26	obl	_	_
+12	e	e	X	GW	_	17	goeswith	_	_
+13	avendo	avendo	X	AFX	_	17	goeswith	_	_
+14	ancora	ancora	X	FW	Foreign=Yes	17	goeswith	_	_
+15	da	day	X	FW	Foreign=Yes	17	goeswith	_	_
+16	parte	parte	X	FW	Foreign=Yes	17	goeswith	_	_
+17	sui	sui	NOUN	NN	Number=Sing	11	appos	_	_
+18	1500	1500	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	11	punct	_	_
+20	strascico	strascico	X	FW	Foreign=Yes	24	goeswith	_	_
+21	del	del	X	FW	Foreign=Yes	24	goeswith	_	_
+22	regalo	regalo	X	FW	Foreign=Yes	24	goeswith	_	_
+23	di	di	X	AFX	_	24	goeswith	_	_
+24	laurea	laurea	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	posso	posso	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+27	permettermi	permettermi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	31	compound	_	_
+28	di	di	ADJ	JJ	Degree=Pos	27	amod	_	_
+29	viaggiare	viaggiare	NOUN	NN	Number=Sing	30	compound	_	_
+30	quasi	quasi	NOUN	NN	Number=Sing	31	compound	_	_
+31	ovunque	ovunque	NOUN	NN	Number=Sing	26	appos	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	26	punct	_	_
+33	tenendo	tenendue	AUX	VB	Mood=Imp|VerbForm=Fin	34	aux	_	_
+34	presente	present	VERB	VB	VerbForm=Inf	26	parataxis	_	_
+35	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	_	SpaceAfter=No
+36	:	:	PUNCT	:	_	35	punct	_	_
+37	(	(	PUNCT	-LRB-	_	35	punct	_	SpaceAfter=No
+38	i	i	X	LS	_	42	advmod	_	SpaceAfter=No
+39	)	)	PUNCT	-RRB-	_	40	punct	_	_
+40	non	non	X	FW	Foreign=Yes	38	goeswith	_	_
+41	penso	penso	X	FW	Foreign=Yes	42	goeswith	_	_
+42	assolutamente	assolutamente	VERB	VB	VerbForm=Inf	50	parataxis	_	_
+43	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	_
+44	mettere	mettere	NOUN	NN	Number=Sing	45	compound	_	_
+45	soldi	soldi	NOUN	NN	Number=Sing	46	compound	_	_
+46	da	day	NOUN	NN	Number=Sing	47	compound	_	_
+47	parte	parte	NOUN	NN	Number=Sing	42	obj	_	SpaceAfter=No
+48	,	,	PUNCT	,	_	42	punct	_	_
+49	(	(	PUNCT	-LRB-	_	42	punct	_	SpaceAfter=No
+50	ii	ii	X	LS	_	35	appos	_	SpaceAfter=No
+51	)	)	PUNCT	-RRB-	_	50	punct	_	_
+52	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+53	biglietti	biglietti	X	AFX	_	56	goeswith	_	_
+54	aerei	aerei	X	AFX	_	56	goeswith	_	_
+55	qui	qui	X	AFX	_	56	goeswith	_	_
+56	costano	costano	NOUN	NN	Number=Sing	52	appos	_	_
+57	molto	molto	PART	TO	_	58	mark	_	_
+58	meno	meno	VERB	VB	VerbForm=Inf	56	appos	_	_
+59	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	74	conj	_	_
+60	in	in	ADP	IN	_	61	case	_	_
+61	Italia	Italia	PROPN	NNP	Number=Sing	59	nmod	_	SpaceAfter=No
+62	,	,	PUNCT	,	_	59	punct	_	_
+63	(	(	PUNCT	-LRB-	_	64	punct	_	SpaceAfter=No
+64	iii	iii	X	LS	_	59	appos	_	SpaceAfter=No
+65	)	)	PUNCT	-RRB-	_	64	punct	_	_
+66	sono	sono	X	AFX	_	74	goeswith	_	_
+67	ufficialmente	ufficialmente	X	ADD	_	74	goeswith	_	_
+68	uno	uno	X	GW	_	74	goeswith	_	_
+69	studente	studente	X	ADD	_	74	goeswith	_	_
+70	e	e	X	GW	_	74	goeswith	_	_
+71	quindi	quindi	X	AFX	_	74	goeswith	_	_
+72	usufruisco	usufruisco	X	FW	Foreign=Yes	74	goeswith	_	_
+73	di	di	X	AFX	_	74	goeswith	_	_
+74	sconti	sconto	NOUN	NN	Number=Sing	80	conj	_	SpaceAfter=No
+75	,	,	PUNCT	,	_	74	punct	_	_
+76	(	(	PUNCT	-LRB-	_	77	punct	_	SpaceAfter=No
+77	iv	iv	X	ADD	_	74	appos	_	SpaceAfter=No
+78	)	)	PUNCT	-RRB-	_	79	punct	_	_
+79	mi	mi	X	AFX	_	77	goeswith	_	_
+80	ospiterebbero	ospiterebbero	X	FW	Foreign=Yes	87	compound	_	_
+81	in	in	X	GW	_	87	goeswith	_	_
+82	buona	buona	X	FW	Foreign=Yes	87	goeswith	_	_
+83	parte	parte	X	FW	Foreign=Yes	87	goeswith	_	_
+84	dei	dei	X	ADD	_	87	goeswith	_	_
+85	posti	posti	X	AFX	_	87	goeswith	_	_
+86	che	che	DET	DT	Definite=Def|PronType=Art	87	det	_	_
+87	ho	ho	NOUN	NN	Number=Sing	58	obj	_	_
+88	in	in	ADP	IN	_	89	case	_	_
+89	mente	ment	NOUN	NN	Number=Sing	87	nmod	_	SpaceAfter=No
+90	,	,	PUNCT	,	_	87	punct	_	_
+91	e	e	NOUN	NN	Number=Sing	95	nsubj	_	_
+92	(	(	PUNCT	-LRB-	_	93	punct	_	SpaceAfter=No
+93	v	v	NOUN	NN	Number=Sing	91	appos	_	SpaceAfter=No
+94	)	)	PUNCT	-RRB-	_	93	punct	_	_
+95	quello	quello	VERB	VB	VerbForm=Inf	87	appos	_	_
+96	che	che	DET	DT	Definite=Def|PronType=Art	97	det	_	_
+97	ho	ho	NOUN	NN	Number=Sing	95	obj	_	_
+98	in	in	ADP	IN	_	102	case	_	_
+99	mente	mente	ADJ	JJ	Degree=Pos	101	amod	_	_
+100	si	si	NOUN	NN	Number=Sing	101	compound	_	_
+101	può	può	NOUN	NN	Number=Sing	102	compound	_	_
+102	realizzare	realizzare	NOUN	NN	Number=Sing	95	obl	_	_
+103	solo	solo	ADV	RB	_	105	advmod	_	_
+104	in	in	ADP	IN	_	105	case	_	_
+105	parte	parte	NOUN	NN	Number=Sing	95	obl	_	SpaceAfter=No
+106	.	.	PUNCT	.	_	56	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Il meccanismo del crucco-sistema e delle Piramidi è lo stesso, naturalmente.
+1	Il	Il	PROPN	NNP	Number=Sing	0	root	_	_
+2	meccanismo	meccanismo	X	FW	Foreign=Yes	7	punct	_	_
+3	del	del	X	FW	Foreign=Yes	2	flat:foreign	_	_
+4	crucco-sistema	crucco-sistema	X	FW	Foreign=Yes	7	goeswith	_	_
+5	e	e	X	GW	_	7	goeswith	_	_
+6	delle	delle	X	GW	_	7	goeswith	_	_
+7	Piramidi	Piramidi	PROPN	NNP	Number=Sing	1	flat	_	_
+8	è	è	NOUN	NN	Number=Sing	10	compound	_	_
+9	lo	lo	ADJ	JJ	Degree=Pos	8	amod	_	_
+10	stesso	stesso	NOUN	NN	Number=Sing	7	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	naturalmente	naturalmente	NOUN	NN	Number=Sing|Typo=Yes	10	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Solo che uno spera di non essere alla base della piramide.
+1	Solo	solo	INTJ	UH	_	11	discourse	_	_
+2	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	compound	_	_
+3	uno	uno	X	GW	_	11	goeswith	_	_
+4	spera	spera	X	FW	Foreign=Yes	11	goeswith	_	_
+5	di	di	X	AFX	_	11	goeswith	_	_
+6	non	non	X	FW	Foreign=Yes	11	cc	_	_
+7	essere	essere	X	GW	_	8	compound	_	_
+8	alla	alla	NOUN	NN	Number=Sing	11	compound	_	_
+9	base	base	NOUN	NN	Number=Sing	11	compound	_	_
+10	della	della	NOUN	NN	Number=Sing	11	compound	_	_
+11	piramide	piramide	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 9
+# text = E in ogni caso vendendo i 3 biglietti si va in pari.
+1	E	e	ADP	IN	_	4	case	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	ogni	ogni	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	caso	caso	NOUN	NN	Number=Sing	10	obl	_	_
+5	vendendo	vendendo	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+6	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	3	3	NUM	CD	NumType=Card	10	nummod	_	_
+8	biglietti	biglietti	NUM	CD	NumType=Card	10	nummod	_	_
+9	si	si	NUM	CD	NumType=Card	10	nummod	_	_
+10	va	va	NOUN	NN	Number=Sing	0	root	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	pari	parus	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = Quando si acquistano si conta sulla fiducia nei confronti di coloro che ti hanno promesso o che ti hanno fatto intravedere la volontà di acquistarli.
+1	Quando	Quando	X	AFX	_	11	goeswith	_	_
+2	si	si	X	LS	_	1	goeswith	_	_
+3	acquistano	acquistano	X	FW	Foreign=Yes	1	goeswith	_	_
+4	si	si	X	LS	_	1	goeswith	_	_
+5	conta	conta	X	FW	Foreign=Yes	1	goeswith	_	_
+6	sulla	sulla	X	FW	Foreign=Yes	1	goeswith	_	_
+7	fiducia	fiducia	X	FW	Foreign=Yes	11	goeswith	_	_
+8	nei	nei	X	ADD	_	11	goeswith	_	_
+9	confronti	confronti	X	AFX	_	11	goeswith	_	_
+10	di	di	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	coloro	coloro	NOUN	NN	Number=Sing	0	root	_	_
+12	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nmod:poss	_	_
+13	ti	it	NUM	CD	NumType=Card	15	nummod	_	_
+14	hanno	hanno	NOUN	NN	Number=Sing	15	compound	_	_
+15	promesso	promesso	NOUN	NN	Number=Sing	21	nsubj	_	_
+16	o	of	ADP	IN	Abbr=Yes	19	case	_	_
+17	che	che	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	ti	it	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	hanno	khannow	NOUN	NN	Number=Sing	15	nmod	_	_
+20	fatto	fatto	PART	TO	_	21	mark	_	_
+21	intravedere	intravedere	VERB	VB	VerbForm=Inf	11	parataxis	_	_
+22	la	la	NOUN	NN	Number=Sing	23	compound	_	_
+23	volontà	volontà	NOUN	NN	Number=Sing	24	compound	_	_
+24	di	di	NOUN	NN	Number=Sing	25	compound	_	_
+25	acquistarli	acquistarli	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 11
+# text = Ai miei occhi tu eri uno di questi ultimi.
+1	Ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+2	miei	miei	PRON	PRP	_	9	nmod:poss	_	_
+3	occhi	occhi	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	tu	tu	NOUN	NN	Number=Sing	5	compound	_	_
+5	eri	eri	NOUN	NN	Number=Sing	6	compound	_	_
+6	uno	uno	NOUN	NN	Number=Sing	7	compound	_	_
+7	di	di	NOUN	NN	Number=Sing	8	compound	_	_
+8	questi	questi	NOUN	NN	Number=Sing	9	compound	_	_
+9	ultimi	ultimi	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Il mio amico carogna di Sheffield ha partecipato un paio di anni fà.
+1	Il	Il	PROPN	NNP	Number=Sing	13	compound	_	_
+2	mio	mio	X	FW	Foreign=Yes	13	goeswith	_	_
+3	amico	amico	X	FW	Foreign=Yes	13	goeswith	_	_
+4	carogna	carogna	X	FW	Foreign=Yes	13	goeswith	_	_
+5	di	di	X	AFX	_	13	goeswith	_	_
+6	Sheffield	Sheffield	PROPN	NNP	Number=Sing	5	compound	_	_
+7	ha	ha	PROPN	NNP	Number=Sing	6	flat	_	_
+8	partecipato	partecipato	PROPN	NNP	Number=Sing	6	flat	_	_
+9	un	un	ADJ	JJ	Degree=Pos	13	amod	_	_
+10	paio	paio	NOUN	NN	Number=Sing	11	compound	_	_
+11	di	di	NOUN	NN	Number=Sing	12	compound	_	_
+12	anni	anni	NOUN	NN	Number=Sing	13	compound	_	_
+13	fà	fà	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 13
+# text = Quando sono stato da lui lo scorso luglio, gli arrivavano continuamente banconote o bonifici di 50 marchi o 20 sterline.
+1	Quando	Quandue	ADP	IN	_	8	case	_	_
+2	sono	sono	DET	DT	_	5	det	_	_
+3	stato	stato	NOUN	NN	Number=Sing	4	compound	_	_
+4	da	day	NOUN	NN	Number=Sing	5	compound	_	_
+5	lui	lui	NOUN	NN	Number=Sing	8	compound	_	_
+6	lo	lo	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	scorso	scorso	NOUN	NN	Number=Sing	8	compound	_	_
+8	luglio	luglio	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	gli	gli	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	12	nsubj	_	_
+11	arrivavano	arrivavano	DET	DT	_	10	det	_	_
+12	continuamente	continuamente	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	banconote	banconote	NOUN	NN	Number=Sing	12	obj	_	_
+14	o	of	ADP	IN	Abbr=Yes	16	case	_	_
+15	bonifici	bonifici	NOUN	NN	Number=Sing	16	compound	_	_
+16	di	dus	NOUN	NN	Number=Sing	13	nmod	_	_
+17	50	50	NUM	CD	NumType=Card	18	nummod	_	_
+18	marchi	marchi	NOUN	NN	Number=Sing	16	appos	_	_
+19	o	of	ADP	IN	Abbr=Yes	21	case	_	_
+20	20	20	NUM	CD	NumType=Card	21	nummod	_	_
+21	sterline	sterline	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Sulla moralità della cosa possiamo discutere all'infinito, ma a questo punto dovremmo discutere di tutto ciò che comporta spostamento di danaro senza grossa fatica.
+1	Sulla	Sulla	PROPN	NNP	Number=Sing	2	compound	_	_
+2	moralità	moralità	NOUN	NN	Number=Sing	3	compound	_	_
+3	della	della	NOUN	NN	Number=Sing	4	compound	_	_
+4	cosa	cosa	NOUN	NN	Number=Sing	5	compound	_	_
+5	possiamo	possiamo	NOUN	NN	Number=Sing	8	compound	_	_
+6	discutere	discutere	ADV	WRB	PronType=Rel	8	advmod	_	_
+7	all	all	DET	DT	_	8	det	_	SpaceAfter=No
+8	'infinito	'infinitoo	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	ma	ma	ADP	IN	_	18	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+12	questo	questo	NOUN	NN	Number=Sing	13	compound	_	_
+13	punto	punto	NOUN	NN	Number=Sing	14	compound	_	_
+14	dovremmo	dovremmo	NOUN	NN	Number=Sing	15	compound	_	_
+15	discutere	discutere	NOUN	NN	Number=Sing	16	compound	_	_
+16	di	dus	NOUN	NN	Number=Sing	18	compound	_	_
+17	tutto	tutto	NOUN	NN	Number=Sing	18	compound	_	_
+18	ciò	ciò	NOUN	NN	Number=Sing	8	nmod	_	_
+19	che	che	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+20	comporta	comporta	NOUN	NN	Number=Sing	21	compound	_	_
+21	spostamento	spostamento	NOUN	NN	Number=Sing	22	compound	_	_
+22	di	di	NOUN	NN	Number=Sing	23	compound	_	_
+23	danaro	danaro	NOUN	NN	Number=Sing	24	compound	_	_
+24	senza	senza	NOUN	NN	Number=Sing	25	compound	_	_
+25	grossa	grossa	NOUN	NN	Number=Sing	26	compound	_	_
+26	fatica	fatica	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 15
+# text = Anche la mia borsa di studo vacillerebbe.
+1	Anche	Anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	_
+2	la	la	X	FW	Foreign=Yes	6	goeswith	_	_
+3	mia	mia	X	FW	Foreign=Yes	6	goeswith	_	_
+4	borsa	borsa	X	FW	Foreign=Yes	6	goeswith	_	_
+5	di	di	X	AFX	_	6	goeswith	_	_
+6	studo	studo	NOUN	NN	Number=Sing	7	compound	_	_
+7	vacillerebbe	vacillerebbe	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Sono ansioso di ricevere notizie sul consesso di hossess che ti attende.
+1	Sono	Sono	X	FW	Foreign=Yes	9	goeswith	_	_
+2	ansioso	ansioso	X	FW	Foreign=Yes	9	goeswith	_	_
+3	di	di	X	AFX	_	9	goeswith	_	_
+4	ricevere	ricevere	X	GW	_	9	goeswith	_	_
+5	notizie	notizie	X	FW	_	9	goeswith	_	_
+6	sul	sul	X	FW	Foreign=Yes	9	goeswith	_	_
+7	consesso	consesso	X	FW	Foreign=Yes	9	goeswith	_	_
+8	di	di	X	AFX	_	9	goeswith	_	_
+9	hossess	hossess	NOUN	NN	Number=Sing	0	root	_	_
+10	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	_
+11	ti	it	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	attende	attenke	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Purtroppo devo riconoscere che tu fuori forma sei sempre superiore a me allenatissimo, e l'ho già verificato.
+1	Purtroppo	Purtroppo	X	FW	Foreign=Yes	19	amod	_	_
+2	devo	devo	X	FW	Foreign=Yes	1	goeswith	_	_
+3	riconoscere	riconoscere	X	GW	_	19	goeswith	_	_
+4	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+5	tu	tu	X	ADD	_	10	goeswith	_	_
+6	fuori	fuori	X	AFX	_	10	goeswith	_	_
+7	forma	forma	X	FW	Foreign=Yes	10	goeswith	_	_
+8	sei	sei	X	ADD	_	10	goeswith	_	_
+9	sempre	sempre	X	AFX	_	10	goeswith	_	_
+10	superiore	superiore	VERB	VB	VerbForm=Inf	19	amod	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+13	allenatissimo	allenatissimo	NOUN	NN	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	e	e	X	GW	_	18	goeswith	_	_
+16	l	l	X	FW	Foreign=Yes	18	goeswith	_	SpaceAfter=No
+17	'ho	'ho	X	AFX	_	18	goeswith	_	_
+18	già	già	NOUN	NN	Number=Sing	19	compound	_	_
+19	verificato	verificato	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Linisha
+1	Linisha	Linisha	PROPN	NNP	Number=Sing	0	root	_	SpacesAfter=\n\n
+

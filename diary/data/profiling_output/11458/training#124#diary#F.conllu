@@ -1,0 +1,347 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Martedì 11 aprile 1978
+1	Martedì	Martedì	NOUN	NN	Number=Sing	3	compound	_	_
+2	11	11	NUM	CD	NumType=Card	1	nummod	_	_
+3	aprile	aprile	NOUN	NN	Number=Sing	0	root	_	_
+4	1978	1978	NUM	CD	NumType=Card	3	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = 80.000 da zia Maria.
+1	80.000	80.000	NUM	CD	NumType=Card	2	nummod	_	_
+2	da	day	NOUN	NN	Number=Sing	0	root	_	_
+3	zia	zia	PROPN	NNP	Number=Sing	2	appos	_	_
+4	Maria	Maria	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Igor in piscina.
+1	Igor	Igor	NOUN	NN	Number=Sing	0	root	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	piscina	piscina	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ore 24.
+1	Ore	Ore	ADP	IN	_	2	case	_	_
+2	24	24	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ieri sera ero disperata.
+1	Ieri	Ieri	X	LS	_	4	goeswith	_	_
+2	sera	sera	X	FW	Foreign=Yes	4	goeswith	_	_
+3	ero	ero	X	FW	Foreign=Yes	4	goeswith	_	_
+4	disperata	disperata	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ho dovuto chiedere i soldi a zia Maria e lei me li ha mandati.
+1	Ho	Ho	PROPN	NNP	Number=Sing	2	compound	_	_
+2	dovuto	dovuto	NOUN	NN	Number=Sing	0	root	_	_
+3	chiedere	chiedere	ADV	WRB	PronType=Rel	7	advmod	_	_
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	soldi	soldi	X	AFX	_	7	goeswith	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	zia	zia	NOUN	NN	Number=Sing	2	acl:relcl	_	_
+8	Maria	Maria	PROPN	NNP	Number=Sing	7	appos	_	_
+9	e	e	X	GW	_	11	goeswith	_	_
+10	lei	lei	X	ADD	_	11	goeswith	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	flat	_	_
+12	li	li	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	ha	ha	NOUN	NN	Number=Sing	14	compound	_	_
+14	mandati	mandato	NOUN	NN	Number=Sing	8	flat	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Adesso mi sento quasi in colpa.
+1	Adesso	Adesso	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	mi	mi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	1	obj	_	_
+3	sento	sento	ADP	IN	_	4	case	_	_
+4	quasi	quasi	NOUN	NNS	Number=Plur	1	obl	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	colpa	colpa	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Quando ho bisogno d'amore, quando ho tanto bisogno d'amore, allora niente amore, non esiste per me, chiuso.
+1	Quando	Quando	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	ho	ho	PRON	WP	PronType=Int	4	obj	_	_
+3	bisogno	kbisognow	ADP	IN	_	4	case	_	_
+4	d'amore	d'amore	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	quando	quando	VERB	VB	Mood=Imp|VerbForm=Fin	1	list	_	_
+7	ho	ho	PRON	WP	PronType=Int	10	obj	_	_
+8	tanto	tanto	ADP	IN	_	10	case	_	_
+9	bisogno	bisogno	NOUN	NN	Number=Sing	10	compound	_	_
+10	d'amore	d'amore	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	1	punct	_	_
+12	allora	allora	INTJ	UH	_	13	discourse	_	_
+13	niente	nient	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+14	amore	amore	ADV	RBR	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	non	non	X	AFX	_	17	advmod	_	_
+17	esiste	esiste	VERB	VB	Mood=Imp|VerbForm=Fin	13	parataxis	_	_
+18	per	per	ADP	IN	_	19	case	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	chiuso	chiuso	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = Nessuno si preoccupa di me.
+1	Nessuno	Nessuno	X	FW	Foreign=Yes	5	goeswith	_	_
+2	si	si	X	LS	_	5	goeswith	_	_
+3	preoccupa	preoccupa	X	FW	Foreign=Yes	5	goeswith	_	_
+4	di	di	X	AFX	_	5	goeswith	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Nessuno sa che esisto.
+1	Nessuno	Nessuno	DET	DT	_	2	det	_	_
+2	sa	sa	NOUN	NN	Number=Sing	0	root	_	_
+3	che	che	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	esisto	esisto	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Battono le ventiquattro.
+1	Batto	Batto	ADP	IN	_	4	case	_	SpaceAfter=No
+2	no	no	DET	DT	_	4	det	_	_
+3	le	le	NOUN	NN	Number=Sing	4	compound	_	_
+4	ventiquattro	ventiquattro	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = A 25 anni soffro ancora, disperatamente, perché non ho mai amato, non sono mai stata amata, e ciò di cui adesso sento di più la mancanza è l'amore di mia madre, che io non conosco, che non ho mai, mai avuto.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+2	25	25	NUM	CD	NumType=Card	5	nummod	_	_
+3	anni	anni	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	soffro	soffro	NOUN	NN	Number=Sing	5	compound	_	_
+5	ancora	ancora	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	disperatamente	disperatament	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	perché	perché	NOUN	NN	Number=Sing	13	compound	_	_
+10	non	non	X	FW	Foreign=Yes	13	goeswith	_	_
+11	ho	ho	X	AFX	_	13	goeswith	_	_
+12	mai	mai	X	AFX	_	13	goeswith	_	_
+13	amato	amato	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	non	non	X	FW	Foreign=Yes	19	goeswith	_	_
+16	sono	sono	X	FW	Foreign=Yes	19	goeswith	_	_
+17	mai	mai	X	AFX	_	19	goeswith	_	_
+18	stata	stata	NOUN	NN	Number=Sing	19	compound	_	_
+19	amata	amata	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	e	e	NOUN	NN	Number=Sing	22	compound	_	_
+22	ciò	ciò	NOUN	NN	Number=Sing	24	compound	_	_
+23	di	di	NOUN	NN	Number=Sing	24	compound	_	_
+24	cui	cui	NOUN	NN	Number=Sing	19	appos	_	_
+25	adesso	adesso	ADP	IN	_	31	case	_	_
+26	sento	sento	NOUN	NN	Number=Sing	27	compound	_	_
+27	di	di	NOUN	NN	Number=Sing	28	compound	_	_
+28	più	più	NOUN	NN	Number=Sing	29	compound	_	_
+29	la	la	NOUN	NN	Number=Sing	30	compound	_	_
+30	mancanza	mancanza	NOUN	NN	Number=Sing	31	compound	_	_
+31	è	è	NOUN	NN	Number=Sing	19	nmod	_	_
+32	l'amore	l'amore	ADV	RBR	_	33	advmod	_	_
+33	di	dus	ADJ	JJ	Degree=Pos	35	amod	_	_
+34	mia	mia	NOUN	NN	Number=Sing	35	compound	_	_
+35	madre	madre	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	37	punct	_	_
+37	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	conj	_	_
+38	io	io	X	FW	Foreign=Yes	37	appos	_	_
+39	non	non	X	FW	Foreign=Yes	38	goeswith	_	_
+40	conosco	conosco	X	FW	Foreign=Yes	38	conj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	48	punct	_	_
+42	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	48	nmod:poss	_	_
+43	non	non	X	AFX	_	45	goeswith	_	_
+44	ho	ho	X	AFX	_	45	goeswith	_	_
+45	mai	mai	ADJ	JJ	Degree=Pos	48	amod	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	45	punct	_	_
+47	mai	mai	ADJ	JJ	Degree=Pos	48	amod	_	_
+48	avuto	avuto	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Stanotte ho sognato che dicevo a qualcuno: ecco, vedi, io non ho mai avuto il seno di mia madre, per questo ne sento…
+1	Stanotte	Stanotte	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	ho	ho	PRON	WP	PronType=Int	5	obj	_	_
+3	sognato	sognato	SCONJ	IN	_	5	mark	_	_
+4	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	dicevo	dicevo	VERB	VB	Mood=Imp|VerbForm=Fin	1	advcl	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	qualcuno	qualcuno	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	9	punct	_	_
+9	ecco	ecco	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	vedi	vedi	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	1	punct	_	_
+13	io	io	X	GW	_	18	goeswith	_	_
+14	non	non	X	GW	_	18	goeswith	_	_
+15	ho	ho	X	GW	_	18	goeswith	_	_
+16	mai	mai	X	AFX	_	18	goeswith	_	_
+17	avuto	avuto	X	AFX	_	18	goeswith	_	_
+18	il	il	NOUN	NN	Number=Sing	21	compound	_	_
+19	seno	seno	NOUN	NN	Number=Sing	20	compound	_	_
+20	di	di	NOUN	NN	Number=Sing	21	compound	_	_
+21	mia	mia	NOUN	NN	Number=Sing	1	list	_	_
+22	madre	madre	ADV	RB	PronType=Dem	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	21	punct	_	_
+24	per	per	ADP	IN	_	27	case	_	_
+25	questo	questo	ADP	IN	_	27	case	_	_
+26	ne	ne	NUM	CD	NumType=Card	27	nummod	_	_
+27	sento	sento	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+28	…	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = l'esigenza, ma uel qualcuno se ne strafregava, non mi stava neppure a sentire, rideva e si girava a guardare qualcosa che era del tutto estranea.
+1	l'	lg	INTJ	UH	_	24	discourse	_	SpaceAfter=No
+2	esigenza	esigenza	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	ma	ma	X	FW	Foreign=Yes	7	goeswith	_	_
+5	uel	uell	X	FW	Foreign=Yes	7	goeswith	_	_
+6	qualcuno	qualcuno	X	FW	Foreign=Yes	7	goeswith	_	_
+7	se	se	NOUN	NN	Number=Sing	9	compound	_	_
+8	ne	ne	NUM	CD	NumType=Card	7	nummod	_	_
+9	strafregava	strafregava	NOUN	NN	Number=Sing	1	vocative	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	non	non	X	AFX	_	16	goeswith	_	_
+12	mi	mi	X	AFX	_	16	goeswith	_	_
+13	stava	stava	X	FW	Foreign=Yes	16	goeswith	_	_
+14	neppure	neppure	X	FW	Foreign=Yes	16	goeswith	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	sentire	sentire	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	1	punct	_	_
+18	rideva	rideva	X	AFX	_	24	goeswith	_	_
+19	e	e	X	GW	_	24	goeswith	_	_
+20	si	si	X	AFX	_	24	goeswith	_	_
+21	girava	girava	X	FW	Foreign=Yes	24	goeswith	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	guardare	guardare	NOUN	NN	Number=Sing	24	compound	_	_
+24	qualcosa	qualcosa	NOUN	NN	Number=Sing	0	root	_	_
+25	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nmod:poss	_	_
+26	era	era	X	AFX	_	29	goeswith	_	_
+27	del	del	X	FW	Foreign=Yes	29	goeswith	_	_
+28	tutto	tutto	NOUN	NN	Number=Sing	29	compound	_	_
+29	estranea	estranea	NOUN	NN	Number=Sing	24	appos	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	24	punct	_	_
+
+# sent_id = 15
+# text = Stasera Felice è solo.
+1	Stasera	Stasera	PROPN	NNP	Number=Sing	3	compound	_	_
+2	Felice	Felice	PROPN	NNP	Number=Sing	1	flat	_	_
+3	è	è	NOUN	NN	Number=Sing	0	root	_	_
+4	solo	solo	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = Ancora Claudio non è tornato e avrei dovuto andare a dormire da lui, ma devo assolutamente battere la tesi, che non mi va, non va, mi sembra senza polpa e senza sugo, senza spina dorsale.
+1	Ancora	Ancora	X	FW	Foreign=Yes	4	amod	_	_
+2	Claudio	Claudio	X	FW	Foreign=Yes	1	goeswith	_	_
+3	non	non	X	FW	Foreign=Yes	4	goeswith	_	_
+4	è	è	NOUN	NN	Number=Sing	0	root	_	_
+5	tornato	tornato	X	AFX	_	9	goeswith	_	_
+6	e	e	X	GW	_	9	goeswith	_	_
+7	avrei	avrei	X	ADD	_	9	goeswith	_	_
+8	dovuto	dovuto	X	AFX	_	9	goeswith	_	_
+9	andare	andare	VERB	VB	VerbForm=Inf	4	conj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	dormire	dormire	NOUN	NN	Number=Sing	12	compound	_	_
+12	da	day	NOUN	NN	Number=Sing	13	compound	_	_
+13	lui	lui	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	_
+15	ma	ma	X	AFX	_	17	advmod	_	_
+16	devo	devo	X	FW	Foreign=Yes	17	goeswith	_	_
+17	assolutamente	assolutamente	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+18	battere	battere	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	la	la	NOUN	NN	Number=Sing	20	compound	_	_
+20	tesi	tesi	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	17	punct	_	_
+22	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nmod:poss	_	_
+23	non	non	X	AFX	_	25	goeswith	_	_
+24	mi	mi	X	AFX	_	25	goeswith	_	_
+25	va	va	NOUN	NN	Number=Sing	40	compound	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	non	non	X	AFX	_	28	goeswith	_	_
+28	va	va	NOUN	NN	Number=Sing	25	appos	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	25	punct	_	_
+30	mi	mi	X	AFX	_	25	appos	_	_
+31	sembra	sembra	X	FW	Foreign=Yes	40	goeswith	_	_
+32	senza	senza	X	FW	Foreign=Yes	31	flat:foreign	_	_
+33	polpa	polpa	X	FW	Foreign=Yes	31	flat:foreign	_	_
+34	e	e	X	GW	_	40	goeswith	_	_
+35	senza	senza	X	FW	Foreign=Yes	40	goeswith	_	_
+36	sugo	sugo	X	FW	Foreign=Yes	40	goeswith	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	40	punct	_	_
+38	senza	senza	NOUN	NN	Number=Sing	39	compound	_	_
+39	spina	spina	NOUN	NN	Number=Sing	40	compound	_	_
+40	dorsale	dorsale	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Devo lavorare molto e seriamente, devo cercare di fare un buon lavoro, un lavoro che mi soddisfi, devo farcela, devo mettercela tutta.
+1	Devo	Devo	ADP	IN	_	5	case	_	_
+2	lavorare	lavorare	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	molto	molto	NOUN	NN	Number=Sing	5	compound	_	_
+4	e	e	NOUN	NN	Number=Sing	5	compound	_	_
+5	seriamente	seriamente	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	devo	devo	INTJ	UH	_	8	discourse	_	_
+8	cercare	cercare	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+9	di	dus	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	fare	fare	NOUN	NN	Number=Sing	11	compound	_	_
+11	un	un	NOUN	NN	Number=Sing	8	obj	_	_
+12	buon	buon	ADP	IN	_	13	case	_	_
+13	lavoro	lavoro	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	un	un	X	GW	_	16	goeswith	_	_
+16	lavoro	lavoro	VERB	VB	Mood=Imp|VerbForm=Fin	8	parataxis	_	_
+17	che	che	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	mi	mi	NOUN	NN	Number=Sing	19	compound	_	_
+19	soddisfi	soddisfi	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	8	punct	_	_
+21	devo	devo	VERB	VB	Mood=Imp|VerbForm=Fin	8	parataxis	_	_
+22	farcela	farcela	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	8	punct	_	_
+24	devo	devo	VERB	VB	Mood=Imp|VerbForm=Fin	8	parataxis	_	_
+25	mettercela	mettercela	NOUN	NN	Number=Sing	26	compound	_	_
+26	tutta	tutta	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 18
+# text = Sono ancora alla prima pagina, che sto battendo e ribattendo forse già per la decima volta: non mi soddisfa!!!
+1	Sono	Sono	X	FW	Foreign=Yes	0	root	_	_
+2	ancora	ancora	X	FW	Foreign=Yes	1	goeswith	_	_
+3	alla	alla	X	FW	Foreign=Yes	1	goeswith	_	_
+4	prima	prima	X	FW	Foreign=Yes	5	compound	_	_
+5	pagina	pagina	NOUN	NN	Number=Sing	1	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
+8	sto	sto	X	AFX	_	13	goeswith	_	_
+9	battendo	battendo	X	AFX	_	13	goeswith	_	_
+10	e	e	X	GW	_	13	goeswith	_	_
+11	ribattendo	ribattendo	X	AFX	_	13	goeswith	_	_
+12	forse	forse	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	già	già	NOUN	NN	Number=Sing	1	appos	_	_
+14	per	per	ADP	IN	_	17	case	_	_
+15	la	la	NOUN	NN	Number=Sing	16	compound	_	_
+16	decima	decima	NOUN	NN	Number=Sing	17	compound	_	_
+17	volta	volta	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	13	punct	_	_
+19	non	non	NUM	CD	NumType=Card	21	nummod	_	_
+20	mi	mi	NUM	CD	NumType=Card	21	nummod	_	_
+21	soddisfa	soddisfa	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+22	!!!	!!!	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 19
+# text = Felice, buonanotte.
+1	Felice	Felice	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	buonanotte	buonanotte	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,413 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	ADP	IN	_	3	case	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	lino@	lino@	SYM	NFP	_	4	obl	_	SpaceAfter=No
+4	...	...	PUNCT	.	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date: Mon Nov 17 06:03:31 1997
+1	Date	date	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Mon	Mon	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Nov	Nov	PROPN	NNP	Number=Sing	1	appos	_	_
+5	17	17	NUM	CD	NumType=Card	4	nummod	_	_
+6	06:03:31	06:03:31	NUM	CD	NumType=Card	7	nummod	_	_
+7	1997	1997	NUM	CD	NumType=Card	5	nmod:tmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Subject: fafaf
+1	Subject	subject	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	fafaf	fafaf	NOUN	NN	Number=Sing	1	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Ciao caro.
+1	Ciao	Ciao	PROPN	NNP	Number=Sing	0	root	_	_
+2	caro	caro	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Sei là?
+1	Sei	Sei	PROPN	NNP	Number=Sing	2	compound	_	_
+2	là	là	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Che fai?
+1	Che	Che	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fai	fai	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Tifavi per l'Italia o per la Russia?
+1	Tifavi	Tifavi	X	LS	_	7	goeswith	_	_
+2	per	per	X	GW	_	7	goeswith	_	_
+3	l'Italia	l'Italia	X	GW	_	7	goeswith	_	_
+4	o	of	X	GW	_	7	goeswith	_	_
+5	per	per	X	GW	_	7	goeswith	_	_
+6	la	la	X	GW	_	7	goeswith	_	_
+7	Russia	Russia	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Lino
+1	Lino	Lino	PROPN	NNP	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = From: andrea@...
+1	From	from	ADP	IN	_	3	case	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	andrea@	andrea@	SYM	NFP	_	4	obl	_	SpaceAfter=No
+4	...	...	PUNCT	.	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Date: Mon Nov 17 10:44:35 1997
+1	Date	date	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Mon	Mon	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Nov	Nov	PROPN	NNP	Number=Sing	1	appos	_	_
+5	17	17	NUM	CD	NumType=Card	4	nmod:tmod	_	_
+6	10:44:35	10:44:35	NUM	CD	NumType=Card	7	nummod	_	_
+7	1997	1997	NUM	CD	NumType=Card	5	nmod:tmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Subject: Re: fafaf
+1	Subject	subject	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Re	re	ADP	IN	_	5	case	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	5	punct	_	_
+5	fafaf	fafaf	NOUN	NN	Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Caro Strapizzo,
+1	Caro	Caro	PROPN	NNP	Number=Sing	0	root	_	_
+2	Strapizzo	Strapizzo	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = purtroppo sono qua, anche da un pezzo ormai (credo di aver compiuto oggi il primo mese).
+1	purtroppo	purtroppo	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	sono	sono	DET	DT	_	3	det	_	_
+3	qua	qua	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	anche	anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	appos	_	_
+6	da	day	ADP	IN	_	9	case	_	_
+7	un	un	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	pezzo	pezzo	NOUN	NN	Number=Sing	9	compound	_	_
+9	ormai	ormai	NOUN	NN	Number=Sing	5	nmod	_	_
+10	(	(	PUNCT	-LRB-	_	9	punct	_	SpaceAfter=No
+11	credo	credo	X	AFX	_	16	goeswith	_	_
+12	di	di	X	AFX	_	16	goeswith	_	_
+13	aver	aver	X	AFX	_	16	goeswith	_	_
+14	compiuto	compiuto	X	AFX	_	16	goeswith	_	_
+15	oggi	oggi	X	AFX	_	16	goeswith	_	_
+16	il	ill	NOUN	NN	Number=Sing	18	compound	_	_
+17	primo	primo	NOUN	NN	Number=Sing	18	compound	_	_
+18	mese	mese	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	9	punct	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = In verità, sono stato un po' anche là, laggiù nella Rizona, la settimana scorsa.
+1	In	in	ADP	IN	_	2	case	_	_
+2	verità	verità	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	sono	sono	DET	DT	_	7	det	_	_
+5	stato	stato	NOUN	NN	Number=Sing	7	compound	_	_
+6	un	un	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	po	po	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+8	'	'	PUNCT	``	_	10	punct	_	_
+9	anche	anche	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	là	là	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	laggiù	laggiù	NOUN	NN	Number=Sing	13	compound	_	_
+13	nella	nella	NOUN	NN	Number=Sing	2	conj	_	_
+14	Rizona	Rizona	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	la	la	NOUN	NN	Number=Sing	17	compound	_	_
+17	settimana	settimana	NOUN	NN	Number=Sing	18	compound	_	_
+18	scorsa	scorsa	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = Sono andato a presentare un papero a Globecom e ne ho approfittato, insieme al capo, per fare qualche girettino in (a)Rizona (Grand Canyon, Petrified Forest, Painted Desert, Monument Valley).
+1	Sono	Sono	PROPN	NNP	Number=Sing	14	nsubj	_	_
+2	andato	andato	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	presentare	presentare	NOUN	NN	Number=Sing	5	compound	_	_
+5	un	un	NOUN	NN	Number=Sing	1	nmod	_	_
+6	papero	papero	ADP	IN	_	12	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+8	Globecom	Globecom	PROPN	NNP	Number=Sing	12	compound	_	_
+9	e	e	NOUN	NN	Number=Sing	12	compound	_	_
+10	ne	ne	NUM	CD	NumType=Card	9	nummod	_	_
+11	ho	ho	NOUN	NN	Number=Sing	12	compound	_	_
+12	approfittato	approfittato	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	1	punct	_	_
+14	insieme	insieme	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+15	al	al	X	FW	_	16	compound	_	_
+16	capo	capo	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	per	per	X	GW	_	19	goeswith	_	_
+19	fare	fare	VERB	VB	Mood=Imp|VerbForm=Fin	14	parataxis	_	_
+20	qualche	qualche	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	girettino	girettino	NOUN	NN	Number=Sing	19	obj	_	_
+22	in	in	ADP	IN	_	26	case	_	_
+23	(	(	PUNCT	-LRB-	_	24	punct	_	SpaceAfter=No
+24	a	a	X	LS	_	26	nummod	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	26	punct	_	SpaceAfter=No
+26	Rizona	Rizona	PROPN	NNP	Number=Sing	19	nmod	_	_
+27	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
+28	Grand	Grand	PROPN	NNP	Number=Sing	29	compound	_	_
+29	Canyon	Canyon	PROPN	NNP	Number=Sing	26	appos	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	29	punct	_	_
+31	Petrified	Petrified	PROPN	NNP	Number=Sing	32	compound	_	_
+32	Forest	Forest	PROPN	NNP	Number=Sing	29	appos	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	14	punct	_	_
+34	Painted	painted	VERB	VBN	Tense=Past|VerbForm=Part	35	amod	_	_
+35	Desert	desert	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	35	punct	_	_
+37	Monument	Monument	PROPN	NNP	Number=Sing	38	compound	_	_
+38	Valley	Valley	PROPN	NNP	Number=Sing	35	appos	_	SpaceAfter=No
+39	)	)	PUNCT	-RRB-	_	14	punct	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 16
+# text = John
+1	John	John	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 17
+# text = Wayne e Aquila della
+1	Wayne	wayne	PROPN	NNP	Number=Sing	4	compound	_	_
+2	e	e	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Aquila	Aquila	PROPN	NNP	Number=Sing	1	flat	_	_
+4	della	della	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 18
+# text = Notte mi hanno chiesto, “se non le dispiace”, di salutarti (ovviamente, ho preferito aspettare notizie certe della tua presenza in Albione prima di trasmetterti messaggio alcuno di riservatezza assoluta).
+1	Notte	Notte	X	ADD	_	4	goeswith	_	_
+2	mi	mi	X	LS	_	4	goeswith	_	_
+3	hanno	hanno	X	FW	Foreign=Yes	4	goeswith	_	_
+4	chiesto	chiesto	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+7	se	se	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+8	non	non	X	AFX	_	9	goeswith	_	_
+9	le	le	NOUN	NN	Number=Sing	10	compound	_	_
+10	dispiace	dispiace	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	7	punct	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	di	dus	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	salutarti	salutarto	NOUN	NN	Number=Sing	4	appos	_	_
+15	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+16	ovviamente	ovviament	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	ho	ho	INTJ	UH	_	20	discourse	_	_
+19	preferito	preferito	INTJ	UH	_	20	discourse	_	_
+20	aspettare	aspettare	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+21	notizie	notizile	X	FW	_	25	goeswith	_	_
+22	certe	certe	X	FW	Foreign=Yes	25	goeswith	_	_
+23	della	della	X	FW	Foreign=Yes	25	goeswith	_	_
+24	tua	tua	X	FW	Foreign=Yes	25	goeswith	_	_
+25	presenza	presenza	NOUN	NN	Number=Sing	20	obj	_	_
+26	in	in	ADP	IN	_	31	case	_	_
+27	Albione	Albione	NUM	CD	NumType=Card	31	nummod	_	_
+28	prima	prima	NOUN	NN	Number=Sing	29	compound	_	_
+29	di	di	NOUN	NN	Number=Sing	30	compound	_	_
+30	trasmetterti	trasmetterti	NOUN	NN	Number=Sing	31	compound	_	_
+31	messaggio	messaggio	NOUN	NN	Number=Sing	25	nmod	_	_
+32	alcuno	alcuno	ADP	IN	_	35	case	_	_
+33	di	di	NOUN	NN	Number=Sing	34	compound	_	_
+34	riservatezza	riservatezza	NOUN	NN	Number=Sing	35	compound	_	_
+35	assoluta	assoluta	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	_	20	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Avrei voluto esultare all'unisono con te per lo spugnamento di San Siro da parte del Chà Chà Chà, ma i soliti impegni me lo hanno rigorosamente impedito.
+1	Avrei	Avrei	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	voluto	voluto	PART	TO	_	3	mark	_	_
+3	esultare	esultare	VERB	VB	VerbForm=Inf	0	root	_	_
+4	all	all	DET	DT	_	7	det	_	SpaceAfter=No
+5	'unisono	'unisono	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	con	con	NOUN	NN	Number=Sing	7	compound	_	_
+7	te	te	NOUN	NN	Number=Sing	3	obj	_	_
+8	per	per	ADP	IN	_	11	case	_	_
+9	lo	lo	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	spugnamento	spugnamento	NOUN	NN	Number=Sing	11	compound	_	_
+11	di	di	NOUN	NN	Number=Sing	3	obl	_	_
+12	San	San	PROPN	NNP	Number=Sing	11	appos	_	_
+13	Siro	Siro	PROPN	NNP	Number=Sing	12	flat	_	_
+14	da	da	X	FW	Foreign=Yes	3	appos	_	_
+15	parte	parte	X	FW	Foreign=Yes	14	flat:foreign	_	_
+16	del	del	X	FW	Foreign=Yes	17	goeswith	_	_
+17	Chà	Chà	NOUN	NN	Number=Sing	19	compound	_	_
+18	Chà	Chà	NOUN	NN	Number=Sing	19	compound	_	_
+19	Chà	Chà	NOUN	NN	Number=Sing	14	flat	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	3	punct	_	_
+21	ma	ma	X	AFX	_	25	goeswith	_	_
+22	i	I	X	AFX	_	25	goeswith	_	_
+23	soliti	isolit	X	AFX	_	25	goeswith	_	_
+24	impegni	impegni	X	AFX	_	25	goeswith	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	parataxis	_	_
+26	lo	lo	ADJ	JJ	Degree=Pos	29	amod	_	_
+27	hanno	hanno	NOUN	NN	Number=Sing	28	compound	_	_
+28	rigorosamente	rigorosament	NOUN	NN	Number=Sing	29	compound	_	_
+29	impedito	impeditoo	NOUN	NN	Number=Sing	25	flat	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 20
+# text = In compenso, possiamo esultare insieme per l'unico successo politico comune da 20 anni a questa parte (l'elezione di Rutelli, come al solito il male minore, applaudita persino da Marco Giacinto).
+1	In	in	ADP	IN	_	2	case	_	_
+2	compenso	compenso	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	possiamo	possiamo	INTJ	UH	_	5	discourse	_	_
+5	esultare	esultare	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	insieme	insieme	X	GW	_	14	goeswith	_	_
+7	per	per	X	GW	_	14	goeswith	_	_
+8	l'unico	l'unico	X	GW	_	14	goeswith	_	_
+9	successo	successo	X	GW	_	14	goeswith	_	_
+10	politico	politico	X	GW	_	14	goeswith	_	_
+11	comune	comune	X	GW	_	14	goeswith	_	_
+12	da	day	X	GW	_	14	goeswith	_	_
+13	20	20	NUM	CD	NumType=Card	12	nummod	_	_
+14	anni	anni	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	5	obj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	questa	questa	NOUN	NN	Number=Sing	17	compound	_	_
+17	parte	parte	NOUN	NN	Number=Sing	14	appos	_	_
+18	(	(	PUNCT	-LRB-	_	17	punct	_	SpaceAfter=No
+19	l'	lg	NOUN	NN	Abbr=Yes|Number=Sing	22	compound	_	SpaceAfter=No
+20	elezione	elezione	NUM	CD	NumType=Card	19	nummod	_	_
+21	di	di	NOUN	NN	Number=Sing	22	compound	_	_
+22	Rutelli	Rutelli	PROPN	NNP	Number=Sing	17	appos	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	5	conj	_	_
+25	al	al	X	FW	_	26	compound	_	_
+26	solito	solitoo	X	AFX	_	27	compound	_	_
+27	il	il	NOUN	NN	Number=Sing	28	compound	_	_
+28	male	male	NOUN	NN	Number=Sing	24	obj	_	_
+29	minore	minore	ADV	RBR	_	24	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	5	punct	_	_
+31	applaudita	applaudiof	X	FW	Foreign=Yes	34	goeswith	_	_
+32	persino	persino	X	FW	Foreign=Yes	34	goeswith	_	_
+33	da	da	X	FW	Foreign=Yes	34	goeswith	_	_
+34	Marco	Marco	PROPN	NNP	Number=Sing	5	appos	_	_
+35	Giacinto	Giacinto	PROPN	NNP	Number=Sing	34	flat	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	_	5	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Ovviamente, ho tifato Italia, che è al momento politicamente rappresentata molto più a sinistra della Russia (ai tempi di Belanov, Zavarov e Yakovenko e soprattutto Breznev avrei avuto molti più problemi a decidere).
+1	Ovviamente	Ovviamente	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	ho	ho	PRON	WP	PronType=Rel	34	nmod:poss	_	_
+4	tifato	tifato	ADP	IN	_	5	case	_	_
+5	Italia	Italia	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	14	punct	_	_
+7	che	che	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+8	è	è	NOUN	NN	Number=Sing	14	compound	_	_
+9	al	al	X	FW	_	14	goeswith	_	_
+10	momento	momento	X	AFX	_	14	goeswith	_	_
+11	politicamente	politicament	X	ADD	_	14	goeswith	_	_
+12	rappresentata	rappresentata	X	FW	Foreign=Yes	14	goeswith	_	_
+13	molto	molto	X	AFX	_	14	goeswith	_	_
+14	più	più	NOUN	NN	Number=Sing	34	compound	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	sinistra	sinistra	NOUN	NN	Number=Sing	17	compound	_	_
+17	della	della	NOUN	NN	Number=Sing	18	compound	_	_
+18	Russia	Russia	PROPN	NNP	Number=Sing	25	appos	_	_
+19	(	(	PUNCT	-LRB-	_	18	punct	_	SpaceAfter=No
+20	ai	be	NUM	CD	NumType=Card	23	nummod	_	_
+21	tempi	tempi	NUM	CD	NumType=Card	22	nummod	_	_
+22	di	di	NOUN	NN	Number=Sing	23	compound	_	_
+23	Belanov	Belanov	PROPN	NNP	Number=Sing	18	appos	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	18	punct	_	_
+25	Zavarov	Zavarov	X	GW	_	34	goeswith	_	_
+26	e	e	X	GW	_	34	goeswith	_	_
+27	Yakovenko	Yakovenko	X	GW	_	34	goeswith	_	_
+28	e	e	X	GW	_	34	goeswith	_	_
+29	soprattutto	soprattutto	X	AFX	_	34	goeswith	_	_
+30	Breznev	Breznev	X	GW	_	34	goeswith	_	_
+31	avrei	avrei	X	ADD	_	34	goeswith	_	_
+32	avuto	avuto	X	AFX	_	34	goeswith	_	_
+33	molti	molto	X	AFX	_	34	goeswith	_	_
+34	più	più	NOUN	NN	Number=Sing	1	appos	_	_
+35	problemi	problemi	NOUN	NN	Number=Sing	34	nummod	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	decidere	decidere	NOUN	NN	Number=Sing	35	appos	_	SpaceAfter=No
+38	)	)	PUNCT	-RRB-	_	35	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 22
+# text = Comincio però a dissentire con Maldini, che mi tiene fuori il mio giocatore preferito del momento, tal Anthonio Chonthe.
+1	Comincio	Comincio	PROPN	NNP	Number=Sing	2	compound	_	_
+2	però	però	NOUN	NN	Number=Sing	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	dissentire	dissentire	NOUN	NN	Number=Sing	2	appos	_	_
+5	con	con	ADP	IN	_	6	case	_	_
+6	Maldini	Maldini	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
+9	mi	mi	NUM	CD	NumType=Card	13	compound	_	_
+10	tiene	tiene	NUM	CD	NumType=Card	13	compound	_	_
+11	fuori	fuori	NUM	CD	NumType=Card	13	compound	_	_
+12	il	ill	NOUN	NN	Number=Sing	13	compound	_	_
+13	mio	mio	NOUN	NN	Number=Sing	4	appos	_	_
+14	giocatore	giocatore	ADV	RBR	_	17	advmod	_	_
+15	preferito	preferito	X	AFX	_	17	goeswith	_	_
+16	del	del	X	FW	Foreign=Yes	17	goeswith	_	_
+17	momento	momento	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	2	punct	_	_
+19	tal	tal	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	Anthonio	Anthonio	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Chonthe	Chonthe	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Pare che il Toro ce la faccia a salvarsi, ed è già abbastanza.
+1	Pare	Pare	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	il	ill	ADP	IN	Typo=Yes	6	case	_	_
+4	Toro	Toro	PROPN	NNP	Number=Sing	6	compound	_	_
+5	ce	ce	NOUN	NN	Number=Sing	6	compound	_	_
+6	la	la	NOUN	NN	Number=Sing	1	obl	_	_
+7	faccia	faccia	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	salvarsi	salvarsi	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	ed	ed	NOUN	NN	Number=Sing	12	compound	_	_
+12	è	è	NOUN	NN	Number=Sing	13	compound	_	_
+13	già	già	NOUN	NN	Number=Sing	14	compound	_	_
+14	abbastanza	abbastanza	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = À la prochaine,
+1	À	À	NOUN	NN	Number=Sing	3	compound	_	_
+2	la	la	NOUN	NN	Number=Sing	3	compound	_	_
+3	prochaine	prochaine	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Andrea
+1	Andrea	andrea	PROPN	NNP	Number=Sing	0	root	_	SpacesAfter=\n\n
+

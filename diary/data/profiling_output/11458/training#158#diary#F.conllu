@@ -1,0 +1,607 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La casa era un vero campo di battaglia.
+1	La	la	X	GW	_	8	amod	_	_
+2	casa	casa	X	GW	_	1	goeswith	_	_
+3	era	era	X	GW	_	1	goeswith	_	_
+4	un	un	X	GW	_	1	goeswith	_	_
+5	vero	vero	X	FW	Foreign=Yes	1	goeswith	_	_
+6	campo	campo	X	FW	Foreign=Yes	7	compound	_	_
+7	di	di	NOUN	NN	Number=Sing	8	compound	_	_
+8	battaglia	battaglia	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Tutto rovesciato per terra.
+1	Tutto	Tutto	PART	TO	_	2	mark	_	_
+2	rovesciato	rovesciato	VERB	VB	VerbForm=Inf	0	root	_	_
+3	per	per	ADP	IN	_	4	case	_	_
+4	terra	terra	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Per due giorni mia madre subì venti perquisizioni; ogni nuovo gruppo di soldati ci metteva mano.
+1	Per	per	ADP	IN	_	8	case	_	_
+2	due	due	ADP	IN	_	8	case	_	_
+3	giorni	giorni	NOUN	NN	Number=Sing	4	compound	_	_
+4	mia	mia	NOUN	NN	Number=Sing	5	compound	_	_
+5	madre	madre	NOUN	NN	Number=Sing	6	compound	_	_
+6	subì	subì	NOUN	NN	Number=Sing	7	compound	_	_
+7	venti	vento	NOUN	NN	Number=Sing	8	compound	_	_
+8	perquisizioni	perquisizioni	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	8	punct	_	_
+10	ogni	ogni	X	AFX	_	15	goeswith	_	_
+11	nuovo	nuovo	X	FW	Foreign=Yes	15	goeswith	_	_
+12	gruppo	gruppo	X	FW	Foreign=Yes	15	goeswith	_	_
+13	di	di	X	AFX	_	15	goeswith	_	_
+14	soldati	soldati	X	AFX	_	15	goeswith	_	_
+15	ci	ci	NOUN	NN	Number=Sing	8	appos	_	_
+16	metteva	metteva	NOUN	NN	Number=Sing	17	compound	_	_
+17	mano	mano	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 4
+# text = Fu anche una interminabile processione della popolazione locale per scegliere cosa portare a casa loro, dato che i padroni non esistevano più, e tutto era un “bene comune”.
+1	Fu	Fough	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+2	anche	anche	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+3	una	una	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	interminabile	interminabile	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	processione	processione	NOUN	NN	Number=Sing	6	compound	_	_
+6	della	della	NOUN	NN	Number=Sing	8	compound	_	_
+7	popolazione	popolazione	NUM	CD	NumType=Card	8	nummod	_	_
+8	locale	locale	NOUN	NNS	Number=Plur	12	nsubj	_	_
+9	per	per	ADP	IN	_	11	case	_	_
+10	scegliere	scegliere	NOUN	NN	Number=Sing	11	compound	_	_
+11	cosa	cosa	NOUN	NN	Number=Sing	8	nmod	_	_
+12	portare	portare	VERB	VB	VerbForm=Inf	0	root	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	casa	casa	NOUN	NN	Number=Sing	15	compound	_	_
+15	loro	loro	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	12	punct	_	_
+17	dato	dato	NOUN	NN	Number=Sing	18	compound	_	_
+18	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nmod:poss	_	_
+19	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	appos	_	_
+20	padroni	padroni	X	AFX	_	23	goeswith	_	_
+21	non	non	X	FW	Foreign=Yes	23	goeswith	_	_
+22	esistevano	esistevano	X	FW	Foreign=Yes	23	goeswith	_	_
+23	più	più	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	e	e	X	GW	_	28	goeswith	_	_
+26	tutto	tutto	X	AFX	_	28	goeswith	_	_
+27	era	era	X	AFX	_	28	goeswith	_	_
+28	un	un	ADJ	JJ	Degree=Pos	31	amod	_	_
+29	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+30	bene	be	NOUN	NN	Number=Sing	31	compound	_	_
+31	comune	comune	NOUN	NN	Number=Sing	23	appos	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 5
+# text = Il pianoforte di mia madre fu preso dai contadini che dovettero abbattere un muro della loro casetta per farlo entrare dentro.
+1	Il	Il	X	ADD	_	22	goeswith	_	_
+2	pianoforte	pianoforte	X	FW	Foreign=Yes	22	goeswith	_	_
+3	di	di	X	AFX	_	22	goeswith	_	_
+4	mia	mia	X	FW	Foreign=Yes	22	goeswith	_	_
+5	madre	madre	X	GW	_	22	goeswith	_	_
+6	fu	fu	X	ADD	_	22	goeswith	_	_
+7	preso	preso	X	FW	Foreign=Yes	22	goeswith	_	_
+8	dai	dai	X	LS	_	22	goeswith	_	_
+9	contadini	contadini	X	AFX	_	22	goeswith	_	_
+10	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	_
+11	dovettero	dovettero	X	FW	Foreign=Yes	22	goeswith	_	_
+12	abbattere	abbattere	X	GW	_	22	goeswith	_	_
+13	un	un	X	GW	_	22	goeswith	_	_
+14	muro	muro	X	FW	Foreign=Yes	22	goeswith	_	_
+15	della	della	X	FW	Foreign=Yes	22	goeswith	_	_
+16	loro	loro	X	FW	Foreign=Yes	22	goeswith	_	_
+17	caset	caset	X	ADD	_	22	goeswith	_	SpaceAfter=No
+18	ta	ta	X	GW	_	22	goeswith	_	_
+19	per	per	X	GW	_	22	goeswith	_	_
+20	farlo	farlo	X	GW	_	22	goeswith	_	_
+21	entrare	entrare	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	dentro	dentro	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 6
+# text = La nostra ex guardia notturna “salvò” così i quadri; “Ho preso le cornici perché erano belle, ma i santi li bruciai, per non farli cadere nelle mani degli empii”.
+1	La	La	PROPN	NNP	Number=Sing	3	compound	_	_
+2	nostra	nostra	NOUN	NN	Number=Sing	3	compound	_	_
+3	ex	ex	NOUN	NN	Number=Sing	5	compound	_	_
+4	guardia	guardia	NOUN	NN	Number=Sing	5	compound	_	_
+5	notturna	notturna	NOUN	NN	Number=Sing	7	compound	_	_
+6	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+7	salvò	salvò	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	7	punct	_	_
+9	così	così	NOUN	NN	Number=Sing	11	compound	_	_
+10	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	quadri	quadri	NOUN	NNS	Number=Plur	14	parataxis	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	11	punct	_	_
+13	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+14	Ho	Ho	X	AFX	_	20	compound	_	_
+15	preso	preso	X	FW	Foreign=Yes	16	goeswith	_	_
+16	le	le	NOUN	NN	Number=Sing	20	compound	_	_
+17	cornici	cornici	NOUN	NN	Number=Sing	18	compound	_	_
+18	perché	perché	NOUN	NN	Number=Sing	20	compound	_	_
+19	erano	erano	NOUN	NN	Number=Sing	20	compound	_	_
+20	belle	belle	NOUN	NN	Number=Sing	26	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	ma	ma	X	AFX	_	26	goeswith	_	_
+23	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	santi	santi	X	AFX	_	26	goeswith	_	_
+25	li	lus	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	bruciai	bruciai	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	per	per	X	GW	_	31	goeswith	_	_
+29	non	non	X	FW	Foreign=Yes	31	goeswith	_	_
+30	farli	farli	X	AFX	_	31	goeswith	_	_
+31	cadere	cadere	NOUN	NN	Number=Sing	35	compound	_	_
+32	nelle	nelle	NOUN	NN	Number=Sing	33	compound	_	_
+33	mani	mani	NOUN	NN	Number=Sing	34	compound	_	_
+34	degli	degli	NOUN	NN	Number=Sing	35	compound	_	_
+35	empii	empii	NOUN	NN	Number=Sing	26	list	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	26	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = 7
+# text = I santi erano: una testa di Guido Reni, il ritratto di mio nonno e altrettanti preziosi.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	santi	santi	NOUN	NNS	Number=Plur	0	root	_	_
+3	erano	erano	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	2	punct	_	_
+5	una	una	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	testa	testa	NOUN	NN	Number=Sing	7	compound	_	_
+7	di	di	NOUN	NN	Number=Sing	2	appos	_	_
+8	Guido	Guido	PROPN	NNP	Number=Sing	7	flat	_	_
+9	Reni	Reni	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	18	punct	_	_
+11	il	il	AUX	MD	Typo=Yes|VerbForm=Fin	18	cop	_	_
+12	ritratto	ritratto	X	AFX	_	17	goeswith	_	_
+13	di	di	X	LS	_	17	goeswith	_	_
+14	mio	mio	X	FW	Foreign=Yes	17	goeswith	_	_
+15	nonno	nonno	X	FW	Foreign=Yes	17	goeswith	_	_
+16	e	e	X	GW	_	17	goeswith	_	_
+17	altrettanti	altrettanti	NOUN	NN	Number=Sing	18	compound	_	_
+18	preziosi	preziosi	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = I mobili caricati sui camion partono per la Russia.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	mobili	mobili	X	AFX	_	6	goeswith	_	_
+3	caricati	caricati	X	AFX	_	6	goeswith	_	_
+4	sui	sui	X	AFX	_	6	goeswith	_	_
+5	camion	camion	NOUN	NN	Number=Sing	6	compound	_	_
+6	partono	partono	NOUN	NN	Number=Sing	0	root	_	_
+7	per	per	ADP	IN	_	9	case	_	_
+8	la	la	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Russia	Russia	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = (…)
+1	(	(	PUNCT	-LRB-	_	3	punct	_	SpaceAfter=No
+2	…	…	PUNCT	.	_	3	punct	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	0	root	_	_
+
+# sent_id = 10
+# text = I soldati russi alloggiati nella casa continuavano a farci delle visite e cercavano di convincerci a diventare comunisti.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+2	soldati	soldati	X	LS	_	18	goeswith	_	_
+3	russi	russi	X	AFX	_	18	goeswith	_	_
+4	alloggiati	alloggiati	X	AFX	_	18	goeswith	_	_
+5	nella	nella	X	FW	Foreign=Yes	18	goeswith	_	_
+6	casa	casa	X	FW	Foreign=Yes	18	goeswith	_	_
+7	continuavano	kcontinuavanow	X	FW	Foreign=Yes	18	goeswith	_	_
+8	a	a	X	FW	Foreign=Yes	18	goeswith	_	_
+9	farci	farci	X	AFX	_	18	goeswith	_	_
+10	delle	delle	X	GW	_	18	goeswith	_	_
+11	visite	visite	X	ADD	_	18	goeswith	_	_
+12	e	e	X	GW	_	18	goeswith	_	_
+13	cercavano	cercavano	X	FW	Foreign=Yes	18	goeswith	_	_
+14	di	dus	X	AFX	_	18	goeswith	_	_
+15	convincerci	convincerci	X	AFX	_	18	goeswith	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	diventare	diventare	NOUN	NN	Number=Sing	18	compound	_	_
+18	comunisti	comunisto	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 11
+# text = Spiegavano a mia nonna che
+1	Spiegavano	Spiegavano	ADP	IN	_	5	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	mia	mia	NOUN	NN	Number=Sing	4	compound	_	_
+4	nonna	nonna	NOUN	NN	Number=Sing	5	compound	_	_
+5	che	che	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 12
+# text = Dio non esisteva ed era inutile pregarlo; la nonna ripeteva loro che era sempre stata credente e non avrebbe cambiato adesso e che avrebbe pregato per loro lo stesso.
+1	Dio	Dio	X	FW	Foreign=Yes	5	compound	_	_
+2	non	non	X	FW	Foreign=Yes	5	compound	_	_
+3	esisteva	esisteva	X	FW	Foreign=Yes	5	compound	_	_
+4	ed	ed	NOUN	NN	Number=Sing	5	compound	_	_
+5	era	era	NOUN	NN	Number=Sing	7	compound	_	_
+6	inutile	inutile	NOUN	NN	Number=Sing	7	compound	_	_
+7	pregarlo	pregarlo	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	la	la	X	FW	Foreign=Yes	7	list	_	_
+10	nonna	nonna	X	FW	Foreign=Yes	7	list	_	_
+11	ripeteva	ripeteva	X	FW	Foreign=Yes	7	list	_	_
+12	loro	loro	X	FW	Foreign=Yes	30	goeswith	_	_
+13	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nmod:poss	_	_
+14	era	era	X	GW	_	30	goeswith	_	_
+15	sempre	sempre	X	GW	_	30	goeswith	_	_
+16	stata	stata	X	GW	_	30	goeswith	_	_
+17	credente	credente	X	ADD	_	30	goeswith	_	_
+18	e	e	X	GW	_	30	goeswith	_	_
+19	non	non	X	FW	Foreign=Yes	30	goeswith	_	_
+20	avrebbe	avrebbe	X	GW	_	30	goeswith	_	_
+21	cambiato	cambiato	X	AFX	_	30	goeswith	_	_
+22	adesso	adesso	X	FW	Foreign=Yes	30	goeswith	_	_
+23	e	e	X	GW	_	30	goeswith	_	_
+24	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nmod:poss	_	_
+25	avrebbe	avrebbe	X	GW	_	30	goeswith	_	_
+26	pregato	pregato	X	AFX	_	30	goeswith	_	_
+27	per	per	X	GW	_	30	case	_	_
+28	loro	loro	X	FW	Foreign=Yes	30	goeswith	_	_
+29	lo	lo	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	stesso	stesso	NOUN	NN	Number=Sing	7	list	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	30	punct	_	_
+
+# sent_id = 13
+# text = Parlavano il russo, mia nonna rispondeva in polacco e si capivano bene.
+1	Parlavano	Parlavano	DET	DT	_	3	det	_	_
+2	il	il	NOUN	NN	Number=Sing	3	compound	_	_
+3	russo	russo	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	mia	mia	X	GW	_	12	goeswith	_	_
+6	nonna	nonna	X	GW	_	12	goeswith	_	_
+7	rispondeva	rispondeva	X	GW	_	12	goeswith	_	_
+8	in	in	X	GW	_	12	goeswith	_	_
+9	polacco	polacco	X	GW	_	12	goeswith	_	_
+10	e	e	X	GW	_	12	goeswith	_	_
+11	si	si	X	AFX	_	12	goeswith	_	_
+12	capivano	capivano	NOUN	NN	Number=Sing	3	appos	_	_
+13	bene	bene	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = In quei tempi così difficili ammiravo mia madre che non perdeva il buon umore e la serenità.
+1	In	in	ADP	IN	_	4	case	_	_
+2	quei	quei	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	tempi	tempi	NOUN	NN	Number=Sing	4	compound	_	_
+4	così	così	NOUN	NN	Number=Sing	0	root	_	_
+5	difficili	difficili	X	LS	_	12	goeswith	_	_
+6	ammiravo	ammiravo	X	FW	Foreign=Yes	12	goeswith	_	_
+7	mia	mia	X	FW	Foreign=Yes	12	goeswith	_	_
+8	madre	madre	X	GW	_	12	goeswith	_	_
+9	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	_
+10	non	non	X	FW	Foreign=Yes	12	goeswith	_	_
+11	perdeva	perdeva	X	FW	Foreign=Yes	12	goeswith	_	_
+12	il	il	NOUN	NN	Number=Sing	4	appos	_	_
+13	buon	buon	ADP	IN	_	17	case	_	_
+14	umore	umore	ADJ	JJ	Degree=Pos	17	amod	_	_
+15	e	e	NOUN	NN	Number=Sing	16	compound	_	_
+16	la	la	NOUN	NN	Number=Sing	17	compound	_	_
+17	serenità	serenità	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 15
+# text = Spogliata di tutti i suoi averi scherzava dicendo che dopo tutto non si trovava così male: non aveva più alcuna preoccupazione per l'andamento degli affari, ma solo preoccuparsi di cosa mettere in bocca.
+1	Spogliata	Spogliata	PROPN	NNP	Number=Sing	2	compound	_	_
+2	di	dus	NOUN	NN	Number=Sing	16	compound	_	_
+3	tutti	itutt	NUM	CD	NumType=Card	2	nummod	_	_
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+5	suoi	suoi	X	AFX	_	9	goeswith	_	_
+6	averi	averi	X	AFX	_	9	goeswith	_	_
+7	scherzava	scherzava	X	FW	Foreign=Yes	9	goeswith	_	_
+8	dicendo	dicendue	X	AFX	_	9	goeswith	_	_
+9	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	compound	_	_
+10	dopo	dopo	X	FW	Foreign=Yes	16	compound	_	_
+11	tutto	tutto	X	AFX	_	10	goeswith	_	_
+12	non	non	X	FW	Foreign=Yes	10	goeswith	_	_
+13	si	si	X	AFX	_	10	goeswith	_	_
+14	trovava	trovava	X	FW	Foreign=Yes	15	goeswith	_	_
+15	così	così	NOUN	NN	Number=Sing	16	compound	_	_
+16	male	male	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+17	:	:	PUNCT	:	_	16	punct	_	_
+18	non	non	X	FW	Foreign=Yes	21	compound	_	_
+19	aveva	aveva	X	FW	Foreign=Yes	20	compound	_	_
+20	più	più	NOUN	NN	Number=Sing	21	compound	_	_
+21	alcuna	alcuna	NOUN	NN	Number=Sing	16	appos	_	_
+22	preoccupazione	preoccupazione	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	_	_
+23	per	per	ADP	IN	_	24	case	_	_
+24	l'	lg	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+25	andamento	andamento	ADP	IN	_	27	case	_	_
+26	degli	degli	NOUN	NN	Number=Sing	27	compound	_	_
+27	affari	affari	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	ma	ma	NOUN	NN	Number=Sing	34	compound	_	_
+30	solo	solo	X	AFX	_	34	goeswith	_	_
+31	preoccuparsi	preoccuparsi	ADJ	JJ	Degree=Pos	34	amod	_	_
+32	di	di	NOUN	NN	Number=Sing	33	compound	_	_
+33	cosa	cosa	NOUN	NN	Number=Sing	34	compound	_	_
+34	mettere	mettere	NOUN	NN	Number=Sing	27	appos	_	_
+35	in	in	ADP	IN	_	36	case	_	_
+36	bocca	bocca	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Un giorno Sophie mi chiamò nella stanza di mio fratello e con voce segreta mi propose di entrare a far parte anch'io della resistenza senza dirlo a mia madre.
+1	Un	un	ADV	RB	_	2	advmod	_	_
+2	gior	gior	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	no	no	DET	DT	_	8	det	_	_
+4	Sophie	Sophie	NOUN	NN	Number=Sing	5	compound	_	_
+5	mi	mi	NOUN	NN	Number=Sing	6	compound	_	_
+6	chiamò	chiamò	NOUN	NN	Number=Sing	7	compound	_	_
+7	nella	nella	NOUN	NN	Number=Sing	8	compound	_	_
+8	stanza	stanza	NOUN	NN	Number=Sing	2	obj	_	_
+9	di	di	X	LS	_	15	goeswith	_	_
+10	mio	mio	X	FW	Foreign=Yes	15	goeswith	_	_
+11	fratello	fratello	X	FW	Foreign=Yes	15	goeswith	_	_
+12	e	e	X	GW	_	15	goeswith	_	_
+13	con	con	X	FW	Foreign=Yes	15	goeswith	_	_
+14	voce	voce	NOUN	NN	Number=Sing	15	compound	_	_
+15	segreta	segreta	NOUN	NN	Number=Sing	8	appos	_	_
+16	mi	mi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	17	nsubj	_	_
+17	propose	propose	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+18	di	dus	X	AFX	_	19	advmod	_	_
+19	entrare	entrare	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	far	far	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	parte	parte	NOUN	NN	Number=Sing	19	obj	_	_
+23	anch	anch	PRON	WDT	PronType=Rel	31	nsubj	_	SpaceAfter=No
+24	'io	'io	X	FW	Foreign=Yes	31	advmod	_	_
+25	della	della	X	FW	Foreign=Yes	24	flat:foreign	_	_
+26	resistenza	resistenza	X	FW	Foreign=Yes	24	flat:foreign	_	_
+27	senza	senza	X	FW	Foreign=Yes	24	flat:foreign	_	_
+28	dirlo	dirlo	X	FW	Foreign=Yes	31	goeswith	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	mia	mia	NOUN	NN	Number=Sing	31	compound	_	_
+31	madre	madre	NOUN	NN	Number=Sing	22	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = Accettai la loro proposta più che altro per un senso del dovere.
+1	Accettai	Accettai	X	LS	_	5	amod	_	_
+2	la	la	X	FW	Foreign=Yes	1	goeswith	_	_
+3	loro	loro	X	FW	Foreign=Yes	1	goeswith	_	_
+4	proposta	proposta	X	FW	Foreign=Yes	5	goeswith	_	_
+5	più	più	NOUN	NN	Number=Sing	0	root	_	_
+6	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	_
+7	altro	altro	X	FW	Foreign=Yes	12	goeswith	_	_
+8	per	per	X	GW	_	12	goeswith	_	_
+9	un	un	X	GW	_	12	goeswith	_	_
+10	senso	senso	X	FW	Foreign=Yes	12	goeswith	_	_
+11	del	del	X	FW	Foreign=Yes	12	goeswith	_	_
+12	dovere	dovere	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 18
+# text = Tutti e due mi fecero giurare sulla Bibbia di rimanere fedele alla patria, di mantenere la segretezza anche nel caso di arresto da parte del nemico e di impegnarmi a fare tutti i lavori richiesti.
+1	Tutti	Tutti	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	e	e	NOUN	NN	Number=Sing	33	compound	_	_
+3	due	due	ADP	IN	_	9	case	_	_
+4	mi	mi	NUM	CD	NumType=Card	9	nummod	_	_
+5	fecero	fecero	NUM	CD	NumType=Card	7	nummod	_	_
+6	giurare	giurare	NOUN	NN	Number=Sing	7	compound	_	_
+7	sulla	sulla	NOUN	NN	Number=Sing	9	compound	_	_
+8	Bibbia	Bibbia	PROPN	NNP	Number=Sing	9	compound	_	_
+9	di	di	NOUN	NN	Number=Sing	2	nmod	_	_
+10	rimanere	rimanere	ADV	WRB	PronType=Rel	33	advmod	_	_
+11	fedele	fedele	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	alla	alla	NOUN	NN	Number=Sing	13	compound	_	_
+13	patria	patria	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	di	di	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	mantenere	mantenere	NOUN	NN	Number=Sing	17	compound	_	_
+17	la	la	NOUN	NN	Number=Sing	18	compound	_	_
+18	segretezza	segretezza	NOUN	NN	Number=Sing	13	appos	_	_
+19	anche	anche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+20	nel	nel	X	FW	Foreign=Yes	33	aux	_	_
+21	caso	caso	X	FW	Foreign=Yes	20	goeswith	_	_
+22	di	di	X	AFX	_	20	goeswith	_	_
+23	arresto	arresto	X	AFX	_	20	goeswith	_	_
+24	da	day	X	FW	Foreign=Yes	20	flat:foreign	_	_
+25	parte	parte	X	FW	Foreign=Yes	20	flat:foreign	_	_
+26	del	del	X	FW	Foreign=Yes	20	flat:foreign	_	_
+27	nemico	nemico	X	FW	Foreign=Yes	33	goeswith	_	_
+28	e	e	X	GW	_	33	goeswith	_	_
+29	di	di	X	AFX	_	33	goeswith	_	_
+30	impegnarmi	impegnarmi	X	AFX	_	33	goeswith	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	fare	fare	NOUN	NN	Number=Sing	33	compound	_	_
+33	tutti	itutt	NOUN	NN	Number=Sing	0	root	_	_
+34	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+35	lavori	lavori	NUM	CD	NumType=Card	36	nummod	_	_
+36	richiesti	richiesto	NOUN	NNS	Number=Plur	33	appos	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	33	punct	_	_
+
+# sent_id = 19
+# text = Il nostro lavoro consisteva nel trasportare gli esemplari del bollettino clandestino tra la tipografia e vari indirizzi chiamati poi “cassette postali”.
+1	Il	Il	PROPN	NNP	Number=Sing	22	compound	_	_
+2	nostro	nostro	X	FW	Foreign=Yes	6	compound	_	_
+3	lavoro	lavoro	X	FW	Foreign=Yes	2	flat:foreign	_	_
+4	consisteva	consisteva	X	FW	Foreign=Yes	2	flat:foreign	_	_
+5	nel	nel	X	FW	Foreign=Yes	6	goeswith	_	_
+6	trasportare	trasportare	NOUN	NN	Number=Sing	1	flat	_	_
+7	gli	gli	X	AFX	_	1	list	_	_
+8	esemplari	esemplari	X	AFX	_	1	list	_	_
+9	del	del	X	FW	Foreign=Yes	1	list	_	_
+10	bollettino	bollettino	X	FW	Foreign=Yes	1	list	_	_
+11	clandestino	clandestino	X	FW	Foreign=Yes	10	flat:foreign	_	_
+12	tra	tra	X	FW	Foreign=Yes	10	flat:foreign	_	_
+13	la	la	X	FW	Foreign=Yes	19	goeswith	_	_
+14	tipografia	tipografia	X	FW	Foreign=Yes	19	goeswith	_	_
+15	e	e	X	GW	_	19	goeswith	_	_
+16	vari	vari	X	AFX	_	19	goeswith	_	_
+17	indirizzi	indirizzi	X	AFX	_	19	goeswith	_	_
+18	chiamati	chiamati	X	AFX	_	19	goeswith	_	_
+19	poi	poi	NOUN	NN	Number=Sing	1	flat	_	_
+20	“	"	PUNCT	``	_	1	punct	_	SpaceAfter=No
+21	cassette	cassette	NOUN	NN	Number=Sing	22	compound	_	_
+22	postali	postali	NOUN	NN	Number=Sing	24	appos	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 20
+# text = Erano questi i primi tempi della stampa clandestina, negli ultimi anni i giornali erano stampati su una specie di carta giapponese, ultraleggera, con dei caratteri piccolissimi che erano più facili da trasportare.
+1	Erano	Erano	DET	DT	_	2	det	_	_
+2	questi	questo	NOUN	NNS	Number=Plur	0	root	_	_
+3	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	primi	primi	ADJ	JJ	Degree=Pos	8	amod	_	_
+5	tempi	tempi	NOUN	NN	Number=Sing	6	compound	_	_
+6	della	della	NOUN	NN	Number=Sing	7	compound	_	_
+7	stampa	stampa	NOUN	NN	Number=Sing	8	compound	_	_
+8	clandestina	clandestina	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	negli	negli	X	AFX	_	22	goeswith	_	_
+11	ultimi	ultimi	X	AFX	_	22	goeswith	_	_
+12	anni	anni	X	AFX	_	22	goeswith	_	_
+13	i	i	X	AFX	_	22	goeswith	_	_
+14	giornali	giornali	X	AFX	_	22	goeswith	_	_
+15	erano	erano	X	FW	Foreign=Yes	22	goeswith	_	_
+16	stampati	stampati	X	AFX	_	22	goeswith	_	_
+17	su	su	X	ADD	_	22	goeswith	_	_
+18	una	una	X	FW	Foreign=Yes	22	goeswith	_	_
+19	specie	specie	X	FW	_	22	goeswith	_	_
+20	di	di	X	AFX	_	22	goeswith	_	_
+21	carta	carta	NOUN	NN	Number=Sing	22	compound	_	_
+22	giapponese	giapponese	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	2	punct	_	_
+24	ultraleggera	ultraleggera	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	2	punct	_	_
+26	con	con	ADP	IN	_	29	case	_	_
+27	dei	dei	ADJ	JJ	Degree=Pos	29	amod	_	_
+28	caratteri	caratterus	NOUN	NN	Number=Sing	29	compound	_	_
+29	piccolissimi	piccolissimi	NOUN	NN	Number=Sing	2	nmod	_	_
+30	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+31	erano	erano	DET	DT	_	35	det	_	_
+32	più	più	NOUN	NN	Number=Sing	33	compound	_	_
+33	facili	facili	NOUN	NN	Number=Sing	34	compound	_	_
+34	da	day	NOUN	NN	Number=Sing	35	compound	_	_
+35	trasportare	trasportare	NOUN	NN	Number=Sing	29	appos	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 21
+# text = Ognuna di noi doveva prendere un pacco che riusciva a maneggiare, dunque almeno cinque chili per pacco, avvolto in una carta marrone e avviarsi verso l'indirizzo datoci.
+1	Ognuna	Ognuna	PROPN	NNP	Number=Sing	8	compound	_	_
+2	di	di	X	AFX	_	8	goeswith	_	_
+3	noi	noi	X	AFX	_	8	goeswith	_	_
+4	doveva	doveva	X	GW	_	8	goeswith	_	_
+5	prendere	prendere	X	GW	_	8	goeswith	_	_
+6	un	un	X	GW	_	8	goeswith	_	_
+7	pacco	pacco	X	GW	_	8	goeswith	_	_
+8	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+9	riusciva	riusciva	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	maneggiare	maneggiare	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	dunque	dunque	VERB	VB	Mood=Imp|VerbForm=Fin	8	parataxis	_	_
+14	almeno	almeno	DET	DT	_	16	det	_	_
+15	cinque	cinque	NOUN	NN	Number=Sing	16	compound	_	_
+16	chili	chili	NOUN	NN	Number=Sing	13	obj	_	_
+17	per	per	ADP	IN	_	18	case	_	_
+18	pacco	pacco	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	avvolto	avvolto	NOUN	NN	Number=Sing	13	conj	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	una	una	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	cart	cart	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+25	marrone	marrone	NUM	CD	NumType=Card	27	nummod	_	_
+26	e	e	NOUN	NN	Number=Sing	27	compound	_	_
+27	avviarsi	avviarsi	NOUN	NN	Number=Sing	20	appos	_	_
+28	verso	verso	ADP	IN	_	30	case	_	_
+29	l'indirizzo	l'indirizzo	NOUN	NN	Number=Sing	30	compound	_	_
+30	datoci	datoci	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 22
+# text = Era un lavoro piuttosto stancante, soprattutto quando si correva per prendere il tram.
+1	Era	era	PROPN	NNP	Number=Sing	5	compound	_	_
+2	un	un	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	lavoro	lavoro	NOUN	NN	Number=Sing	4	compound	_	_
+4	piuttosto	piuttosto	NOUN	NN	Number=Sing	5	compound	_	_
+5	stancante	stancante	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	13	punct	_	_
+7	soprattutto	soprattuttoo	X	AFX	_	13	goeswith	_	_
+8	quando	quando	X	AFX	_	13	goeswith	_	_
+9	si	si	X	AFX	_	13	goeswith	_	_
+10	correva	correva	X	GW	_	13	goeswith	_	_
+11	per	per	X	GW	_	13	goeswith	_	_
+12	prendere	prendere	X	GW	_	13	goeswith	_	_
+13	il	ill	NOUN	NN	Number=Sing	14	compound	_	_
+14	tram	tram	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 23
+# text = Per non parlare, naturalmente, del pericolo di un controllo da parte delle SS.
+1	Per	per	ADP	IN	_	3	case	_	_
+2	non	non	X	AFX	_	3	compound	_	_
+3	parlare	parlare	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	naturalmente	naturalment	NOUN	NN	Number=Sing	3	nmod:tmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	del	del	X	FW	Foreign=Yes	15	goeswith	_	_
+8	pericolo	pericolo	X	FW	Foreign=Yes	15	goeswith	_	_
+9	di	di	X	AFX	_	15	goeswith	_	_
+10	un	un	X	GW	_	15	goeswith	_	_
+11	controllo	controllo	X	FW	Foreign=Yes	15	goeswith	_	_
+12	da	da	X	FW	Foreign=Yes	15	goeswith	_	_
+13	parte	parte	X	FW	Foreign=Yes	15	goeswith	_	_
+14	delle	delle	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	SS	ss	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 24
+# text = Una volta, mi ricordo che due tedeschi, per fortuna della
+1	Una	Una	PROPN	NNP	Number=Sing	0	root	_	_
+2	volta	volta	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	mi	mi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	5	nsubj	_	_
+5	ricordo	ricordo	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+6	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	due	due	ADP	IN	_	8	case	_	_
+8	tedeschi	tedeschi	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	per	per	ADP	IN	_	12	case	_	_
+11	fortuna	fortuna	NOUN	NN	Number=Sing	12	compound	_	_
+12	della	della	NOUN	NN	Number=Sing	6	nmod	_	_
+
+# sent_id = 25
+# text = Wehrmacht, mi aiutarono a salire sul tram: questo non mi preoccupò più di tanto, avendo già imparato la differenza tra la polizia tedesca e l'esercito.
+1	Wehrmacht	Wehrmacht	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	mi	mi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	0	root	_	_
+4	aiutaro	aiutaro	ADP	IN	_	9	case	_	SpaceAfter=No
+5	no	no	DET	DT	_	9	det	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	salire	salire	NOUN	NN	Number=Sing	8	compound	_	_
+8	sul	sul	NOUN	NN	Number=Sing	9	compound	_	_
+9	tram	tram	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	:	_	3	punct	_	_
+11	questo	questo	X	AFX	_	14	goeswith	_	_
+12	non	non	X	FW	Foreign=Yes	14	goeswith	_	_
+13	mi	mi	X	AFX	_	14	goeswith	_	_
+14	preoccupò	preoccupò	NOUN	NN	Number=Sing	17	compound	_	_
+15	più	più	NOUN	NN	Number=Sing	16	compound	_	_
+16	di	di	NOUN	NN	Number=Sing	17	compound	_	_
+17	tanto	tanto	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	_	_
+19	avendo	avendue	ADP	IN	_	20	case	_	_
+20	già	già	NOUN	NN	Number=Sing	29	nmod	_	_
+21	imparato	imparato	X	AFX	_	29	goeswith	_	_
+22	la	la	X	FW	Foreign=Yes	21	flat:foreign	_	_
+23	differenza	differenza	X	FW	Foreign=Yes	21	flat:foreign	_	_
+24	tra	tra	X	FW	Foreign=Yes	21	flat:foreign	_	_
+25	la	la	X	FW	Foreign=Yes	21	flat:foreign	_	_
+26	polizia	polizia	X	FW	Foreign=Yes	29	goeswith	_	_
+27	tedesca	tedesca	X	FW	Foreign=Yes	29	goeswith	_	_
+28	e	e	X	GW	_	29	goeswith	_	_
+29	l'esercito	l'esercito	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,856 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 09 luglio 2001
+1	09	09	NUM	CD	NumType=Card	2	nummod	_	_
+2	luglio	luglio	NOUN	NN	Number=Sing	0	root	_	_
+3	2001	2001	NUM	CD	NumType=Card	2	nmod:tmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Il giorno sta per finire, è quasi mezzanotte.
+1	Il	Il	PROPN	NNP	Number=Sing	3	compound	_	_
+2	giorno	giorno	NOUN	NN	Number=Sing	3	compound	_	_
+3	sta	sta	NOUN	NN	Number=Sing	0	root	_	_
+4	per	per	ADP	IN	_	5	case	_	_
+5	finire	finire	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	è	è	NOUN	NN	Number=Sing	9	compound	_	_
+8	quasi	quasi	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	mezzanotte	mezzanotte	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non riesco a tenere gli occhi aperti perciò scrivo piuttosto che leggere.
+1	Non	non	X	FW	Foreign=Yes	2	advmod	_	_
+2	riesco	riesco	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+4	tenere	tenere	NOUN	NN	Number=Sing	5	compound	_	_
+5	gli	gli	NOUN	NN	Number=Sing	6	compound	_	_
+6	occhi	occhi	NOUN	NN	Number=Sing	7	compound	_	_
+7	aperti	aperti	NOUN	NN	Number=Sing	8	compound	_	_
+8	perciò	perciò	NOUN	NN	Number=Sing	9	compound	_	_
+9	scrivo	scrivo	NOUN	NN	Number=Sing	10	compound	_	_
+10	piuttosto	piuttosto	NOUN	NN	Number=Sing	2	obj	_	_
+11	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	leggere	leggere	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ho compiuto il viaggio Verona-Roma sul Meridiana e improvvisamente è scomparsa la paura.
+1	Ho	Ho	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	compiuto	compiuto	PART	TO	_	3	mark	_	_
+3	il	il	VERB	VB	VerbForm=Inf	0	root	_	_
+4	viaggio	viaggio	ADP	IN	_	5	case	_	_
+5	Verona	Verona	PROPN	NNP	Number=Sing	15	compound	_	SpaceAfter=No
+6	-	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	Roma	Roma	X	GW	_	12	goeswith	_	_
+8	sul	sul	X	GW	_	12	goeswith	_	_
+9	Meridiana	Meridiana	X	GW	_	12	goeswith	_	_
+10	e	e	X	GW	_	12	goeswith	_	_
+11	improvvisamente	improvvisamente	X	ADD	_	12	goeswith	_	_
+12	è	è	NOUN	NN	Number=Sing	15	compound	_	_
+13	scomparsa	scomparsa	NOUN	NN	Number=Sing	14	compound	_	_
+14	la	la	NOUN	NN	Number=Sing	15	compound	_	_
+15	paura	paura	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non è stato facile trovare l'area dei voli internazionali, l'aeroporto di Roma ha fatto molti cambiamenti dal 1975.
+1	Non	non	NOUN	NN	Number=Sing	2	compound	_	_
+2	è	è	NOUN	NN	Number=Sing	3	compound	_	_
+3	stato	stato	NOUN	NN	Number=Sing	4	compound	_	_
+4	facile	facile	NOUN	NN	Number=Sing	5	compound	_	_
+5	trovare	trovare	NOUN	NN	Number=Sing	6	compound	_	_
+6	l'area	l'area	NOUN	NN	Number=Sing	7	compound	_	_
+7	dei	dei	NOUN	NN	Number=Sing	8	compound	_	_
+8	voli	voli	NOUN	NN	Number=Sing	9	compound	_	_
+9	internazionali	internazionali	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	l'	l'	NOUN	NN	Abbr=Yes|Number=Sing	19	compound	_	SpaceAfter=No
+12	aeroporto	aeroporto	X	AFX	_	19	goeswith	_	_
+13	di	dus	X	AFX	_	19	goeswith	_	_
+14	Roma	Roma	X	GW	_	19	goeswith	_	_
+15	ha	ha	X	GW	_	19	goeswith	_	_
+16	fatto	fatto	X	AFX	_	19	goeswith	_	_
+17	molti	molti	X	AFX	_	19	goeswith	_	_
+18	cambiamenti	cambiamento	X	AFX	_	19	goeswith	_	_
+19	dal	dal	NOUN	NN	Number=Sing	9	appos	_	_
+20	1975	1975	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = In quell'anno ero tornata in Italia dopo un soggiorno di due anni e mezzo in Sud-Sudan.
+1	In	in	ADP	IN	_	6	case	_	_
+2	quell	quell	X	GW	_	6	goeswith	_	SpaceAfter=No
+3	'a	'a	X	FW	Foreign=Yes	6	goeswith	_	SpaceAfter=No
+4	nno	nno	X	FW	Foreign=Yes	6	goeswith	_	_
+5	ero	ero	X	FW	Foreign=Yes	6	goeswith	_	_
+6	tornata	tornata	NOUN	NN	Number=Sing	13	nmod	_	_
+7	in	in	ADP	IN	_	11	case	_	_
+8	Italia	Italia	PROPN	NNP	Number=Sing	9	compound	_	_
+9	dopo	dopo	PROPN	NNP	Number=Sing	11	compound	_	_
+10	un	un	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	soggior	soggior	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+12	no	no	DET	DT	_	13	det	_	_
+13	di	di	NOUN	NN	Number=Sing	0	root	_	_
+14	due	due	ADP	IN	_	20	case	_	_
+15	anni	anni	X	AFX	_	20	goeswith	_	_
+16	e	e	X	GW	_	20	goeswith	_	_
+17	mezzo	mezzo	X	GW	_	20	goeswith	_	_
+18	in	in	X	GW	_	20	goeswith	_	_
+19	Sud-	Sud-	X	GW	_	20	goeswith	_	SpaceAfter=No
+20	Sudan	Sudan	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 7
+# text = Ero magrissima, il mio bagaglio era vuoto, ma avevo tra le braccia mia figlia Gloria Nyariay.
+1	Ero	Ero	PROPN	NNP	Number=Sing	2	compound	_	_
+2	magrissima	magrissima	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	il	il	ADJ	JJ	Degree=Pos	8	amod	_	_
+5	mio	mio	NOUN	NN	Number=Sing	6	compound	_	_
+6	bagaglio	bagaglio	NOUN	NN	Number=Sing	7	compound	_	_
+7	era	era	NOUN	NN	Number=Sing	8	compound	_	_
+8	vuoto	vuoto	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	ma	ma	X	FW	Foreign=Yes	2	appos	_	_
+11	avevo	avevo	X	FW	Foreign=Yes	10	flat:foreign	_	_
+12	tra	tra	X	FW	Foreign=Yes	10	flat:foreign	_	_
+13	le	le	X	GW	_	17	goeswith	_	_
+14	braccia	braccia	X	FW	Foreign=Yes	17	goeswith	_	_
+15	mia	mia	X	FW	Foreign=Yes	17	goeswith	_	_
+16	figlia	figlia	X	FW	Foreign=Yes	17	goeswith	_	_
+17	Gloria	Gloria	PROPN	NNP	Number=Sing	10	flat	_	_
+18	Nyariay	Nyariay	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Negli anni che seguirono avevo vissuto principalmente pensando a lei al suo futuro, con un rimpianto: non esser riuscita a farle conoscere suo padre Bona Bol.
+1	Negli	Negli	X	LS	_	4	advmod	_	_
+2	anni	anni	X	LS	_	4	advmod	_	_
+3	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	seguirono	seguirono	VERB	VB	VerbForm=Inf	0	root	_	_
+5	avevo	avevo	ADP	IN	_	7	case	_	_
+6	vissuto	vissuto	NOUN	NN	Number=Sing	7	compound	_	_
+7	principalmente	principalment	NOUN	NN	Number=Sing	4	obl	_	_
+8	pensando	pensandue	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	lei	lei	NOUN	NN	Number=Sing	13	nmod	_	_
+11	al	al	X	FW	_	13	compound	_	_
+12	suo	suo	X	FW	Foreign=Yes	13	punct	_	_
+13	futuro	futuro	X	FW	Foreign=Yes	7	appos	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	con	con	ADP	IN	_	17	case	_	_
+16	un	un	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	rimpianto	rimpianto	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	7	punct	_	_
+19	non	non	X	AFX	_	25	goeswith	_	_
+20	esser	esser	X	GW	_	25	goeswith	_	_
+21	riuscita	riuscita	X	FW	Foreign=Yes	25	goeswith	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	farle	farle	NOUN	NN	Number=Sing	25	compound	_	_
+24	conoscere	conoscere	NOUN	NN	Number=Sing	25	compound	_	_
+25	suo	suo	NOUN	NN	Number=Sing	7	appos	_	_
+26	padre	padre	ADV	WRB	PronType=Rel	27	advmod	_	_
+27	Bona	Bona	PROPN	NNP	Number=Sing	25	appos	_	_
+28	Bol	Bol	PROPN	NNP	Number=Sing	27	flat	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Dopo esser passata al "check in" ed aver telefonato e parlato a lungo con Gloria, mi sono diretta nella zona: "partenze per Addis Ababa".
+1	Dopo	Dopo	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	esser	esser	ADJ	JJR	Degree=Cmp	3	amod	_	_
+3	passata	passata	NOUN	NN	Number=Sing	15	compound	_	_
+4	al	al	X	FW	_	15	compound	_	_
+5	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+6	check	check	VERB	VB	Mood=Imp|VerbForm=Fin	15	compound	_	_
+7	in	in	ADP	RP	_	12	case	_	SpaceAfter=No
+8	"	"	PUNCT	``	_	11	punct	_	_
+9	ed	ed	NOUN	NN	Number=Sing	10	compound	_	_
+10	aver	aver	NOUN	NN	Number=Sing	11	compound	_	_
+11	telefonato	telefonato	NOUN	NN	Number=Sing	12	compound	_	_
+12	e	e	NOUN	NN	Number=Sing	6	obl	_	_
+13	parlato	parlato	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	lungo	lungo	NOUN	NN	Number=Sing	1	obj	_	_
+16	con	con	ADP	IN	_	17	case	_	_
+17	Gloria	Gloria	PROPN	NNP	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	1	punct	_	_
+19	mi	mi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	23	obj	_	_
+20	sono	sono	DET	DT	_	23	det	_	_
+21	diretta	diretta	NOUN	NN	Number=Sing	22	compound	_	_
+22	nella	nella	NOUN	NN	Number=Sing	23	compound	_	_
+23	zona	zona	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+24	:	:	PUNCT	:	_	1	punct	_	_
+25	"	"	PUNCT	``	_	1	punct	_	SpaceAfter=No
+26	partenze	partenze	NOUN	NN	Number=Sing	1	obj	_	_
+27	per	per	ADP	IN	_	29	case	_	_
+28	Addis	Addis	PROPN	NNP	Number=Sing	29	compound	_	_
+29	Ababa	Ababa	PROPN	NNP	Number=Sing	26	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	''	_	1	punct	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 10
+# text = Per chi non ha dimestichezza con l'aeroporto è come trovarsi in un labirinto ed occorre chiedere informazioni più volte, ma alla fine si arriva ed è ciò che conta.
+1	Per	Per	ADP	IN	_	7	case	_	_
+2	chi	chi	X	AFX	_	7	goeswith	_	_
+3	non	non	X	FW	Foreign=Yes	7	goeswith	_	_
+4	ha	ha	X	GW	_	7	goeswith	_	_
+5	dimestichezza	dimestichezza	X	FW	Foreign=Yes	7	goeswith	_	_
+6	con	con	X	FW	Foreign=Yes	7	goeswith	_	_
+7	l'	lg	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+8	aeroporto	aeroporto	PART	TO	_	10	mark	_	_
+9	è	è	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+11	trovarsi	trovarsi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	10	obj	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	un	un	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	labirinto	labirinto	NOUN	NN	Number=Sing	15	compound	_	_
+15	ed	ed	NOUN	NN	Number=Sing	10	obl	_	_
+16	occorre	occorre	ADV	WRB	PronType=Rel	17	advmod	_	_
+17	chiedere	chiedere	VERB	VB	VerbForm=Inf	15	acl:relcl	_	_
+18	informazioni	informazioni	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	più	più	NOUN	NN	Number=Sing	20	compound	_	_
+20	volte	volte	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	ma	ma	NOUN	NN	Number=Sing	23	compound	_	_
+23	alla	alla	NOUN	NN	Number=Sing	25	compound	_	_
+24	fine	fine	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	si	si	NOUN	NNS	Number=Plur	20	appos	_	_
+26	arriva	arriva	ADP	IN	_	29	case	_	_
+27	ed	ed	NOUN	NN	Number=Sing	28	compound	_	_
+28	è	è	NOUN	NN	Number=Sing	29	compound	_	_
+29	ciò	ciò	NOUN	NN	Number=Sing	17	obl	_	_
+30	che	che	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	conta	conta	NOUN	NN	Number=Sing	29	appos	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 11
+# text = Nella grande sala molti stanno sonnecchiando.
+1	Nella	Nella	PROPN	NNP	Number=Sing	0	root	_	_
+2	grande	grande	NOUN	NN	Number=Sing	1	flat	_	_
+3	sala	sala	NOUN	NN	Number=Sing	4	compound	_	_
+4	molti	imolt	NOUN	NN	Number=Sing	6	compound	_	_
+5	stanno	kstannow	NOUN	NN	Number=Sing	6	compound	_	_
+6	sonnecchiando	sonnecchiando	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = Leggo: 'C 24' uscita per l'Ethiopian Airline, che emozione!
+1	Leggo	Leggo	ADP	IN	_	10	case	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	10	punct	_	_
+3	'C	'C	PROPN	NNP	Number=Sing	10	compound	_	_
+4	24	24	PROPN	NNP	Number=Sing	10	compound	_	SpaceAfter=No
+5	'	'	PART	POS	_	4	case	_	_
+6	uscita	uscita	PROPN	NNP	Number=Sing	10	compound	_	_
+7	per	per	PROPN	NNP	Number=Sing	10	compound	_	_
+8	l'	lg	PART	POS	_	10	case	_	SpaceAfter=No
+9	Ethiopian	Ethiopian	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Airline	airline	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	emozione	emozione	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 13
+# text = Mi guardo attorno, ci sono bianchi e gente di colore.
+1	Mi	mi	PROPN	NNP	Number=Sing	3	compound	_	_
+2	guardo	guardo	NOUN	NN	Number=Sing	3	compound	_	_
+3	attorno	attorno	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	ci	ci	X	AFX	_	11	goeswith	_	_
+6	sono	sono	X	FW	Foreign=Yes	11	goeswith	_	_
+7	bianchi	bianchi	X	AFX	_	11	goeswith	_	_
+8	e	e	X	GW	_	11	goeswith	_	_
+9	gente	gente	X	ADD	_	11	goeswith	_	_
+10	di	di	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	colore	colore	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Io sono sola e non ho avuto ancora l'occasione di parlare con qualcuno.
+1	Io	Io	X	GW	_	13	goeswith	_	_
+2	sono	sono	X	GW	_	13	goeswith	_	_
+3	sola	sola	X	GW	_	13	goeswith	_	_
+4	e	e	X	GW	_	13	goeswith	_	_
+5	non	non	X	GW	_	13	goeswith	_	_
+6	ho	ho	X	GW	_	13	goeswith	_	_
+7	avuto	avuto	X	AFX	_	13	goeswith	_	_
+8	ancora	ancora	X	FW	Foreign=Yes	13	goeswith	_	_
+9	l'occasione	l'occasione	NUM	CD	NumType=Card	8	nummod	_	_
+10	di	dus	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	parlare	parlare	NOUN	NN	Number=Sing	12	compound	_	_
+12	con	con	NOUN	NN	Number=Sing	13	compound	_	_
+13	qualcuno	qualcuno	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 15
+# text = Comincia a fare fresco dopo la calura del giorno, l'aria condizionata mi fa venire male al collo.
+1	Comincia	Comincia	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	fare	fare	NOUN	NN	Number=Sing	18	compound	_	_
+4	fresco	fresco	X	AFX	_	18	advmod	_	_
+5	dopo	dopo	X	FW	Foreign=Yes	4	flat:foreign	_	_
+6	la	la	X	FW	Foreign=Yes	4	flat:foreign	_	_
+7	calura	calura	X	FW	Foreign=Yes	4	flat:foreign	_	_
+8	del	del	X	FW	Foreign=Yes	4	flat:foreign	_	_
+9	giorno	giorno	X	FW	Foreign=Yes	4	goeswith	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	18	punct	_	_
+11	l'aria	l'aria	X	FW	Foreign=Yes	18	goeswith	_	_
+12	condizionata	condizionata	X	FW	Foreign=Yes	18	goeswith	_	_
+13	mi	mi	X	AFX	_	18	goeswith	_	_
+14	fa	fa	X	FW	Foreign=Yes	18	goeswith	_	_
+15	venire	venire	X	GW	_	18	goeswith	_	_
+16	male	male	X	GW	_	18	goeswith	_	_
+17	al	al	X	GW	_	18	goeswith	_	_
+18	collo	collo	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 16
+# text = Mi piace osservare la gente: c'è chi chiacchiera, chi dorme, chi si apparta.
+1	Mi	mi	PROPN	NNP	Number=Sing	0	root	_	_
+2	piace	piace	NOUN	NN	Number=Sing	1	flat	_	_
+3	osservare	osservare	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	la	la	NOUN	NN	Number=Sing	1	list	_	_
+5	gente	gent	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	5	punct	_	_
+7	c'è	c'è	NOUN	NN	Number=Sing	8	compound	_	_
+8	chi	chi	NOUN	NN	Number=Sing	9	compound	_	_
+9	chiacchiera	chiacchiera	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	chi	chi	NOUN	NN	Number=Sing	12	compound	_	_
+12	dorme	dorme	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	1	punct	_	_
+14	chi	chi	NUM	CD	NumType=Card	16	nummod	_	_
+15	si	si	NUM	CD	NumType=Card	16	nummod	_	_
+16	apparta	apparta	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = Una giovane coppia bianca sta facendo una partita a carte.
+1	Una	Una	PROPN	NNP	Number=Sing	10	compound	_	_
+2	giovane	giovane	NUM	CD	NumType=Card	1	flat	_	_
+3	coppia	coppia	X	FW	Foreign=Yes	10	goeswith	_	_
+4	bianca	bianca	X	FW	Foreign=Yes	3	flat:foreign	_	_
+5	sta	sta	X	FW	Foreign=Yes	3	flat:foreign	_	_
+6	facendo	facendo	X	AFX	_	10	goeswith	_	_
+7	una	una	X	FW	Foreign=Yes	10	goeswith	_	_
+8	partita	partita	X	FW	Foreign=Yes	10	goeswith	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	carte	carte	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 18
+# text = Cerco di indovinare le varie etnie: c'è una donna più scura delle altre, è sola e non sembra interessata ai discorsi delle vicine poi... ecco, parla inglese e non la sconosciuta lingua con cui interloquiva il gruppetto accanto.
+1	Cerco	Cerco	PROPN	NNP	Number=Sing	6	compound	_	_
+2	di	dus	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	indovinare	indovinare	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	le	le	NOUN	NN	Number=Sing	5	compound	_	_
+5	varie	varie	NOUN	NN	Number=Sing	1	list	_	_
+6	etnie	etnies	NOUN	NN	Number=Sing	24	list	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	6	punct	_	_
+8	c'è	c'è	NOUN	NN	Number=Sing	16	compound	_	_
+9	una	una	ADP	IN	_	14	case	_	_
+10	donna	donna	NOUN	NN	Number=Sing	11	compound	_	_
+11	più	più	NOUN	NN	Number=Sing	12	compound	_	_
+12	scura	scura	NOUN	NN	Number=Sing	13	compound	_	_
+13	delle	delle	NOUN	NN	Number=Sing	14	compound	_	_
+14	altre	altre	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	è	è	NOUN	NN	Number=Sing	6	appos	_	_
+17	sola	sola	X	FW	Foreign=Yes	6	list	_	_
+18	e	e	X	GW	_	23	goeswith	_	_
+19	non	non	X	FW	Foreign=Yes	23	goeswith	_	_
+20	sembra	sembra	X	FW	Foreign=Yes	23	goeswith	_	_
+21	interessata	interessata	X	FW	Foreign=Yes	23	goeswith	_	_
+22	ai	ai	X	AFX	_	23	goeswith	_	_
+23	discorsi	discorsi	NOUN	NN	Number=Sing	24	compound	_	_
+24	delle	delle	NOUN	NN	Number=Sing	29	appos	_	_
+25	vicine	vicine	NUM	CD	NumType=Card	26	nummod	_	_
+26	poi	poi	NOUN	NN	Number=Sing	24	appos	_	SpaceAfter=No
+27	...	...	PUNCT	,	_	24	punct	_	_
+28	ecco	ecco	INTJ	UH	_	24	discourse	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	_
+30	parla	parla	INTJ	UH	_	31	discourse	_	_
+31	inglese	inglese	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+32	e	e	X	GW	_	31	parataxis	_	_
+33	non	non	X	FW	Foreign=Yes	32	goeswith	_	_
+34	la	la	X	FW	Foreign=Yes	32	goeswith	_	_
+35	sconosciuta	sconosciuta	X	FW	Foreign=Yes	32	goeswith	_	_
+36	lingua	lingua	X	FW	Foreign=Yes	32	goeswith	_	_
+37	con	con	X	FW	Foreign=Yes	32	goeswith	_	_
+38	cui	cui	X	AFX	_	32	goeswith	_	_
+39	interloquiva	interloquiva	X	FW	Foreign=Yes	40	compound	_	_
+40	il	il	NOUN	NN	Number=Sing	42	compound	_	_
+41	gruppetto	gruppetto	NOUN	NN	Number=Sing	42	compound	_	_
+42	accanto	accanto	NOUN	NN	Number=Sing	32	conj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 19
+# text = C'è una coppia della mia età, lui ha una bella barba bianca.
+1	C'è	C'è	NOUN	NN	Number=Sing	2	compound	_	_
+2	una	una	NOUN	NN	Number=Sing	3	compound	_	_
+3	coppia	coppia	NOUN	NN	Number=Sing	4	compound	_	_
+4	della	della	NOUN	NN	Number=Sing	5	compound	_	_
+5	mia	mia	NOUN	NN	Number=Sing	6	compound	_	_
+6	età	età	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	lui	lui	X	AFX	_	13	goeswith	_	_
+9	ha	ha	X	GW	_	13	goeswith	_	_
+10	una	una	X	GW	_	13	goeswith	_	_
+11	bella	bella	X	GW	_	13	goeswith	_	_
+12	barba	barba	X	ADD	_	13	goeswith	_	_
+13	bianca	bianca	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 20
+# text = E come me c'è un'altra donna bianca sola.
+1	E	e	ADV	RB	_	2	advmod	_	_
+2	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	c'è	c'è	NOUN	NN	Number=Sing	8	compound	_	_
+5	un'	un'	PUNCT	''	_	8	punct	_	SpaceAfter=No
+6	altra	altra	NOUN	NN	Number=Sing	7	compound	_	_
+7	donna	donna	NOUN	NN	Number=Sing	8	compound	_	_
+8	bianca	bianca	NOUN	NN	Number=Sing	9	compound	_	_
+9	sola	sola	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 21
+# text = Alcuni gruppi familiari...
+1	Alcuni	Alcuni	PROPN	NNP	Number=Sing	3	compound	_	_
+2	gruppi	gruppi	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	familiari	familiari	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	...	...	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 22
+# text = Sull'Ethiophian Airline, partito con un'ora e mezzo di ritardo, ho dormito male perciò al mattino sono un po' intontita.
+1	Sull'	Sull'	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	Ethiophian	Ethiophian	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Airline	airline	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	partito	partito	X	AFX	_	11	goeswith	_	_
+6	con	con	X	FW	Foreign=Yes	11	goeswith	_	_
+7	un'ora	un'ora	X	FW	Foreign=Yes	11	goeswith	_	_
+8	e	e	X	GW	_	11	goeswith	_	_
+9	mezzo	mezzo	X	FW	Foreign=Yes	11	goeswith	_	_
+10	di	di	X	AFX	_	11	goeswith	_	_
+11	ritardo	ritardo	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	ho	ho	PRON	WP	PronType=Rel	23	nmod:poss	_	_
+14	dormito	dormito	X	AFX	_	15	goeswith	_	_
+15	male	male	ADJ	JJ	Degree=Pos	21	amod	_	_
+16	perciò	perciò	NOUN	NN	Number=Sing	21	compound	_	_
+17	al	al	X	GW	_	21	goeswith	_	_
+18	mattino	mattino	X	GW	_	21	goeswith	_	_
+19	sono	sono	X	GW	_	21	goeswith	_	_
+20	un	un	X	GW	_	21	goeswith	_	_
+21	po	po	NOUN	NN	Number=Sing	23	compound	_	SpaceAfter=No
+22	'	'	PUNCT	''	_	21	punct	_	_
+23	intontita	intontita	NOUN	NN	Number=Sing	11	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 23
+# text = Avrei voluto vedere il panorama dell'altopiano ethiope invece sorvolavamo nuvole bianche multiformi e soffici e solo tra qualche squarcio ho potuto intravedere sotto l'aereo un mare verdissimo.
+1	Avrei	Avrei	PROPN	NNP	Number=Sing	2	compound	_	_
+2	voluto	voluto	NOUN	NN	Number=Sing	0	root	_	_
+3	vedere	vedere	ADV	WRB	PronType=Rel	13	advmod	_	_
+4	il	il	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	panorama	panorama	NOUN	NN	Number=Sing	6	compound	_	_
+6	dell	dell	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+7	'	'	PUNCT	''	_	6	punct	_	SpaceAfter=No
+8	altopiano	altopiano	DET	DT	_	12	det	_	_
+9	ethiope	ethiope	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	invece	invece	NOUN	NN	Number=Sing	11	compound	_	_
+11	sorvolavamo	sorvolavamo	NOUN	NN	Number=Sing	12	compound	_	_
+12	nuvole	nuvole	NOUN	NN	Number=Sing	6	appos	_	_
+13	bianche	bianche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	acl:relcl	_	_
+14	multiformi	multiformi	X	AFX	_	25	goeswith	_	_
+15	e	e	X	GW	_	25	goeswith	_	_
+16	soffici	soffici	X	AFX	_	25	goeswith	_	_
+17	e	e	X	GW	_	25	goeswith	_	_
+18	solo	solo	X	AFX	_	25	goeswith	_	_
+19	tra	tra	X	FW	Foreign=Yes	25	goeswith	_	_
+20	qualche	qualche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	_
+21	squarcio	squarcio	X	GW	_	25	goeswith	_	_
+22	ho	ho	X	GW	_	25	goeswith	_	_
+23	potuto	potuto	X	AFX	_	25	goeswith	_	_
+24	intravedere	intravedere	X	GW	_	25	goeswith	_	_
+25	sotto	sotto	NOUN	NN	Number=Sing	13	appos	_	_
+26	l'	l'	PUNCT	''	_	25	punct	_	SpaceAfter=No
+27	aereo	aereo	ADP	IN	_	30	case	_	_
+28	un	un	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	mare	mare	NOUN	NN	Number=Sing	30	compound	_	_
+30	verdissimo	verdissimo	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 24
+# text = L'aereo, vecchiotto, ha una pancia più grossa del Meridiana.
+1	L'aereo	L'aereo	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	vecchiotto	vecchiotto	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	ha	ha	INTJ	UH	_	1	discourse	_	_
+6	una	una	X	FW	Foreign=Yes	8	amod	_	_
+7	pancia	pancia	X	FW	Foreign=Yes	6	flat:foreign	_	_
+8	più	più	NOUN	NN	Number=Sing	0	root	_	_
+9	grossa	grossa	X	FW	Foreign=Yes	11	goeswith	_	_
+10	del	del	X	FW	Foreign=Yes	11	goeswith	_	_
+11	Meridiana	Meridiana	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 25
+# text = Ci sono più file di sedili, due laterali adiacenti agli oblò, tre, attaccati, nel mezzo.
+1	Ci	Ci	PROPN	NNP	Number=Sing	0	root	_	_
+2	so	so	ADV	RB	_	7	advmod	_	SpaceAfter=No
+3	no	no	DET	DT	_	7	det	_	_
+4	più	più	NOUN	NN	Number=Sing	5	compound	_	_
+5	file	file	NOUN	NN	Number=Sing	6	compound	_	_
+6	di	di	NOUN	NN	Number=Sing	7	compound	_	_
+7	sedili	sedili	NOUN	NN	Number=Sing	1	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	due	due	ADP	IN	_	13	case	_	_
+10	laterali	laterali	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	adiacenti	adiacento	X	AFX	_	12	advmod	_	_
+12	agli	agli	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	oblò	oblò	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	tre	tre	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	attaccati	attaccato	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	nel	nel	NOUN	NN	Number=Sing	20	compound	_	_
+20	mezzo	mezzo	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 26
+# text = E' pieno zeppo, poco lo spazio per transitare.
+1	E	e	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	'	'	PUNCT	``	_	1	punct	_	_
+3	pieno	pieno	NOUN	NN	Number=Sing	4	compound	_	_
+4	zeppo	zeppo	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	poco	poco	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+7	lo	lo	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	spazio	spazio	NOUN	NN	Number=Sing	6	obj	_	_
+9	per	per	ADP	IN	_	10	case	_	_
+10	transitare	transitare	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 27
+# text = Accanto a me nessuno con cui poter fare conversazione.
+1	Accanto	Accanto	ADP	IN	_	9	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+4	nessuno	nessuno	DET	DT	_	9	det	_	_
+5	con	con	NOUN	NN	Number=Sing	6	compound	_	_
+6	cui	cui	NOUN	NN	Number=Sing	7	compound	_	_
+7	poter	poter	NOUN	NN	Number=Sing	8	compound	_	_
+8	fare	fare	NOUN	NN	Number=Sing	9	compound	_	_
+9	conversazione	conversazione	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 28
+# text = Poco prima di salire a bordo ho conosciuto Lina, un'infermiera volontaria che andrà a lavorare, per conto del CUAMM di Padova, in un villaggio poco lontano da Amassa.
+1	Poco	Poco	X	FW	Foreign=Yes	4	advmod	_	_
+2	prima	prima	X	FW	Foreign=Yes	1	goeswith	_	_
+3	di	di	X	AFX	_	4	goeswith	_	_
+4	salire	salire	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	bordo	bordo	NOUN	NN	Number=Sing	7	compound	_	_
+7	ho	ho	NOUN	NN	Number=Sing	8	compound	_	_
+8	conosciuto	conosciuto	NOUN	NN	Number=Sing	4	obj	_	_
+9	Lina	Lina	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	un'	un'	PUNCT	''	_	4	punct	_	SpaceAfter=No
+12	infermiera	infermiera	NOUN	NN	Number=Sing	4	obj	_	_
+13	volontaria	volontaria	ADP	IN	_	15	case	_	_
+14	che	che	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	andrà	andrà	NOUN	NN	Number=Sing	12	nmod	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	lavorare	lavorare	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	per	per	X	GW	_	24	case	_	_
+20	conto	conto	X	AFX	_	24	goeswith	_	_
+21	del	del	X	FW	Foreign=Yes	24	goeswith	_	_
+22	CUAMM	CUAMm	X	ADD	_	24	goeswith	_	_
+23	di	di	X	AFX	_	24	goeswith	_	_
+24	Padova	Padova	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	un	un	ADJ	JJ	Degree=Pos	29	amod	_	_
+28	villaggio	villaggio	NOUN	NN	Number=Sing	29	compound	_	_
+29	poco	poco	NOUN	NN	Number=Sing	24	nmod	_	_
+30	lontano	lontano	ADP	IN	_	32	case	_	_
+31	da	da	PROPN	NNP	Number=Sing	32	compound	_	_
+32	Amassa	Amassa	PROPN	NNP	Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 29
+# text = La donna, che avrà più o meno la mia età, ha compreso subito quanto fossi sola, senza appoggi, e si è offerta di aiutarmi in caso di bisogno.
+1	La	La	PROPN	NNP	Number=Sing	14	nsubj	_	_
+2	donna	donna	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	che	che	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	avrà	avrà	NOUN	NN	Number=Sing	6	compound	_	_
+6	più	più	NOUN	NN	Number=Sing	1	appos	_	_
+7	o	of	ADP	IN	Abbr=Yes	11	case	_	_
+8	meno	meno	X	FW	Foreign=Yes	11	goeswith	_	_
+9	la	la	X	FW	Foreign=Yes	11	goeswith	_	_
+10	mia	mia	X	FW	Foreign=Yes	11	goeswith	_	_
+11	età	età	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	1	punct	_	_
+13	ha	ha	INTJ	UH	_	1	discourse	_	_
+14	compreso	compreso	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+15	subito	subito	NOUN	NN	Number=Sing	14	obj	_	_
+16	quanto	quanto	ADP	IN	_	18	case	_	_
+17	fossi	fossi	NUM	CD	NumType=Card	18	nummod	_	_
+18	sola	sola	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	senza	senza	NOUN	NN	Number=Sing	21	compound	_	_
+21	appoggi	appoggi	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	14	punct	_	_
+23	e	e	VERB	VB	Mood=Imp|VerbForm=Fin	14	parataxis	_	_
+24	si	si	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	è	è	NOUN	NN	Number=Sing	23	obj	_	_
+26	offerta	offerta	ADP	IN	_	28	case	_	_
+27	di	di	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	aiutarmi	aiutarmi	NOUN	NN	Number=Sing	23	obl	_	_
+29	in	in	ADP	IN	_	32	case	_	_
+30	caso	caso	NOUN	NN	Number=Sing	31	compound	_	_
+31	di	di	NOUN	NN	Number=Sing	32	compound	_	_
+32	bisogno	bisogno	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 30
+# text = Organizzare il viaggio non è stato semplice.
+1	Organizzare	Organizzare	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	ADP	IN	Typo=Yes	7	case	_	_
+3	viaggio	viaggio	X	FW	Foreign=Yes	5	compound	_	_
+4	non	non	X	FW	Foreign=Yes	5	compound	_	_
+5	è	è	NOUN	NN	Number=Sing	7	compound	_	_
+6	stato	stato	NOUN	NN	Number=Sing	7	compound	_	_
+7	semplice	semplice	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 31
+# text = Dopo anni di contatto con i padri Comboniani le circostanze mi avevano lasciata sola.
+1	Dopo	Dopo	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	anni	anni	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	4	nmod:poss	_	_
+3	di	dus	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	contatto	contatto	NOUN	NN	Number=Sing	1	obj	_	_
+5	con	con	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+6	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+7	padri	padri	X	AFX	_	8	goeswith	_	_
+8	Comboniani	Comboniani	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	le	le	NOUN	NN	Number=Sing	10	compound	_	_
+10	circostanze	circostanze	NOUN	NN	Number=Sing	11	compound	_	_
+11	mi	mi	NOUN	NN	Number=Sing	5	obj	_	_
+12	avevano	avevano	ADP	IN	_	14	case	_	_
+13	lasciata	lasciata	NOUN	NN	Number=Sing	14	compound	_	_
+14	sola	sola	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 32
+# text = Non riuscivo neppure a comprendere perché.
+1	Non	non	X	FW	Foreign=Yes	0	root	_	_
+2	riuscivo	riuscivo	X	FW	Foreign=Yes	1	goeswith	_	_
+3	neppure	neppure	X	FW	Foreign=Yes	1	goeswith	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	comprendere	comprendere	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	perché	perché	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 33
+# text = OK, fratel G. stava tornando in Italia per le sue meritate vacanze, e di questo ne ero a conoscenza fin dall'inizio dell'anno, ma perché fratel G. non poteva presentarmi a qualche altro padre comboniano?
+1	OK	ok	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	fratel	fratel	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	G.	G.	PROPN	NNP	Number=Sing	5	compound	_	_
+5	stava	stava	NOUN	NN	Number=Sing	6	compound	_	_
+6	tornando	tornando	NOUN	NN	Number=Sing	3	appos	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Italia	Italia	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	per	per	ADP	IN	_	13	case	_	_
+10	le	le	NOUN	NN	Number=Sing	11	compound	_	_
+11	sue	sue	NOUN	NN	Number=Sing	12	compound	_	_
+12	meritate	meritate	NOUN	NN	Number=Sing	13	compound	_	_
+13	vacanze	vacanze	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	e	e	NOUN	NN	Number=Sing	16	compound	_	_
+16	di	di	NOUN	NN	Number=Sing	3	obj	_	_
+17	questo	questo	ADP	IN	_	30	case	_	_
+18	ne	ne	NUM	CD	NumType=Card	30	nummod	_	_
+19	ero	ero	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	conoscenza	conoscenza	NOUN	NN	Number=Sing	30	compound	_	_
+22	fin	fin	ADP	IN	_	25	case	_	_
+23	dall	dall	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+24	'inizio	'inizio	NOUN	NN	Number=Sing	25	compound	_	_
+25	dell	dell	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+26	'	'	PUNCT	''	_	25	punct	_	SpaceAfter=No
+27	anno	anno	NOUN	NN	Number=Sing	25	appos	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	ma	ma	NOUN	NN	Number=Sing	30	compound	_	_
+30	perché	perché	NOUN	NN	Number=Sing	16	flat	_	_
+31	fratel	fratel	X	FW	Foreign=Yes	37	goeswith	_	_
+32	G.	G.	X	FW	_	37	goeswith	_	_
+33	non	non	X	FW	Foreign=Yes	37	goeswith	_	_
+34	poteva	poteva	X	FW	Foreign=Yes	37	goeswith	_	_
+35	presentarmi	presentarmi	X	AFX	_	37	cc	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	qualche	qualche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	appos	_	_
+38	altro	altro	ADP	IN	_	40	case	_	_
+39	padre	padre	NOUN	NN	Number=Sing	40	compound	_	_
+40	comboniano	comboniano	NOUN	NN	Number=Sing	37	nmod	_	SpaceAfter=No
+41	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 34
+# text = Non faceva che dirmi di non partire a luglio, ma io ho le ferie solo d'estate.
+1	Non	non	X	FW	Foreign=Yes	7	advmod	_	_
+2	faceva	faceva	X	FW	Foreign=Yes	7	goeswith	_	_
+3	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	dirmi	dirmi	X	AFX	_	7	advmod	_	_
+5	di	dus	X	AFX	_	7	goeswith	_	_
+6	non	non	X	FW	Foreign=Yes	7	goeswith	_	_
+7	partire	partire	VERB	VB	VerbForm=Inf	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	luglio	luglio	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	ma	ma	X	GW	_	17	goeswith	_	_
+12	io	io	X	GW	_	17	goeswith	_	_
+13	ho	ho	X	GW	_	17	goeswith	_	_
+14	le	le	X	GW	_	17	goeswith	_	_
+15	ferie	ferie	X	GW	_	17	goeswith	_	_
+16	solo	solo	X	AFX	_	17	goeswith	_	_
+17	d'estate	d'estate	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 35
+# text = Contavo sulla presenza di Bona in Addis Ababa, ma per ogni evenienza avevo provato a telefonare a varie associazioni di volontariato per avere un minimo di appoggio da parte di connazionali, inutilmente.
+1	Contavo	Contavo	X	FW	Foreign=Yes	0	root	_	_
+2	sulla	sulla	X	FW	Foreign=Yes	1	goeswith	_	_
+3	presenza	presenza	X	FW	Foreign=Yes	1	goeswith	_	_
+4	di	di	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	Bona	Bona	PROPN	NNP	Number=Sing	1	flat	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Addis	Addis	PROPN	NNP	Number=Sing	1	nmod	_	_
+8	Ababa	Ababa	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	ma	ma	X	AFX	_	1	goeswith	_	_
+11	per	per	X	GW	_	15	goeswith	_	_
+12	ogni	ogni	X	LS	_	15	goeswith	_	_
+13	evenienza	evenienza	X	FW	Foreign=Yes	15	goeswith	_	_
+14	avevo	avevo	X	FW	Foreign=Yes	15	goeswith	_	_
+15	provato	provato	VERB	VB	VerbForm=Inf	1	conj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	telefonare	telefonare	NOUN	NN	Number=Sing	15	obj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	varie	varie	NOUN	NN	Number=Sing	34	compound	_	_
+20	associazioni	associazioni	X	AFX	_	32	goeswith	_	_
+21	di	di	X	AFX	_	32	goeswith	_	_
+22	volontariato	volontariato	X	AFX	_	32	goeswith	_	_
+23	per	per	X	GW	_	32	goeswith	_	_
+24	avere	avere	X	GW	_	32	goeswith	_	_
+25	un	un	X	GW	_	32	goeswith	_	_
+26	minimo	minimo	X	GW	_	32	goeswith	_	_
+27	di	di	X	AFX	_	32	goeswith	_	_
+28	appoggio	appoggio	X	FW	Foreign=Yes	32	goeswith	_	_
+29	da	da	X	FW	Foreign=Yes	32	goeswith	_	_
+30	parte	parte	X	FW	Foreign=Yes	32	goeswith	_	_
+31	di	dus	X	AFX	_	32	goeswith	_	_
+32	connazionali	connazionali	NOUN	NN	Number=Sing	34	nmod:tmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	32	punct	_	_
+34	inutilmente	inutilment	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 36
+# text = Alla fine di giugno una lettera di fratel G. mi informava che
+1	Alla	alla	PROPN	NNP	Number=Sing	12	compound	_	_
+2	fine	fine	ADJ	JJ	Degree=Pos	12	amod	_	_
+3	di	di	X	AFX	_	12	goeswith	_	_
+4	giugno	giugno	X	FW	Foreign=Yes	12	goeswith	_	_
+5	una	una	X	FW	Foreign=Yes	12	goeswith	_	_
+6	lettera	lettera	X	FW	Foreign=Yes	12	goeswith	_	_
+7	di	di	X	AFX	_	12	goeswith	_	_
+8	fratel	fratel	X	FW	Foreign=Yes	12	goeswith	_	_
+9	G.	G.	X	FW	_	12	goeswith	_	_
+10	mi	mi	X	AFX	_	12	goeswith	_	_
+11	informava	informava	X	FW	Foreign=Yes	12	goeswith	_	_
+12	che	che	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 37
+# text = Bona, verso la fine di maggio, era partito per il Campo Profughi di Gambela forse per non affrontare la stagione delle piogge, che fare?
+1	Bona	Bona	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	verso	verso	X	FW	Foreign=Yes	1	list	_	_
+4	la	la	X	FW	Foreign=Yes	5	goeswith	_	_
+5	fine	fine	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	di	dus	NOUN	NN	Number=Sing	7	compound	_	_
+7	maggio	maggio	NOUN	NN	Number=Sing	1	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	_
+9	era	era	NOUN	NN	Number=Sing	10	compound	_	_
+10	partito	partito	NOUN	NN	Number=Sing	1	appos	_	_
+11	per	per	ADP	IN	_	13	case	_	_
+12	il	il	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Campo	Campo	PROPN	NNP	Number=Sing	10	nmod	_	_
+14	Profughi	Profughi	PROPN	NNP	Number=Sing	13	flat	_	_
+15	di	di	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Gambela	Gambela	PROPN	NNP	Number=Sing	13	appos	_	_
+17	forse	forse	VERB	VB	VerbForm=Inf	0	root	_	_
+18	per	per	ADP	IN	_	24	case	_	_
+19	non	non	X	AFX	_	20	advmod	_	_
+20	affrontare	affrontare	ADJ	JJ	Degree=Pos	24	amod	_	_
+21	la	la	NOUN	NN	Number=Sing	22	compound	_	_
+22	stagione	stagione	NOUN	NN	Number=Sing	23	compound	_	_
+23	delle	delle	NOUN	NN	Number=Sing	24	compound	_	_
+24	piogge	piogge	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	17	punct	_	_
+26	che	che	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	fare	fare	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+28	?	?	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 38
+# text = Non mi sembrava vero perciò aver avuto, da un'assistente sanitaria, un numero di telefono dei padri cappuccini in Addis Ababa che sembravano disposti ad ospitarmi.
+1	Non	non	X	FW	Foreign=Yes	5	goeswith	_	_
+2	mi	mi	X	LS	_	5	goeswith	_	_
+3	sembrava	sembrava	X	FW	Foreign=Yes	5	goeswith	_	_
+4	vero	vero	X	FW	Foreign=Yes	5	goeswith	_	_
+5	perciò	perciò	NOUN	NN	Number=Sing	0	root	_	_
+6	aver	aver	ADV	RB	_	7	advmod	_	_
+7	avuto	avutoo	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	da	da	ADP	IN	_	11	case	_	_
+10	un'assistente	un'assistente	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	sanitaria	sanitaria	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	un	un	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	numero	numero	NOUN	NN	Number=Sing	15	compound	_	_
+15	di	di	NOUN	NN	Number=Sing	5	appos	_	_
+16	telefono	telefono	ADP	IN	_	19	case	_	_
+17	dei	dei	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	padri	padri	NOUN	NN	Number=Sing	19	compound	_	_
+19	cappuccini	cappuccini	NOUN	NN	Number=Sing	5	nmod	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	Addis	Addis	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Ababa	Ababa	PROPN	NNP	Number=Sing	5	nmod	_	_
+23	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nmod:poss	_	_
+24	sembravano	sembravano	X	AFX	_	26	goeswith	_	_
+25	disposti	disposti	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	ad	ad	NOUN	NN	Number=Sing	27	compound	_	_
+27	ospitarmi	ospitarmi	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 39
+# text = Perché all'ultimo momento si sono tirati indietro?
+1	Perché	Perché	NOUN	NN	Number=Sing	0	root	_	_
+2	all	all	DET	DT	_	8	det	_	SpaceAfter=No
+3	'ultimo	'ultimo	X	FW	Foreign=Yes	8	compound	_	_
+4	momento	momento	X	AFX	_	8	goeswith	_	_
+5	si	si	X	AFX	_	8	goeswith	_	_
+6	sono	sono	X	FW	Foreign=Yes	8	goeswith	_	_
+7	tirati	tirato	X	LS	_	8	goeswith	_	_
+8	indietro	indietro	X	FW	Foreign=Yes	1	appos	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+

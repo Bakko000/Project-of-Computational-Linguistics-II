@@ -1,0 +1,558 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = San Diego di California
+1	San	San	PROPN	NNP	Number=Sing	0	root	_	_
+2	Diego	Diego	PROPN	NNP	Number=Sing	1	flat	_	_
+3	di	di	PROPN	NNP	Number=Sing	1	flat	_	_
+4	California	California	PROPN	NNP	Number=Sing	1	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Arriviamo il giorno cinque luglio ad avvistarlo.
+1	Arriviamo	Arriviamo	ADP	IN	_	7	case	_	_
+2	il	ill	ADJ	JJ	Degree=Pos	6	amod	_	_
+3	giorno	giorno	NOUN	NN	Number=Sing	4	compound	_	_
+4	cinque	cinque	NOUN	NN	Number=Sing	5	compound	_	_
+5	luglio	luglio	NOUN	NN	Number=Sing	6	compound	_	_
+6	ad	ad	NOUN	NN	Number=Sing	7	compound	_	_
+7	avvistarlo	avvistarlo	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Che differenza di panorama.
+1	Che	Che	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	differenza	differenza	NOUN	NN	Number=Sing	3	compound	_	_
+3	di	di	NOUN	NN	Number=Sing	4	compound	_	_
+4	panorama	panorama	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = In lontananza, dal mare, si scorge la gigantesca mole dell'Hotel Coronado.
+1	In	in	ADP	IN	_	2	case	_	_
+2	lontananza	lontananza	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	dal	dal	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	mare	mare	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	13	punct	_	_
+7	si	si	NUM	CD	NumType=Card	11	nummod	_	_
+8	scorge	scorge	NOUN	NN	Number=Sing	9	compound	_	_
+9	la	la	NOUN	NN	Number=Sing	10	compound	_	_
+10	gigantesca	gigantesca	NOUN	NN	Number=Sing	11	compound	_	_
+11	mole	mole	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	dell	dell	AUX	MD	VerbForm=Fin	13	cop	_	SpaceAfter=No
+13	'Hotel	'Hotel	PROPN	NNP	Number=Sing	0	root	_	_
+14	Coronado	Coronado	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 5
+# text = (…)
+1	(	(	PUNCT	-LRB-	_	3	punct	_	SpaceAfter=No
+2	…	…	PUNCT	.	_	3	punct	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Costeggiamo la terra fino a giungere alla testa dell'isola di Coronado e girando sulla dritta ci infiliamo per un canale tortuoso e pericoloso fino all'altezza dell'immenso Hotel anzidetto, ma dalla parte interna.
+1	Costeggiamo	Costeggiamo	X	GW	_	31	goeswith	_	_
+2	la	la	X	GW	_	31	goeswith	_	_
+3	terra	terra	X	GW	_	31	goeswith	_	_
+4	fino	fino	X	GW	_	31	goeswith	_	_
+5	a	a	X	GW	_	31	goeswith	_	_
+6	giungere	giungere	X	GW	_	31	goeswith	_	_
+7	alla	alla	X	GW	_	31	goeswith	_	_
+8	testa	testa	X	GW	_	31	goeswith	_	_
+9	dell	dell	X	GW	_	31	goeswith	_	SpaceAfter=No
+10	'isola	'isola	X	GW	_	31	goeswith	_	_
+11	di	di	X	AFX	_	31	goeswith	_	_
+12	Coronado	Coronado	X	AFX	_	31	goeswith	_	_
+13	e	e	X	GW	_	31	goeswith	_	_
+14	girando	girando	X	AFX	_	31	goeswith	_	_
+15	sulla	sulla	X	FW	Foreign=Yes	31	goeswith	_	_
+16	dritta	dritta	X	FW	Foreign=Yes	31	goeswith	_	_
+17	ci	ci	X	AFX	_	31	goeswith	_	_
+18	infiliamo	infiliamo	X	FW	Foreign=Yes	31	goeswith	_	_
+19	per	per	X	GW	_	31	goeswith	_	_
+20	un	un	X	GW	_	31	goeswith	_	_
+21	canale	canale	X	GW	_	31	goeswith	_	_
+22	tortuoso	tortuoso	X	GW	_	31	goeswith	_	_
+23	e	e	X	GW	_	31	goeswith	_	_
+24	pericoloso	pericoloso	X	GW	_	31	goeswith	_	_
+25	fino	fino	X	GW	_	31	goeswith	_	_
+26	all	all	X	GW	_	31	goeswith	_	SpaceAfter=No
+27	'altezza	'altezza	X	GW	_	31	goeswith	_	_
+28	dell	dell	X	GW	_	31	goeswith	_	SpaceAfter=No
+29	'immenso	'immenso	X	GW	_	31	goeswith	_	_
+30	Hotel	hotel	NOUN	NN	Number=Sing	31	compound	_	_
+31	anzidetto	anzidetto	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	31	punct	_	_
+33	ma	ma	NOUN	NN	Number=Sing	34	compound	_	_
+34	dalla	dalla	NOUN	NN	Number=Sing	35	compound	_	_
+35	parte	parte	NOUN	NN	Number=Sing	36	compound	_	_
+36	interna	interna	NOUN	NN	Number=Sing	31	appos	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 7
+# text = Tutto il canale è dominato da fortificazioni ed in mezzo ad esse le innumeri ed esageratamente grandi tabelle della consueta reclame Americana.
+1	Tutto	Tutto	PROPN	NNP	Number=Sing	3	compound	_	_
+2	il	il	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	canale	canale	NOUN	NN	Number=Sing	6	compound	_	_
+4	è	è	NOUN	NN	Number=Sing	5	compound	_	_
+5	dominato	dominato	NOUN	NN	Number=Sing	6	compound	_	_
+6	da	day	NOUN	NN	Number=Sing	7	flat	_	_
+7	fortificazioni	fortificazioni	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	8	nsubj	_	_
+8	ed	ed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	IN	_	13	case	_	_
+10	mezzo	mezzo	NOUN	NN	Number=Sing	11	compound	_	_
+11	ad	ad	NOUN	NN	Number=Sing	12	compound	_	_
+12	esse	esse	NOUN	NN	Number=Sing	13	compound	_	_
+13	le	le	NOUN	NN	Number=Sing	8	obl	_	_
+14	innumeri	innumerus	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	15	nsubj	_	_
+15	ed	ed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+16	esageratamente	esageratamente	ADJ	JJ	Degree=Pos	21	amod	_	_
+17	grandi	grandi	NOUN	NN	Number=Sing	18	compound	_	_
+18	tabelle	tabelle	NOUN	NN	Number=Sing	19	compound	_	_
+19	della	della	NOUN	NN	Number=Sing	20	compound	_	_
+20	consueta	consueta	NOUN	NN	Number=Sing	21	compound	_	_
+21	reclame	reclame	NOUN	NN	Number=Sing	22	compound	_	_
+22	Americana	Americana	PROPN	NNP	Number=Sing	15	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Una colonna in cima al colle a sinistra ricorda i morti dell'esplosione della caldaia di una nave da guerra degli Stati Uniti (Wilmigton).
+1	Una	Una	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	colonna	colonna	PROPN	NNP	Number=Sing	1	flat	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	cima	cima	PROPN	NNP	Number=Sing	1	nmod	_	_
+5	al	al	PROPN	NNP	Number=Sing	4	flat	_	_
+6	colle	colle	VERB	VB	VerbForm=Inf	0	root	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	sinistra	sinistra	NOUN	NN	Number=Sing	6	obj	_	_
+9	ricorda	ricorda	X	AFX	_	12	goeswith	_	_
+10	i	I	X	AFX	_	12	goeswith	_	_
+11	morti	morti	X	AFX	_	12	goeswith	_	_
+12	dell	dell	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+13	'	'	PUNCT	''	_	12	punct	_	SpaceAfter=No
+14	esplosione	esplosione	NUM	CD	NumType=Card	17	nummod	_	_
+15	della	della	NOUN	NN	Number=Sing	16	compound	_	_
+16	caldaia	caldaia	NOUN	NN	Number=Sing	17	compound	_	_
+17	di	di	NOUN	NN	Number=Sing	12	appos	_	_
+18	una	una	ADP	IN	_	23	case	_	_
+19	nave	nave	ADJ	JJ	Degree=Pos	22	amod	_	_
+20	da	day	NOUN	NN	Number=Sing	21	compound	_	_
+21	guerra	guerra	NOUN	NN	Number=Sing	22	compound	_	_
+22	degli	degli	NOUN	NN	Number=Sing	23	compound	_	_
+23	Stati	Stati	PROPN	NNP	Number=Sing	17	nmod	_	_
+24	Uniti	Uniti	PROPN	NNP	Number=Sing	23	flat	_	_
+25	(	(	PUNCT	-LRB-	_	26	punct	_	SpaceAfter=No
+26	Wilmigton	Wilmigton	PROPN	NNP	Number=Sing	17	appos	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Le strade sono tracciate anche senza l'abitato ed ogni strada ha i suoi marciapiedi in cemento o asfalto ed è percorsa da innumerevoli tram elettrici.
+1	Le	Le	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	strade	strade	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sono	sono	DET	DT	_	4	det	_	_
+4	tracciate	tracciate	NOUN	NN	Number=Sing	5	obj	_	_
+5	anche	anche	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	senza	senza	NOUN	NN	Number=Sing	7	compound	_	_
+7	l'abitato	l'abitato	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	ed	ed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+9	ogni	ogni	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	strada	strada	NOUN	NN	Number=Sing	8	obj	_	_
+11	ha	ha	INTJ	UH	_	2	discourse	_	_
+12	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	suoi	suoi	ADJ	JJ	Degree=Pos	12	amod	_	_
+14	marciapiedi	marciapiedi	NOUN	NNS	Number=Plur	2	parataxis	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	cemento	cemento	NOUN	NN	Number=Sing	14	nmod	_	_
+17	o	of	ADP	IN	Abbr=Yes	25	case	_	_
+18	asfalto	asfalto	NOUN	NN	Number=Sing	19	compound	_	_
+19	ed	ed	NOUN	NN	Number=Sing	20	compound	_	_
+20	è	è	NOUN	NN	Number=Sing	21	compound	_	_
+21	percorsa	percorsa	NOUN	NN	Number=Sing	22	compound	_	_
+22	da	da	NOUN	NN	Number=Sing	23	compound	_	_
+23	innumerevoli	innumerevoli	NOUN	NN	Number=Sing	24	compound	_	_
+24	tram	tram	NOUN	NN	Number=Sing	25	compound	_	_
+25	elettrici	elettrici	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Si vedono già i caratteristici grattanuvole.
+1	Si	Si	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	0	root	_	_
+2	vedono	vedono	DET	DT	_	3	det	_	_
+3	già	già	NOUN	NN	Number=Sing	1	compound	_	_
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	caratteristici	caratteristici	NUM	CD	NumType=Card	6	nummod	_	_
+6	grattanuvole	grattanuvole	NOUN	NNS	Number=Plur	3	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Dalle altissime antenne in ferro sovrastano l'abitato ed in ognuna di queste avvi da quattro a cinque lampade ad arco.
+1	Dalle	Dalle	PROPN	NNP	Number=Sing	2	compound	_	_
+2	altissime	altissime	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	antenne	antenne	NUM	CD	NumType=Card	2	nummod	_	_
+4	in	in	ADP	IN	_	8	case	_	_
+5	ferro	ferro	NUM	CD	NumType=Card	8	nummod	_	_
+6	sovrastano	sovrastano	NOUN	NN	Number=Sing	7	compound	_	_
+7	l'abitato	l'abitato	NOUN	NN	Number=Sing	8	compound	_	_
+8	ed	ed	NOUN	NN	Number=Sing	2	nmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	ognuna	ognuna	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	di	dus	NOUN	NNS	Number=Plur	2	nmod	_	_
+12	queste	queste	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	avvi	avvi	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	da	day	NOUN	NN	Number=Sing	12	obj	_	_
+15	quattro	quattro	ADP	IN	_	20	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+17	cinque	cinque	NOUN	NN	Number=Sing	18	compound	_	_
+18	lampade	lampade	NOUN	NN	Number=Sing	19	compound	_	_
+19	ad	ad	NOUN	NN	Number=Sing	20	compound	_	_
+20	arco	arco	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = La città è nuovissima, nascente.
+1	La	la	PROPN	NNP	Number=Sing	2	compound	_	_
+2	città	città	NOUN	NN	Number=Sing	4	compound	_	_
+3	è	è	NOUN	NN	Number=Sing	4	compound	_	_
+4	nuovissima	nuovissima	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	nascente	nascent	NOUN	NN	Number=Sing|Typo=Yes	4	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = È piena di villini civettuoli, circondati da fiori finissimi.
+1	È	È	NOUN	NN	Number=Sing	2	compound	_	_
+2	piena	piena	NOUN	NN	Number=Sing	3	compound	_	_
+3	di	di	NOUN	NN	Number=Sing	4	compound	_	_
+4	villini	villini	NOUN	NN	Number=Sing	5	compound	_	_
+5	civettuoli	civettuoli	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	circondati	circondati	NUM	CD	NumType=Card	10	nummod	_	_
+8	da	day	NOUN	NN	Number=Sing	9	compound	_	_
+9	fiori	fiori	NOUN	NN	Number=Sing	10	compound	_	_
+10	finissimi	finissimi	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = Gli americani dell'interno vi affluiscono in numero straordinario.
+1	Gli	Gli	X	LS	_	3	nummod	_	_
+2	americani	americani	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	dell	dell	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	'	'	PUNCT	''	_	3	punct	_	SpaceAfter=No
+5	interno	interno	DET	DT	_	7	det	_	_
+6	vi	vi	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	affluiscono	affluiscono	NOUN	NN	Number=Sing	3	appos	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	numero	numero	NOUN	NN	Number=Sing	10	compound	_	_
+10	straordinario	straordinario	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Il dollaro qui è tutto.
+1	Il	Il	PROPN	NNP	Number=Sing	2	compound	_	_
+2	dollaro	dollaro	NOUN	NN	Number=Sing	0	root	_	_
+3	qui	qui	NUM	CD	NumType=Card	5	nummod	_	_
+4	è	è	NOUN	NN	Number=Sing	5	compound	_	_
+5	tutto	tutto	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Gli automobili sono come da noi le carrozze in affitto.
+1	Gli	Gli	X	LS	_	4	advmod	_	_
+2	automobili	automobili	X	LS	_	1	goeswith	_	_
+3	sono	sono	X	FW	Foreign=Yes	4	goeswith	_	_
+4	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+5	da	da	NOUN	NN	Number=Sing	6	compound	_	_
+6	noi	noi	NOUN	NN	Number=Sing	8	compound	_	_
+7	le	le	NOUN	NN	Number=Sing	8	compound	_	_
+8	carrozze	carrozze	NOUN	NN	Number=Sing	4	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	affitto	affitto	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = In mare non si conoscono remi e dal benestante all'ultimo pescatore possiede la sua gasolina (autoscafo).
+1	In	in	ADP	IN	_	2	case	_	_
+2	mare	mare	NOUN	NN	Number=Sing	17	compound	_	_
+3	non	non	X	FW	Foreign=Yes	17	goeswith	_	_
+4	si	si	X	AFX	_	17	goeswith	_	_
+5	conosco	conosco	X	FW	Foreign=Yes	17	goeswith	_	SpaceAfter=No
+6	no	no	X	FW	Foreign=Yes	17	goeswith	_	_
+7	remi	remi	X	AFX	_	17	goeswith	_	_
+8	e	e	X	GW	_	17	goeswith	_	_
+9	dal	dal	X	GW	_	17	goeswith	_	_
+10	benestante	benestante	X	ADD	_	17	goeswith	_	_
+11	all	all	X	GW	_	17	goeswith	_	SpaceAfter=No
+12	'ultimo	'ultimo	X	FW	Foreign=Yes	17	goeswith	_	_
+13	pescatore	pescatore	ADV	RBR	_	17	advmod	_	_
+14	possiede	possiede	ADJ	JJ	Degree=Pos	17	amod	_	_
+15	la	la	NOUN	NN	Number=Sing	16	compound	_	_
+16	sua	sua	NOUN	NN	Number=Sing	17	compound	_	_
+17	gasolina	gasolina	NOUN	NN	Number=Sing	0	root	_	_
+18	(	(	PUNCT	-LRB-	_	19	punct	_	SpaceAfter=No
+19	autoscafo	autoscafo	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Dalla parte di Coronado il suolo è coperto di candidissime tende.
+1	Dalla	Dalla	PROPN	NNP	Number=Sing	2	compound	_	_
+2	parte	parte	NOUN	NN	Number=Sing	11	compound	_	_
+3	di	di	NUM	CD	NumType=Card	11	nummod	_	_
+4	Coronado	Coronado	PROPN	NNP	Number=Sing	5	compound	_	_
+5	il	ill	NOUN	NN	Number=Sing	6	compound	_	_
+6	suolo	suolo	NOUN	NN	Number=Sing	7	compound	_	_
+7	è	è	NOUN	NN	Number=Sing	8	compound	_	_
+8	coperto	coperto	NOUN	NN	Number=Sing	9	compound	_	_
+9	di	di	NOUN	NN	Number=Sing	10	compound	_	_
+10	candidissime	candidissime	NOUN	NN	Number=Sing	11	compound	_	_
+11	tende	tende	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 19
+# text = Un'immenso accampamento ove invece di soldati, vi dimorano le flessuose ed emancipatissime Miss con le loro famiglie.
+1	Un	un	PROPN	NNP	Number=Sing	12	compound	_	SpaceAfter=No
+2	'immenso	'immenso	PROPN	NNP	Number=Sing	1	flat	_	_
+3	accampamento	accampamento	ADP	IN	_	7	case	_	_
+4	ove	ove	NUM	CD	NumType=Card	7	nummod	_	_
+5	invece	invece	NOUN	NN	Number=Sing	6	compound	_	_
+6	di	di	NOUN	NN	Number=Sing	7	compound	_	_
+7	soldati	soldato	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	_
+9	vi	vi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	11	nmod:poss	_	_
+10	dimorano	dimorano	DET	DT	_	9	det	_	_
+11	le	le	NOUN	NN	Number=Sing	1	appos	_	_
+12	flessuose	flessuose	PRON	WP$	Poss=Yes|PronType=Rel	13	nsubj	_	_
+13	ed	ed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	emancipatissime	emancipatissime	X	GW	_	19	goeswith	_	_
+15	Miss	miss	X	GW	_	19	goeswith	_	_
+16	con	con	X	GW	_	19	goeswith	_	_
+17	le	le	X	GW	_	19	goeswith	_	_
+18	loro	loro	X	FW	Foreign=Yes	19	goeswith	_	_
+19	famiglie	famiglie	X	FW	_	13	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Passare al tramonto tra le dritte vie fiancheggiate da questi caratteristici caseggiati in tessuto bianchissimo si ha l'idea di essere in un paese di fate.
+1	Passare	Passare	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	al	al	X	FW	_	3	compound	_	_
+3	tramonto	tramonto	NOUN	NN	Number=Sing	4	compound	_	_
+4	tra	tra	NOUN	NN	Number=Sing	5	compound	_	_
+5	le	le	NOUN	NN	Number=Sing	6	compound	_	_
+6	dritte	dritte	NOUN	NN	Number=Sing	1	obj	_	_
+7	vie	vie	ADV	RB	_	8	advmod	_	_
+8	fiancheggiate	fiancheggiate	ADV	RB	Degree=Pos	12	advmod	_	_
+9	da	da	ADP	IN	_	12	case	_	_
+10	questi	iquest	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	caratteristici	caratteristici	NOUN	NN	Number=Sing	12	compound	_	_
+12	caseggiati	caseggiato	NOUN	NN	Number=Sing	1	obl	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	tessuto	tessuto	NOUN	NN	Number=Sing	15	compound	_	_
+15	bianchissimo	bianchissimo	NOUN	NN	Number=Sing	16	compound	_	_
+16	si	si	NOUN	NN	Number=Sing	12	nmod	_	_
+17	ha	ha	ADP	IN	_	20	case	_	_
+18	l'idea	l'idea	NOUN	NN	Number=Sing	19	compound	_	_
+19	di	di	NOUN	NN	Number=Sing	20	compound	_	_
+20	essere	essere	NOUN	NN	Number=Sing	12	nmod	_	_
+21	in	in	ADP	IN	_	25	case	_	_
+22	un	un	ADJ	JJ	Degree=Pos	25	amod	_	_
+23	paese	paese	NOUN	NN	Number=Sing	24	compound	_	_
+24	di	di	NOUN	NN	Number=Sing	25	compound	_	_
+25	fate	fate	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Quelle figurine quasi diafane leggerissimamente vestite sono tutte intente ad inaffiare le aiuole fiorite con le maniche tirate su sino al gomito e con una serietà da fare invidia ad una mamma presso la culla.
+1	Quelle	Quelle	PROPN	NNP	Number=Sing	17	compound	_	_
+2	figurine	figurine	NUM	CD	NumType=Card	6	nummod	_	_
+3	quasi	quasi	NUM	CD	NumType=Card	6	nummod	_	_
+4	diafane	diafane	NUM	CD	NumType=Card	6	nummod	_	_
+5	leggerissimamente	leggerissimamente	NOUN	NN	Number=Sing	6	compound	_	_
+6	vestite	vestite	NOUN	NN	Number=Sing	1	flat	_	_
+7	sono	sono	ADV	RB	_	16	advmod	_	_
+8	tutte	tutte	DET	DT	Typo=Yes	16	det	_	_
+9	intente	intente	ADJ	JJ	Degree=Pos	16	amod	_	_
+10	ad	ad	NOUN	NN	Number=Sing	11	compound	_	_
+11	inaffiare	inaffiare	NOUN	NN	Number=Sing	12	compound	_	_
+12	le	le	NOUN	NN	Number=Sing	13	compound	_	_
+13	aiuole	aiuole	NOUN	NN	Number=Sing	14	compound	_	_
+14	fiorite	fiorite	NOUN	NN	Number=Sing	15	compound	_	_
+15	con	con	NOUN	NN	Number=Sing	16	compound	_	_
+16	le	le	NOUN	NN	Number=Sing	1	list	_	_
+17	maniche	maniche	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	tirate	tirate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	su	su	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	obj	_	_
+20	sino	sino	X	FW	Foreign=Yes	26	goeswith	_	_
+21	al	al	X	FW	_	26	goeswith	_	_
+22	gomito	gomito	X	AFX	_	26	goeswith	_	_
+23	e	e	X	GW	_	26	goeswith	_	_
+24	con	con	X	FW	Foreign=Yes	26	goeswith	_	_
+25	una	una	X	FW	Foreign=Yes	26	goeswith	_	_
+26	serietà	serietà	NOUN	NN	Number=Sing	19	compound	_	_
+27	da	day	NOUN	NN	Number=Sing	28	compound	_	_
+28	fare	fare	NOUN	NN	Number=Sing	30	compound	_	_
+29	invidia	invidia	NOUN	NN	Number=Sing	30	compound	_	_
+30	ad	ad	NOUN	NN	Number=Sing	26	appos	_	_
+31	una	una	ADP	IN	_	35	case	_	_
+32	mamma	mamma	NOUN	NN	Number=Sing	33	compound	_	_
+33	presso	presso	NOUN	NN	Number=Sing	34	compound	_	_
+34	la	la	NOUN	NN	Number=Sing	35	compound	_	_
+35	culla	culla	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 22
+# text = A bordo è sempre pieno di queste creaturine che sembrano gingilli e fatte a posta per far perdere la testa a tutti gli uomini che riescono ad avvicinarle.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	bordo	bordo	NOUN	NN	Number=Sing	3	compound	_	_
+3	è	è	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	sempre	sempre	X	AFX	_	8	advmod	_	_
+5	pieno	pieno	X	FW	Foreign=Yes	8	goeswith	_	_
+6	di	dus	X	AFX	_	8	goeswith	_	_
+7	queste	queste	X	ADD	_	8	goeswith	_	_
+8	creaturine	creaturine	VERB	VB	VerbForm=Inf	0	root	_	_
+9	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+10	sembrano	sembrano	X	AFX	_	13	goeswith	_	_
+11	gingilli	gingilli	X	AFX	_	13	goeswith	_	_
+12	e	e	X	GW	_	13	goeswith	_	_
+13	fatte	fatte	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	posta	posta	NOUN	NN	Number=Sing	13	obj	_	_
+16	per	per	ADP	IN	_	19	case	_	_
+17	far	far	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	perdere	perdere	NOUN	NN	Number=Sing	19	compound	_	_
+19	la	la	NOUN	NN	Number=Sing	15	nmod	_	_
+20	testa	tesof	ADP	IN	Abbr=Yes	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	tutti	tutti	NOUN	NN	Number=Sing	23	compound	_	_
+23	gli	gli	NOUN	NN	Number=Sing	13	obl	_	_
+24	uomini	uomini	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	28	nsubj	_	_
+25	che	che	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+26	riescono	riescono	NOUN	NN	Number=Sing	27	compound	_	_
+27	ad	ad	NOUN	NN	Number=Sing	28	compound	_	_
+28	avvicinarle	avvicinarle	NOUN	NN	Number=Sing	23	appos	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 23
+# text = (…)
+1	(	(	PUNCT	-LRB-	_	3	punct	_	SpaceAfter=No
+2	…	…	PUNCT	.	_	3	punct	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Sembrano tutte uguali, non se ne vede una brutta.
+1	Sembrano	Sembrano	DET	DT	_	3	det	_	_
+2	tutte	tutte	NOUN	NN	Number=Sing	3	compound	_	_
+3	uguali	uguali	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	non	non	X	AFX	_	3	list	_	_
+6	se	se	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+7	ne	ne	NUM	CD	NumType=Card	8	nummod	_	_
+8	vede	vede	NOUN	NN	Number=Sing	6	obj	_	_
+9	una	una	ADP	IN	_	10	case	_	_
+10	brutta	brutta	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 25
+# text = Pulite fino allo scrupolo e amanti di tutti gli sports che si possano immaginare.
+1	Pulite	Pulite	X	ADD	_	10	goeswith	_	_
+2	fino	fino	X	GW	_	10	goeswith	_	_
+3	allo	allo	X	GW	_	10	goeswith	_	_
+4	scrupolo	scrupolo	X	GW	_	10	goeswith	_	_
+5	e	e	X	GW	_	10	goeswith	_	_
+6	amanti	amanti	X	AFX	_	10	goeswith	_	_
+7	di	di	X	AFX	_	10	goeswith	_	_
+8	tutti	tutti	X	AFX	_	10	goeswith	_	_
+9	gli	gli	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	sports	sport	NOUN	NNS	Number=Plur	0	root	_	_
+11	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
+12	si	si	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	possano	possano	NOUN	NN	Number=Sing	14	compound	_	_
+14	immaginare	immaginare	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 26
+# text = (…)
+1	(	(	PUNCT	-LRB-	_	3	punct	_	SpaceAfter=No
+2	…	…	PUNCT	.	_	3	punct	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = In mezzo alla strada, senza che nessuno vi faccia la guardia, si osserva all'altezza d'uomo uno splendido orologio che vi da' l'ora di quasi tutte le più importanti città del mondo segnate in differenti quadranti: l'Italia è rappresentata da Milano.
+1	In	in	ADP	IN	_	4	case	_	_
+2	mezzo	mezzo	NOUN	NN	Number=Sing	4	compound	_	_
+3	alla	alla	NOUN	NN	Number=Sing	4	compound	_	_
+4	strada	strada	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	senza	senza	NOUN	NN	Number=Sing	4	appos	_	_
+7	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
+8	nessuno	nessuno	X	FW	Foreign=Yes	12	goeswith	_	_
+9	vi	vi	X	AFX	_	12	goeswith	_	_
+10	faccia	faccia	X	FW	Foreign=Yes	12	goeswith	_	_
+11	la	la	X	FW	Foreign=Yes	12	goeswith	_	_
+12	guardia	guardia	NOUN	NN	Number=Sing	20	nmod:tmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	si	si	X	AFX	_	20	goeswith	_	_
+15	osserva	osserva	X	GW	_	20	goeswith	_	_
+16	all	all	X	GW	_	20	goeswith	_	SpaceAfter=No
+17	'altezza	'altezza	X	GW	_	20	goeswith	_	_
+18	d'uomo	d'uomo	X	GW	_	20	goeswith	_	_
+19	uno	uno	X	GW	_	20	goeswith	_	_
+20	splendido	splendido	NOUN	NN	Number=Sing	6	appos	_	_
+21	orologio	orologio	ADP	IN	_	24	case	_	_
+22	che	che	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	vi	vi	NOUN	NN	Number=Sing	24	compound	_	_
+24	da	day	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+25	'	'	PUNCT	''	_	24	punct	_	_
+26	l'ora	l'ora	NOUN	NN	Number=Sing	31	compound	_	_
+27	di	di	X	AFX	_	28	goeswith	_	_
+28	quasi	quasi	ADJ	JJ	Degree=Pos	31	amod	_	_
+29	tutte	thutte	NOUN	NN	Number=Sing	30	compound	_	_
+30	le	le	NOUN	NN	Number=Sing	31	compound	_	_
+31	più	più	NOUN	NN	Number=Sing	24	appos	_	_
+32	importanti	importanti	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	città	città	NOUN	NN	Number=Sing	24	appos	_	_
+34	del	del	X	FW	Foreign=Yes	36	goeswith	_	_
+35	mondo	mondo	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	segnate	segnate	VERB	VB	VerbForm=Inf	33	parataxis	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	differenti	differento	NOUN	NN	Number=Sing	39	compound	_	_
+39	quadranti	quadranto	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+40	:	:	PUNCT	:	_	36	punct	_	_
+41	l'Italia	l'Italia	NOUN	NN	Number=Sing	42	compound	_	_
+42	è	è	NOUN	NN	Number=Sing	43	compound	_	_
+43	rappresentata	rappresentata	NOUN	NN	Number=Sing	36	appos	_	_
+44	da	da	ADP	IN	_	45	case	_	_
+45	Milano	Milano	PROPN	NNP	Number=Sing	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	36	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Pochi sono stati i paesi che ci hanno lasciato tanta bella impressione.
+1	Pochi	Pochi	INTJ	UH	_	4	discourse	_	_
+2	so	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+3	no	no	DET	DT	_	4	det	_	_
+4	stati	stato	NOUN	NN	Number=Sing	0	root	_	_
+5	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+6	paesi	paesi	X	AFX	_	13	goeswith	_	_
+7	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+8	ci	cus	X	AFX	_	13	goeswith	_	_
+9	hanno	hanno	X	FW	Foreign=Yes	13	goeswith	_	_
+10	lasciato	lasciato	X	AFX	_	13	goeswith	_	_
+11	tanta	tanta	X	FW	Foreign=Yes	13	goeswith	_	_
+12	bella	bella	X	FW	Foreign=Yes	13	goeswith	_	_
+13	impressione	impressione	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n
+

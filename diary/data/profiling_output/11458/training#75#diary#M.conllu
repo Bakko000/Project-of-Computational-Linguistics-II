@@ -1,0 +1,250 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	ADP	IN	_	3	case	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	lino@	lino@	SYM	NFP	_	4	obl	_	SpaceAfter=No
+4	...	...	PUNCT	.	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date: Thu Dec 17 12:51:14 1998
+1	Date	date	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Thu	Thu	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Dec	Dec	PROPN	NNP	Number=Sing	1	appos	_	_
+5	17	17	NUM	CD	NumType=Card	6	nummod	_	_
+6	12:51:14	12:51:14	NUM	CD	NumType=Card	4	appos	_	_
+7	1998	1998	NUM	CD	NumType=Card	1	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Subject: Re: Il caso Muzzi
+1	Subject	subject	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	Re	re	ADP	IN	_	7	case	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	7	punct	_	_
+5	Il	Il	PROPN	NNP	Number=Sing	7	compound	_	_
+6	caso	caso	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Muzzi	Muzzi	PROPN	NNP	Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Finché non imparerai che “qui lo dico e qui lo annego”, di sicuro sarai destinato alla cadetteria.
+1	Finché	Finché	NOUN	NN	Number=Sing	2	compound	_	_
+2	non	non	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	imparerai	imparerbe	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+5	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+6	qui	qui	X	AFX	_	12	goeswith	_	_
+7	lo	lo	X	AFX	_	12	goeswith	_	_
+8	dico	dico	X	FW	Foreign=Yes	12	goeswith	_	_
+9	e	e	X	GW	_	12	goeswith	_	_
+10	qui	qui	X	AFX	_	12	goeswith	_	_
+11	lo	lo	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	annego	annego	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	di	di	NUM	CD	NumType=Card	20	nummod	_	_
+16	sicuro	sicuro	NUM	CD	NumType=Card	20	nummod	_	_
+17	sarai	sarai	NUM	CD	NumType=Card	20	nummod	_	_
+18	destinato	destinato	NOUN	NN	Number=Sing	19	compound	_	_
+19	alla	alla	NOUN	NN	Number=Sing	20	compound	_	_
+20	cadetteria	cadetteria	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Mi sorprende che tu voli in Italia, ma tant'è.
+1	Mi	mi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	2	nsubj	_	_
+2	sorprende	sorprende	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	tu	tu	ADP	IN	Abbr=Yes	5	case	_	_
+5	voli	voli	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Italia	Italia	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	ma	ma	NOUN	NN	Number=Sing	10	compound	_	_
+10	tant'è	tant'è	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Se leggerai il messaggio in tempo, anch'io ti auguro di vivere bene il soggiorno itagliano.
+1	Se	se	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+2	leggerai	leggerai	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	il	il	NOUN	NN	Number=Sing	4	compound	_	_
+4	messaggio	messaggio	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	tempo	tempo	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	anch	anch	DET	WDT	PronType=Int	9	mark	_	SpaceAfter=No
+9	'io	'io	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+10	ti	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	9	obj	_	_
+11	auguro	auguro	ADP	IN	_	13	case	_	_
+12	di	dus	NOUN	NN	Number=Sing	13	compound	_	_
+13	vivere	vivere	NOUN	NN	Number=Sing	10	nmod	_	_
+14	bene	be	NUM	CD	NumType=Card	13	nummod	_	_
+15	il	ill	ADP	IN	Typo=Yes	17	case	_	_
+16	soggiorno	soggiorno	DET	DT	_	17	det	_	_
+17	itagliano	itagliano	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Anch'io vorrei giocare a calcio, ma quando ho parlato per telefono con Peppocchio Nero, pochi giorni fà, mi ha risposto:
+1	Anch	Anch	DET	WDT	PronType=Int	2	det	_	SpaceAfter=No
+2	'io	'io	NOUN	NN	Number=Sing	4	obj	_	_
+3	vorrei	vorrei	PRON	PRP	_	4	nsubj	_	_
+4	giocare	giocare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	calcio	calcio	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	ma	ma	NOUN	NN	Number=Sing	6	appos	_	_
+9	quando	quando	ADP	IN	_	11	case	_	_
+10	ho	ho	NOUN	NN	Number=Sing	11	compound	_	_
+11	parlato	parlato	NOUN	NN	Number=Sing	8	nmod	_	_
+12	per	per	ADP	IN	_	13	case	_	_
+13	telefono	telefono	NOUN	NN	Number=Sing	8	nmod	_	_
+14	con	con	ADP	IN	_	15	case	_	_
+15	Peppocchio	Peppocchio	PROPN	NNP	Number=Sing	4	nmod	_	_
+16	Nero	Nero	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	pochi	pochi	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	giorni	giorni	NOUN	NN	Number=Sing	20	compound	_	_
+20	fà	fà	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	4	punct	_	_
+22	mi	mi	NUM	CD	NumType=Card	24	nummod	_	_
+23	ha	ha	NOUN	NN	Number=Sing	24	compound	_	_
+24	risposto	risposto	NOUN	NN	Number=Sing	4	list	_	SpaceAfter=No
+25	:	:	PUNCT	:	_	4	punct	_	_
+
+# sent_id = 8
+# text = “Se tu organizzi io ci sono”.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Se	Se	X	GW	_	7	goeswith	_	_
+3	tu	tu	X	ADD	_	7	goeswith	_	_
+4	organizzi	organizzi	X	LS	_	7	goeswith	_	_
+5	io	io	X	FW	Foreign=Yes	7	goeswith	_	_
+6	ci	ci	NOUN	NN	Number=Sing	7	compound	_	_
+7	sono	sono	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Peppocchio lavora al Comune di Torino, beato lui.
+1	Peppocchio	Peppocchio	PROPN	NNP	Number=Sing	4	compound	_	_
+2	lavora	lavora	PROPN	NNP	Number=Sing	1	flat	_	_
+3	al	al	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Comune	Comune	PROPN	NNP	Number=Sing	10	appos	_	_
+5	di	di	PROPN	NNP	Number=Sing	4	flat	_	_
+6	Torino	Torino	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	beato	beato	ADP	IN	_	9	case	_	_
+9	lui	lui	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 10
+# text = Lui e Carduso sono le persone che più invidio in assoluto.
+1	Lui	Lui	PROPN	NNP	Number=Sing	2	compound	_	_
+2	e	e	PROPN	NNP	Number=Sing	0	root	_	_
+3	Carduso	Carduso	PROPN	NNP	Number=Sing	2	flat	_	_
+4	so	so	ADV	RB	_	6	advmod	_	SpaceAfter=No
+5	no	no	DET	DT	_	6	det	_	_
+6	le	le	NOUN	NN	Number=Sing	2	appos	_	_
+7	persone	persone	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+8	che	che	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	più	più	NOUN	NN	Number=Sing	10	compound	_	_
+10	invidio	invidio	NOUN	NN	Number=Sing	7	obj	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	assoluto	assoluto	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Carduso è appena sceso a Lecce da Bologna.
+1	Carduso	Carduso	PROPN	NNP	Number=Sing	3	compound	_	_
+2	è	è	NOUN	NN	Number=Sing	3	compound	_	_
+3	appena	appeto	NOUN	NN	Number=Sing	0	root	_	_
+4	sceso	sceso	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	Lecce	Lecce	PROPN	NNP	Number=Sing	7	compound	_	_
+7	da	da	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Bologna	Bologna	PROPN	NNP	Number=Sing	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = È sempre più Papa Negro.
+1	È	È	NOUN	NN	Number=Sing	2	compound	_	_
+2	sempre	sempre	NOUN	NN	Number=Sing	3	compound	_	_
+3	più	più	NOUN	NN	Number=Sing	4	compound	_	_
+4	Papa	Papa	PROPN	NNP	Number=Sing	0	root	_	_
+5	Negro	Negro	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Io scendo il 23 a Torino e il 27 a Lecce, poi torno il 6.
+1	Io	Io	ADP	IN	_	3	case	_	_
+2	scendo	scendo	NOUN	NN	Number=Sing	3	compound	_	_
+3	il	il	NOUN	NN	Number=Sing	0	root	_	_
+4	23	23	NUM	CD	NumType=Card	3	nummod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	Torino	Torino	PROPN	NNP	Number=Sing	7	compound	_	_
+7	e	e	NOUN	NN	Number=Sing	3	appos	_	_
+8	il	ill	ADP	IN	Typo=Yes	9	case	_	_
+9	27	27	NUM	CD	NumType=Card	7	nmod	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+11	Lecce	Lecce	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	poi	poi	NOUN	NN	Number=Sing	14	compound	_	_
+14	torno	torno	NOUN	NN	Number=Sing	15	compound	_	_
+15	il	il	NOUN	NN	Number=Sing	3	appos	_	_
+16	6	6	NUM	CD	NumType=Card	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Visto che lasci le bombe per i bomboloni (e se vieni da me avrai anche i pasticciotti), fai buon viaggio.
+1	Visto	Visto	SCONJ	IN	_	11	mark	_	_
+2	che	che	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	lasci	lasci	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	le	le	NOUN	NN	Number=Sing	5	compound	_	_
+5	bombe	bombe	NOUN	NN	Number=Sing	11	nsubj	_	_
+6	per	per	ADP	IN	_	8	case	_	_
+7	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	compound	_	_
+8	bomboloni	bomboloni	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	(	(	PUNCT	-LRB-	_	5	punct	_	SpaceAfter=No
+10	e	e	X	GW	_	11	nummod	_	_
+11	se	se	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+12	vieni	vieni	ADJ	NNP	Number=Sing	13	amod	_	_
+13	da	da	NOUN	NN	Number=Sing	14	compound	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+15	avrai	avrai	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	anche	anche	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	i	i	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	pasticciotti	pasticciotti	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	11	punct	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	fai	fai	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	buon	buon	ADP	IN	_	23	case	_	_
+23	viaggio	viaggio	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Ti saluterò Roberta e i miei, grazie.
+1	Ti	ti	PROPN	NNP	Number=Sing	2	compound	_	_
+2	saluterò	saluterò	NOUN	NN	Number=Sing	6	compound	_	_
+3	Roberta	Roberta	PROPN	NNP	Number=Sing	2	flat	_	_
+4	e	e	X	GW	_	6	goeswith	_	_
+5	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	miei	miei	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	grazie	grazie	NOUN	NNS	Number=Plur	6	appos	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Lino
+1	Lino	Lino	PROPN	NNP	Number=Sing	0	root	_	SpacesAfter=\n\n
+

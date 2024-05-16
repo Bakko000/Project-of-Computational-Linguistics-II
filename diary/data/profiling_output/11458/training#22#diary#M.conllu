@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2 settembre lunedì
+1	2	2	NUM	CD	NumType=Card	3	nummod	_	_
+2	settembre	settembre	NOUN	NN	Number=Sing	3	compound	_	_
+3	lunedì	lunedì	NOUN	NN	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = […]
+1	[	[	PUNCT	-LRB-	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	.	_	0	root	_	SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ho aspettato fuori dal carcere che mi venissero a prendere.
+1	Ho	Ho	PROPN	NNP	Number=Sing	0	root	_	_
+2	aspettato	aspettato	ADP	IN	_	5	case	_	_
+3	fuori	fuori	NUM	CD	NumType=Card	5	nummod	_	_
+4	dal	dal	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	carcere	carcere	NOUN	NN	Number=Sing	1	nmod	_	_
+6	che	che	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	mi	mi	NOUN	NN	Number=Sing	5	appos	_	_
+8	venissero	venissero	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	prendere	prendere	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Gli agenti, levata la divisa, mettono su l'orecchino e prendono un aspetto umano.
+1	Gli	Gli	PROPN	NNP	Number=Sing	0	root	_	_
+2	agenti	agento	NOUN	NN	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	levata	levata	NOUN	NN	Number=Sing	5	compound	_	_
+5	la	la	NOUN	NN	Number=Sing	6	compound	_	_
+6	divisa	divisa	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	mettono	mettono	DET	DT	_	9	det	_	_
+9	su	su	NOUN	NN	Number=Sing	1	appos	_	_
+10	l'	l'	PUNCT	''	_	1	punct	_	SpaceAfter=No
+11	orecchino	orecchino	X	GW	_	16	goeswith	_	_
+12	e	e	X	GW	_	16	goeswith	_	_
+13	prendono	prendono	X	GW	_	16	goeswith	_	_
+14	un	un	X	GW	_	16	goeswith	_	_
+15	aspetto	aspetto	X	AFX	_	16	goeswith	_	_
+16	umano	umano	X	FW	Foreign=Yes	1	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sono ragazzi come noi.
+1	So	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	no	no	DET	DT	_	3	det	_	_
+3	ragazzi	ragazzi	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+5	noi	noi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = L'ultima paura.
+1	L'ultima	L'ultima	PROPN	NNP	Number=Sing	2	compound	_	_
+2	paura	paura	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Incapacità di affrontare la vita.
+1	Incapacità	Incapacità	NOUN	NN	Number=Sing	2	compound	_	_
+2	di	di	NOUN	NN	Number=Sing	3	compound	_	_
+3	affrontare	affrontare	NOUN	NN	Number=Sing	4	compound	_	_
+4	la	la	NOUN	NN	Number=Sing	5	compound	_	_
+5	vita	vita	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Me la tengo gelosamente nascosta, non la racconto a nessuno.
+1	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	la	la	X	FW	Foreign=Yes	4	compound	_	_
+3	tengo	tengo	X	FW	Foreign=Yes	4	goeswith	_	_
+4	gelosamente	gelosamente	NOUN	NN	Number=Sing	5	compound	_	_
+5	nascosta	nascosto	NOUN	NN	Number=Sing	1	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	non	non	NOUN	NN	Number=Sing	8	compound	_	_
+8	la	la	NOUN	NN	Number=Sing	1	appos	_	_
+9	racconto	racconto	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	nessuno	nessuno	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = È solo per me.
+1	È	È	NOUN	NN	Number=Sing	0	root	_	_
+2	solo	solo	ADV	RB	_	4	advmod	_	_
+3	per	per	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n
+
