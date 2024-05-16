@@ -1,0 +1,531 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 12.11.18 Ieri gran comizio con migliaia di persone.
+1	12.11.18	12.11.18	NUM	N	NumType=Card	4	nummod	_	_
+2	Ieri	ieri	ADV	B	_	3	advmod	_	_
+3	gran	gran	ADJ	A	Number=Sing	4	amod	_	_
+4	comizio	comizio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Poi la certezza di andare a casa.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	andare	andare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Casa per modo di dire, ma verso la pace, la patria e respirare liberamente!
+1	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	verso	verso	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pace	pace	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	patria	patria	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	respirare	respirare	VERB	V	VerbForm=Inf	1	conj	_	_
+16	liberamente	liberamente	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Per merito dell'Avvocato Brocchi tutti i profughi poterono avere il permesso di lasciare Graz e viaggio gratuito, ma in vagone del bestiame.
+1	Per	per	ADP	E	_	2	case	_	_
+2	merito	merito	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Avvocato	avvocato	PROPN	SP	_	2	nmod	_	_
+6	Brocchi	Brocchi	PROPN	SP	_	5	flat:name	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	poterono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	lasciare	lasciare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	Graz	Graz	PROPN	SP	_	15	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+19	gratuito	gratuito	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	ma	ma	CCONJ	CC	_	23	cc	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	vagone	vagone	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	bestiame	bestiame	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Così il 19.11 cm neve alta si ebbe la facoltà di far trasportare il bagaglio.
+1	Così	così	ADV	B	_	8	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	19.11	19.11	NUM	N	NumType=Card	4	nummod	_	_
+4	cm	centimetro	NOUN	S	_	8	nsubj	_	_
+5	neve	neve	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	alta	alto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\s\s
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:pass	_	_
+8	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	facoltà	facoltà	NOUN	S	Gender=Fem	8	obj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	far	fare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	trasportare	trasportare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bagaglio	bagaglio	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Erano 9 gruppi.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	9	9	NUM	N	NumType=Card	3	nummod	_	_
+3	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Per Gorizia alcuni vagoni, altri per Trieste e ancora per Pola.
+1	Per	per	ADP	E	_	2	case	_	_
+2	Gorizia	Gorizia	PROPN	SP	_	0	root	_	_
+3	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	vagoni	vagone	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Trieste	Trieste	PROPN	SP	_	6	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	ancora	ancora	ADV	B	_	12	advmod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	Pola	Pola	PROPN	SP	_	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Io faccio parte d'un vagone coi Sig.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	d'	da	ADP	E	_	6	case	_	SpaceAfter=No
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vagone	vagone	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	coi	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Sig	Sig	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Prina, 2 impiegati di Trieste e 2 goriziani.
+1	Prina	Prina	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	2	2	NUM	N	NumType=Card	4	nummod	_	_
+4	impiegati	impiegato	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Trieste	Trieste	PROPN	SP	_	4	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	2	2	NUM	N	NumType=Card	9	nummod	_	_
+9	goriziani	goriziano	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Il freddo era intenso, all'ultimo momento ecco dei nostri andò a comperare una stufetta di ferro, che ognuno contribuì con qualche cosa il carbone fui poi fatto alla stazione che erano dei gran ….
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	intenso	intenso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	9	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	ecco	ecco	ADV	B	_	13	advmod	_	_
+11-12	dei	_	_	_	_	_	_	_	SpacesAfter=\s\s
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	nostri	nostro	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+14	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	comperare	comperare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	stufetta	stufetta	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+23	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	nsubj	_	_
+24	contribuì	contribuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	acl:relcl	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	27	det	_	_
+27	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	32	nsubj:pass	_	_
+30	fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	32	aux:pass	_	_
+31	poi	poi	ADV	B	_	32	advmod	_	_
+32	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+33-34	alla	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+36	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+37	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	40	cop	_	_
+38-39	dei	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	gran	grande	ADJ	A	Number=Sing	35	acl:relcl	_	_
+41	…	…	PUNCT	FF	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Così dopo 2 giorni e 2 notti si arrivò a Trieste il 21 con gran forza .
+1	Così	così	ADV	B	_	9	advmod	_	_
+2	dopo	dopo	ADP	E	_	4	case	_	_
+3	2	2	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	2	2	NUM	N	NumType=Card	7	nummod	_	_
+7	notti	notte	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Trieste	Trieste	PROPN	SP	_	9	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	21	21	NUM	N	NumType=Card	9	nsubj	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	gran	grande	ADJ	A	Number=Sing	16	amod	_	_
+16	forza	forza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = Ma al confine, credo Trestanes erano già gli ufficiali italiani e videro sventolare dai vagoni le nostre bandierine italiane e ci fecero gran feste.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	confine	confine	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Trestanes	Trestanes	PROPN	SP	_	11	nsubj	_	_
+8	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	già	già	ADV	B	_	11	advmod	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	6	ccomp	_	_
+12	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	videro	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15	sventolare	sventolare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+16-17	dai	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	vagoni	vagone	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	bandierine	bandierina	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+22	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	25	expl	_	_
+25	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+26	gran	grande	ADJ	A	_	27	amod	_	_
+27	feste	feste	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = L'ultima notte si poteva scendere e andare in città, ma chi poteva assicurarci che la nostra roba fosse sicura?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+5	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	scendere	scendere	VERB	V	VerbForm=Inf	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	andare	andare	VERB	V	VerbForm=Inf	6	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	città	città	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13	chi	chi	PRON	PR	Number=Sing|PronType=Rel	15	nsubj	_	_
+14	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15-16	assicurarci	_	_	_	_	_	_	_	_
+15	assicurar	assicurare	VERB	V	VerbForm=Inf	6	conj	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+17	che	che	SCONJ	CS	_	22	mark	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	roba	roba	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+21	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+22	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	15	ccomp	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Così l'Adelina il fratello maggiore rimasero con me.
+1	Così	così	ADV	B	_	7	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Adelina	Adelina	PROPN	SP	_	7	nsubj	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	5	amod	_	_
+7	rimasero	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Si dormì bene avevamo spazio e coperte.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	dormì	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	avevamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+5	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	coperte	coperta	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Alla mattina ognuno tornò in carro per trasportare il bagaglio, così io andai in casa Perinello che furono contenti di rivedermi.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+5	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	carro	carro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	trasportare	trasportare	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bagaglio	bagaglio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	così	così	ADV	B	_	14	advmod	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	andai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	advcl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	Perinello	Perinello	PROPN	SP	_	17	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+21	contenti	contento	ADJ	A	Gender=Masc|Number=Plur	5	acl:relcl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23-24	rivedermi	_	_	_	_	_	_	_	SpaceAfter=No
+23	riveder	rivedere	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	obj	_	_
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Oggi doveva arrivare Pepi da Venezia ma causa il mare cattivo e pericolo di mine non partì nessun vapore.
+1	Oggi	oggi	ADV	B	_	3	advmod	_	_
+2	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+4	Pepi	Pepi	PROPN	SP	_	3	nsubj	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Venezia	Venezia	PROPN	SP	_	4	nmod	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	causa	causare	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mare	mare	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	mine	mina	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	partì	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+18	nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	vapore	vapore	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Ieri finalmente 22.11.18 ebbi la gran gioia di rivedere dopo 3 anni e ½ il mio Lucci!
+1	Ieri	ieri	ADV	B	_	4	advmod	_	_
+2	finalmente	finalmente	ADV	B	_	3	advmod	_	_
+3	22.11.18	22.11.18	NUM	N	NumType=Card	4	nummod	_	_
+4	ebbi	ebbio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	gran	gran	ADJ	A	Number=Sing	7	amod	_	_
+7	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	rivedere	rivedere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	dopo	dopo	ADP	E	_	12	case	_	_
+11	3	3	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	½	½	NUM	N	NumType=Card	17	nummod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	Lucci	Lucci	PROPN	SP	_	12	conj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Quando rivedrò gli altri?
+1	Quando	quando	SCONJ	CS	_	2	advmod	_	_
+2	rivedrò	rivedrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Qualche giorno dopo arrivò da Venezia mio marito, e si decise di rimanere pochi giorni a Trieste ed in seguito ripartimmo per Gorizia, fummo ospitati per 10 giorni dai primi amici ... Trovammo un alloggio in parte ammobiliato in via Dante 8 piano terra e si cominciò a sistemarsi un poco.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	dopo	dopo	ADV	B	_	4	advmod	_	_
+4	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Venezia	Venezia	PROPN	SP	_	4	obl	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	marito	marito	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	decise	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	rimanere	rimanere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Trieste	Trieste	PROPN	SP	_	14	obl	_	_
+19	ed	e	CCONJ	CC	_	22	cc	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+22	ripartimmo	ripartire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	14	conj	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	Gorizia	Gorizia	PROPN	SP	_	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	fummo	fure	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+27	ospitati	ospitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	10	10	NUM	N	NumType=Card	30	nummod	_	_
+30	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+31-32	dai	_	_	_	_	_	_	_	SpacesAfter=\s\s
+31	da	da	ADP	E	_	34	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	34	amod	_	_
+34	amici	amico	NOUN	S	Gender=Masc|Number=Plur	27	obl:agent	_	_
+35	...	...	PUNCT	FF	_	36	punct	_	_
+36	Trovammo	Trovare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	parte	parte	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+41	ammobiliato	ammobiliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	via	via	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+44	Dante	Dante	PROPN	SP	_	43	nmod	_	_
+45	8	8	NUM	N	NumType=Card	46	nummod	_	_
+46	piano	piare	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+47	terra	terra	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	50	expl	_	_
+50	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	conj	_	_
+51	a	a	ADP	E	_	52	mark	_	_
+52-53	sistemarsi	_	_	_	_	_	_	_	_
+52	sistemar	sistemare	VERB	V	VerbForm=Inf	50	xcomp	_	_
+53	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	52	expl	_	_
+54	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	poco	poco	NOUN	S	Gender=Masc|Number=Sing	52	obj	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Il 19.1.919 seguirono a Casale le nozze di Lucci colla Sig.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	19.1.919	19.1.919	NUM	N	NumType=Card	3	nsubj	_	SpacesAfter=\s\s
+3	seguirono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Casale	Casalire	PROPN	SP	_	3	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Lucci	Lucci	PROPN	SP	_	7	nmod	_	_
+10	colla	colla	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+11	Sig	Sig	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Savina Derruti, abbiamo fatto in tale occasione un giro, toccando Milano, Firenze, Venezia, ecc onde comperare cose indispensabili, biancheria, utensili di cucina, ecc.
+1	Savina	Savina	PROPN	SP	_	5	nsubj	_	_
+2	Derruti	Derruto	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	tale	tale	DET	DD	Number=Sing|PronType=Dem	8	det	_	_
+8	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giro	giro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	toccando	toccare	VERB	V	VerbForm=Ger	5	advcl	_	_
+13	Milano	Milano	PROPN	SP	_	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	Firenze	Firenze	PROPN	SP	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Venezia	Venezia	PROPN	SP	_	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	ecc	eccetera	ADV	B	_	21	advmod	_	_
+20	onde	onde	SCONJ	CS	_	21	mark	_	_
+21	comperare	comperare	VERB	V	VerbForm=Inf	13	conj	_	_
+22	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+23	indispensabili	indispensabile	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	biancheria	biancheria	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	utensili	utensile	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	ecc	eccetera	ADV	B	_	5	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Cose della meno peggio, passarono 2 anni e nel febbraio del 1921 si comprò il nostro vecchio alloggio del Corso Verdi 23 II piano.
+1	Cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	meno	meno	ADV	B	_	5	advmod	_	_
+5	peggio	peggio	ADJ	A	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	passarono	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	2	2	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	e	e	CCONJ	CC	_	18	cc	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	1921	1921	NUM	N	NumType=Card	13	nmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	comprò	comprare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+20	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+21	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Corso	Corso	PROPN	SP	_	22	nmod	_	_
+26	Verdi	Verdi	PROPN	SP	_	25	flat:name	_	_
+27	23	23	NUM	N	NumType=Card	29	nummod	_	_
+28	II	secondo	ADJ	NO	Number=Sing|NumType=Ord	29	amod	_	_
+29	piano	piano	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+

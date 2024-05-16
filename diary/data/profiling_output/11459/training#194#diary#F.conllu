@@ -1,0 +1,175 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Martedì 05.01.1999
+1	Martedì	martedì	NOUN	S	Gender=Masc	0	root	_	_
+2	05.01.1999	05.01.1999	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Stamani mi sono alzata tardissimo.
+1	Stamani	Stamani	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	alzata	alzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	tardissimo	tardissimo	ADV	B	Degree=Abs	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Non avevo alcuna intenzione di scendere giù dal mio letto, aprire gli occhi ed affrontare la giornata… Mi sentivo addosso come un macigno.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	scendere	scendere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	giù	giù	ADV	B	_	6	advmod	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	letto	letto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	aprire	aprire	VERB	V	VerbForm=Inf	6	advcl	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	ed	e	CCONJ	CC	_	17	cc	_	_
+17	affrontare	affrontare	VERB	V	VerbForm=Inf	13	conj	_	_
+18	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	giornata…	giornata…	PUNCT	FF	_	17	punct	_	_
+20	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	expl	_	_
+21	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	parataxis	_	_
+22	addosso	addosso	ADV	B	_	21	advmod	_	_
+23	come	come	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	macigno	macigno	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ripensavo alle ultime ore trascorse insieme a Francesco:
+1	Ripensavo	Ripensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	5	amod	_	_
+5	ore	ora	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+6	trascorse	trascorrere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7	insieme	insieme	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	Francesco	Francesco	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = non una parola sulla mia partenza;
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	parola	parola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = il pianto trattenuto e simulato da false risate;
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pianto	pianto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	trattenuto	trattenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	simulato	simulare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	false	falso	NOUN	S	Gender=Fem|Number=Plur	5	obl:agent	_	_
+8	risate	risata	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = l'amore forzato e piegato dalla tristezza… Poi, a mezzogiorno, la telefonata di Vittorio:
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	forzato	forzato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	piegato	piegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	15	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+8	tristezza…	tristezza…	PUNCT	FF	_	15	punct	_	_
+9	Poi	poi	ADV	B	_	15	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	mezzogiorno	mezzogiorno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Vittorio	Vittorio	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = partenza rinviata di una settimana!
+1	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	rinviata	rinviare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Un sollievo?
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sollievo	sollievo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = No!
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Avevo già dato il mio addio e, comunque, mi stavo preparando ad affrontare sotto ogni punto di vista questa benedetta partenza; ora, invece, dovrò ancora rinviare i saluti, i bagagli, gli addii, le tensioni, le attese…
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	già	già	ADV	B	_	3	advmod	_	_
+3	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	addio	addio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	comunque	comunque	ADV	B	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	expl	_	_
+12	stavo	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	31	conj	_	_
+13	preparando	preparare	VERB	V	VerbForm=Ger	12	advcl	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15	affrontare	affrontare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	sotto	sotto	ADP	E	_	18	case	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	punto	punto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	vista	vista	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+21	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+22	benedetta	benedetto	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	12	punct	_	_
+25	ora	ora	ADV	B	_	12	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	12	punct	_	_
+27	invece	invece	ADV	B	_	12	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	12	punct	_	_
+29	dovrò	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	31	aux	_	_
+30	ancora	ancora	ADV	B	_	31	advmod	_	_
+31	rinviare	rinviare	VERB	V	VerbForm=Inf	3	conj	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	bagagli	bagaglio	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	39	punct	_	_
+38	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	addii	addio	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	42	punct	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	33	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	conj	_	_
+45	attese…	attese…	PUNCT	FF	_	3	punct	_	SpacesAfter=\n\n
+

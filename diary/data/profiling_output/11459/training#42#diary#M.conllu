@@ -1,0 +1,882 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 15 marzo 1935
+1	15	15	NUM	N	NumType=Card	0	root	_	_
+2	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	1935	1935	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Martedì trascorso sciapo.
+1	Martedì	martedì	NOUN	S	Gender=Masc	0	root	_	_
+2	trascorso	trascorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	sciapo	sciapo	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Credevo di avere l'interrogazione di francese e invece Giani delusemi.
+1	Credevo	Credevo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	avere	avere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	interrogazione	interrogazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	francese	francese	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	invece	invece	ADV	B	_	10	advmod	_	_
+10	Giani	Giani	PROPN	SP	_	1	conj	_	_
+11	delusemi	deluseme	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = A Geografia Cascia fu interrogata e rispose bene, ma fece cadere tutti i registri di Rampelli.
+1	A	a	ADP	E	_	2	case	_	_
+2	Geografia	geografia	PROPN	SP	_	5	obl	_	_
+3	Cascia	Cascia	PROPN	SP	_	2	flat:name	_	_
+4	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	interrogata	interrogare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+8	bene	bene	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	cadere	cadere	VERB	V	VerbForm=Inf	11	ccomp	_	_
+13	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	registri	registro	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Rampelli	Rampelli	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Il pomeriggio fu tutto dedicato al Diritto nel quale fui interrogata mercoledi et risposi bene prendendo sette, come mi informò poi Pilloni junior.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	tutto	tutto	ADV	B	_	5	advmod	_	_
+5	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Diritto	diritto	PROPN	SP	_	5	obl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	quale	quale	PRON	PR	Number=Sing|PronType=Rel	13	obl	_	_
+12	fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	interrogata	interrogare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	mercoledi	mercolede	NOUN	S	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+15	et	e	CCONJ	CC	_	16	cc	_	_
+16	risposi	risposare	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+17	bene	bene	ADV	B	_	18	advmod	_	_
+18	prendendo	prendere	VERB	V	VerbForm=Ger	16	advcl	_	_
+19	sette	sette	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	come	come	ADP	E	_	23	mark	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+23	informò	informare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
+24	poi	poi	ADV	B	_	23	advmod	_	_
+25	Pilloni	Pilloni	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	junior	junior	ADJ	A	_	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Nelle matematiche Cristola fu appellata ma siccome sonaron le campane, Basso rimandò l'interrogazione.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	matematiche	matematica	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+4	Cristola	Cristola	PROPN	SP	_	6	nsubj:pass	_	_
+5	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	appellata	appellare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ma	ma	CCONJ	CC	_	14	cc	_	_
+8	siccome	siccome	ADV	B	_	14	advmod	_	_
+9	sonaron	sonaron	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	campane	campane	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	Basso	basso	PROPN	SP	_	14	nsubj	_	_
+14	rimandò	rimandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	interrogazione	interrogazione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Facemmo anche saggio di Francese che però non andò troppo bene.
+1	Facemmo	Facemmo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	1	advmod	_	_
+3	saggio	saggio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Francese	francese	PROPN	SP	_	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	però	però	ADV	B	_	9	advmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+10	troppo	troppo	ADV	B	_	11	advmod	_	_
+11	bene	bene	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Et adesso veniamo a giovedì, ossia all'inizio delle grandi calamità.
+1	Et	e	CCONJ	CC	_	3	cc	_	_
+2	adesso	adesso	ADV	B	_	3	advmod	_	_
+3	veniamo	venire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	giovedì	giovedì	NOUN	S	Gender=Masc	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ossia	ossia	CCONJ	CC	_	10	cc	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	grandi	grande	ADJ	A	Number=Plur	14	amod	_	_
+14	calamità	calamità	NOUN	S	Gender=Fem	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Mentre ce ne stavamo a Italiano ripassando bene ragioneria per il saggio, entrò Ventorini che volle Donisa et Cristola dal Preside.
+1	Mentre	mentre	SCONJ	CS	_	4	mark	_	_
+2	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	stavamo	stare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Italiano	italiano	PROPN	SP	_	4	obl	_	_
+7	ripassando	ripassare	VERB	V	VerbForm=Ger	4	advcl	_	_
+8	bene	bene	ADV	B	_	7	advmod	_	_
+9	ragioneria	ragioneria	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	saggio	saggio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	entrò	entrare	CCONJ	CC	_	15	cc	_	_
+15	Ventorini	Ventorini	PROPN	SP	_	4	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+18	Donisa	Donisa	PROPN	SP	_	17	obj	_	_
+19	et	e	CCONJ	CC	_	20	cc	_	_
+20	Cristola	Cristola	PROPN	SP	_	18	conj	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Preside	preside	PROPN	SP	_	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Li stupori furon enormi, in quanto le coscienze nostre eran limpide quant'altri mai, perciò sforzammoci invano di indovinare la ragione di tale appello.
+1	Li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+2	stupori	stupore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	furon	furon	ADV	BN	PronType=Neg	4	advmod	_	_
+4	enormi	enorme	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	in	in	ADP	E	_	12	mark	_	_
+7	quanto	quanto	ADV	B	_	6	fixed	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	coscienze	coscienza	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+10	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	eran	eran	NOUN	S	_	12	nsubj	_	_
+12	limpide	limpido	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+13	quant'	quanto	SCONJ	CS	_	19	mark	_	SpaceAfter=No
+14	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	nsubj	_	_
+15	mai	mai	ADV	B	_	19	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	perciò	perciò	SCONJ	CS	_	19	mark	_	_
+18	sforzammoci	sforzammoci	ADV	B	_	19	advmod	_	_
+19	invano	invano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	indovinare	indovinare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	tale	tale	DET	DD	Number=Sing|PronType=Dem	26	det	_	_
+26	appello	appello	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 11
+# text = Senonchè quando tornaron, disserci aver la Monaghi fatto nascostamente rapporto dicendo.
+1	Senonchè	Senonché	SCONJ	CS	_	5	mark	_	_
+2	quando	quando	SCONJ	CS	_	5	mark	_	_
+3	tornaron	tornaron	NOUN	S	Gender=Masc	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	disserci	_	_	_	_	_	_	_	_
+5	disser	dissere	VERB	V	VerbForm=Inf	0	root	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+7	aver	avere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Monaghi	Monaghi	PROPN	SP	_	7	obj	_	_
+10	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	nascostamente	nascostamente	ADV	B	_	12	advmod	_	_
+12	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	dicendo	dire	VERB	V	VerbForm=Ger	10	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = “molte alunne della 2 A sup.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	alunne	alunne	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	2	2	NUM	N	NumType=Card	7	nummod	_	_
+7	A	A	X	X	_	3	nmod	_	_
+8	sup	sup	X	SW	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = fanno chiasso nello spogliatoio, specie Cristola et Donisa”.
+1	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	chiasso	chiasso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3-4	nello	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spogliatoio	spogliatoio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	specie	specie	NOUN	S	Gender=Fem	5	conj	_	_
+8	Cristola	Cristola	PROPN	SP	_	7	nmod	_	_
+9	et	e	CCONJ	CC	_	10	cc	_	_
+10	Donisa	Donisa	PROPN	SP	_	8	conj	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Et le meraviglie furon grandi in quanto dopo le scene con Cane Bull Cane, noi negli spogliatoi non sostammo più et inoltre la Monaghi non venne mai nelle guardarobe e poi ancora mercoledì mattina entrammo rattissimamente nelle classi poiché eravi Bassoni et Cristola tardi arrivòe sola e lesta spogliossi.
+1	Et	e	CCONJ	CC	_	3	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	meraviglie	meraviglie	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	furon	furon	ADV	BN	PronType=Neg	5	advmod	_	_
+5	grandi	grande	ADJ	A	Number=Plur	3	amod	_	_
+6	in	in	ADP	E	_	21	mark	_	_
+7	quanto	quanto	ADV	B	_	6	fixed	_	_
+8	dopo	dopo	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	scene	scena	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	Cane	cane	PROPN	SP	_	10	nmod	_	_
+13	Bull	Bull	PROPN	SP	_	12	nmod	_	_
+14	Cane	cane	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+17-18	negli	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	spogliatoi	spogliatoio	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	sostammo	sostare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	advcl	_	_
+22	più	più	ADV	B	_	21	advmod	_	_
+23	et	e	CCONJ	CC	_	32	cc	_	_
+24	inoltre	inoltre	ADV	B	_	32	advmod	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Monaghi	Monaghi	PROPN	SP	_	32	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+28	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	cop	_	_
+29	mai	mai	ADV	B	_	32	advmod	_	_
+30-31	nelle	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	guardarobe	guardarobe	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	_
+33	e	e	CCONJ	CC	_	38	cc	_	_
+34	poi	poi	ADV	B	_	38	advmod	_	_
+35	ancora	ancora	ADV	B	_	36	advmod	_	_
+36	mercoledì	mercoledì	NOUN	S	Gender=Masc	38	obl	_	_
+37	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+38	entrammo	entrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	21	conj	_	_
+39	rattissimamente	rattissimamente	ADV	B	_	38	advmod	_	_
+40-41	nelle	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	classi	classe	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	_
+43	poiché	poiché	SCONJ	CS	_	45	advmod	_	_
+44	eravi	eravo	ADJ	A	Number=Plur	45	amod	_	_
+45	Bassoni	Bassoni	PROPN	SP	_	42	nmod	_	_
+46	et	e	CCONJ	CC	_	47	cc	_	_
+47	Cristola	Cristola	PROPN	SP	_	45	conj	_	_
+48	tardi	tardi	ADV	B	_	47	advmod	_	_
+49	arrivòe	arrivòe	ADV	B	_	50	advmod	_	_
+50	sola	solo	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	_
+51	e	e	CCONJ	CC	_	52	cc	_	_
+52	lesta	lesto	ADJ	A	Gender=Fem|Number=Sing	50	conj	_	_
+53	spogliossi	spogliosso	NOUN	S	Gender=Masc|Number=Plur	45	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	45	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Allora dopo pranzo interpellammo Cane Bull la quale disseci che dopo li rapporti, noi le molestie più non davamo lei non aveva più niente rapportato a Rundo.
+1	Allora	allora	ADV	B	_	23	advmod	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+4	interpellammo	interpellare	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	Cane	cane	PROPN	SP	_	3	nmod	_	_
+6	Bull	Bull	PROPN	SP	_	5	flat:name	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	quale	quale	DET	DQ	Number=Sing|PronType=Int	9	det	_	_
+9	disseci	disseco	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+11	dopo	dopo	ADV	B	_	20	advmod	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+13	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	20	punct	_	_
+15	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	molestie	molestia	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+18	più	più	ADV	B	_	20	advmod	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	davamo	dare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+21	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+24	più	più	ADV	B	_	23	advmod	_	_
+25	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	26	obj	_	_
+26	rapportato	rapportato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	Rundo	Rundo	PROPN	SP	_	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	23	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Ahi, lercia Monaghi!
+1	Ahi	Ahi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lercia	lercia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Monaghi	Monaghi	PROPN	SP	_	3	obj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Zitellona quan'altri mai acida!
+1	Zitellona	Zitellona	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quan'	quano	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obj	_	_
+4	mai	maio	ADV	B	_	5	advmod	_	_
+5	acida	acido	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Finta e schifosa!
+1	Finta	finta	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	schifosa	schifosa	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Cosicchè stamani Donisa e Cristola l'affrontarono ed essa disse che nello spogliatoio non c'era mai stata, che non aveva visto niente, solo siccome sapeva che vi si parlava, rideva e cantava doveva fare un rapporto e doveva metterci dei nomi.
+1	Cosicchè	Cosicché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	stamani	stamani	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	Donisa	Donisa	PROPN	SP	_	7	nsubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Cristola	Cristola	PROPN	SP	_	3	conj	_	_
+6	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	affrontarono	affrontarere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+11	che	che	SCONJ	CS	_	17	mark	_	_
+12-13	nello	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	spogliatoio	spogliatoio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	SpaceAfter=No
+17	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	ccomp	_	_
+18	mai	mai	ADV	B	_	17	advmod	_	_
+19	stata	stato	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+25	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	solo	solo	ADV	B	_	29	advmod	_	_
+28	siccome	siccome	SCONJ	CS	_	29	mark	_	_
+29	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+30	che	che	SCONJ	CS	_	33	mark	_	_
+31	vi	vi	ADV	B	_	33	advmod	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl:impers	_	_
+33	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	rideva	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	conj	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	cantava	cantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	conj	_	_
+38	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	aux	_	_
+39	fare	fare	VERB	V	VerbForm=Inf	37	ccomp	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	aux	_	_
+44-45	metterci	_	_	_	_	_	_	_	_
+44	metter	mettere	VERB	V	VerbForm=Inf	39	conj	_	_
+45	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	44	expl	_	_
+46-47	dei	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	44	obl	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 20
+# text = Ahi la putrida!
+1	Ahi	Aare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	putrida	putrida	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = E' così che agisci zozza falsaria!
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	così	così	ADV	B	_	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	agisci	agire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	zozza	zozza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	falsaria	falsario	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Allora durante la lezione di Chimica, Donisa et Cristola tornano dal Preside, le spiegazioni dieder e tutto il parea finito per il meglio.
+1	Allora	allora	ADV	B	_	11	advmod	_	_
+2	durante	durante	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Chimica	chimica	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	Donisa	Donisa	PROPN	SP	_	11	nsubj	_	_
+9	et	e	CCONJ	CC	_	10	cc	_	_
+10	Cristola	Cristola	PROPN	SP	_	8	conj	_	_
+11	tornano	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Preside	preside	PROPN	SP	_	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	spiegazioni	spiegazione	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+18	dieder	dieder	VERB	V	VerbForm=Inf	17	acl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	22	det:predet	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	parea	parea	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+23	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Ma la giornata era ormai guastata in quanto il Sorri fu quant'altri mai maligno e bizzoso.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	ormai	ormai	ADV	B	_	6	advmod	_	_
+6	guastata	guastare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	11	mark	_	_
+8	quanto	quanto	ADV	B	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Sorri	Sorri	PROPN	SP	_	11	nsubj	_	_
+11	fu	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+12	quant'	quanto	SCONJ	CS	_	13	mark	_	SpaceAfter=No
+13	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	advcl	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	maligno	maligno	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	bizzoso	bizzoso	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = Entrò in classe con venti minuti di ritardo e diè di piglio alle interrogazioni.
+1	Entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	classe	classe	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	venti	venti	NUM	N	NumType=Card	6	nummod	_	_
+6	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	diè	diè	NOUN	S	Gender=Masc	6	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	piglio	piglio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	interrogazioni	interrogazione	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Dapprima Capossi e Melloni fiascaron lievemente poi chiamò Donisa e Mellonio al principio Donisa andava benone poi l'alchimista chiese a Mellonio l'anidride carbonica che ella non sapeva onde rivolsesi a Donisa che benone cominciava, ma tuttarbotto Mellonio rappellossele e a chiaccherar incominciò facendo ammutolir d'Artagnan.
+1	Dapprima	dapprima	ADV	B	_	8	advmod	_	_
+2	Capossi	Capossi	PROPN	SP	_	8	nsubj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Melloni	Melloni	PROPN	SP	_	2	conj	_	_
+5	fiascaron	fiascaron	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	lievemente	lievemente	ADV	B	_	8	advmod	_	_
+7	poi	poi	ADV	B	_	8	advmod	_	_
+8	chiamò	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Donisa	Donisa	PROPN	SP	_	8	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Mellonio	Mellonio	PROPN	SP	_	9	conj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	principio	principio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+15	Donisa	Donisa	PROPN	SP	_	14	nmod	_	_
+16	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+17	benone	benorre	SYM	SYM	_	16	nsubj	_	_
+18	poi	poi	ADV	B	_	17	advmod	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	alchimista	alchimista	NOUN	S	Number=Sing	21	nsubj	_	_
+21	chiese	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	advcl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Mellonio	Mellonio	PROPN	SP	_	21	obl	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	anidride	anidride	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+26	carbonica	carbonico	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	che	che	PRON	PR	PronType=Rel	30	obj	_	_
+28	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+31	onde	onde	SCONJ	CS	_	32	mark	_	_
+32	rivolsesi	rivolsese	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	advcl	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	Donisa	Donisa	PROPN	SP	_	32	obl	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	benone	benorre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+37	cominciava	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	41	punct	_	_
+39	ma	ma	CCONJ	CC	_	41	cc	_	_
+40	tuttarbotto	tuttarbotto	ADP	E	_	41	case	_	_
+41	Mellonio	Mellonio	PROPN	SP	_	37	conj	_	_
+42	rappellossele	rappellossela	NOUN	S	Gender=Fem|Number=Plur	41	nmod	_	_
+43	e	e	CCONJ	CC	_	45	cc	_	_
+44	a	a	ADP	E	_	45	mark	_	_
+45	chiaccherar	chiaccherare	VERB	V	VerbForm=Inf	37	conj	_	_
+46	incominciò	incominciò	ADV	B	_	47	advmod	_	_
+47	facendo	fare	VERB	V	VerbForm=Ger	45	advcl	_	_
+48	ammutolir	ammutolire	VERB	V	VerbForm=Inf	47	xcomp	_	_
+49	d'	di	ADP	E	_	50	case	_	SpaceAfter=No
+50	Artagnan	Artagnan	PROPN	SP	_	48	obl	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 26
+# text = Ahi la villanzona, così agiva!
+1	Ahi	Aare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	villanzona	villanzona	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	così	così	ADV	B	_	6	advmod	_	_
+6	agiva	agivo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = E Sorri non si ribellava.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	Sorri	Sorri	PROPN	SP	_	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	ribellava	ribellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = E noi fremevamo di sdegno.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	fremevamo	fremere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = Poi Donisa impaperossi con le formule e allora malignon malignoni il professore chiesele nientemeno che il bromo che non aveva mai domandato a nessuno.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	Donisa	Donisa	PROPN	SP	_	0	root	_	_
+3	impaperossi	impaperuovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	formule	formula	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	e	e	CCONJ	CC	_	13	cc	_	_
+8	allora	allora	ADV	B	_	13	advmod	_	_
+9	malignon	malignon	ADP	E	_	10	case	_	_
+10	malignoni	malignone	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	professore	professore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	chiesele	chiesele	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	nientemeno	nientemeno	ADV	B	_	13	advmod	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	bromo	bromo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+21	mai	mai	ADV	B	_	22	advmod	_	_
+22	domandato	domandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = Seguirono altri che fiascarono lo stesso.
+1	Seguirono	Seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	fiascarono	fiascare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = Tristissime fummo per li d'Artagnan che disperatissime eran perché alle Alchimie applicate s'eran, ma il Preside alle uscite consololla et li rimedi certo più che brillanti farà.
+1	Tristissime	tristissime	DET	DI	Gender=Fem|Number=Plur	2	det	_	_
+2	fummo	fure	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	Artagnan	Artagnan	PROPN	SP	_	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	disperatissime	disperato	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	eran	eran	ADJ	A	_	8	xcomp	_	_
+10	perché	perché	SCONJ	CS	_	14	mark	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Alchimie	Alchimie	PROPN	SP	_	14	obl	_	_
+14	applicate	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+15	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	SpaceAfter=No
+16	eran	eran	ADJ	A	_	14	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	ma	ma	CCONJ	CC	_	20	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Preside	preside	PROPN	SP	_	24	nsubj	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	uscite	uscita	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+24	consololla	consolollo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+25	et	e	CCONJ	CC	_	27	cc	_	_
+26	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
+27	rimedi	rimedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	conj	_	_
+28	certo	certo	ADV	B	_	27	advmod	_	_
+29	più	più	ADV	B	_	27	advmod	_	_
+30	che	che	SCONJ	CS	_	32	mark	_	_
+31	brillanti	brillare	ADJ	A	Number=Plur	32	amod	_	_
+32	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = Ben, quasi tutto ciò non bastasse, alli ritorni li Cani Bull Cani m'informarono che li Prersidi di noi chieserle conto et che lei ben rispuose et che la Monaghi et la Lifoci sorvegliar deggion li spogliatoi.
+1	Ben	bene	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quasi	quasi	ADV	B	_	5	advmod	_	_
+4	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	bastasse	bastare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	alli	allo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	10	nsubj	_	_
+10	ritorni	ritorno	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	Cani	cani	PROPN	SP	_	10	obj	_	_
+13	Bull	Bull	PROPN	SP	_	12	flat:name	_	_
+14	Cani	cani	PROPN	SP	_	12	flat:name	_	_
+15	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	SpaceAfter=No
+16	informarono	informare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+17	che	che	SCONJ	CS	_	19	mark	_	_
+18	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+19	Prersidi	Prersidio	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	19	obl	_	_
+22-23	chieserle	_	_	_	_	_	_	_	_
+22	chieser	chiesere	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	conto	conto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+25	et	e	CCONJ	CC	_	29	cc	_	_
+26	che	che	SCONJ	CS	_	25	fixed	_	_
+27	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+28	ben	bene	ADV	B	_	29	advmod	_	_
+29	rispuose	rispuoso	ADJ	A	Gender=Fem|Number=Plur	19	conj	_	_
+30	et	e	CCONJ	CC	_	37	cc	_	_
+31	che	che	SCONJ	CS	_	37	mark	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Monaghi	Monaghi	PROPN	SP	_	37	nsubj	_	_
+34	et	e	CCONJ	CC	_	36	cc	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Lifoci	Lifoce	PROPN	SP	_	37	conj	_	_
+37	sorvegliar	sorvegliare	VERB	V	VerbForm=Inf	29	conj	_	_
+38	deggion	deggione	ADP	E	_	39	case	_	_
+39	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	obl	_	_
+40	spogliatoi	spogliato	PRON	PE	Number=Plur|Person=1|PronType=Prs	39	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = Ma ecchete le compagne dilette che annunzian che la Cristola ha ricevuto la lettera del Preside e la motter nelle ire adò et promise tosto una venuta dalli Presidi onde cambiar posto alla Cristola et non farla più con noi venire.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ecchete	ecchere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	compagne	compagna	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	dilette	diletto	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+7	annunzian	annunzian	ADV	B	_	12	mark	_	_
+8	che	che	SCONJ	CS	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Cristola	Cristola	PROPN	SP	_	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Preside	preside	PROPN	SP	_	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	motter	motter	NOUN	S	Number=Sing	24	conj	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	ire	ira	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+24	adò	ade	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+25	et	e	CCONJ	CC	_	26	cc	_	_
+26	promise	promettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+27	tosto	tosto	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	venuta	venuto	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30	dalli	dalle	ADJ	A	Number=Plur	29	amod	_	_
+31	Presidi	presido	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+32	onde	onde	SCONJ	CS	_	33	mark	_	_
+33	cambiar	cambiare	VERB	V	VerbForm=Inf	31	advcl	_	_
+34	posto	posto	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+35-36	alla	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Cristola	Cristola	PROPN	SP	_	33	obl	_	_
+38	et	e	CCONJ	CC	_	40	cc	_	_
+39	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+40-41	farla	_	_	_	_	_	_	_	_
+40	far	fare	VERB	V	VerbForm=Inf	33	conj	_	_
+41	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+42	più	più	ADV	B	_	44	advmod	_	_
+43	con	con	ADP	E	_	44	case	_	_
+44	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	40	obl	_	_
+45	venire	venire	VERB	V	VerbForm=Inf	40	ccomp	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Li strazi furon grandi et alle sortite mandammo la Monari quale vendetta, ma dalle scale la Cristola scorse la furentissima genitrice, onde rattissima volò e con lei andossene.
+1	Li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+2	strazi	strazio	ADP	E	_	3	case	_	_
+3	furon	furon	NOUN	S	Gender=Fem	1	nmod	_	_
+4	grandi	grande	ADJ	A	Number=Plur	3	amod	_	_
+5	et	e	CCONJ	CC	_	8	cc	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	sortite	sortita	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+9	mandammo	mandare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Monari	Monario	PROPN	SP	_	9	nsubj	_	_
+12	quale	quale	ADP	E	_	13	case	_	_
+13	vendetta	vendettare	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	21	punct	_	_
+15	ma	ma	CCONJ	CC	_	21	cc	_	_
+16-17	dalle	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	scale	scala	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Cristola	Cristola	PROPN	SP	_	21	nsubj	_	_
+21	scorse	scorso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	furentissima	furento	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	24	amod	_	_
+24	genitrice	genitore	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	onde	onda	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	_
+27	rattissima	ratto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	26	amod	_	_
+28	volò	volare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	advcl	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	con	con	ADP	E	_	31	case	_	_
+31	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obl	_	_
+32-34	andossene	_	_	_	_	_	_	_	SpaceAfter=No
+32	andos	andos	X	X	_	28	conj	_	_
+33	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+34	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	35	expl	_	_
+35	.	.	PUNCT	FS	_	32	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 35
+# text = Ma io e la Donisa che a retro venivamo, vedemmo la Cristola solatia alla stazione onde accelerammo i passi mentre Crstola rallentava i suoi.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Donisa	Donisa	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+6	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	retro	retro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+9	venivamo	venire	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	vedemmo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Cristola	Cristola	PROPN	SP	_	11	obj	_	_
+14	solatia	solatiare	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+18	onde	onde	ADJ	A	Number=Sing	17	amod	_	_
+19	accelerammo	accelerare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	11	advcl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	passi	passo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+22	mentre	mentre	SCONJ	CS	_	24	mark	_	_
+23	Crstola	Crstola	PROPN	SP	_	24	nsubj	_	_
+24	rallentava	rallentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 36
+# text = Così raggiungemmola et essa disseci aver la motter parlato con li Presidi et drammatizzato assai la situazione, ma per fortuna delli posti nulla disse.
+1	Così	così	ADV	B	_	9	advmod	_	_
+2	raggiungemmola	raggiungemmolare	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+3	et	e	CCONJ	CC	_	5	cc	_	_
+4	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+5	disseci	disseci	NUM	N	_	2	conj	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+7	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	motter	motter	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	parlato	parlato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	Presidi	presidio	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+13	et	e	CCONJ	CC	_	14	cc	_	_
+14	drammatizzato	drammatizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+15	assai	assai	ADV	B	_	14	advmod	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	25	punct	_	_
+19	ma	ma	CCONJ	CC	_	25	cc	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+22	delli	dello	ADJ	A	Number=Plur	21	amod	_	_
+23	posti	porre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	advcl	_	_
+24	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obj	_	_
+25	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+

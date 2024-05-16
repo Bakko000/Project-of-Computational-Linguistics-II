@@ -1,0 +1,329 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sabato 15 aprile 1978
+1	Sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	15	15	NUM	N	NumType=Card	1	nmod	_	_
+3	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1978	1978	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Ore 13.
+1	Ore	ora	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	13	13	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Mi sono alzata alle 11.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	alzata	alzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	11	11	NUM	N	NumType=Card	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Non riesco a trovare le "Odi" del Foscolo che mi servirebbero per andare avanti.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Odi	Odi	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Foscolo	Foscolo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+14	servirebbero	servire	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	andare	andare	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	avanti	avanti	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Anche stamattina, niente, cazzo, non ho scritto una riga, cazzo cazzo cazzo.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	stamattina	stamattina	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	niente	niente	PRON	PI	Number=Sing|PronType=Ind	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	riga	riga	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+15	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	14	compound	_	_
+16	cazzo	cazzo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Ore 14,30.
+1	Ore	ora	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	14,30	14,30	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Ho trovato il nocciolo, le implicazioni foscoliane e pariniane della prima poesia del Satta.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nocciolo	nocciolo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	implicazioni	implicazione	NOUN	S	Gender=Fem|Number=Plur	2	parataxis	_	_
+8	foscoliane	foscoliano	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	pariniane	pariniano	ADJ	A	Gender=Fem|Number=Plur	8	conj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	14	amod	_	_
+14	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Satta	Satta	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Non ho ancora mangiato.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Sto facendo le patate lesse, un uovo sodo e i carciofi fritti e lessati con l'aglio, ricordo di come si fanno, più o meno.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	patate	patato	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	lesse	lesso	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	uovo	uovo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+9	sodo	sodo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	carciofi	carciofo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+13	fritti	fritto	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	lessati	lessato	ADJ	A	Gender=Masc|Number=Plur	13	conj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	aglio	aglio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+21	di	di	ADP	E	_	24	mark	_	_
+22	come	come	SCONJ	CS	_	21	fixed	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	più	più	ADV	B	_	24	advmod	_	_
+27	o	o	CCONJ	CC	_	28	cc	_	_
+28	meno	meno	ADV	B	_	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Mangio anche un po' di carne.
+1	Mangio	mangio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	carne	carne	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Questa gatta Misha è una palletta.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	gatta	gatta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Misha	Misha	PROPN	SP	_	2	nmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	palletta	palletta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = E' tenera e noiosa.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	tenera	tenero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	noiosa	noioso	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Alla TV non c'è un cazzo.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	TV	TV	PROPN	SP	_	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = E' sabato.
+1	E'	essere	DET	DD	Number=Sing|PronType=Dem	2	det	_	_
+2	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Piove da più giorni e pioverà ancora.
+1	Piove	piovere	ADV	B	_	0	root	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	pioverà	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+7	ancora	ancora	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Il nonno di Andreina ha detto:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Andreina	Andreina	PROPN	SP	_	2	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 17
+# text = "Se piove il 9, piove tutto aprile!"
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	3	mark	_	_
+3	piove	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	9	9	NUM	N	NumType=Card	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	piove	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	tutto	tutto	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	7	punct	_	_
+
+# sent_id = 18
+# text = E infatti, ecco qua.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	infatti	infatti	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ecco	ecco	ADV	B	_	5	advmod	_	_
+5	qua	qua	ADV	B	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Anzi, dovrebbe piovere per quaranta giorni.
+1	Anzi	anzi	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	piovere	piovere	VERB	V	VerbForm=Inf	0	root	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	quaranta	quaranta	NUM	N	NumType=Card	7	nummod	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Che strazio.
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	strazio	strazio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = E io ho tanta voglia di sole, di mettermi al sole sulla sdraio.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	sole	sole	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	mettermi	mettermo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sole	sole	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sdraio	sdraio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Ore 24 circa.
+1	Ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	24	24	NUM	N	NumType=Card	1	nummod	_	_
+3	circa	circa	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = Ma ho ancora dubbi, e molti, su tutto.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	dubbi	dubbo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = La stesura, poi, mi riempie di orrore e preoccupazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	stesura	stesura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	poi	poi	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	riempie	riempire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = "Interno di un convento" all'Aniene con Felice incazzato perché non sono andata da lui questo pomeriggio.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Interno	interno	PROPN	SP	_	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	convento	convento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	2	punct	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Aniene	aniene	PROPN	SP	_	2	nmod	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	Felice	felice	PROPN	SP	_	9	nmod	_	_
+12	incazzato	incazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+13	perché	perché	SCONJ	CS	_	16	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

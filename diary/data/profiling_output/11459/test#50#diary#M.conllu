@@ -1,0 +1,228 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Jun 12, 1998 at 07:07:35
+1	Jun	Juno	PROPN	SP	_	0	root	_	_
+2	12	12	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	1998	1998	NUM	N	NumType=Card	5	nummod	_	_
+5	at	at	NOUN	S	Gender=Masc	1	nmod	_	_
+6	07:07:35	07:07:35	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = from Dan to Everyone
+1	from	from	NOUN	S	Gender=Masc	0	root	_	_
+2	Dan	Dan	PROPN	SP	_	1	nmod	_	_
+3	to	to	ADP	E	_	4	case	_	_
+4	Everyone	Everyone	PROPN	SP	_	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Ho scritto… molte titubanze, mi riconosceranno?
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	scritto…	scritto…	PUNCT	FF	_	1	punct	_	_
+3	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	titubanze	titubanza	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	riconosceranno	riconoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = faccio partedi questo gruppo??
+1	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	partedi	partede	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Parlo una “lingua” conosciuta?… ebbene sì!! ho ricevute ben due risposte calorose e simpatiche.
+1	Parlo	parlare	PROPN	SP	_	6	nsubj	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	_
+6	conosciuta	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+8	…	…	PUNCT	FF	_	14	punct	_	_
+9	ebbene	ebbene	CCONJ	CC	_	14	cc	_	_
+10	sì	sì	ADV	B	_	14	advmod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	14	punct	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	14	punct	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	ricevute	ricevere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+15	ben	bene	ADV	B	_	14	advmod	_	_
+16	due	due	NUM	N	NumType=Card	17	nummod	_	_
+17	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+18	calorose	caloroso	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	simpatiche	simpatico	ADJ	A	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Io ho la maniodepressione, brevi momenti di complessi di onnipotenza, o complesso del profeta… e anni di autopunizioni, depressioni disperate fino a tendenze suicide, oibò!!!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	maniodepressione	maniodepressione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	brevi	breve	ADJ	A	Number=Plur	4	amod	_	_
+7	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	complessi	complesso	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	onnipotenza	onnipotenza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	complesso	complesso	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	23	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+17	profeta…	profeta…	PUNCT	FF	_	19	punct	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	autopunizioni	autopunizione	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	depressioni	depressioni	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+24	disperate	disperato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25	fino	fino	ADV	B	_	27	case	_	_
+26	a	a	ADP	E	_	25	fixed	_	_
+27	tendenze	tendenza	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+28	suicide	suicido	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	23	punct	_	_
+30	oibò	oibare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+31	!!	!!	PUNCT	FF	_	30	punct	_	SpaceAfter=No
+32	!	!	PUNCT	FS	_	30	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Oggi sono in una fase diricostruzione, dopo che il mondo in cui ho vissuto 12 anni si è disgregato (vivo in Israele ero in un kibbutz, una specie di comune agricola, e sono uscito per divergenze ideologiche ed economiche;
+1	Oggi	oggi	ADV	B	_	5	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fase	fase	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	diricostruzione	diricostruzione	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	dopo	dopo	ADV	B	_	20	mark	_	_
+9	che	che	SCONJ	CS	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	12	12	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	disgregato	disgregare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	20	xcomp	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	Israele	Israele	PROPN	SP	_	22	obl	_	_
+25	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	28	cop	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	kibbutz	kibbutz	NOUN	S	Gender=Masc	22	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	specie	specie	NOUN	S	Gender=Fem	28	appos	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	comune	comune	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+34	agricola	agricolo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	38	punct	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+39	per	per	ADP	E	_	40	case	_	_
+40	divergenze	divergenza	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	_
+41	ideologiche	ideologico	ADJ	A	Gender=Fem|Number=Plur	40	amod	_	_
+42	ed	e	CCONJ	CC	_	43	cc	_	_
+43	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	41	conj	_	SpaceAfter=No
+44	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 8
+# text = non voglio dilungarmi su questa vicenda ancora calda e dolorosa)… Sono tornato alla città:
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dilungarmi	arma|dilungarme	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	ancora	ancora	ADV	B	_	8	advmod	_	_
+8	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+12	…	…	PUNCT	FF	_	14	punct	_	_
+13	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	città	città	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = Haifa.
+1	Haifa	Haifa	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Prima vivevo a Milano.
+1	Prima	prima	ADV	B	_	2	advmod	_	_
+2	vivevo	vivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Milano	Milano	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Mi sento estraneo diverso odio la violenza anche verbale, la competizione animale… ovviamente non trovo lavoro né amici ed ecco che il compiuter che dovevo usare per studiare grafica, diventa l'unica cosa che parla con me.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	estraneo	estraneo	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	diverso	diverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+5	odio	odiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	verbale	verbale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	competizione	competizione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	animale…	animale…	PUNCT	FF	_	16	punct	_	_
+14	ovviamente	ovviamente	ADV	B	_	16	advmod	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+17	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+18	né	né	CCONJ	CC	_	19	cc	_	_
+19	amici	amico	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+20	ed	e	CCONJ	CC	_	32	cc	_	_
+21	ecco	ecco	ADV	B	_	32	advmod	_	_
+22	che	che	SCONJ	CS	_	32	mark	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	compiuter	compiuter	NOUN	S	Number=Sing	32	nsubj	_	_
+25	che	che	PRON	PR	PronType=Rel	27	obj	_	_
+26	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	usare	usare	VERB	V	VerbForm=Inf	24	acl:relcl	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29	studiare	studiare	VERB	V	VerbForm=Inf	27	advcl	_	_
+30	grafica	grafico	ADJ	A	Gender=Fem|Number=Sing	29	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	24	punct	_	_
+32	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+34	unica	unico	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+36	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+37	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+38	con	con	ADP	E	_	39	case	_	_
+39	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n\n
+

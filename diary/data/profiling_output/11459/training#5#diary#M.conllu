@@ -1,0 +1,783 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ministerio Abruzzese
+1	Ministerio	Ministerio	PROPN	SP	_	0	root	_	_
+2	Abruzzese	abruzzese	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Villa S. Sebastiano è una frazione Tagliacozzo (L'Aquila) dal quale dista 8 chilometri;
+1	Villa	Villa	PROPN	SP	_	6	nsubj	_	_
+2	S.	S.	PROPN	SP	_	1	flat:name	_	_
+3	Sebastiano	Sebastiano	PROPN	SP	_	1	flat:name	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	frazione	frazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	Tagliacozzo	Tagliacozzo	PROPN	SP	_	6	nmod	_	_
+8	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Aquila	aquila	PROPN	SP	_	7	appos	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	quale	quale	PRON	PR	Number=Sing|PronType=Rel	15	obl	_	_
+15	dista	dista	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+16	8	8	NUM	N	NumType=Card	17	nummod	_	_
+17	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = conta meno di 1500 abitanti, ed è situata in una conca ai piedi del monte Orunzo.
+1	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	meno	meno	PRON	PI	PronType=Ind	1	obj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	1500	1500	NUM	N	NumType=Card	5	nummod	_	_
+5	abitanti	abitante	NOUN	S	Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ed	e	CCONJ	CC	_	9	cc	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	situata	situare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	conca	conca	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	monte	monte	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+19	Orunzo	Orunzo	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Per tutti gli atti civili e giudiziari bisogna andare a Tagliacozzo, oppure ad Avezzano distante 11 chilometri.
+1	Per	per	ADP	E	_	4	case	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	atti	atto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+5	civili	civile	ADJ	A	Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	giudiziari	giudiziario	ADJ	A	Number=Plur	5	conj	_	_
+8	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Tagliacozzo	Tagliacozzo	PROPN	SP	_	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	oppure	oppure	CCONJ	CC	_	15	cc	_	_
+14	ad	a	ADP	E	_	15	case	_	_
+15	Avezzano	Avezzano	PROPN	SP	_	8	conj	_	_
+16	distante	distante	ADJ	A	Number=Sing	15	amod	_	_
+17	11	11	NUM	N	NumType=Card	18	nummod	_	_
+18	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = È un paese eminentemente agricolo, e la coltivazione più redditizia è quella della barbabietola da zucchero che viene utilizzata dallo zuccherificio di Avezzano, il grano, il granturco ed i leguminacei, patate ecc.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	eminentemente	eminentemente	ADV	B	_	5	advmod	_	_
+5	agricolo	agricolo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	13	punct	_	_
+7	e	e	CCONJ	CC	_	13	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	coltivazione	coltivazione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	redditizia	redditizio	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	conj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	barbabietola	barbabietola	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	zucchero	zucchero	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj:pass	_	_
+20	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	utilizzata	utilizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22-23	dallo	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	zuccherificio	zuccherificio	NOUN	S	Gender=Masc|Number=Sing	21	obl:agent	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Avezzano	Avezzano	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	grano	grano	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	granturco	granturco	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+33	ed	e	CCONJ	CC	_	35	cc	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	leguminacei	leguminaceo	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	patate	patare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	35	acl	_	_
+38	ecc	eccetera	ADV	B	_	37	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = C'è un medico ma non la farmacia, rari sono i negozi semivuoti, perché tutti vanno a rifornirsi il giovedì a Tagliacozzo - giorno di mercato, ed il sabato in quello più abbondante di Avezzano.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	medico	medico	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	ma	ma	CCONJ	CC	_	13	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	farmacia	farmacia	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	rari	raro	ADJ	A	Number=Plur	8	amod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	negozi	negozio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+14	semivuoti	semivuoto	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	perché	perché	SCONJ	CS	_	18	mark	_	_
+17	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
+18	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20-21	rifornirsi	_	_	_	_	_	_	_	_
+20	rifornir	rifornire	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	giovedì	giovedì	NOUN	S	Gender=Masc	18	obl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Tagliacozzo	Tagliacozzo	PROPN	SP	_	23	nmod	_	_
+26	-	-	PUNCT	FF	_	25	punct	_	_
+27	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	ed	e	CCONJ	CC	_	33	cc	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	33	nmod	_	_
+36	più	più	ADV	B	_	37	advmod	_	_
+37	abbondante	abbondante	ADJ	A	Number=Sing	35	amod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	Avezzano	Avezzano	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = I villesi, fanno il pane in casa e la maggior parte mescolato con la farina di granturco.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	villesi	villese	NOUN	S	Number=Plur	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pane	pane	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	12	amod	_	_
+12	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+13	mescolato	mescolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	farina	farina	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	granturco	granturco	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = I pani pesano da 2 a 4 chili l'uno, e la cottura al forno vien pagata in pane anziché in danaro, a seconda del peso complessivo del pane cotto.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	pani	pani	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	pesano	pesare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	2	2	NUM	N	NumType=Card	8	nummod	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	4	4	NUM	N	NumType=Card	8	nummod	_	_
+8	chili	chilo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cottura	cottura	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	forno	forno	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	vien	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	pagata	pagare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	pane	pane	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	anziché	anziché	ADV	B	_	24	advmod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	danaro	danaro	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	seconda	seconda	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	peso	peso	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31	complessivo	complessivo	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pane	pane	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+35	cotto	cotto	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = I fornai poi lo rivendono a chi non lo fa, o non può farlo, per altre ragioni: malattia, o miseria ecc.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	fornai	fornaio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	poi	poi	ADV	B	_	5	advmod	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	rivendono	rivendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	o	o	CCONJ	CC	_	15	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-16	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+15	far	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	altre	altro	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	5	punct	_	_
+22	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	o	o	CCONJ	CC	_	25	cc	_	_
+25	miseria	miseria	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+26	ecc	eccetera	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Vi sono anche molte pecore, ma la maggior parte delle famiglie ha una o più vacche per il latte che ogni mattina viene a ritirarlo un carro che lo porta ad Avezzano.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	pecore	pecora	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	14	punct	_	_
+7	ma	ma	CCONJ	CC	_	14	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	10	amod	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	una	uno	NUM	N	NumType=Card	18	nummod	_	_
+16	o	o	CCONJ	CC	_	18	cc	_	_
+17	più	più	DET	DI	PronType=Ind	18	det	_	_
+18	vacche	vacco	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	latte	latte	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	che	che	SCONJ	CS	_	25	mark	_	_
+23	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+24	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+25	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27-28	ritirarlo	_	_	_	_	_	_	_	_
+27	ritirar	ritirare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	carro	carro	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+33	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+34	ad	a	ADP	E	_	35	case	_	_
+35	Avezzano	Avezzano	PROPN	SP	_	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Gli artigiani sono pochi, e tutti gli altri sono contadini o pastori.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	artigiani	artigiano	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	11	punct	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nsubj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	pastori	pastore	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Anche noi dovevamo comperare il pane al forno, ma Irene non lo digeriva per il granturco, ed io dovevo consumarlo cotto, quando diveniva come un sasso.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	dovevamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	comperare	comperare	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pane	pane	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	forno	forno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	Irene	Irene	PROPN	SP	_	15	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	digeriva	digerire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	granturco	granturco	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	ed	e	CCONJ	CC	_	22	cc	_	_
+21	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	dovevo	dovere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+23	consumarlo	consumarlare	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	cotto	cotto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	4	punct	_	_
+26	quando	quando	SCONJ	CS	_	27	mark	_	_
+27	diveniva	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+28	come	come	ADP	E	_	30	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	sasso	sasso	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Bisognava quindi andare a Tagliacozzo, a piedi sino alla fermata del treno, e poi col treno, e così al ritorno, con l'aggiunta del peso delle provviste acquistate per diversi giorni.
+1	Bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	quindi	quindi	ADV	B	_	3	advmod	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Tagliacozzo	Tagliacozzo	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	sino	sino	ADV	B	_	12	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fermata	fermata	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	treno	treno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	poi	poi	ADV	B	_	21	advmod	_	_
+19-20	col	_	_	_	_	_	_	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	treno	treno	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	così	così	ADV	B	_	3	conj	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	1	punct	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	aggiunta	aggiunta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	peso	peso	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35-36	delle	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	provviste	provvista	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+38	acquistate	acquistare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	37	acl	_	_
+39	per	per	ADP	E	_	41	case	_	_
+40	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	41	det	_	_
+41	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = C'era un vecchio camion, adattato a corriera che da un paesello lontano 6 km:
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	camion	camion	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	adattato	adattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	corriera	corriera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	13	cc	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	paesello	paesello	NOUN	S	Gender=Masc|Number=Sing	9	acl:relcl	_	_
+14	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	6	6	NUM	N	NumType=Card	16	nummod	_	_
+16	km	chilometro	NOUN	S	Gender=Masc	14	obl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 15
+# text = Curcumello, scendeva a Villa per andare a Tagliacozzo per poi risalirvi, ma aveva una sola corsa in coincidenza con una coppia di treni da Roma a Pescara, e viceversa, e quindi non utilizzabile almeno per il ritorno a casa con le provviste.
+1	Curcumello	Curcumello	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	scendeva	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Villa	villa	PROPN	SP	_	3	obl	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	andare	andare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Tagliacozzo	Tagliacozzo	PROPN	SP	_	7	obl	_	_
+10	per	per	ADP	E	_	12	mark	_	_
+11	poi	poi	ADV	B	_	12	advmod	_	_
+12-13	risalirvi	_	_	_	_	_	_	_	SpaceAfter=No
+12	risalir	risalire	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	vi	vi	ADV	B	_	12	advmod	_	_
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ma	ma	CCONJ	CC	_	16	cc	_	_
+16	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sola	solo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	coincidenza	coincidenza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	treni	treno	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	Roma	Roma	PROPN	SP	_	24	nmod	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	Pescara	Pescara	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	viceversa	viceversa	ADV	B	_	34	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	38	punct	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36	quindi	quindi	ADV	B	_	38	advmod	_	_
+37	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+38	utilizzabile	utilizzabile	ADJ	A	Number=Sing	3	conj	_	_
+39	almeno	almeno	ADV	B	_	42	advmod	_	_
+40	per	per	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+43	a	a	ADP	E	_	44	case	_	_
+44	casa	casa	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+45	con	con	ADP	E	_	47	case	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	provviste	provvista	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Per il latte lo comperavo dal pr Pietro Pensa e per lo zucchero mi facevo fare i buoni dal medico, dietro compenso;
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	latte	latte	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	comperavo	comperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pr	pr	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	Pietro	Pietro	PROPN	SP	_	8	nmod	_	_
+10	Pensa	Pensa	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	zucchero	zucchero	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	expl	_	_
+16	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	buoni	buono	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	medico	medico	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	dietro	dietro	ADP	E	_	25	case	_	_
+25	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 17
+# text = per le patate, i legumi ecc.
+1	per	per	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	patate	patato	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	legumi	legume	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+7	ecc	eccetera	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = me le regalavano in abbondanza i membri della Comunità.
+1	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	regalavano	regalare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	abbondanza	abbondanza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	membri	membro	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Comunità	comunità	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Sovente mi regalavano anche qualche pagnotta di pane, ma lo dovevo consumare cotto per non sprecarlo.
+1	Sovente	Sovente	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	regalavano	regalare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	pagnotta	pagnotta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	pane	pane	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+12	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	consumare	consumare	VERB	V	VerbForm=Inf	3	conj	_	_
+14	cotto	cotto	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	sprecarlo	sprecarlo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Di frutta non c'erano che le mandorle sul monte Orunzo, ma i ragazzi le rubavano prima della maturazione.
+1	Di	di	ADP	E	_	2	case	_	_
+2	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	19	mark	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8-9	mandorle	_	_	_	_	_	_	_	_
+8	mandor	mandor	NOUN	S	_	19	nsubj	_	_
+9	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	monte	monte	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	Orunzo	Orunzo	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	ma	ma	CCONJ	CC	_	19	cc	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+18	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+19	rubavano	rubare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+20	prima	prima	ADV	B	_	23	case	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	20	fixed	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	maturazione	maturazione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Di fichi, di uva, di altra frutta non ce n'era e bisognava acquistarla nei mercati suddetti.
+1	Di	di	ADP	E	_	2	case	_	_
+2	fichi	fico	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	uva	uva	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	13	punct	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+12	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	SpaceAfter=No
+13	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+16-17	acquistarla	_	_	_	_	_	_	_	_
+16	acquistar	acquistare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18-19	nei	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+21	suddetti	suddetto	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Per andare e venire dai detti paesi, Carrari aveva una bicicletta di proprietà dell'Amministrazione di Roma della quale si servivano anche i parrocchiani, chiedendola in prestito, ed ai quali non si poteva negare, ma finirono per guastarla e buttarla nel magazzino che serviva a mettere la legna.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	andare	andare	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	venire	venire	VERB	V	VerbForm=Inf	2	conj	_	_
+5-6	dai	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	detti	detto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	Carrari	Carrari	PROPN	SP	_	11	nsubj	_	_
+11	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	bicicletta	bicicletta	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	proprietà	proprietà	NOUN	S	Gender=Fem	13	nmod	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	Amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Roma	Roma	PROPN	SP	_	18	nmod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	quale	quale	PRON	PR	Number=Sing|PronType=Rel	25	obl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	servivano	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+26	anche	anche	ADV	B	_	28	advmod	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	parrocchiani	parrocchiano	NOUN	S	Gender=Masc|Number=Plur	25	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	25	punct	_	_
+30-31	chiedendola	_	_	_	_	_	_	_	_
+30	chiedendo	chiedere	VERB	V	VerbForm=Ger	25	advcl	_	_
+31	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	prestito	prestito	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	42	punct	_	_
+35	ed	e	CCONJ	CC	_	42	cc	_	_
+36-37	ai	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	quali	quale	PRON	PR	Number=Plur|PronType=Rel	42	obl	_	_
+39	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl:impers	_	_
+41	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	aux	_	_
+42	negare	negare	VERB	V	VerbForm=Inf	11	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	ma	ma	CCONJ	CC	_	45	cc	_	_
+45	finirono	finire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+46	per	per	ADP	E	_	47	mark	_	_
+47-48	guastarla	_	_	_	_	_	_	_	_
+47	guastar	guastare	VERB	V	VerbForm=Inf	45	advcl	_	_
+48	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	obj	_	_
+49	e	e	CCONJ	CC	_	50	cc	_	_
+50-51	buttarla	_	_	_	_	_	_	_	_
+50	buttar	buttare	VERB	V	VerbForm=Inf	47	conj	_	_
+51	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	50	obj	_	_
+52-53	nel	_	_	_	_	_	_	_	_
+52	in	in	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	magazzino	magazzino	NOUN	S	Gender=Masc|Number=Sing	50	obl	_	_
+55	che	che	PRON	PR	PronType=Rel	56	nsubj	_	_
+56	serviva	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	acl:relcl	_	_
+57	a	a	ADP	E	_	58	mark	_	_
+58	mettere	mettere	VERB	V	VerbForm=Inf	56	xcomp	_	_
+59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	legna	legna	NOUN	S	Gender=Fem	58	obj	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Eppure proprio la sera che arrivarono i mobili e feci depositare gli imballaggi, la rubarono.
+1	Eppure	eppure	CCONJ	CC	_	16	cc	_	_
+2	proprio	proprio	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sera	sera	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	arrivarono	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	mobili	mobile	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	feci	fece	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+11	depositare	depositare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	imballaggi	imballaggio	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	rubarono	rubarono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 24
+# text = Essendo proprietà di Roma dovetti avvertire i Carabinieri, che venivano per servizio in giorni alterni da Tagliacozzo, ma non si trovò nulla.
+1	Essendo	essere	AUX	V	VerbForm=Ger	2	cop	_	_
+2	proprietà	proprietà	NOUN	S	Gender=Fem	5	advcl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Roma	Roma	PROPN	SP	_	2	nmod	_	_
+5	dovetti	dovetto	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+6	avvertire	avvertire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Carabinieri	Carabinieri	PROPN	SP	_	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	venivano	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+16	alterni	alterno	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	Tagliacozzo	Tagliacozzo	PROPN	SP	_	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	ma	ma	CCONJ	CC	_	23	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+24	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = A me non avrebbe servito anche se fosse stata utilizzabile, perché non sapevo usarla, e quindi dovevano servirsene gli altri, quindi non vi feci caso, solo avvertì Roma, per eventuali responsabilità.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	servito	servire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	anche	anche	ADV	B	_	10	mark	_	_
+7	se	se	SCONJ	CS	_	6	fixed	_	_
+8	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+10	utilizzabile	utilizzabile	ADJ	A	Number=Sing	5	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	perché	perché	SCONJ	CS	_	15	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	sapevo	sapere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15-16	usarla	_	_	_	_	_	_	_	SpaceAfter=No
+15	usar	usare	VERB	V	VerbForm=Inf	10	advcl	_	_
+16	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	quindi	quindi	ADV	B	_	21	advmod	_	_
+20	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21-23	servirsene	_	_	_	_	_	_	_	_
+21	servir	servire	VERB	V	VerbForm=Inf	15	conj	_	_
+22	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	quindi	quindi	ADV	B	_	30	advmod	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	vi	vi	ADV	B	_	30	advmod	_	_
+30	feci	feci	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	solo	solo	ADV	B	_	34	advmod	_	_
+34	avvertì	avvertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	conj	_	_
+35	Roma	Roma	PROPN	SP	_	34	obj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	34	punct	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	eventuali	eventuale	ADJ	A	Number=Plur	39	amod	_	_
+39	responsabilità	responsabilità	NOUN	S	Gender=Fem	34	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

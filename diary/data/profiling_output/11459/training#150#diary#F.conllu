@@ -1,0 +1,574 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Brno 25 dicembre 1989
+1	Brno	Brno	ADV	B	_	2	advmod	_	_
+2	25	25	NUM	N	NumType=Card	0	root	_	_
+3	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1989	1989	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Carissima Athe e tutti i tuoi cari.
+1	Carissima	Caro	PROPN	SP	_	0	root	_	_
+2	Athe	Athe	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	7	cc	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	cari	caro	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E' passata mezz'ora dopo la nostra telefonata ed io sono felice, ma anche disperata per mia incapacità.
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	mezz'	mezzo	ADP	E	_	4	case	_	SpaceAfter=No
+4	ora	ora	ADV	B	_	2	advmod	_	_
+5	dopo	dopo	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	conj	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	felice	felice	ADJ	A	Number=Sing	2	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	disperata	disperare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	incapacità	incapacità	NOUN	S	Gender=Fem	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ho capito quasi tutto ma vorrei parlare italiano meglio.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	quasi	quasi	ADV	B	_	4	advmod	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	parlare	parlare	VERB	V	VerbForm=Inf	2	conj	_	_
+8	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	_
+9	meglio	meglio	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Vorrei aprirsi i nostri cuori.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	aprirsi	_	_	_	_	_	_	_	_
+2	aprir	aprire	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Siamo forse divenuti pazzi dalla gioia.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+2	forse	forse	ADV	B	_	3	advmod	_	_
+3	divenuti	divenire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	pazzi	pazzo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Tutti nostri giovani ed a primo posto gli studenti sono stati fantastici, sono sempre in sciopero.
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
+2	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	giovani	giovane	NOUN	S	Number=Plur	12	nsubj	_	_
+4	ed	e	CCONJ	CC	_	7	cc	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	cop	_	_
+12	fantastici	fantastico	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	sempre	sempre	ADV	B	_	17	advmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	sciopero	sciopero	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Siamo felici ma anche tristi, dobbiamo pensare il popolo Romano.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	felici	felice	ADJ	A	Number=Plur	8	advcl	_	_
+3	ma	ma	CCONJ	CC	_	5	cc	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	tristi	triste	ADJ	A	Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	Romano	Romano	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = Da noi era “la rivoluzione tenera” ma in Romania, come sai, sono tanti morti.
+1	Da	da	ADP	E	_	2	case	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	tenera	tenero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	18	punct	_	_
+9	ma	ma	CCONJ	CC	_	18	cc	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Romania	Romania	PROPN	SP	_	18	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	sai	sapere	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	morti	morte	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Da noi sono stati soltanto feriti gravemente.
+1	Da	da	ADP	E	_	2	case	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	soltanto	soltanto	ADV	B	_	6	advmod	_	_
+6	feriti	ferire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	gravemente	gravemente	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Come ti ho detto, ieri sera (24.12) siamo stati con mio marito nella casa di Ilona (là siamo ogni l'anno).
+1	Come	come	SCONJ	CS	_	4	mark	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ieri	ieri	ADV	B	_	4	advmod	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	24.12	24.12	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	cop	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	marito	marito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Ilona	Ilona	PROPN	SP	_	18	nmod	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	là	là	ADV	B	_	23	advmod	_	_
+23	siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+24	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	26	det	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	anno	anno	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 12
+# text = Ilona e Milòs sanno preparare la cena superiore.
+1	Ilona	Ilona	PROPN	SP	_	4	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Milòs	Milòs	PROPN	SP	_	1	conj	_	_
+4	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	preparare	preparare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cena	cena	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Ti ripeto, dopo la cena ho letto loro, tua ultima lettera abbiamo parlato molto di noi.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	ripeto	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dopo	dopo	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cena	cena	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+9	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+12	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+16	molto	molto	ADV	B	_	18	advmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Ilona ed io abbiamo pianto.
+1	Ilona	Ilonare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ed	e	CCONJ	CC	_	5	cc	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pianto	piangere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Abbiamo ascoltato canto di Natale.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ascoltato	ascoltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	canto	canto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Natale	Natale	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Adesso siamo liberi, la nostra frontiera con Austria è aperta, possiamo viaggiare.
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	frontiera	frontiera	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	Austria	Austria	PROPN	SP	_	7	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	3	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	viaggiare	viaggiare	VERB	V	VerbForm=Inf	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Alés, Ilona e Milòs sono stati 17.12 in Vienna.
+1	Alés	Alés	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Ilona	Ilona	PROPN	SP	_	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Milòs	Milòs	PROPN	SP	_	1	conj	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	cop	_	_
+8	17.12	17.12	NUM	N	NumType=Card	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Vienna	Vienna	PROPN	SP	_	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 18
+# text = Nostra banca cambia 500 Kco–300 Scellino.
+1	Nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	banca	banca	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	500	500	NUM	N	NumType=Card	5	nummod	_	_
+5	Kco–300	Kco–300	PROPN	SP	_	3	obj	_	_
+6	Scellino	Scellino	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Più non è possibile è troppo poco.
+1	Più	più	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	troppo	troppo	ADV	B	_	7	advmod	_	_
+7	poco	poco	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Non puoi comprare nulla non puoi trascorrere là né una notte.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	comprare	comprare	VERB	V	VerbForm=Inf	0	root	_	_
+4	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	trascorrere	trascorrere	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	là	là	ADV	B	_	7	advmod	_	_
+9	né	né	CCONJ	CC	_	11	cc	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	notte	notte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Vedremo cosa sarà fra un l'anno.
+1	Vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+3	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+4	fra	fra	ADP	E	_	7	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Sicuro anche da noi sono tanti quelli hanno lavorato anni all'estero essi possiedono la valuta.
+1	Sicuro	sicuro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	ccomp	_	_
+7	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	9	nsubj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	estero	estero	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	possiedono	possedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	valuta	valuta	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = Ma su questo non importa.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	su	su	ADP	E	_	3	case	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = Dobbiamo aspettare.
+1	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aspettare	aspettare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Cara Athe, puoi dirmi in che giornale tuo fratello vuole pubblicare mia lettera ?
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Athe	Athe	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	dirmi	_	_	_	_	_	_	_	_
+5	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	che	che	DET	DQ	PronType=Int	9	det	_	_
+9	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+10	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	pubblicare	pubblicare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = Posso avere (dopo) il ritaglio?
+1	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	dopo	dopo	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ritaglio	ritaglio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Forse viene un giorno in cui sarà possibile di nuovo comprare “Noi donne”, “l'Unità”.
+1	Forse	forse	ADV	B	_	2	advmod	_	_
+2	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	cop	_	_
+8	possibile	possibile	ADJ	A	Number=Sing	4	acl:relcl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	obl	_	_
+11	comprare	comprare	VERB	V	VerbForm=Inf	8	csubj	_	_
+12	“	“	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	donne	donna	NOUN	S	Gender=Fem|Number=Plur	11	ccomp	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	“	“	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	Unità	Unità	NOUN	S	Gender=Fem	14	conj	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Anni questo era proibito.
+1	Anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	proibito	proibire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = Adesso noi vecchi, vogliamo essere giovani e sani, naturalmente è più desiderio.
+1	Adesso	adesso	ADV	B	_	7	advmod	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+3	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+7	giovani	giovane	ADJ	A	Number=Plur	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	sani	sano	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	naturalmente	naturalmente	ADV	B	_	14	advmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	desiderio	desiderio	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 30
+# text = Peccato che non mi hai risposto alla una mia lettera in cui te ho domandato alcune cose.
+1	Peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+5	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	11	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+14	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	iobj	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	domandato	domandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+18	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = (Abbiamo parlato Praga-Brno).
+1	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	Praga-Brno	Praga-Brno	PROPN	SP	_	3	obj	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = Anche ti mando alcune lettere di Tommi.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+3	mando	mare	VERB	V	VerbForm=Ger	0	root	_	_
+4	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Tommi	Tomma	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = Ho comprato per Laura e Francesca due bambole nel costume nazionale.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	Laura	Laura	PROPN	SP	_	2	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Francesca	Francesca	PROPN	SP	_	4	conj	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	bambole	bambola	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	costume	costume	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	nazionale	nazionale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 34
+# text = Devo ancora riflettere cosa ancora comprare e spedire.
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	ancora	ancora	ADV	B	_	3	advmod	_	_
+3	riflettere	riflettere	VERB	V	VerbForm=Inf	0	root	_	_
+4	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	6	obj	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	comprare	comprare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	spedire	spedire	VERB	V	VerbForm=Inf	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = In che mese volete venire per Brno?
+1	In	in	ADP	E	_	3	case	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	mese	mese	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	volete	volere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	venire	venire	VERB	V	VerbForm=Inf	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	Brno	Brno	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 36
+# text = Devo dirti ancora che sono stata di nuovo malata con la febbre.
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dirti	_	_	_	_	_	_	_	_
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+4	ancora	ancora	ADV	B	_	2	advmod	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	malata	malato	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 37
+# text = Bronchite.
+1	Bronchite	bronchite	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 38
+# text = E' bisogna non fumare!!
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	fumare	fumare	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 39
+# text = Saluti e baci, tua Marie
+1	Saluti	Saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	baci	baco	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Marie	Marie	PROPN	SP	_	1	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 40
+# text = Sei come mia sorella.
+1	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

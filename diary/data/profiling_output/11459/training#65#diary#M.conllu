@@ -1,0 +1,573 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	lino@...	lino@.	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date:
+1	Date	data	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Thu Mar 6 10:37:29 1997
+1	Thu	Thu	ADP	E	_	2	case	_	_
+2	Mar	Mar	PROPN	SP	_	0	root	_	_
+3	6	6	NUM	N	NumType=Card	2	nmod	_	_
+4	10:37:29	10:37:29	NUM	N	NumType=Card	3	flat	_	_
+5	1997	1997	NUM	N	NumType=Card	3	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Subject:
+1	Subject	Subject	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = sdhgg
+1	sdhgg	sdhgg	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Questa mia è giusto per comunicarti che mi sto scassando le palle.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	comunicarti	_	_	_	_	_	_	_	_
+6	comunicar	comunicare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	scassando	scassare	VERB	V	VerbForm=Ger	7	acl:relcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	palle	palla	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Oggi è la prima giornata soleggiata, abbastanza calda (gli Inglesi dicono estiva) e non ventolata contemporaneamente.
+1	Oggi	oggi	ADV	B	_	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	soleggiata	soleggiato	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	abbastanza	abbastanza	ADV	B	_	9	advmod	_	_
+9	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+10	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Inglesi	inglesi	PROPN	SP	_	13	nsubj	_	_
+13	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+14	estiva	estivo	ADJ	A	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	13	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	ventolata	ventolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+19	contemporaneamente	contemporaneamente	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Sembra proprio che ci siano direttive dall'alto per far salire in A i vostri gemelli Genoani al posto del Lecce.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	proprio	proprio	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	direttive	direttiva	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	alto	alto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	far	fare	VERB	V	VerbForm=Inf	1	advcl	_	_
+12	salire	salire	VERB	V	VerbForm=Inf	11	ccomp	_	_
+13	in	in	ADP	E	_	17	case	_	_
+14	A	a	ADP	E	_	13	fixed	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	gemelli	gemello	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+18	Genoani	Genoani	PROPN	SP	_	17	nmod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	posto	posto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Lecce	Lecce	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Nelle ultime settimane stanno succedendo cose strane.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	_
+4	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	succedendo	succedere	VERB	V	VerbForm=Ger	0	root	_	_
+7	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8	strane	strano	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Lecce scandalosamente danneggiato domenica scorsa, e anche un po' il Barimberda che affrontava il Genoa (che comunque sta giocando bene).
+1	Lecce	Leccia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	scandalosamente	scandalosamente	ADV	B	_	3	advmod	_	_
+3	danneggiato	danneggiato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+5	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	12	punct	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	po'	poco	ADV	B	_	12	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Barimberda	Barimberda	PROPN	SP	_	1	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	affrontava	affrontavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Genoa	Genoa	PROPN	SP	_	14	obj	_	_
+17	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	comunque	comunque	ADV	B	_	21	advmod	_	_
+20	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	giocando	giocare	VERB	V	VerbForm=Ger	16	acl:relcl	_	_
+22	bene	bene	ADV	B	_	21	advmod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Ultimamente al Lecce stanno dando in testa da tutte la parti, a partire dallo scandaloso arbitraggio di Lecce-Reggina, fino a quello di Empoli.
+1	Ultimamente	ultimamente	ADV	B	_	6	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Lecce	Lecce	PROPN	SP	_	6	obl	_	_
+5	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dando	dare	VERB	V	VerbForm=Ger	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	testa	testa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	parti	parte	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	partire	partire	VERB	V	VerbForm=Inf	6	advcl	_	_
+16-17	dallo	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	scandaloso	scandaloso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	arbitraggio	arbitraggio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Lecce	Lecce	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+23	Reggina	Reggina	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	6	punct	_	_
+25	fino	fino	ADV	B	_	27	case	_	_
+26	a	a	ADP	E	_	25	fixed	_	_
+27	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Empoli	Empoli	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Due giornate di squalifica a Zanoncelli (espulso per doppia ammonizione, la seconda esagerata) e a Mimmo Francioso (questo forse è un bene, in quanto sta continuamente sbagliando gol facilissimi).
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	squalifica	squalifica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Zanoncelli	Zanoncelli	PROPN	SP	_	2	nmod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	espulso	espellere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	doppia	doppio	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	ammonizione	ammonizione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+15	esagerata	esagerata	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	8	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Mimmo	mimmo	PROPN	SP	_	2	conj	_	_
+20	Francioso	Francioso	PROPN	SP	_	19	flat:name	_	_
+21	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+22	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	26	nsubj	_	_
+23	forse	forse	ADV	B	_	26	advmod	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	bene	bene	NOUN	S	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	in	in	ADP	E	_	32	mark	_	_
+29	quanto	quanto	ADV	B	_	28	fixed	_	_
+30	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	continuamente	continuamente	ADV	B	_	32	advmod	_	_
+32	sbagliando	sbagliare	VERB	V	VerbForm=Ger	26	advcl	_	_
+33	gol	goal	NOUN	S	Gender=Masc	32	obj	_	_
+34	facilissimi	facilissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Squalificato Ventura fino al 24 marzo, e questo scioglie il nodo di Gordio:
+1	Squalificato	squalificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	Ventura	Ventura	PROPN	SP	_	1	obj	_	_
+3	fino	fino	ADV	B	_	6	case	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	24	24	NUM	N	NumType=Card	1	obl	_	_
+7	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+11	scioglie	sciogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	nodo	nodo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Gordio	Gordio	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = se Ventura si arrabbia con gli arbitri, vuol proprio dire che stanno esagerando.
+1	se	se	SCONJ	CS	_	4	mark	_	_
+2	Ventura	Ventura	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	arrabbia	arrabbiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	arbitri	arbitro	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	proprio	proprio	ADV	B	_	11	advmod	_	_
+11	dire	dire	VERB	V	VerbForm=Inf	4	advcl	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	esagerando	esagerare	VERB	V	VerbForm=Ger	11	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Qua mi sto scocciando parecchio, per cui il Lecce diventa sempre più importante.
+1	Qua	qua	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	obj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+3	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scocciando	scocciare	VERB	V	VerbForm=Ger	0	root	_	_
+5	parecchio	parecchio	NOUN	S	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Lecce	Lecce	PROPN	SP	_	11	nsubj	_	_
+11	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+12	sempre	sempre	ADV	B	_	11	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	importante	importante	ADJ	A	Number=Sing	11	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Non ho una valida supervisione, le indicazioni sono un po' vaghe e non vengo aiutato granché.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	valida	valido	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	supervisione	supervisione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	indicazioni	indicazione	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	po'	poco	ADV	B	_	12	advmod	_	_
+12	vaghe	vago	ADJ	A	Gender=Fem|Number=Plur	2	conj	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
+16	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	xcomp	_	_
+17	granché	granché	PRON	PI	PronType=Ind	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Gli obiettivi sono lontanissimi, per cui dovrei pormeli da solo, cosa impossibile per un carattere da scansafatiche come il mio.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	lontanissimi	lontano	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+8	dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	pormeli	pormele	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	solo	solo	ADV	B	_	13	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+14	impossibile	impossibile	ADJ	A	Number=Sing	13	amod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	scansafatiche	scansafatica	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Probabilmente, se tutto andrà relativamente bene, fra tre anni avrò finito il dottorato avendo operato un salto di qualità praticamente nullo.
+1	Probabilmente	probabilmente	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+5	andrà	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+6	relativamente	relativo	ADV	B	_	7	advmod	_	_
+7	bene	bene	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	fra	fra	ADP	E	_	11	case	_	_
+10	tre	tre	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+12	avrò	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	13	aux	_	_
+13	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dottorato	dottorato	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+16	avendo	avere	AUX	VA	VerbForm=Ger	17	aux	_	_
+17	operato	operare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	salto	salto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	qualità	qualità	NOUN	S	Gender=Fem	19	nmod	_	_
+22	praticamente	praticamente	ADV	B	_	23	advmod	_	_
+23	nullo	nullo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 19
+# text = Credo di essere destinato a vivere facendo cose che non mi interesseranno mai, anche se, in questo frangente, confermo di essere contento della scelta.
+1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	4	mark	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	vivere	vivere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	facendo	fare	VERB	V	VerbForm=Ger	6	advcl	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+12	interesseranno	interessare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+13	mai	mai	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	anche	anche	ADV	B	_	22	mark	_	_
+16	se	se	SCONJ	CS	_	15	fixed	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	frangente	frangente	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	confermo	confermo	NOUN	S	Gender=Masc|Number=Sing	12	advcl	_	_
+23	di	di	ADP	E	_	25	mark	_	_
+24	essere	essere	AUX	V	VerbForm=Inf	25	cop	_	_
+25	contento	contento	ADJ	A	Gender=Masc|Number=Sing	22	acl	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Le difficoltà personali, a parte la supervisione, sono quelle previste:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	difficoltà	difficoltà	NOUN	S	Gender=Fem	11	nsubj	_	_
+3	personali	personale	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	supervisione	supervisione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+12	previste	prevedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 21
+# text = difficoltà nell'affrontare problemi pratici (vedi uso computer, per qualsiasi esigenza), quasi impossibilità di instaurare rapporti personali, lingua.
+1	difficoltà	difficoltà	NOUN	S	Gender=Fem	0	root	_	_
+2-3	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	affrontare	affrontare	VERB	V	VerbForm=Inf	1	nmod	_	_
+5	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+6	pratici	pratico	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	uso	uso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10	computer	computer	NOUN	S	Gender=Masc	9	compound	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	esigenza	esigenza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	quasi	quasi	ADV	B	_	18	advmod	_	_
+18	impossibilità	impossibilità	NOUN	S	Gender=Fem	4	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	instaurare	instaurare	VERB	V	VerbForm=Inf	18	acl	_	_
+21	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22	personali	personale	ADJ	A	Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Qua in laboratorio sono con altri tre ragazzi.
+1	Qua	qua	ADV	B	_	8	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	altri	altro	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 23
+# text = Uno è disponibile con me, anche se non si apre moltissimo, ma è normale.
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	disponibile	disponibile	ADJ	A	Number=Sing	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	anche	anche	ADV	B	_	11	mark	_	_
+8	se	se	SCONJ	CS	_	7	fixed	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	moltissimo	molto	ADV	B	Degree=Abs	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	normale	normale	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Uno degli altri due è ostile e si diverte a prendermi in giro perché non ho mai usato una saldatrice, mentre loro, notare, spendono tre settimane di laboratori a fare una minchiata del genere, altrimenti non si laureano (in tre anni).
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+2-3	degli	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	altri	altro	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	due	due	NUM	N	NumType=Card	1	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	ostile	ostile	ADJ	A	Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	diverte	divertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12-13	prendermi	_	_	_	_	_	_	_	_
+12	prender	prendere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	giro	giro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	perché	perché	SCONJ	CS	_	20	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	mai	mai	ADV	B	_	20	advmod	_	_
+20	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	saldatrice	saldatore	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	mentre	mentre	SCONJ	CS	_	27	mark	_	_
+25	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	27	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	notare	notare	VERB	V	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	spendono	spendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+30	tre	tre	NUM	N	NumType=Card	31	nummod	_	_
+31	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	laboratori	laboratorio	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	fare	fare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	minchiata	minchiata	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	genere	genere	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	45	punct	_	_
+42	altrimenti	altrimenti	CCONJ	CC	_	45	cc	_	_
+43	non	non	ADV	BN	PronType=Neg	45	advmod	_	_
+44	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+45	laureano	laureare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+46	(	(	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+47	in	in	ADP	E	_	49	case	_	_
+48	tre	tre	NUM	N	NumType=Card	49	nummod	_	_
+49	anni	anno	NOUN	S	Gender=Masc|Number=Plur	45	obl	_	SpaceAfter=No
+50	)	)	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = Il terzo è innocuo e abbastanza disponibile, ma sicuramente anche lui mi ritiene un perfetto idiota.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	terzo	terzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	innocuo	innocuo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	abbastanza	abbastanza	ADV	B	_	7	advmod	_	_
+7	disponibile	disponibile	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	ma	ma	CCONJ	CC	_	14	cc	_	_
+10	sicuramente	sicuramente	ADV	B	_	14	advmod	_	_
+11	anche	anche	ADV	B	_	12	advmod	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	perfetto	perfetto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	idiota	idioto	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = La buona birra mi aiuta parecchio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	buona	buono	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	birra	birra	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	parecchio	parecchio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Ora ti saluto che ho i fagioli sul fuoco.
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+3	saluto	salere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	fagioli	fagiolo	NOUN	S	Gender=Masc|Number=Plur	3	ccomp	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Lino
+1	Lino	lino	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

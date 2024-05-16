@@ -1,0 +1,214 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 21 – martedì – S. Felice da C.
+1	21	21	NUM	N	NumType=Card	3	nummod	_	_
+2	–	–	PUNCT	FF	_	1	punct	_	_
+3	martedì	martedì	NOUN	S	Gender=Masc	5	nmod	_	_
+4	–	–	PUNCT	FF	_	3	punct	_	_
+5	S.	S.	PROPN	SP	_	0	root	_	_
+6	Felice	Felice	PROPN	SP	_	5	flat:name	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	C.	C.	PROPN	SP	_	5	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Oggi Silvia ha avuto un gran da fare per preparare la casa per l'arrivo del Feldmaresciallo Boroevich – Il comandante in capo di tutto il nostro fronte.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	Silvia	Silvia	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	gran	grande	ADJ	A	Number=Sing	4	amod	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	preparare	preparare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Feldmaresciallo	Feldmaresciallo	PROPN	SP	_	15	nmod	_	_
+19	Boroevich	Boroevich	PROPN	SP	_	18	flat:name	_	_
+20	–	–	PUNCT	FF	_	4	punct	_	_
+21	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	comandante	comandante	NOUN	S	Number=Sing	4	obj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	capo	capo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	di	di	ADP	E	_	29	case	_	_
+26	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	29	det:predet	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	fronte	fronte	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ad aspettarlo davanti la casa saranno stati 35 o 40 ufficiali – sceso dall'auto, li ha passati tutti in rivista intrattenendosi con ciascuno.
+1	Ad	a	ADP	E	_	2	mark	_	_
+2-3	aspettarlo	_	_	_	_	_	_	_	_
+2	aspettar	aspettare	VERB	V	VerbForm=Inf	12	csubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	davanti	davanti	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	aux:pass	_	_
+8	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	cop	_	_
+9	35	35	NUM	N	NumType=Card	12	nummod	_	_
+10	o	o	CCONJ	CC	_	11	cc	_	_
+11	40	40	NUM	N	NumType=Card	9	conj	_	_
+12	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+13	–	–	PUNCT	FB	_	12	punct	_	_
+14	sceso	scendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15-16	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+15	da	da	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	auto	auto	NOUN	S	Gender=Fem	14	obl:agent	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	conj	_	_
+22	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	nsubj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	rivista	rivista	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	intrattenendosi	_	_	_	_	_	_	_	_
+25	intrattenendo	intrattenere	VERB	V	VerbForm=Ger	21	advcl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Lo accompagnava il gen. Kaltenborn che per due volte era venuto a vedere se tutto era in ordine.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	accompagnava	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	gen.	generale	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	Kaltenborn	Kaltenborn	PROPN	SP	_	4	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	volte	volta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	vedere	vedere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	se	se	SCONJ	CS	_	18	mark	_	_
+15	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	13	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Silvia ed io lo abbiamo aspettato in sala, abbiamo fatto poche parole poi ci siamo ritirate e non ci siamo più fatte vedere.
+1	Silvia	Silvia	ADV	B	_	6	advmod	_	_
+2	ed	e	CCONJ	CC	_	6	cc	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aspettato	aspettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	sala	sala	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	parole	parola	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	poi	poi	ADV	B	_	17	advmod	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	iobj	_	_
+16	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	ritirate	ritirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+18	e	e	CCONJ	CC	_	23	cc	_	_
+19	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
+21	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
+24	vedere	vedere	VERB	V	VerbForm=Inf	23	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = Così ho detto a Silvia di venire domani a Cavarzano con le bambine, Gigia rimane, la casa ha tre guardie e non corre pericoli.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Silvia	Silvia	PROPN	SP	_	3	obl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	venire	venire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	domani	domani	ADV	B	_	7	advmod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Cavarzano	Cavarzano	PROPN	SP	_	7	obl	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	bambine	bambino	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	Gigia	Gigia	PROPN	SP	_	16	nsubj	_	_
+16	rimane	rimano	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	tre	tre	NUM	N	NumType=Card	22	nummod	_	_
+22	guardie	guardia	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+26	pericoli	pericolo	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 7
+# text = Sono così sospettosi – le spie sono il loro incubo – meglio evitare qualunque possibile complicazione.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	sospettosi	sospettoso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	–	–	PUNCT	FB	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	spie	spia	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	incubo	incubo	NOUN	S	Gender=Masc|Number=Sing	3	parataxis	_	_
+11	–	–	PUNCT	FB	_	10	punct	_	_
+12	meglio	meglio	ADV	B	_	13	advmod	_	_
+13	evitare	evitare	VERB	V	VerbForm=Inf	10	acl	_	_
+14	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+15	possibile	possibile	ADJ	A	Number=Sing	16	amod	_	_
+16	complicazione	complicazione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Domani mattina egli visiterà il fronte, domani a sera dorme ancora da noi – dopo domani partenza e speriamo definitiva.
+1	Domani	domani	ADV	B	_	4	advmod	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	visiterà	visitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fronte	fronte	NOUN	S	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	domani	domani	ADV	B	_	11	advmod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	dorme	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+12	ancora	ancora	ADV	B	_	11	advmod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+15	–	–	PUNCT	FF	_	14	punct	_	_
+16	dopo	dopo	ADP	E	_	18	case	_	_
+17	domani	domani	ADV	B	_	18	advmod	_	_
+18	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+21	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = [...]
+1	[	[	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	...	...	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+

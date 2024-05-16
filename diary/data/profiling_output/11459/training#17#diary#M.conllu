@@ -1,0 +1,220 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 1 marzo venerdì
+1	1	1	NUM	N	NumType=Card	2	nummod	_	_
+2	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	venerdì	venerdì	NOUN	S	Gender=Masc	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Se il carcere fosse “umano” paradossalmente non risponderebbe ad una società che non vuole recuperare nessuno.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	umano	umere	ADJ	A	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	10	punct	_	_
+8	paradossalmente	paradossalmente	ADV	B	_	10	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	risponderebbe	rispondere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ad	a	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	società	società	NOUN	S	Gender=Fem	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	recuperare	recuperare	VERB	V	VerbForm=Inf	13	acl:relcl	_	_
+18	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = L'unico messaggio possibile che può uscire da qui è quello di un sostanziale terrore.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unico	unico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	uscire	uscire	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	qui	qui	ADV	B	_	7	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	sostanziale	sostanziale	ADJ	A	Number=Sing	15	amod	_	_
+15	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Il carcere deve essere terrorizzante sia per chi ci vive sia per chi lo frequenta come volontario o come parente dei reclusi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	terrorizzante	terrorizzare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	0	root	_	_
+6	sia	sia	CCONJ	CC	_	8	cc	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	obl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+10	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	sia	sia	CCONJ	CC	_	13	cc	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	chi	chi	PRON	PR	Number=Sing|PronType=Rel	10	obl	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	frequenta	frequentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	volontario	volontario	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	o	o	CCONJ	CC	_	20	cc	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	parente	parente	NOUN	S	Number=Sing	17	conj	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	reclusi	recluso	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Per chi lavora non so.
+1	Per	per	ADP	E	_	2	case	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	obl	_	_
+3	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Dai cameroni dei colloqui devono salire una puzza e un fetore di morte da spaventare anche un boia.
+1-2	Dai	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	cameroni	camerone	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	colloqui	colloquio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	salire	salire	VERB	V	VerbForm=Inf	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	puzza	puzza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fetore	fetore	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	morte	morte	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	spaventare	spaventare	VERB	V	VerbForm=Inf	8	advcl	_	_
+18	anche	anche	ADV	B	_	20	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	boia	boia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Un senso di oppressione per tutti, affetti rubati, baci scambiati di fortuna e per fortuna.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senso	senso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	oppressione	oppressione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	affetti	affetto	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	rubati	rubato	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	baci	baco	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+12	scambiati	scambiato	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Le mani addosso alla famiglia, le mani addosso alle mogli.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mani	mano	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	addosso	addosso	ADV	B	_	6	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mani	mano	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+10	addosso	addosso	ADV	B	_	13	advmod	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	mogli	moglie	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Le perquisizioni anche ai bambini.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	perquisizioni	perquisizione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Oppressione che deve stringere il collo fino a far sentire soffocare.
+1	Oppressione	oppressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	stringere	stringere	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	collo	collo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	fino	fino	ADV	B	_	9	mark	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	far	fare	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	sentire	sentire	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	soffocare	soffocare	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = […] Alla fine il carcere deve essere uno spauracchio da agitare come si fa con il lupo nero per i bambini.
+1	[	[	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	_
+4-5	Alla	_	_	_	_	_	_	_	_
+4	A	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fine	fine	NOUN	S	Number=Sing	12	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	spauracchio	spauracchio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	da	da	ADP	E	_	14	mark	_	_
+14	agitare	agitare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	come	come	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	lupo	lupo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	nero	nero	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 12
+# text = Per questo non ci sono speranze di cambiamento.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	speranze	speranza	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

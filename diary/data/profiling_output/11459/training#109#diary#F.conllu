@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giovedì 15 giugno 1978
+1	Giovedì	giovedì	NOUN	S	Gender=Masc	0	root	_	_
+2	15	15	NUM	N	NumType=Card	1	nmod	_	_
+3	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1978	1978	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = A Roma con la padrona che rompe i coglioni come sempre.
+1	A	a	ADP	E	_	2	case	_	_
+2	Roma	Roma	PROPN	SP	_	7	nmod	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+6	che	che	DET	DQ	PronType=Int	7	det	_	_
+7	rompe	rompo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	coglioni	coglione	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	sempre	sempre	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = E' sempre la solita solfa con la solita stronza, più me, ancora più scema.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	sempre	sempre	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	solita	solito	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	solfa	solfa	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	solita	solito	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	stronza	stronza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	più	più	ADV	B	_	4	advmod	_	_
+12	me	mo	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	ancora	ancora	ADV	B	_	15	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	scema	scemo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = DIMISSIONI DEL PRESIDENTE DELLA REPUBBLICA LEONE GUFONE BUFFONE.
+1	DIMISSIONI	dimissione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2-3	DEL	_	_	_	_	_	_	_	_
+2	DI	di	ADP	E	_	3	case	_	_
+3	IL	il	PROPN	SP	_	1	nmod	_	_
+4	PRESIDENTE	Presidente	PROPN	SP	_	3	flat:name	_	_
+5-6	DELLA	_	_	_	_	_	_	_	_
+5	DI	Di	ADP	E	_	6	case	_	_
+6	LA	La	PROPN	SP	_	3	nmod	_	_
+7	REPUBBLICA	Repubblica	PROPN	SP	_	6	flat:name	_	_
+8	LEONE	Leone	PROPN	SP	_	6	nmod	_	_
+9	GUFONE	GUFONE	PROPN	SP	_	8	flat:name	_	_
+10	BUFFONE	buffone	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sono le nove e mezza e piove a dirotto.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	nove	nove	NUM	N	NumType=Card	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	piove	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	dirotto	dirotto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Dio, che lampi e che tuoni.
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	4	case	_	_
+4	lampi	lampio	NOUN	S	Gender=Masc|Number=Plur	1	acl:relcl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	_
+7	tuoni	tuono	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Felice non telefona.
+1	Felice	felice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	telefona	telefono	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = In treno mi sono ricordata di come batteva il suo cuore, l'ultima volta.
+1	In	in	ADP	E	_	2	case	_	_
+2	treno	treno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ricordata	ricordare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	come	come	SCONJ	CS	_	6	fixed	_	_
+8	batteva	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+15	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

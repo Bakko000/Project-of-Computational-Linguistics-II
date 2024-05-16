@@ -1,0 +1,194 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bologna 31.1.83
+1	Bologna	Bologna	PROPN	SP	_	0	root	_	_
+2	31.1.83	31.1.83	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Caro, carissimo Mario, giorni di sole, primaverili, si alternano a giorni cupi di fitta nebbia invernale, e danno al mio umore certi sbalzi repentini che lasciano stupiti tutti, me in primo luogo.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	carissimo	caro	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	_
+4	Mario	Mario	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sole	sole	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	primaverili	primaverile	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	alternano	alternare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	cupi	cupo	ADJ	A	Number=Plur	15	amod	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	fitta	fitto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	invernale	invernale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	27	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	umore	umore	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+28	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	sbalzi	sbalzo	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+30	repentini	repentino	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	lasciano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	stupiti	stupire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	xcomp	_	_
+34	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	33	nsubj:pass	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	29	punct	_	_
+36	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	39	amod	_	_
+39	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Io resisto, mi oppongo, rimuovo, ma dentro la sento, tutta interiore e cancerogena, quella stanchezza che mi toglie la capacità di ridere.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	resisto	resedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	oppongo	opponire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	rimuovo	rimuovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	dentro	dentro	ADV	B	_	12	advmod	_	_
+11	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	sento	sento	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det	_	_
+15	interiore	interiore	NOUN	S	_	2	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	cancerogena	cancerogena	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+23	toglie	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	capacità	capacità	NOUN	S	Gender=Fem	23	obj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	ridere	ridere	VERB	V	VerbForm=Inf	25	acl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Vorrei non essere così metereopatica ma quando penso che tu, tutti questi sbalzi, li vivi per una sola ora al giorno (quella maledetta “ora d'aria”), allora mi do' della stronza.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	metereopatica	metereopatico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	quando	quando	SCONJ	CS	_	8	mark	_	_
+8	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	che	che	SCONJ	CS	_	17	mark	_	_
+10	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	17	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+13	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	sbalzi	sbalzo	NOUN	S	Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+17	vivi	vivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+18	per	per	ADP	E	_	21	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sola	solo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	ora	ora	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+26	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	27	nsubj	_	_
+27	maledetta	maledetto	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+28	“	“	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	ora	ora	ADV	B	_	27	advmod	_	_
+30	d'	di	ADP	E	_	31	case	_	SpaceAfter=No
+31	aria	aria	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+32	”	”	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	5	punct	_	_
+35	allora	allora	ADV	B	_	5	advmod	_	_
+36	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	37	expl	_	_
+37	do'	doco	ADV	B	_	35	advmod	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	stronza	stronza	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ben venga, allora, il sole o la nebbia, ma l'illusione di libertà (che ti tolgono con la carcerazione) almeno a me è rimasta.
+1	Ben	bene	ADV	B	_	2	advmod	_	_
+2	venga	venire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	allora	allora	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sole	sole	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	29	punct	_	_
+12	ma	ma	CCONJ	CC	_	29	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	libertà	libertà	NOUN	S	Gender=Fem	14	nmod	_	_
+17	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	20	obj	_	_
+20	tolgono	tolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	carcerazione	carcerazione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	20	punct	_	_
+25	almeno	almeno	ADV	B	_	27	advmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	29	obl	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Finché dura.
+1	Finché	finché	ADV	B	_	2	advmod	_	_
+2	dura	duro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Ciao, spero che il tuo ritorno fra noi sia presto, prestissimo.
+1	Ciao	ciao	INTJ	I	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	fra	fra	ADP	E	_	9	case	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
+10	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	presto	presto	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	prestissimo	presto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Baci Antonella
+1	Baci	Baci	PROPN	SP	_	0	root	_	_
+2	Antonella	Antonella	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+

@@ -1,0 +1,152 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Buenos Aires, 21 maggio 1928
+1	Buenos	Buenos	PROPN	SP	_	0	root	_	_
+2	Aires	Aires	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	21	21	NUM	N	NumType=Card	1	nmod	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	1928	1928	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = L’Argentina (e, mi dicono, tutta l’America Latina) è il paese del mañana.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Argentina	Argentina	PROPN	SP	_	16	nsubj	_	_
+3	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+4	e	e	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	America	America	PROPN	SP	_	7	nsubj	_	_
+12	Latina	Latina	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	7	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mañana	mañana	NOUN	S	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = (Che vuol dire "mattina" e "domani", ma in questo caso è usato come "domani").
+1	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Che	che	PRON	PQ	PronType=Int	4	obj	_	_
+3	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	domani	domani	ADV	B	_	4	conj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	ma	ma	CCONJ	CC	_	18	cc	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	caso	caso	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	domani	domani	ADV	B	_	18	advmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Non si può far niente oggi, bisogna farlo mañana.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6	oggi	oggi	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9-10	farlo	_	_	_	_	_	_	_	_
+9	far	fare	VERB	V	VerbForm=Inf	11	csubj	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	mañana	mañana	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = È impossibile combinare oggi un affare con un argentino, anche se è conveniente per lui.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	_
+3	combinare	combinare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	oggi	oggi	ADV	B	_	3	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	affare	affare	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	argentino	argentino	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	anche	anche	ADV	B	_	14	mark	_	_
+12	se	se	SCONJ	CS	_	11	fixed	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	conveniente	conveniente	ADJ	A	Number=Sing	2	advcl	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Bisogna ripassare mañana.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ripassare	ripassare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	mañana	mañana	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = E domani, probabilmente, ci si sente ripetere:
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	domani	domani	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	probabilmente	probabilmente	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	ripetere	ripetere	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 8
+# text = "Vuelva mañana".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Vuelva	Vuelva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	mañana	mañano	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = E così via, con una serie di mañana che a volte durano mesi.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	così	così	ADV	B	_	7	case	_	_
+3	via	via	ADV	B	_	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	serie	serie	NOUN	S	Gender=Fem	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	mañana	mañana	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	volte	volta	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+13	durano	durare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+14	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = [...]
+1	[	[	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	...	...	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+

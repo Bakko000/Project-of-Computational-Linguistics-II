@@ -1,0 +1,248 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 8 – martedì – SS.40 martiri
+1	8	8	NUM	N	NumType=Card	3	nummod	_	_
+2	–	–	PUNCT	FF	_	1	punct	_	_
+3	martedì	martedì	NOUN	S	Gender=Masc	6	nmod	_	_
+4	–	–	PUNCT	FB	_	3	punct	_	_
+5	SS.40	SS.40	NUM	N	NumType=Card	6	nummod	_	_
+6	martiri	martire	NOUN	S	Number=Plur	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Sono andata dal comando per un biglietto di divieto per ulteriori requisizioni nelle nostre stalle.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	comando	comando	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	ulteriori	ulteriore	ADJ	A	Number=Plur	13	amod	_	_
+13	requisizioni	requisizione	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14-15	nelle	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	stalle	stalla	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Lo hanno fatto per una vacca per stalla e per due in quella di Viel.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vacca	vacca	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	stalla	stalla	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	due	due	NUM	N	NumType=Card	13	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Viel	Viel	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Per conto mio ne ho messo una nella stalletta.
+1	Per	per	ADP	E	_	2	case	_	_
+2	conto	conto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	obj	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	stalletta	stalletta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Gioverà?
+1	Gioverà	gioverà	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Lo hanno promesso – Ma la carta vale ben poco per loro – anche se timbrata e sigillata come è successo in casa di Angelo!
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	–	–	PUNCT	FB	_	8	punct	_	_
+5	Ma	ma	CCONJ	CC	_	8	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	carta	carta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	ben	bene	ADV	B	_	10	advmod	_	_
+10	poco	poco	ADV	B	_	8	advmod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	obl	_	_
+13	–	–	PUNCT	FF	_	8	punct	_	_
+14	anche	anche	ADV	B	_	16	mark	_	_
+15	se	se	SCONJ	CS	_	14	fixed	_	_
+16	timbrata	timbrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	sigillata	sigillare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+19	come	come	SCONJ	CS	_	21	mark	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	casa	casa	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Angelo	Angelo	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Dicono che una vacca deve rimanere per la razza (Razza di briganti!) E di vitelli nemmeno uno!
+1	Dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vacca	vacca	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	rimanere	rimanere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	razza	razza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Razza	razza	PROPN	SP	_	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	briganti	brigante	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	11	punct	_	_
+16	E	e	CCONJ	CC	_	18	cc	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	vitelli	vitello	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+19	nemmeno	nemmeno	ADV	BN	PronType=Neg	20	advmod	_	_
+20	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	conj	_	SpaceAfter=No
+21	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Dire che di piccoli ve ne sono ancora sei!
+1	Dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+2	che	che	SCONJ	CS	_	9	mark	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	ve	va	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	sei	sei	NUM	N	NumType=Card	1	ccomp	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Ho detto a Viel che intanto uccida il più grande – divideremo fra tutti e mangeremo – piuttosto che vadano tutti nelle loro mani per un pezzo di carta.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Viel	Viel	PROPN	SP	_	2	obl	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	intanto	intanto	ADV	B	_	7	advmod	_	_
+7	uccida	uccidere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	grande	grande	ADJ	A	Number=Sing	7	xcomp	_	_
+11	–	–	PUNCT	FF	_	10	punct	_	_
+12	divideremo	dividere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+13	fra	fra	ADP	E	_	14	case	_	_
+14	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	mangeremo	mangere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	12	conj	_	_
+17	–	–	PUNCT	FF	_	16	punct	_	_
+18	piuttosto	piuttosto	ADV	B	_	20	mark	_	_
+19	che	che	SCONJ	CS	_	18	fixed	_	_
+20	vadano	andare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+21	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	nsubj	_	_
+22-23	nelle	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	loro	loro	DET	AP	Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	mani	mano	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	carta	carta	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Angelo ha scritto di nuovo – Arturo benone – tutti e due stanchi della vita che fanno, ma sperano che presto abbia a finire.
+1	Angelo	Angelo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	obl	_	_
+6	–	–	PUNCT	FB	_	7	punct	_	_
+7	Arturo	Arturo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+8	benone	benone	ADJ	A	Number=Sing	7	amod	_	_
+9	–	–	PUNCT	FF	_	7	punct	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	due	due	NUM	N	NumType=Card	13	nummod	_	_
+13	stanchi	stanco	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	ma	ma	CCONJ	CC	_	21	cc	_	_
+21	sperano	sperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+22	che	che	SCONJ	CS	_	24	mark	_	_
+23	presto	presto	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	nsubj	_	_
+24	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	finire	finire	VERB	V	VerbForm=Inf	24	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = La lettera è arrivata al ten.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ten	ten	NOUN	S	_	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Yustiz, presi ad uno ad uno non sono cattivi – ma la macchina principale è quanto di più odioso possa dirsi.
+1	Yustiz	Yustiz	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	cattivi	cattivo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+11	–	–	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+15	principale	principale	ADJ	A	Number=Sing	14	amod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+17	quanto	quanto	ADV	B	_	20	advmod	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	odioso	odioso	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	_
+21	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22-23	dirsi	_	_	_	_	_	_	_	SpaceAfter=No
+22	dir	dire	VERB	V	VerbForm=Inf	20	advcl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+

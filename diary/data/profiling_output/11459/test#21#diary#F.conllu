@@ -1,0 +1,263 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 7 – lunedì – S. Luciano prete
+1	7	7	NUM	N	NumType=Card	3	nummod	_	_
+2	–	–	PUNCT	FF	_	1	punct	_	_
+3	lunedì	lunedì	NOUN	S	Gender=Masc	7	obl	_	_
+4	–	–	PUNCT	FF	_	3	punct	_	_
+5	S.	S.	PROPN	SP	_	7	nsubj	_	_
+6	Luciano	Luciano	PROPN	SP	_	5	flat:name	_	_
+7	prete	pere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Vae Victis – proprio così.
+1	Vae	Vae	PROPN	SP	_	0	root	_	_
+2	Victis	Victis	PROPN	SP	_	1	flat:name	_	_
+3	–	–	PUNCT	FF	_	1	punct	_	_
+4	proprio	proprio	ADV	B	_	5	advmod	_	_
+5	così	così	ADV	B	_	1	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sistematicamente ci espropriano di quanto abbiamo.
+1	Sistematicamente	sistematicamente	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+3	espropriano	espropriare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	3	obl	_	_
+6	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Oggi hanno preso gli ultimi due vitelli di Riva – restano due sole vacche – per quanto tempo?
+1	Oggi	oggi	ADV	B	_	3	advmod	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+5	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	vitelli	vitello	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Riva	Riva	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	–	–	PUNCT	FB	_	11	punct	_	_
+11	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	due	due	NUM	N	NumType=Card	14	nummod	_	_
+13	sole	sole	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	vacche	vacco	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+15	–	–	PUNCT	FF	_	11	punct	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	18	det	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = A volte lo spettro della fame mi rende pensierosa – ma al solito mi rimetto presto – il cannone tuona più che mai e mi dice di sperare.
+1	A	a	ADP	E	_	2	case	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	spettro	spettro	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fame	fame	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	pensierosa	pensieroso	ADJ	A	_	9	xcomp	_	_
+11	–	–	PUNCT	FF	_	9	punct	_	_
+12	ma	ma	CCONJ	CC	_	17	cc	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	solito	solito	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	rimetto	rimettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+18	presto	presto	ADV	B	_	17	advmod	_	_
+19	–	–	PUNCT	FB	_	9	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	cannone	cannone	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	tuona	tuono	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+23	più	più	ADV	B	_	22	advmod	_	_
+24	che	che	ADP	E	_	25	case	_	_
+25	mai	mai	ADV	B	_	22	advmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	iobj	_	_
+28	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	sperare	sperare	VERB	V	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Eppure ogni giorno la va un poco pezo, non tanto in casa che gli ufficiali attuali, presi individualmente non sono scortesi, ma il governo!
+1	Eppure	eppure	CCONJ	CC	_	5	cc	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	poco	poco	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	pezo	pezo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	tanto	tanto	ADV	B	_	13	advmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+14	che	che	SCONJ	CS	_	23	mark	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+17	attuali	attuale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+20	individualmente	individualmente	ADV	B	_	19	advmod	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	scortesi	scorteso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ma	ma	CCONJ	CC	_	27	cc	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	governo	governo	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+28	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Pavei lavora per conto del governo da quasi due mesi e fin d'ora non ha veduto il becco di un quattrino – vado a parlare per la terza volta e mi si risponde finalmente, che dal 20 p.v. Potranno cominciare a pagare e che avrà cor.
+1	Pavei	Pavei	PROPN	SP	_	2	nsubj	_	_
+2	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	conto	conto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	governo	governo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	quasi	quasi	ADV	B	_	11	advmod	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+12	e	e	CCONJ	CC	_	18	cc	_	_
+13	fin	fine	ADV	B	_	18	advmod	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	ora	ora	ADV	B	_	13	advmod	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	becco	becco	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	quattrino	quattrino	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	–	–	PUNCT	FF	_	25	punct	_	_
+25	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	parlare	parlare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	per	per	ADP	E	_	31	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	31	amod	_	_
+31	volta	volta	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	35	obj	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl:impers	_	_
+35	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+36	finalmente	finalmente	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	2	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+39-40	dal	_	_	_	_	_	_	_	_
+39	da	da	ADP	E	_	42	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	20	20	NUM	N	NumType=Card	42	nummod	_	_
+42	p.v.	p.v.	NOUN	S	_	44	obl	_	_
+43	Potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	44	aux	_	_
+44	cominciare	cominciare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+45	a	a	ADP	E	_	46	mark	_	_
+46	pagare	pagare	VERB	V	VerbForm=Inf	44	xcomp	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	che	che	PRON	PR	PronType=Rel	49	nsubj	_	_
+49	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	46	conj	_	_
+50	cor	corre	ADV	B	_	49	advmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = 1 al giorno più il mangiare.
+1	1	1	NUM	N	NumType=Card	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	più	più	ADV	B	_	7	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mangiare	mangiare	VERB	V	VerbForm=Inf	4	acl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Governo......
+1	Governo.....	Governo.....	NOUN	S	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = con tutto quello che segue.
+1	con	con	ADP	E	_	3	case	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = – Che può fare un povero padre con moglie e cinque figli piccoli con una corona!
+1	–	–	PUNCT	FF	_	4	punct	_	_
+2	Che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	povero	povero	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	moglie	moglie	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	cinque	cinque	NUM	N	NumType=Card	12	nummod	_	_
+12	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+13	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	corona	corona	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Mi venne risposto che il governo non è responsabile, se Pavei ha una famiglia numerosa!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	responsabile	responsabile	ADJ	A	Number=Sing	3	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	se	se	SCONJ	CS	_	13	mark	_	_
+12	Pavei	Pavei	PROPN	SP	_	13	nsubj	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	numerosa	numeroso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Con ragione tuona il cannone più che mai.
+1	Con	con	ADP	E	_	2	case	_	_
+2	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	tuona	tuonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cannone	cannone	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	più	più	ADV	B	_	5	advmod	_	_
+7	che	che	ADP	E	_	8	case	_	_
+8	mai	mai	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Nevica fitto fitto.
+1	Nevica	Nevico	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fitto	fitto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	fitto	fitto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

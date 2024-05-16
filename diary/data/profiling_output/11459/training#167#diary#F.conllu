@@ -1,0 +1,166 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sabato 15 dicembre 1978
+1	Sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	15	15	NUM	N	NumType=Card	1	nmod	_	_
+3	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1978	1978	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Oggi non sono andata a scuola, perché è un po' di tempo che non mi sento bene e quindi sono andata dal dottore che mi ha dato la solita cura, ma tanto so che non mi farà niente.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	perché	perché	SCONJ	CS	_	11	mark	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	po'	poco	NOUN	S	Gender=Masc|Number=Sing	4	advcl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	expl	_	_
+17	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	bene	bene	ADV	B	_	17	advmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	quindi	quindi	ADV	B	_	22	advmod	_	_
+21	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+23-24	dal	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	dottore	dottore	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	solita	solito	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+32	cura	cura	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	36	punct	_	_
+34	ma	ma	CCONJ	CC	_	36	cc	_	_
+35	tanto	tanto	ADV	B	_	36	advmod	_	_
+36	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	conj	_	_
+37	che	che	SCONJ	CS	_	40	mark	_	_
+38	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+39	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	40	iobj	_	_
+40	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	ccomp	_	_
+41	niente	niente	PRON	PI	Number=Sing|PronType=Ind	40	obj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Questa sera è venuto "lui", abbiamo parlato a lungo di tante cose, in particolare della scuola e, prima di andare via, mi ha baciata.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+22	e	e	CCONJ	CC	_	31	cc	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	31	punct	_	_
+24	prima	prima	ADV	B	_	26	mark	_	_
+25	di	di	ADP	E	_	24	fixed	_	_
+26	andare	andare	VERB	V	VerbForm=Inf	31	advcl	_	_
+27	via	via	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	31	iobj	_	_
+30	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	baciata	baciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Di ciò non so se essere felice o meno:
+1	Di	di	ADP	E	_	2	case	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+7	felice	felice	ADJ	A	Number=Sing	4	ccomp	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	meno	meno	ADV	B	_	7	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = io nella lettera gli avevo chiesto di rimanere almeno amici, quindi non so se quel bacio me l'ha dato per amore, oppure per illudermi ancora una volta.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	rimanere	rimanere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+10	almeno	almeno	ADV	B	_	11	advmod	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	quindi	quindi	CCONJ	CC	_	15	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	se	se	SCONJ	CS	_	22	mark	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+19	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	iobj	_	_
+20	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	amore	amore	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	oppure	oppure	CCONJ	CC	_	28	cc	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28-29	illudermi	_	_	_	_	_	_	_	_
+28	illuder	illudere	VERB	V	VerbForm=Inf	22	conj	_	_
+29	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	iobj	_	_
+30	ancora	ancora	ADV	B	_	32	advmod	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	volta	volta	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = So solo che lo amo tanto e non posso vivere senza di lui.
+1	So	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	5	advmod	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	tanto	tanto	ADV	B	_	10	advmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	vivere	vivere	VERB	V	VerbForm=Inf	5	conj	_	_
+11	senza	senza	ADP	E	_	13	case	_	_
+12	di	di	ADP	E	_	11	fixed	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Mari '78
+1	Mari	mare	PROPN	SP	_	0	root	_	_
+2	'78	'78	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+

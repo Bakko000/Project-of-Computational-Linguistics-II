@@ -1,0 +1,491 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	lino@...	lino@.	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date:
+1	Date	data	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Fri May 9 12:57:12 1997
+1	Fri	Fri	PROPN	SP	_	0	root	_	_
+2	May	May	PROPN	SP	_	1	flat:name	_	_
+3	9	9	NUM	N	NumType=Card	1	nmod	_	_
+4	12:57:12	12:57:12	NUM	N	NumType=Card	3	flat	_	_
+5	1997	1997	NUM	N	NumType=Card	3	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Subject:
+1	Subject	Subject	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Cheope
+1	Cheope	Cheope	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = I soldi: borsa da 430 sterline + 30-40 per correzione compiti + 180 che la mamma mi regala per l'affitto (io accetto volentieri, se non me li danno ora non li usano per loro, come li invitiamo sempre a fare io e mio fratello, ma me li tengono da parte per quando mi sposo, e credo che anche in questo caso debbano ricomparire i dinosauri).
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	borsa	borrere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	430	430	NUM	N	NumType=Card	7	nummod	_	_
+7	sterline	sterlina	NOUN	S	Gender=Fem|Number=Plur	4	obl:agent	_	_
+8	+	+	SYM	SYM	_	7	nmod	_	_
+9	30	30	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	-40	-40	NUM	N	NumType=Card	9	flat	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	correzione	correzione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	compiti	compito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14	+	+	SYM	SYM	_	13	obl	_	_
+15	180	180	NUM	N	NumType=Card	14	nummod	_	_
+16	che	che	SCONJ	CS	_	20	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+20	regala	regalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	accetto	accettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+27	volentieri	volentieri	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	se	se	SCONJ	CS	_	33	mark	_	_
+30	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+31	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	33	iobj	_	_
+32	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	obj	_	_
+33	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+34	ora	ora	ADV	B	_	33	advmod	_	_
+35	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+36	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	obj	_	_
+37	usano	usare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	_
+38	per	per	ADP	E	_	39	case	_	_
+39	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	37	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	37	punct	_	_
+41	come	come	ADP	E	_	42	case	_	_
+42	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	obl	_	_
+43	invitiamo	invitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	42	advcl	_	_
+44	sempre	sempre	ADV	B	_	43	advmod	_	_
+45	a	a	ADP	E	_	46	mark	_	_
+46	fare	fare	VERB	V	VerbForm=Inf	43	xcomp	_	_
+47	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	46	obj	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	50	det:poss	_	_
+50	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	47	conj	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	55	punct	_	_
+52	ma	ma	CCONJ	CC	_	55	cc	_	_
+53	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	55	iobj	_	_
+54	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	55	obj	_	_
+55	tengono	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	conj	_	_
+56	da	da	ADP	E	_	57	case	_	_
+57	parte	parte	NOUN	S	Gender=Fem|Number=Sing	55	obl	_	_
+58	per	per	ADP	E	_	61	mark	_	_
+59	quando	quando	SCONJ	CS	_	58	fixed	_	_
+60	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	61	iobj	_	_
+61	sposo	spodere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	55	advcl	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	64	punct	_	_
+63	e	e	CCONJ	CC	_	64	cc	_	_
+64	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	conj	_	_
+65	che	che	SCONJ	CS	_	71	mark	_	_
+66	anche	anche	ADV	B	_	69	advmod	_	_
+67	in	in	ADP	E	_	69	case	_	_
+68	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	69	det	_	_
+69	caso	caso	NOUN	S	Gender=Masc|Number=Sing	71	obl	_	_
+70	debbano	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	71	aux	_	_
+71	ricomparire	ricomparire	VERB	V	VerbForm=Inf	64	ccomp	_	_
+72	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	73	det	_	_
+73	dinosauri	dinosauro	NOUN	S	Gender=Masc|Number=Plur	71	obj	_	SpaceAfter=No
+74	)	)	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+75	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = In tutto fa 650 sterline.
+1	In	in	ADP	E	_	2	case	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	650	650	NUM	N	NumType=Card	5	nummod	_	_
+5	sterline	sterlina	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Riuscendo a metterne da parte sui 300 al mese ogni mese e avendo ancora da parte sui 1500, strascico del regalo di laurea, posso permettermi di viaggiare quasi ovunque, tenendo presente che:
+1	Riuscendo	riuscire	VERB	V	VerbForm=Ger	32	advcl	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3-4	metterne	_	_	_	_	_	_	_	_
+3	metter	mettere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	300	300	NUM	N	NumType=Card	3	obl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mese	mese	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+13	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	mese	mese	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	avendo	avere	VERB	V	VerbForm=Ger	3	conj	_	_
+17	ancora	ancora	ADV	B	_	19	advmod	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20-21	sui	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	1500	1500	NUM	N	NumType=Card	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	strascico	strascico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	1	punct	_	_
+31	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	permettermi	permettermo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34	viaggiare	viaggiare	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	quasi	quasi	ADV	B	_	36	advmod	_	_
+36	ovunque	ovunque	ADV	B	_	34	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	32	punct	_	_
+38	tenendo	tenere	VERB	V	VerbForm=Ger	32	advcl	_	_
+39	presente	presente	ADJ	A	Number=Sing	38	ccomp	_	_
+40	che	che	SCONJ	CS	_	39	mark	_	SpaceAfter=No
+41	:	:	PUNCT	FC	_	32	punct	_	_
+
+# sent_id = 9
+# text = (i) non penso assolutamente a mettere soldi da parte, (ii) i biglietti aerei qui costano molto meno che in Italia, (iii) sono ufficialmente uno studente e quindi usufruisco di sconti, (iv) mi ospiterebbero in buona parte dei posti che ho in mente, e (v) quello che ho in mente si può realizzare solo in parte.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	i	i	ADJ	NO	Number=Sing|NumType=Ord	5	obl	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	nsubj	_	_
+6	assolutamente	assolutamente	ADV	B	_	5	advmod	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	mettere	mettere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	ii	ii	ADJ	NO	Number=Sing|NumType=Ord	5	appos	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+18	aerei	aeere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	qui	qui	ADV	B	_	20	advmod	_	_
+20	costano	costare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	molto	molto	ADV	B	_	22	advmod	_	_
+22	meno	meno	ADV	B	_	44	advmod	_	_
+23	che	che	SCONJ	CS	_	33	mark	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	Italia	Italia	PROPN	SP	_	33	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	(	(	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	iii	iii	ADJ	NO	Number=Sing|NumType=Ord	25	amod	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	28	punct	_	_
+30	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+31	ufficialmente	ufficialmente	ADV	B	_	33	advmod	_	_
+32	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	studente	studente	NOUN	S	Gender=Masc|Number=Sing	44	nsubj	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	quindi	quindi	ADV	B	_	36	advmod	_	_
+36	usufruisco	usufruisco	NOUN	S	Gender=Masc|Number=Sing	33	conj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	sconti	sconto	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	(	(	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+41	iv	quarto	ADJ	NO	Number=Sing|NumType=Ord	38	appos	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	41	punct	_	_
+43	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	44	iobj	_	_
+44	ospiterebbero	ospitare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+45	in	in	ADP	E	_	47	case	_	_
+46	buona	buono	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	_
+47	parte	parte	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	_
+48-49	dei	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	posti	posto	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	_
+51	che	che	PRON	PR	PronType=Rel	52	obj	_	_
+52	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
+53	in	in	ADP	E	_	54	case	_	_
+54	mente	mente	NOUN	S	Gender=Fem|Number=Plur	52	obl	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	58	punct	_	_
+56	e	e	CCONJ	CC	_	58	cc	_	_
+57	(	(	PUNCT	FB	_	58	punct	_	SpaceAfter=No
+58	v	quinto	ADJ	NO	Number=Sing|NumType=Ord	44	conj	_	SpaceAfter=No
+59	)	)	PUNCT	FB	_	44	punct	_	_
+60	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	nsubj	_	_
+61	che	che	PRON	PR	PronType=Rel	62	obj	_	_
+62	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	60	acl:relcl	_	_
+63	in	in	ADP	E	_	64	case	_	_
+64	mente	menta	NOUN	S	Gender=Fem|Number=Plur	62	obl	_	_
+65	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	67	expl:impers	_	_
+66	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	aux	_	_
+67	realizzare	realizzare	VERB	V	VerbForm=Inf	20	parataxis	_	_
+68	solo	solo	ADV	B	_	70	advmod	_	_
+69	in	in	ADP	E	_	70	case	_	_
+70	parte	parte	NOUN	S	Gender=Fem|Number=Sing	67	obl	_	SpaceAfter=No
+71	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Il meccanismo del crucco-sistema e delle Piramidi è lo stesso, naturalmente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	meccanismo	meccanismo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	crucco	crucco	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+6	-sistema	-sistemo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Piramidi	piramide	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	naturalmente	naturalmente	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 11
+# text = Solo che uno spera di non essere alla base della piramide.
+1	Solo	solo	ADV	B	_	4	advmod	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+4	spera	spera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	10	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	base	base	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	piramide	piramide	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = E in ogni caso vendendo i 3 biglietti si va in pari.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	vendendo	vendere	VERB	V	VerbForm=Ger	10	advcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	3	3	NUM	N	NumType=Card	8	nummod	_	_
+8	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	pari	pari	ADJ	A	_	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = Quando si acquistano si conta sulla fiducia nei confronti di coloro che ti hanno promesso o che ti hanno fatto intravedere la volontà di acquistarli.
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	acquistano	acquistare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	obj	_	_
+16	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	o	o	CCONJ	CC	_	22	cc	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	22	obj	_	_
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+23	intravedere	intravedere	VERB	V	VerbForm=Inf	22	xcomp	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	volontà	volontà	NOUN	S	Gender=Fem	23	obj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27-28	acquistarli	_	_	_	_	_	_	_	SpaceAfter=No
+27	acquistar	acquistare	VERB	V	VerbForm=Inf	25	acl	_	_
+28	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Ai miei occhi tu eri uno di questi ultimi.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+6	eri	ero	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Il mio amico carogna di Sheffield ha partecipato un paio di anni fà.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amico	amico	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	carogna	carogna	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Sheffield	Sheffield	PROPN	SP	_	4	obl	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	paio	paio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	fà	fà	NOUN	S	Gender=Masc	12	compound	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Quando sono stato da lui lo scorso luglio, gli arrivavano continuamente banconote o bonifici di 50 marchi o 20 sterline.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	scorso	scordere	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	arrivavano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	continuamente	continuo	ADV	B	_	13	advmod	_	_
+13	banconote	banconota	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	bonifici	bonificio	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	50	50	NUM	N	NumType=Card	18	nummod	_	_
+18	marchi	marchio	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	o	o	CCONJ	CC	_	21	cc	_	_
+20	20	20	NUM	N	NumType=Card	21	nummod	_	_
+21	sterline	sterlina	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Sulla moralità della cosa possiamo discutere all'infinito, ma a questo punto dovremmo discutere di tutto ciò che comporta spostamento di danaro senza grossa fatica.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	moralità	moralità	NOUN	S	Gender=Fem	8	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	discutere	discutere	VERB	V	VerbForm=Inf	0	root	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	infinito	infinito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	ma	ma	CCONJ	CC	_	18	cc	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	punto	punto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+17	dovremmo	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	discutere	discutere	VERB	V	VerbForm=Inf	8	conj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+21	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	18	obl	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	spostamento	spostamento	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	danaro	danaro	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	senza	senza	ADP	E	_	29	case	_	_
+28	grossa	grosso	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 18
+# text = Anche la mia borsa di studo vacillerebbe.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	studo	studo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	vacillerebbe	vacillare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Sono ansioso di ricevere notizie sul consesso di hossess che ti attende.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ansioso	ansioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	ricevere	ricevere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	consesso	consesso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	hossess	hossess	NOUN	S	Gender=Fem	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	13	iobj	_	_
+13	attende	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Purtroppo devo riconoscere che tu fuori forma sei sempre superiore a me allenatissimo, e l'ho già verificato.
+1	Purtroppo	purtroppo	ADV	B	_	3	advmod	_	_
+2	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	riconoscere	riconoscere	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	19	mark	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
+6	fuori	fuori	ADV	B	_	7	advmod	_	_
+7	forma	forma	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	sei	sei	NUM	N	NumType=Card	7	nummod	_	_
+9	sempre	sempre	ADV	B	_	10	advmod	_	_
+10	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	7	amod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+13	allenatissimo	allenatissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+17	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	già	già	ADV	B	_	19	advmod	_	_
+19	verificato	verificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Linisha
+1	Linisha	Linisha	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

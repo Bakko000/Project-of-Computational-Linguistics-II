@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2 settembre lunedì
+1	2	2	NUM	N	NumType=Card	3	nummod	_	_
+2	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	lunedì	lunedì	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = […] Ho aspettato fuori dal carcere che mi venissero a prendere.
+1	[	[	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	_
+4	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	aspettato	aspettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	fuori	fuori	ADV	B	_	9	case	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	venissero	venire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	prendere	prendere	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Gli agenti, levata la divisa, mettono su l'orecchino e prendono un aspetto umano.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	agenti	agente	NOUN	S	Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	levata	levare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	divisa	divisa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	orecchino	orecchino	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	prendono	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	umano	umano	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Sono ragazzi come noi.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ragazzi	ragazzare	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = L'ultima paura.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Incapacità di affrontare la vita.
+1	Incapacità	incapacità	NOUN	S	Gender=Fem	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	affrontare	affrontare	VERB	V	VerbForm=Inf	1	acl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Me la tengo gelosamente nascosta, non la racconto a nessuno.
+1	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	tengo	tenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gelosamente	gelosamente	ADV	B	_	5	advmod	_	_
+5	nascosta	nascosto	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	racconto	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = È solo per me.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	solo	solo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

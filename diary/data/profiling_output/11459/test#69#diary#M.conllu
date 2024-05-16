@@ -1,0 +1,345 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Somerville, September 4
+1	Somerville	Somerville	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	September	September	PROPN	SP	_	1	flat:name	_	_
+4	4	4	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = 4 settembre 1994!
+1	4	4	NUM	N	NumType=Card	0	root	_	_
+2	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	1994	1994	NUM	N	NumType=Card	1	flat	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sembra impossibile ma sono già passati 26 giorni dal mio arrivo negli States.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	impossibile	impossibile	ADJ	A	Number=Sing	1	xcomp	_	_
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+7	26	26	NUM	N	NumType=Card	8	nummod	_	_
+8	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+13-14	negli	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	States	States	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Il tempo è davvero volato via!
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	davvero	davvero	ADV	B	_	5	advmod	_	_
+5	volato	volare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	via	via	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Bene, come avevo annunciato, venerdì scorso è stato un giorno particolare.
+1	Bene	bene	ADV	B	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	SCONJ	CS	_	5	mark	_	_
+4	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	venerdì	venerdì	NOUN	S	Gender=Masc	12	obl	_	_
+8	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	particolare	particolare	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Perché ho avuto il secondo test di storia?
+1	Perché	perché	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	test	test	NOUN	S	Gender=Masc	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = No, perché la sera si è giocata la prima partita di football della stagione.
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	perché	perché	SCONJ	CS	_	8	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	giocata	giocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
+11	partita	partita	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	football	football	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = I preparativi sono cominciati fin dal mattino.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	preparativi	preparativo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	cominciati	cominciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	fin	fin	ADP	E	_	8	case	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	5	fixed	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Le ultime due ore di lezione sono state più brevi per lasciare spazio all’avvenimento più atteso dagli studenti della B.H.S.:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+2	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	ore	ora	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	cop	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	brevi	breve	ADJ	A	Number=Plur	0	root	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	lasciare	lasciare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14-15	all’	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	avvenimento	avvenimento	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	atteso	attendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+19-20	dagli	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	18	obl:agent	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	B.H.S.	B.H.S.	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 10
+# text = The Pep-Rally.
+1	The	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	Pep-Rally	Pep-Rally	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = È una festa in palestra per presentare ufficialmente la squadra della scuola.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	festa	festa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	palestra	palestra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	presentare	presentare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	ufficialmente	ufficialmente	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Durante lo show ha suonato la banda, si sono esibite le cheer-leaders (le figone della scuola che dirigono il tifo, ballano e si esibiscono coi salti mortali e le piramidi umane) e alla fine sono entrati i giocatori acclamati dagli spalti.
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	show	show	NOUN	S	Gender=Masc	5	obl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	suonato	suonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	banda	banda	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	esibite	esibire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+12	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	cheer-	_	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	leaders	leaders	NOUN	S	Gender=Fem	11	nsubj	_	_
+15	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	figone	figone	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	dirigono	dirigere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tifo	tifo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	_
+26	ballano	ballare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	esibiscono	esibire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+30-31	coi	_	_	_	_	_	_	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	salti	salto	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+33	mortali	mortale	ADJ	A	Number=Plur	32	amod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	piramidi	piramide	NOUN	S	Gender=Fem|Number=Plur	32	conj	_	_
+37	umane	umano	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	26	punct	_	_
+39	e	e	CCONJ	CC	_	42	cc	_	_
+40-41	alla	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	fine	fine	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+43	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	44	nsubj	_	_
+47	acclamati	acclamare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	46	acl	_	_
+48-49	dagli	_	_	_	_	_	_	_	_
+48	da	da	ADP	E	_	50	case	_	_
+49	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	spalti	spalto	NOUN	S	Gender=Masc|Number=Plur	47	obl:agent	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Ma i veri protagonisti siamo stati noi sulle tribune, divisi secondo le categorie dai freshmen ai seniors.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	veri	vero	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	cop	_	_
+7	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+8-9	sulle	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	tribune	tribuna	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	divisi	dividere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+13	secondo	secondo	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	categorie	categoria	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16-17	dai	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	freshmen	freshmen	NOUN	S	_	15	nmod	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	seniors	senior	NOUN	S	Number=Plur	15	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Parola d’ordine: fare casino.
+1	Parola	parola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	d’	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	1	acl	_	_
+6	casino	casino	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = La palestra è diventata un inferno di cori e urla e grida che ci hanno reso tutta l’energia scaricata in una mattina passata sui libri.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	palestra	palestra	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	inferno	inferno	NOUN	S	Gender=Masc|Number=Sing	4	xcomp	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cori	coro	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	urla	urlo	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	grida	grida	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	16	iobj	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	19	det:predet	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	energia	energia	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	scaricata	scaricare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	xcomp	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+25-26	sui	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	libri	libro	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Il Pep-rally è durato solo mezz’ora, ma ha continuato a farmi fischiare le orecchie per tutto il pomeriggio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Pep-rally	Pep-rally	PROPN	SP	_	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	durato	durare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	solo	solo	ADV	B	_	7	advmod	_	_
+6	mezz’	mezzo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ora	ora	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	continuato	continuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+14	fischiare	fischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	20	det:predet	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = È semplicemente incredibile, ma fantastico, che la scuola organizzi una cosa del genere.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	semplicemente	semplicemente	ADV	B	_	3	advmod	_	_
+3	incredibile	incredibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	fantastico	fantastico	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	che	che	SCONJ	CS	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+11	organizzi	organizzare	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	genere	genere	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 18
+# text = […]
+1	[	[	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+

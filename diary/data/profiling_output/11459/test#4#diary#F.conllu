@@ -1,0 +1,290 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 16 – sabato – S. Giuliana verg.
+1	16	16	NUM	N	NumType=Card	3	nummod	_	_
+2	–	–	PUNCT	FF	_	1	punct	_	_
+3	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+4	–	–	PUNCT	FF	_	3	punct	_	_
+5	S.	S.	PROPN	SP	_	0	root	_	_
+6	Giuliana	Giuliana	PROPN	SP	_	5	flat:name	_	_
+7	verg	verg	SYM	X	_	5	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Nulla di più triste di aspettare che vanno a combattere, sentire il cannone in lontananza sotto un cielo plumbeo e minaccioso e un vento impetuoso e freddo che vi penetra nelle ossa.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	triste	triste	ADJ	A	Gender=Fem|Number=Plur	1	nmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	aspettare	aspettare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	combattere	combattere	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	sentire	sentire	VERB	V	VerbForm=Inf	1	parataxis	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cannone	cannone	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	lontananza	lontananza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	sotto	sotto	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	plumbeo	plumbeo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	minaccioso	minaccioso	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vento	vento	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+26	impetuoso	impetuoso	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	26	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	_
+31	penetra	penetrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+32-33	nelle	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	ossa	osso	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sono ancora truppe ungheresi che arrivano – tutta una divisione!
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ancora	ancora	ADV	B	_	3	advmod	_	_
+3	truppe	trompere	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	ungheresi	ungherese	ADJ	A	Number=Plur	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	–	–	PUNCT	FB	_	6	punct	_	_
+8	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Erano a Portogruaro, dirette al Piave, improvvisamente un ordine le ha mandate quì.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Portogruaro	Portogruaro	PROPN	SP	_	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dirette	diretta	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Piave	Piave	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	improvvisamente	improvvisamente	ADV	B	_	15	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	mandate	mandare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	quì	quì	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = Per ora sono pochi, solo quelli per preparare gli alloggi.
+1	Per	per	ADP	E	_	2	case	_	_
+2	ora	ora	ADV	B	_	4	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	solo	solo	ADV	B	_	7	advmod	_	_
+7	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	nsubj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	preparare	preparare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	alloggi	alloggi	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Un tenente si è trattenuto quì con noi per un'ora e mezza;
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tenente	tenente	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	trattenuto	trattenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	quì	quì	ADV	B	_	5	advmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	mezza	mezza	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = ufficiale di complemento, buon possidente, senza apparenti prevenzioni contro l'Italia, ha chiacchierato di tutto e di tutti liberamente.
+1	ufficiale	ufficiale	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	complemento	complemento	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	buon	buono	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	possidente	possidente	NOUN	S	Number=Sing	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	senza	senza	ADP	E	_	10	case	_	_
+9	apparenti	apparente	ADJ	A	Number=Plur	10	amod	_	_
+10	prevenzioni	prevenzione	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+11	contro	contro	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	Italia	Italia	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	chiacchierato	chiacchierare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	22	obl	_	_
+22	liberamente	liberamente	ADV	B	_	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = Crede che la guerra non durerà più molto, ma che sarà ancora molto sanguinosa.
+1	Crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	durerà	durare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	molto	molto	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+12	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
+13	ancora	ancora	ADV	B	_	15	advmod	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	sanguinosa	sanguinoso	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = L'Ungheria vuole ed avrà la sua autonomia dopo la guerra e così pure la Boemia.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Ungheria	Ungheria	PROPN	SP	_	3	nsubj	_	_
+3	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ed	e	CCONJ	CC	_	5	cc	_	_
+5	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	autonomia	autonomia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	dopo	dopo	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	così	così	ADV	B	_	16	advmod	_	_
+14	pure	pure	ADV	B	_	16	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Boemia	Boemia	PROPN	SP	_	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Non crede che l'America possa fare gran che per ora – anch'essi vengono dalla Bucovina.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	America	America	PROPN	SP	_	7	nsubj	_	_
+6	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+8	gran	gran	ADJ	A	_	15	mark	_	_
+9	che	che	SCONJ	CS	_	8	fixed	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	ora	ora	ADV	B	_	15	advmod	_	_
+12	–	–	PUNCT	FB	_	11	punct	_	_
+13	anch'	anche	ADV	B	_	15	advmod	_	SpaceAfter=No
+14	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Bucovina	Bucovina	PROPN	SP	_	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Che sarà di noi?
+1	Che	che	PRON	PR	PronType=Rel	2	obj	_	_
+2	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Mio Dio, fate che i nostri resistano!
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	resistano	resistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Sia questa la nostra più intensa preghiera, il più grande voto del nostro cuore.
+1	Sia	sia	CCONJ	CC	_	7	cc	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+4	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	intensa	intenso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	preghiera	preghiera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	voto	voto	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Coraggio e fiducia laggiù!
+1	Coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+4	laggiù	laggiù	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = O miei cari lontani, il signore vi protegga e vi benedica e ricambi la mia tristezza in altrettanto bene per voi.
+1	O	o	CCONJ	CC	_	3	cc	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	cari	caro	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+4	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	signore	signore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	protegga	proteggare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	vi	vi	ADV	B	_	12	advmod	_	_
+12	benedica	benedire	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	ricambi	ricambi	ADJ	A	Number=Plur	12	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	altrettanto	altrettanto	ADV	B	_	9	advmod	_	_
+20	bene	bene	ADV	B	_	22	advmod	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 16
+# text = – Buona notte.
+1	–	–	PUNCT	FF	_	2	punct	_	_
+2	Buona	buona	PROPN	SP	_	0	root	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

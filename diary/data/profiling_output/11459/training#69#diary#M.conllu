@@ -1,0 +1,239 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	lino@...	lino@.	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date:
+1	Date	data	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Mon Dec 14 07:19:39 1998
+1	Mon	Mon	PROPN	SP	_	0	root	_	_
+2	Dec	Dec	PROPN	SP	_	1	flat:name	_	_
+3	14	14	NUM	N	NumType=Card	1	nmod	_	_
+4	07:19:39	07:19:39	NUM	N	NumType=Card	3	flat	_	_
+5	1998	1998	NUM	N	NumType=Card	3	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Subject:
+1	Subject	Subject	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il caso Lentini
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Lentini	Lentini	PROPN	SP	_	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Caro Andrea,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Andrea	Andrea	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = affettivamente è da un po' che non ci si scrive.
+1	affettivamente	affettivamente	ADV	B	_	10	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po'	poco	ADV	B	_	10	advmod	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = È chiaro che tu lavori, ma la cosa anomala è che ultimamente anch'io sono stato impegnato parecchio.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+5	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	anomala	anomalo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	che	che	SCONJ	CS	_	18	mark	_	_
+13	ultimamente	ultimamente	ADV	B	_	18	advmod	_	_
+14	anch'	anche	ADV	B	_	18	advmod	_	SpaceAfter=No
+15	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj:pass	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	impegnato	impegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+19	parecchio	parecchio	NOUN	S	Gender=Masc|Number=Sing	18	nsubj:pass	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = S'intende, nell'orario normale di lavoro.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	SpaceAfter=No
+2	intende	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	orario	orario	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	normale	normale	ADJ	A	Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Alle 5:30 scappo comunque, a parte casi eccezionali.
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	5:30	5:30	NUM	N	NumType=Card	4	nummod	_	_
+4	scappo	scappo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+5	comunque	comunque	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+9	casi	caso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+10	eccezionali	eccezionale	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Ieri ho visto il golle di Lentini in tuffo di testa, un vero babà.
+1	Ieri	ieri	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	golle	golla	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Lentini	Lentini	PROPN	SP	_	5	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	tuffo	tuffo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	testa	testa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	vero	vero	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	babà	babà	NOUN	S	Gender=Masc	3	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Ora, non vorrei che la prendessi come una iattura, ma pare proprio che quest'anno il Mondo faccia il suo dovere.
+1	Ora	ora	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	vorrei	volere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	prendessi	prendesso	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	iattura	iattura	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+14	proprio	proprio	ADV	B	_	20	advmod	_	_
+15	che	che	SCONJ	CS	_	20	mark	_	_
+16	quest'	questo	DET	DD	Number=Sing|PronType=Dem	17	det	_	SpaceAfter=No
+17	anno	anno	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+20	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Lo so che ho detto lo stesso i due anni scorsi, quindi stratoccati pure il pendaglione.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+11	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	quindi	quindi	ADV	B	_	14	advmod	_	_
+14	stratoccati	stratoccato	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+15	pure	pure	ADV	B	_	17	advmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pendaglione	pendaglione	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = I giallorossi mettono in mostra un gioco troppo lento, e i solisti non possono quindi brillare come sarebbe nelle loro potenzialità.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giallorossi	giallorosso	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+8	troppo	troppo	ADV	B	_	9	advmod	_	_
+9	lento	lento	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	17	punct	_	_
+11	e	e	CCONJ	CC	_	17	cc	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	solisti	solista	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	quindi	quindi	ADV	B	_	17	advmod	_	_
+17	brillare	brillare	VERB	V	VerbForm=Inf	3	conj	_	_
+18	come	come	SCONJ	CS	_	23	mark	_	_
+19	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20-21	nelle	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	potenzialità	potenzialità	NOUN	S	Gender=Fem	17	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Vorrei sapere come e' andata quest'anno nel Thanksgiving day e cosa succederà a Natale.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+3	come	come	SCONJ	CS	_	6	mark	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	6	punct	_	_
+6	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	quest'	questo	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Thanksgiving	Thanksgiving	PROPN	SP	_	6	obl	_	_
+12	day	day	PROPN	SW	Foreign=Yes	11	flat:name	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	15	nsubj	_	_
+15	succederà	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	conj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Natale	Natale	PROPN	SP	_	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Baci,
+1	Baci	Baci	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Lino
+1	Lino	lino	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

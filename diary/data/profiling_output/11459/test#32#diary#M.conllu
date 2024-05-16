@@ -1,0 +1,331 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Buenos Aires, 1 maggio 1928
+1	Buenos	Buenos	PROPN	SP	_	0	root	_	_
+2	Aires	Aires	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	1	1	NUM	N	NumType=Card	1	nmod	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	1928	1928	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Buenos Aires è piena di lustrascarpe : sicuramente migliaia.
+1	Buenos	Buenos	PROPN	SP	_	4	nsubj	_	_
+2	Aires	Aires	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lustrascarpe	lustrascarpa	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	:	:	PUNCT	FC	_	6	punct	_	_
+8	sicuramente	sicuramente	ADV	B	_	9	advmod	_	_
+9	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Purtroppo italiani, quasi tutti:
+1	Purtroppo	purtroppo	ADV	B	_	2	advmod	_	_
+2	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quasi	quasi	ADV	B	_	5	advmod	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = calabresi.
+1	calabresi	calabrese	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Ogni salòn para lustrar (ve ne sono a centinaia) ne ha una decina o più.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	salòn	salòn	NOUN	S	Gender=Masc	13	nsubj	_	_
+3	para	paro	ADP	E	_	4	case	_	_
+4	lustrar	lustrare	NOUN	S	Gender=Fem	13	obl	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	ve	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	6	punct	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	decina	decina	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17	più	più	ADV	B	_	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Lustrano scarpe dalla mattina alla notte, meno quello di loro che è di turno sull’uscio a adescare i passanti:
+1	Lustrano	Lustrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	notte	notte	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	meno	meno	ADV	B	_	11	advmod	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	turno	turno	NOUN	S	Gender=Masc|Number=Sing	13	acl:relcl	_	_
+18-19	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+18	su	su	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	adescare	adescare	VERB	V	VerbForm=Inf	17	acl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	passanti	passante	NOUN	S	Number=Plur	22	obj	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = "Adelante caballero!
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Adelante	Adelante	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	3	det	_	_
+3	caballero	caballero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Se lustra!"
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	lustra	lustra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Né il grido né l’aspetto dei lustrascarpe mi sembrano da sirene;
+1	Né	né	CCONJ	CC	_	11	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	grido	grido	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+4	né	né	CCONJ	CC	_	6	cc	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	lustrascarpe	lustrascarpa	NOUN	S	Number=Sing	6	nmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	sirene	sirena	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 10
+# text = ma evidentemente lo sono, per gli argentini.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	evidentemente	evidentemente	ADV	B	_	3	advmod	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	argentini	argentino	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Questi lustrascarpe guadagnano da 150 a 200 pesos al mese, fra stipendio e mance, ossia molto meno di quel che guadagno io.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	lustrascarpe	lustrascarpa	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	guadagnano	guadagnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	150	150	NUM	N	NumType=Card	8	nummod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	200	200	NUM	N	NumType=Card	8	nummod	_	_
+8	pesos	peso	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mese	mese	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	fra	fra	ADP	E	_	14	case	_	_
+14	stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	mance	mance	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	ossia	ossia	CCONJ	CC	_	20	cc	_	_
+19	molto	molto	ADV	B	_	20	advmod	_	_
+20	meno	meno	ADV	B	_	3	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	guadagno	guadagre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Con la differenza che, fra dieci anni, loro avranno sicuramente una fortuna, in Italia; e io, chissà.
+1	Con	con	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	fra	fra	ADP	E	_	8	case	_	_
+7	dieci	dieci	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	avranno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	acl:relcl	_	_
+12	sicuramente	sicuramente	ADV	B	_	11	advmod	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Italia	Italia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	20	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	chissà	chissà	INTJ	I	_	17	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Spendono appena una cinquantina di pesos al mese;
+1	Spendono	spendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	appena	appena	ADV	B	_	1	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cinquantina	cinquantina	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	pesos	peso	NOUN	S	_	4	nmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mese	mese	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = il resto lo mandano in Italia.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	resto	resto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	mandano	mandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Italia	Italia	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = A 120 pesos al mese, sono 1440 pesos all’anno di economie, 14.400 in dieci anni:
+1	A	a	ADP	E	_	3	case	_	_
+2	120	120	NUM	N	NumType=Card	3	nummod	_	_
+3	pesos	peso	NOUN	S	_	9	obl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	1440	1440	NUM	N	NumType=Card	10	nummod	_	_
+10	pesos	peso	NOUN	S	Gender=Masc	0	root	_	_
+11-12	all’	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	economie	economia	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	14.400	14.400	NUM	N	NumType=Card	20	nummod	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	dieci	dieci	NUM	N	NumType=Card	20	nummod	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 16
+# text = ossia un 120.000 lire.
+1	ossia	ossia	CCONJ	CC	_	4	cc	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	120.000	120.000	NUM	N	NumType=Card	4	nummod	_	_
+4	lire	lira	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Che, in un paesello calabrese, rappresentano una fortuna.
+1	Che	che	PRON	PR	PronType=Rel	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	paesello	paesello	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	calabrese	calabrese	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Il difficile, per me che spendo 75 pesos solo per la camera, è di riuscire a vivere con 50.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	difficile	difficile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+7	spendo	spendere	VERB	V	VerbForm=Ger	15	advcl	_	_
+8	75	75	NUM	N	NumType=Card	9	nummod	_	_
+9	pesos	peso	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	solo	solo	ADV	B	_	13	advmod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	camera	camera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	riuscire	riuscire	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	vivere	vivere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	50	50	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Loro ci riescono:
+1	Loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	riescono	riesrre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = dormono in dieci in una stanza che costerà meno della mia, e mangiano quasi unicamente spaghetti fatti in cooperativa, nella stanza medesima.
+1	dormono	dormire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	dieci	dieci	NUM	N	NumType=Card	1	obl	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	costerà	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+9	meno	meno	ADV	B	_	12	case	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	mangiano	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+16	quasi	quasi	ADV	B	_	17	advmod	_	_
+17	unicamente	unico	ADV	B	_	18	advmod	_	_
+18	spaghetti	spaghetto	ADJ	A	Gender=Masc|Number=Plur	15	xcomp	_	_
+19	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	cooperativa	cooperativa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+26	medesima	medesimo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

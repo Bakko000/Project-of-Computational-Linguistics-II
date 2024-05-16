@@ -1,0 +1,252 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Martedì 30 maggio 1978
+1	Martedì	martedì	NOUN	S	Gender=Masc	0	root	_	_
+2	30	30	NUM	N	NumType=Card	1	nmod	_	_
+3	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1978	1978	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Ore 12,30.
+1	Ore	ora	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	12,30	12,30	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Questi sono i giorni più lunghi.
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Che barba.
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	barba	barba	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E' tremendo.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	tremendo	tremendo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Non mi va di studiare, soprattutto di ripetere.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	studiare	studiare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	soprattutto	soprattutto	ADV	B	_	9	advmod	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	ripetere	ripetere	VERB	V	VerbForm=Inf	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Mi ero messa Sabato a studiare col registratore e mi riusciva molto meglio, invece mi è caduto e adesso è da riparare.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	Sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	3	xcomp	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	studiare	studiare	VERB	V	VerbForm=Inf	4	acl	_	_
+7-8	col	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	registratore	registratore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	riusciva	riuscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	meglio	meglio	ADV	B	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	invece	invece	ADV	B	_	19	advmod	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	adesso	adesso	ADV	B	_	22	advmod	_	_
+22	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+23	da	da	ADP	E	_	24	mark	_	_
+24	riparare	riparare	VERB	V	VerbForm=Inf	22	ccomp	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Uffa.
+1	Uffa	Uffa	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Uffa.
+1	Uffa	Uffa	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Uffa.
+1	Uffa	Uffa	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Cosa farò, dopo la laurea?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dopo	dopo	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Non ci sono speranze di alcun genere.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	speranze	speranza	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	genere	genere	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Ore 21,30.
+1	Ore	ora	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	21,30	21,30	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Ohe, qualcosa l'ho fatta.
+1	Ohe	Ohe	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	6	dislocated	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Stamattina al sole e poi questo pom ancora con Felix alla biblioteca di Economia e Commercio.
+1	Stamattina	stamattina	ADV	B	_	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sole	sole	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	poi	poi	ADV	B	_	8	advmod	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	pom	pom	NOUN	S	Gender=Masc	1	conj	_	_
+9	ancora	ancora	ADV	B	_	8	advmod	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	Felix	Felix	PROPN	SP	_	8	nmod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	biblioteca	biblioteca	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Economia	economia	PROPN	SP	_	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Commercio	commercio	PROPN	SP	_	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Finalmente ho di nuovo il registratore e adesso ascolto Joan Baez.
+1	Finalmente	finalmente	ADV	B	_	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	2	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	registratore	registratore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	adesso	adesso	ADV	B	_	9	advmod	_	_
+9	ascolto	ascolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+10	Joan	Joan	PROPN	SP	_	9	obj	_	_
+11	Baez	Baez	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Sono tornata a casa dopo la cena a mensa, e ha cominciato a piovere a dirotto, proprio quando sono scesa dall'autobus, sotto casa.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	dopo	dopo	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cena	cena	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	mensa	mensa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	piovere	piovere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	dirotto	dirotto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	proprio	proprio	ADV	B	_	22	advmod	_	_
+20	quando	quando	SCONJ	CS	_	22	mark	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	scesa	scendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+23-24	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+23	da	da	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	autobus	autobus	NOUN	S	Gender=Masc	22	obl:agent	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	sotto	sotto	ADP	E	_	28	case	_	_
+28	casa	casa	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Domani è l'ultimo giorno.
+1	Domani	Domani	ADV	B	_	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Sono sola mentre Anna è fuori e Igor è a dormire da Diana.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	mentre	mentre	SCONJ	CS	_	9	mark	_	_
+4	Anna	Anna	PROPN	SP	_	9	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	fuori	fuori	ADV	B	_	9	advmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Igor	Igor	PROPN	SP	_	6	conj	_	_
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	dormire	dormire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Diana	Diana	PROPN	SP	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Tra poco vedo un film in TV:
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	poco	poco	ADV	B	_	3	advmod	_	_
+3	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	TV	TV	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 21
+# text = "Diario di una casalinga inquieta".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Diario	diario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	casalinga	casalinga	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	inquieta	inquieto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

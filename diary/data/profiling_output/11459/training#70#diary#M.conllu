@@ -1,0 +1,273 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	lino@...	lino@.	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date:
+1	Date	data	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Oct 8 07:28:32 1996
+1	Oct	Oct	ADV	B	_	2	advmod	_	_
+2	8	8	NUM	N	NumType=Card	0	root	_	_
+3	07:28:32	07:28:32	NUM	N	NumType=Card	2	flat	_	_
+4	1996	1996	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Subject: boh?
+1	Subject	Subject	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	boh	boh	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Dopo 5 giornate la neopromossa Lecce, fiamma ardente negli orgogliosi petti salentini, ha 15 punti, 4 sulla seconda, 7 sulla quinta.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	5	5	NUM	N	NumType=Card	3	nummod	_	_
+3	giornate	giornascere	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	neopromossa	neopromosso	ADJ	A	_	6	amod	_	_
+6	Lecce	Lecce	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	fiamma	fiamma	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+9	ardente	ardente	ADJ	A	Number=Sing	8	amod	_	_
+10-11	negli	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	orgogliosi	orgoglioso	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	petti	petto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+14	salentini	salentino	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	15	15	NUM	N	NumType=Card	18	nummod	_	_
+18	punti	punto	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	4	4	NUM	N	NumType=Card	25	conj	_	_
+21-22	sulla	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	seconda	seconda	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	7	7	NUM	N	NumType=Card	16	nummod	_	_
+26-27	sulla	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	quinta	quinta	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	25	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 6
+# text = I granata hanno circa 8 punti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	granata	granata	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	circa	circa	ADV	B	_	5	advmod	_	_
+5	8	8	NUM	N	NumType=Card	6	nummod	_	_
+6	punti	punto	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Controllare su internette, prego.
+1	Controllare	controllare	VERB	V	VerbForm=Inf	0	root	_	_
+2	su	su	ADP	E	_	3	case	_	_
+3	internette	internetta	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	prego	prego	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Per favore, mandami qualche messaggio cybernetico.
+1	Per	per	ADP	E	_	2	case	_	_
+2	favore	favore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	mandami	mandamare	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+7	cybernetico	cybernetico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Anche dell'insalata di matematica, che qua è ora di pranzo.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2-3	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	di	di	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	insalata	insalata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	matematica	matematica	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+9	qua	qua	ADV	B	_	13	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	ora	ora	ADV	B	_	13	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	4	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Cistapizza.
+1	Cistapizza	Cistapizza	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Derizzis
+1	Derizzis	Derizzis	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Lino fa il tifo per Inter e Lecce, ma la presenza morale dell'Inter si attenua tutte le volte che il Lecce lotta per non retrocedere o per salire di categoria.
+1	Lino	lino	ADV	B	_	2	advmod	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tifo	tifo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	Inter	Inter	PROPN	SP	_	2	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Lecce	Lecce	PROPN	SP	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	18	punct	_	_
+10	ma	ma	CCONJ	CC	_	18	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+13	morale	morale	ADJ	A	Number=Sing	12	amod	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Inter	Inter	PROPN	SP	_	12	nmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:pass	_	_
+18	attenua	attenuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	21	det:predet	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	volte	volta	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+22	che	che	SCONJ	CS	_	25	mark	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Lecce	Lecce	PROPN	SP	_	25	nsubj	_	_
+25	lotta	lottare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+26	per	per	ADP	E	_	28	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	retrocedere	retrocedere	VERB	V	VerbForm=Inf	25	advcl	_	_
+29	o	o	CCONJ	CC	_	31	cc	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31	salire	salire	VERB	V	VerbForm=Inf	28	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	categoria	categoria	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Praticamente sempre.
+1	Praticamente	praticamente	ADV	B	_	2	advmod	_	_
+2	sempre	sempre	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Il Lecce è la vera passione, e le prime parole di Lino dopo mesi che non ci sentivamo lo testimoniano perfettamente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Lecce	Lecce	PROPN	SP	_	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	vera	vero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	passione	passione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	11	amod	_	_
+11	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Lino	lino	PROPN	SP	_	11	nmod	_	_
+14	dopo	dopo	ADP	E	_	15	case	_	_
+15	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	obj	_	_
+19	sentivamo	sentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	testimoniano	testimoniano	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+22	perfettamente	perfettamente	ADV	B	_	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Io tifo per il Torino.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	tifo	tifo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Torino	Torino	PROPN	SP	_	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Sì, sono un Vecchio Cuore Granata, e quando lo affermo finisco addirittura per crederci.
+1	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Vecchio	vecchio	PROPN	SP	_	0	root	_	_
+6	Cuore	cuore	PROPN	SP	_	5	nmod	_	_
+7	Granata	Granata	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	quando	quando	SCONJ	CS	_	5	conj	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	affermo	affermo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	finisco	finire	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	addirittura	addirittura	ADV	B	_	16	advmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16-17	crederci	_	_	_	_	_	_	_	SpaceAfter=No
+16	creder	credere	VERB	V	VerbForm=Inf	13	advcl	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Ne sono orgoglioso, soprattutto quando considero tutto il carico di sofferenze che la bizzarra scelta maturata in una domenica pomeriggio del 1975 mi ha procurato nell'ultimo quarto di secolo.
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	orgoglioso	orgoglioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	soprattutto	soprattutto	ADV	B	_	7	advmod	_	_
+6	quando	quando	SCONJ	CS	_	7	mark	_	_
+7	considero	considerare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	carico	carico	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	sofferenze	sofferenza	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	27	obj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bizzarra	bizzarra	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+16	scelta	scelto	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	maturata	maturare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	domenica	domenico	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	1975	1975	NUM	N	NumType=Card	20	nmod	_	_
+25	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	obj	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	procurato	procurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+28-29	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	in	in	ADP	E	_	31	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+30	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	quarto	quarto	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 18
+# text = […]
+1	[	[	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+

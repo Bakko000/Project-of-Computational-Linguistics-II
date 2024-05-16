@@ -1,0 +1,459 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 10 gennaio 1979
+1	10	10	NUM	N	NumType=Card	0	root	_	_
+2	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	1979	1979	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Cara Maria,
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Maria	Maria	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = rispondo subito alla tua del 26 dicembre perché mi trovo con qualche minuto di libertà.
+1	rispondo	rispondo	VERB	V	VerbForm=Ger	0	root	_	_
+2	subito	subito	ADV	B	_	1	advmod	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tua	tuo	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	26	26	NUM	N	NumType=Card	5	nmod	_	_
+9	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	8	flat	_	_
+10	perché	perché	SCONJ	CS	_	12	mark	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+12	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	libertà	libertà	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Rispondo alla tua domanda, quando vuoi sapere come penso io di un uomo che ha agito come quello che tu sai.
+1	Rispondo	Rispondo	VERB	V	VerbForm=Ger	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	quando	quando	SCONJ	CS	_	9	mark	_	_
+8	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sapere	sapere	VERB	V	VerbForm=Inf	1	advcl	_	_
+10	come	come	SCONJ	CS	_	11	mark	_	_
+11	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	xcomp	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	agito	agire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	18	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+22	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	23	nsubj	_	_
+23	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = In Italia, come in ogni altro paese, l'agire, la coscienza, l'onestà sono uguali.
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	19	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADV	B	_	2	advmod	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	agire	agire	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	onestà	onestà	NOUN	S	Gender=Fem	19	nsubj	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	uguali	uguale	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 6
+# text = Vorrei dire che non è onesto un uomo che agisce così, però debbo dirti, ora che conosco la vita, che ho esperienza, che una persona giovanissima può trovarsi in situazioni imprevedibili per cui il tormento di dover scegliere è più grave di lei stessa.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	onesto	onedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	agisce	agire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	così	così	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	però	però	ADV	B	_	15	advmod	_	_
+14	debbo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-16	dirti	_	_	_	_	_	_	_	SpaceAfter=No
+15	dir	dire	VERB	V	VerbForm=Inf	2	conj	_	_
+16	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	ora	ora	ADV	B	_	15	advmod	_	_
+19	che	che	SCONJ	CS	_	20	mark	_	_
+20	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vita	vita	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	25	obj	_	_
+25	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+26	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	33	obj	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	persona	persona	NOUN	S	Gender=Fem|Number=Sing	33	nsubj	_	_
+31	giovanissima	giovane	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	30	amod	_	_
+32	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33-34	trovarsi	_	_	_	_	_	_	_	_
+33	trovar	trovare	VERB	V	VerbForm=Inf	26	acl:relcl	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	33	obl	_	_
+37	imprevedibili	imprevedibili	ADJ	A	Number=Plur	36	amod	_	_
+38	per	per	ADP	E	_	39	case	_	_
+39	cui	cui	PRON	PR	PronType=Rel	41	nmod	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	tormento	tormento	NOUN	S	Gender=Masc|Number=Sing	36	acl:relcl	_	_
+42	di	di	ADP	E	_	44	mark	_	_
+43	dover	dovere	AUX	VM	VerbForm=Inf	44	aux	_	_
+44	scegliere	scegliere	VERB	V	VerbForm=Inf	41	acl	_	_
+45	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+46	più	più	ADV	B	_	47	advmod	_	_
+47	grave	grave	ADJ	A	Number=Sing	44	xcomp	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	obl	_	_
+50	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Un giovane non può pensare tante conseguenze, per il fatto stesso che è giovane.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giovane	giovane	NOUN	S	Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+6	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	giovane	giovane	ADJ	A	Number=Sing	11	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Può darsi che abbia tanto sofferto, e chissà quanto soffre ancora.
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	darsi	_	_	_	_	_	_	_	_
+2	dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	tanto	tanto	ADV	B	_	7	advmod	_	_
+7	sofferto	sofferto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	chissà	chissà	ADV	B	_	11	advmod	_	_
+11	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	2	obl	_	_
+12	soffre	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+13	ancora	ancora	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Chi può essere nell'animo di un individuo?
+1	Chi	chi	PRON	PQ	PronType=Int	6	nsubj	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	animo	animo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	individuo	individuo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Quante persone girano per le strade con una apparente serenità, ed hanno in cuore una infinita amarezza!
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	persone	persona	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	girano	girare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	strade	strada	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	apparente	apparente	ADJ	A	Number=Sing	10	amod	_	_
+10	serenità	serenità	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	infinita	infinito	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Non si deve - secondo me - pensare che si sia solo noi a soffrire.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	deve	dovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	-	-	PUNCT	FB	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+7	-	-	PUNCT	FB	_	3	punct	_	_
+8	pensare	pensare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+11	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	solo	solo	ADV	B	_	13	advmod	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	soffrire	soffrire	VERB	V	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = C'è chi lo manifesta e chi soffre tacendo vergognandosi anche di dirlo.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	manifesta	manifestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	chi	chi	PRON	PR	PronType=Rel	5	conj	_	_
+8	soffre	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+9	tacendo	tacere	VERB	V	VerbForm=Ger	8	advcl	_	_
+10-11	vergognandosi	_	_	_	_	_	_	_	_
+10	vergognando	vergognare	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	anche	anche	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+14	dir	dire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Tutto quello che mi hai scritto l'ho letto con cura, ma devi superare lo sgomento della stessa tua pena, e forse più gravi, e devi vivere per il futuro, non per il passato.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	dislocated	_	_
+3	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	cura	cura	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	superare	superare	VERB	V	VerbForm=Inf	9	conj	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sgomento	sgomento	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	17	nmod	_	_
+21	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	pena	pena	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	forse	forse	ADV	B	_	27	advmod	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	gravi	grave	ADJ	A	Number=Plur	9	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	vivere	vivere	VERB	V	VerbForm=Inf	9	conj	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	9	punct	_	_
+36	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	passato	passato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 14
+# text = Sappi ancora che è molto difficile vivere e bisogna trovare la capacità di superare anche gli affronti.
+1	Sappi	Sappi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	ancora	ancora	ADV	B	_	6	advmod	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	difficile	difficile	ADJ	A	Number=Sing	1	ccomp	_	_
+7	vivere	vivere	VERB	V	VerbForm=Inf	6	csubj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	trovare	trovare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	capacità	capacità	NOUN	S	Gender=Fem	10	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	superare	superare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	affronti	affronte	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Io dico che essere buoni con chi è stato buono con noi non dà nessun merito, bisogna essere buoni con chi ci ha fatto del male, allora ci sentiremo sereni.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	2	ccomp	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	chi	chi	PRON	PR	PronType=Rel	5	obl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+10	buono	buono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	obl	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	merito	merito	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	essere	essere	AUX	V	VerbForm=Inf	20	cop	_	_
+20	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	18	ccomp	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	chi	chi	PRON	PR	PronType=Rel	25	obl	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	25	expl	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	male	male	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	allora	allora	ADV	B	_	32	advmod	_	_
+31	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	32	expl	_	_
+32	sentiremo	sentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	conj	_	_
+33	sereni	serene	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Non pensare più troppo, scrivimi, se vuoi posso aiutarti, ma penso che solo bello sarebbe se tu riuscissi a superare col ragionamento e col cuore che forse anche Tommi ha tanto sofferto e soffre.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	troppo	troppo	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	scrivimi	scrivimo	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	aiutarti	aiutartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ma	ma	CCONJ	CC	_	14	cc	_	_
+14	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	solo	solo	ADV	B	_	17	advmod	_	_
+17	bello	bello	ADJ	A	Gender=Masc|Number=Sing	14	ccomp	_	_
+18	sarebbe	essere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+19	se	se	SCONJ	CS	_	21	mark	_	_
+20	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	21	nsubj	_	_
+21	riuscissi	riusciggere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	superare	superare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24-25	col	_	_	_	_	_	_	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ragionamento	ragionamento	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28-29	col	_	_	_	_	_	_	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	_
+31	che	che	PRON	PR	PronType=Rel	37	obj	_	_
+32	forse	forse	ADV	B	_	33	advmod	_	_
+33	anche	anche	ADV	B	_	34	advmod	_	_
+34	Tommi	Tomma	PROPN	SP	_	37	nsubj	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+36	tanto	tanto	ADV	B	_	37	advmod	_	_
+37	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	soffre	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Ringrazia il cielo che puoi ancora amare, è una fortuna.
+1	Ringrazia	Ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	amare	amare	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = L'amore vero non finisce mai.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	mai	mai	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Mia cugina abita a Praga, forse verremo.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	cugina	cugina	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	abita	abitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Praga	Praga	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	forse	forse	ADV	B	_	8	advmod	_	_
+8	verremo	verre	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Baci a tutti e stai contenta
+1	Baci	Baco	NUM	N	NumType=Card	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	stai	stare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	5	xcomp	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Athe
+1	Athe	Athe	ADV	B	_	0	root	_	SpacesAfter=\n\n
+

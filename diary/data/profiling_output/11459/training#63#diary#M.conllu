@@ -1,0 +1,667 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo è un nome come altri, un uomo come altri, una storia come tante altre.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nome	nome	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Questo è Diego che con la sua anima è unico:
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	Diego	Diegare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	anima	anima	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	unico	unico	ADJ	A	Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = Diego è uno, unico e solo!
+1	Diego	Diego	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	unico	unico	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	solo	solo	ADV	B	_	3	conj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Tutto inizia a Bergamo, la città dei mille.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Bergamo	Bergamo	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	città	città	NOUN	S	Gender=Fem	2	obj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	mille	mille	NUM	N	NumType=Card	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Garibaldi per unire l'Italia prese i mille più valorosi guerrieri che in maggioranza erano Bergamaschi.
+1	Garibaldi	Garibaldi	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	unire	unire	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Italia	Italia	PROPN	SP	_	3	obj	_	_
+6	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+8	mille	milla	NUM	N	NumType=Card	11	nummod	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	valorosi	valoroso	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	guerrieri	guerriero	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+15	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	Bergamaschi	Bergamaschi	PROPN	SP	_	11	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Io sono un uomo sensibile e fragile, ma il mio sangue è Bergamasco e mi rende forte, tenace e combattivo.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	sensibile	sensibile	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	fragile	fragile	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	ma	ma	CCONJ	CC	_	14	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	Bergamasco	bergamasco	PROPN	SP	_	4	conj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+18	forte	forte	ADJ	A	Number=Sing	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	tenace	tenace	ADJ	A	Number=Sing	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	combattivo	combattivo	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = La vita mi ha insegnato che la vera forza non appartiene alle persone che non cadono mai, ma a quelle che quando cadono si rialzano.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	vera	vero	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	forza	forza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	appartiene	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12-13	alle	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	cadono	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	mai	mai	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	ma	ma	CCONJ	CC	_	22	cc	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	5	conj	_	_
+23	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+24	quando	quando	SCONJ	CS	_	25	mark	_	_
+25	cadono	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	rialzano	rialzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Bergamo è una bellissima città divisa in due parti;
+1	Bergamo	Bergamo	PROPN	SP	_	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	5	amod	_	_
+5	città	città	NOUN	S	Gender=Fem	0	root	_	_
+6	divisa	dividere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	parti	parte	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 9
+# text = la parte moderna è ai piedi della collina dove sorge la parte antica che non ha nulla da invidiare alle altre città d'arte.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	collina	collina	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	dove	dove	ADV	B	_	12	advmod	_	_
+12	sorge	sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	antica	antico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+19	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	18	obj	_	_
+20	da	da	ADP	E	_	21	mark	_	_
+21	invidiare	invidiare	VERB	V	VerbForm=Inf	19	acl	_	_
+22-23	alle	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	altre	altro	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	città	città	NOUN	S	Gender=Fem	21	obl	_	_
+26	d'	di	ADP	E	_	27	case	_	SpaceAfter=No
+27	arte	arte	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = La provincia è ancora più bella; a sud pianure a perdita d'occhio con i loro profumi e sapori, ad est e ovest grandi laghi con i loro canneti e piccole barche di pescatori, a nord piccoli laghi d'alta montagna che disegnano le valli dove le montagne si fanno sempre più alte e imponenti superando i 3.000 metri;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	sud	sud	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	pianure	pianure	CCONJ	CC	_	12	cc	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	profumi	profume	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	sapori	sapore	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	12	punct	_	_
+22	ad	a	ADP	E	_	23	case	_	_
+23	est	est	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	ovest	ovest	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+26	grandi	grande	ADJ	A	Number=Plur	27	amod	_	_
+27	laghi	lago	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+28	con	con	ADP	E	_	31	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	canneti	canneta	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	_
+34	barche	barca	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	pescatori	pescatore	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	a	a	ADP	E	_	39	case	_	_
+39	nord	nord	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+40	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	41	amod	_	_
+41	laghi	lago	NOUN	S	Gender=Masc|Number=Plur	36	conj	_	_
+42	d'	di	ADP	E	_	44	case	_	SpaceAfter=No
+43	alta	alto	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	_
+44	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+45	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+46	disegnano	disegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
+47	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	valli	valle	NOUN	S	Gender=Fem|Number=Plur	46	obj	_	_
+49	dove	dove	ADV	B	_	53	advmod	_	_
+50	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
+51	montagne	montagna	NOUN	S	Gender=Fem|Number=Plur	53	nsubj	_	_
+52	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	53	expl:impers	_	_
+53	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	acl:relcl	_	_
+54	sempre	sempre	ADV	B	_	53	advmod	_	_
+55	più	più	ADV	B	_	56	advmod	_	_
+56	alte	alto	ADJ	A	Gender=Fem|Number=Plur	53	xcomp	_	_
+57	e	e	CCONJ	CC	_	58	cc	_	_
+58	imponenti	imponente	ADJ	A	Number=Plur	56	conj	_	_
+59	superando	superare	VERB	V	VerbForm=Ger	53	advcl	_	_
+60	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
+61	3.000	3.000	NUM	N	NumType=Card	62	nummod	_	_
+62	metri	metro	NOUN	S	Gender=Masc|Number=Plur	59	obj	_	SpaceAfter=No
+63	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 11
+# text = dove boschi, prati e fiori scompaiono lasciando il posto a rocce, ruscelli, marmotte;
+1	dove	dove	ADV	B	_	7	advmod	_	_
+2	boschi	bosco	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	prati	prato	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+7	scompaiono	scomparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	lasciando	lasciare	VERB	V	VerbForm=Ger	7	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	posto	posto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	rocce	roccia	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	ruscelli	ruscello	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	marmotte	marmotta	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 12
+# text = stambecchi ed aquile.
+1	stambecchi	stambecco	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	ed	e	CCONJ	CC	_	3	cc	_	_
+3	aquile	aquila	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Mi rispecchio pienamente nella mia città perché anche il mio modo d'essere è diviso in due parti.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	rispecchio	rispecchio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pienamente	pienamente	ADV	B	_	2	advmod	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	città	città	NOUN	S	Gender=Fem	2	obl	_	_
+8	perché	perché	SCONJ	CS	_	12	mark	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	advcl	_	_
+13	d'	di	ADP	E	_	16	mark	_	SpaceAfter=No
+14	essere	essere	AUX	VA	VerbForm=Inf	16	aux	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	diviso	dividere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	due	due	NUM	N	NumType=Card	19	nummod	_	_
+19	parti	parte	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Una è la parte alta e antica che rappresenta i sani valori e principi che mi sono stati insegnati nell'infanzia.
+1	Una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	alta	alto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	antica	antico	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	sani	sano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	valori	valore	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	principi	principio	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	insegnati	insegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20-21	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = L'altra è la parte bassa e moderna con la corruzione e il Dio danaro.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	corruzione	corruzione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+15	danaro	danaro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = L'infanzia l'ho vissuta serenamente con genitori che si amano, un forte legame con mio fratello minore di nove anni e buoni rapporti con il resto dei parenti.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	vissuta	vivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+6	serenamente	sereno	ADV	B	_	5	advmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	forte	forte	ADJ	A	Number=Sing	15	amod	_	_
+15	legame	legame	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	minore	minore	ADJ	A	Degree=Cmp|Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	nove	nove	NUM	N	NumType=Card	22	nummod	_	_
+22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+25	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	resto	resto	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	parenti	parente	NOUN	S	Number=Plur	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 17
+# text = L'adolescienza segna il mio ingresso nel mondo della droga con tante cadute e risalite, rapporti d'amore e odio con varie donne sino ad arrivare ad oggi:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	adolescienza	adolescienza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	segna	segnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	droga	droga	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	cadute	caduta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	risalite	risalite	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+20	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	amore	amore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	odio	odio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	26	det	_	_
+26	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+27	sino	sino	ADV	B	_	29	mark	_	_
+28	ad	a	ADP	E	_	27	fixed	_	_
+29	arrivare	arrivare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+30	ad	a	ADP	E	_	31	case	_	_
+31	oggi	oggi	ADV	B	_	29	advmod	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 18
+# text = 35 anni e ritrovarsi nel carcere Don Bosco di Pisa.
+1	35	35	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4-5	ritrovarsi	_	_	_	_	_	_	_	_
+4	ritrovar	ritrovare	VERB	V	VerbForm=Inf	2	conj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	Don	don	PROPN	SP	_	8	nmod	_	_
+10	Bosco	Bosco	PROPN	SP	_	9	flat:name	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Pisa	Pisa	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Il martedì 5 Ottobre 2004 (maledetto giorno da cani), dopo svariati giorni che all'insaputa di tutti conservavo la terapia di psicofarmaci che viene concessa ai Detenuti per farli stare tranquilli, ho messo in atto un progetto deciso da molto tempo, da prima della carcerazione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	martedì	martedì	NOUN	S	Gender=Masc	40	obl	_	_
+3	5	5	NUM	N	NumType=Card	2	nmod	_	_
+4	Ottobre	ottobre	PROPN	SP	_	3	flat	_	_
+5	2004	2004	NUM	N	NumType=Card	3	flat	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	maledetto	maledetto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	cani	cane	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	dopo	dopo	ADP	E	_	15	case	_	_
+14	svariati	svariato	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	insaputa	insaputa	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	nmod	_	_
+22	conservavo	conservare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	psicofarmaci	psicofarmaco	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj:pass	_	_
+28	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+29	concessa	concedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+30-31	ai	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	Detenuti	detenuto	PROPN	SP	_	29	obl	_	_
+33	per	per	ADP	E	_	34	mark	_	_
+34-35	farli	_	_	_	_	_	_	_	_
+34	far	fare	VERB	V	VerbForm=Inf	29	advcl	_	_
+35	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	obj	_	_
+36	stare	stare	VERB	V	VerbForm=Inf	34	ccomp	_	_
+37	tranquilli	tranquillo	ADJ	A	Gender=Masc|Number=Plur	36	xcomp	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	15	punct	_	_
+39	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	atto	atto	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	_
+45	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	acl	_	_
+46	da	da	ADP	E	_	48	case	_	_
+47	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	48	det	_	_
+48	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	40	punct	_	_
+50	da	da	ADP	E	_	51	case	_	_
+51	prima	prima	ADV	B	_	40	advmod	_	_
+52-53	della	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	carcerazione	carcerazione	NOUN	S	Gender=Fem|Number=Sing	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	40	punct	_	_
+
+# sent_id = 20
+# text = Il suicidio tramite eutanasia, la morte dolce, dormire serenamente e non risvegliarmi mai più.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	suicidio	suicidio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	tramite	tramite	ADP	E	_	4	case	_	_
+4	eutanasia	eutanasia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	morte	morte	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	dolce	dolce	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	dormire	dormire	VERB	V	VerbForm=Inf	2	conj	_	_
+11	serenamente	sereno	ADV	B	_	10	advmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	risvegliarmi	arma|risvegliarme	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	conj	_	_
+15	mai	mai	ADV	B	_	14	advmod	_	_
+16	più	più	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Tutto ciò dopo aver spedito 3 lettere alle persone a mè più care per alleggerire il peso di questa situazione e non provocare assurdi sensi di colpa.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	dopo	dopo	SCONJ	CS	_	5	mark	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	spedito	spedire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	3	3	NUM	N	NumType=Card	7	nummod	_	_
+7	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	mè	mè	NOUN	S	Gender=Masc	10	nmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	care	caro	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	alleggerire	alleggerire	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	peso	peso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	provocare	provocare	VERB	V	VerbForm=Inf	16	conj	_	_
+25	assurdi	assurdo	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+26	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Una lettera per i miei genitori e mio fratello, una per la donna che amo e con la quale ho convissuto per 7 anni e la terza per i miei compagni di cella, fratelli non di sangue ma di sventura.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	appos	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+16	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	e	e	CCONJ	CC	_	22	cc	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	quale	quale	PRON	PR	Number=Sing|PronType=Rel	22	obl	_	_
+21	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	convissuto	convivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	7	7	NUM	N	NumType=Card	25	nummod	_	_
+25	anni	anno	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	25	amod	_	_
+29	per	per	ADP	E	_	32	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	cella	cella	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	22	punct	_	_
+36	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+37	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40	ma	ma	CCONJ	CC	_	42	cc	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	sventura	sventura	NOUN	S	Gender=Fem|Number=Sing	36	conj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Alle ore 11.00 si è impiccato nella cella singola numero 30, Alessandro.
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+4	11.00	11.00	NUM	N	NumType=Card	3	nummod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	impiccato	impiccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cella	cella	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	singola	singolo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	numero	numero	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+13	30	30	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	Alessandro	Alessandro	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 24
+# text = Un'ora prima, mi ha detto una poesia, la più corta e significativa che io abbia mai udito.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ora	ora	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+3	prima	prima	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	corta	corto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	significativa	significativo	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+17	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+18	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	mai	mai	ADV	B	_	20	advmod	_	_
+20	udito	udire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Essa dice:
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 26
+# text = Io!, Noi!, Voi!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	appos	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	appos	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

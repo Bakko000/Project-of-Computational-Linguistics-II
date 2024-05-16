@@ -1,0 +1,455 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lunedì 28 ottobre 1968 ore 16,40
+1	Lunedì	lunedì	NOUN	S	Gender=Masc	5	nmod	_	_
+2	28	28	NUM	N	NumType=Card	1	nmod	_	_
+3	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1968	1968	NUM	N	NumType=Card	2	flat	_	_
+5	ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	16,40	16,40	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Siamo già al sopra delle nuvole, credo di non avere mai provato un'emozione così grande.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+2	già	già	ADV	B	_	10	advmod	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sopra	sopra	ADV	B	_	10	advmod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	di	di	ADP	E	_	15	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	avere	avere	AUX	VA	VerbForm=Inf	15	aux	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	così	così	ADV	B	_	19	advmod	_	_
+19	grande	grande	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Siamo lontane da tutti, al di sopra della terra, da quassù tutto diventa piccolo e insignificante.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	lontane	lontano	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sopra	sopra	ADV	B	_	12	advmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	terra	terra	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	quassù	quassù	ADV	B	_	17	advmod	_	_
+16	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	_
+17	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+18	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	17	xcomp	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	insignificante	insignificante	ADJ	A	Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Siamo partite da Fiumicino alle ore 16 e già siamo distanti moltissimi chilometri.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	partite	partire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	Fiumicino	Fiumicino	PROPN	SP	_	2	obl:agent	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ore	ora	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+8	16	16	NUM	N	NumType=Card	7	nummod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	già	già	ADV	B	_	12	advmod	_	_
+11	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	distanti	distare	ADJ	A	Number=Plur	2	conj	_	_
+13	moltissimi	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ho avuto un po' di paura all'inizio e anche un po' di tristezza, è la prima volta che faccio un viaggio in aereo, ma adesso mi sento sicura, sono contenta di essere quassù.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	po'	poco	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	parataxis	_	_
+21	che	che	SCONJ	CS	_	22	mark	_	_
+22	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	acl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	ma	ma	CCONJ	CC	_	31	cc	_	_
+29	adesso	adesso	ADV	B	_	31	advmod	_	_
+30	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	31	expl	_	_
+31	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+32	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	31	xcomp	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+35	contenta	contentire	ADJ	A	Gender=Fem|Number=Sing	31	conj	_	_
+36	di	di	ADP	E	_	38	mark	_	_
+37	essere	essere	AUX	V	VerbForm=Inf	38	cop	_	_
+38	quassù	quassù	PRON	PI	Number=Plur|PronType=Ind	35	advcl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Questo nostro primo viaggio ci porterà a Manila.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+6	porterà	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Manila	Manila	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Abbiamo sorpassato montagne, città, mari, e adesso siamo sopra un grande banco di nuvole, lontano all'orizzonte si vede un tramonto bellissimo, sembra una cosa irreale.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sorpassato	sorpassare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	montagne	montagna	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	città	città	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	mari	maro	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	e	e	CCONJ	CC	_	15	cc	_	_
+10	adesso	adesso	ADV	B	_	15	advmod	_	_
+11	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	sopra	sopra	ADV	B	_	15	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	grande	grande	ADJ	A	Number=Sing	15	amod	_	_
+15	banco	banco	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	lontano	lontano	ADV	B	_	22	case	_	_
+20-21	all'	_	_	_	_	_	_	_	SpaceAfter=No
+20	a	a	ADP	E	_	19	fixed	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tramonto	tramonto	NOUN	S	Gender=Masc|Number=Sing	24	xcomp	_	_
+27	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	2	punct	_	_
+29	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+32	irreale	irreale	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Vicino a noi c'è un altro aereo, da qui sembra tutto dorato e anche lontanissimo.
+1	Vicino	vicino	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	qui	qui	ADV	B	_	5	advmod	_	_
+12	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
+14	dorato	dorato	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	lontanissimo	lontano	ADV	B	Degree=Abs	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Le nuvole sembrano ghiacciai dalla neve eterna, sembra di essere in un altro mondo, sono grandi questi banchi di nubi imponenti, danno un senso di paura e di eccitamento.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ghiacciai	ghiacciai	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	neve	neve	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	eterna	eterno	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	di	di	ADP	E	_	16	mark	_	_
+12	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	altro	altro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	grandi	grande	ADJ	A	Number=Plur	3	conj	_	_
+20	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+21	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	nubi	nubo	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	imponenti	imponente	ADJ	A	Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	senso	senso	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	paura	paura	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	eccitamento	eccitamento	NOUN	S	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Siamo partiti con il sole e dopo solo un'ora siamo quasi di sera.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	partiti	partire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sole	sole	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	12	cc	_	_
+7	dopo	dopo	ADP	E	_	10	case	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	ora	ora	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+11	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	quasi	quasi	ADV	B	_	2	advmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sera	sera	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = E' un'avventura bellissima che sono contenta di avere perché tutto questo si può definire favoloso, fortissimo, affascinante.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	bellissima	bello	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	contenta	contentire	ADJ	A	Gender=Fem|Number=Sing	3	acl:relcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	perché	perché	SCONJ	CS	_	15	mark	_	_
+11	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj:pass	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:pass	_	_
+14	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	definire	definire	VERB	V	VerbForm=Inf	9	advcl	_	_
+16	favoloso	favoloso	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	fortissimo	forte	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	affascinante	affascinare	ADJ	A	Number=Sing	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = E' passata ancora un'ora abbiamo mangiato;
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ora	ora	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = fra un'ora e mezza arriveremo a TEHERAN.
+1	fra	fra	ADP	E	_	3	case	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	mezza	mezza	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+6	arriveremo	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	TEHERAN	Teheran	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Qui è già notte fonda si vedono le stelle e le luci lontanissime della città.
+1	Qui	qui	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	notte	notte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	fonda	fonda	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:pass	_	_
+7	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	luci	luce	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+13	lontanissime	lontano	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	città	città	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Quando arriveremo a TEHERAN saranno le 20,20 orario italiano mentre all'orario di TEHERAN saranno le 22,50.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	arriveremo	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	5	advcl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	TEHERAN	Teheran	PROPN	SP	_	2	obl	_	_
+5	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	20,20	20,20	NUM	N	NumType=Card	8	nummod	_	_
+8	orario	orario	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	mentre	mentre	CCONJ	CC	_	16	cc	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	orario	orario	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	TEHERAN	Teheran	PROPN	SP	_	13	nmod	_	_
+16	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	22,50	22,50	NUM	N	NumType=Card	16	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Siamo atterrati e l'aereo ha sostato per circa mezz'ora perciò siamo scesi abbiamo scritto qualche cartolina e abbiamo scoperto come si forma un dollaro poi siamo tornate a bordo.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	atterrati	atterrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	CC	_	7	cc	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sostato	sostare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	circa	circa	ADV	B	_	10	advmod	_	_
+10	mezz'	mezza	ADJ	A	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	ora	ora	ADV	B	_	7	advmod	_	_
+12	perciò	perciò	SCONJ	CS	_	14	mark	_	_
+13	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	scesi	scendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+15	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	nsubj:pass	_	_
+17	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	cartolina	cartolina	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+22	come	come	SCONJ	CS	_	24	mark	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	forma	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	dollaro	dollaro	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+27	poi	poi	ADV	B	_	29	advmod	_	_
+28	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	tornate	tornare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Come è curioso trovarsi lontano da casa tutte faccie diverse che non ti capiscono e che noi non sappiamo capire.
+1	Come	come	SCONJ	CS	_	3	mark	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	curioso	curioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4-5	trovarsi	_	_	_	_	_	_	_	_
+4	trovar	trovare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	lontano	lontano	ADV	B	_	8	case	_	_
+7	da	da	ADP	E	_	6	fixed	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	10	det	_	_
+10	faccie	faccia	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+11	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obj	_	_
+15	capiscono	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
+21	capire	capire	VERB	V	VerbForm=Inf	20	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Abbiamo sorvolato TEHERAN era tutta illuminata e una città molto grande e deve essere anche molto bella.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sorvolato	sorvolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	TEHERAN	Teheran	PROPN	SP	_	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	2	ccomp	_	_
+6	illuminata	illuminato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	6	conj	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+14	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	molto	molto	ADV	B	_	17	advmod	_	_
+17	bella	bello	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Ora siamo ancora in volo il prossimo scalo a Carachi, allora arrivederci a Carachi
+1	Ora	ora	ADV	B	_	5	advmod	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ancora	ancora	ADV	B	_	5	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	volo	volo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	scalo	scalo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Carachi	Carachi	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	allora	allora	ADV	B	_	13	advmod	_	_
+13-14	arrivederci	_	_	_	_	_	_	_	_
+13	arriveder	arrivedere	VERB	V	VerbForm=Inf	5	conj	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Carachi	Carachi	PROPN	SP	_	13	obl	_	SpacesAfter=\n\n
+

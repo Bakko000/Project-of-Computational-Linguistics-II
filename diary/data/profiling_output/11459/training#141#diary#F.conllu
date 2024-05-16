@@ -1,0 +1,262 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mia figlia liquida con poche parole quel vissuto:
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	liquida	liquido	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	parole	parola	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	vissuto	vivere	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = chi ha avuto, ha avuto … chi ha dato, ha dato … scurdammoce 'o passato, simme 'e Napule!
+1	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	…	…	PUNCT	FF	_	6	punct	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	obj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	…	…	PUNCT	FF	_	15	punct	_	_
+15	scurdammoce	scurdammoce	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+16	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	o	o	CCONJ	CC	_	18	cc	_	_
+18	passato	passato	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	simme	simma	ADP	E	_	21	case	_	_
+21	'e	'e	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+22	Napule	Napule	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Paisà …
+1	Paisà	Paisà	ADV	B	_	0	root	_	_
+2	…	…	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Ognuno di noi nel confrontarsi con gli altri, cerca di dare una “rappresentazione” di sé che lo gratifichi:
+1	Ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nmod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6-7	confrontarsi	_	_	_	_	_	_	_	_
+6	confrontar	confrontarre	VERB	V	VerbForm=Inf	12	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	dare	dare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	rappresentazione	rappresentazione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	17	punct	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	gratifichi	gratifico	NOUN	S	Gender=Masc|Number=Plur	17	acl:relcl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 5
+# text = per piacere e per piacersi.
+1	per	per	ADP	E	_	2	case	_	_
+2	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	piacersi	piacerso	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Valentina ha scelta l'immagine serena perché preferibile a quella problematica e, forse, anche per non ferirmi.
+1	Valentina	Valentina	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scelta	scegliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	perché	perché	SCONJ	CS	_	8	mark	_	_
+8	preferibile	preferibile	ADJ	A	Number=Sing	5	advcl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	obl	_	_
+11	problematica	problematico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	19	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	19	punct	_	_
+14	forse	forse	ADV	B	_	19	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	anche	anche	ADV	B	_	19	advmod	_	_
+17	per	per	ADP	E	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19-20	ferirmi	_	_	_	_	_	_	_	SpaceAfter=No
+19	ferir	ferire	VERB	V	VerbForm=Inf	8	conj	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Me la comunica e ci crede:
+1	Me	Me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	comunica	comunica	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 8
+# text = probabilmente pensa di essere stata davvero una bambina felice dove altri non sarebbero riusciti ad esserlo.
+1	probabilmente	probabilmente	ADV	B	_	2	advmod	_	_
+2	pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	8	mark	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	8	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	davvero	davvero	ADV	B	_	8	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	_
+9	felice	felice	ADJ	A	Number=Sing	8	amod	_	_
+10	dove	dove	ADV	B	_	14	advmod	_	_
+11	altri	altro	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+15	ad	a	ADP	E	_	17	mark	_	_
+16-17	esserlo	_	_	_	_	_	_	_	SpaceAfter=No
+16	esser	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	xcomp	_	_
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Oppure, sapendo di non esserlo stata, vuole dare di sé un'immagine vincente.
+1	Oppure	oppure	CCONJ	CC	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	sapendo	sapere	VERB	V	VerbForm=Ger	0	root	_	_
+4	di	di	ADP	E	_	11	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+6-7	esserlo	_	_	_	_	_	_	_	_
+6	esser	essere	AUX	V	VerbForm=Inf	11	aux	_	_
+7	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+8	stata	stata	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	dare	dare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	obl	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+16	vincente	vincente	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Non ricorda o non vuole ricordare ciò che ha “veramente” provato?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	o	o	CCONJ	CC	_	6	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ricordare	ricordare	VERB	V	VerbForm=Inf	2	conj	_	_
+7	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	veramente	veramente	ADV	B	_	13	advmod	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	11	punct	_	_
+13	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = O è ancora troppo presto perché riesca a farlo affiorare?
+1	O	o	CCONJ	CC	_	5	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ancora	ancora	ADV	B	_	5	advmod	_	_
+4	troppo	troppo	ADV	B	_	5	advmod	_	_
+5	presto	presto	ADV	B	_	7	advmod	_	_
+6	perché	perché	SCONJ	CS	_	7	mark	_	_
+7	riesca	riuscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	farlo	_	_	_	_	_	_	_	_
+9	far	fare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	affiorare	affiorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 12
+# text = C'è dell'altro?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Le ripeterò la domanda.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	ripeterò	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = La risposta potrà essere del tutto diversa da quella odierna e rivoluzionare la “rappresentazione” che anch'io do di me stessa:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	8	cop	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nmod	_	_
+8	diversa	diverso	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	nmod	_	_
+11	odierna	odierno	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	rivoluzionare	rivoluzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	rappresentazione	rappresentazione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+19	anch'	anche	ADV	B	_	20	advmod	_	SpaceAfter=No
+20	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	do	do	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	21	obl	_	_
+24	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 15
+# text = simme 'e Napule!
+1	simme	simma	ADP	E	_	2	case	_	_
+2	'e	'e	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	Napule	Napule	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Paisà, … che diamine!
+1	Paisà	Paisà	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	…	…	PUNCT	FF	_	5	punct	_	_
+4	che	che	DET	DE	PronType=Exc	5	det	_	_
+5	diamine	diamine	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

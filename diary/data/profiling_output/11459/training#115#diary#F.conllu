@@ -1,0 +1,624 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lunedì 18 dicembre 1978
+1	Lunedì	lunedì	NOUN	S	Gender=Masc	0	root	_	_
+2	18	18	NUM	N	NumType=Card	1	nmod	_	_
+3	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1978	1978	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Casino.
+1	Casino	Casino	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Litigano perché il padrone di casa le caccia tutte, 'ste pettegole.
+1	Litigano	Litigare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	1	advcl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	caccia	caccia	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+9	tutte	tutto	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	'	'	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	ste	sto	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	pettegole	pettegola	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Io sono nel casino più nero.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	casino	casino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	nero	nero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Sono le dieci e mi alzo adesso, pensando al mio assurdo rapporto con Felice che si lamenta perché non scopa, ma intanto gli piace fare quello che facciamo.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+3	dieci	dieci	NUM	N	NumType=Card	6	nummod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	alzo	alzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	adesso	adesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	pensando	pensare	VERB	V	VerbForm=Ger	6	advcl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	14	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	assurdo	assurdo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	Felice	Felice	PROPN	SP	_	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:pass	_	_
+19	lamenta	lamentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	perché	perché	SCONJ	CS	_	22	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	scopa	scopare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	ma	ma	CCONJ	CC	_	27	cc	_	_
+25	intanto	intanto	ADV	B	_	27	advmod	_	_
+26	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+27	piace	piace	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+28	fare	fare	VERB	V	VerbForm=Inf	27	ccomp	_	_
+29	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	28	obj	_	_
+30	che	che	PRON	PR	PronType=Rel	31	obj	_	_
+31	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Sono io che sono un fallimento, uno zero come donna, una terribile immatura sessuale.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	zero	zero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	terribile	terribile	ADJ	A	Number=Sing	15	amod	_	_
+15	immatura	immatura	NOUN	S	Gender=Fem|Number=Sing	9	appos	_	_
+16	sessuale	sessuale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Mi sono fermata allo stadio più primitivo e forse non voglio andare avanti.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fermata	fermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	allo	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	primitivo	primitivo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	forse	forse	ADV	B	_	13	advmod	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	andare	andare	VERB	V	VerbForm=Inf	3	conj	_	_
+14	avanti	avanti	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Non con Felice almeno, che non mi ha mai fatto partire completamente.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	Felice	felice	PROPN	SP	_	0	root	_	_
+4	almeno	almeno	ADV	B	_	5	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	mai	mai	ADV	B	_	11	advmod	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+12	partire	partire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	completamente	completamente	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Non sono mai partita con nessuno, non perdo mai la testa, non mi abbandono.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+9	perdo	perdare	ADP	E	_	12	case	_	_
+10	mai	mai	ADV	B	_	12	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	testa	testa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	abbandono	abbandire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = L'amore di cui mi hanno parlato al cinema, alla TV, nei libri, nei giornali, per me non esiste, è un colossale falso, una colossale truffa.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cinema	cinema	NOUN	S	Gender=Masc	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	TV	TV	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16-17	nei	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	libri	libro	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20-21	nei	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	obl	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	colossale	colossale	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+32	falso	falso	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	colossale	colossale	ADJ	A	Number=Sing	36	amod	_	_
+36	truffa	truffa	NOUN	S	Gender=Fem|Number=Sing	31	appos	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 11
+# text = Non ho mai provato questo totale trasporto per un uomo, ricambiata.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	totale	totale	ADJ	A	Number=Sing	7	amod	_	_
+7	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	ricambiata	ricambiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Non sono mai stata ricambiata, da nessuno, non nel modo in cui io desideravo.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+3	mai	mai	ADV	B	_	5	advmod	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	ricambiata	ricambiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	desideravo	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Ho perso Franco, ho perso Lello, ma quello meglio perderlo che trovarlo.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	Franco	Franco	PROPN	SP	_	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+7	Lello	Lello	PROPN	SP	_	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	conj	_	_
+11	meglio	meglio	ADV	B	_	12	advmod	_	_
+12-13	perderlo	_	_	_	_	_	_	_	_
+12	perder	perdere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	che	che	SCONJ	CS	_	15	mark	_	_
+15-16	trovarlo	_	_	_	_	_	_	_	SpaceAfter=No
+15	trovar	trovare	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Gira e rigira l'amore è sempre al centro della mia vita, anche se fingo di accantonarlo.
+1	Gira	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	rigira	rigirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	sempre	sempre	ADV	B	_	1	advmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	centro	centro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	anche	anche	ADV	B	_	18	mark	_	_
+17	se	se	SCONJ	CS	_	16	fixed	_	_
+18	fingo	finire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	accantonarlo	_	_	_	_	_	_	_	SpaceAfter=No
+20	accantonar	accantonare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Soffro molto a non amare e a non essere amata da Felice, a non avere un bel rapporto con lui, soffro moltissimo e mi fa male, mi sento menomata a non godere della sua bocca e di quando mi bacia, a non poterlo amare liberamente quando lo vuole e a non volerlo, quando lo vuole.
+1	Soffro	Soffro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	molto	molto	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	amare	amare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	a	a	ADP	E	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	essere	essere	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	Felice	Felice	PROPN	SP	_	10	obl:agent	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	a	a	ADP	E	_	16	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	avere	avere	VERB	V	VerbForm=Inf	1	conj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	bel	bello	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	soffro	soffro	ADP	E	_	24	case	_	_
+24	moltissimo	molto	ADV	B	Degree=Abs	1	conj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+27	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+28	male	male	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	31	expl	_	_
+31	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+32	menomata	menomato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	xcomp	_	_
+33	a	a	ADP	E	_	35	mark	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35	godere	godere	VERB	V	VerbForm=Inf	32	xcomp	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	39	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+40	e	e	CCONJ	CC	_	44	cc	_	_
+41	di	di	ADP	E	_	44	mark	_	_
+42	quando	quando	SCONJ	CS	_	41	fixed	_	_
+43	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	44	iobj	_	_
+44	bacia	bacia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	a	a	ADP	E	_	50	mark	_	_
+47	non	non	ADV	BN	PronType=Neg	50	advmod	_	_
+48-49	poterlo	_	_	_	_	_	_	_	_
+48	poter	potere	AUX	VM	VerbForm=Inf	50	aux	_	_
+49	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	obj	_	_
+50	amare	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	_	_
+51	liberamente	libero	ADV	B	_	50	advmod	_	_
+52	quando	quando	SCONJ	CS	_	54	mark	_	_
+53	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	54	obj	_	_
+54	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	advcl	_	_
+55	e	e	CCONJ	CC	_	59	cc	_	_
+56	a	a	ADP	E	_	59	case	_	_
+57	non	non	ADV	BN	PronType=Neg	59	advmod	_	_
+58-59	volerlo	_	_	_	_	_	_	_	SpaceAfter=No
+58	voler	volere	AUX	VM	VerbForm=Inf	59	cop	_	_
+59	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	conj	_	_
+60	,	,	PUNCT	FF	_	59	punct	_	_
+61	quando	quando	SCONJ	CS	_	63	mark	_	_
+62	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	63	obj	_	_
+63	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	advcl	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	59	punct	_	_
+
+# sent_id = 16
+# text = Perché sono così stupida e non riesco ad avere dei rapporti sereni e rassicuranti con le persone?
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	stupida	stupido	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	ad	a	ADP	E	_	9	mark	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	sereni	sereno	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	rassicuranti	rassicurante	ADJ	A	Number=Plur	13	conj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	persone	persona	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Perché nessuno mi ricorda e nessuno mi saluta, anzi tutti quelli che conosco un poco fanno finta di non vedermi quando mi incontrano?
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	saluta	salutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	anzi	anzi	ADV	B	_	11	advmod	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obl	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	8	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	poco	poco	ADV	B	_	17	advmod	_	_
+17	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+18	finta	finta	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+19	di	di	ADP	E	_	21	mark	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21-22	vedermi	_	_	_	_	_	_	_	_
+21	veder	vedere	VERB	V	VerbForm=Inf	18	acl	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+23	quando	quando	SCONJ	CS	_	25	mark	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+25	incontrano	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	SpaceAfter=No
+26	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Io questo non riesco a capirlo.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	capirlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	capir	capire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Vorrei parlare, parlare con Felice, ma non abbiamo un solo momento di tempo per parlare, facciamo roba e poi andiamo al cinema, ma parlare di me è un argomento che non piace a nessuno, né ai miei né alle mie amiche (buone, quelle, non mi hanno mai telefonato da quando sto qui), né a Felice.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	parlare	parlare	VERB	V	VerbForm=Inf	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	parlare	parlare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Felice	Felice	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	solo	solo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	momento	momento	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	parlare	parlare	VERB	V	VerbForm=Inf	19	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+20	roba	roba	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	poi	poi	ADV	B	_	23	advmod	_	_
+23	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	cinema	cinema	NOUN	S	Gender=Masc	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	34	punct	_	_
+28	ma	ma	CCONJ	CC	_	34	cc	_	_
+29	parlare	parlare	VERB	V	VerbForm=Inf	34	csubj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	29	obl	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+37	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+38	a	a	ADP	E	_	39	case	_	_
+39	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	37	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	44	punct	_	_
+41	né	né	CCONJ	CC	_	44	cc	_	_
+42-43	ai	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	conj	_	_
+45	né	né	CCONJ	CC	_	48	cc	_	_
+46-47	alle	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	48	case	_	_
+47	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	mie	mio	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+49	amiche	amico	ADJ	A	Gender=Fem|Number=Plur	48	amod	_	_
+50	(	(	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+51	buone	buono	ADJ	A	Gender=Fem|Number=Plur	53	amod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	53	punct	_	_
+53	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	48	nmod	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	59	punct	_	_
+55	non	non	ADV	BN	PronType=Neg	59	advmod	_	_
+56	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	59	obj	_	_
+57	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	59	aux	_	_
+58	mai	mai	ADV	B	_	59	advmod	_	_
+59	telefonato	telefonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+60	da	da	ADP	E	_	62	mark	_	_
+61	quando	quando	SCONJ	CS	_	60	fixed	_	_
+62	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	59	advcl	_	_
+63	qui	qui	ADV	B	_	62	advmod	_	SpaceAfter=No
+64	)	)	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+65	,	,	PUNCT	FF	_	68	punct	_	_
+66	né	né	CCONJ	CC	_	68	cc	_	_
+67	a	a	ADP	E	_	68	case	_	_
+68	Felice	Felice	PROPN	SP	_	10	conj	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 20
+# text = Sono proprio una disgraziata.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	proprio	proprio	ADV	B	_	4	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	disgraziata	disgraziata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Possibile che non piaccio a nessuno?
+1	Possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	piaccio	piare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Ma cos'ho?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cos'	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	SpaceAfter=No
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Insicurezza timidezza immaturità diversità emarginazione?
+1	Insicurezza	insicurezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	timidezza	timidezza	ADP	E	_	3	case	_	_
+3	immaturità	immaturità	NOUN	S	Gender=Fem	1	nmod	_	_
+4	diversità	diversità	NOUN	S	Gender=Fem	3	compound	_	_
+5	emarginazione	emarginazione	NOUN	S	Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Sono una emarginata, una diversa.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	emarginata	emarginare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Quando sto con gli altri mi sento e sono sempre diversa.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	sto	stare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	sempre	sempre	ADV	B	_	11	advmod	_	_
+11	diversa	diverso	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 26
+# text = Non riesco a stare bene con la gente.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	stare	stare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Questo discorso potrebbe allargarsi all'infinito.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	allargarsi	_	_	_	_	_	_	_	_
+4	allargar	allargare	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	infinito	infinito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = Ore 20,05.
+1	Ore	ora	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	20,05	20,05	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 29
+# text = Vado al cinema con Bobby.
+1	Vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cinema	cinema	NOUN	S	Gender=Masc	1	obl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Bobby	Bobby	PROPN	SP	_	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = C'è un film animato musicale "Allegro non troppo" all'Ausonia.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	film	film	NOUN	S	Gender=Masc	2	nsubj	_	_
+5	animato	animare	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	musicale	musicala	ADJ	A	Number=Sing	4	amod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Allegro	allegro	PROPN	SP	_	4	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	troppo	troppo	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	8	punct	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Ausonia	Ausonia	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 31
+# text = Ho fame…
+1	Ho	Ho	PROPN	SP	_	0	root	_	_
+2	fame…	fame…	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Buenos Aires, 8 maggio 1928
+1	Buenos	Buenos	PROPN	SP	_	0	root	_	_
+2	Aires	Aires	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	8	8	NUM	N	NumType=Card	1	nmod	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	1928	1928	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Ieri e oggi ho provato a far caricature nei caffè, per passare il tempo, come facevo a Parigi.
+1	Ieri	ieri	ADV	B	_	0	root	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	_
+3	oggi	oggi	ADV	B	_	5	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	far	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	caricature	caricatura	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	caffè	caffè	NOUN	S	Gender=Masc	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	passare	passare	VERB	V	VerbForm=Inf	7	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	facevo	facevo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Parigi	Parigi	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Ingenuo!
+1	Ingenuo	ingenuo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = All’Ideal e al Real Coruña m’hanno subito avvertito che non è permesso, perché "il pubblico o le ragazze dell’orchestra potrebbero offendersi".
+1-2	All’	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Ideal	Ideal	PROPN	SP	_	12	obl	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Real	Real	PROPN	SP	_	3	conj	_	_
+8	Coruña	Coruña	PROPN	SP	_	7	flat:name	_	_
+9	m’	mo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	subito	subito	ADV	B	_	12	advmod	_	_
+12	avvertito	avvertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	perché	perché	SCONJ	CS	_	29	mark	_	_
+19	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+22	o	o	CCONJ	CC	_	24	cc	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	_
+25-26	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	orchestra	orchestra	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+28	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29-30	offendersi	_	_	_	_	_	_	_	SpaceAfter=No
+29	offender	offendere	VERB	V	VerbForm=Inf	16	advcl	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = [...]
+1	[	[	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	...	...	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+

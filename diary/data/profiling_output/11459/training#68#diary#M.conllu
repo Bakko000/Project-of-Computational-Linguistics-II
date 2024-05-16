@@ -1,0 +1,599 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: andrea@...
+1	From	from	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	andrea@...	andrea@.	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date:
+1	Date	data	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Thu Dec 17 11:40:41 1998
+1	Thu	Thu	PROPN	SP	_	0	root	_	_
+2	Dec	Dec	PROPN	SP	_	1	flat:name	_	_
+3	17	17	NUM	N	NumType=Card	1	nmod	_	_
+4	11:40:41	11:40:41	NUM	N	NumType=Card	3	flat	_	_
+5	1998	1998	NUM	N	NumType=Card	3	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Subject:
+1	Subject	Subject	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il caso Muzzi
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Muzzi	Muzzi	PROPN	SP	_	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Caro Rizzoloni,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Rizzoloni	Rizzoloni	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = in questo clima di fratellanza natalizia che porta gli Amerangli a regalare botti di capodanno agli annoiati Iraqueni, mi pento e mi dolgo con tutto il cuore dei miei peccati, e nella fattispecie del fatto di non averti dato per lungo tempo solida prova delle attenzioni che quotidianamente ti rivolgo (è assolutamente vero che ti penso, è solo che non lo do a vedere).
+1	in	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	clima	clima	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	fratellanza	fratellanza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+6	natalizia	natalizio	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Amerangli	Amerangli	PROPN	SP	_	8	obj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	regalare	regalare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+13	botti	botte	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	capodanno	capodanno	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	agli	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	annoiati	annoiato	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+19	Iraqueni	Iraqueno	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
+22	pento	pento	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	obj	_	_
+25	dolgo	dogliere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+26	con	con	ADP	E	_	29	case	_	_
+27	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	29	det:predet	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+32	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	peccati	peccato	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	38	punct	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36-37	nella	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	fattispecie	fattispecie	NOUN	S	Gender=Fem	8	conj	_	_
+39-40	del	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+42	di	di	ADP	E	_	46	mark	_	_
+43	non	non	ADV	BN	PronType=Neg	46	advmod	_	_
+44-45	averti	_	_	_	_	_	_	_	_
+44	aver	avere	AUX	VA	VerbForm=Inf	46	aux	_	_
+45	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	46	iobj	_	_
+46	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	acl	_	_
+47	per	per	ADP	E	_	49	case	_	_
+48	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	_
+49	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+50	solida	solido	ADJ	A	Gender=Fem|Number=Sing	49	amod	_	_
+51	prova	prova	NOUN	S	Gender=Fem|Number=Sing	46	obj	_	_
+52-53	delle	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+54	attenzioni	attenzione	NOUN	S	Gender=Fem|Number=Plur	51	nmod	_	_
+55	che	che	PRON	PR	PronType=Rel	58	nsubj	_	_
+56	quotidianamente	quotidiano	ADV	B	_	58	advmod	_	_
+57	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	58	obj	_	_
+58	rivolgo	rivogliere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	54	acl:relcl	_	_
+59	(	(	PUNCT	FB	_	62	punct	_	SpaceAfter=No
+60	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	cop	_	_
+61	assolutamente	assolutamente	ADV	B	_	62	advmod	_	_
+62	vero	vero	ADJ	A	Gender=Masc|Number=Sing	8	parataxis	_	_
+63	che	che	SCONJ	CS	_	65	mark	_	_
+64	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	65	expl	_	_
+65	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	62	ccomp	_	SpaceAfter=No
+66	,	,	PUNCT	FF	_	68	punct	_	_
+67	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	cop	_	_
+68	solo	solo	ADV	B	_	62	conj	_	_
+69	che	che	SCONJ	CS	_	72	mark	_	_
+70	non	non	ADV	BN	PronType=Neg	72	advmod	_	_
+71	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	72	obj	_	_
+72	do	do	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	68	advcl	_	_
+73	a	a	ADP	E	_	74	mark	_	_
+74	vedere	vedere	VERB	V	VerbForm=Inf	72	xcomp	_	SpaceAfter=No
+75	)	)	PUNCT	FB	_	72	punct	_	SpaceAfter=No
+76	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Malgrado la mia smisurata attenzione per atteggiamenti scaramantici e rosarioni in sala mensa per propiziare opportuni rimbombalzi della sfera da cui tutti, bene o male, dipendiamo, mi sbilancio:
+1	Malgrado	malgrado	ADP	E	_	5	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	smisurata	smisurato	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	atteggiamenti	atteggiamento	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	scaramantici	scaramantico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	rosarioni	rosarione	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	sala	sala	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	mensa	menso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	propiziare	propiziare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	opportuni	opportuno	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	rimbombalzi	rimbombalzo	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sfera	sfera	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+23	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	29	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	bene	bene	ADV	B	_	23	advmod	_	_
+26	o	o	CCONJ	CC	_	27	cc	_	_
+27	male	male	ADV	B	_	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	23	punct	_	_
+29	dipendiamo	dipendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	5	punct	_	_
+31	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	32	obj	_	_
+32	sbilancio	sbilanciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	32	punct	_	_
+
+# sent_id = 9
+# text = “Credo si possa prudentemente dire che il Mondo sia sulla strada buona per la quadratura del cerchio.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+4	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	prudentemente	prudentemente	ADV	B	_	6	advmod	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+7	che	che	SCONJ	CS	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Mondo	Mondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	sia	essere	CCONJ	CC	_	13	cc	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	strada	strada	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	buona	buono	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	quadratura	quadratura	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cerchio.	cerchio.	NOUN	S	Gender=Masc	17	nmod	_	SpaceAfter=No
+
+# sent_id = 10
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 11
+# text = (Qui lo dico e qui lo nego.)
+1	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Qui	qui	ADV	B	_	4	advmod	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	qui	qui	ADV	B	_	8	advmod	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	nego	nego	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Il motivo principale di ottimismo è dato dalla rimozione di Massimo Crippa non soltanto dagli undici titolari, ma anche dalla panchina, dove è invece rientrato un redivivo Minotti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	principale	principale	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	ottimismo	ottimismo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	rimozione	rimozione	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Massimo	Massimo	PROPN	SP	_	10	nmod	_	_
+13	Crippa	Crippa	PROPN	SP	_	12	flat:name	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	soltanto	soltanto	ADV	B	_	19	advmod	_	_
+16-17	dagli	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	undici	undici	NUM	N	NumType=Card	19	nummod	_	_
+19	titolari	titolare	NOUN	S	Number=Plur	7	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	ma	ma	CCONJ	CC	_	25	cc	_	_
+22	anche	anche	ADV	B	_	25	advmod	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	dove	dove	ADV	B	_	30	advmod	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	invece	invece	ADV	B	_	30	advmod	_	_
+30	rientrato	rientrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	redivivo	redivivo	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+33	Minotti	Minotti	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Non vedo limiti a quello che riusciremo a produrre quando anche i Brambilla, i Sommese e gli Artistico torneranno a menar calcioni nell'agone pedatorio.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+7	riusciremo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	5	acl:relcl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	produrre	produrre	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	quando	quando	SCONJ	CS	_	20	mark	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Brambilla	Brambilla	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Sommese	Sommese	PROPN	SP	_	13	conj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Artistico	artistico	PROPN	SP	_	13	conj	_	_
+20	torneranno	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	menar	menare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	calcioni	calcione	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+24-25	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	in	in	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	agone	agone	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27	pedatorio	pedatorio	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Mi dispiace molto per le attuali difficoltà dei Giallorossi chà chà chà, ma vedrai che alla lunga il ritrovato binomio Nedonesonetti-Cyprien saprà dare ai fantastici CUCN, dalla benemerite intenzioni e pietosa mira (vedi assalto a Moggi tradottosi in ferimento dell'autista), le soddisfazioni che si meritano, e soprattutto l'opportunità di provarci un'altra volta con Lucianone.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	attuali	attuale	ADJ	A	Number=Plur	7	amod	_	_
+7	difficoltà	difficoltà	NOUN	S	Gender=Fem	2	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	Giallorossi	giallorossi	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	chà	che	NOUN	S	Gender=Masc	7	nmod	_	_
+12	chà	chà	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	chà	chà	NOUN	S	Gender=Fem	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ma	ma	CCONJ	CC	_	16	cc	_	_
+16	vedrai	vedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	12	conj	_	_
+17	che	che	SCONJ	CS	_	27	mark	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	23	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+20	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	ritrovato	ritrovato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	binomio	binomio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+24	Nedonesonetti	Nedonesonetti	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	-	-	PUNCT	FF	_	24	punct	_	SpaceAfter=No
+26	Cyprien	Cyprien	PROPN	SP	_	24	flat:name	_	_
+27	saprà	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	ccomp	_	_
+28	dare	dare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	fantastici	fantastico	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+32	CUCN	CUCN	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	27	punct	_	_
+34-35	dalla	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	37	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	benemerite	benemerito	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	_
+37	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	27	obl:agent	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	pietosa	pietoso	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+40	mira	mira	NOUN	S	Gender=Fem|Number=Sing	37	conj	_	_
+41	(	(	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+42	vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	37	advcl	_	_
+43	assalto	assalto	ADV	B	_	42	advmod	_	_
+44	a	a	ADP	E	_	45	case	_	_
+45	Moggi	Moggi	PROPN	SP	_	42	obl	_	_
+46	tradottosi	tradottoso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	45	acl	_	_
+47	in	in	ADP	E	_	48	case	_	_
+48	ferimento	ferimento	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+49-50	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+49	di	di	ADP	E	_	51	case	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+51	autista	autista	NOUN	S	Number=Sing	48	nmod	_	SpaceAfter=No
+52	)	)	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	55	punct	_	_
+54	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	55	det	_	_
+55	soddisfazioni	soddisfazione	NOUN	S	Gender=Fem|Number=Plur	37	conj	_	_
+56	che	che	PRON	PR	PronType=Rel	58	nsubj	_	_
+57	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	58	expl	_	_
+58	meritano	meritare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	55	acl:relcl	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	63	punct	_	_
+60	e	e	CCONJ	CC	_	63	cc	_	_
+61	soprattutto	soprattutto	ADV	B	_	63	advmod	_	_
+62	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	63	det	_	SpaceAfter=No
+63	opportunità	opportunità	NOUN	S	Gender=Fem	37	conj	_	_
+64	di	di	ADP	E	_	65	mark	_	_
+65-66	provarci	_	_	_	_	_	_	_	_
+65	provar	provarre	VERB	V	VerbForm=Inf	63	acl	_	_
+66	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	65	expl	_	_
+67	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	69	det	_	SpaceAfter=No
+68	altra	altro	ADJ	A	Gender=Fem|Number=Sing	69	amod	_	_
+69	volta	volta	NOUN	S	Gender=Fem|Number=Sing	65	obl	_	_
+70	con	con	ADP	E	_	71	case	_	_
+71	Lucianone	Lucianone	PROPN	SP	_	69	nmod	_	SpaceAfter=No
+72	.	.	PUNCT	FS	_	27	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Quanto al resto, ho ricevuto due graditissimi messaggi da Totomuzzi, che so essere stato costretto ad assistere a tua esibizione calcistica in condizioni metereologiche proibitive, e mi ha rivelato un evento da pura fantascienza (il matrimonio di Pasqualino) e riferito sulle incertezze associate ai correnti vagabondaggi del Re del Frullato fratello Riccardo, attualmente disperso a Katmandù.
+1	Quanto	quanto	ADV	B	_	7	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	resto	resto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	due	due	NUM	N	NumType=Card	10	nummod	_	_
+9	graditissimi	gradite	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	10	amod	_	_
+10	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	Totomuzzi	Totomuzzi	PROPN	SP	_	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+15	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	18	aux	_	_
+17	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
+19	ad	a	ADP	E	_	20	mark	_	_
+20	assistere	assistere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	esibizione	esibizione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	calcistica	calcistico	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+27	metereologiche	metereologico	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+28	proibitive	proibitivo	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	33	punct	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	33	iobj	_	_
+32	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	evento	evento	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	pura	puro	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+38	fantascienza	fantascienza	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+39	(	(	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	Pasqualino	Pasqualino	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+44	)	)	PUNCT	FB	_	41	punct	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+47-48	sulle	_	_	_	_	_	_	_	_
+47	su	su	ADP	E	_	49	case	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	incertezze	incertezza	NOUN	S	Gender=Fem|Number=Plur	46	obl	_	_
+50	associate	associare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	49	acl	_	_
+51-52	ai	_	_	_	_	_	_	_	_
+51	a	a	ADP	E	_	54	case	_	_
+52	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+53	correnti	corrente	ADJ	A	Number=Plur	54	amod	_	_
+54	vagabondaggi	vagabondaggio	NOUN	S	Gender=Masc|Number=Plur	50	obl	_	_
+55-56	del	_	_	_	_	_	_	_	_
+55	di	di	ADP	E	_	57	case	_	_
+56	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	Re	re	PROPN	SP	_	54	nmod	_	_
+58-59	del	_	_	_	_	_	_	_	_
+58	di	di	ADP	E	_	61	case	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+60	Frullato	Frullato	ADJ	A	Gender=Masc|Number=Sing	61	amod	_	_
+61	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	57	nmod	_	_
+62	Riccardo	Riccardo	PROPN	SP	_	61	nmod	_	SpaceAfter=No
+63	,	,	PUNCT	FF	_	57	punct	_	_
+64	attualmente	attualmente	ADV	B	_	67	advmod	_	_
+65	disperso	disperso	ADP	E	_	67	case	_	_
+66	a	a	ADP	E	_	67	case	_	_
+67	Katmandù	Katmandù	PROPN	SP	_	57	nmod	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Che dire a questo punto:
+1	Che	che	SCONJ	CS	_	2	mark	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = tra 6 ore me ne volo verso l'Italia.
+1	tra	tra	ADP	E	_	3	case	_	_
+2	6	6	NUM	N	NumType=Card	3	nummod	_	_
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	volo	volare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	Italia	Italia	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Prendo una tirittuppete curva larga passando per Roma invece di puntare subito su Arezzo (velleità nulle), e poi, sabato pomeriggio, farò lo straniero nella squadra di ammogliati di mio fratello, tanto per saggiare i progressi calcistici prodotti da 6 mesi di duro esercizio e dribblings ai danni di veri pazzi criminali e analfabeti del calcio.
+1	Prendo	Prere	VERB	V	VerbForm=Ger	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tirittuppete	tirittuppeto	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	curva	curva	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	larga	largo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	passando	passare	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Roma	Roma	PROPN	SP	_	6	obl	_	_
+9	invece	invece	ADV	B	_	6	advmod	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	puntare	puntare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+12	subito	subito	ADV	B	_	11	advmod	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	Arezzo	Arezzo	PROPN	SP	_	11	obl	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	velleità	velleità	NOUN	S	Gender=Fem	14	nmod	_	_
+17-18	nulle	_	_	_	_	_	_	_	SpaceAfter=No
+17	nu	nu	ADP	E	_	27	case	_	_
+18	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	27	punct	_	_
+21	e	e	CCONJ	CC	_	27	cc	_	_
+22	poi	poi	ADV	B	_	27	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+25	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	16	nmod	_	_
+28	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	straniero	straniero	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30-31	nella	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	ammogliati	ammogliato	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	27	punct	_	_
+39	tanto	tanto	ADV	B	_	27	advmod	_	_
+40	per	per	ADP	E	_	41	mark	_	_
+41	saggiare	saggiare	VERB	V	VerbForm=Inf	27	advcl	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	_
+44	calcistici	calcistico	ADJ	A	Gender=Masc|Number=Plur	43	amod	_	_
+45	prodotti	produrre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	43	acl	_	_
+46	da	da	ADP	E	_	48	case	_	_
+47	6	6	NUM	N	NumType=Card	48	nummod	_	_
+48	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	45	obl	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	duro	duro	ADJ	A	Gender=Masc|Number=Sing	51	amod	_	_
+51	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	_
+52	e	e	CCONJ	CC	_	53	cc	_	_
+53	dribblings	dribblings	NOUN	S	Gender=Masc	48	conj	_	_
+54-55	ai	_	_	_	_	_	_	_	_
+54	a	a	ADP	E	_	56	case	_	_
+55	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+56	danni	danno	NOUN	S	Gender=Masc|Number=Plur	53	nmod	_	_
+57	di	di	ADP	E	_	59	case	_	_
+58	veri	vero	ADJ	A	Gender=Masc|Number=Plur	59	amod	_	_
+59	pazzi	pazzo	NOUN	S	Gender=Masc|Number=Plur	56	nmod	_	_
+60	criminali	criminale	ADJ	A	Number=Plur	59	amod	_	_
+61	e	e	CCONJ	CC	_	62	cc	_	_
+62	analfabeti	analfabeto	ADJ	A	Gender=Masc|Number=Plur	60	conj	_	_
+63-64	del	_	_	_	_	_	_	_	_
+63	di	di	ADP	E	_	65	case	_	_
+64	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	62	obl	_	SpaceAfter=No
+66	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Te fazz' li megl'augur di Natal e Feliz Ann Nuov, attìa ep'pure alla signora tua, e salutamittanto Mammà (Tina?) e Papà (Luciano, del cui nome mi ricordo meglio grazie all'indelebile rima coniata a suo tempo da Ciufoletto).
+1	Te	te	ADV	B	_	13	advmod	_	_
+2	fazz'	fazza	ADP	E	_	3	case	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+4	megl'	meglo	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	augur	augur	NOUN	S	Gender=Masc	13	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Natal	Natal	PROPN	SP	_	5	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Feliz	Feliz	PROPN	SP	_	7	conj	_	_
+10	Ann	Ann	PROPN	SP	_	9	flat:name	_	_
+11	Nuov	Nuov	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	attìa	attìa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ep'	epo	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	pure	pure	ADV	B	_	13	advmod	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	signora	signore	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+19	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	salutamittanto	salutamittanto	ADV	B	_	23	advmod	_	_
+23	Mammà	Mammà	PROPN	SP	_	18	conj	_	_
+24	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	Tina	Tina	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	?	?	PUNCT	FS	_	25	punct	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	25	punct	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	Papà	papà	PROPN	SP	_	18	conj	_	_
+30	(	(	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	Luciano	Luciano	PROPN	SP	_	13	appos	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	cui	cui	DET	DR	PronType=Rel	36	det:poss	_	_
+36	nome	nome	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+37	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	38	expl	_	_
+38	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	conj	_	_
+39	meglio	meglio	ADV	B	_	38	advmod	_	_
+40	grazie	grazie	NOUN	S	_	44	case	_	_
+41-42	all'	_	_	_	_	_	_	_	SpaceAfter=No
+41	a	a	ADP	E	_	40	fixed	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+43	indelebile	indelebile	ADJ	A	Number=Sing	44	amod	_	_
+44	rima	rima	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+45	coniata	coniare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	44	acl	_	_
+46	a	a	ADP	E	_	48	case	_	_
+47	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	_
+49	da	da	ADP	E	_	50	case	_	_
+50	Ciufoletto	Ciufoletto	PROPN	SP	_	45	obl:agent	_	SpaceAfter=No
+51	)	)	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Andrea
+1	Andrea	Andrea	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

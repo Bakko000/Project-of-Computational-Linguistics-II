@@ -1,0 +1,196 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 12 febbraio lunedì
+1	12	12	NUM	N	NumType=Card	3	nummod	_	_
+2	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	lunedì	lunedì	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Le mani addosso.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mani	mano	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	addosso	addosso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mani che frugano, mani che toccano, mani contro il muro, gambe divaricate.
+1	Mani	mano	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	frugano	frugare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	mani	mano	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	toccano	toccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	mani	mano	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+10	contro	contro	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	muro	muro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+15	divaricate	divaricato	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Braccia che si alzano a comando.
+1	Braccia	bracciare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	alzano	alzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	comando	comando	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Strizzacervelli, educatori, assistenti sociali, ma anche assisteni volontari… Lavorano nel carcere e non conoscono il carcere.
+1	Strizzacervelli	Strizzacervelli	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	educatori	educatore	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	assistenti	assistente	NOUN	S	Number=Plur	1	conj	_	_
+6	sociali	sociale	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	assisteni	assisteno	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+11	volontari…	volontari…	PUNCT	FF	_	10	punct	_	_
+12	Lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Non sanno quello che succede dentro il carcere.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	dentro	dentro	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Conoscono solo davanti a scrivanie.
+1	Conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	1	advmod	_	_
+3	davanti	davanti	ADV	B	_	5	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	scrivanie	scrivania	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Parlano come se le cose che propongono fossero realizzabili e fattibili e si stupiscono di fronte alle obiezioni.
+1	Parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	ADV	B	_	9	mark	_	_
+3	se	se	SCONJ	CS	_	2	fixed	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	propongono	proporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	fossero	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	realizzabili	realizzabile	ADJ	A	Number=Plur	1	advcl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	fattibili	fattibili	ADJ	A	Number=Plur	9	conj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	stupiscono	stupire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fronte	fronte	NOUN	S	Number=Sing	14	obl	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	obiezioni	obiezione	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Credono che sia possibile studiare in una sezione che pare un girone infernale.
+1	Credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	1	ccomp	_	_
+5	studiare	studiare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	girone	girone	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	infernale	infernale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Non si rendono conto come si “vive” realmente qui dentro.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	conto	conto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	obl	_	_
+7	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	8	punct	_	_
+10	realmente	realmente	ADV	B	_	8	advmod	_	_
+11	qui	qui	ADV	B	_	8	advmod	_	_
+12	dentro	dentro	ADV	B	_	8	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Parlano del carcere come se qui vigessero le leggi della società e non quelle della giungla.
+1	Parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	come	come	ADV	B	_	8	advmod	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	qui	qui	ADV	B	_	8	advmod	_	_
+8	vigessero	vigere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	società	società	NOUN	S	Gender=Fem	10	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	10	conj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	giungla	giungla	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Li stessi agenti li guardano con ironia quando fanno discorsi “educativi” ai detenuti.
+1	Li	li	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	agenti	agente	ADJ	A	Number=Plur	1	amod	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	guardano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	quando	quando	SCONJ	CS	_	9	mark	_	_
+9	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	educativi	educativo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+13	”	”	PUNCT	FB	_	12	punct	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	detenuti	detenuto	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

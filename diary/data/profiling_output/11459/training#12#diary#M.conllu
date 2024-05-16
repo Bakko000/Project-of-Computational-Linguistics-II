@@ -1,0 +1,347 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 12 Febbraio 1940
+1	12	12	NUM	N	NumType=Card	0	root	_	_
+2	Febbraio	febbraio	PROPN	SP	_	1	flat	_	_
+3	1940	1940	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Questo diario mi è stato consigliato da babbo;
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	diario	diario	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	consigliato	consigliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = infatti, come ha detto, credo che da grande mi sarà piacevole rileggere queste pagine principiate all'età di tredici anni;
+1	infatti	infatti	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	SCONJ	CS	_	5	mark	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	13	mark	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	grande	grande	ADJ	A	Number=Sing	13	obl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+12	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
+13	piacevole	piacevole	ADJ	A	Number=Sing	7	ccomp	_	_
+14	rileggere	rileggere	VERB	V	VerbForm=Inf	13	csubj	_	_
+15	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	16	det	_	_
+16	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	principiate	principiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	età	età	NOUN	S	Gender=Fem	17	obl	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	tredici	tredici	NUM	N	NumType=Card	23	nummod	_	_
+23	anni	anno	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = il babbo mi ha promesso che questo diario sarà segreto:
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	diario	diario	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	cop	_	_
+10	segreto	segreto	ADJ	A	Gender=Masc|Number=Sing	5	ccomp	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = lo terrò chiuso in una cassetta e la chiave la terrò io.
+1	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	terrò	tenere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	chiuso	chiuso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cassetta	cassetta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	terrò	tenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	advcl	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = 13 Febbraio 1940 (martedì)
+1	13	13	NUM	N	NumType=Card	5	nmod	_	_
+2	Febbraio	febbraio	PROPN	SP	_	1	flat	_	_
+3	1940	1940	NUM	N	NumType=Card	1	flat	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	martedì	martedì	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Oggi ho provato un gran spavento.
+1	Oggi	oggi	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	gran	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	spavento	spavento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Ho sentito per la prima volta in vita mia una scossa di terremoto;
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	scossa	scossa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	terremoto	terremoto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = ero giù dalla nonna, quando ho sentito uno scuro battere più volte contro il muro;
+1	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	giù	giù	PRON	PI	PronType=Ind	0	root	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nonna	nonna|nonno	NOUN	S	Gender=Fem|Number=Sing	2	obl:agent	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	quando	quando	SCONJ	CS	_	9	mark	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_
+11	scuro	scuro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	battere	battere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	volte	volta	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+15	contro	contro	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	muro	muro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = dalla nonna c'era anche Beppino che è cominciato a piangere ed ha voluto ritornare subito a casa sua, come se là non battesse il terremoto.
+1-2	dalla	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	nonna	nonna|nonno	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	Beppino	Beppino	PROPN	SP	_	5	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	piangere	piangere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	ed	e	CCONJ	CC	_	16	cc	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+16	ritornare	ritornare	VERB	V	VerbForm=Inf	5	conj	_	_
+17	subito	subito	ADV	B	_	19	advmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	come	come	ADV	B	_	26	advmod	_	_
+23	se	se	SCONJ	CS	_	26	mark	_	_
+24	là	là	ADV	B	_	26	advmod	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	battesse	battere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	terremoto	terremoto	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = 14 Febbraio 1940 (mercoledì)
+1	14	14	NUM	N	NumType=Card	5	nmod	_	_
+2	Febbraio	febbraio	PROPN	SP	_	1	flat	_	_
+3	1940	1940	NUM	N	NumType=Card	1	flat	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	mercoledì	mercoledì	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Ho preso un 4 in latino;
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	4	4	NUM	N	NumType=Card	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	latino	latino	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = non me lo meritavo;
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	meritavo	meritare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 14
+# text = non avrei alcuna ragione a mentire in questo diario che io solo leggerò;
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avrei	avre	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	mentire	mentire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	diario	Diario	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	solo	solo	ADV	B	_	13	advmod	_	_
+13	leggerò	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 15
+# text = appunto perché non me lo sono meritato, nonostante tutte le preoccupazioni della mamma, sono stato contento di me lo stesso;
+1	appunto	appunto	ADV	B	_	19	advmod	_	_
+2	perché	perché	SCONJ	CS	_	7	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	meritato	meritare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	nonostante	nonostante	ADP	E	_	12	case	_	_
+10	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	preoccupazioni	preoccupazione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	_
+19	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	obl	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 16
+# text = mi sento la coscienza a posto;
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	posto	posto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = ho studiato, sapevo e il professore se mi ha dato 4 ha fatto un'ingiustizia.
+1	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	sapevo	sapere	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+5	e	e	CCONJ	CC	_	14	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	professore	professore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+12	4	4	NUM	N	NumType=Card	11	obj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Comincio a credere che piuttosto di studiare tutta la giornata ed alzarmi la mattina alle 5, sia meglio andare a fare delle belle passeggiate per il viale Michelangiolo, ché prenderei lo stesso 4, ma guadagnerei di salute.
+1	Comincio	Comincio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	credere	credere	VERB	V	VerbForm=Inf	1	acl	_	_
+4	che	che	SCONJ	CS	_	21	mark	_	_
+5	piuttosto	piuttosto	ADV	B	_	7	mark	_	_
+6	di	di	ADP	E	_	5	fixed	_	_
+7	studiare	studiare	VERB	V	VerbForm=Inf	21	advcl	_	_
+8	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	alzarmi	arma|alzarme	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+15-16	alle	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	5	5	NUM	N	NumType=Card	7	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	meglio	meglio	ADV	B	_	21	advmod	_	_
+21	andare	andare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	belle	bello	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+27	passeggiate	passeggiata	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	viale	viale	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31	Michelangiolo	Michelangiolo	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	21	punct	_	_
+33	ché	poiché	SCONJ	CS	_	34	mark	_	_
+34	prenderei	prendere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+35	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+37	4	4	NUM	N	NumType=Card	34	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	ma	ma	CCONJ	CC	_	40	cc	_	_
+40	guadagnerei	guadagnere	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	salute	salute	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 19
+# text = Nel componimento che ho fatto ieri l'altro mi ha dato 6, mi meritavo di più.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	componimento	componimento	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	ieri	ieri	ADV	B	_	6	advmod	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	6	6	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	expl	_	_
+16	meritavo	meritavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	più	più	ADV	B	_	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,648 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bolzano, lunedì 9 novembre 1942
+1	Bolzano	Bolzano	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lunedì	lunedì	NOUN	S	Gender=Masc	1	nmod	_	_
+4	9	9	NUM	N	NumType=Card	3	nmod	_	_
+5	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	1942	1942	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Siamo entrati già nel IV anno di guerra.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	già	già	ADV	B	_	7	advmod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	IV	quarto	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Fino ad ora non ho mai creduto necessario annotare qualche fatto particolare.
+1	Fino	fino	ADV	B	_	3	case	_	_
+2	ad	a	ADP	E	_	1	fixed	_	_
+3	ora	ora	ADV	B	_	7	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	_
+9	annotare	annotare	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	particolare	particolare	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = La situazione pare si sia fatta più seria e ritengo importante mettere nel “mio ricordo” determinati episodi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	seria	serio	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	ritengo	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	importante	importante	ADJ	A	Number=Sing	12	amod	_	_
+12	mettere	mettere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	17	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	12	punct	_	_
+19	determinati	determinato	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Già da diverse sere sono iniziate le incursioni e gli allarmi.
+1	Già	già	ADV	B	_	6	advmod	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	sere	sera	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	iniziate	iniziare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	incursioni	incursione	NOUN	S	Gender=Fem|Number=Plur	6	xcomp	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	gli	lo	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11-12	allarmi	_	_	_	_	_	_	_	SpaceAfter=No
+11	allar	allare	VERB	V	VerbForm=Inf	8	conj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = L'altra sera, 7 Nov., mamma, Ezia ed io siamo andate al Cinema della GIL a vedere “Uomini sul fondo” quando, al momento della proiezione del Film Luce, suona l'allarme:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	7	7	NUM	N	NumType=Card	6	nummod	_	_
+6	Nov.	Nov.	PROPN	SP	_	3	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	Ezia	Ezia	PROPN	SP	_	6	conj	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	conj	_	_
+13	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	andate	andare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Cinema	cinema	NOUN	S	Gender=Masc	14	obl	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	GIL	Gil	PROPN	SP	_	17	nmod	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	vedere	vedere	VERB	V	VerbForm=Inf	14	advcl	_	_
+23	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	Uomini	uomini	PROPN	SP	_	22	obj	_	_
+25-26	sul	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	”	”	PUNCT	FB	_	24	punct	_	_
+29	quando	quando	SCONJ	CS	_	42	mark	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	42	punct	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	momento	momento	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	proiezione	proiezione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Film	Film	PROPN	SP	_	36	nmod	_	_
+40	Luce	luce	PROPN	SP	_	39	flat:name	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	33	punct	_	_
+42	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+44	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	42	nsubj	_	SpaceAfter=No
+45	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 7
+# text = è il primo vero allarme che sentiamo.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	sentiamo	sentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = E' stato impressionante vedere l'uscita delle persone dal locale!!
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	impressionante	impressionare	ADJ	A	Number=Sing	0	root	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	locale	locale	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Io sono corsa a casa con la Laura ed Enrico Toniato, mentre mamma ed Ezia mi seguono con calma.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	corsa	correre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Laura	Laura	PROPN	SP	_	3	obl	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	Enrico	Enrico	PROPN	SP	_	8	conj	_	_
+11	Toniato	Toniato	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	mentre	mentre	SCONJ	CS	_	18	mark	_	_
+14	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+15	ed	e	CCONJ	CC	_	16	cc	_	_
+16	Ezia	Ezia	PROPN	SP	_	14	conj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+18	seguono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	calma	calma	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Arrivate a casa scendiamo subito nel rifugio, ma, visto che alle 23.00 non è successo nulla, saliamo a casa.
+1	Arrivate	arrivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	scendiamo	scendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	subito	subito	ADV	B	_	4	advmod	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rifugio	rifugio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	22	punct	_	_
+10	ma	ma	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+13	che	che	SCONJ	CS	_	19	mark	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	23.00	23.00	NUM	N	NumType=Card	19	nummod	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+20	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	12	punct	_	_
+22	saliamo	salire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	casa	casa	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Non passano cinque minuti che, mentre io pelo le patate per la colazione della mattina successiva, la mamma dice: “Sentite che rumore”; abbasso la radio, che ho appena accesa, e sento un rumore di motore d'aereo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cinque	cinque	NUM	N	NumType=Card	4	nummod	_	_
+4	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	25	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	mentre	mentre	SCONJ	CS	_	9	mark	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	pelo	pelare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	patate	patato	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	colazione	colazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	successiva	successivo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+22	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	9	punct	_	_
+24	“	“	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	Sentite	sentire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+26	che	che	DET	DQ	PronType=Int	27	det	_	_
+27	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	30	punct	_	_
+30	abbasso	abbassare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	radio	radio	NOUN	S	Gender=Fem	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	che	che	PRON	PR	PronType=Rel	35	obj	_	_
+35	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+36	appena	appena	ADV	B	_	37	advmod	_	_
+37	accesa	accendere	ADJ	A	Gender=Fem|Number=Sing	35	xcomp	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	motore	motore	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+45	d'	di	ADP	E	_	46	case	_	SpaceAfter=No
+46	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Lasciamo tutto e infilandoci i cappotti scendiamo di nuovo nel rifugio.
+1	Lasciamo	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4-5	infilandoci	_	_	_	_	_	_	_	_
+4	infilando	infilare	VERB	V	VerbForm=Ger	1	conj	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	cappotti	cappotto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+8	scendiamo	scendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	obl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rifugio	rifugio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Appena uscite dal portone, un apparecchio – inglese – passa sopra la nostra casa, è così basso che pensiamo ormai di essere spacciati.
+1	Appena	appena	ADV	B	_	2	advmod	_	_
+2	uscite	uscire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	advcl	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	portone	portone	NOUN	S	Gender=Masc|Number=Sing	2	obl:agent	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	apparecchio	apparecchio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	–	–	PUNCT	FB	_	8	punct	_	_
+10	inglese	inglese	ADJ	A	Number=Sing	8	amod	_	_
+11	–	–	PUNCT	FB	_	8	punct	_	_
+12	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	sopra	sopra	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	casa	casa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	così	così	ADV	B	_	20	advmod	_	_
+20	basso	basso	ADJ	A	Gender=Masc|Number=Sing	12	xcomp	_	_
+21	che	che	SCONJ	CS	_	22	mark	_	_
+22	pensiamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+23	ormai	ormai	ADV	B	_	22	advmod	_	_
+24	di	di	ADP	E	_	26	mark	_	_
+25	essere	essere	AUX	VA	VerbForm=Inf	26	aux:pass	_	_
+26	spacciati	spacciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Ritornate nel rifugio, dopo un quarto d'ora, suona il cessato allarme.
+1	Ritornate	Ritornare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	advcl	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	rifugio	rifugio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	obl	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	ora	ora	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	cessato	cessato	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Ieri , domenica - 8 Novembre 42, alle 12,20 suona l'allarme;
+1	Ieri	ieri	ADV	B	_	12	advmod	_	_
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	8	8	NUM	N	NumType=Card	3	nmod	_	_
+6	Novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	42	42	NUM	N	NumType=Card	5	flat	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	12,20	12,20	NUM	N	NumType=Card	12	obl	_	_
+12	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 16
+# text = stiamo facendo gli gnocchi, il pane e la torta di… vegetina (?), per non lasciare il cibo sul fuoco continuiamo a preparare il tutto ma con la finestra aperta pronte a scappare nel caso avessimo sentito rumore d'aerei.
+1	stiamo	stare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	facendo	fare	VERB	V	VerbForm=Ger	1	advcl	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	gnocchi	gnocco	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pane	pane	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	torta	torta	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	di…	di…	PUNCT	FF	_	10	punct	_	_
+12	vegetina	vegetina	NOUN	S	Gender=Fem|Number=Sing	10	appos	_	_
+13	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	12	punct	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	per	per	ADP	E	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	lasciare	lasciare	VERB	V	VerbForm=Inf	2	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	continuiamo	continuare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	preparare	preparare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	27	obj	_	_
+30	ma	ma	CCONJ	CC	_	33	cc	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+34	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+35	pronte	pronto	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37	scappare	scappare	VERB	V	VerbForm=Inf	35	advcl	_	_
+38-39	nel	_	_	_	_	_	_	_	_
+38	in	in	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	caso	caso	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+41	avessimo	avessimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	42	aux	_	_
+42	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+43	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+44	d'	di	ADP	E	_	45	case	_	SpaceAfter=No
+45	aerei	aereo	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Dopo un quarto d'ora suona il cessato allarme.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	obl	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	ora	ora	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	cessato	cessato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Meno male!!
+1	Meno	meno	ADV	B	_	0	root	_	_
+2	male	male	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Nella serata di oggi, non avendo potuto sabato, a causa dell'allarme, vedere il film (che sarebbe stato molto istruttivo!!), siamo tornate e, con molta fiducia, dimostrando alla biglietteria che la sera precedente, a causa dell'allarme avevano interrotto anzi, nemmeno iniziato la programmazione, siamo riuscite ad entrare “senza pagare”.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	serata	serata	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	oggi	oggi	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+8	avendo	avere	AUX	VA	VerbForm=Ger	18	aux	_	_
+9	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux	_	_
+10	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	causa	causa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	film	film	NOUN	S	Gender=Masc	18	obj	_	_
+21	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+22	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+23	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+24	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	cop	_	_
+25	molto	molto	ADV	B	_	26	advmod	_	_
+26	istruttivo	istruttivo	ADJ	A	Gender=Masc|Number=Sing	20	acl:relcl	_	SpaceAfter=No
+27	!!	!!	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	tornate	tornare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	_
+32	e	e	CCONJ	CC	_	36	cc	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	36	punct	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	36	det	_	_
+36	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	18	punct	_	_
+38	dimostrando	dimostrare	VERB	V	VerbForm=Ger	18	advcl	_	_
+39-40	alla	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	biglietteria	biglietteria	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+42	che	che	SCONJ	CS	_	53	mark	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	sera	sera	NOUN	S	Gender=Fem|Number=Sing	53	obl	_	_
+45	precedente	precedente	ADJ	A	Number=Sing	44	amod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	44	punct	_	_
+47	a	a	ADP	E	_	48	case	_	_
+48	causa	causa	NOUN	S	Gender=Fem|Number=Sing	53	obl	_	_
+49-50	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+49	di	di	ADP	E	_	51	case	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+51	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	_
+52	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	53	aux	_	_
+53	interrotto	interrompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	acl	_	_
+54	anzi	anzi	ADV	B	_	53	advmod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	53	punct	_	_
+56	nemmeno	nemmeno	ADV	BN	PronType=Neg	57	advmod	_	_
+57	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	advcl	_	_
+58	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	programmazione	programmazione	NOUN	S	Gender=Fem|Number=Sing	57	obj	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	62	punct	_	_
+61	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	62	cop	_	_
+62	riuscite	riuscire	ADJ	A	Gender=Fem|Number=Plur	57	conj	_	_
+63	ad	a	ADP	E	_	64	mark	_	_
+64	entrare	entrare	VERB	V	VerbForm=Inf	62	advcl	_	_
+65	“	“	PUNCT	FB	_	67	punct	_	SpaceAfter=No
+66	senza	senza	ADP	E	_	67	mark	_	_
+67	pagare	pagare	VERB	V	VerbForm=Inf	64	xcomp	_	SpaceAfter=No
+68	”	”	PUNCT	FB	_	67	punct	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Ma… arrivate allo stesso punto della sera precedente… ecco l'allarme!!
+1	Ma…	Ma…	PROPN	SP	_	0	root	_	_
+2	arrivate	arrivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	allo	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	precedente…	precedente…	PUNCT	FF	_	1	punct	_	_
+11	ecco	ecco	ADV	B	_	13	advmod	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	13	punct	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Grande la mia rabbia!!!.
+1	Grande	Grande	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+6	!!	!!	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = L'allarme sarà durato un'ora e mezzo, tempo che io ho trascorso scrutando il cielo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	durato	durare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ora	ora	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	trascorso	trascorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+15	scrutando	scrutare	VERB	V	VerbForm=Ger	14	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Poi papà ci dice che ,durante l'allarme, un apparecchio ha sorvolato Bolzano.
+1	Poi	poi	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	2	det	_	_
+2	papà	papà	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	,durante	,durare	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	apparecchio	apparecchio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	sorvolato	sorvolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+14	Bolzano	Bolzano	PROPN	SP	_	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = In Africa gli inglesi avanzano a grandi passi e invece i tedeschi se la sono svignata ed i Nostri, per resistere, sono stati massacrati.
+1	In	in	ADP	E	_	2	case	_	_
+2	Africa	Africa	PROPN	SP	_	5	obl	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	inglesi	inglese	NOUN	S	Number=Plur	5	nsubj	_	_
+5	avanzano	avanzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	grandi	grande	ADJ	A	Number=Plur	8	amod	_	_
+8	passi	passo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	invece	invece	ADV	B	_	12	advmod	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	tedeschi	tedesco	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+13	se	se	SCONJ	CS	_	16	mark	_	_
+14	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	svignata	svignare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+17	ed	e	CCONJ	CC	_	19	cc	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Nostri	nostri	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	5	punct	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	resistere	resistere	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	massacrati	massacrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = Gli americani sono sbarcati nell'Africa francese.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	americani	americano	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	sbarcati	sbarcare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Africa	Africa	PROPN	SP	_	4	obl	_	_
+8	francese	francese	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = Chissà i nostri?
+1	Chissà	chissà	ADV	B	_	3	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Io prego per loro.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	prego	pregare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

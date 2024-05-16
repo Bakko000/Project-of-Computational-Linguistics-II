@@ -1,0 +1,391 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 24 luglio, venerdì
+1	24	24	NUM	N	NumType=Card	4	nummod	_	_
+2	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	venerdì	venerdì	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Tre ore di volo sul Pacifico ed ecco Honiara.
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	volo	volo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Pacifico	Pacifico	PROPN	SP	_	2	nmod	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	ecco	ecco	ADV	B	_	10	advmod	_	_
+10	Honiara	Honiara	PROPN	SP	_	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Una pista ed una barchetta sulla quale è scritto “Aereoporto Internazionale”.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pista	pista	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	ed	e	CCONJ	CC	_	5	cc	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	barchetta	barchetta	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	quale	quale	PRON	PR	Number=Sing|PronType=Rel	10	obl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Aereoporto	aereoporto	PROPN	SP	_	10	nsubj:pass	_	_
+13	Internazionale	Internazionale	ADJ	A	Number=Sing	12	flat:name	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Doganieri neri in shorts azzurri, pignolissimi.
+1	Doganieri	doganiere	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	neri	nero	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	shorts	shorts	NOUN	S	Gender=Masc	1	nmod	_	_
+5	azzurri	azzurro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	pignolissimi	pignolo	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Marco e Roberto sono lì;
+1	Marco	Marco	PROPN	SP	_	4	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Roberto	Roberto	PROPN	SP	_	1	conj	_	_
+4	sono	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	lì	lì	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = urla di gioia e abbracci.
+1	urla	urlo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	abbracci	abbraccio	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Roby ha un piede fasciato e non può camminare:
+1	Roby	Roby	PROPN	SP	_	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	piede	piede	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	fasciato	fasciato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	camminare	camminare	VERB	V	VerbForm=Inf	5	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = per il morso di un pesce velenoso ha fatto sei giorni di ospedale a Port Moresby ed ora deve finire di curarsi qui..
+1	per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	morso	morso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	velenoso	velenoso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	sei	sei	NUM	N	NumType=Card	11	nummod	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Port	Port	PROPN	SP	_	9	obl	_	_
+16	Moresby	Moresby	PROPN	SP	_	15	flat:name	_	_
+17	ed	e	CCONJ	CC	_	20	cc	_	_
+18	ora	ora	ADV	B	_	20	advmod	_	_
+19	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	finire	finire	VERB	V	VerbForm=Inf	9	conj	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	curarsi	_	_	_	_	_	_	_	_
+22	curar	curare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	qui.	qui.	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Andiamo a casa di David Roe, un giovane archeologo inglese che lavora per il muse di Honiara, e da cui i due compari, arrivati l’altro ieri, hanno già trovato il modo di farsi ospitare.
+1	Andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	David	David	PROPN	SP	_	3	nmod	_	_
+6	Roe	Roe	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	giovane	giovane	ADJ	A	Number=Sing	10	amod	_	_
+10	archeologo	archeologo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+11	inglese	inglese	ADJ	A	Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	muse	musa	NOUN	S	Gender=Fem	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Honiara	Honiara	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	34	punct	_	_
+20	e	e	CCONJ	CC	_	34	cc	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	34	obl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	due	due	NUM	N	NumType=Card	25	nummod	_	_
+25	compari	comparo	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+29	altro	altro	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	ieri	ieri	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	22	punct	_	_
+32	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	già	già	ADV	B	_	34	advmod	_	_
+34	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	modo	modo	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	38	mark	_	_
+38-39	farsi	_	_	_	_	_	_	_	_
+38	far	fare	VERB	V	VerbForm=Inf	36	acl	_	_
+39	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	38	expl	_	_
+40	ospitare	ospitare	VERB	V	VerbForm=Inf	38	ccomp	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Come fanno Dio solo lo sa.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Dio	dio	PROPN	SP	_	2	obj	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = E nel salottino della piccola casa di legno di David passiamo tutta la giornata a parlare fitto fitto, mangiando papaia e banane e accavallando alla rinfusa gli argomenti delle mille cose che abbiamo da raccontarci.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	salottino	salottino	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	legno	legno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	David	David	PROPN	SP	_	8	nmod	_	_
+13	passiamo	passare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	parlare	parlare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+19	fitto	fitto	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	fitto	fitto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	mangiando	mangiare	VERB	V	VerbForm=Ger	13	advcl	_	_
+23	papaia	papaia	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	banane	banana	NOUN	S	Gender=Fem|Number=Plur	23	conj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	accavallando	accavallare	VERB	V	VerbForm=Ger	22	conj	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	rinfusa	rinfusa	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+35	mille	mille	NUM	N	NumType=Card	36	nummod	_	_
+36	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+37	che	che	PRON	PR	PronType=Rel	38	obj	_	_
+38	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+39	da	da	ADP	E	_	40	mark	_	_
+40-41	raccontarci	_	_	_	_	_	_	_	SpaceAfter=No
+40	raccontar	raccontare	VERB	V	VerbForm=Inf	38	ccomp	_	_
+41	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	40	obj	_	_
+42	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 12
+# text = Così ci trova il padrone di casa tornando dal lavoro.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	tornando	tornare	VERB	V	VerbForm=Ger	3	advcl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Ceniamo tutti insieme a lume di candela;
+1	Ceniamo	Cenare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obj	_	_
+3	insieme	insieme	ADV	B	_	1	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	lume	lume	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	candela	candela	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = al di là delle finestre, oltre la rete per le zanzare, si vede l’oceano.
+1-2	al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	là	là	ADV	B	_	7	advmod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	oltre	oltre	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rete	rete	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:pass	_	_
+17	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	oceano	oceano	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 15
+# text = Ci sono anche Bassie, la moglie di David micronesiana delle Isole Gilbert e la piccola Merere, una negretta con due occhi enormi che già gioca con me a trucci trucci cavallucci.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	2	advmod	_	_
+4	Bassie	Bassie	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	David	David	PROPN	SP	_	7	nmod	_	_
+10	micronesiana	micronesiano	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	9	flat:name	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Isole	Isole	PROPN	SP	_	9	nmod	_	_
+14	Gilbert	Gilbert	PROPN	SP	_	13	flat:name	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	Merere	Merere	PROPN	SP	_	7	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	negretta	negretta	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	enormi	enorme	ADJ	A	Number=Plur	21	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	già	già	ADV	B	_	28	advmod	_	_
+28	gioca	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	28	obl	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	trucci	truccio	NUM	N	NumType=Card	33	nummod	_	_
+33	trucci	truccio	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+34	cavallucci	cavalluccio	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Dopo mangiato, i racconti di David sui suoi tre anni di vita qui;
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	mangiato	mangiare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	racconti	racconto	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	David	David	PROPN	SP	_	5	nmod	_	_
+8-9	sui	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	12	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	qui	qui	ADV	B	_	5	advmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = le diapositive dei suoi giri per l’arcipelago aprono i primi spiragli su un mondo incredibile, e già sono mille fantasie mille progetti, da tenere a bada per ora se non vuoi farti venire il capogiro.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	diapositive	diapositiva	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	giri	giro	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	arcipelago	arcipelago	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+10	aprono	aprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	13	amod	_	_
+13	spiragli	spiraglio	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	incredibile	incredibile	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	23	punct	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20	già	già	ADV	B	_	23	advmod	_	_
+21	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	mille	mille	NUM	N	NumType=Card	23	nummod	_	_
+23	fantasie	fantasia	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+24	mille	mille	NUM	N	NumType=Card	25	nummod	_	_
+25	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	10	punct	_	_
+27	da	da	ADP	E	_	28	mark	_	_
+28	tenere	tenere	VERB	V	VerbForm=Inf	10	conj	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	bada	bada	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+31	per	per	ADP	E	_	32	case	_	_
+32	ora	ora	ADV	B	_	28	obl	_	_
+33	se	se	SCONJ	CS	_	36	mark	_	_
+34	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+35	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	36	cop	_	_
+36	farti	fartire	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	28	advcl	_	_
+37	venire	venire	VERB	V	VerbForm=Inf	36	csubj	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	capogiro	capogiro	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 18
+# text = Si va a letto tardi, ma è difficile addormentarsi.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	letto	letto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	tardi	tardi	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	difficile	difficile	ADJ	A	Number=Sing	2	conj	_	_
+10-11	addormentarsi	_	_	_	_	_	_	_	SpaceAfter=No
+10	addormentar	addormentare	VERB	V	VerbForm=Inf	9	csubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

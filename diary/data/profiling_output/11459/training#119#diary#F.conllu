@@ -1,0 +1,197 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sabato 8 luglio 1978
+1	Sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	8	8	NUM	N	NumType=Card	1	nmod	_	_
+3	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1978	1978	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = PERTINI PRESIDENTE.
+1	PERTINI	PERTINI	PROPN	SP	_	0	root	_	_
+2	PRESIDENTE	Presidente	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = "Procurate de moderare, barones, sa tirannia, ca si no, pro vida mia, torrates a pedes in terra!".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Procurate	Procurare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	de	di	ADP	E	_	4	mark	_	_
+4	moderare	moderare	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	barones	barones	PROPN	SW	Foreign=Yes	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	tirannia	tirannia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	ca	circa	ADP	E	_	15	case	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	no	no	ADV	BN	PronType=Neg	15	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	pro	pro	NOUN	S	_	8	obl	_	_
+16	vida	vida	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	torrates	torrates	ADP	E	_	21	case	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	pedes	pedes	NOUN	S	Gender=Masc	15	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	terra	terra	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	!	!	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ore 9,15.
+1	Ore	ora	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	9,15	9,15	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Adesso ci lanciamo nel bel mezzo della lotta, anche se non conosciamo il nemico da sconfiggere.
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+3	lanciamo	lanciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	bel	bello	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	anche	anche	ADV	B	_	15	mark	_	_
+13	se	se	SCONJ	CS	_	12	fixed	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	conosciamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	da	da	ADP	E	_	19	mark	_	_
+19	sconfiggere	sconfiggere	VERB	V	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ha mille volti.
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mille	mille	NUM	N	NumType=Card	3	nummod	_	_
+3	volti	volto	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Tragico.
+1	Tragico	tragico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Come farò?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Stamattina dovrei andare al Vaticano con Francesca.
+1	Stamattina	stamattina	ADV	B	_	3	advmod	_	_
+2	dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Vaticano	Vaticano	PROPN	SP	_	3	obl	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Francesca	Francesca	PROPN	SP	_	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = L'ho chiamata ma non c'era.
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ma	ma	CCONJ	CC	_	7	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Tra poco la richiamo.
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	poco	poco	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	richiamo	richiamo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Igor è con me, ma stamattina mi fa molto, molto piacere.
+1	Igor	Igor	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	stamattina	stamattina	ADV	B	_	9	advmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	molto	molto	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = PERTINI.
+1	PERTINI	PERTINI	ADJ	NO	Number=Sing|NumType=Ord	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = "Questa volta non si tratta di eleggere il Presidente, ma di cambiare il Paese…".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	eleggere	eleggere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Presidente	Presidente	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	cambiare	cambiare	VERB	V	VerbForm=Inf	8	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Paese…	paese…	PROPN	SP	_	14	obj	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Di Giacomo:
+1	Di	di	ADP	E	_	2	case	_	_
+2	Giacomo	Giacomo	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 16
+# text = "Che sole, che sole, che sole lucente, ma chi vuo' fa niente?".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Che	che	DET	DQ	PronType=Int	3	det	_	_
+3	sole	sole	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	case	_	_
+6	sole	solo	ADJ	A	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	sole	sole	ADJ	A	Gender=Fem|Number=Plur	6	acl:relcl	_	_
+10	lucente	lucente	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	chi	chi	PRON	PR	Number=Sing|PronType=Rel	10	conj	_	_
+14	vuo'	vuoco	ADV	B	_	15	advmod	_	_
+15	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	niente	niente	PRON	PI	Number=Sing|PronType=Ind	15	obj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

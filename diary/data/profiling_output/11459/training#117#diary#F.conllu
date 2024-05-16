@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sabato 8 aprile 1978
+1	Sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	8	8	NUM	N	NumType=Card	1	nmod	_	_
+3	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1978	1978	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Sapere di aver perduto per un soffio le cinquecentomila lire del presalario è davvero qualcosa che non mi dà pace.
+1	Sapere	sapere	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+2	di	di	ADP	E	_	4	mark	_	_
+3	aver	avere	AUX	VA	VerbForm=Inf	4	aux	_	_
+4	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	soffio	soffio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	cinquecentomila	cinquecentomila	NUM	N	NumType=Card	10	nummod	_	_
+10	lire	lira	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	presalario	presalario	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	davvero	davvero	ADV	B	_	16	advmod	_	_
+16	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+20	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+21	pace	pace	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Solo per un esame che non ho fatto in tempo (il famoso esame di settembre, di Critica Letteraria II e mi presentai persino, ma non ebbi il coraggio di farlo) (stronza e stupida), devo rodermi e basta, tanto non c'è speranza.
+1	Solo	solo	ADV	B	_	4	advmod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	esame	esame	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	famoso	famoso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	esame	esame	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Critica	critica	PROPN	SP	_	16	nmod	_	_
+20	Letteraria	letteraria	PROPN	SP	_	19	flat:name	_	_
+21	II	secondo	ADJ	NO	Number=Sing|NumType=Ord	19	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	expl	_	_
+24	presentai	presentare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	conj	_	_
+25	persino	persino	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	ma	ma	CCONJ	CC	_	29	cc	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	ebbi	ebbo	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	conj	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33-34	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+33	far	fare	VERB	V	VerbForm=Inf	31	acl	_	_
+34	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+35	)	)	PUNCT	FB	_	31	punct	_	_
+36	(	(	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	stronza	stronza	NOUN	S	Gender=Fem|Number=Sing	31	appos	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	stupida	stupida	ADJ	A	Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	14	punct	_	_
+42	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43-44	rodermi	_	_	_	_	_	_	_	_
+43	roder	rodere	VERB	V	VerbForm=Inf	51	csubj	_	_
+44	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	43	iobj	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	43	punct	_	_
+48	tanto	tanto	ADV	B	_	51	advmod	_	_
+49	non	non	ADV	BN	PronType=Neg	51	advmod	_	_
+50	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	51	expl	_	SpaceAfter=No
+51	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+52	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	51	nsubj	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Adesso telefono ad Angelo e vediamo che succede, perché in fondo uno in più l'ho sempre fatto.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	telefono	telefere	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	Angelo	Angelo	PROPN	SP	_	2	nmod	_	_
+5	e	e	CCONJ	CC	_	4	cc	_	_
+6	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	perché	perché	SCONJ	CS	_	19	mark	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+13	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	più	più	ADV	B	_	13	advmod	_	_
+16	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+17	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	sempre	sempre	ADV	B	_	19	advmod	_	_
+19	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = A dormire da Felice.
+1	A	a	ADP	E	_	2	mark	_	_
+2	dormire	dormire	VERB	V	VerbForm=Inf	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	Felice	Felice	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Al Nuovo Olimpia "L'altra faccia dell'amore".
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Nuovo	nuovo	PROPN	SP	_	4	nmod	_	_
+4	Olimpia	Olimpia	PROPN	SP	_	0	root	_	_
+5	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+6	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	altra	altro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

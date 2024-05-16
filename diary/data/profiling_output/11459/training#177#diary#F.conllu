@@ -1,0 +1,263 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bologna 20.12.82
+1	Bologna	Bologna	PROPN	SP	_	0	root	_	_
+2	20.12.82	20.12.82	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Caro Stefano,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Stefano	Stefano	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = ho tanta voglia e bisogno di vederti, che mi sono ridotta a scrivere di te e a te, per non perdere del tutto i contatti col resto di me che ti odia e non ti vuole.
+1	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	vederti	_	_	_	_	_	_	_	SpaceAfter=No
+7	veder	vedere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	expl	_	_
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	ridotta	ridurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	scrivere	scrivere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obl	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	per	per	ADP	E	_	24	mark	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	perdere	perdere	VERB	V	VerbForm=Inf	13	advcl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	obl	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	contatti	contatto	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+30-31	col	_	_	_	_	_	_	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	resto	resto	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	32	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	37	iobj	_	_
+37	odia	odiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+38	e	e	CCONJ	CC	_	41	cc	_	_
+39	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+40	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	41	expl	_	_
+41	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Vivo come se fossi la tua vedova con tutti i ricordi che mi hai lasciato, il tuo disordine, il tuo odore.
+1	Vivo	vivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	ADV	B	_	1	advmod	_	_
+3	se	se	SCONJ	CS	_	4	mark	_	_
+4	fossi	essere	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	vedova	vedova	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	disordine	disordine	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	odore	odore	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = È una persecuzione:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	persecuzione	persecuzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = oltre alla nostalgia, si aggiunge adesso il senso di abbandono.
+1	oltre	oltre	ADV	B	_	4	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	nostalgia	nostalgia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	adesso	adesso	ADV	B	_	7	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	senso	senso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Che però non mi fa piangere, mai.
+1	Che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+2	però	però	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	piangere	piangere	VERB	V	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	mai	mai	ADV	B	_	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = I canali delle lacrime si sono seccati, quasi che la tua indifferenza avesse bruciato il loro liquido e il sale;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	canali	canale	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	seccati	seccare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	quasi	quasi	ADV	B	_	16	mark	_	_
+11	che	che	SCONJ	CS	_	10	fixed	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+15	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	bruciato	bruciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	liquido	liquido	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sale	sale	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 9
+# text = non ho più parole per dirti in quale prostrazione mi hai lasciato e quanto astio riesce a vomitare il mio cuore.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	_
+4	parole	parola	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	dirti	_	_	_	_	_	_	_	_
+6	dir	dire	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	quale	quale	DET	DQ	Number=Sing|PronType=Int	10	det	_	_
+10	prostrazione	prostrazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+12	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	quanto	quanto	ADV	B	_	17	advmod	_	_
+16	astio	astio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	vomitare	vomitare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Sto qui e aspetto, chiedo di te all'Anna, pur di sentirmi dire che ci sei ancora, e che quindi posso continuare a strisciare, sperando che ti ricordi che esisto anch'io.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	qui	qui	ADV	B	_	6	advmod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	aspetto	aspettare	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	obl	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Anna	Anna	PROPN	SP	_	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	pur	pure	ADV	B	_	15	advmod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	sentirmi	_	_	_	_	_	_	_	_
+15	sentir	sentire	VERB	V	VerbForm=Inf	11	advcl	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	expl	_	_
+17	dire	dire	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	che	che	SCONJ	CS	_	27	mark	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	27	expl	_	_
+20	sei	sei	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	aux	_	_
+21	ancora	ancora	ADV	B	_	27	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	27	punct	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24	che	che	SCONJ	CS	_	27	mark	_	_
+25	quindi	quindi	ADV	B	_	27	advmod	_	_
+26	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	continuare	continuare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	strisciare	strisciare	VERB	V	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	sperando	sperare	VERB	V	VerbForm=Ger	29	advcl	_	_
+32	che	che	SCONJ	CS	_	34	mark	_	_
+33	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	34	obj	_	_
+34	ricordi	ricordare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	_
+35	che	che	SCONJ	CS	_	36	mark	_	_
+36	esisto	esedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
+37	anch'	anche	ADV	B	_	38	advmod	_	SpaceAfter=No
+38	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	36	nsubj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Ma io non ti cercherò, dovessi morire per la voglia.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+5	cercherò	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	dovessi	dovesso	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	morire	morire	VERB	V	VerbForm=Inf	5	parataxis	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Non meriti la mia attenzione, non meriti questo stupido, grande, dolcissimo amore.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	meriti	merire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	meriti	merire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	stupido	stupido	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	grande	grande	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	dolcissimo	dolce	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	15	amod	_	_
+15	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Antonella
+1	Antonella	Antonella	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

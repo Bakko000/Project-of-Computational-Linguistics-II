@@ -1,0 +1,142 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 14 aprile domenica
+1	14	14	NUM	N	NumType=Card	3	nummod	_	_
+2	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Le parole dal carcere.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Rileggendo quanto ho scritto per sopravvivere fino ad ora, le parole che ricorrono di più sono:
+1	Rileggendo	Rileggere	VERB	V	VerbForm=Ger	12	acl	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	1	obj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	fino	fino	ADV	B	_	9	case	_	_
+8	ad	a	ADP	E	_	7	fixed	_	_
+9	ora	ora	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	parole	parola	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	ricorrono	ricorrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	più	più	ADV	B	_	14	advmod	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	17	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = assurdo
+1	assurdo	assurdo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = paradossale
+1	paradossale	paradossale	ADJ	A	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = violenza
+1	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Si vede che non sono un bravo scrittore, d'altro canto scrivo per me, scrivo per resistere.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+11	altro	altro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	canto	canto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	scrivo	scrivere	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	resistere	resistere	VERB	V	VerbForm=Inf	17	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un bravo scrittore farebbe comprendere l'assurdità, il paradosso e la violenza senza citarli, come Raymond Carter.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	farebbe	fare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	comprendere	comprendere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	assurdità	assurdità	NOUN	S	Gender=Fem	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	paradosso	paradosso	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+14	senza	senza	ADP	E	_	15	mark	_	_
+15-16	citarli	_	_	_	_	_	_	_	SpaceAfter=No
+15	citar	citare	VERB	V	VerbForm=Inf	5	advcl	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	Raymond	Raymond	PROPN	SP	_	15	obl	_	_
+20	Carter	Carter	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Inoltre confermo la mia impressione generale, cioè che non ci sia alternativa a questa assurdità, a questa violenza.
+1	Inoltre	inoltre	ADV	B	_	2	advmod	_	_
+2	confermo	confermo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	generale	generale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	cioè	cioè	ADV	B	_	13	advmod	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+12	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	alternativa	alternativa	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	assurdità	assurdità	NOUN	S	Gender=Fem	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Il carcere è e deve essere così…[…]
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+7	così	così	ADV	B	_	3	conj	_	SpaceAfter=No
+8	…	…	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	[	[	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	…	…	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+11	]	]	PUNCT	FB	_	7	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,239 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 22 luglio, mercoledì
+1	22	22	NUM	N	NumType=Card	4	nummod	_	_
+2	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	mercoledì	mercoledì	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Bisogna arrivare a domani, quando parte l’aereo per le Salomone.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	arrivare	arrivare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	domani	domani	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	quando	quando	SCONJ	CS	_	7	mark	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	advcl	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Salomone	Salomone	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E allora, visto che non c’è da parlare con nessuno, andiamo a vedere quello che c’è da vedere.
+1	E	e	CCONJ	CC	_	14	cc	_	_
+2	allora	allora	ADV	B	_	14	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	da	da	ADP	E	_	10	mark	_	_
+10	parlare	parlare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	vedere	vedere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	SpaceAfter=No
+20	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	da	da	ADP	E	_	22	mark	_	_
+22	vedere	vedere	VERB	V	VerbForm=Inf	20	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = Che però è ben poco.
+1	Che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+2	però	però	ADV	B	_	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ben	bene	ADV	B	_	5	advmod	_	_
+5	poco	poco	ADV	B	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Brisbane è una città senza storia:
+1	Brisbane	Brisbane	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	città	città	NOUN	S	Gender=Fem	0	root	_	_
+5	senza	senza	ADP	E	_	6	case	_	_
+6	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = nata nel 1823 per un decreto del parlamento inglese che vi aveva istituito un penitenziario “per i delinquenti della peggiore specie” (!), poco più di un secolo fa aveva ancora cinquemila abitanti.
+1	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	1823	1823	NUM	N	NumType=Card	1	obl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	parlamento	parlamento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	inglese	inglese	ADJ	A	Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	vi	vi	ADV	B	_	15	advmod	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	istituito	istituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	penitenziario	penitenziario	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+19	per	per	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	delinquenti	delinquento	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	25	amod	_	_
+25	specie	specie	NOUN	S	Gender=Fem	21	nmod	_	SpaceAfter=No
+26	”	”	PUNCT	FB	_	21	punct	_	_
+27	(	(	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	!	!	PUNCT	FS	_	21	punct	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	15	punct	_	_
+31	poco	poco	ADV	B	_	32	advmod	_	_
+32	più	più	ADV	B	_	35	advmod	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+36	fa	fa	ADV	B	_	35	advmod	_	_
+37	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+38	ancora	ancora	ADV	B	_	37	advmod	_	_
+39	cinquemila	cinquemila	NUM	N	NumType=Card	40	nummod	_	_
+40	abitanti	abitante	NOUN	S	Number=Plur	37	obj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Il monumento principale è la casa più vecchia della città, che è “rimasta intatta”.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	monumento	monumento	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	principale	principale	ADJ	A	Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	città	città	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpacesAfter=\s\s\s
+17	intatta	intatto	ADJ	A	Gender=Fem|Number=Sing	16	xcomp	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = Scorrazzo su e giù con gli autobus del Comune, forte di un biglietto “circolare” che vale fino a stasera.
+1	Scorrazzo	Scorrazzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	su	su	ADV	B	_	1	advmod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	giù	giù	ADV	B	_	2	advmod	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	autobus	autobus	NOUN	S	Gender=Masc	1	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Comune	comune	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	forte	forte	ADJ	A	Number=Sing	1	amod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	circolare	circolare	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+21	fino	fino	ADV	B	_	23	case	_	_
+22	a	a	ADP	E	_	21	fixed	_	_
+23	stasera	stasera	ADV	B	_	20	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = All’ora di pranzo sono invitato a un gruppo di turisti americani ad accarezzare canguri e koala che vivono in un parco d’allevamento.
+1-2	All’	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	americani	americano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15	accarezzare	accarezzare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+16	canguri	cangurio	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	koala	koala	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	parco	parco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	d’	di	ADP	E	_	25	case	_	SpaceAfter=No
+25	allevamento	allevamento	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = All’improvviso ti ricordi che qui è inverno perché alle cinque e mezzo è già buio.
+1-2	All’	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	5	obl	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	ricordi	ricordare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	qui	qui	ADV	B	_	9	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	inverno	invernare	ADJ	A	Gender=Masc|Number=Sing	5	ccomp	_	_
+10	perché	perché	SCONJ	CS	_	18	mark	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	cinque	cinque	NUM	N	NumType=Card	18	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	mezzo	mezzo	PRON	PI	Gender=Masc|Number=Sing	13	conj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	già	già	ADV	B	_	18	advmod	_	_
+18	buio	buio	ADJ	A	Gender=Masc|Number=Sing	9	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Dicono che le spiaggie e le isole qua’ intorno siano favolose.
+1	Dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	12	mark	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	spiaggie	spiaggia	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	isole	isola	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+8	qua	quo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	SpaceAfter=No
+9	’	’	PUNCT	FF	_	12	punct	_	_
+10	intorno	intorno	ADV	B	_	12	advmod	_	_
+11	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	favolose	favolodere	ADJ	A	Gender=Fem|Number=Plur	1	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

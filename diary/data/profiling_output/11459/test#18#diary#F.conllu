@@ -1,0 +1,394 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 30-10-17
+1	30	30	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	10	10	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	17	17	NUM	N	NumType=Card	3	compound	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Per l'aria un ronzare concitato di eliche, un frullare di ali nostre e nemiche, per le vie un passaggio continuo assordante ed un lavoro instancabile.
+1	Per	per	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aria	aria	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ronzare	ronzare	NOUN	S	Gender=Masc	0	root	_	_
+6	concitato	concitato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	eliche	elica	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	frullare	frullare	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	ali	ala	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	nostre	nostre	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	nemiche	nemiche	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	vie	via	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	continuo	continuo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	assordante	assordare	ADJ	A	Number=Sing	22	amod	_	_
+25	ed	e	CCONJ	CC	_	27	cc	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+28	instancabile	instancabile	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Valorosi reparti del Genio, incuranti dell'appetito da quattro giorni insoddisfatto, preparano le difese, impiantano linee telefoniche e telegrafiche.
+1	Valorosi	Valoroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	reparti	reparto	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Genio	Genio	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	incuranti	incurante	ADJ	A	Number=Plur	2	amod	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	appetito	appetito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	quattro	quattro	NUM	N	NumType=Card	13	nummod	_	_
+13	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	insoddisfatto	insoddisfatto	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	preparano	preparare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	difese	difesa	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	impiantano	impiantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+21	linee	linea	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+22	telefoniche	telefonico	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	telegrafiche	telegrafico	ADJ	A	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = Nelle case un dolore immenso, uno spavento cupo.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	case	casa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	immenso	immenso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	spavento	spavento	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	cupo	cupo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Che avverrà?
+1	Che	che	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	avverrà	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Prepariamo i bagagli, Antonia ne ha 1’incarico.
+1	Prepariamo	Preparare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	bagagli	bagaglio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	Antonia	Antonia	PROPN	SP	_	7	nsubj	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	1’	1o	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Raduniamo i nostri contadini che in quest'ora di lutto si dimostrano sinceramente affezionati.
+1	Raduniamo	Radunare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	quest'	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	dimostrano	dimostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+13	sinceramente	sinceramente	ADV	B	_	14	advmod	_	_
+14	affezionati	affezionare	ADJ	A	Gender=Masc|Number=Plur	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Essi rimarranno, non possono partire, sono famiglie numerose, vi sono troppi bimbi piccini.
+1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	rimarranno	rimarre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	partire	partire	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+10	numerose	numeroso	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+16	piccini	piccino	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Essi rimangono, affidandosi al destino e mettono a disposizione nostra tutti i loro cavalli.
+1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	rimangono	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	affidandosi	_	_	_	_	_	_	_	_
+4	affidando	affidare	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	destino	destino	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	obl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	cavalli	cavallo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = La nostra casa è piena di ufficiali e soldati;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 11
+# text = la mamma piange inginocchiata davanti all’immagine miracolosa della scala, piange e inutilmente invoca dalla pietà divina 1’arresto del nemico al Tagliamento.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	piange	piangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	inginocchiata	inginocchiato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+5	davanti	davanti	ADV	B	_	8	case	_	_
+6-7	all’	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	5	fixed	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	miracolosa	miracoloso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	scala	scala	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	piange	piangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	inutilmente	inutilmente	ADV	B	_	17	advmod	_	_
+17	invoca	invocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pietà	pietà	NOUN	S	Gender=Fem	21	obl	_	_
+21	divina	divinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+22	1’	1o	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Tagliamento	Tagliamento	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Valentino ci supplica di partire prima che gli avvenimenti precipitino.
+1	Valentino	Valentino	PROPN	SP	_	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
+3	supplica	supplicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	partire	partire	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	prima	prima	ADV	B	_	9	case	_	_
+7	che	che	SCONJ	CS	_	6	fixed	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	avvenimenti	avvenimento	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	precipitino	precipitino	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Foschini accorso con le sue squadre di auto-mitragliatrici blindate a difendere il Tagliamento non spera più e ripete concitato:
+1	Foschini	Foschini	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	accorso	accorrere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	auto	auto	ADJ	A	_	10	amod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	mitragliatrici	mitragliatrico	ADJ	A	Gender=Fem|Number=Plur	6	nmod	_	_
+11	blindate	blindare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	difendere	difendere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Tagliamento	Tagliamento	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	spera	sperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18	più	più	ADV	B	_	17	advmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	ripete	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+21	concitato	concitare	ADJ	A	Gender=Masc|Number=Sing	20	xcomp	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = “Partite, partite!”.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Partite	partire	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	partite	partita	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Ildegonda è ammalata a Corbolone ed ignara del pericolo.
+1	Ildegonda	Ildegondo	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ammalata	ammalare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Corbolone	Corbolone	PROPN	SP	_	3	obl	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	ignara	ignara	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Udine è presa e sul suo castello sventola la bandiera turca, omaggio gentile dell’impero austro-ungarico alla civilissima alleata.
+1	Udine	Udine	PROPN	SP	_	3	nsubj:pass	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	e	e	CCONJ	CC	_	9	cc	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	castello	castello	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+9	sventola	sventolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	turca	turca	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+15	gentile	gentile	ADJ	A	Number=Sing	14	amod	_	_
+16-17	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	impero	impero	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	austro	austro	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+21	ungarico	ungarico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	civilissima	civile	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	25	amod	_	_
+25	alleata	alleato	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Non basta ancora, la cattolica nazione offre la Chiesa delle Grazie (il tempio più venerato di tutto il Friuli) per accampamento turco.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	cattolica	cattolico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	offre	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Grazie	Grazie	PROPN	SP	_	10	nmod	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tempio	tempio	NOUN	S	Gender=Masc|Number=Sing	10	appos	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	venerato	venerato	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	22	det:predet	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Friuli	Friuli	PROPN	SP	_	18	obl	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	16	punct	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	accampamento	accampamento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+26	turco	turco	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 18
+# text = Ed essi proseguono ancora, calpestano 1’ancor verde suolo friulano, raccolgono i frutti del sudato nostro lavoro campestre, mentre nugoli di loro aereoplani gettano biglietti invitanti rimanere.
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	proseguono	proseguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	calpestano	calpestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	1’	1o	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	ancor	ancora	ADV	B	_	9	advmod	_	_
+9	verde	verde	ADJ	A	Number=Sing	10	amod	_	_
+10	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	friulano	friulano	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	raccolgono	raccolere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	frutti	frutto	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sudato	sudato	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	18	compound	_	_
+21	campestre	campestre	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	mentre	mentre	SCONJ	CS	_	24	mark	_	_
+24	nugoli	nugolo	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	aereoplani	aereoplano	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+28	gettano	gettare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+29	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30	invitanti	invitante	ADV	B	_	31	advmod	_	_
+31	rimanere	rimanere	VERB	V	VerbForm=Inf	29	acl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = No, partiamo.
+1	No	no	INTJ	I	Polarity=Neg	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	partiamo	partire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

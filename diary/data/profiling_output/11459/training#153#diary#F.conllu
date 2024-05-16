@@ -1,0 +1,320 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 13 settembre 1989
+1	13	13	NUM	N	NumType=Card	0	root	_	_
+2	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	1989	1989	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Cara Maria
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = siamo arrivati felicemente a casa dopo un viaggio a quasi 140 Km all'ora.
+1	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	felicemente	felicemente	ADV	B	_	5	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	quasi	quasi	ADV	B	_	11	advmod	_	_
+11	140	140	NUM	N	NumType=Card	12	nummod	_	_
+12	Km	km	PROPN	SP	_	8	nmod	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ora	ora	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il tempo era buono e le ore passate con voi ci hanno rallegrato il cuore.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	buono	buono	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ore	ora	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+8	passate	passato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	8	obl	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	rallegrato	rallegrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Sono stata felice di averti trovata, di avere conosciuto tutti i tuoi.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	7	mark	_	_
+5-6	averti	_	_	_	_	_	_	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	expl	_	_
+7	trovata	trovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	di	di	ADP	E	_	11	mark	_	_
+10	avere	avere	AUX	VA	VerbForm=Inf	11	aux	_	_
+11	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	tuoi	tuo	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = La famiglia di Ilona è splendida ed Alès è un tesoro.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Ilona	Ilona	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	splendida	splendido	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	ed	e	CCONJ	CC	_	8	cc	_	_
+8	Alès	Alès	PROPN	SP	_	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tesoro	tesoro	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Abbi cura di loro e ricordati quello che ti ho detto.
+1	Abbi	Abbio	DET	T	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
+2	cura	cura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6-7	ricordati	_	_	_	_	_	_	_	_
+6	ricorda	ricordare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	expl	_	_
+8	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = I sacrifici personali sono sempre ricompensati e non bisogna essere egoisti nei sentimenti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sacrifici	sacrificio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	personali	personale	ADJ	A	Number=Plur	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	ricompensati	ricompensare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux	_	_
+11	egoisti	egoedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	xcomp	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = È stato un viaggio rapidissimo, sembra un sogno.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	rapidissimo	rapido	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Devo proprio ringraziare mio marito che ha permesso questo incontro.
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	proprio	proprio	ADV	B	_	3	advmod	_	_
+3	ringraziare	ringraziare	VERB	V	VerbForm=Inf	0	root	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	marito	marito	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Stai contenta, ma non stare sempre a letto, perché ti fa male.
+1	Stai	stai	ADV	B	_	2	advmod	_	_
+2	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	stare	stare	VERB	V	VerbForm=Inf	2	conj	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	letto	letto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	perché	perché	SCONJ	CS	_	13	mark	_	_
+12	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	13	iobj	_	_
+13	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14	male	male	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Fai passeggiate e vai a trovare chi sta peggio di te.
+1	Fai	fare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	passeggiate	passeggiata	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	trovare	trovare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	obj	_	_
+8	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+9	peggio	peggio	ADV	B	_	8	advmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Vedo che a Praga hai camminato anche se eri stanca.
+1	Vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Praga	Praga	PROPN	SP	_	6	obl	_	_
+5	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	camminato	camminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	anche	anche	ADV	B	_	9	mark	_	_
+8	se	se	SCONJ	CS	_	7	fixed	_	_
+9	eri	ero	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	stanca	stanca	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Io avevo male alla schiena, e credevo proprio di non poter resistere, però vedi....
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	male	male	ADV	B	_	2	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	schiena	schiena	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	proprio	proprio	ADV	B	_	9	advmod	_	_
+11	di	di	ADP	E	_	14	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	poter	potere	AUX	VM	VerbForm=Inf	14	aux	_	_
+14	resistere	resistere	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	però	però	ADV	B	_	14	advmod	_	_
+17	vedi...	vedi.	PUNCT	FS	_	14	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Ora mi è passato.
+1	Ora	ora	ADV	B	_	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Oggi ho tagliato l'erba del prato, domani andrò a Firenze al cimitero.
+1	Oggi	oggi	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	tagliato	tagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	erba	erba	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	prato	prato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	domani	domani	ADV	B	_	11	advmod	_	_
+11	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Firenze	Firenze	PROPN	SP	_	11	obl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Dopo domani a scuola.
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	domani	domani	ADV	B	_	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Bacia e ringrazia il tuo genero;
+1	Bacia	Bacia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	ringrazia	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	genero	genero	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 19
+# text = mandami il suo indirizzo, scriverò in inglese.
+1	mandami	mandamare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	scriverò	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	1	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	inglese	inglese	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = State contenti, ma muovetevi perché lo stare fermi fa male.
+1	State	stato	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	contenti	contento	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	muovetevi	muovere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	perché	perché	SCONJ	CS	_	10	mark	_	_
+7	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	stare	stare	VERB	V	VerbForm=Inf	10	csubj	_	_
+9	fermi	fermare	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	male	male	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Ti mando la foto, le altre le manderò appena pronte.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	expl	_	_
+2	mando	mare	VERB	V	VerbForm=Ger	9	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	foto	foto	NOUN	S	Gender=Fem	9	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	9	nsubj	_	_
+8	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	manderò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	appena	appena	ADV	B	_	11	advmod	_	_
+11	pronte	pronto	ADJ	A	Gender=Fem|Number=Plur	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Baci
+1	Baci	Bace	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Athe
+1	Athe	Athe	ADV	B	_	0	root	_	SpacesAfter=\n\n
+

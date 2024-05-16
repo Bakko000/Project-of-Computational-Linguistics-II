@@ -1,0 +1,282 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bitti 13 giugno 1965, domenica mattina
+1	Bitti	Bitto	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	13	13	NUM	N	NumType=Card	1	obl	_	_
+3	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1965	1965	NUM	N	NumType=Card	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+7	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Carissima Giò
+1	Carissima	Carissimo	PROPN	SP	_	0	root	_	_
+2	Giò	Giò	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Sai che bellissima, arcibella notizia mi ha dato ieri Rinaldo?
+1	Sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	9	mark	_	_
+3	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	arcibella	arcibella	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+10	ieri	ieri	ADV	B	_	11	advmod	_	_
+11	Rinaldo	Rinaldo	PROPN	SP	_	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Dunque: sono andata in giro per il corso Veneto comprando fiammiferi, cartolina, ecc.
+1	Dunque	dunque	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	giro	giro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	corso	corso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	Veneto	Veneto	PROPN	SP	_	9	nmod	_	_
+11	comprando	comprare	VERB	V	VerbForm=Ger	4	advcl	_	_
+12	fiammiferi	fiammifero	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	cartolina	cartolina	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	ecc	eccetera	ADV	B	_	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = poi sono ritornata a casa.
+1	poi	poi	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ritornata	ritornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Prima di questa c'è un negozietto che appartiene a "Martineddu", come lo si chiama abitualmente, e ci sono passata per comprarmi diavoletti (confetti di liquirizia neri).
+1	Prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	negozietto	negozietto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	appartiene	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Martineddu	Martineddu	PROPN	SP	_	9	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	come	come	SCONJ	CS	_	18	mark	_	_
+16	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+19	abitualmente	abitualmente	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
+23	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+25	per	per	ADP	E	_	26	case	_	_
+26	comprarmi	arma|comprarme	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+27	diavoletti	diavoletto	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	confetti	confetto	NOUN	S	Gender=Masc|Number=Plur	26	appos	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	liquirizia	liquirizia	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	neri	nero	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = C'era Rinaldo che ha voluto stringermi la mano dicendomi "Auguri!".
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	Rinaldo	Rinaldo	PROPN	SP	_	2	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	stringermi	stringermo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mano	mano	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	dicendomi	_	_	_	_	_	_	_	_
+10	dicendo	dire	VERB	V	VerbForm=Ger	6	advcl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Auguri	auguri	PROPN	SP	_	10	xcomp	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	13	punct	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = "Bè, non so perché!".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Bè	bè	INTJ	I	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	perché	perché	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Dissi io.
+1	Dissi	Diggere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = "Perché sei stata promossa - e ripeté - "Auguri".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Perché	perché	ADV	B	_	5	advmod	_	_
+3	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	promossa	promuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	-	-	PUNCT	FB	_	5	punct	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	ripeté	ripeté	ADV	B	_	11	advmod	_	_
+9	-	-	PUNCT	FB	_	11	punct	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Auguri	auguri	PROPN	SP	_	5	conj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Ne ero felicissima e sbalordita.
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+2	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	felicissima	felice	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	sbalordita	sbalordita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = La strada della scuola non era mai stata percorsa, con così gran gioia, da me.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	strada	strada	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+8	mai	mai	ADV	B	_	10	advmod	_	_
+9	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	percorsa	percorrere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	così	così	ADV	B	_	15	advmod	_	_
+14	gran	grande	ADJ	A	Number=Sing	15	amod	_	_
+15	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = In Religione ho sufficiente, italiano 8, storia e geografia 7, francese 7, matematica 6, disegno 8, educ.
+1	In	in	ADP	E	_	2	case	_	_
+2	Religione	religione	PROPN	SP	_	4	obl	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sufficiente	sufficiente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+7	8	8	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	geografia	geografia	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+12	7	7	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	francese	francese	ADJ	A	Number=Sing	17	amod	_	_
+15	7	7	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	matematica	matematica	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+18	6	6	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	disegno	disegno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	8	8	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	educ.	educ.	NOUN	S	_	4	conj	_	_
+
+# sent_id = 14
+# text = Fis. 6.
+1	Fis	Fis	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+3	6	6	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Spero che ti piacciano i miei voti, Giò.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	piacciano	piacciare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	voti	voto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	Giò	Giò	PROPN	SP	_	7	appos	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = A casa ne sono tutti felicissimi.
+1	A	a	ADP	E	_	2	case	_	_
+2	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	_
+6	felicissimi	felice	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = Ho già ricevuto £ 2.000: una somma che mai ho posseduto, quindi ne sono contentissima perché con i soldi che mi deve dare zia Maria, potrò comprarmi la bici, che desidero tanto.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	già	già	ADV	B	_	3	advmod	_	_
+3	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	£	£	SYM	SYM	_	3	nsubj	_	_
+5	2.000	2.000	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	somma	somma	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+10	mai	mai	ADV	B	_	12	advmod	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	posseduto	possedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	quindi	quindi	ADV	B	_	17	advmod	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	contentissima	contento	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	3	conj	_	_
+18	perché	perché	SCONJ	CS	_	30	mark	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+24	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	dare	dare	VERB	V	VerbForm=Inf	21	acl:relcl	_	_
+26	zia	zia	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+27	Maria	Maria	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	21	punct	_	_
+29	potrò	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	30	aux	_	_
+30	comprarmi	arma|comprarme	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	bici	bico	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	che	che	PRON	PR	PronType=Rel	35	obj	_	_
+35	desidero	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+36	tanto	tanto	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

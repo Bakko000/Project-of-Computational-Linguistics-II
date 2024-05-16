@@ -1,0 +1,386 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 19 gennaio venerdì
+1	19	19	NUM	N	NumType=Card	3	nummod	_	_
+2	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	venerdì	venerdì	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = […] LA DOMANDINA
+1	[	[	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	_
+4	LA	La	PROPN	SP	_	0	root	_	_
+5	DOMANDINA	DOMANDINA	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Sventolata davanti al naso dell'agente di turno al nuovo arrivato è l'unico modo per comunicare con i piani alti.
+1	Sventolata	Sventolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	davanti	davanti	ADV	B	_	5	case	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	naso	naso	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	agente	agente	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	turno	turno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	arrivato	arrivato	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+17	unico	unico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	comunicare	comunicare	VERB	V	VerbForm=Inf	1	advcl	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	piani	piano	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+24	alti	alto	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Con chiunque si voglia parlare, qualunque cosa si voglia fare, qualunque comunicazione si voglia dare, persino “mi sto suicidando”, occorre compilare questo modulino rettangolare dall'aspetto innocuo, ma attraverso il quale passano i destini della popolazione detenuta.
+1	Con	con	ADP	E	_	2	case	_	_
+2	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	5	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+10	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+16	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	dare	dare	VERB	V	VerbForm=Inf	11	acl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	persino	persino	ADV	B	_	23	advmod	_	_
+20	“	“	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	expl	_	_
+22	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	suicidando	suicidare	VERB	V	VerbForm=Ger	17	advcl	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+27	compilare	compilare	VERB	V	VerbForm=Inf	26	csubj	_	_
+28	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	modulino	modulino	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	rettangolare	rettangolare	ADJ	A	Number=Sing	29	amod	_	_
+31-32	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+31	da	da	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+34	innocuo	innocuo	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	40	punct	_	_
+36	ma	ma	CCONJ	CC	_	40	cc	_	_
+37	attraverso	attraverso	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	quale	quale	PRON	PR	Number=Sing|PronType=Rel	40	obl	_	_
+40	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	destini	destino	NOUN	S	Gender=Masc|Number=Plur	40	nsubj	_	_
+43-44	della	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+46	detenuta	detenuto	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = La domandina deve essere esposta in bella vista sulla finestrella del blindato;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	domandina	domandina	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	esposta	esporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	bella	bello	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	vista	vista	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	finestrella	finestrella	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	blindato	blindato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = se l'agente che passa di notte non la vede o non ha voglia di ritirarla, non la ritira.
+1	se	se	SCONJ	CS	_	10	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	agente	agente	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16-17	ritirarla	_	_	_	_	_	_	_	SpaceAfter=No
+16	ritirar	ritirare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ritira	ritira	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = La domandina deve essere compilata accuratamente in ogni sua parte, se manca solo una virgola viene cestinata;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	domandina	domandina	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	compilata	compilare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	accuratamente	accuratamente	ADV	B	_	5	advmod	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	se	se	SCONJ	CS	_	13	mark	_	_
+13	manca	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+14	solo	solo	ADV	B	_	13	advmod	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	virgola	virgola	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+17	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	cestinata	cestinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 8
+# text = non importa chi debba raggiungere, parenti disperati o colloqui urgentissimi.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	raggiungere	raggiungere	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	parenti	parente	NOUN	S	Number=Plur	5	obj	_	_
+8	disperati	disperato	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	colloqui	colloquio	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	_
+11	urgentissimi	urgento	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Entro la mattinata tutte le domandine vengono firmate dal direttore e poi smistate agli uffici competenti.
+1	Entro	entro	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mattinata	mattinata	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	domandine	domandine	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+7	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	firmate	firmare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	poi	poi	ADV	B	_	14	advmod	_	_
+14	smistate	smistare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
+15-16	agli	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	uffici	ufficio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	competenti	competente	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = La domandina non può essere scritta con la penna verde né con la penna rossa, sono accettate solo penna nera e blu.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	domandina	domandina	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	penna	penna	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	verde	verde	ADJ	A	Number=Sing	9	amod	_	_
+11	né	né	CCONJ	CC	_	14	cc	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	penna	penna	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+15	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	accettate	accettare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+19	solo	solo	ADV	B	_	20	advmod	_	_
+20	penna	penna	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+21	nera	nero	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	blu	blu	ADJ	A	_	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = […] Quando la domandina arriva in direzione (se arriva) la direzione risponde, molto gentilmente, con un modulo appeso ad una bacheca all'entrata della sezione.
+1	[	[	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	_
+4	Quando	Quando	SCONJ	CS	_	7	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	domandina	domandina	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	se	se	SCONJ	CS	_	12	mark	_	_
+12	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	molto	molto	ADV	B	_	19	advmod	_	_
+19	gentilmente	gentilmente	ADV	B	_	7	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	7	punct	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	modulo	modulo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+24	appeso	appendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+25	ad	a	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	bacheca	bacheca	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28-29	all'	_	_	_	_	_	_	_	SpaceAfter=No
+28	a	a	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Per leggerlo c'è solo tempo la mattina successiva per l'apertura delle pulizie o, se l'agente accondiscende, ci si può dare una rapida occhiata prima di entrare in doccia.
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	leggerlo	_	_	_	_	_	_	_	_
+2	legger	leggere	VERB	V	VerbForm=Inf	5	advcl	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	solo	solo	ADV	B	_	5	advmod	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+10	successiva	successivo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	pulizie	pulizie	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	o	o	CCONJ	CC	_	27	cc	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	27	punct	_	_
+19	se	se	SCONJ	CS	_	27	mark	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	agente	agente	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+22	accondiscende	accondiscendere	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	27	expl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl:impers	_	_
+26	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	dare	dare	VERB	V	VerbForm=Inf	5	conj	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	occhiata	occhiata	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+31	prima	prima	ADV	B	_	33	mark	_	_
+32	di	di	ADP	E	_	31	fixed	_	_
+33	entrare	entrare	VERB	V	VerbForm=Inf	27	advcl	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	doccia	doccia	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = In un mondo basato sulla velocità e sulla fretta, sulla veloce comunicazione dei sentimenti e delle volontà, riportare così indietro l'orologio della storia, infliggere questa doppia pena burocratica a dei reclusi è la tortura più raffinata che ci possa essere.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+4	basato	basato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	velocità	velocità	NOUN	S	Gender=Fem	4	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	veloce	veloce	ADJ	A	Number=Sing	16	amod	_	_
+16	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	volontà	volontà	NOUN	S	Gender=Fem	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	3	punct	_	_
+25	riportare	riportare	VERB	V	VerbForm=Inf	45	csubj	_	_
+26	così	così	ADV	B	_	29	advmod	_	_
+27	indietro	indietro	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	storia	storia	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	25	punct	_	_
+34	infliggere	infliggere	VERB	V	VerbForm=Inf	25	advcl	_	_
+35	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	37	det	_	_
+36	doppia	doppio	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+37	pena	pena	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+38	burocratica	burocratico	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+39	a	a	ADP	E	_	42	case	_	_
+40-41	dei	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	39	fixed	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	reclusi	recluso	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+43	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+46	più	più	ADV	B	_	47	advmod	_	_
+47	raffinata	raffinato	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	_
+48	che	che	SCONJ	CS	_	51	mark	_	_
+49	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	51	expl	_	_
+50	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	essere	essere	VERB	V	VerbForm=Inf	47	advcl	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	45	punct	_	_
+
+# sent_id = 14
+# text = […]
+1	[	[	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giovedì 8 giugno 1978
+1	Giovedì	giovedì	NOUN	S	Gender=Masc	0	root	_	_
+2	8	8	NUM	N	NumType=Card	1	nmod	_	_
+3	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1978	1978	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = E adesso comincia la grande avventura-disavventura della disoccupata.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	adesso	adesso	ADV	B	_	3	advmod	_	_
+3	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	avventura-disavventura	avventura-disavventura	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	disoccupata	disoccupata	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Devo lavorare.
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lavorare	lavorare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Devo trovare un lavoro e questo insieme al problema della casa è uno dei più grossi problemi del momento.
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trovare	trovare	VERB	V	VerbForm=Inf	15	csubj	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	conj	_	_
+7	insieme	insieme	ADV	B	_	10	case	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	problema	problema	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	20	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	grossi	grosso	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	momento	momento	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = Ho parlato con ziuccia e con Brigida.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	ziuccia	ziuccia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Brigida	Brigida	PROPN	SP	_	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Stanotte ho dormito (male come al solito) da Felice, che palle.
+1	Stanotte	Stanotta	PROPN	SP	_	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dormito	dormire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	male	male	ADV	B	_	3	advmod	_	_
+6	come	come	ADP	E	_	9	case	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	solito	solito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	5	punct	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	Felice	Felice	PROPN	SP	_	3	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	palle	palla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Eppure continuiamo impenitenti a farci i sorrisi e i complimenti.
+1	Eppure	eppure	CCONJ	CC	_	2	cc	_	_
+2	continuiamo	continuare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	impenitenti	impenitente	ADJ	A	Number=Plur	2	xcomp	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	farci	_	_	_	_	_	_	_	_
+5	far	fare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	sorrisi	sorriso	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	complimenti	complimento	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Che strazio.
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	strazio	strazio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

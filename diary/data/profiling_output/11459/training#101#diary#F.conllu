@@ -1,0 +1,263 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 8 settembre 1943
+1	8	8	NUM	N	NumType=Card	0	root	_	_
+2	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	1943	1943	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Filippo, è arrivata la pace.
+1	Filippo	Filippo	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pace	pace	NOUN	S	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Non so dirti altro, non so ripetermi altro che è arrivata la pace.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dirti	_	_	_	_	_	_	_	_
+3	dir	dire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	ripetermi	ripetermo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+10	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Figurati cosa significa questo per centinaia e milioni di persone, è arrivata la pace.
+1	Figurati	Figurati	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Avevo quasi la febbre, sono corsa in strada per vedere se era vero, il cuore mi batteva, gli occhi mi bruciavano.
+1	Avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	quasi	quasi	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	corsa	correre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	strada	strada	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	vedere	vedere	VERB	V	VerbForm=Inf	7	advcl	_	_
+12	se	se	SCONJ	CS	_	14	mark	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	vero	vero	ADJ	A	Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	batteva	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
+24	bruciavano	bruciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Un uccellino piccolo piccolo era caduto.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	uccellino	uccellino	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Chissà da dove.
+1	Chissà	chissà	ADV	B	_	3	advmod	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	dove	dove	ADV	B	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Un'anatra lo beccava.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anatra	anatra	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	beccava	beccavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Me lo hanno portato e lo stringevo nel pugno e correvo.
+1	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stringevo	stringevo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pugno	pugno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	correvo	correvo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = La pace.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pace	pace	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Una brutta pace.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	pace	pace	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = La resa senza condizioni.
+1	La	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	resa	rendere	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	senza	senza	ADP	E	_	4	case	_	_
+4	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ma cosa importa Filippo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Filippo	Filippo	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Bella o brutta è la pace, la pace.
+1	Bella	bello	PROPN	SP	_	6	nsubj	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pace	pace	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pace	pace	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = (…) Nelle strade la gente ha gridato, cantato a lungo, a lungo.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4-5	Nelle	_	_	_	_	_	_	_	_
+4	In	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	strade	strada	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	gridato	gridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	cantato	cantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 16
+# text = I semplici e puri di cuore erano felici.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	semplici	semplice	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	puri	puro	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	felici	felice	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = Gli altri no.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+3	no	no	ADV	BN	PronType=Neg	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Mi sentivo anch'io semplice e serena.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	anch'	anche	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+5	semplice	semplice	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Come non mai.
+1	Come	come	SCONJ	CS	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	mai	mai	ADV	B	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = (…) C'è un grillo dietro al mio letto, non mi era mai capitato.
+1	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	grillo	grillo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	dietro	dietro	ADV	B	_	12	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	letto	letto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+17	mai	mai	ADV	B	_	18	advmod	_	_
+18	capitato	capitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Canterà gioia o dolore?
+1	Canterà	cantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	o	o	CCONJ	CC	_	4	cc	_	_
+4	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

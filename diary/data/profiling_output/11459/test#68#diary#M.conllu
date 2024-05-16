@@ -1,0 +1,370 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Somerville, August 23
+1	Somerville	Somerville	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	August	August	PROPN	SP	_	1	flat:name	_	_
+4	23	23	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Cosa ho pensato ieri quando sono uscito da scuola?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ieri	ieri	ADV	B	_	3	advmod	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Un candido:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	candido	candido	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = "Sono nella merda.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sono	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	merda	merda	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E fino al collo".
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	fino	fino	ADV	B	_	5	case	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	collo	collo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Detto questo, cominciamo dall’inizio e fermiamoci alla fine, come disse qualcuno.
+1	Detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	cominciamo	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	fermiamoci	fermiamoce	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fine	fine	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	come	come	SCONJ	CS	_	15	mark	_	_
+15	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+16	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ieri mattina mi sono svegliato alle 6:37 e ho avuto la bellezza di 23 minuti per vestirmi, rifare la camera, andare in bagno e fare colazione.
+1	Ieri	ieri	ADV	B	_	5	advmod	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	svegliato	svegliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	6:37	6:37	NUM	N	NumType=Card	5	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	23	23	NUM	N	NumType=Card	16	nummod	_	_
+16	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18-19	vestirmi	_	_	_	_	_	_	_	SpaceAfter=No
+18	vestir	vestire	VERB	V	VerbForm=Inf	11	advcl	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	rifare	rifare	VERB	V	VerbForm=Inf	5	conj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	camera	camera	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	andare	andare	VERB	V	VerbForm=Inf	5	conj	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	fare	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+30	colazione	colazione	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Alle sette spaccate Mom mi ha caricato in macchina per portarmi all’ospedale.
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sette	sette	NUM	N	NumType=Card	4	nummod	_	_
+4	spaccate	spaccare	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+5	Mom	Mom	PROPN	SP	_	8	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	caricato	caricato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	portarmi	_	_	_	_	_	_	_	_
+12	portar	portare	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14-15	all’	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = Ma non dovevo andare a scuola?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Già, ma avevo bisogno di un cartellino blu per certificare la mia sanità fisica (e mentale).
+1	Già	già	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	ma	ma	CCONJ	CC	_	4	cc	_	_
+4	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cartellino	cartellino	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	blu	blu	ADJ	A	Number=Sing	8	amod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	certificare	certificare	VERB	V	VerbForm=Inf	8	acl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	sanità	sanità	NOUN	S	Gender=Fem	11	obj	_	_
+15	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	mentale	mentale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Per strada mi sono accorto di aver dimenticato a casa il foglio di un vaccino ma siccome la faccia da malato di tifo non l’avevo, alla fine ho preso il mio bollino e sono potuto entrare alla Brewer High School.
+1	Per	per	ADP	E	_	2	case	_	_
+2	strada	strada	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	accorto	accorgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	aver	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	foglio	foglio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	ma	ma	CCONJ	CC	_	32	cc	_	_
+17	siccome	siccome	SCONJ	CS	_	32	mark	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	malato	malato	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	tifo	tifo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	avevo	avevo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	19	punct	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	fine	fine	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+31	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	bollino	bollino	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+38	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	aux	_	_
+39	entrare	entrare	VERB	V	VerbForm=Inf	32	conj	_	_
+40-41	alla	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	Brewer	Brewer	PROPN	SP	_	39	obl	_	_
+43	High	High	PROPN	SP	_	42	flat:name	_	_
+44	School	School	PROPN	SP	_	42	flat:name	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = La scuola è spaventosamente grande.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	spaventosamente	spaventosamente	ADV	B	_	5	advmod	_	_
+5	grande	grande	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Per fortuna c’era Mom che mi ha portato in segreteria tra gli sguardi incuriositi di chi passava.
+1	Per	per	ADP	E	_	2	case	_	_
+2	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	Mom	Mom	PROPN	SP	_	4	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	segreteria	segreteria	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	tra	tra	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+15	incuriositi	incuriosito	ADJ	A	Number=Plur	14	amod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	chi	chi	PRON	PR	PronType=Rel	14	nmod	_	_
+18	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = La prima cosa da fare era stabilire la mia schedule, cioè scegliere le materie da frequentare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	stabilire	stabilire	VERB	V	VerbForm=Inf	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	schedule	schedula	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	cioè	cioè	CCONJ	CC	_	13	cc	_	_
+13	scegliere	scegliere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	materie	materia	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	frequentare	frequentare	VERB	V	VerbForm=Inf	15	acl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Per questo sono andato a parlare con il counsellor, una persona lì apposta per aiutare gli studenti a inserirsi e che quindi dovrebbe comportarsi in modo almeno cortese.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	parlare	parlare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	counsellor	counsellor	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+13	lì	lì	ADV	B	_	12	advmod	_	_
+14	apposta	apposto	ADV	B	_	12	advmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	aiutare	aiutare	VERB	V	VerbForm=Inf	12	acl	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20-21	inserirsi	_	_	_	_	_	_	_	_
+20	inserir	inserire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+24	quindi	quindi	ADV	B	_	26	advmod	_	_
+25	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26-27	comportarsi	_	_	_	_	_	_	_	_
+26	comportar	comportare	VERB	V	VerbForm=Inf	20	conj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	modo	modo	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	almeno	almeno	ADV	B	_	31	advmod	_	_
+31	cortese	cortesa	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Con me il tipo si è lanciato nel suo slang del cazzo con un filo di voce sbattendosene allegramente che io non ci capissi un’acca.
+1	Con	con	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	slang	slang	NOUN	S	Gender=Masc	7	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	filo	filo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	voce	voce	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20-22	sbattendosene	_	_	_	_	_	_	_	_
+20	sbattendo	sbattere	VERB	V	VerbForm=Ger	7	advcl	_	_
+21	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+23	allegramente	allegramente	ADV	B	_	20	advmod	_	_
+24	che	che	SCONJ	CS	_	28	mark	_	_
+25	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+26	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+27	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	28	expl	_	_
+28	capissi	capiggere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+29	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	acca	acca	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Grazie, io sono italiano e non ci capisco nulla.
+1	Grazie	grazie	INTJ	I	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	expl	_	_
+9	capisco	capire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Ma lei è un grandissimo stronzo.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grandissimo	grande	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	6	amod	_	_
+6	stronzo	stronzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = […]
+1	[	[	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+

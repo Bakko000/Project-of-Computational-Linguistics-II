@@ -1,0 +1,233 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Martedì 27 giugno 19780
+1	Martedì	martedì	NOUN	S	Gender=Masc	0	root	_	_
+2	27	27	NUM	N	NumType=Card	1	nmod	_	_
+3	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	19780	19780	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Il 6 luglio ho l'esame di laurea.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	6	6	NUM	N	NumType=Card	6	obl	_	_
+3	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	esame	esame	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ultimo esame e primo di una serie di esami della vita.
+1	Ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	esame	esame	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	conj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	serie	serie	NOUN	S	Gender=Fem	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	esami	esame	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Adesso comincia la solitudine a farsi sentire più forte.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	farsi	_	_	_	_	_	_	_	_
+6	far	fare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	sentire	sentire	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	forte	forte	ADJ	A	Number=Sing	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Adesso aumentano le sofferenze le frustrazioni i dolori.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	aumentano	aumentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	sofferenze	sofferenza	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	frustrazioni	frustrazione	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Adesso sono più sola che mai, senza scampo senza lavoro senza soldi senza niente.
+1	Adesso	adesso	ADV	B	_	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	ADP	E	_	6	case	_	_
+6	mai	mai	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	senza	senza	ADP	E	_	9	case	_	_
+9	scampo	scampo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Felice non può più fare nulla per me né io per lui.
+1	Felice	felice	NOUN	S	Gender=Masc	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	5	obj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+9	né	né	CCONJ	CC	_	10	cc	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	conj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Cosa farò?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ho paura.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	paura	paura	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Ho una folle paura.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	folle	folle	ADJ	A	Number=Sing	4	amod	_	_
+4	paura	paura	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Ma a che vale?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Occorre lavorare.
+1	Occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lavorare	lavorare	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Darsi da fare.
+1-2	Darsi	_	_	_	_	_	_	_	_
+1	Dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Uscire.
+1	Uscire	uscire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Fare concorsi.
+1	Fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+2	concorsi	concorso	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Informarsi.
+1-2	Informarsi	_	_	_	_	_	_	_	SpaceAfter=No
+1	Informar	Informare	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Sudare.
+1	Sudare	Sudare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Faticare.
+1	Faticare	Faticare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Morire.
+1	Morire	morire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Cercare.
+1	Cercare	cercare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Camminare.
+1	Camminare	camminare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Devo ridurre le spese e stringere i denti.
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ridurre	ridurre	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	stringere	stringere	VERB	V	VerbForm=Inf	2	conj	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	denti	dente	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Sono sola.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Nessuno può aiutarmi né difendermi.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	aiutarmi	_	_	_	_	_	_	_	_
+3	aiutar	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	né	né	CCONJ	CC	_	6	cc	_	_
+6-7	difendermi	_	_	_	_	_	_	_	SpaceAfter=No
+6	difender	difender	VERB	V	VerbForm=Inf	3	conj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Adesso devo essere forte e lottare senza l'aiuto di nessuno.
+1	Adesso	adesso	ADV	B	_	4	advmod	_	_
+2	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	forte	forte	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	lottare	lottare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	senza	senza	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

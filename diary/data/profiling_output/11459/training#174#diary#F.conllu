@@ -1,0 +1,277 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 28.12.83
+1	28.12.83	28.12.83	NUM	N	NumType=Range	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Caro, carissimo papà, non era il Perù la meta di Mario.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	carissimo	caro	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	_
+4	papà	papà	NOUN	S	Gender=Masc	9	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Perù	Perù	PROPN	SP	_	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	meta	meta	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Mario	Mario	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = È partito stanotte per il Brasile, come un ladro, come chi scappa da qualcosa che odia e alla quale non tornerà.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	stanotte	stanotta	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Brasile	Brasile	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ladro	ladro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	come	come	SCONJ	CS	_	14	mark	_	_
+13	chi	chi	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	scappa	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	14	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	odia	odiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	e	e	CCONJ	CC	_	24	cc	_	_
+20-21	alla	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	obl	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	tornerà	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mi ha telefonato dall'areoporto e ci ha messo solo tre minuti per dirmi:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	telefonato	telefonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+4	da	da	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	areoporto	areoporto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11	solo	solo	ADV	B	_	12	advmod	_	_
+12	tre	tre	NUM	N	NumType=Card	13	nummod	_	_
+13	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15-16	dirmi	_	_	_	_	_	_	_	SpaceAfter=No
+15	dir	dire	VERB	V	VerbForm=Inf	13	acl	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = - Sono io, parto per il Brasile, ti scrivo appena posso.
+1	-	-	PUNCT	FF	_	3	punct	_	_
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	parto	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Brasile	Brasile	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	expl	_	_
+11	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	appena	appena	ADV	B	_	13	advmod	_	_
+13	posso	posso	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Abbi cura di te perché tornerò ricco e guarito e voglio trovare la mia sposa ad attendermi -.
+1	Abbi	Abbio	DET	T	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
+2	cura	cura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
+5	perché	perché	SCONJ	CS	_	6	mark	_	_
+6	tornerò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+7	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	6	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	guarito	guarire	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	trovare	trovare	VERB	V	VerbForm=Inf	6	conj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	ad	a	ADP	E	_	17	mark	_	_
+17-18	attendermi	_	_	_	_	_	_	_	_
+17	attender	attendere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+19	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ho riso e ho pianto a anche lui soffocava le lacrime con l'ironia.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	riso	ridere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pianto	piangere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+6	a	a	ADP	E	_	9	mark	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	soffocava	soffocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Avrei voluto vederlo ancora una volta ma tutto è stato preparato così in fretta che è rimasto solo il tempo che per una telefonata.
+1	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3-4	vederlo	_	_	_	_	_	_	_	_
+3	veder	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	ancora	ancora	ADV	B	_	3	advmod	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	ma	ma	CCONJ	CC	_	12	cc	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj:pass	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	preparato	preparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+13	così	così	ADV	B	_	15	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+19	solo	solo	ADV	B	_	18	advmod	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	che	che	SCONJ	CS	_	25	advmod	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ti scriverò, ha detto.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	scriverò	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Spero davvero che lo faccia, voglio sapere che cosa fa, come vive, se vive.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	davvero	davvero	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	sapere	sapere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	11	nsubj	_	_
+11	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	come	come	SCONJ	CS	_	14	mark	_	_
+14	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	se	se	SCONJ	CS	_	17	mark	_	_
+17	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = È mio marito, papà, e lo resterà per sempre.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	marito	marito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	papà	papà	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	resterà	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	sempre	sempre	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Ma il Brasile è lontano, così grande e lontano da sembrare una favola.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Brasile	Brasile	PROPN	SP	_	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	grande	grande	ADJ	A	Number=Sing	5	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	sembrare	sembrare	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	favola	favola	NOUN	S	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Sarà bello ricevere sue notizie, rileggere le sue lettere.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	ricevere	ricevere	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	rileggere	rileggere	VERB	V	VerbForm=Inf	2	conj	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Sarà bello ritrovarlo.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3-4	ritrovarlo	_	_	_	_	_	_	_	SpaceAfter=No
+3	ritrovar	ritrovare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Papà, io credo che non sarà un'attesa lunga.
+1	Papà	papà	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Bacioni.
+1	Bacioni	Bacione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Antonella
+1	Antonella	Antonella	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,960 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nonno mi racconti di quando”...
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Nonno	nonno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	racconti	racconto	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	di	di	ADP	E	_	4	case	_	_
+6	quando	quando	SCONJ	CS	_	5	fixed	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	...	...	PUNCT	FF	_	2	punct	_	_
+
+# sent_id = 2
+# text = Sara, la mia nipotina la incuriosisce la mia vita, la mia infanzia così diversa e così lontana, sprofondata nel tempo e con radici così lontane da questa casa.
+1	Sara	Sara	PROPN	SP	_	7	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	nipotina	nipotina	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	incuriosisce	incuriosire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+15	così	così	ADV	B	_	16	advmod	_	_
+16	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	così	così	ADV	B	_	19	advmod	_	_
+19	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	sprofondata	sprofondare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	con	con	ADP	E	_	27	case	_	_
+27	radici	radice	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+28	così	così	ADV	B	_	29	advmod	_	_
+29	lontane	lontano	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
+32	casa	casa	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Samuele, il fratellino e Giacomo, Ambra e Achille, i cuginetti, vogliono sapere come vivevano e cosa facevano gli “antichi”, poichè io oltre a nonno e vecchio sono anche “antico”, come antica è questa nostra casa.
+1	Samuele	Samuele	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fratellino	fratellino	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Giacomo	Giacomo	PROPN	SP	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Ambra	Ambra	PROPN	SP	_	1	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Achille	Achille	PROPN	SP	_	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	cuginetti	cuginetto	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+17	come	come	SCONJ	CS	_	18	mark	_	_
+18	vivevano	vivevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	ccomp	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	21	obj	_	_
+21	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	antichi	antico	ADJ	A	Gender=Masc|Number=Plur	21	xcomp	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	poichè	poiché	CCONJ	CC	_	28	cc	_	_
+28	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	37	nsubj	_	_
+29	oltre	oltre	ADV	B	_	31	case	_	_
+30	a	a	ADP	E	_	29	fixed	_	_
+31	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	31	conj	_	_
+34	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+35	anche	anche	ADV	B	_	37	advmod	_	_
+36	“	“	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	antico	antico	ADJ	A	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+38	”	”	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	24	punct	_	_
+40	come	come	ADV	B	_	41	advmod	_	_
+41	antica	antico	ADJ	A	Gender=Fem|Number=Sing	24	advcl	_	_
+42	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+43	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	45	nsubj	_	_
+44	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	casa	casa	NOUN	S	Gender=Fem|Number=Sing	41	csubj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = E così pesco a casaccio nel mio passato fatti e fatterelli, giochi e avventure da raccontare.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	pesco	pesco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casaccio	casaccio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	passato	passato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	fatti	fare	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	fatterelli	fatterello	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	avventure	avventura	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+17	da	da	ADP	E	_	18	mark	_	_
+18	raccontare	raccontare	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Naturalmente li abbellisco, li coloro, li allungo e li allargo.
+1	Naturalmente	naturalmente	ADV	B	_	3	advmod	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+3	abbellisco	abbellire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+6	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	3	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	allungo	allungo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	allargo	allargere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ma ora i nipotini crescono, quando certi episodi li abbellisco un pò troppo cominciano a pungermi con occhietti maliziosi:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	ora	ora	ADV	B	_	5	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	nipotini	nipotino	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	crescono	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	quando	quando	SCONJ	CS	_	11	mark	_	_
+8	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+11	abbellisco	abbellire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pò	pò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+14	troppo	troppo	ADV	B	_	15	advmod	_	_
+15	cominciano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	pungermi	pungermo	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	occhietti	occhietto	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	maliziosi	malizioso	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = “ma noonnoo”...
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	ma	ma	CCONJ	CC	_	3	cc	_	_
+3	noonnoo	noonnoo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	...	...	PUNCT	FF	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Va bè, passiamo ai fatti.
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bè	bé	INTJ	I	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	passiamo	passare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Racconto senza pitturare troppo prima che diventi così vecchio da non avere più niente da dire.
+1	Racconto	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	senza	senza	ADP	E	_	3	mark	_	_
+3	pitturare	pitturare	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	troppo	troppo	ADV	B	_	3	advmod	_	_
+5	prima	prima	ADV	B	_	7	mark	_	_
+6	che	che	SCONJ	CS	_	5	fixed	_	_
+7	diventi	diventare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	_
+10	da	da	ADP	E	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	avere	avere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obj	_	_
+15	da	da	ADP	E	_	16	mark	_	_
+16	dire	dire	VERB	V	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Torno indietro, dopo un lungo viaggio e mi ritrovo là dove sono nato...
+1	Torno	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	indietro	indietro	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	dopo	dopo	ADP	E	_	7	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+10	ritrovo	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	là	là	ADV	B	_	14	advmod	_	_
+12	dove	dove	ADV	B	_	14	advmod	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	nato...	nato.	NOUN	S	_	10	obj	_	_
+
+# sent_id = 11
+# text = nel 1927 in una zona fra le più squallide della Val Padana, la zona “bergamasca” della provincia di Cremona:
+1-2	nel	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1927	1927	NUM	N	NumType=Card	17	nmod	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	zona	zona	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+7	fra	fra	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	squallide	squallido	ADJ	A	Gender=Fem|Number=Plur	6	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Val	valle	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	Padana	Padana	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	zona	zona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+18	“	“	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	bergamasca	bergamasco	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	19	punct	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Cremona	Cremona	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 12
+# text = il cremasco.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cremasco	cremasco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = I miei ricordi d'infanzia si associano sempre al freddo intenso e alle fitte nebbie dell'inverno e al caldo afoso dell'estate padano, quasi che le altre stagioni non esistessero.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	associano	associare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	sempre	sempre	ADV	B	_	7	advmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	intenso	intenso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	fitte	fitta	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+17	nebbie	nebbio	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+25	afoso	afoso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26-27	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	di	di	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	estate	estate	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+29	padano	padare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	quasi	quasi	ADV	B	_	37	mark	_	_
+32	che	che	SCONJ	CS	_	31	fixed	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+34	altre	altro	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+35	stagioni	stagione	NOUN	S	Gender=Fem|Number=Plur	37	nsubj	_	_
+36	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+37	esistessero	esistere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	advcl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Non ne ho più un ricordo preciso.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	preciso	preciso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = La nostra cascina non era di quelle che si vedono nella pubblicità;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	cascina	cascina	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pubblicità	pubblicità	NOUN	S	Gender=Fem	10	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 16
+# text = belle, colorate, coi fiori variopinti e ruscelli con simpatici animaletti.
+1	belle	bello	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	colorate	colorare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	coi	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	variopinti	variopinto	ADJ	A	Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	ruscelli	ruscello	ADJ	A	Number=Plur	8	conj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	simpatici	simpatico	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	animaletti	animaletto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = La nostra cascina, come tutte, era sporca e malinconica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	cascina	cascina	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	sporca	sporco	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	malinconica	malinconico	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 18
+# text = Immersa in porcilaie e stalle soffocanti, pollai e fango e acquitrini nauseabondi e liquami ove sedevano massicce e troneggianti montagne di letame.
+1	Immersa	Immerdere	ADV	B	_	17	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	porcilaie	porcilaia	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	stalle	stalla	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+6	soffocanti	soffocante	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	pollai	pollai	NOUN	S	_	3	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	fango	fanire	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	acquitrini	acquitrino	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+13	nauseabondi	nauseabondo	ADJ	A	Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	liquami	liquame	ADJ	A	Gender=Masc|Number=Plur	13	conj	_	_
+16	ove	ove	ADV	B	_	17	advmod	_	_
+17	sedevano	sedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+18	massicce	massicce	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	troneggianti	troneggiante	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	montagne	montagno	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	letame	letame	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Miseria, bigottismo e fatiche sovrumane.
+1	Miseria	miseria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	bigottismo	bigottismo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	fatiche	fatica	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+6	sovrumane	sovrumano	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Il tempo scandito dal chiaro e dallo scuro, dal caldo e dal freddo e dal "sammartì”.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	scandito	scandire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	dallo	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	scuro	scuro	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	sammartì	sammartì	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = S. Martino al mio paese è sinonimo di trasloco.
+1	S	S	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	_
+3	Martino	martino	PROPN	SP	_	1	flat:name	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	paese	paese	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	sinonimo	sinonimo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	trasloco	trasloco	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 22
+# text = E' il trasloco.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trasloco	trasloco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Ho saputo molti anni dopo che S. Martino si chiamava anche trasloco.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	dopo	dopo	ADV	B	_	11	mark	_	_
+6	che	che	SCONJ	CS	_	5	fixed	_	_
+7	S	S	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+9	Martino	Martino	PROPN	SP	_	7	flat:name	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+12	anche	anche	ADV	B	_	13	advmod	_	_
+13	trasloco	trasloco	NOUN	S	Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Intorno ai primi di novembre la zona brulicava di carovane.
+1	Intorno	intorno	ADV	B	_	4	case	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	9	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	zona	zona	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	brulicava	brulicavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	carovane	carovane	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 25
+# text = Scadevano i contratti annuali, chi veniva cacciato e chi se ne andava per cercare di meglio.
+1	Scadevano	Scadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	contratti	contratto	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	annuali	annuale	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	chi	chi	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	veniva	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	cacciato	cacciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	conj	_	_
+11	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+13	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	cercare	cercare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	meglio	meglio	ADV	B	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 26
+# text = In realtà era quasi sempre uno scambio di tugurio dove, sul fuoco, con la polenta ci mettevi anche le speranze.
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem	7	obl	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+4	quasi	quasi	ADV	B	_	5	advmod	_	_
+5	sempre	sempre	ADV	B	_	7	advmod	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tugurio	tugurio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	dove	dove	ADV	B	_	20	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	polenta	polento	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	20	obj	_	_
+20	mettevi	metre	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+21	anche	anche	ADV	B	_	23	advmod	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	speranze	speranza	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Ma il rito si ripeteva.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rito	rito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	ripeteva	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Prima dell'alba si caricavano i carri di quelle incredibili e miserabili masserizie, vi si attaccava il cavallo o una mucca e noi tutti intorno al carro, avvolti negli stracci, nella nebbia e nel sonno, ciondolavamo per chilometri, su strade di pozzanghere lungo pallidi filari di pioppi, fissando i neri spettrali tabarri degli uomini che, precedendoci, fendevano la nebbia trascinandoci alla nuova cascina.
+1	Prima	prima	ADV	B	_	4	case	_	_
+2-3	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	di	di	ADP	E	_	1	fixed	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	alba	alba	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	caricavano	caricare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	carri	carro	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	8	nmod	_	_
+11	incredibili	incredibile	ADJ	A	Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	miserabili	miserabile	ADJ	A	Number=Plur	14	amod	_	_
+14	masserizie	masserizia	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+18	attaccava	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cavallo	cavallo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	o	o	CCONJ	CC	_	23	cc	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	mucca	mucca	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+24	e	e	CCONJ	CC	_	45	cc	_	_
+25	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	45	nsubj	_	_
+26	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	45	nsubj	_	_
+27	intorno	intorno	ADV	B	_	30	case	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	carro	carro	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	avvolti	avvolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	acl	_	_
+33-34	negli	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	stracci	straccio	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	32	punct	_	_
+37-38	nella	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+40	e	e	CCONJ	CC	_	43	cc	_	_
+41-42	nel	_	_	_	_	_	_	_	_
+41	in	in	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	30	punct	_	_
+45	ciondolavamo	ciondolare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	conj	_	_
+46	per	per	ADP	E	_	47	case	_	_
+47	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	45	obl	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	45	punct	_	_
+49	su	su	ADP	E	_	50	case	_	_
+50	strade	strada	NOUN	S	Gender=Fem|Number=Plur	45	obl	_	_
+51	di	di	ADP	E	_	52	mark	_	_
+52	pozzanghere	pozzanghera	VERB	V	VerbForm=Inf	50	acl	_	_
+53	lungo	lungo	ADP	E	_	55	case	_	_
+54	pallidi	pallido	ADJ	A	Gender=Masc|Number=Plur	55	amod	_	_
+55	filari	filare	NOUN	S	Gender=Masc|Number=Plur	52	obl	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	pioppi	pioppo	NOUN	S	Gender=Masc|Number=Plur	55	nmod	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	45	punct	_	_
+59	fissando	fissare	VERB	V	VerbForm=Ger	45	advcl	_	_
+60	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	63	det	_	_
+61	neri	nero	ADJ	A	Gender=Masc|Number=Plur	63	amod	_	_
+62	spettrali	spettrale	ADJ	A	Number=Plur	63	amod	_	_
+63	tabarri	tabarro	NOUN	S	Gender=Masc|Number=Plur	59	obj	_	_
+64-65	degli	_	_	_	_	_	_	_	_
+64	di	di	ADP	E	_	66	case	_	_
+65	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	66	det	_	_
+66	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	63	nmod	_	_
+67	che	che	PRON	PR	PronType=Rel	72	nsubj	_	SpaceAfter=No
+68	,	,	PUNCT	FF	_	67	punct	_	_
+69-70	precedendoci	_	_	_	_	_	_	_	SpaceAfter=No
+69	precedendo	precedendere	VERB	V	VerbForm=Ger	72	advcl	_	_
+70	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	69	obj	_	_
+71	,	,	PUNCT	FF	_	69	punct	_	_
+72	fendevano	fendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	66	acl:relcl	_	_
+73	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
+74	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	72	obj	_	_
+75-76	trascinandoci	_	_	_	_	_	_	_	_
+75	trascinando	trascinare	VERB	V	VerbForm=Ger	72	advcl	_	_
+76	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	75	expl	_	_
+77-78	alla	_	_	_	_	_	_	_	_
+77	a	a	ADP	E	_	80	case	_	_
+78	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	80	det	_	_
+79	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	80	amod	_	_
+80	cascina	cascina	NOUN	S	Gender=Fem|Number=Sing	75	obl	_	SpaceAfter=No
+81	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 29
+# text = Nuova?
+1	Nuova	Nuova	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = Ci si fermava sempre all'entrata del cortile per buttare uno sguardo d'insieme e ogni volta la casa appariva sempre peggio della “nostra”.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	fermava	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	7	advmod	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	buttare	buttare	VERB	V	VerbForm=Inf	3	advcl	_	_
+13	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	insieme	insieme	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	22	cc	_	_
+18	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	volta	volta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	casa	casa	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	appariva	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+23	sempre	sempre	ADV	B	_	22	advmod	_	_
+24	peggio	peggio	ADV	B	_	22	advmod	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	“	“	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	nostra	nostro	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+29	”	”	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 31
+# text = Buia e fredda, grande e vuota, sconosciuta sbrecciata e umida.
+1	Buia	Buia	PROPN	SP	_	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	grande	grande	ADJ	A	Number=Sing	1	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	sconosciuta	sconosciutare	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	sbrecciata	sbrecciato	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	umida	umido	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 32
+# text = Sempre.
+1	Sempre	sempre	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 33
+# text = I più piccoli piangevano immancabilmente, non si sapeva il perché, del resto nessuno gli dava retta.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	piangevano	piangere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	immancabilmente	immancabilmente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	perché	perché	NOUN	S	Gender=Masc	18	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	resto	resto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+16	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
+17	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+18	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+19	retta	retta	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 34
+# text = “Gli si allargano i polmoni” sentenziavano i grandi.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	allargano	allargare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	polmoni	polmone	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	4	punct	_	_
+8	sentenziavano	sentenziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	grandi	grande	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 35
+# text = Di uguale c'era sempre, laggiù, in qualche angolo appartato del cortile, il cesso.
+1	Di	di	ADP	E	_	2	case	_	_
+2	uguale	uguale	PRON	PQ	Number=Sing|PronType=Int	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	sempre	sempre	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	laggiù	laggiù	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	appartato	appartato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cesso	cesso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 36
+# text = Uno sgangherato sgabuzzino di legno, una spece di garrita intorno ad un grosso buco con una tavola posto di traverso, una tavola di legno fradicia, putrida e scivolosa dove ci si appollaiava per i bisogni.
+1	Uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	sgangherato	sgangherato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	sgabuzzino	sgabuzzino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	legno	legno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	spece	spece	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	garrita	garrita	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	intorno	intorno	ADV	B	_	15	case	_	_
+12	ad	a	ADP	E	_	11	fixed	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	buco	buco	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	posto	posto	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	traverso	traverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	legno	legno	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	fradicia	fradicio	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	putrida	putridare	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	scivolosa	scivolodere	ADJ	A	Gender=Fem|Number=Sing	29	conj	_	_
+32	dove	dove	ADV	B	_	35	advmod	_	_
+33	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	35	expl	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl:impers	_	_
+35	appollaiava	appollaiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	acl:relcl	_	_
+36	per	per	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	bisogni	bisogno	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 37
+# text = Nel cesso ci andavano solo i grandi, e non sempre.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cesso	cesso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	andavano	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	grandi	grando	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	sempre	sempre	ADV	B	_	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 38
+# text = Per i bambini era troppo pericoloso e del tutto inutile.
+1	Per	per	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	troppo	troppo	ADV	B	_	6	advmod	_	_
+6	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tutto	tutto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	inutile	inutile	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 39
+# text = Mia madre per prima cosa attaccava al consueto gancio, nel mezzo del soffitto della cucina, di rimpetto al camino, la “lucerna”, il lume a petrolio.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	attaccava	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	consueto	consueto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	gancio	gancio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	soffitto	soffitto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	rimpetto	rimpetto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	camino	camino	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	“	“	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	lucerna	lucerna	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+31	”	”	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	lume	lume	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	petrolio	petrolio	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 40
+# text = Il barlume di luce giallognola gracile e dondolante che emanava a stento metteva ancora più malinconia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	barlume	barlume	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	luce	luce	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	giallognola	giallognolo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	gracile	gracile	ADJ	A	Number=Sing	4	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	dondolante	dondolante	ADJ	A	Number=Sing	6	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	emanava	emanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	stento	stento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	ancora	ancora	ADV	B	_	15	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	malinconia	malinconio	ADJ	A	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 41
+# text = Gli angoli della cucina rimanevano sempre al buio.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	angoli	angolo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	rimanevano	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	buio	buio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 42
+# text = Poi attaccava all'altro consueto gancio la cesta del pane a pagnotte di granoturco, inacessibile ai bambini.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	attaccava	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	_
+6	consueto	consueto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	gancio	gancio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cesta	cesta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pane	pane	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	pagnotte	pagnotta	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	granoturco	granoturco	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	inacessibile	inacessibile	ADJ	A	Number=Sing	9	amod	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

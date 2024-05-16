@@ -1,0 +1,609 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Theran (Persia) circa il 4 novembre
+1	Theran	Theran	PROPN	SP	_	0	root	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	Persia	Persia	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	_
+5	circa	circa	ADV	B	_	7	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	4	4	NUM	N	NumType=Card	1	nmod	_	_
+8	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	7	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Carissimi genitori e sorella,
+1	Carissimi	Care	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = finalmente vi scrivo e questa volta ho molto da raccontarvi.
+1	finalmente	finalmente	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+3	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	8	cc	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	molto	molto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+9	da	da	ADP	E	_	10	mark	_	_
+10-11	raccontarvi	_	_	_	_	_	_	_	SpaceAfter=No
+10	raccontar	raccontare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	10	iobj	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Come avrete notato l'itinerario della via verso le indie ha subito un profondo cambiamento.
+1	Come	come	SCONJ	CS	_	3	mark	_	_
+2	avrete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	notato	notare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	itinerario	itinerario	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	via	via	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	verso	verso	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	indie	india	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	subito	subito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Partii da Milano alle 8 di sera:
+1	Partii	Partio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	Milano	Milano	PROPN	SP	_	1	obl	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	8	8	NUM	N	NumType=Card	1	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = l'equipaggio era così composto:
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	equipaggio	equipaggio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	composto	comporre	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = io, l'Antonio, Clara e Caroline (2 ragazze mie amiche che all'ultimo momento decisero di venire con me), in meno di 4 giorni entrai ad Istanbul, che mi si presentò come la porta dell'oriente per quella sua strana aria di confusione tra mentalità occidentale e orientale (araba).
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Antonio	Antonio	PROPN	SP	_	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Clara	Clara	PROPN	SP	_	1	conj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Caroline	Caroline	PROPN	SP	_	1	conj	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	2	2	NUM	N	NumType=Card	11	nummod	_	_
+11	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+12	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	amiche	amico	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	18	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+17	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	momento	momento	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+19	decisero	decidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	venire	venire	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	21	obl	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	meno	meno	ADV	B	_	30	case	_	_
+28	di	di	ADP	E	_	27	fixed	_	_
+29	4	4	NUM	N	NumType=Card	30	nummod	_	_
+30	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+31	entrai	entrare	ADV	B	_	30	advmod	_	_
+32	ad	a	ADP	E	_	33	case	_	_
+33	Istanbul	Istanbul	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+36	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	38	expl	_	_
+37	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	38	expl	_	_
+38	presentò	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	acl:relcl	_	_
+39	come	come	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	porta	porta	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+42-43	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+42	di	di	ADP	E	_	44	case	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+44	oriente	oriente	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45	per	per	ADP	E	_	46	case	_	_
+46	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	44	nmod	_	_
+47	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	49	det:poss	_	_
+48	strana	strano	ADJ	A	Gender=Fem|Number=Sing	49	amod	_	_
+49	aria	aria	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	confusione	confusione	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+52	tra	tra	ADP	E	_	53	case	_	_
+53	mentalità	mentalità	NOUN	S	Gender=Fem	51	nmod	_	_
+54	occidentale	occidentale	ADJ	A	Number=Sing	53	amod	_	_
+55	e	e	CCONJ	CC	_	56	cc	_	_
+56	orientale	orientale	ADJ	A	Number=Sing	54	conj	_	_
+57	(	(	PUNCT	FB	_	58	punct	_	SpaceAfter=No
+58	araba	arabo	NOUN	S	Gender=Fem|Number=Sing	53	appos	_	SpaceAfter=No
+59	)	)	PUNCT	FB	_	58	punct	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Come già vi dissi, il viaggio fino ad Istanbul andò benissimo:
+1	Come	come	SCONJ	CS	_	4	mark	_	_
+2	già	già	ADV	B	_	4	advmod	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	dissi	diggere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	fino	fino	ADV	B	_	10	case	_	_
+9	ad	a	ADP	E	_	8	fixed	_	_
+10	Istanbul	Istanbul	PROPN	SP	_	7	nmod	_	_
+11	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	benissimo	bene	ADV	B	Degree=Abs	11	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 9
+# text = neanche una noia tranne le mie 16 ore di guida al giorno.
+1	neanche	neanche	ADV	BN	PronType=Neg	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	noia	noia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	tranne	tranne	ADP	E	_	8	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+6	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	16	16	NUM	N	NumType=Card	8	nummod	_	_
+8	ore	ora	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	guida	guida	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Ad Istanbul cominciarono i casini.
+1	Ad	a	ADP	E	_	2	case	_	_
+2	Istanbul	Istanbul	PROPN	SP	_	3	obl	_	_
+3	cominciarono	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	casini	casino	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = 1) l'Antonio, colto da crisi depressive desiste dall'idea del viaggio e se ne torna in Italia.
+1	1	1	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Antonio	Antonio	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	colto	cogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	crisi	crisi	NOUN	S	Gender=Fem	6	obl:agent	_	_
+9	depressive	depressivo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	desiste	desistere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+11-12	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+11	da	da	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	idea	idea	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+19	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+20	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	Italia	Italia	PROPN	SP	_	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = 2) le ragazze sono sempre più rompiballe (non erano abituate ad una vita sregolata) 3) incontro Carlo e Sabine, quei miei vecchi amici che fin dall'inizio dovevano partire con me e il Giovanni ed a causa del ritardo del mio libretto tentarono di raggiungere la meta in autostop (varie peripezie li fecero tornare indietro e il caso volle che si ricongiungessero con me).
+1	2	2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	rompiballe	rompiballo	ADJ	A	Number=Sing	0	root	_	_
+9	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux:pass	_	_
+12	abituate	abituare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+13	ad	a	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	sregolata	sregolato	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	12	punct	_	_
+18	3	3	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	_
+20	incontro	incontro	ADP	E	_	21	case	_	_
+21	Carlo	Carlo	PROPN	SP	_	8	obl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	Sabine	Sabine	PROPN	SP	_	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	28	det	_	_
+26	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det:poss	_	_
+27	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+28	amici	amico	NOUN	S	Gender=Masc|Number=Plur	51	nsubj	_	_
+29	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+30	fin	fino	ADV	B	_	33	case	_	_
+31-32	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+31	da	da	ADP	E	_	30	fixed	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+34	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+35	partire	partire	VERB	V	VerbForm=Inf	28	acl:relcl	_	_
+36	con	con	ADP	E	_	37	case	_	_
+37	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	35	obl	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Giovanni	Giovanni	PROPN	SP	_	35	conj	_	_
+41	ed	e	CCONJ	CC	_	43	cc	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	causa	causa	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	_
+44-45	del	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+47-48	del	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	50	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+49	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	50	det:poss	_	_
+50	libretto	libretto	NOUN	S	Gender=Masc|Number=Sing	46	nmod	_	_
+51	tentarono	tentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+52	di	di	ADP	E	_	53	mark	_	_
+53	raggiungere	raggiungere	VERB	V	VerbForm=Inf	51	xcomp	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	meta	meta	NOUN	S	Gender=Fem|Number=Sing	53	obj	_	_
+56	in	in	ADP	E	_	57	case	_	_
+57	autostop	autostop	NOUN	S	Gender=Masc	53	obl	_	_
+58	(	(	PUNCT	FB	_	62	punct	_	SpaceAfter=No
+59	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	60	det	_	_
+60	peripezie	peripezie	NOUN	S	Gender=Fem|Number=Plur	62	nsubj	_	_
+61	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	62	obj	_	_
+62	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	57	advcl	_	_
+63	tornare	tornare	VERB	V	VerbForm=Inf	62	xcomp	_	_
+64	indietro	indietro	ADV	B	_	63	advmod	_	_
+65	e	e	CCONJ	CC	_	68	cc	_	_
+66	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	caso	caso	NOUN	S	Gender=Masc|Number=Sing	68	nsubj	_	_
+68	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	62	conj	_	_
+69	che	che	SCONJ	CS	_	71	mark	_	_
+70	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	71	expl	_	_
+71	ricongiungessero	ricongiungere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	68	advcl	_	_
+72	con	con	ADP	E	_	73	case	_	_
+73	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	71	obl	_	SpaceAfter=No
+74	)	)	PUNCT	FB	_	62	punct	_	SpaceAfter=No
+75	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Rimasi a Istanbul 15 giorni (i dollari diminuivano) così un bel mattino, tirai su Carlo e Sabine e scappai verso il traghetto del Bosforo.
+1	Rimasi	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Istanbul	Istanbul	PROPN	SP	_	1	obl	_	_
+4	15	15	NUM	N	NumType=Card	5	nummod	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+6	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	diminuivano	diminuire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	così	così	ADV	B	_	14	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	bel	bello	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	tirai	tirare	NOUN	S	Gender=Masc|Number=Plur	14	appos	_	_
+17	su	su	ADP	E	_	18	case	_	_
+18	Carlo	Carlo	PROPN	SP	_	16	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Sabine	Sabine	PROPN	SP	_	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	scappai	scappare	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+23	verso	verso	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	traghetto	traghetto	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Bosforo	Bosforo	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Fui subito ad Izmit qui andai alla Turk Pirelli dove trovai la famiglia Giacomelli al completo (ndr cugini).
+1	Fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	subito	subito	ADV	B	_	4	advmod	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	Izmit	Izmit	PROPN	SP	_	0	root	_	_
+5	qui	qui	ADV	B	_	4	advmod	_	_
+6	andai	andare	ADV	B	_	4	advmod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Turk	Turk	PROPN	SP	_	4	nmod	_	_
+10	Pirelli	Pirelli	PROPN	SP	_	9	flat:name	_	_
+11	dove	dove	ADV	B	_	12	advmod	_	_
+12	trovai	trovare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	9	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	Giacomelli	Giacomelli	PROPN	SP	_	14	nmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	completo	completo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+19	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	ndr	ndr	NOUN	S	_	12	obl	_	_
+21	cugini	cugine	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Si sono sistemati proprio bene, e felici di vedermi hanno offerto a me e ai miei amici un ottimo pranzo all'italiana, ci fecero fare il bagno e ci diedero persino 120 lire turche (circa 12 dollari).
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sistemati	sistemare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	proprio	proprio	ADV	B	_	5	advmod	_	_
+5	bene	bene	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	felici	felice	ADJ	A	Number=Plur	3	conj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	vedermi	_	_	_	_	_	_	_	_
+10	veder	vedere	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	obl	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	amici	amico	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+24-25	all'	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	italiana	italiano	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	13	punct	_	_
+28	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	29	expl	_	_
+29	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	parataxis	_	_
+30	fare	fare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	35	expl	_	_
+35	diedero	diederare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+36	persino	persino	ADV	B	_	35	advmod	_	_
+37	120	120	NUM	N	NumType=Card	38	nummod	_	_
+38	lire	lira	NOUN	S	Gender=Fem|Number=Plur	35	obj	_	_
+39	turche	turco	ADJ	A	Gender=Fem|Number=Plur	38	amod	_	_
+40	(	(	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+41	circa	circa	ADV	B	_	42	advmod	_	_
+42	12	12	NUM	N	NumType=Card	43	nummod	_	_
+43	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+44	)	)	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Armando è contento della sua nuova posizione (è uno dei 4 dirigenti dello stabilimento turco che conta ben 8000 operai).
+1	Armando	Armando	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	8	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	appos	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	4	4	NUM	N	NumType=Card	15	nummod	_	_
+15	dirigenti	dirigento	NOUN	S	Number=Plur	11	nmod	_	_
+16-17	dello	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	stabilimento	stabilimento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	turco	turco	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+22	ben	bene	ADV	B	_	24	advmod	_	_
+23	8000	8000	NUM	N	NumType=Card	24	nummod	_	_
+24	operai	operaio	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Cleofe è entusiasta della nuova casa:
+1	Cleofe	Cleofe	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	entusiasta	entusiasta	ADJ	A	Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 18
+# text = una villetta con tanto di giardino, patio, 8 o 10 stanze situata in una zona residenziale di europei trasferiti in Turchia per lavoro direzionale.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	villetta	villetta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	tanto	tanto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	patio	patio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	8	8	NUM	N	NumType=Card	4	conj	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	10	10	NUM	N	NumType=Card	13	nummod	_	_
+13	stanze	stanze	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+14	situata	situare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	zona	zona	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	residenziale	residenziale	ADJ	A	Number=Sing	17	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	europei	europeo	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	trasferiti	trasferire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	Turchia	Turchia	PROPN	SP	_	21	obl	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	direzionale	direzionale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Le bimbe vanno in bicicletta.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	bimbe	bimba	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	bicicletta	bicicletta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = I Giacomelli vi mandano tanti saluti baci e ricordi.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Giacomelli	Giacomelli	PROPN	SP	_	4	nsubj	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	mandano	mandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	baci	bace	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	ricordi	ricorde	ADJ	A	Number=Plur	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Da qui il viaggio diventa più difficile:
+1	Da	da	ADP	E	_	2	case	_	_
+2	qui	qui	ADV	B	_	5	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	difficile	difficile	ADJ	A	Number=Sing	5	xcomp	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 22
+# text = la Turchia è tutta montagnosa e da Ankara in poi le strade sono piuttosto brutte (quando sono belle sono come quella per Livigno!).
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Turchia	Turchia	PROPN	SP	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	montagnosa	montagnoso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Ankara	Ankara	PROPN	SP	_	5	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	poi	poi	ADV	B	_	15	advmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	strade	strada	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	piuttosto	piuttosto	ADV	B	_	15	advmod	_	_
+15	brutte	brutto	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+16	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+17	quando	quando	SCONJ	CS	_	19	mark	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	belle	bello	ADJ	A	Gender=Fem|Number=Plur	22	advcl	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	advcl	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	Livigno	Livigno	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	!	!	PUNCT	FS	_	22	punct	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Pur guidando tutto il giorno riesco a percorrere solo 300 km al giorno.
+1	Pur	pure	ADV	B	_	2	advmod	_	_
+2	guidando	guidare	VERB	V	VerbForm=Ger	0	root	_	_
+3	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	riesco	riuscire	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	percorrere	percorrere	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	solo	solo	ADV	B	_	8	advmod	_	_
+10	300	300	NUM	N	NumType=Card	11	nummod	_	_
+11	km	chilometro	NOUN	S	Gender=Masc	8	obj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Pioggia e freddo:
+1	Pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 25
+# text = di notte si dorme poco per via del gran freddo (-8 di notte) e per il rumore dei carri armati.
+1	di	di	ADP	E	_	2	case	_	_
+2	notte	notte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	dorme	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	poco	poco	ADV	B	_	4	advmod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	via	via	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	gran	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+14	8	8	NUM	N	NumType=Card	7	nummod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	notte	notte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	14	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	carri	carro	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	armati	armato	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

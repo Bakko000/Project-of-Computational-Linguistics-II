@@ -1,0 +1,405 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = San Francisco
+1	San	San	PROPN	SP	_	0	root	_	_
+2	Francisco	Francisco	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = (…) Il 24 aprile siamo in vista della metropoli del Pacifico.
+1	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	24	24	NUM	N	NumType=Card	9	obl	_	_
+6	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	vista	vista	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	metropoli	metropoli	NOUN	S	Gender=Fem	9	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Pacifico	Pacifico	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Chi sta di fuori non può nemmeno lontanamente immaginare il gran movimento di persone e di cose che si svolge in questa grande città che corre vertiginosamente ed un avvenire miracoloso.
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	fuori	fuori	ADV	B	_	2	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	nemmeno	nemmeno	ADV	BN	PronType=Neg	9	advmod	_	_
+8	lontanamente	lontano	ADV	B	_	9	advmod	_	_
+9	immaginare	immaginare	VERB	V	VerbForm=Inf	2	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	gran	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	svolge	svolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+23	grande	grande	ADJ	A	Number=Sing	24	amod	_	_
+24	città	città	NOUN	S	Gender=Fem	20	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	vertiginosamente	vertiginosamente	ADV	B	_	26	advmod	_	_
+28	ed	e	CCONJ	CC	_	30	cc	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	avvenire	avvenire	NOUN	S	Number=Sing	26	conj	_	_
+31	miracoloso	miracoloso	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = (…) San Francisco in gran parte risorta dopo l'immane cataclisma è immersa in una nebbia fitta e appena le cime più alte dei grandi edifizi ne rivelano la sontuosità,
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	San	San	PROPN	SP	_	15	nsubj:pass	_	_
+5	Francisco	Francisco	PROPN	SP	_	4	flat:name	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	gran	gran	ADJ	A	Number=Sing	8	amod	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+9	risorta	risorgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+10	dopo	dopo	ADP	E	_	13	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	immane	immane	ADJ	A	Number=Sing	13	amod	_	_
+13	cataclisma	cataclismo	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	immersa	immergere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	fitta	fitto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	appena	appena	ADV	B	_	23	advmod	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	cime	cima	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	alte	alto	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	grandi	grande	ADJ	A	Number=Plur	29	amod	_	_
+29	edifizi	edifizio	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+30	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	31	iobj	_	_
+31	rivelano	rivelare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	sontuosità	sontuosità	NOUN	S	Gender=Fem	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	15	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Imbarca il pilota e ci conduce all'ancoraggio innanzi al dock n°8.
+1	Imbarca	imbarca	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	conduce	condurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	ancoraggio	ancoraggio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	innanzi	innanzi	ADV	B	_	13	case	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	dock	dock	NOUN	S	Gender=Masc	6	obl	_	_
+14	n°8	n°8	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Immediatamente una frotta di connazionali, fornitori ed un comitato sale a bordo ad offrire la loro merce e portare il saluto della colonia.
+1	Immediatamente	immediatamente	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	frotta	frotta	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	connazionali	connazionali	NOUN	S	Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	fornitori	fornitore	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	sale	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15	offrire	offrire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	merce	merce	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	portare	portare	VERB	V	VerbForm=Inf	15	conj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	colonia	colonia	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = E che colonia.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	colonia	coloniare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sono in circa sessantamila.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	circa	circa	ADV	B	_	4	advmod	_	_
+4	sessantamila	sessantamila	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Hanno molti istituti bancari.
+1	Hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	istituti	istituto	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	bancari	bancario	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Banca Colombo, Italo- American Bank, Banca Popolare Italiana e Banca d'Italia.
+1	Banca	banca	PROPN	SP	_	0	root	_	_
+2	Colombo	Colombo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Italo	Italo	PROPN	SP	_	1	appos	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	_
+6	American	American	PROPN	SP	_	4	flat:name	_	_
+7	Bank	Bank	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	Banca	banca	PROPN	SP	_	4	appos	_	_
+10	Popolare	popolare	PROPN	SP	_	9	flat:name	_	_
+11	Italiana	Italiana	PROPN	SP	_	9	flat:name	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	Banca	banca	PROPN	SP	_	9	conj	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	Italia	Italia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 11
+# text = (…)
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Malgrado le esagerazioni dei giornali sulle resurrezione di S. Francisco sono ancora troppo evidenti le tracce della sanguinosa piaga prodottagli dall'immane catastrofe del 1905.
+1	Malgrado	malgrado	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	esagerazioni	esagerazione	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	sulle	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	resurrezione	resurrezione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	S.	S.	PROPN	SP	_	9	nmod	_	_
+12	Francisco	Francisco	PROPN	SP	_	11	flat:name	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	ancora	ancora	ADV	B	_	16	advmod	_	_
+15	troppo	troppo	ADV	B	_	16	advmod	_	_
+16	evidenti	evidente	ADJ	A	Number=Plur	0	root	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sanguinosa	sanguinoso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	piaga	piaga	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	prodottagli	prodotre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24-25	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+24	da	da	ADP	E	_	27	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+26	immane	immane	ADJ	A	Number=Sing	27	amod	_	_
+27	catastrofe	catastrofe	NOUN	S	Gender=Fem|Number=Sing	23	obl:agent	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	1905	1905	NUM	N	NumType=Card	22	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 13
+# text = In gran parte sono abitazioni improvvisate, di legno, eleganti e di molto buon gusto.
+1	In	in	ADP	E	_	3	case	_	_
+2	gran	gran	ADJ	A	Number=Sing	3	amod	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	abitazioni	abitazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	improvvisate	improvvisato	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	legno	legno	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	eleganti	elegante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	conj	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+15	buon	buono	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Sono tutte casette piccole piccole civettuole e di stile moderno, attorniate da giardini fioriti entro cui vi formicola una folla gaia e cinguettante d piccole Miss tutte intente nel curare con devozione le aiuole smaltate.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
+3	casette	casetta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	civettuole	civettuola	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	stile	stile	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10	moderno	moderno	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	attorniate	attorniare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	giardini	giardino	NOUN	S	Gender=Masc|Number=Plur	12	obl:agent	_	_
+15	fioriti	fiorito	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	entro	entro	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+19	formicola	formicolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	folla	folla	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+22	gaia	gaio	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	cinguettante	cinguettante	ADJ	A	Number=Sing	22	conj	_	_
+25	d	d	NOUN	S	_	21	appos	_	_
+26	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+27	Miss	Miss	PROPN	SP	_	25	nmod	_	_
+28	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	29	det	_	_
+29	intente	intento	NOUN	S	Number=Sing	25	nmod	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	curare	curare	VERB	V	VerbForm=Inf	29	acl	_	_
+33	con	con	ADP	E	_	34	case	_	_
+34	devozione	devozione	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	aiuole	aiuola	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+37	smaltate	smaltato	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Di maestoso non vi è che la parte centrale della città dove si addensa tutto il commercio e il movimento, e dove gli immensi grattanuvole nascondono i loro dorati conicoli fra la nebbia, quasi a sfidarne il firmamento.
+1	Di	di	ADP	E	_	2	case	_	_
+2	maestoso	maestoso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	28	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+9	centrale	centrale	ADJ	A	Number=Sing	8	amod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	città	città	NOUN	S	Gender=Fem	8	nmod	_	_
+13	dove	dove	ADV	B	_	15	advmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:pass	_	_
+15	addensa	addensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	18	det:predet	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	28	punct	_	_
+23	e	e	CCONJ	CC	_	28	cc	_	_
+24	dove	dove	ADV	B	_	28	advmod	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	immensi	immenso	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+27	grattanuvole	grattanuvole	ADJ	A	Number=Sing	26	amod	_	_
+28	nascondono	nascondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	dorati	dorato	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+32	conicoli	conicolo	ADJ	A	Number=Plur	31	amod	_	_
+33	fra	fra	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	28	punct	_	_
+37	quasi	quasi	ADV	B	_	39	advmod	_	_
+38	a	a	ADP	E	_	39	mark	_	_
+39-40	sfidarne	_	_	_	_	_	_	_	_
+39	sfidar	sfidarre	VERB	V	VerbForm=Inf	28	advcl	_	_
+40	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	39	iobj	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	firmamento	firmamento	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = A bordo e specialmente nei giorni festivi non si può circolare che a gran fatica tant'è la calca dei visitatori affluita da ogni parte della California a visitare la nave che porta la bandiera della loro Patria.
+1	A	a	ADP	E	_	2	case	_	_
+2	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+3	e	e	CCONJ	CC	_	7	cc	_	_
+4	specialmente	specialmente	ADV	B	_	7	advmod	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+8	festivi	festivo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	circolare	circolare	VERB	V	VerbForm=Inf	0	root	_	_
+13	che	che	SCONJ	CS	_	17	mark	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	gran	grande	ADJ	A	Number=Sing	16	amod	_	_
+16	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+17	tant'	tanto	PRON	PI	Number=Sing|PronType=Ind	12	ccomp	_	SpaceAfter=No
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	calca	calca	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	visitatori	visitatore	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	affluita	affluire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	27	det	_	_
+27	parte	parte	NOUN	S	Gender=Fem|Number=Sing	24	obl:agent	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	California	California	PROPN	SP	_	27	nmod	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32	visitare	visitare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	nave	nave	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	42	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	loro	loro	DET	AP	Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	Patria	patria	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+

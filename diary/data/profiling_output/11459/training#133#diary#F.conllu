@@ -1,0 +1,254 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vado matta per i bambini, tutti i bambini del mondo.
+1	Vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	matta	matta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ho 32 anni e non sono sposata;
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	32	32	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	sposata	sposare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = ho invidia dei miei fratelli che ne hanno già tanti!
+1	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	invidia	invidiare	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	già	già	ADV	B	_	9	advmod	_	_
+11	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	obj	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Sembra allontanarsi sempre più la possibilità che io ne abbia uno, diciamo, in modo canonico!
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	allontanarsi	_	_	_	_	_	_	_	_
+2	allontanar	allontanare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	sempre	sempre	ADV	B	_	2	advmod	_	_
+5	più	più	ADV	B	_	2	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	possibilità	possibilità	NOUN	S	Gender=Fem	2	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+18	canonico	canonico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ho sofferto molto, anni fa, quando nacque e morì una creatura a mio fratello più piccolo.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	molto	molto	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	fa	fa	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	quando	quando	SCONJ	CS	_	9	mark	_	_
+9	nacque	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Era una bimba gravemente malformata e per la sua invalidità non ci sarebbero mai state cure sufficienti a farla migliorare.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+4	gravemente	gravemente	ADV	B	_	5	advmod	_	_
+5	malformata	malformato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	invalidità	invalidità	NOUN	S	Gender=Fem	3	conj	_	_
+11	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+13	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	state	essere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	cure	cura	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+17	sufficienti	sufficiente	ADJ	A	Number=Plur	16	amod	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19-20	farla	_	_	_	_	_	_	_	_
+19	far	fare	VERB	V	VerbForm=Inf	17	advcl	_	_
+20	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	migliorare	migliorare	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Non avendo altri affetti, mi ero attaccata a quella bimba in maniera forte, e determinata ad aiutarla a vivere a tutti i costi.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avendo	avere	VERB	V	VerbForm=Ger	8	advcl	_	_
+3	altri	altro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+7	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	attaccata	attaccare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	bimba	bimba	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+14	forte	forte	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	determinata	determinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+18	ad	a	ADP	E	_	19	mark	_	_
+19-20	aiutarla	_	_	_	_	_	_	_	_
+19	aiutar	aiutare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	vivere	vivere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	26	det:predet	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	costi	costo	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Non mi fu possibile perché il buon Dio che in quel momento non mi sembrò per niente buono, una mattina la rivolle con sè.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+5	perché	perché	SCONJ	CS	_	23	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	buon	buono	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	momento	momento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+15	sembrò	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obl	_	_
+18	buono	buono	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+22	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+23	rivolle	rivolere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	sè	sè	PRON	PE	Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Piansi e mi disperai e la vegliai e dopo caddi in una grande depressione e mi arrabbiai con Dio per il dispetto che mi aveva fatto!
+1	Piansi	Pianso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	disperai	dispeere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	1	conj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vegliai	vegliaio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	dopo	dopo	ADP	E	_	10	case	_	_
+10	caddi	caddo	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	grande	grande	ADJ	A	Number=Sing	14	amod	_	_
+14	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+17	arrabbiai	arrabbiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	Dio	dio	PROPN	SP	_	17	obl	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	dispetto	dispetto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	obj	_	_
+25	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+27	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Dopo alcuni mesi decisi di avere io un'altra bambina e chiesi a Don Renzo Rossi, sacerdote in Brasile, se potevo mantenere una bimba all'orfanatrofio in nome e in ricordo della mia nipotina.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	decisi	deciso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	avere	avere	VERB	V	VerbForm=Inf	3	acl	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	altra	altro	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	chiesi	chiesi	NOUN	S	Number=Plur	10	conj	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Don	Don	PROPN	SP	_	12	nmod	_	_
+15	Renzo	Renzo	PROPN	SP	_	14	flat:name	_	_
+16	Rossi	Rossi	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	sacerdote	sacerdote	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Brasile	Brasile	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	se	se	SCONJ	CS	_	24	mark	_	_
+23	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	mantenere	mantenere	VERB	V	VerbForm=Inf	3	advcl	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27-28	all'	_	_	_	_	_	_	_	SpaceAfter=No
+27	a	a	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	orfanatrofio	orfanatrofio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	nome	nome	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	38	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	38	det:poss	_	_
+38	nipotina	nipotina	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

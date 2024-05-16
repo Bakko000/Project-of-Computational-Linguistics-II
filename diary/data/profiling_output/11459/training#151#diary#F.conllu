@@ -1,0 +1,379 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 26 febbraio 1979
+1	26	26	NUM	N	NumType=Card	0	root	_	_
+2	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	1979	1979	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Cara Maria,
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Maria	Maria	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = rispondo alla tua cara lettera e mi addolora tanto sapere che il piccolo Alès è malato.
+1	rispondo	rispondo	VERB	V	VerbForm=Ger	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	6	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	cara	caro	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	addolora	addolora	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	tanto	tanto	ADV	B	_	11	advmod	_	_
+11	sapere	sapere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	che	che	SCONJ	CS	_	17	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	Alès	Alès	PROPN	SP	_	17	nsubj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	malato	malato	ADJ	A	Gender=Masc|Number=Sing	11	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ma non può essere operato?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	operato	operare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = A Bergamo c'è un centro cardiologico fenomenale per i giovani ammalati di cuore, e tanti vengono operati.
+1	A	a	ADP	E	_	2	case	_	_
+2	Bergamo	Bergamo	PROPN	SP	_	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	centro	centro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	cardiologico	cardiologico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	fenomenale	fenomenale	ADJ	A	Number=Sing	6	amod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giovani	giovane	NOUN	S	Number=Plur	6	nmod	_	_
+12	ammalati	ammalare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	nsubj:pass	_	_
+18	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	operati	operare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Anche il prof. Azzolina, che ha la clinica a Firenze (basta scrivere così) è uno che si è specializzato in America.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	prof.	professore	NOUN	S	_	18	nsubj	_	_
+4	Azzolina	Azzolina	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	clinica	clinica	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Firenze	Firenze	PROPN	SP	_	9	nmod	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+14	scrivere	scrivere	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	così	così	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	13	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	specializzato	specializzato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	America	America	PROPN	SP	_	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 7
+# text = Io credo che anche da voi ci siano bravi medici, ma sai, certe volte quattro occhi vedono meglio di due.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	8	obl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	medici	medico	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	volte	volta	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+17	quattro	quattro	NUM	N	NumType=Card	18	nummod	_	_
+18	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+20	meglio	meglio	ADV	B	_	19	advmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	due	due	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Mia figlia è in attesa di un figlio, speriamo che tutto passi presto e bene.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+13	passi	passare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	presto	presto	ADV	B	_	13	advmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	bene	bene	ADV	B	_	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Io lavoro sempre tanto e sono stanca, ma come devo fare?
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lavoro	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	tanto	tanto	ADV	B	_	2	advmod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	stanca	stancare	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	come	come	ADV	B	_	12	advmod	_	_
+11	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Se sto a casa lavoro di più e mi stanco di più.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	sto	stare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	compound	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	più	più	ADV	B	_	4	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+10	stanco	stanco	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	più	più	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Ho la casa grande e sempre tanta gente.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	sempre	sempre	ADV	B	_	8	advmod	_	_
+7	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Capisco quello che dici, capisco tutto, ma vedi bene che è inutile poter capire gli altri, anche chi abbiamo tanto amato.
+1	Capisco	Capisco	PROPN	SP	_	6	nsubj	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	nmod	_	_
+3	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+4	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	capisco	capire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	vedi	vedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	bene	bene	ADV	B	_	10	advmod	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	inutile	inutile	ADJ	A	Number=Sing	10	ccomp	_	_
+15	poter	potere	AUX	VM	VerbForm=Inf	16	aux	_	_
+16	capire	capire	VERB	V	VerbForm=Inf	14	csubj	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	anche	anche	ADV	B	_	21	advmod	_	_
+21	chi	chi	PRON	PR	Number=Sing|PronType=Rel	16	nsubj	_	_
+22	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	tanto	tanto	ADV	B	_	24	advmod	_	_
+24	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = L'amore è cosa da stare dentro di noi, e che deve sempre aiutare a vivere.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	cosa	cosa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	stare	stare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	dentro	dentro	ADV	B	_	6	advmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	aiutare	aiutare	VERB	V	VerbForm=Inf	6	conj	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	vivere	vivere	VERB	V	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Sennò è cosa troppo dolorosa.
+1	Sennò	Sennò	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	cosa	coso	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	troppo	troppo	ADV	B	_	5	advmod	_	_
+5	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Sei felice del tuo amore e del fatto che hai la possibilità di amare ancora, è un privilegio.
+1	Sei	sei	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	che	che	SCONJ	CS	_	12	mark	_	_
+12	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	possibilità	possibilità	NOUN	S	Gender=Fem	12	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	amare	amare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	ancora	ancora	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	privilegio	privilegio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Che ti fa essere sempre giovane e che ti aiuta nei tuoi lavori quotidiani.
+1	Che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	giovane	giovane	ADJ	A	Number=Sing	3	ccomp	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+10	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11-12	nei	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15	quotidiani	quotidiano	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Rasserena Ilona sempre e non amareggiarti.
+1	Rasserena	Rasserena	PROPN	SP	_	0	root	_	_
+2	Ilona	Ilona	PROPN	SP	_	1	flat:name	_	_
+3	sempre	sempre	ADV	B	_	6	advmod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6-7	amareggiarti	_	_	_	_	_	_	_	SpaceAfter=No
+6	amareggiar	amareggiare	VERB	V	VerbForm=Inf	1	conj	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = La vita è sempre bella, tra poco è primavera e i campi saranno in fiore.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	poco	poco	ADV	B	_	10	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	campi	campio	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+14	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Aspetto ora da te una lettera che mi dica che tutti state bene.
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ora	ora	ADV	B	_	1	advmod	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	1	obl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	dica	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	nsubj	_	_
+12	state	essere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Oggi è tanto freddo, il ghiaccio mi ha rovinato tutti i fiori.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	tanto	tanto	ADV	B	_	4	advmod	_	_
+4	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ghiaccio	ghiaccio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	rovinato	rovinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Ti bacio affettuosamente e aspetto notizie
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+2	bacio	baciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	affettuosamente	affettuosamente	ADV	B	_	2	advmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Athe
+1	Athe	Athe	ADV	B	_	0	root	_	SpacesAfter=\n\n
+

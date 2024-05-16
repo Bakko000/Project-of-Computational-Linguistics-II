@@ -1,0 +1,362 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: andrea@...
+1	From	from	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	andrea@...	andrea@.	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date:
+1	Date	data	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Thu May 8 15:11:44 1997
+1	Thu	Thu	PROPN	SP	_	0	root	_	_
+2	May	May	PROPN	SP	_	1	flat:name	_	_
+3	8	8	NUM	N	NumType=Card	1	nmod	_	_
+4	15:11:44	15:11:44	NUM	N	NumType=Card	3	flat	_	_
+5	1997	1997	NUM	N	NumType=Card	3	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Subject:
+1	Subject	Subject	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Le piramidi
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	piramidi	piramide	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Caro Lino Gulliver,
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Lino	lino	PROPN	SP	_	0	root	_	_
+3	Gulliver	Gulliver	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = sono rimasto completamente inebetito dai tuoi propositi turistici.
+1	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	completamente	completamente	ADV	B	_	4	advmod	_	_
+4	inebetito	inebetire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+5-6	dai	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	propositi	proposito	NOUN	S	Gender=Masc|Number=Plur	4	obl:agent	_	_
+9	turistici	turistico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un elemento di insana curiosità sorge spontaneo di fronte a tanto ramingare:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	insana	insano	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	curiosità	curiosità	NOUN	S	Gender=Fem	2	nmod	_	_
+6	sorge	sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	spontaneo	spontaneo	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	fronte	fronte	NOUN	S	Number=Sing	7	obl	_	_
+10	a	a	ADP	E	_	12	mark	_	_
+11	tanto	tanto	ADV	B	_	12	advmod	_	_
+12	ramingare	ramingare	VERB	V	VerbForm=Inf	9	acl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 9
+# text = dove li trovi i soldi per finanziarti?
+1	dove	dove	ADV	B	_	3	advmod	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+3	trovi	trovare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	finanziarti	_	_	_	_	_	_	_	SpaceAfter=No
+7	finanziar	finanziarre	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+9	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Tanto per rimanere in tema finanziario, hai notato la somiglianza di fondo tra il crucco-sistema per fare soldi che volevi rifilarmi/ci e le Piramidi Albanesi?
+1	Tanto	tanto	ADV	B	_	3	advmod	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	rimanere	rimanere	VERB	V	VerbForm=Inf	9	advcl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	tema	tema	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	finanziario	finanziario	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	notato	notare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	somiglianza	somiglianza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	tra	tra	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	crucco	crucco	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+17	-sistema	-sistemo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+20	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	volevi	volevo	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23-24	rifilarmi	_	_	_	_	_	_	_	SpaceAfter=No
+23	rifilar	rifilare	VERB	V	VerbForm=Inf	20	acl:relcl	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+25	/ci	/co	ADJ	A	Gender=Masc|Number=Plur	23	xcomp	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	Piramidi	piramide	NOUN	S	Gender=Fem|Number=Plur	25	conj	_	_
+29	Albanesi	albanesi	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Tanto per non abbandonare il ramo-viaggi: domenica, purtroppo, non potrò venire a lavorare, e così scoprire in tempo quasi reale quante ne ha prese il Toro:
+1	Tanto	tanto	ADV	B	_	4	advmod	_	_
+2	per	per	ADP	E	_	4	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	abbandonare	abbandonare	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ramo	ramo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	6	compound	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	_
+10	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	purtroppo	purtroppo	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	potrò	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	16	aux	_	_
+16	venire	venire	VERB	V	VerbForm=Inf	4	conj	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	lavorare	lavorare	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	così	così	ADV	B	_	22	advmod	_	_
+22	scoprire	scoprire	VERB	V	VerbForm=Inf	30	conj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+25	quasi	quasi	ADV	B	_	26	advmod	_	_
+26	reale	reale	ADJ	A	Number=Sing	22	xcomp	_	_
+27	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	30	det	_	_
+28	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	30	iobj	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	prese	prendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Fin	4	conj	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Toro	toro	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 12
+# text = devo andare a New York per un appuntamento con una hostess della British Airways e svariate colleghe annesse, e la cosa mi turba molto.
+1	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	New	New	PROPN	SP	_	2	obl	_	_
+5	York	York	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	hostess	hostess	NOUN	S	Gender=Fem	8	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	British	British	PROPN	SP	_	11	nmod	_	_
+15	Airways	Airways	PROPN	SP	_	14	flat:name	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	svariate	svariato	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	colleghe	collega	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+19	annesse	annesso	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+25	turba	turbare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+26	molto	molto	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Per semplicià vado a prenderla direttamente in albergo.
+1	Per	per	ADP	E	_	2	case	_	_
+2	semplicià	semplicià	ADV	B	_	3	advmod	_	_
+3	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	prenderla	_	_	_	_	_	_	_	_
+5	prender	prendere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	direttamente	direttamente	ADV	B	_	5	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Ti farò sapere com'è andata (svelando magari i grotteschi retroscena).
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl:impers	_	_
+2	farò	fare	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+4	com'	come	SCONJ	CS	_	6	mark	_	SpaceAfter=No
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	svelando	svelare	VERB	V	VerbForm=Ger	6	advcl	_	_
+9	magari	magari	ADV	B	_	8	advmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	grotteschi	grottesco	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	retroscena	retrosceno	NOUN	S	Gender=Masc	8	obj	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Ieri sono diventato membro della YMCA, così posso andare in piscina tutte le volte che mi pare.
+1	Ieri	ieri	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	membro	membro	NOUN	S	Gender=Masc|Number=Sing	3	xcomp	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	YMCA	YMCA	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	così	così	ADV	B	_	11	advmod	_	_
+10	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	andare	andare	VERB	V	VerbForm=Inf	3	conj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	piscina	piscina	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	volte	volta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Ho comiciato da una settimana, e la qualità della mia vita è migliorata di un buon 100%.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	comiciato	comiciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	15	punct	_	_
+7	e	e	CCONJ	CC	_	15	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	qualità	qualità	NOUN	S	Gender=Fem	15	nsubj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	vita	vita	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	migliorata	migliorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+16	di	di	ADP	E	_	20	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+18	buon	buono	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+19	100	100	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	SYM	SYM	_	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Forse riesco a ridurre il numero di lobi in cui la mia panza è attualmente ripartita.
+1	Forse	forse	ADV	B	_	2	advmod	_	_
+2	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	ridurre	ridurre	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	numero	numero	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lobi	lobio	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	panza	panza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+15	attualmente	attualmente	ADV	B	_	16	advmod	_	_
+16	ripartita	ripartire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Nuotatrici in vista, purtroppo, nessuna.
+1	Nuotatrici	Nuotatore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	vista	vista	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	purtroppo	purtroppo	ADV	B	_	1	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	1	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Diventerò ricchione come i mitici Village People, che alla YMCA dedicarono un'indimenticabile canzone (dello stesso periodo:
+1	Diventerò	Diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ricchione	ricchione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	come	come	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	mitici	mitice	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+6	Village	Village	PROPN	SP	_	5	nmod	_	_
+7	People	people	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	YMCA	YMCA	PROPN	SP	_	13	obl	_	_
+13	dedicarono	dedicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	indimenticabile	indimenticabile	ADJ	A	Number=Sing	16	amod	_	_
+16	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+18-19	dello	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 20
+# text = “In the Navy”).
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	4	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	Navy	Navy	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Quante ruote di scorta ti porti dietro?
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	ruote	ruota	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	scorta	scorta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+6	porti	portare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dietro	dietro	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Tanti peti,
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	peti	peto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Andrea
+1	Andrea	Andrea	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

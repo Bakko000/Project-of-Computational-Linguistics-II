@@ -1,0 +1,219 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 1984
+1	1984	1984	NUM	N	NumType=Card	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Siamo alla fine, amico mio.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ultime parole.
+1	Ultime	ultimo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ultime sensazioni.
+1	Ultime	ultimo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+2	sensazioni	sensazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Sarà un brutto distacco ma solo momentaneo.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	distacco	distacco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	solo	solo	ADV	B	_	7	advmod	_	_
+7	momentaneo	momentaneo	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Per quanti giorni e notti mi hai ascoltato?
+1	Per	per	ADP	E	_	3	case	_	_
+2	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	notti	notte	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	ascoltato	ascoltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 8
+# text = Quanti pianti hai assorbito, quante speranze porti scritte qui dentro?
+1	Quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	2	det	_	_
+2	pianti	piante	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	assorbito	assorbire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	7	det	_	_
+7	speranze	speranza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	porti	porto	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	scritte	scrivere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	xcomp	_	_
+10	qui	qui	ADV	B	_	9	advmod	_	_
+11	dentro	dentro	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Non si contano, come non si contano le lettere dolorose, affettuose;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	contano	contare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	come	come	SCONJ	CS	_	8	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	contano	contere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+11	dolorose	doloroso	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	affettuose	affettuoso	ADJ	A	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = gli stralci di pensiero di questi giorni particolari, mai uguali.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	stralci	stralce	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+8	particolari	particolare	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	mai	mai	ADV	B	_	11	advmod	_	_
+11	uguali	uguale	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Quanti personaggi hai guardato vivere e prendere forma, da me a te, attraverso le parole.
+1	Quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	2	det	_	_
+2	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	guardato	guardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	vivere	vivere	VERB	V	VerbForm=Inf	4	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	prendere	prendere	VERB	V	VerbForm=Inf	5	conj	_	_
+8	forma	forma	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	attraverso	attraverso	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	parole	parola	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = E ora ci lasciamo, ma lo spirito resta, si trasporta solo in un altro quaderno.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	ora	ora	ADV	B	_	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	lasciamo	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	resta	resto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	trasporta	trasportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	solo	solo	ADV	B	_	17	advmod	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	altro	altro	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	quaderno	quaderno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Sarà come sempre ogni giorno qualcosa da riportare: piccoli flash di vita quotidiana, quella che ha un sapore che a volte dimentico ma che poi torna.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	sempre	sempre	ADV	B	_	5	advmod	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	5	obj	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	riportare	riportare	VERB	V	VerbForm=Inf	6	acl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+10	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	flash	flash	NOUN	S	Gender=Masc	6	appos	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sapore	sapore	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	volte	volte	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+24	dimentico	dimentico	ADJ	A	Gender=Masc|Number=Sing	20	acl:relcl	_	_
+25	ma	ma	CCONJ	CC	_	28	cc	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	poi	poi	ADV	B	_	28	advmod	_	_
+28	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Io non posso stare senza scrivere, come se fosse respiro;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	stare	stare	VERB	V	VerbForm=Inf	0	root	_	_
+5	senza	senza	ADP	E	_	6	mark	_	_
+6	scrivere	scrivere	VERB	V	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	come	come	ADV	B	_	11	advmod	_	_
+9	se	se	SCONJ	CS	_	11	mark	_	_
+10	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	respiro	respirare	ADJ	A	Gender=Masc|Number=Sing	4	advcl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 15
+# text = ne ho bisogno per vivere.
+1	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	vivere	vivere	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = E le parole esprimono, a volte, il meglio di noi.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	esprimono	esprimere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	volte	volte	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

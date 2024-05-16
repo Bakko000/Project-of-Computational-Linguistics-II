@@ -1,0 +1,327 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 16 gennaio martedì
+1	16	16	NUM	N	NumType=Card	3	nummod	_	_
+2	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	martedì	martedì	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Oggi mi hanno arrestato.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = San Patrignano si è allontanata dalla mia vita questa mattina e io mi rendo conto di avere disimparato a piangere.
+1	San	San	PROPN	SP	_	5	nsubj	_	_
+2	Patrignano	Patrignano	PROPN	SP	_	1	flat:name	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	allontanata	allontanare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	expl	_	_
+15	rendo	rendere	VERB	V	VerbForm=Ger	5	conj	_	_
+16	conto	conto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	di	di	ADP	E	_	19	mark	_	_
+18	avere	avere	AUX	VA	VerbForm=Inf	19	aux	_	_
+19	disimparato	disimparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	piangere	piangere	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Una cosa del genere qualche anno fa mi avrebbe gettato nello sconforto, nella disperazione.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	genere	genere	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+8	fa	fa	ADV	B	_	7	advmod	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	gettato	gettato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	nello	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sconforto	sconforto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Invece oggi mi è venuto quasi da ridere quando il lampo abbacinante del reale-mondo-reale mi ha accolto.
+1	Invece	invece	ADV	B	_	5	advmod	_	_
+2	oggi	oggi	ADV	B	_	5	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	quasi	quasi	ADV	B	_	8	advmod	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	ridere	ridere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	quando	quando	SCONJ	CS	_	20	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lampo	lampo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+12	abbacinante	abbacinante	ADJ	A	Number=Sing	11	amod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	reale-mondo	reale-mondo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+17	reale	reale	ADJ	A	Number=Sing	15	amod	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Il sorriso di una prostituta in questura e poi via, in carcere.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prostituta	prostituta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	questura	questura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	poi	poi	ADV	B	_	10	advmod	_	_
+10	via	via	ADV	B	_	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Il carcere di R.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	R	R	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = All'ingresso questa sera ho cercato di scorgere qualche barlume di umanità negli occhi di questi uomini in divisa, ma mi pare che sia la divisa a prevalere, non l'uomo che c'è sotto.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	scorgere	scorgere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	barlume	barlume	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	umanità	umanità	NOUN	S	Gender=Fem	11	nmod	_	_
+14-15	negli	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+19	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	divisa	divisa	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	ma	ma	CCONJ	CC	_	25	cc	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+25	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+26	che	che	SCONJ	CS	_	29	mark	_	_
+27	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	divisa	divisa	NOUN	S	Gender=Fem|Number=Sing	25	ccomp	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	prevalere	prevalere	VERB	V	VerbForm=Inf	29	acl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+35	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+36	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+37	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	38	expl	_	SpaceAfter=No
+38	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+39	sotto	sotto	ADV	B	_	38	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Le celle di attesa sono piene di vomito e sangue.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	celle	cella	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	piene	pieno	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	vomito	vomito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Sangue schizzato sui muri e la puzza è insopportabile.
+1	Sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	schizzato	schizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	sui	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	muri	muro	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	puzza	puzza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	insopportabile	insopportabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Dialogo in ingresso.
+1	Dialogo	dialogere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = “Accoglienza”
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	”	”	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = “Lei ha problemi con altri detenuti?
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	altri	altro	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	detenuti	detenuto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Lei ha tendenze suicide?”
+1	Lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tendenze	tendenza	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	suicide	suicido	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Gli ho risposto: “Adesso no!”
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	Adesso	adesso	ADV	B	_	7	advmod	_	_
+7	no	no	ADV	BN	PronType=Neg	3	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Mi ha guardato stupito.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	guardato	guardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	stupito	stupito	NOUN	S	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Ha sbarrato gli occhi quando ho cercato di spiegargli questo mio pensiero.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sbarrato	sbarrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	spiegargli	_	_	_	_	_	_	_	_
+9	spiegar	spiegare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	_
+12	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Come al solito sono stato troppo cervellotico.
+1	Come	come	ADV	B	_	8	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	solito	solito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+7	troppo	troppo	ADV	B	_	8	advmod	_	_
+8	cervellotico	cervellotico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = Anche lui non aveva voglia.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = “Guardi, stia tranquillo, per adesso la mandiamo in sezione seconda dove stanno gli isolati, poi parlerà con l'educatore e le troveremo una situazione migliore”…
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Guardi	guardi	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	stia	stia	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+5	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	adesso	adesso	ADV	B	_	10	advmod	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	mandiamo	mandare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+14	dove	dove	ADV	B	_	15	advmod	_	_
+15	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	isolati	isolato	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	poi	poi	ADV	B	_	20	advmod	_	_
+20	parlerà	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	conj	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	educatore	educatore	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	26	iobj	_	_
+26	troveremo	trovare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	15	conj	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	28	amod	_	SpaceAfter=No
+30	”	”	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+31	…	…	PUNCT	FF	_	10	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,830 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vladivostock
+1	Vladivostock	Vladivostock	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Paese agognato questo.
+1	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	agognato	agognare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Si fanno mille congetture su questa città cinta di acciaio e di uomini per contrastarne il possesso ad ogni costo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mille	mille	NUM	N	NumType=Card	4	nummod	_	_
+4	congetture	congettura	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	città	città	NOUN	S	Gender=Fem	2	obl	_	_
+8	cinta	cinta	NOUN	S	Gender=Fem|Number=Sing	7	compound	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	acciaio	acciaio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15-16	contrastarne	_	_	_	_	_	_	_	_
+15	contrastar	contrastare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	possesso	possesso	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	ad	a	ADP	E	_	21	case	_	_
+20	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	21	det	_	_
+21	costo	costo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = (…)
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = È la Siberia, la triste e paurosa Siberia.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Siberia	Siberia	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	9	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+6	triste	triste	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	paurosa	paurosa	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	Siberia	Siberia	PROPN	SP	_	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = La terra del pianto e della deportazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	terra	terra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pianto	pianto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	deportazione	deportazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Corriamo parallelamente alla costa fino ad avvistare l'isola di Askold.
+1	Corriamo	Corrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	parallelamente	parallelo	ADV	B	_	1	advmod	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	costa	costa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	fino	fino	ADV	B	_	8	mark	_	_
+7	ad	a	ADP	E	_	6	fixed	_	_
+8	avvistare	avvistare	VERB	V	VerbForm=Inf	1	advcl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	isola	isola	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Askold	Askold	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Ai piedi di una rupe frastagliata dal mare è una nave russa che nel disastroso fuggi fuggi andò a fracassarsi contro gli scogli per non più staccarsene.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	rupe	rupe	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	frastagliata	frastagliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mare	mare	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	nave	nave	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	russa	russo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	disastroso	disastroso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	fuggi	fuggio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+20	fuggi	fuggio	ADV	B	_	21	advmod	_	_
+21	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23-24	fracassarsi	_	_	_	_	_	_	_	_
+23	fracassar	fracassare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	contro	contro	ADP	E	_	27	case	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	scogli	scoglio	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+28	per	per	ADP	E	_	31	mark	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31-33	staccarsene	_	_	_	_	_	_	_	SpaceAfter=No
+31	staccar	staccarre	VERB	V	VerbForm=Inf	23	advcl	_	_
+32	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	31	iobj	_	_
+34	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 9
+# text = Ha due fumaioli e la prua completamente fuori acqua.
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	fumaioli	fumaiolo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	prua	prua	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+7	completamente	completo	ADV	B	_	9	advmod	_	_
+8	fuori	fuori	ADP	E	_	9	case	_	_
+9	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Continuiamo a camminare.
+1	Continuiamo	continuare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	camminare	camminare	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = S'incominciano a vedere le opere avanzate.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
+2	incominciano	incominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	opere	opera	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	avanzate	avanzato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Dalla sinistra ci giunge la voce rauca e potente della sirena che ad intervalli di tre o quattro minuti urla paurosamente come spauracchio fra la impenetrabile nebbia che si perde ondulando e colugiando nell'infinito.
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+5	giunge	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	rauca	rauco	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	potente	potente	ADJ	A	Number=Sing	8	conj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sirena	sirena	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+14	che	che	CCONJ	CC	_	22	cc	_	_
+15	ad	a	ADP	E	_	16	case	_	_
+16	intervalli	intervallo	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+17	di	di	ADP	E	_	21	case	_	_
+18	tre	tre	NUM	N	NumType=Card	21	nummod	_	_
+19	o	o	CCONJ	CC	_	20	cc	_	_
+20	quattro	quattro	NUM	N	NumType=Card	18	conj	_	_
+21	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+22	urla	urlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+23	paurosamente	paurosamente	ADV	B	_	22	advmod	_	_
+24	come	come	ADP	E	_	25	case	_	_
+25	spauracchio	spauracchio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	fra	fra	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	impenetrabile	impenetrabile	ADJ	A	Number=Sing	29	amod	_	_
+29	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	ondulando	ondulare	VERB	V	VerbForm=Ger	32	advcl	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	colugiando	colugiare	VERB	V	VerbForm=Ger	33	conj	_	_
+36-37	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+36	in	in	ADP	E	_	38	case	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	infinito	infinito	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = La nebbia si dirada spinta dal libeccio fresco lasciando dietro a sé un panorama incantevole.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	dirada	dirada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	spinta	spingere	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	libeccio	libeccio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	fresco	fresco	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	lasciando	lasciare	VERB	V	VerbForm=Ger	4	advcl	_	_
+11	dietro	dietro	ADV	B	_	13	case	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	obl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	panorama	panorama	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+16	incantevole	incantevole	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Imbocchiamo il Corno d'Oro.
+1	Imbocchiamo	Imbocchare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Corno	Corno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	Oro	oro	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Dritta e sinistra è un'alterenarsi di forti e casermoni.
+1	Dritta	dritta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6-7	alterenarsi	_	_	_	_	_	_	_	_
+6	alterenar	alterenar	VERB	V	VerbForm=Inf	0	root	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	forti	forte	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	casermoni	casermone	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Sulle pianure lontane degli immensi accampamenti, come enormi campi di funghi, coprono letteralmente delle estesissime zone.
+1-2	Sulle	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	pianure	pianura	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+4	lontane	lontano	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	immensi	immenso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	accampamenti	accampamento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	enormi	enorme	ADJ	A	Number=Plur	12	amod	_	_
+12	campi	campo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	funghi	fungo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	coprono	coprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	letteralmente	letteralmente	ADV	B	_	16	advmod	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	estesissime	esteso	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	21	amod	_	_
+21	zone	zona	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = (…) Il panorama, ripeto, è superbamente bello.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	panorama	panorama	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	ripeto	ripetere	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	superbamente	superbamente	ADV	B	_	11	advmod	_	_
+11	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 18
+# text = Dei magnifici palazzi si proiettano sullo specchio limpido dell'acqua con dei riflessi argentei.
+1-2	Dei	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	magnifici	magnifico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	palazzi	palazzo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	proiettano	proiettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	sullo	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	limpido	limpido	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	riflessi	riflesso	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	argentei	argenteo	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Sulla dritta è un monumento all'Italia: “un giardino d'Italia”.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	dritta	dritta	ADJ	A	Gender=Fem|Number=Sing	6	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	monumento	monumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Italia	Italia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	6	punct	_	_
+11	“	“	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	Italia	Italia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	”	”	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = Prorio così si chiama la più bella e incantevole parte di questo amenissimo golfo.Ci sentiamo attratti, il nome della Patria chiama e con un sanpam attraversiamo senza indugio la baia.
+1	Prorio	Prorio	ADV	B	_	4	advmod	_	_
+2	così	così	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	bella	bello	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	incantevole	incantevole	ADJ	A	Number=Sing	7	conj	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+13	amenissimo	amenissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	14	amod	_	_
+14	golfo.Ci	golfo.Ci	PROPN	SP	_	10	nmod	_	_
+15	sentiamo	sentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	attratti	attratto	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	nome	nome	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Patria	patria	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	sanpam	sanpam	NOUN	S	Gender=Masc	28	obl	_	_
+28	attraversiamo	attraversare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+29	senza	senza	ADP	E	_	30	case	_	_
+30	indugio	indugio	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	baia	baia	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Sulla porta di accesso, scritto in russo e a caratteri di scatola, è il nome del nostro paese, emblema di bellezza.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	porta	porta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	russo	russo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	caratteri	carattere	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	scatola	scatola	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	nome	nome	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	paese	paese	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	emblema	emblema	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 22
+# text = A entrarvi restiamo però un po' in forse.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	entrarvi	_	_	_	_	_	_	_	_
+2	entrar	entrar	VERB	V	VerbForm=Inf	4	advcl	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+4	restiamo	restare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	però	però	ADV	B	_	4	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	po'	poco	ADV	B	_	4	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	forse	forse	ADV	B	_	4	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Con tutto che siamo forestieri, anzi ospiti e Italiani per giunta, senza scrupoli ci si impone la tassa di mezzo rublo pari a lire una e trentacinque italiane, tanto per andare in un discreto posto a teatro da noi.
+1	Con	con	ADP	E	_	2	case	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+4	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	forestieri	forestiere	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	anzi	anzi	ADV	B	_	8	advmod	_	_
+8	ospiti	ospito	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	giunta	giungere	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	scrupoli	scrupolo	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+18	impone	imporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	rublo	rublo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	pari	pari	ADJ	A	_	23	amod	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	lire	lira	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+27	una	uno	NUM	N	_	26	nummod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	trentacinque	trentacinque	NUM	N	_	27	conj	_	_
+30	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	8	punct	_	_
+32	tanto	tanto	ADV	B	_	34	advmod	_	_
+33	per	per	ADP	E	_	34	mark	_	_
+34	andare	andare	VERB	V	VerbForm=Inf	8	advcl	_	_
+35	in	in	ADP	E	_	38	case	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	discreto	discreto	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+38	posto	posto	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+41	da	da	ADP	E	_	42	case	_	_
+42	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 24
+# text = Non vogliamo fare la figura da tirchi e nostro malgrado paghiamo ad un Ufficiale in servizio attivo, la tassa e ci vien lasciato libero l'accesso.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	figura	figura	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	tirchi	tirco	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	malgrado	malgrado	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	paghiamo	pagare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl	_	_
+12	ad	a	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Ufficiale	ufficiale	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	iobj	_	_
+23	vien	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+25	libero	libero	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Disillusione completa:
+1	Disillusione	Disillusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	completa	completo	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 26
+# text = una confusione di alberi incolti messi su dalla natura e sotto di essi, all'ombra, seduti sull'erba o su dei rustici scanni di legno ancor più rustico, un'infinità di coppie equivoche che in Europa la decenza non avrebbe tollerato certamente.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	confusione	confusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	incolti	incogliere	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	natura	natura	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	sotto	sotto	ADP	E	_	14	case	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20	seduti	sedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+21-22	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+21	su	su	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	erba	erba	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	o	o	CCONJ	CC	_	29	cc	_	_
+25	su	su	ADP	E	_	29	case	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	25	fixed	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	rustici	rustico	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+29	scanni	scanno	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	legno	legno	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32	ancor	ancora	ADV	B	_	33	advmod	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	rustico	rustico	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	infinità	infinità	NOUN	S	Gender=Fem	2	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+40	equivoche	equivoco	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+41	che	che	PRON	PR	PronType=Rel	48	obj	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	Europa	Europa	PROPN	SP	_	48	obl	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	decenza	decenza	NOUN	S	Gender=Fem|Number=Sing	48	nsubj	_	_
+46	non	non	ADV	BN	PronType=Neg	48	advmod	_	_
+47	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+48	tollerato	tollerato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl:relcl	_	_
+49	certamente	certamente	ADV	B	_	48	advmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Su in cima, quasi al colle è una birreria messa a bella posta per scorticar chi malauguratamente vi capita.
+1	Su	su	ADP	E	_	3	case	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	cima	cima	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quasi	quasi	ADV	B	_	12	advmod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8-9	colle	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	12	obl	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	birreria	birreria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	bella	bello	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	posta	posta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	scorticar	scorticare	VERB	V	VerbForm=Inf	13	advcl	_	_
+19	chi	chi	PRON	PR	Number=Sing|PronType=Rel	18	obj	_	_
+20	malauguratamente	malauguratamente	ADV	B	_	22	advmod	_	_
+21	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	22	iobj	_	_
+22	capita	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 28
+# text = È attorniata da giovinette venute da lontani paesi, da tutto il mondo, in questa mercato di bruti, in questa esposizione eterna di orge indicibili.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	attorniata	attorniare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	giovinette	giovinetta	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+5	venute	venire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	5	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	13	det:predet	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	bruti	bruto	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	esposizione	esposizione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+24	eterna	eterno	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	orge	orge	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+27	indicibili	indicibile	ADJ	A	Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = (…) Non parliamo di censura!
+1	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	censura	censura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = Il Corriere della sera che si vende pure qui come pure la Tribuna e la Stampa, arrivano ai rivenditori mezzi mutilati nel loro contenuto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Corriere	Corriere	PROPN	SP	_	19	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	vende	vendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	pure	pure	ADV	B	_	10	advmod	_	_
+10	qui	qui	ADV	B	_	8	advmod	_	_
+11	come	come	ADP	E	_	14	case	_	_
+12	pure	pure	ADV	B	_	14	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Tribuna	tribuna	PROPN	SP	_	8	obl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Stampa	stampa	PROPN	SP	_	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	rivenditori	rivenditorio	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	mezzi	mezzo	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	mutilati	mutilare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	loro	loro	DET	AP	Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 31
+# text = Il Corriere del 24 giugno 1909 con un articolo dell'Onorevole Morgari contro lo Zar arrivò con un tale sfregio d'inchiostro da nascondere tutta la parte interessante del discorso.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Corriere	Corriere	PROPN	SP	_	18	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	24	24	NUM	N	NumType=Card	2	nmod	_	_
+6	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	1909	1909	NUM	N	NumType=Card	5	flat	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Onorevole	onorevole	NOUN	S	Number=Sing	10	nmod	_	_
+14	Morgari	Morgari	PROPN	SP	_	13	nmod	_	_
+15	contro	contro	ADP	E	_	17	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Zar	zar	PROPN	SP	_	14	nmod	_	_
+18	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	con	con	ADP	E	_	22	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	tale	tale	ADJ	A	Number=Sing	22	amod	_	_
+22	sfregio	sfregio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+23	d'	di	ADP	E	_	24	case	_	SpaceAfter=No
+24	inchiostro	inchiostro	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	da	da	ADP	E	_	26	mark	_	_
+26	nascondere	nascondere	VERB	V	VerbForm=Inf	24	acl	_	_
+27	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	29	det:predet	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	parte	parte	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+30	interessante	interessante	ADJ	A	Number=Sing	29	amod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = La città è in mano ai manigoldi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	città	città	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	manigoldi	manigoldo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 33
+# text = Uscire, ovverosia allontanarsi di due passi dall'abitato è pericoloso.
+1	Uscire	uscire	VERB	V	VerbForm=Inf	13	csubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	ovverosia	ovverosia	CCONJ	CC	_	4	cc	_	_
+4-5	allontanarsi	_	_	_	_	_	_	_	_
+4	allontanar	allontanare	VERB	V	VerbForm=Inf	1	conj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	passi	passo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9-10	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+9	da	da	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	abitato	abitato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 34
+# text = I dintorni sono infestati dai malviventi che fermano i passanti e li alleggeriscono di quanto hanno addosso.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dintorni	dintorni	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	infestati	infestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dai	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	malviventi	malvivento	NOUN	S	Gender=Masc|Number=Plur	4	obl:agent	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	fermano	fermare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	passanti	passante	NOUN	S	Number=Plur	9	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+14	alleggeriscono	alleggerire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	14	obl	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	addosso	adduovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 35
+# text = In compenso di tanto male, la permanenza qua non dispiace poiché è l'unico paese che rompe la monotonia prettamente orientale nell'Estremo Oriente.
+1	In	in	ADP	E	_	2	case	_	_
+2	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	male	male	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	permanenza	permanenza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	qua	quo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	poiché	poiché	SCONJ	CS	_	16	mark	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	unico	unico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	paese	paese	NOUN	S	Gender=Masc|Number=Sing	17	advcl	_	_
+17	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+18	rompe	rompo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	monotonia	monotonia	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+21	prettamente	prettamente	ADV	B	_	22	advmod	_	_
+22	orientale	orientale	ADJ	A	Number=Sing	20	amod	_	_
+23-24	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	in	in	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	Estremo	estremo	PROPN	SP	_	20	nmod	_	_
+26	Oriente	Oriente	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 36
+# text = È un paese all'europea nel vivere e nei costumi.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	europea	Europea	PROPN	SP	_	9	obl	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vivere	vivere	VERB	V	VerbForm=Inf	3	csubj	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	nei	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	costumi	costume	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

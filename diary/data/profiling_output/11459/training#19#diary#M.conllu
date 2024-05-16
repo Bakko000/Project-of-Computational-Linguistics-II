@@ -1,0 +1,191 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 23 gennaio martedì
+1	23	23	NUM	N	NumType=Card	3	nummod	_	_
+2	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	martedì	martedì	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Il carcere insegna a ridare importanza al tempo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	ridare	ridare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Tempo quintuplicato.
+1	Tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	quintuplicato	quintuplicato	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Un urlo è la vita.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	urlo	urlo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Una lettera è la vita.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Una chiamata è la vita.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	chiamata	chiamata	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = […]
+1	[	[	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = 30 gennaio martedì
+1	30	30	NUM	N	NumType=Card	3	nummod	_	_
+2	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	martedì	martedì	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = […] Sono stato poco in carcere ma ho avuto il piacere e la fortuna di vederne delle belle.
+1	[	[	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	_
+4	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	poco	poco	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18-19	vederne	_	_	_	_	_	_	_	_
+18	veder	vedere	VERB	V	VerbForm=Inf	16	acl	_	_
+19	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	belle	bello	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Ho avuto il piacere e la fortuna di vedere gli uomini ridursi come animali.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	vedere	vedere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	ridursi	_	_	_	_	_	_	_	_
+12	ridur	ridurre	VERB	V	VerbForm=Inf	9	xcomp	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	animali	animale	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Ore ventitré.
+1	Ore	ora	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	ventitré	ventitré	NOUN	S	Gender=Masc	1	compound	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Agente accende la luce.
+1	Agente	agente	ADV	B	_	2	advmod	_	_
+2	accende	accendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	luce	luce	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = “Che cosa stai facendo?”
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	stai	stare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	facendo	fare	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = “Scrivo”.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Scrivo	scrivo	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = “Ma chettescrivi, lascia perdere che qui sei in galera, pensa a salvarti la pelle”.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	chettescrivi	chettescrivo	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	perdere	perdere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	che	che	SCONJ	CS	_	13	mark	_	_
+8	qui	qui	ADV	B	_	13	advmod	_	_
+9	sei	sei	NUM	N	NumType=Card	11	nummod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	galera	galera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	salvarti	salvarto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Mi salvo la pelle scrivendo.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	salvo	salvo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	scrivendo	scrivere	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = […]
+1	[	[	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+

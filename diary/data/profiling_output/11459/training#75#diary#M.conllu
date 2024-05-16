@@ -1,0 +1,262 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From: lino@...
+1	From	from	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	lino@...	lino@.	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Date:
+1	Date	data	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Thu Dec 17 12:51:14 1998
+1	Thu	Thu	PROPN	SP	_	0	root	_	_
+2	Dec	Dec	PROPN	SP	_	1	flat:name	_	_
+3	17	17	NUM	N	NumType=Card	1	nmod	_	_
+4	12:51:14	12:51:14	NUM	N	NumType=Card	3	flat	_	_
+5	1998	1998	NUM	N	NumType=Card	3	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Subject:
+1	Subject	Subject	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Re:
+1	Re	Re	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = Il caso Muzzi
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Muzzi	Muzzi	PROPN	SP	_	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Finché non imparerai che “qui lo dico e qui lo annego”, di sicuro sarai destinato alla cadetteria.
+1	Finché	finché	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	imparerai	impareere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+6	qui	qui	ADV	B	_	8	advmod	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	qui	qui	ADV	B	_	12	advmod	_	_
+11	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	annego	annego	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+13	”	”	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+17	sarai	saere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	18	aux:pass	_	_
+18	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cadetteria	cadetteria	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Mi sorprende che tu voli in Italia, ma tant'è.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl:impers	_	_
+2	sorprende	sorprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	11	mark	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
+5	voli	volo	ADJ	A	Number=Plur	4	amod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Italia	Italia	PROPN	SP	_	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	tant'	tanto	PRON	PI	Number=Sing|PronType=Ind	11	nsubj	_	SpaceAfter=No
+11	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Se leggerai il messaggio in tempo, anch'io ti auguro di vivere bene il soggiorno itagliano.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	leggerai	leggeere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	anch'	anche	ADV	B	_	9	advmod	_	SpaceAfter=No
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	expl	_	_
+11	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	vivere	vivere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	bene	bene	ADV	B	_	13	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+17	itagliano	itagliano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Anch'io vorrei giocare a calcio, ma quando ho parlato per telefono con Peppocchio Nero, pochi giorni fà, mi ha risposto:
+1	Anch'	anche	ADV	B	_	2	advmod	_	SpaceAfter=No
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	giocare	giocare	VERB	V	VerbForm=Inf	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	24	punct	_	_
+8	ma	ma	CCONJ	CC	_	24	cc	_	_
+9	quando	quando	SCONJ	CS	_	11	mark	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	Peppocchio	Peppocchio	PROPN	SP	_	11	obl	_	_
+16	Nero	Nero	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+20	fà	fà	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	11	punct	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 11
+# text = “Se tu organizzi io ci sono”.
+1	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	4	mark	_	_
+3	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	organizzi	organizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Peppocchio lavora al Comune di Torino, beato lui.
+1	Peppocchio	Peppocchio	PROPN	SP	_	2	nsubj	_	_
+2	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Comune	comune	PROPN	SP	_	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Torino	Torino	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	beato	beare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+10	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Lui e Carduso sono le persone che più invidio in assoluto.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Carduso	Carduso	PROPN	SP	_	1	conj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	invidio	invidiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	assoluto	assoluto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Carduso è appena sceso a Lecce da Bologna.
+1	Carduso	Carduso	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	appena	appena	ADV	B	_	4	advmod	_	_
+4	sceso	scendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Lecce	Lecce	PROPN	SP	_	4	obl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Bologna	Bologna	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = È sempre più Papa Negro.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	più	più	ADV	B	_	0	root	_	_
+4	Papa	papa	PROPN	SP	_	3	nsubj	_	_
+5	Negro	Negro	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Io scendo il 23 a Torino e il 27 a Lecce, poi torno il 6.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	scendo	scendere	VERB	V	VerbForm=Ger	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	23	23	NUM	N	NumType=Card	2	obj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Torino	Torino	PROPN	SP	_	2	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	27	27	NUM	N	NumType=Card	6	conj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Lecce	Lecce	PROPN	SP	_	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	poi	poi	ADV	B	_	14	advmod	_	_
+14	torno	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	6	6	NUM	N	NumType=Card	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Visto che lasci le bombe per i bomboloni (e se vieni da me avrai anche i pasticciotti), fai buon viaggio.
+1	Visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	lasci	lascere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	bombe	bomba	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	bomboloni	bombolone	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	se	se	SCONJ	CS	_	12	mark	_	_
+12	vieni	vieni	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	obl	_	_
+15	avrai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	12	advcl	_	_
+16	anche	anche	ADV	B	_	18	advmod	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	pasticciotti	pasticciotto	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	buon	buono	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Ti saluterò Roberta e i miei, grazie.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	saluterò	salutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Roberta	Roberta	PROPN	SP	_	2	nsubj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	grazie	grazie	NOUN	S	_	2	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Lino
+1	Lino	lino	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

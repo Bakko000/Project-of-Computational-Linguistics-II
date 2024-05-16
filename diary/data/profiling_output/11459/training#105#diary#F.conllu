@@ -1,0 +1,195 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = domenica 12
+1	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	12	12	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = (…) Venerdì è cominciata la cosa terribile.
+1	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	Venerdì	venerdì	PROPN	SP	_	6	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cominciata	cominciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	terribile	terribile	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = L'esercito italiano è disfatto, la Patria distrutta, è perduto l'onore.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	disfatto	disfare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Patria	patria	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+9	distrutta	distrutto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	onore	onore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Arrivano i soldati a gruppi di quattro o cinque, laceri, scalzi, con i fagotti sulle spalle, con i visi sfigurati, i tedeschi hanno strappato loro le stellette.
+1	Arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+6	di	di	ADP	E	_	11	case	_	_
+7	quattro	quattro	NUM	N	NumType=Card	11	nummod	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	cinque	cinque	NUM	N	NumType=Card	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	laceri	lacero	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	scalzi	scalzo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	fagotti	fagotto	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+18-19	sulle	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	1	punct	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	visi	viso	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+25	sfigurati	sfigurato	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	tedeschi	tedesco	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	_
+29	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	strappato	strappare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+31	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	30	iobj	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	stellette	stelletta	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = L'orrore e il terrore della situazione.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = (…)E' terribile come la storia si ripete.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	terribile	terribile	ADJ	A	Number=Sing	0	root	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	storia	storia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	ripete	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	csubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = L'uomo non è responsabile delle proprie azioni, è legato a un destino che gira immutabilmente per l'eternità.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	responsabile	responsabile	ADJ	A	Number=Sing	0	root	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	destino	destino	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	gira	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	immutabilmente	immutabilmente	ADV	B	_	17	advmod	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	eternità	eternità	NOUN	S	Gender=Fem	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Si aspettavano da un minuto all'altro l'invasione tedesca.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	aspettavano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	invasione	invasione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+11	tedesca	tedesco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Il cielo era grigio, afoso, un dito terribile sembrava sospeso nell'aria.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	grigio	grigio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	afoso	afoso	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dito	dito	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	terribile	terribile	ADJ	A	Number=Sing	9	amod	_	_
+11	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+12	sospeso	sospendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	aria	aria	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Veniva voglia di scappare, scappare verso un cielo più puro, per poter respirare.
+1	Veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	1	xcomp	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	scappare	scappare	VERB	V	VerbForm=Inf	2	acl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	scappare	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	puro	puro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	per	per	ADP	E	_	15	mark	_	_
+14	poter	potere	AUX	VM	VerbForm=Inf	15	aux	_	_
+15	respirare	respirare	VERB	V	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Per poter vivere.
+1	Per	per	ADP	E	_	3	mark	_	_
+2	poter	potere	AUX	VM	VerbForm=Inf	3	aux	_	_
+3	vivere	vivere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

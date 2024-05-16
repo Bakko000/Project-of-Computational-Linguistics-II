@@ -1,0 +1,611 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Terrabona, 16.3.1983
+1	Terrabona	Terrabona	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	16.3.1983	16.3.1983	NUM	N	NumType=Range	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Carissima mamma (e carissimi tutti),
+1	Carissima	Carissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	2	amod	_	_
+2	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	carissimi	caro	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	2	conj	_	_
+6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = vi scrivo due righe veloci perché ho saputo che Katia parte per l'Italia in settimana:
+1	vi	vi	ADV	B	_	2	advmod	_	_
+2	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	righe	riga	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	veloci	veloce	ADJ	A	Number=Plur	4	amod	_	_
+6	perché	perché	SCONJ	CS	_	8	mark	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	Katia	Katia	PROPN	SP	_	8	obj	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	Italia	Italia	PROPN	SP	_	11	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = spero di riuscire a vederla in modo da affidare a lei la lettera, altrimenti la manderò per posta.
+1	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	riuscire	riuscire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	vederla	_	_	_	_	_	_	_	_
+5	veder	vedere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	da	da	ADP	E	_	10	mark	_	_
+10	affidare	affidare	VERB	V	VerbForm=Inf	5	advcl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	altrimenti	altrimenti	CCONJ	CC	_	18	cc	_	_
+17	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	manderò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	1	conj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	posta	posta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Non è molto che vi ho parlato per telefono, e quindi non ho molto da dirvi, se non che va tutto bene;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	molto	molto	ADV	B	_	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	vi	vi	ADV	B	_	7	advmod	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	csubj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	quindi	quindi	ADV	B	_	15	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	molto	molto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17-18	dirvi	_	_	_	_	_	_	_	SpaceAfter=No
+17	dir	dire	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	17	iobj	_	_
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	se	se	SCONJ	CS	_	23	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	che	che	SCONJ	CS	_	23	mark	_	_
+23	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+24	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	nsubj	_	_
+25	bene	bene	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = ancora non sono entrata a pieno titolo all'ospedale di Matagalpa.
+1	ancora	ancora	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	entrata	entrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Matagalpa	Matagalpa	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Vi ho telefonato inutilmente, ma pensavo che fosse importante sentire un poco la mia voce, perché foste davvero tranquilli sulle mie attuali ottime condizioni (sono persino ingrassata nei due-tre giorni di soggiorno a Matagalpa:
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	telefonato	telefonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	inutilmente	inutilmente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	importante	importante	ADJ	A	Number=Sing	7	ccomp	_	_
+11	sentire	sentire	VERB	V	VerbForm=Inf	10	csubj	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	poco	poco	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	voce	voce	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	perché	perché	SCONJ	CS	_	19	mark	_	_
+19	foste	forre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+20	davvero	davvero	ADV	B	_	21	advmod	_	_
+21	tranquilli	tranquillo	ADJ	A	Gender=Masc|Number=Plur	19	xcomp	_	_
+22-23	sulle	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	mie	mia	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+25	attuali	attuale	ADJ	A	Number=Plur	24	amod	_	_
+26	ottime	ottimo	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+27	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+28	(	(	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+29	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+30	persino	persino	ADV	B	_	31	advmod	_	_
+31	ingrassata	ingrassare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+32-33	nei	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	35	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+34	due-tre	due-tro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+38	a	a	ADP	E	_	39	case	_	_
+39	Matagalpa	Matagalpa	PROPN	SP	_	31	obl	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = tutti i gruppi di volontari ci offrivano la “comida”!).
+1	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+7	offrivano	offrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	comida	comida	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = La casa-MLAL di Matagalpa è un vero porto di mare:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	casa-MLAL	casa-MLAL	PROPN	SP	_	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Matagalpa	Matagalpa	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	vero	vero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	porto	porto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	mare	mare	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 10
+# text = passano una decina di volontari ogni giorno, prendono il caffè, parlano con noi.
+1	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	decina	decina	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	prendono	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	caffè	caffè	NOUN	S	Gender=Masc	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = E' ancora in corso di arredamento tuttavia ci si vive già bene:
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ancora	ancora	ADV	B	_	4	advmod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	arredamento	arredamento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	tuttavia	tuttavia	ADV	B	_	6	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_
+11	già	già	ADV	B	_	12	advmod	_	_
+12	bene	bene	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 12
+# text = completa di doccia, srvizi e cucina a gas, e in seguito metteremo anche il telefono.
+1	completa	completa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	doccia	doccia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	srvizi	srvizio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	gas	gas	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+14	metteremo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	conj	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Per ora vi ho chiamato dal posto pubblico, dove è più facile e dove interrompono loro la comunicazione dopo tre minuti.
+1	Per	per	ADP	E	_	2	case	_	_
+2	ora	ora	ADV	B	_	5	advmod	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	expl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	dove	dove	ADV	B	_	14	advmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	facile	facile	ADJ	A	Number=Sing	8	acl:relcl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	dove	dove	ADV	B	_	17	advmod	_	_
+17	interrompono	interrompere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	17	iobj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+21	dopo	dopo	ADP	E	_	23	case	_	_
+22	tre	tre	NUM	N	NumType=Card	23	nummod	_	_
+23	minuti.	minuti.	NOUN	S	Gender=Masc	20	nmod	_	SpaceAfter=No
+
+# sent_id = 14
+# text = ..Ma state “tranquilli” che non vi telefonerò troppo spesso:
+1	..Ma	..Ma	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
+2	state	stato	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	tranquilli	tranquillo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	9	obj	_	_
+9	telefonerò	telefonare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	advcl	_	_
+10	troppo	troppo	ADV	B	_	11	advmod	_	_
+11	spesso	spesso	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 15
+# text = scrivere è molto meno costoso e molto più tranquillo.
+1	scrivere	scrivere	VERB	V	VerbForm=Inf	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	meno	meno	ADV	B	_	5	advmod	_	_
+5	costoso	costoso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Da ieri sono tornata a Terrabona: finchè i documenti di residenza e di “trabajo” (lavoro) per i due anni non sono pronti, non posso lavorare a Matagalpa.
+1	Da	da	ADP	E	_	2	case	_	_
+2	ieri	ieri	ADV	B	_	4	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Terrabona	Terrabona	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	8	punct	_	_
+8	finchè	finché	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	parataxis	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	residenza	residenza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	trabajo	trabajo	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	16	punct	_	_
+18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	19	punct	_	_
+21	per	per	ADP	E	_	24	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+30	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	lavorare	lavorare	VERB	V	VerbForm=Inf	27	conj	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	Matagalpa	Matagalpa	PROPN	SP	_	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Qui invece frequento il “Centro de salud” di Domenico (quel ragazzo di Bologna di cui vi ho parlato, anche lui venuto qui come neolaureato, e oggi con due anni quasi di superesperienza), e oggi ho assistito (integralmente quasi e senza ostetrica, come ero abituata al Gemelli) al mio primo parto nicaraguese:
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	invece	invece	ADV	B	_	3	advmod	_	_
+3	frequento	frequento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Centro	Centro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+7	de	di	ADP	E	_	8	case	_	_
+8	salud	salud	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	6	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Domenico	Domenico	PROPN	SP	_	6	nmod	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Bologna	Bologna	PROPN	SP	_	14	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+19	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	21	obj	_	_
+20	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	anche	anche	ADV	B	_	24	advmod	_	_
+24	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	_
+25	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+26	qui	qui	ADV	B	_	25	advmod	_	_
+27	come	come	ADP	E	_	28	case	_	_
+28	neolaureato	neolaureato	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	34	punct	_	_
+30	e	e	CCONJ	CC	_	34	cc	_	_
+31	oggi	oggi	ADV	B	_	34	advmod	_	_
+32	con	con	ADP	E	_	34	case	_	_
+33	due	due	NUM	N	NumType=Card	34	nummod	_	_
+34	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+35	quasi	quasi	ADV	B	_	37	advmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	superesperienza	superesperienza	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	6	punct	_	_
+40	e	e	CCONJ	CC	_	43	cc	_	_
+41	oggi	oggi	ADV	B	_	43	advmod	_	_
+42	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	assistito	assistere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+44	(	(	PUNCT	FB	_	53	punct	_	SpaceAfter=No
+45	integralmente	integralmente	ADV	B	_	53	advmod	_	_
+46	quasi	quasi	ADV	B	_	53	advmod	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	senza	senza	ADP	E	_	49	case	_	_
+49	ostetrica	ostetrica	NOUN	S	Gender=Fem|Number=Sing	46	conj	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	53	punct	_	_
+51	come	come	SCONJ	CS	_	53	mark	_	_
+52	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	53	aux	_	_
+53	abituata	abituare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	43	advcl	_	_
+54-55	al	_	_	_	_	_	_	_	_
+54	a	a	ADP	E	_	56	case	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	Gemelli	gemelli	PROPN	SP	_	53	obl	_	SpaceAfter=No
+57	)	)	PUNCT	FB	_	53	punct	_	_
+58-59	al	_	_	_	_	_	_	_	_
+58	a	a	ADP	E	_	62	case	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+60	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	62	det:poss	_	_
+61	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	62	amod	_	_
+62	parto	parto	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+63	nicaraguese	nicaraguese	ADJ	A	Number=Sing	62	amod	_	SpaceAfter=No
+64	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 18
+# text = primo figlio, un maschio di 3150 grammi, nessuna necessità di “tagli”, solo un piccolo singolo punto di sutura:
+1	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	maschio	maschio	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	3150	3150	NUM	N	NumType=Card	8	nummod	_	_
+8	grammi	grammo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
+11	necessità	necessità	NOUN	S	Gender=Fem	2	nmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	“	“	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	tagli	taglio	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	solo	solo	ADV	B	_	21	advmod	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+20	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	sutura	sutura	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 19
+# text = se tutte partoriscono così, il mio lavoro non sarà certo difficile!
+1	se	se	SCONJ	CS	_	3	mark	_	_
+2	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	3	nsubj	_	_
+3	partoriscono	partorire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	così	così	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+11	certo	certo	ADV	B	_	12	advmod	_	_
+12	difficile	difficile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Resterò qui a Terrabona fino all'arrivo dei documenti, inoltre qui festeggiano S.Josè in modo particolarmente folcloristico, iniziando tre giorni prima (oggi appunto) con il “paseo” di vacche e cavalli dipinti.
+1	Resterò	Restare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	qui	qui	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Terrabona	Terrabona	PROPN	SP	_	1	obl	_	_
+5	fino	fino	ADV	B	_	8	case	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	5	fixed	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	inoltre	inoltre	ADV	B	_	19	advmod	_	_
+14	qui	qui	ADV	B	_	19	advmod	_	_
+15	festeggiano	festeggiare	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	S.Jos	S.Jos	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+20	particolarmente	particolarmente	ADV	B	_	21	advmod	_	_
+21	folcloristico	folcloristico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	iniziando	iniziare	VERB	V	VerbForm=Ger	1	advcl	_	_
+24	tre	tre	NUM	N	NumType=Card	25	nummod	_	_
+25	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	prima	prima	ADV	B	_	23	advmod	_	_
+27	(	(	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	oggi	oggi	ADV	B	_	26	advmod	_	_
+29	appunto	appunto	ADV	B	_	28	advmod	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	28	punct	_	_
+31	con	con	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	“	“	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+34	paseo	paseo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+35	”	”	PUNCT	FB	_	37	punct	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	vacche	vacca	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	cavalli	cavallo	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	_
+40	dipinti	dipinto	ADJ	A	Gender=Masc|Number=Plur	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Già si sentono i “botti”, che qui chiamano “bombas”.
+1	Già	già	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	botti	botte	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	qui	qui	ADV	B	_	11	advmod	_	_
+11	chiamano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	“	“	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	bombas	bomba	PROPN	SW	Foreign=Yes	11	xcomp	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Piero freme con la sua macchina fotografica, anche perché per la prima volta oggi c'è stata una “piovuta” tropicale (alcuni minuti di acqua a catinelle) e c'è il rischio che ne vengano altre a rovinare le pitture sul dorso delle bestie.
+1	Piero	Piero	PROPN	SP	_	2	nsubj	_	_
+2	freme	fremere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	fotografica	fotografico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	anche	anche	ADV	B	_	21	advmod	_	_
+10	perché	perché	SCONJ	CS	_	21	mark	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	14	amod	_	_
+14	volta	volta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+15	oggi	oggi	ADV	B	_	21	advmod	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	SpaceAfter=No
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+18	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	cop	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	piovuta	piovuta	NOUN	S	Gender=Fem|Number=Sing	2	advcl	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	23	punct	_	_
+23	tropicale	tropicale	ADJ	A	Number=Sing	21	amod	_	_
+24	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+26	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	catinelle	catinella	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	26	punct	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	34	expl	_	SpaceAfter=No
+34	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
+37	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+38	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	39	iobj	_	_
+39	vengano	verre	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+40	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	39	nsubj	_	_
+41	a	a	ADP	E	_	42	mark	_	_
+42	rovinare	rovinare	VERB	V	VerbForm=Inf	39	xcomp	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	pitture	pitture	NOUN	S	Gender=Fem|Number=Plur	42	obj	_	_
+45-46	sul	_	_	_	_	_	_	_	_
+45	su	su	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	dorso	dorso	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+48-49	delle	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+50	bestie	bestia	NOUN	S	Gender=Fem|Number=Plur	47	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Vi saluto perché voglio riposare un po':
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	saluto	salere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	perché	perché	SCONJ	CS	_	5	mark	_	_
+4	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	riposare	riposare	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	po'	poco	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 24
+# text = sono due mattine che mi sveglio presto.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	mattine	mattina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	sveglio	svegliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	presto	presto	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Ciao, un bacio a tutti
+1	Ciao	ciao	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Chiara
+1	Chiara	chiaro	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+
