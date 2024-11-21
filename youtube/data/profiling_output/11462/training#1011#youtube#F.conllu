@@ -1,0 +1,51 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono apprezzatissimi in tutto il mondo.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	apprezzatissimi	apprezzato	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mondo.	mondo.	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..fanno bene a non ritornare in Italia se poi devono ritrovarsi certi commenti.
+1	..fanno	..fe	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	ritornare	ritornare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Italia	Italia	PROPN	SP	_	5	obl	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	poi	poi	ADV	B	_	11	advmod	_	_
+10	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11-12	ritrovarsi	_	_	_	_	_	_	_	_
+11	ritrovar	ritrovare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	commenti.	commenti.	NOUN	S	Gender=Masc	11	obj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ..non capisco perchè dobbiamo accettare da noi la spazzatura straniera a questo punto!
+1	..non	..non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	capisco	capire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	perchè	perché	SCONJ	CS	_	5	mark	_	_
+4	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	accettare	accettare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	spazzatura	spazzatura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+10	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = !!!
+1	!!	!!	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

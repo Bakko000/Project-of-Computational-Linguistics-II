@@ -1,0 +1,33 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io riesco a mangiare pranzo e cena.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	mangiare	mangiare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	cena	cena	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Primo dolce e succo al prezzo di 2.54 centesimi...
+1	Primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+2	dolce	dolce	ADJ	A	Number=Sing	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	succo	succo	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	2.54	2.54	NUM	N	NumType=Card	10	nummod	_	_
+10	centesimi...	centesimi...	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+
+# sent_id = 3
+# text = in italia piemonte
+1	in	in	ADP	E	_	3	case	_	_
+2	italia	italia	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	piemonte	piemonto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,30 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = !!!!!!
+1	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+2	!!!!!	!!!!!	PUNCT	FF	_	0	root	_	_
+
+# sent_id = 2
+# text = BUGIARDI . BALDRACCA , INDAGATI , MENTITORI , !!!!! A CASA !!! A LAVORARE ....COME QUALSIASI PERSONA NORMALE !!!!! LADRI
+1	BUGIARDI	BUGIARDI	PROPN	SP	_	0	root	_	_
+2	.	.	PUNCT	FF	_	3	punct	_	_
+3	BALDRACCA	BALDRACCA	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	INDAGATI	indagare	PROPN	SP	_	1	conj	_	SpacesAfter=\s\s
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	MENTITORI	MENTITORI	PROPN	SP	_	1	conj	_	SpacesAfter=\s\s
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	!!!!!	!!!!!	PUNCT	FF	_	11	punct	_	_
+10	A	a	ADP	E	_	11	case	_	_
+11	CASA	Casa	PROPN	SP	_	17	conj	_	SpacesAfter=\s\s\s
+12	!!!	!!!	PUNCT	FF	_	11	punct	_	_
+13	A	A	ADP	E	_	14	case	_	_
+14	LAVORARE	lavorare	PROPN	SP	_	11	nmod	_	SpacesAfter=\s\s
+15	....COME	....COME	PROPN	SP	_	14	flat:name	_	SpacesAfter=\s\s
+16	QUALSIASI	qualsiasi	DET	DI	Number=Sing|PronType=Ind	17	det	_	SpacesAfter=\s\s\s
+17	PERSONA	persona	PROPN	SP	_	1	conj	_	SpacesAfter=\s\s
+18	NORMALE	normale	PROPN	SP	_	17	flat:name	_	SpacesAfter=\s\s
+19	!!!!!	!!!!!	PUNCT	FF	_	17	punct	_	SpacesAfter=\s\s\s
+20	LADRI	LADRI	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+

@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che macchina il corpo umano!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	umano	umano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = !!
+1	!	!	PUNCT	FS	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = È una cosa straordinaria e non ci posso credere che sta succedendo dentro di me!
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	straordinaria	straordinario	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	expl	_	_
+8	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	credere	credere	VERB	V	VerbForm=Inf	3	conj	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	succedendo	succedere	VERB	V	VerbForm=Ger	9	ccomp	_	_
+13	dentro	dentro	ADV	B	_	12	advmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Avrei voluto vedere il continuo
+1	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	continuo	continuo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpacesAfter=\n\n
+

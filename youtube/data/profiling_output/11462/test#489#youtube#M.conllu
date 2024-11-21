@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma porc@ puttan@ parla quello che quando era presidente del consiglio a fatto finire l'Italia nella merda .
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	porc@	porc@	PROPN	SP	_	4	nsubj	_	_
+3	puttan@	puttan@	PROPN	SP	_	2	flat:name	_	_
+4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	quando	quando	SCONJ	CS	_	9	mark	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+15	finire	finire	VERB	V	VerbForm=Inf	14	acl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	Italia	Italia	PROPN	SP	_	15	obj	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	merda	merda	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Adesso che è "segretario" del pd ,(seppur dica cosa fare e cosa non fare a quella nullità del capogruppi Martina ), sparla di Conte, Di Maio e Salvini, mentre lui sarebbe il primo da commentare per come ha "gestito" l'Italia in questi anni.
+1	Adesso	adesso	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	1	ccomp	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpacesAfter=\s\s
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pd	pd	NOUN	S	Gender=Masc	5	nmod	_	_
+10	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	seppur	seppure	ADV	B	_	13	advmod	_	_
+13	dica	dire	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	14	acl	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	19	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	15	conj	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	nullità	nullità	NOUN	S	Gender=Fem	19	obl	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	capogruppi	capogruppo	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	Martina	Martina	PROPN	SP	_	25	nmod	_	_
+27	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	5	punct	_	_
+29-30	sparla	_	_	_	_	_	_	_	_
+29	spar	spare	VERB	V	VerbForm=Inf	5	csubj	_	_
+30	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Conte	Conte	PROPN	SP	_	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	Di	Di	ADP	E	_	35	case	_	_
+35	Maio	Maio	PROPN	SP	_	32	nmod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	Salvini	Salvini	PROPN	SP	_	35	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	43	punct	_	_
+39	mentre	mentre	SCONJ	CS	_	43	mark	_	_
+40	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+41	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	29	conj	_	_
+44	da	da	ADP	E	_	45	mark	_	_
+45	commentare	commentare	VERB	V	VerbForm=Inf	43	advcl	_	_
+46	per	per	ADP	E	_	48	mark	_	_
+47	come	come	SCONJ	CS	_	46	fixed	_	_
+48	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	advcl	_	_
+49	"	"	PUNCT	FB	_	50	punct	_	SpaceAfter=No
+50	gestito	gestire	NOUN	S	Gender=Masc|Number=Sing	48	obj	_	SpaceAfter=No
+51	"	"	PUNCT	FB	_	50	punct	_	_
+52	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	53	det	_	SpaceAfter=No
+53	Italia	Italia	PROPN	SP	_	48	nsubj	_	_
+54	in	in	ADP	E	_	56	case	_	_
+55	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	56	det	_	_
+56	anni	anno	NOUN	S	Gender=Masc|Number=Plur	53	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Tutto ciò è un parere personale.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	parere	parere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	personale	personale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

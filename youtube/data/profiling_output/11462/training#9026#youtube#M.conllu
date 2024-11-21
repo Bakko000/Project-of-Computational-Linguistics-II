@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bravo!
+1	Bravo	bravo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Bel video e bel canale.
+1	Bel	Bel	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	bel	bello	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	canale	canale	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Complimenti anche per la forza che hai!
+1	Complimenti	complimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	SpacesAfter= \s
+3	per	per	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forza	forza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+7	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

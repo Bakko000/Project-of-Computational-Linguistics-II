@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Complimenti!
+1	Complimenti	complimenti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = bellissimo reportage, divertente e ben fatto.
+1	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	_
+2	reportage	reportage	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	divertente	divertente	ADJ	A	Number=Sing	2	amod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	ben	bene	ADV	B	_	7	advmod	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Complimenti anche per un viaggio che da tempo vorrei fare anch'io.
+1	Complimenti	complimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+9	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+11	anch'	anche	ADV	B	_	12	advmod	_	SpaceAfter=No
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

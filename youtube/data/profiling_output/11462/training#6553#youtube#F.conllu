@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi ragazzi , nn fate mapassoni
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	nn	nno	ADP	E	_	6	case	_	_
+5	fate	fare	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	mapassoni	mapassone	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Vi ho detto niente mapassoni, alooooooooraaaaa ?
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+5	mapassoni	mapassone	NOUN	S	Gender=Masc|Number=Plur	4	compound	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\s\s
+7	alooooooooraaaaa	alooooooooraaaaa	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sai, se mio cane vede questo chiama suoi amici e organizza un piscia-party sopra !!!!
+1	Sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	cane	cane	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+8	chiama	chiama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	amici	amico	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	organizza	organizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	piscia-party	piscia-party	NOUN	S	Gender=Masc	12	obj	_	_
+15	sopra	sopra	ADV	B	_	12	advmod	_	_
+16	!!!	!!!	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

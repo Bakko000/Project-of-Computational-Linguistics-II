@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vorrei dissentire!
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dissentire	dissentire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il dialetto è una parte importante della lingua Italiana e sopratutto della cultura italiana.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dialetto	dialetto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	importante	importante	ADJ	A	Number=Sing	5	amod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	Italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	sopratutto	sopratutto	ADV	B	_	15	advmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+16	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = prima di parlare l'italiano scolastico si impara il dialetto in famiglia, che è il succo di una tradizione popolare basilare e interessante, quanto varia e piena di sfaccettature.
+1	prima	prima	ADV	B	_	3	mark	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	8	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	scolastico	scolastico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	impara	imparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dialetto	dialetto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	succo	succo	NOUN	S	Gender=Masc|Number=Sing	10	acl:relcl	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	popolare	popolare	ADJ	A	Number=Sing	20	amod	_	_
+22	basilare	basilare	ADJ	A	Number=Sing	20	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	interessante	interessante	ADJ	A	Number=Sing	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	quanto	quanto	ADV	B	_	27	advmod	_	_
+27	varia	vario	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	27	conj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	sfaccettature	sfaccettatura	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = La nostra stessa lingua italiana "pura" è un'estensione geografica e linguistica del dialetto fiorentino...
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+5	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	pura	puro	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	estensione	estensione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	geografica	geografico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	linguistica	linguistico	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	dialetto	dialetto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+18	fiorentino..	fiorentino..	NOUN	S	_	17	compound	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = quindi sto di fatto scrivendo in dialetto!
+1	quindi	quindi	ADV	B	_	2	advmod	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	scrivendo	scrivere	VERB	V	VerbForm=Ger	2	advcl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	dialetto	dialetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Prima di darci dei "killer",informati!
+1	Prima	prima	ADV	B	_	3	mark	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3-4	darci	_	_	_	_	_	_	_	_
+3	dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	killer	killer	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+11	informati	informare	ADJ	A	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

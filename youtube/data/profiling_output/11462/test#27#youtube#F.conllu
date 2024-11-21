@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 16 è un numero indicativo, questo programma fa vedere delle ragazze giovani che rimangono incinta.
+1	16	16	NUM	N	NumType=Card	4	nummod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	numero	numero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	indicativo	indicativo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	programma	programma	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	vedere	vedere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	giovani	giovane	ADJ	A	Number=Plur	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	rimangono	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	incinta	incinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = A 20 anni credo che si è ancora delle ragazze.
+1	A	a	ADP	E	_	3	case	_	_
+2	20	20	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	ancora	ancora	ADV	B	_	11	advmod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Oltre a questo, i commenti riguardanti al lavoro che faceva prima non hanno per nulla senso, le persone sono libere di fare la vita che vogliono e poi sinceramente non ci trovo nulla di male.
+1	Oltre	oltre	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+7	riguardanti	riguardare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	6	acl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13	prima	prima	ADV	B	_	12	advmod	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	nulla	nulla	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	senso	senso	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	persone	persona	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+22	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	libere	libero	ADJ	A	Gender=Fem|Number=Plur	15	conj	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	fare	fare	VERB	V	VerbForm=Inf	23	advcl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	vita	vita	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	e	e	CCONJ	CC	_	35	cc	_	_
+31	poi	poi	ADV	B	_	35	advmod	_	_
+32	sinceramente	sinceramente	ADV	B	_	35	advmod	_	_
+33	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+34	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	35	expl	_	_
+35	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	conj	_	_
+36	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	35	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	male	male	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n\n
+

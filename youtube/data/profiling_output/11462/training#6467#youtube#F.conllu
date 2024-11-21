@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Laura Boldrini è indiscutibile, come persona e come politica.
+1	Laura	Laura	PROPN	SP	_	4	nsubj	_	_
+2	Boldrini	Boldrini	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	indiscutibile	indiscutibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	politica	politica	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = L'unica con cui condivido appieno i valori e l'etica.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	5	obl	_	_
+5	condivido	condividere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	appieno	appieno	ADV	B	_	5	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	valori	valore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	etica	etica	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Grazie a persone come lei non ho ancora perso del tutto fiducia nell'umanità.
+1	Grazie	grazie	NOUN	S	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	13	det:poss	_	_
+13	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	umanità	umanità	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Immensa.Che donna!
+1	Immensa.Che	Immensa.Co	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

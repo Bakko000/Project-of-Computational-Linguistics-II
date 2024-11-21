@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = VISTI GLI ASCOLTI CHE PARE ANCHE QUESTO ANNO FACCIA SAN REMO, NON VI
+1	VISTI	vedere	PROPN	SP	_	0	root	_	_
+2	GLI	il	PROPN	SP	_	1	flat:name	_	_
+3	ASCOLTI	ASCOLTI	PROPN	SP	_	2	flat:name	_	_
+4	CHE	che	PROPN	SP	_	2	flat:name	_	_
+5	PARE	Pare	PROPN	SP	_	1	flat:name	_	_
+6	ANCHE	anche	PROPN	SP	_	1	nmod	_	_
+7	QUESTO	questo	PROPN	SP	_	6	flat:name	_	_
+8	ANNO	Anno	PROPN	SP	_	6	flat:name	_	_
+9	FACCIA	faccia	PROPN	SP	_	6	flat:name	_	_
+10	SAN	San	PROPN	SP	_	6	flat:name	_	_
+11	REMO	REMO	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	NON	Non	PROPN	SP	_	6	nmod	_	_
+14	VI	VI	ADJ	NO	Number=Sing|NumType=Ord	13	amod	_	_
+
+# sent_id = 2
+# text = VIENE IL SOSPETTO CHE ABBIA RAGIONE DI BATTISTA A DIRE CHE ORMAI QUELLO ITALIANO E' UN POPOLO RINCOGLIONITO?
+1	VIENE	venire	PROPN	SP	_	0	root	_	_
+2	IL	il	PROPN	SP	_	1	flat:name	_	_
+3	SOSPETTO	sospetto	PROPN	SP	_	1	flat:name	_	_
+4	CHE	Che	PROPN	SP	_	1	flat:name	_	_
+5	ABBIA	avere	PROPN	SP	_	1	flat:name	_	_
+6	RAGIONE	ragione	PROPN	SP	_	1	flat:name	_	_
+7	DI	Di	ADP	E	_	8	case	_	_
+8	BATTISTA	Battista	PROPN	SP	_	1	nmod	_	_
+9	A	a	ADP	E	_	10	case	_	_
+10	DIRE	dire	PROPN	SP	_	8	nmod	_	_
+11	CHE	che	PROPN	SP	_	10	flat:name	_	_
+12	ORMAI	ormai	PROPN	SP	_	10	flat:name	_	_
+13	QUELLO	quello	PROPN	SP	_	12	flat:name	_	SpacesAfter=\s\s
+14	ITALIANO	italiano	PROPN	SP	_	12	flat:name	_	_
+15	E'	e'	PROPN	SP	_	12	flat:name	_	_
+16	UN	Un	PROPN	SP	_	15	flat:name	_	_
+17	POPOLO	popolo	PROPN	SP	_	15	flat:name	_	_
+18	RINCOGLIONITO	RINCOGLIONITO	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = IO HO ORGOGLIO PER MIA MADRE:
+1	IO	io	PROPN	SP	_	0	root	_	_
+2	HO	avere	PROPN	SP	_	1	flat:name	_	_
+3	ORGOGLIO	orgoglio	PROPN	SP	_	1	flat:name	_	_
+4	PER	per	PROPN	SP	_	1	flat:name	_	_
+5	MIA	mia	PROPN	SP	_	4	flat:name	_	_
+6	MADRE	madre	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = PASSATI GLI 85 ANNI, L'ULTIMO SANREMO CHE HA VISTO E' STATO QUELLO CUI PARTECIPO' BATTISTI:
+1	PASSATI	passati	PROPN	SP	_	0	root	_	_
+2	GLI	gli	PROPN	SP	_	1	flat:name	_	_
+3	85	85	NUM	N	NumType=Card	4	nummod	_	_
+4	ANNI	anno	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ULTIMO	ultimo	PROPN	SP	_	1	appos	_	_
+8	SANREMO	Sanremo	PROPN	SP	_	7	flat:name	_	_
+9	CHE	Che	PROPN	SP	_	7	flat:name	_	_
+10	HA	Ha	PROPN	SP	_	7	flat:name	_	_
+11	VISTO	visto	PROPN	SP	_	7	flat:name	_	_
+12	E'	essere	PROPN	SP	_	7	flat:name	_	_
+13	STATO	essere	PROPN	SP	_	7	flat:name	_	_
+14	QUELLO	quello	PROPN	SP	_	7	flat:name	_	_
+15	CUI	cui	PROPN	SP	_	7	flat:name	_	_
+16	PARTECIPO'	PARTECIPO'	PROPN	SP	_	7	flat:name	_	_
+17	BATTISTI	Battisti	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = PER I RIMANENTI HA SEMPRE TROVATO QUALCOSA DI PIU' INTERESSANTE DA VEDERE - ANCHE SE ORMAI DICE CHE TUTTA LA TV E' DIVENUTA UN CESSO...
+1	PER	per	ADP	E	_	3	case	_	_
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	RIMANENTI	rimanento	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+4	HA	avere	PROPN	SP	_	0	root	_	_
+5	SEMPRE	sempre	ADV	B	_	4	advmod	_	_
+6	TROVATO	trovare	PROPN	SP	_	4	nmod	_	_
+7	QUALCOSA	qualcosa	PROPN	SP	_	6	flat:name	_	_
+8	DI	Di	ADP	E	_	9	case	_	_
+9	PIU'	PIU'	PROPN	SP	_	6	nmod	_	_
+10	INTERESSANTE	interessante	PROPN	SP	_	9	nmod	_	_
+11	DA	Da	PROPN	SP	_	10	flat:name	_	_
+12	VEDERE	vedere	PROPN	SP	_	10	flat:name	_	_
+13	-	-	PUNCT	FF	_	14	punct	_	_
+14	ANCHE	anche	PROPN	SP	_	4	flat:name	_	_
+15	SE	se	PROPN	SP	_	14	flat:name	_	_
+16	ORMAI	ormai	PROPN	SP	_	14	flat:name	_	_
+17	DICE	Dice	PROPN	SP	_	23	nsubj	_	_
+18	CHE	che	PROPN	SP	_	17	flat:name	_	_
+19	TUTTA	tutta	PROPN	SP	_	17	flat:name	_	_
+20	LA	La	PROPN	SP	_	17	flat:name	_	_
+21	TV	TV	PROPN	SP	_	17	flat:name	_	_
+22	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	DIVENUTA	divenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
+24	UN	uno	PROPN	SP	_	23	nsubj:pass	_	_
+25	CESSO..	CESSO..	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	23	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,52 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vide bellissimo!
+1	Vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	1	xcomp	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sto organizzando il mio viaggio (con un tour operator)...
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	organizzando	organizzare	VERB	V	VerbForm=Ger	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tour	tour	NOUN	S	Gender=Masc	5	nmod	_	_
+10	operator	operatore	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	...	.	PUNCT	FF	_	2	punct	_	_
+
+# sent_id = 3
+# text = mi consigliano la Norvegia..
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	consigliano	consigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Norvegia.	Norvegia.	PROPN	SP	_	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = tu cosa ne pensi?
+1	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Hai dei suggerimenti?
+1	Hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	suggerimenti	suggerimento	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Grazie
+1	Grazie	grazie	NOUN	S	_	0	root	_	SpacesAfter=\n\n
+

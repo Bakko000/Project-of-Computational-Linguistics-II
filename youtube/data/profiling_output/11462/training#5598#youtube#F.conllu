@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una campagna elettorale orribile e volgare!
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	elettorale	elettorale	ADJ	A	Number=Sing	2	amod	_	_
+4	orribile	orribile	ADJ	A	Number=Sing	2	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	volgare	volgare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Contenuti 0, solo insulti osceni...
+1	Contenuti	contenere	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+2	0	0	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	insulti	insulto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	osceni..	osceni	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Chi non andrà a votare sarà molto giustificato...
+1	Chi	chi	PRON	PQ	PronType=Int	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	andrà	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	acl:relcl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	votare	votare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	giustificato..	giustificato	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+

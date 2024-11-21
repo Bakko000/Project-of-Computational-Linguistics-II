@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mah, e' come dire "andiamo in guerra " e poi non fare assolutamente niente.....
+1	Mah	Mah	INTJ	I	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+4	'	'	PUNCT	FB	_	6	punct	_	_
+5	come	come	ADP	E	_	6	mark	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	1	conj	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	"	"	PUNCT	FB	_	8	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	poi	poi	ADV	B	_	15	advmod	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	1	conj	_	_
+16	assolutamente	assolutamente	ADV	B	_	15	advmod	_	_
+17	niente.....	niente...	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = E poi dire, " vedete, siamo in guerra e non è ancora morto nessuno.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	_
+6	vedete	vedere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	ancora	ancora	ADV	B	_	15	advmod	_	_
+15	morto	morire	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+16	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Eppure dicevano che sarebbero cadute le bombe, morti.
+1	Eppure	eppure	CCONJ	CC	_	2	cc	_	_
+2	dicevano	dicevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	cadute	cadere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	bombe	bomba	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	morti	morto	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Invece niente!"
+1	Invece	invece	ADV	B	_	2	advmod	_	_
+2	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Grazie al cazzo dico io.
+1	Grazie	grazie	NOUN	S	_	4	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+5	dico	dire	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = In Inghilterra adesso sono ancora in Europa con tutti i vantaggi, senza tariffe e con Las sterlina svaluta.
+1	In	in	ADP	E	_	2	case	_	_
+2	Inghilterra	Inghilterra	PROPN	SP	_	7	obl	_	_
+3	adesso	adesso	ADV	B	_	7	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	ancora	ancora	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Europa	Europa	PROPN	SP	_	0	root	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	vantaggi	vantaggio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	senza	senza	ADP	E	_	14	case	_	_
+14	tariffe	tariffe	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	Las	Las	PROPN	SP	_	14	conj	_	_
+18	sterlina	sterlino	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	svaluta	svaluto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Vediamo che succede quando comincia la guerra per davvero.
+1	Vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	quando	quando	SCONJ	CS	_	5	mark	_	_
+5	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	davvero	davvero	ADV	B	_	5	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

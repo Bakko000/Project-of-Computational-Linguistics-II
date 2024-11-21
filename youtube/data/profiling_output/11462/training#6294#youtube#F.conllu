@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = MA QUESTA E' TOTALMENTE PRIVA DI ARGOMENTAZIONI E DI PROBLEM SOLVING....
+1	MA	ma	PROPN	SP	_	0	root	_	_
+2	QUESTA	questa	PROPN	SP	_	1	flat:name	_	_
+3	E'	essere	PROPN	SP	_	1	flat:name	_	_
+4	TOTALMENTE	totalmente	PROPN	SP	_	1	flat:name	_	_
+5	PRIVA	privare	PROPN	SP	_	4	flat:name	_	_
+6	DI	Di	ADP	E	_	7	case	_	_
+7	ARGOMENTAZIONI	ARGOMENTAZIONI	PROPN	SP	_	1	flat:name	_	_
+8	E	e	PROPN	SP	_	7	flat:name	_	_
+9	DI	Di	ADP	E	_	10	case	_	_
+10	PROBLEM	PROBLEM	PROPN	SP	_	7	nmod	_	_
+11	SOLVING...	SOLVING...	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = E' Capace soltanto di buttare merda sugli avversari politici senza avere la minima capacità propositiva....
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	Capace	capace	PROPN	SP	_	0	root	_	_
+3	soltanto	soltanto	ADV	B	_	5	advmod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	buttare	buttare	VERB	V	VerbForm=Inf	2	csubj	_	_
+6	merda	merda	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7-8	sugli	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	avversari	avversario	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	politici	politico	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	senza	senza	ADP	E	_	12	mark	_	_
+12	avere	avere	VERB	V	VerbForm=Inf	5	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	minima	minimo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	capacità	capacità	NOUN	S	Gender=Fem	12	obj	_	_
+16	propositiva...	propositiva.	NOUN	S	_	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = chissà cosa crede di fare con quei tre cartelli con annessa "# e frasi sconclusionate"....??
+1	chissà	chissà	ADV	B	_	3	advmod	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+3	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+8	tre	tre	NUM	N	NumType=Card	9	nummod	_	_
+9	cartelli	cartello	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	annessa	annessa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	#	#	PUNCT	FF	_	15	punct	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+16	sconclusionate	sconclusionato	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	....	....	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ?
+1	?	?	PUNCT	FS	_	0	root	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ?
+1	?	?	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 6
+# text = Cosa crede che tutti gli italiani siano una manica di mentecatti incapaci e lobotomizzati?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	nsubj	_	_
+2	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	manica	manica	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	mentecatti	mentecatto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	incapaci	incapace	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	lobotomizzati	lobotomizzato	ADJ	A	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma per favoreeee...
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	favoreeee...	favoreeee...	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 8
+# text = non so come non si vergogni...
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	come	come	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	vergogni..	vergogni	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Demenziale o idiota?
+1	Demenziale	Demenziale	ADJ	A	Number=Sing	0	root	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	idiota	idioto	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Mah forse entrambe le cose....
+1	Mah	Mah	INTJ	I	_	5	discourse	_	_
+2	forse	forse	ADV	B	_	5	advmod	_	_
+3	entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	cose...	cose...	NOUN	S	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

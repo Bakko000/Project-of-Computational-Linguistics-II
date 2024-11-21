@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io sono felice di vedere questa persona con la barba, se è quello che vuole fa bene a farlo.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	vedere	vedere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	persona	persona	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	barba	barba	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	se	se	SCONJ	CS	_	14	mark	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	advcl	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	fa	fare	ADV	B	_	16	advmod	_	_
+18	bene	bene	ADV	B	_	16	advmod	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20-21	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+20	far	fare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Io sinceramente non ci trovo niente di così anormale.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	sinceramente	sinceramente	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	anormale	anormale	ADJ	A	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Per me è una persona che merita di essere rispettata e capita, e ha il diritto e pari opportunità di ogni altro essere umano.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	persona	persona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	merita	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	essere	essere	AUX	VA	VerbForm=Inf	10	aux	_	_
+10	rispettata	rispettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	capita	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	pari	pari	ADJ	A	_	20	amod	_	_
+20	opportunità	opportunità	NOUN	S	Gender=Fem	17	conj	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obl	_	_
+24	essere	essere	AUX	V	VerbForm=Inf	25	cop	_	_
+25	umano	umere	ADJ	A	Gender=Masc|Number=Sing	20	acl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Non ci si deve permettere di vedere male una persona perché sceglie una vita che la renda felice.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	permettere	permettere	VERB	V	VerbForm=Inf	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	vedere	vedere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	male	male	ADV	B	_	7	advmod	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	persona	persona	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	perché	perché	SCONJ	CS	_	12	mark	_	_
+12	sceglie	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	renda	renda	NOUN	S	Gender=Fem|Number=Sing	14	acl:relcl	_	_
+18	felice	felice	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

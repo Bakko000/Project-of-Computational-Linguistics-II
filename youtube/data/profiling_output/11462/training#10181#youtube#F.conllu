@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao!
+1	Ciao	ciao	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sono un fotografo e ...sì, confermo di sognarmela di notte l'Islanda e di svegliarmi tutta sudata!
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fotografo	fotografo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	...sì	...sì	INTJ	I	Polarity=Pos	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	confermo	confermo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sognarmela	sognarmela	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	notte	notte	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	Islanda	Islanda	PROPN	SP	_	3	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	svegliarmi	arma|svegliarme	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+17	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	sudata	sudato	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Spero di avere un giorno l'opportunità di visitarla.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	avere	avere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	opportunità	opportunità	NOUN	S	Gender=Fem	3	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	visitarla	_	_	_	_	_	_	_	SpaceAfter=No
+9	visitar	visitare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Grazie per il documentario, è bellissimo!
+1	Grazie	grazie	NOUN	S	_	7	obl	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	documentario	documentario	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Da guardare e riguardare ;-)
+1	Da	da	ADP	E	_	2	mark	_	_
+2	guardare	guardare	VERB	V	VerbForm=Inf	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	riguardare	riguardare	VERB	V	VerbForm=Inf	2	conj	_	_
+5	;	;	PUNCT	FC	_	2	punct	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+

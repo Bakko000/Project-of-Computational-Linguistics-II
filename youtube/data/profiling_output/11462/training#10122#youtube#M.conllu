@@ -1,0 +1,38 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ennesimo capolavoro.
+1	Ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	capolavoro	capolavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..nn mi sono rimaste più parole x definire la bravura e la grande professionalità che contraddistingue ogni tuo video.
+1	..nn	..nno	ADP	E	_	2	case	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	più	più	ADV	B	_	4	advmod	_	_
+6	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+7	x	x	SYM	SYM	_	4	xcomp	_	_
+8	definire	definire	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bravura	bravura	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	grande	grande	ADJ	A	Number=Sing	14	amod	_	_
+14	professionalità	professionalità	NOUN	S	Gender=Fem	10	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	contraddistingue	contraddistinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+18	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	video.	video.	NOUN	S	_	16	obj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ..Un appuntamento ormai irrinunciabile...
+1	..Un	..Uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	ormai	ormai	ADV	B	_	4	advmod	_	_
+4	irrinunciabile..	irrinunciabile	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

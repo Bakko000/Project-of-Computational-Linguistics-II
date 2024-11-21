@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Chapeau!
+1	Chapeau	Chapeau	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Era tempo che cercavo di raccapezzarmi in una storia che viene raccontata sempre in modo diverso da persone impreparate.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	cercavo	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	csubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	raccapezzarmi	arma|raccapezzarme	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj:pass	_	_
+11	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	raccontata	raccontare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+13	sempre	sempre	ADV	B	_	12	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	modo	modo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	impreparate	impreparato	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Io sono ignorante, decisamente ignorante in materia.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ignorante	ignorare	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	decisamente	decisamente	ADV	B	_	6	advmod	_	_
+6	ignorante	ignorare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	3	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	materia	materia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ma mi piacerebbe capire, saperne di più.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	capire	capire	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	saperne	sapernere	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	più	più	ADV	B	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = A cominciare dalle origini e per finire con i machiavellismi politici attuali.
+1	A	a	ADP	E	_	2	mark	_	_
+2	cominciare	cominciare	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	dalle	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	origini	origine	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	finire	finire	VERB	V	VerbForm=Inf	2	conj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	machiavellismi	machiavellismo	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	politici	politico	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	attuali	attuale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Grazie
+1	Grazie	grazie	NOUN	S	_	0	root	_	SpacesAfter=\n\n
+

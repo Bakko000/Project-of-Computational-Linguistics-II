@@ -1,0 +1,53 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La MIA AMATA SARDEGNA, la mia terra favolosa...
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	MIA	mia	PROPN	SP	_	0	root	_	_
+3	AMATA	amata	PROPN	SP	_	2	flat:name	_	_
+4	SARDEGNA	Sardegna	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	terra	terra	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+9	favolosa...	favolosa.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Ti consiglio, quando torni, se sei al Nord di andare all'Asinara e a l'isola de la Maddalena...
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	5	mark	_	_
+5	torni	tornare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	se	se	SCONJ	CS	_	11	case	_	_
+8	sei	sei	NUM	N	NumType=Card	11	nummod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Nord	Nord	PROPN	SP	_	5	obl	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	andare	andare	VERB	V	VerbForm=Inf	11	acl	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Asinara	Asinara	PROPN	SP	_	13	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	isola	isola	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+21	de	de	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Maddalena..	Maddalena..	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Se sei a Cagliari assolutamente Villa Simius
+1	Se	se	SCONJ	CS	_	6	case	_	_
+2	sei	sei	NUM	N	NumType=Card	6	nummod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Cagliari	Cagliari	PROPN	SP	_	2	nmod	_	_
+5	assolutamente	assolutamente	ADV	B	_	6	advmod	_	_
+6	Villa	Villa	PROPN	SP	_	0	root	_	_
+7	Simius	Simius	PROPN	SP	_	6	flat:name	_	SpacesAfter=\n\n
+

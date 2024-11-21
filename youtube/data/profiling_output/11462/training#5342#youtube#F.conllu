@@ -1,0 +1,50 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Usa qualsiasi scusa: donna, non gli piaccio, mi odia!!!!
+1	Usa	usare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	scusa	scusa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	compound	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	piaccio	piaccio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	odia	odiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
+13	!!!	!!!	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Non siamo all’asilo.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3-4	all’	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	asilo	asilo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Sei in politica, non dovresti neanche menzionare il tuo sesso.
+1	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	politica	politica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	dovresti	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	neanche	neanche	ADV	BN	PronType=Neg	8	advmod	_	_
+8	menzionare	menzionare	VERB	V	VerbForm=Inf	3	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Raccomandata da cafoni
+1	Raccomandata	Raccomandare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	cafoni	cafone	NOUN	S	Gender=Masc|Number=Plur	1	obl:agent	_	SpacesAfter=\n\n
+

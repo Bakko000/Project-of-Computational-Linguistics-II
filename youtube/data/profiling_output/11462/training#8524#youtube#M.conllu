@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao a tutti i pedalatori, siete pronti per viaggiare in MTB su più giorni in tenda e sacco a pelo?
+1	Ciao	ciao	INTJ	I	_	8	discourse	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	pedalatori	pedalatore	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	viaggiare	viaggiare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	MTB	MTB	PROPN	SP	_	10	obl	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	tenda	tenda	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	pelo	pelo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Abbiamo creato e BREVETTATO per voi INNOVATIVE borse da viaggio!
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	BREVETTATO	BREVETTATO	PROPN	SP	_	2	conj	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	voi	vo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	INNOVATIVE	INNOVATIVE	PROPN	SP	_	4	nmod	_	_
+8	borse	borsa	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = più info sul sito ufficiale www.newbikeproducts.com/it - 100% MADE IN ITALY - meno di 300 gr per 16 lt su youtube:
+1	più	più	ADV	B	_	2	advmod	_	_
+2	info	info	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sito	sito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	ufficiale	ufficiale	ADJ	A	Number=Sing	5	amod	_	_
+7	www.newbikeproducts.com/it	www.newbikeproducts.com/it	ADJ	A	_	10	amod	_	SpacesAfter=\s\s
+8	-	-	PUNCT	FF	_	7	punct	_	_
+9	100	100	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	SYM	_	5	nmod	_	_
+11	MADE	made	PROPN	SP	_	10	nmod	_	_
+12	IN	in	PROPN	SP	_	11	flat:name	_	_
+13	ITALY	Italy	PROPN	SP	_	11	flat:name	_	_
+14	-	-	PUNCT	FF	_	11	punct	_	_
+15	meno	meno	ADV	B	_	18	case	_	_
+16	di	di	ADP	E	_	15	fixed	_	_
+17	300	300	NUM	N	NumType=Card	18	nummod	_	_
+18	gr	gr	NOUN	S	Gender=Masc	11	nmod	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	16	16	NUM	N	NumType=Card	21	nummod	_	_
+21	lt	lt	NOUN	S	Gender=Masc	18	nmod	_	SpacesAfter=\s\s
+22	su	su	ADP	E	_	23	case	_	_
+23	youtube	youtube	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = https://youtu.be/0L_l1fSWW_8 - grazie per il vostro MI PIACE !
+1	https://youtu.be/0L_l1fSWW_8	https://youtu.be/0L_l1fSWW_8	PROPN	SP	_	0	root	_	SpacesAfter=\s\s
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	grazie	grazie	NOUN	S	_	7	case	_	_
+4	per	per	ADP	E	_	3	fixed	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	MI	mi	PROPN	SP	_	1	nmod	_	_
+8	PIACE	piace	PROPN	SP	_	7	flat:name	_	SpacesAfter= 
+9	!	!	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+

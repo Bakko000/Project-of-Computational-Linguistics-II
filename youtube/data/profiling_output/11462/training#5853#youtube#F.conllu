@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gruber sei stata imparziale, non hai lasciato parlare Salvini, non sei affatto professionale.
+1	Gruber	Gruber	PROPN	SP	_	4	nsubj	_	SpacesAfter=\s\s
+2	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+4	imparziale	imparziale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+9	parlare	parlare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	Salvini	Salvini	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	SpacesAfter=\s\s
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	SpacesAfter=\s\s
+13	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	affatto	affatto	ADV	B	_	15	advmod	_	_
+15	professionale	professionale	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = ti schieri con chi commette reati.
+1	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+2	schieri	schiere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	obl	_	_
+5	commette	commettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+6	reati.	reati.	NOUN	S	_	5	obj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 4
+# text = questo e` dovuto al fatto che essendo tu strapiena di soldi non te ne frega nulla degli Italiani ridotti in poverta` sei sempre stata la tipica donna imborghesita.
+1	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	e`	e`	PROPN	SP	_	0	root	_	_
+3	dovuto	dovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpacesAfter=\s\s
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	essendo	essere	AUX	V	VerbForm=Ger	10	cop	_	_
+9	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+10	strapiena	strapieno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	advcl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	iobj	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+16	frega	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obj	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	Italiani	italiani	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	ridotti	ridurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	poverta`	poverta`	PROPN	SP	_	21	obl	_	SpacesAfter=\s\s
+24	sei	essere	NUM	N	NumType=Card	23	nummod	_	_
+25	sempre	sempre	ADV	B	_	29	advmod	_	_
+26	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	cop	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	tipica	tipico	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	donna	donna	NOUN	S	Gender=Fem|Number=Sing	21	xcomp	_	_
+30	imborghesita	imborghesire	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

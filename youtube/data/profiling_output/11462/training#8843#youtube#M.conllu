@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bellissimo viaggio e stupendo il video!
+1	Bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	_
+2	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	stupendo	stupire	VERB	V	VerbForm=Ger	2	conj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	video	video	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = !Curiosità: quanto ci hai messo?e cosa hai speso su per giù?
+1	!Curiosità	!Curiosità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	11	obj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+5	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	11	obj	_	_
+10	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	speso	spendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+12	su	su	ADV	B	_	14	advmod	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	giù	giù	ADV	B	_	11	advmod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = se posso ovviamente se no mi faccio i cazzi miei...Bravo!
+1	se	se	SCONJ	CS	_	2	mark	_	_
+2	posso	potere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ovviamente	ovviamente	ADV	B	_	2	advmod	_	_
+4	se	se	SCONJ	CS	_	7	mark	_	_
+5	no	no	ADV	BN	PronType=Neg	7	advmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cazzi	cazzo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	miei...Bravo	miei...Bravo	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

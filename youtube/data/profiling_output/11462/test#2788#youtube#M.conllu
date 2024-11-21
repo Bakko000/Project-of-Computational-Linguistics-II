@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutta roba fritta.
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
+2	roba	roba	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	fritta	fritto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Molto salutare ... nel senso:
+1	Molto	molto	ADV	B	_	2	advmod	_	_
+2	salutare	salutare	VERB	V	VerbForm=Inf	0	root	_	_
+3	...	...	PUNCT	FF	_	2	punct	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	senso	senso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = ciao ciao salute!
+1	ciao	ciao	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	ciao	ciao	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	salute	salute	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

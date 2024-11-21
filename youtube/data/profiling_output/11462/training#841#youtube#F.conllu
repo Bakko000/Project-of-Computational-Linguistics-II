@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "La Rai più ricca di sempre...
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Rai	Rai	PROPN	SP	_	0	root	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	sempre...	sempre...	NOUN	S	_	5	obl	_	_
+
+# sent_id = 2
+# text = per forza, hanno messo il canone in bolletta!
+1	per	per	ADP	E	_	2	case	_	_
+2	forza	forza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	canone	canone	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	bolletta	bolletta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 4
+# text = L'unica cosa giusta che è stata detta a san remo sicuramente...
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj:pass	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	san	san	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	remo	re	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	sicuramente...	sicuramente.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Rispondo dall hotel porto palacio 5 stelle a oporto:PRRRRRRRRRRRRrRRR 4 giorni pagati pranzo cene incluse.unico obbligo:una visitina domani alla fabbrica continental.taaaac Ciao sfigatelli.
+1	Rispondo	Rispondo	VERB	V	VerbForm=Ger	0	root	_	_
+2	dall	dall	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	hotel	hotel	NOUN	S	Gender=Masc	1	obj	_	_
+4	porto	porto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	palacio	palacio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	5	5	NUM	N	NumType=Card	7	nummod	_	_
+7	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	oporto	oporto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	:PRRRRRRRRRRRRrRRR	:PRRRRRRRRRRRRrRRR	PROPN	SP	_	9	nmod	_	_
+11	4	4	NUM	N	NumType=Card	12	nummod	_	_
+12	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	pagati	pagare	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	pranzo	pranzo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	flat:name	_	_
+15	cene	cena	SCONJ	CS	_	16	mark	_	_
+16	incluse.unico	incluse.unico	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+17	obbligo:una	obbligo:uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	visitina	visitinare	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	domani	domani	ADV	B	_	16	advmod	_	_
+20-21	alla	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fabbrica	fabbrica	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+23	continental.taaaac	continental.taaaac	NOUN	S	Gender=Fem	22	compound	_	_
+24	Ciao	ciao	PROPN	SP	_	16	obj	_	_
+25	sfigatelli.	sfigatelli.	NOUN	S	_	24	nmod	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ...Io aragosta e cosciotto d'anatra direttamente dal ristorante di masterchef portoghese.
+1	...Io	...Io	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	aragosta	aragorre	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	cosciotto	cosciurre	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	anatra	anatra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	direttamente	direttamente	ADV	B	_	10	advmod	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\s\s\s
+11	di	di	ADP	E	_	12	case	_	_
+12	masterchef	masterchef	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	portoghese	portoghese	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Voi roba fritta per strada e McDonald's.
+1	Voi	Vo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	roba	roba	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	fritta	fritto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	strada	strada	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	McDonald	McDonald	PROPN	SP	_	5	conj	_	SpaceAfter=No
+8	's	's	PART	PART	_	7	case	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = ...taaaac
+1	...taaaac	...taaaac	ADV	B	_	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = questa è la mia storia, solo la mia storia.
+1	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	solo	solo	ADV	B	_	10	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = nessuna malattia nessuna guarigione.
+1	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	guarigione	guarigione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = capolavoro di canzone e grande artista.
+1	capolavoro	capolavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	artista	artista	NOUN	S	Number=Sing	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

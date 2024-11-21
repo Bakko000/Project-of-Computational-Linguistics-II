@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che miserabile certa gente , cerca di buttarla nel vittimismo .
+1	Che	che	DET	DQ	PronType=Int	4	det	_	_
+2	miserabile	miserabile	ADJ	A	Number=Sing	4	amod	_	_
+3	certa	certo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	buttarla	_	_	_	_	_	_	_	_
+8	buttar	buttare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	vittimismo	vittimismo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Travaglio mi odia , parla sempre male di me etc etc .
+1	Travaglio	Travaglio	PROPN	SP	_	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	odia	odiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	sempre	sempre	ADV	B	_	5	advmod	_	_
+7	male	male	ADV	B	_	5	advmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	me	me	X	SW	Foreign=Yes	5	obl	_	_
+10	etc	etc	X	SW	Foreign=Yes	9	flat:foreign	_	_
+11	etc	etc	X	SW	Foreign=Yes	5	obj	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Cacchio il conflitto i interessi purtroppo in Italia non fa più impressione , è diventato normale amministrazione .
+1	Cacchio	Cacchio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	conflitto	conflitto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpacesAfter= \s
+6	purtroppo	purtroppo	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	5	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter= 
+11	più	più	ADV	B	_	10	advmod	_	_
+12	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+16	normale	normale	ADJ	A	Number=Sing	17	amod	_	_
+17	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	15	xcomp	_	SpacesAfter= 
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Che squallore questi politicanti , che pena . 30 Anni di mala politica decenni di squallore puro .
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	squallore	squallore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	politicanti	politicante	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	DET	DE	PronType=Exc	7	det	_	_
+7	pena	pena	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	SpacesAfter= 
+8	.	.	PUNCT	FS	_	7	punct	_	_
+9	30	30	NUM	N	NumType=Card	10	nummod	_	_
+10	Anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	mala	mala	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+13	politica	politico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	squallore	squallore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpacesAfter= 
+17	puro	puro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Da potenza industriale a potenza di corruzione , da italiani popolo di poeti e navigatori a centro d'accoglienza per migliaia di delinquenti (insieme a sfortunati che scappa dalla guerra e miseria ) Dobbiamo proprio ringraziare i partiti che si sono alternati fino a oggi .
+1	Da	da	ADP	E	_	2	case	_	_
+2	potenza	potenza	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+3	industriale	industriale	ADJ	A	Number=Sing	2	amod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	potenza	potenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	corruzione	corruzione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	poeti	poeta	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	navigatori	navigatore	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	centro	centro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpacesAfter= \s
+20	per	per	ADP	E	_	21	case	_	_
+21	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	delinquenti	delinquento	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+25	insieme	insieme	ADV	B	_	27	case	_	_
+26	a	a	ADP	E	_	25	fixed	_	_
+27	sfortunati	sfortunato	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	scappa	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30-31	dalla	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	miseria	miseria	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
+35	)	)	PUNCT	FB	_	27	punct	_	_
+36	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	38	aux	_	_
+37	proprio	proprio	ADV	B	_	38	advmod	_	_
+38	ringraziare	ringraziare	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter= \s
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+41	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+42	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl	_	_
+43	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	alternati	alternare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+45	fino	fino	ADV	B	_	47	case	_	_
+46	a	a	ADP	E	_	45	fixed	_	_
+47	oggi	oggi	ADV	B	_	44	advmod	_	_
+48	.	.	PUNCT	FS	_	38	punct	_	SpacesAfter=\n\n
+

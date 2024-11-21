@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Favi a i signori che hai salutato hai detto:
+1	Favi	Favo	ADV	B	_	9	advmod	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	signori	signore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	salutato	salutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = "grazie arrivederci".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	grazie	grazie	NOUN	S	_	3	case	_	_
+3-4	arrivederci	_	_	_	_	_	_	_	SpaceAfter=No
+3	arriveder	arrivedere	NOUN	S	_	4	nmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	0	root	_	_
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quindi tranquillo, qualcosa di sensato lo hai detto!!
+1	Quindi	quindi	ADV	B	_	2	advmod	_	_
+2	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	9	iobj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	sensato	sensato	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = 😂😂😂
+1	😂😂😂	😂😂😂	SYM	SYM	_	0	root	_	SpacesAfter=\n\n
+

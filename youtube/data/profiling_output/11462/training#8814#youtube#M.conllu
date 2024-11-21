@@ -1,0 +1,53 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = video pazzesco!
+1	video	video	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	pazzesco	pazzesco	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = !!!
+1	!!	!!	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = me lo sono visto tutto e avrei avuto voglia di continuare a vederlo, peccato che sei tornato a casa!!! bravo Stefano, complimenti!
+1	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	xcomp	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+9	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	continuare	continuare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13-14	vederlo	_	_	_	_	_	_	_	SpaceAfter=No
+13	veder	vedere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+17	che	che	SCONJ	CS	_	19	mark	_	_
+18	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	casa	casa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	!!!	!!!	PUNCT	FF	_	19	punct	_	_
+23	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	Stefano	Stefano	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	complimenti	complimenti	NOUN	S	Gender=Masc|Number=Plur	24	appos	_	SpaceAfter=No
+27	!	!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = !!!
+1	!!	!!	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Alessandro
+1	Alessandro	Alessandro	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

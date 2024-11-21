@@ -1,0 +1,25 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Grande Fiorello!!!
+1	Grande	Grande	ADJ	A	Number=Sing	2	amod	_	_
+2	Fiorello	Fiorello	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+4	!!	!!	PUNCT	FF	_	2	punct	_	_
+
+# sent_id = 2
+# text = Unico!
+1	Unico	unico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Ha colorato SanRemo!!!!!!!👏
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	colorato	colorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	SanRemo	Sanremo	PROPN	SP	_	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+5	!!	!!	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+6	!!	!!	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+7	!!👏	!!👏	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n\n
+

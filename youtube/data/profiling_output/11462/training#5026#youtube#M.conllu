@@ -1,0 +1,224 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Antonino Miraudo
+1	Antonino	Antonino	PROPN	SP	_	0	root	_	_
+2	Miraudo	Miraudo	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = 7 h ·
+1	7	7	NUM	N	NumType=Card	2	nummod	_	_
+2	h	h	X	X	_	0	root	_	_
+3	·	·	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = "IL PD RENZIANO IN TEMA DI DIRITTI DELLA PERSONA,
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	IL	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	PD	pd	PROPN	SP	_	0	root	_	_
+4	RENZIANO	RENZIANO	PROPN	SP	_	3	flat:name	_	_
+5	IN	in	PROPN	SP	_	3	flat:name	_	_
+6	TEMA	tema	PROPN	SP	_	5	flat:name	_	_
+7	DI	di	ADP	E	_	8	case	_	_
+8	DIRITTI	diritto	PROPN	SP	_	3	nmod	_	_
+9-10	DELLA	_	_	_	_	_	_	_	_
+9	DI	di	ADP	E	_	10	case	_	_
+10	LA	il	PROPN	SP	_	8	nmod	_	_
+11	PERSONA	persona	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = HA FATTO IN UN PAIO D'ANNI QUELLO CHE I D'ALEMA NON HANNO FATTO IN CINQUANTA....LA CAMPAGNA ELETTORALE SARA' UN FURIBONDO DERBY PD.-Leu, CON GRANDE E LEGITTIMO DIVERTIMENTO DELLE DESTRE E DEI GRILLINI." (Michele Serra).
+1	HA	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	FATTO	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	IN	in	PROPN	SP	_	2	obj	_	_
+4	UN	uno	PROPN	SP	_	3	flat:name	_	_
+5	PAIO	paio	PROPN	SP	_	3	flat:name	_	_
+6	D'	D'	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	ANNI	Anni	PROPN	SP	_	6	flat:name	_	_
+8	QUELLO	quello	PROPN	SP	_	6	flat:name	_	_
+9	CHE	che	PROPN	SP	_	6	flat:name	_	_
+10	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	D'ALEMA	D'ALEMA	PROPN	SP	_	6	flat:name	_	_
+12	NON	non	PROPN	SP	_	11	nmod	_	_
+13	HANNO	avere	PROPN	SP	_	12	flat:name	_	_
+14	FATTO	fare	PROPN	SP	_	12	flat:name	_	_
+15	IN	in	PROPN	SP	_	12	flat:name	_	_
+16	CINQUANTA....LA	CINQUANTA....LA	PROPN	SP	_	15	flat:name	_	_
+17	CAMPAGNA	campagna	PROPN	SP	_	15	flat:name	_	_
+18	ELETTORALE	elettorale	PROPN	SP	_	15	flat:name	_	_
+19	SARA'	SARA'	PROPN	SP	_	15	flat:name	_	_
+20	UN	Un	PROPN	SP	_	15	flat:name	_	_
+21	FURIBONDO	FURIBONDO	PROPN	SP	_	15	flat:name	_	_
+22	DERBY	Derby	PROPN	SP	_	15	flat:name	_	_
+23	PD.	PD.	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+24	-Leu	-Leu	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	15	punct	_	_
+26	CON	con	PROPN	SP	_	15	flat:name	_	_
+27	GRANDE	grande	PROPN	SP	_	26	flat:name	_	_
+28	E	e	CCONJ	CC	_	29	cc	_	_
+29	LEGITTIMO	legittimo	PROPN	SP	_	26	nmod	_	_
+30	DIVERTIMENTO	divertimento	PROPN	SP	_	29	flat:name	_	_
+31-32	DELLE	_	_	_	_	_	_	_	_
+31	DI	Di	ADP	E	_	32	case	_	_
+32	LE	Le	PROPN	SP	_	29	nmod	_	_
+33	DESTRE	DESTRE	PROPN	SP	_	32	flat:name	_	_
+34	E	e	CCONJ	CC	_	37	cc	_	_
+35-36	DEI	_	_	_	_	_	_	_	_
+35	DI	Di	ADP	E	_	37	case	_	_
+36	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	GRILLINI	GRILLINI	PROPN	SP	_	29	conj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	37	punct	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	37	punct	_	_
+40	(	(	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+41	Michele	Michele	PROPN	SP	_	37	nmod	_	_
+42	Serra	serra	PROPN	SP	_	41	flat:name	_	SpaceAfter=No
+43	)	)	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = SAPPIANO BENE GLI ITALIANI CHE NON C'E' ALCUNA POSSIBILITA' DI SALVEZZA FUORI
+1	SAPPIANO	SAPPIANO	PROPN	SP	_	0	root	_	_
+2	BENE	Bene	PROPN	SP	_	1	flat:name	_	_
+3	GLI	gli	PROPN	SP	_	1	flat:name	_	_
+4	ITALIANI	italiani	PROPN	SP	_	3	flat:name	_	_
+5	CHE	Che	PROPN	SP	_	3	flat:name	_	_
+6	NON	non	PROPN	SP	_	3	flat:name	_	_
+7	C'	c'	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+8	E'	essere	PROPN	SP	_	3	flat:name	_	_
+9	ALCUNA	alcuno	PROPN	SP	_	3	flat:name	_	_
+10	POSSIBILITA'	POSSIBILITA'	PROPN	SP	_	3	flat:name	_	_
+11	DI	Di	ADP	E	_	12	case	_	_
+12	SALVEZZA	salvezza	PROPN	SP	_	3	nmod	_	_
+13	FUORI	fuori	PROPN	SP	_	3	flat:name	_	_
+
+# sent_id = 6
+# text = DALLA SQUADRA DEL PD E CHE OGNI ANTIPATIA, CORRIVITA' STATI D'ODIO, IRRESPONSABILITA' ED EGOISMO SARA PAGATA ALLA CASSA IN BREVE TEMPO.
+1-2	DALLA	_	_	_	_	_	_	_	_
+1	DA	da	ADP	E	_	2	case	_	_
+2	LA	il	PROPN	SP	_	0	root	_	_
+3	SQUADRA	squadra	PROPN	SP	_	2	flat:name	_	_
+4-5	DEL	_	_	_	_	_	_	_	_
+4	DI	Di	ADP	E	_	5	case	_	_
+5	IL	il	PROPN	SP	_	2	nmod	_	_
+6	PD	pd	PROPN	SP	_	5	flat:name	_	_
+7	E	e	CCONJ	CC	_	28	cc	_	_
+8	CHE	Che	PROPN	SP	_	7	obj	_	_
+9	OGNI	ogni	PROPN	SP	_	8	flat:name	_	_
+10	ANTIPATIA	ANTIPATIA	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	CORRIVITA'	CORRIVITA'	PROPN	SP	_	8	conj	_	_
+13	STATI	Stati	PROPN	SP	_	12	flat:name	_	_
+14	D'	D'	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+15	ODIO	odio	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	IRRESPONSABILITA'	IRRESPONSABILITA'	PROPN	SP	_	8	conj	_	_
+18	ED	e	PROPN	SP	_	17	nmod	_	_
+19	EGOISMO	EGOISMO	PROPN	SP	_	18	flat:name	_	_
+20	SARA	Sara	PROPN	SP	_	18	flat:name	_	_
+21	PAGATA	pagare	PROPN	SP	_	18	flat:name	_	_
+22-23	ALLA	_	_	_	_	_	_	_	_
+22	A	a	ADP	E	_	23	case	_	_
+23	LA	il	PROPN	SP	_	18	nmod	_	_
+24	CASSA	Cassa	PROPN	SP	_	23	flat:name	_	_
+25	IN	In	PROPN	SP	_	23	flat:name	_	_
+26	BREVE	breve	PROPN	SP	_	23	nmod	_	_
+27	TEMPO	tempo	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = CIOE' QUANDO DOVREMO GUARDARE PER FORZA DI COSE NEGLI OCCHI LE NUOVE GENERAZIONI.
+1-2	CIOE'	_	_	_	_	_	_	_	_
+1	CIOI	Cio	PRON	PE	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+2	I	primo	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	QUANDO	Quando	PROPN	SP	_	1	nmod	_	_
+4	DOVREMO	dovere	PROPN	SP	_	3	flat:name	_	_
+5	GUARDARE	guardare	PROPN	SP	_	4	flat:name	_	_
+6	PER	per	PROPN	SP	_	4	flat:name	_	_
+7	FORZA	forza	PROPN	SP	_	4	flat:name	_	_
+8	DI	Di	ADP	E	_	9	case	_	_
+9	COSE	cose	PROPN	SP	_	4	nmod	_	_
+10-11	NEGLI	_	_	_	_	_	_	_	_
+10	IN	in	PROPN	SP	_	9	flat:name	_	_
+11	GLI	gli	PROPN	SP	_	9	flat:name	_	_
+12	OCCHI	occhi	PROPN	SP	_	11	flat:name	_	_
+13	LE	Le	PROPN	SP	_	11	flat:name	_	_
+14	NUOVE	nuove	PROPN	SP	_	11	nmod	_	_
+15	GENERAZIONI	generazioni	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = NON C'E' ITALIA SENZA EUROPA E SENZA EURO.
+1	NON	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	E'	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ITALIA	Italia	PROPN	SP	_	3	nsubj	_	_
+5	SENZA	senza	PROPN	SP	_	4	flat:name	_	_
+6	EUROPA	Europa	PROPN	SP	_	4	flat:name	_	_
+7	E	e	CCONJ	CC	_	8	cc	_	_
+8	SENZA	senza	PROPN	SP	_	4	conj	_	_
+9	EURO	Euro	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = SALVINI E DI MAIO PER QUANTO MI RIGUARDA NON RIESCO A VEDERLI NEPPURE COME COMPARSE IN UN FILM PANETTONE O NELLA CALZA DELLA BEFANA-PERSONALMENTE NON HO, COME TANTI, INTERESSI NELLA DITTA DELLA POLITICA.
+1	SALVINI	Salvini	PROPN	SP	_	38	nsubj	_	_
+2	E	E	PROPN	SP	_	1	flat:name	_	_
+3	DI	Di	ADP	E	_	4	case	_	_
+4	MAIO	Maio	PROPN	SP	_	5	nmod	_	_
+5	PER	per	PROPN	SP	_	38	nsubj	_	_
+6	QUANTO	quanto	PROPN	SP	_	5	flat:name	_	_
+7	MI	mi	PROPN	SP	_	5	flat:name	_	_
+8	RIGUARDA	riguarda	PROPN	SP	_	5	flat:name	_	_
+9	NON	non	PROPN	SP	_	5	flat:name	_	_
+10	RIESCO	riesco	PROPN	SP	_	5	flat:name	_	_
+11	A	A	ADP	E	_	12	case	_	_
+12-13	VEDERLI	_	_	_	_	_	_	_	_
+12	VEDER	veder	PROPN	SP	_	38	obl	_	_
+13	LI	li	PROPN	SP	_	12	flat:name	_	_
+14	NEPPURE	neppure	PROPN	SP	_	38	nsubj	_	_
+15	COME	come	PROPN	SP	_	14	flat:name	_	_
+16	COMPARSE	COMPARSE	PROPN	SP	_	14	flat:name	_	_
+17	IN	in	PROPN	SP	_	38	obj	_	_
+18	UN	Un	PROPN	SP	_	17	flat:name	_	_
+19	FILM	Film	PROPN	SP	_	17	flat:name	_	_
+20	PANETTONE	PANETTONE	PROPN	SP	_	17	flat:name	_	_
+21	O	O	PROPN	SP	_	17	flat:name	_	_
+22-23	NELLA	_	_	_	_	_	_	_	_
+22	IN	in	PROPN	SP	_	17	flat:name	_	_
+23	LA	La	PROPN	SP	_	17	flat:name	_	_
+24	CALZA	CALZA	PROPN	SP	_	17	flat:name	_	_
+25-26	DELLA	_	_	_	_	_	_	_	_
+25	DI	Di	ADP	E	_	26	case	_	_
+26	LA	La	PROPN	SP	_	17	flat:name	_	_
+27	BEFANA	BEFANA	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+28	-PERSONALMENTE	-PERSONALMENTE	PROPN	SP	_	17	flat:name	_	_
+29	NON	non	PROPN	SP	_	38	nsubj	_	_
+30	HO	Ho	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	COME	come	PROPN	SP	_	38	conj	_	_
+33	TANTI	tanto	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	32	punct	_	_
+35	INTERESSI	interesso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	38	acl	_	_
+36-37	NELLA	_	_	_	_	_	_	_	_
+36	IN	in	PROPN	SP	_	38	nsubj	_	_
+37	LA	il	PROPN	SP	_	36	flat:name	_	_
+38	DITTA	ditta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+39-40	DELLA	_	_	_	_	_	_	_	_
+39	DI	di	ADP	E	_	40	case	_	_
+40	LA	La	PROPN	SP	_	38	obl	_	_
+41	POLITICA	politica	PROPN	SP	_	40	flat:name	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	38	punct	_	_
+
+# sent_id = 10
+# text = GUARDATEVI DAI CANI
+1	GUARDATEVI	Guardare	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2-3	DAI	_	_	_	_	_	_	_	_
+2	DA	da	PROPN	SP	_	0	root	_	_
+3	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	CANI	cani	PROPN	SP	_	2	nmod	_	SpacesAfter=\n\n
+

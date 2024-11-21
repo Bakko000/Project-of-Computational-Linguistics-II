@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Povia, un Italiano con le palle e il cervello sempre acceso che non si accontenta delle favolette sinistrate che tutti devono ripetere (pena l'accusa banale di razzismo).
+1	Povia	Povia	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	palle	palla	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	acceso	acceso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	accontenta	accontentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	favolette	favoletta	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	sinistrate	sinistrato	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+22	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	nsubj	_	_
+23	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	ripetere	ripetere	VERB	V	VerbForm=Inf	19	acl:relcl	_	_
+25	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	pena	pena	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	banale	banale	ADJ	A	Number=Sing	28	amod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Hai detto la verità...
+1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	verità...	verità...	NOUN	S	_	2	nsubj	_	_
+
+# sent_id = 3
+# text = per questo hai fatto incazzare tutti sti stronzi, ste mezze calzette, ste persone col cervello preconfezionato.
+1	per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	incazzare	incazzare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	8	det	_	_
+7	sti	sto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	stronzi	stronzi	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	ste	rre	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	mezze	mezzo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	calzette	calzetta	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	ste	sto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+15	persone	persona	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+16-17	col	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	preconfezionato	preconfezionato	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ti stimo, orgoglioso che siamo dello stesso segno!
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	stimo	stimare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	orgoglioso	orgogliodere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7-8	dello	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	segno	segno	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

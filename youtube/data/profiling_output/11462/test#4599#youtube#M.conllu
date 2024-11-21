@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una canzone stupenda.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	stupenda.	stupenda.	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	SpaceAfter=No
+
+# sent_id = 2
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 3
+# text = grazie per l'estate 2017 in Sicilia.
+1	grazie	grazie	NOUN	S	_	4	case	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	estate	estate	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	2017	2017	NUM	N	NumType=Card	4	nummod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Sicilia	Sicilia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Abbiamo passato in estate bellissima ascoltando questa canzone.💙🌞🏝
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	estate	estate	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	2	amod	_	_
+6	ascoltando	ascoltare	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	canzone.💙🌞🏝	canzone.💙🌞🏝	PROPN	SP	_	6	obj	_	SpacesAfter=\n\n
+

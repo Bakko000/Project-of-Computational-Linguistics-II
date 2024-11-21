@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ignorante e squallido!
+1	Ignorante	Ignorante	ADJ	A	Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	squallido	squallido	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tu e questo commento!
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	commento	commento	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Non hai idea di che cosa sia la Divina Commedia, di cosa significhi per la lingua italiana e per la letteratura italiana!Tutto quello che leggi si basa sulla rivoluzione narrativa, culturale e linguistica di Dante!
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	che	che	DET	DQ	PronType=Int	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Divina	Divina	PROPN	SP	_	14	nsubj	_	_
+10	Commedia	commedia	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	14	obl	_	_
+14	significhi	significare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	letteratura	letteratura	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+23	italiana!Tutto	italiana!Tutto	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	26	obj	_	_
+26	leggi	legge	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	basa	basare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+29-30	sulla	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+32	narrativa	narrativo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	culturale	culturale	ADJ	A	Number=Sing	32	conj	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	linguistica	linguistico	ADJ	A	Gender=Fem|Number=Sing	32	conj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	Dante	Dante	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+39	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E dobbiamo ringraziare Benigni che ce la racconta come deve essere fatto.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ringraziare	ringraziare	VERB	V	VerbForm=Inf	0	root	_	_
+4	Benigni	Benigni	PROPN	SP	_	3	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	come	come	SCONJ	CS	_	12	mark	_	_
+10	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ma che scrivo a fare, tu sarai uno dei genialoni che si guardano il Grande Fratello e cagate simili!
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+8	sarai	saere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	genialoni	genialone	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	guardano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Grande	grande	PROPN	SP	_	15	obl	_	_
+18	Fratello	fratello	PROPN	SP	_	17	flat:name	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	cagate	cagare	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+21	simili	simile	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Per scrivere questo commento ti sei fatto aiutare da Google?
+1	Per	per	ADP	E	_	2	mark	_	_
+2	scrivere	scrivere	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	commento	commento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+6	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	aiutare	aiutare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	Google	Google	PROPN	SP	_	8	obl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+

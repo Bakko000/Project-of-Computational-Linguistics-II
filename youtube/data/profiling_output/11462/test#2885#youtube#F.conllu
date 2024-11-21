@@ -1,0 +1,41 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mangiare cibo bollito con acqua marcia...
+1	Mangiare	mangiare	VERB	V	VerbForm=Inf	0	root	_	_
+2	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	bollito	bollito	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	marcia...	marcia.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = è pieno di rifiuti, merda e cadaveri il gange...
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	merda	merda	NOUN	S	Gender=Masc	4	conj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	cadaveri	cadavere	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gange...	gange...	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+
+# sent_id = 3
+# text = da non metterci piedi in India, peccato perché è bellissima.
+1	da	da	ADP	E	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3-4	metterci	_	_	_	_	_	_	_	_
+3	metter	mettere	VERB	V	VerbForm=Inf	0	root	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+5	piedi	piedere	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	India	India	PROPN	SP	_	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+10	perché	perché	SCONJ	CS	_	12	mark	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	9	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

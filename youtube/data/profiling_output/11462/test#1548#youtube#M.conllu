@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mattarella sei un siciliano di merda.
+1	Mattarella	Mattarello	PROPN	SP	_	4	nsubj	_	_
+2	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	siciliano	siciliano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	merda	merda	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Venduto ci hai venduto anche tu hai ostacolato sei un pezzo di merda
+1	Venduto	vendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	1	expl	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	venduto	vendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+7	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	ostacolato	ostacolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+9	sei	sei	NUM	N	NumType=Card	8	nummod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	merda	merda	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Devi dimetterti torneremo tutti a votare e vi butteremo fuori
+1	Devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dimetterti	_	_	_	_	_	_	_	SpacesAfter=\s\s
+2	dimetter	dimettere	VERB	V	VerbForm=Inf	0	root	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+4	torneremo	tornare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	advcl	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	votare	votare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	10	expl	_	_
+10	butteremo	buttare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	conj	_	_
+11	fuori	fuori	ADV	B	_	10	advmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = perché economia ?
+1	perché	perché	SCONJ	CS	_	2	advmod	_	SpacesAfter=\s\s
+2	economia	economia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = perché devi fare gli interessi dei politici europei, pupazzo.
+1	perché	perché	SCONJ	CS	_	3	mark	_	_
+2	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	politici	politico	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	pupazzo	pupazzo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Non ci prendete più per il culo avete rubato nelle tasche degli italiani a piene mani e parlate di spread
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	prendete	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	culo	culo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	nelle	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	tasche	tasca	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	piene	pieno	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	mani	mano	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	parlate	parlata	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	spread	spread	NOUN	S	Gender=Masc	20	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Italia fondatore nel prenderlo nel culo .
+1	Italia	Italia	PROPN	SP	_	2	nsubj	_	_
+2	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5-6	prenderlo	_	_	_	_	_	_	_	_
+5	prender	prendere	VERB	V	VerbForm=Inf	2	acl	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	culo	culo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = NON CREDO PIÙ IN QUESTO PAESE ORMAI ALLA DERIVA.
+1	NON	non	PROPN	SP	_	0	root	_	_
+2	CREDO	Credo	PROPN	SP	_	1	flat:name	_	_
+3	PIÙ	più	PROPN	SP	_	1	flat:name	_	_
+4	IN	in	PROPN	SP	_	1	flat:name	_	_
+5	QUESTO	questo	PROPN	SP	_	4	flat:name	_	_
+6	PAESE	paese	PROPN	SP	_	4	flat:name	_	_
+7	ORMAI	ormai	PROPN	SP	_	4	nmod	_	_
+8-9	ALLA	_	_	_	_	_	_	_	_
+8	A	a	ADP	E	_	9	case	_	_
+9	LA	il	PROPN	SP	_	7	nmod	_	_
+10	DERIVA	deriva	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

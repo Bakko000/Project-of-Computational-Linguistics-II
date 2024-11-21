@@ -1,0 +1,49 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = FAVINO...Bravissimo!
+1	FAVINO...Bravissimo	FAVINO...Bravissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Grande attore di talento!
+1	Grande	grande	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	attore	attore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	talento	talento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Grazie per l'emozione che mi ha fatto provare!
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	provare	provare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Il tuo monolgo sara' indimenticabile!Sei
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	monolgo	monolgo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	sara	saro	ADP	E	_	6	case	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	6	punct	_	_
+6	indimenticabile!Sei	indimenticabile!Seo	PROPN	SP	_	3	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = stato G R A N D E!
+1	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	cop	_	_
+2	G	g	PROPN	SP	_	0	root	_	_
+3	R	R	PROPN	SP	_	2	flat:name	_	_
+4	A	A	PROPN	SP	_	2	flat:name	_	_
+5	N	N	PROPN	SP	_	2	flat:name	_	_
+6	D	D	PROPN	SP	_	2	flat:name	_	_
+7	E!	E!	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n\n
+

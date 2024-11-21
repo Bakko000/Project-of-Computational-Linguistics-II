@@ -1,0 +1,57 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo ammasso di rifiuti ha parlato mezz'ora senza dire nulla.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	ammasso	ammasso	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpacesAfter=\s\s
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	mezz'	mezzo	ADP	E	_	8	case	_	SpaceAfter=No
+8	ora	ora	ADV	B	_	6	advmod	_	_
+9	senza	senza	ADP	E	_	10	mark	_	_
+10	dire	dire	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	nulla.	nulla.	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ....solo cazzate inventate di sana pianta.Fortuna cheTravaglio l'ha messa a posto.
+1	....solo	....solo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cazzate	cazzato	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	inventate	inventare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	sana	sano	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	pianta.Fortuna	pianta.Fortuna	PROPN	SP	_	3	obl	_	_
+7	cheTravaglio	cheTravaglio	PROPN	SP	_	6	flat:name	_	_
+8	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	posto.	posto.	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ...in questo momento quella bastarda deve essere con la fregnaa bagno nell'acqua e ghiaccio, da tanto le brucia.
+1	...in	...ino	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+5	bastarda	bastardo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	21	cop	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fregnaa	fregnao	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+11	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	_
+12-13	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	in	in	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	ghiaccio	ghiaccio	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	tanto	tanto	ADV	B	_	21	advmod	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	brucia	brucia	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

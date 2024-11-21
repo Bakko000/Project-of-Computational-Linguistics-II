@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Qualche giorno scendono a san pietro con tre o quattro astronavi di 20 KM ogniuna e tutti diranno.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	scendono	scendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	san	santo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	pietro	pietro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	con	con	ADP	E	_	11	case	_	_
+8	tre	tre	NUM	N	NumType=Card	11	nummod	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	quattro	quattro	NUM	N	NumType=Card	8	conj	_	_
+11	astronavi	astronave	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	20	20	NUM	N	NumType=Card	14	nummod	_	_
+14	KM	km	PROPN	SP	_	11	nmod	_	_
+15	ogniuna	ogniuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	18	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
+18	diranno	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..."
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ma noooooooooooooo.....
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	noooooooooooooo....	noooooooooooooo..	NOUN	S	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = non'è come pensate, è un'illusione ottica data dall'umidità sulle lenti a contatto"...
+1	non'	none	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	pensate	pensare	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+9	ottica	ottico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+11-12	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+11	da	da	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	umidità	umidità	NOUN	S	Gender=Fem	10	obl:agent	_	_
+14-15	sulle	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	lenti	lento	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+20	...	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s 
+
+# sent_id = 5
+# text = mi ricordo mia zia che diceva:" TU NEGA SEMPRE NEGA NEGA.....
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	zia	zia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	9	punct	_	_
+9	TU	tu	PROPN	SP	_	11	obj	_	_
+10	NEGA	nega	PROPN	SP	_	9	flat:name	_	_
+11	SEMPRE	sempre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	NEGA	nega	PROPN	SP	_	11	nsubj	_	_
+13	NEGA.....	NEGA.....	PROPN	SP	_	12	flat:name	_	_
+
+# sent_id = 6
+# text = ANCHE DI FRONTE ALL'EVIDENZA !!!!!!
+1	ANCHE	anche	PROPN	SP	_	0	root	_	_
+2	DI	di	ADP	E	_	3	case	_	_
+3	FRONTE	Fronte	PROPN	SP	_	8	obl	_	_
+4-5	ALL'	_	_	_	_	_	_	_	SpaceAfter=No
+4	A	a	ADP	E	_	6	case	_	_
+5	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	EVIDENZA	evidenza	PROPN	SP	_	7	nmod	_	_
+7	!!!	!!!	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+8	!!!	!!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

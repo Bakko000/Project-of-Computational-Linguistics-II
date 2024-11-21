@@ -75,8 +75,8 @@ class Document:
         document_info = document_path.split('.')[0]
         document_info = document_info.split('#')
         self.split = document_info[0]
-        self.genre = document_info[2]
-        self.gender = document_info[3]
+        self.genre = document_info[2] #2
+        self.gender = document_info[3] #3
 
     def add_sentence(self, sentences):
         self.sentences.append(sentences)

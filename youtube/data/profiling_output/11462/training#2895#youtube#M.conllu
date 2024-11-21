@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = dai ma come si fa a dire:
+1-2	dai	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	6	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4	come	come	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	dire	dire	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = "guerra civile tra le due comunità"?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	civile	civile	ADJ	A	Number=Sing	2	amod	_	_
+4	tra	tra	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	comunità	comunità	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Israele accetta il piano di ripartizione ONU.
+1	Israele	Israele	PROPN	SP	_	2	nsubj	_	_
+2	accetta	accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	piano	piano	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	ripartizione	ripartizione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	ONU	Onu	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = I palestinesi, invece, fomentati dalla Lega Araba, rifiutano e attaccano, forti dell'appoggio della Lega Araba, Israele.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	palestinesi	palestinese	NOUN	S	Number=Plur	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	fomentati	fomentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Lega	lega	PROPN	SP	_	6	obl	_	_
+10	Araba	araba	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	rifiutano	rifiutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	attaccano	attaccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	forti	forte	ADJ	A	Number=Plur	14	xcomp	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Lega	lega	PROPN	SP	_	19	nmod	_	_
+23	Araba	araba	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	19	punct	_	_
+25	Israele	Israele	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dove c'e' il Volo c'e' l'ignoranza . Con il Volo si ride .
+1	Dove	dove	ADV	B	_	2	advmod	_	_
+2-3	c'e'	_	_	_	_	_	_	_	_
+2	c'i	c'o	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Volo	volo	PROPN	SP	_	2	nsubj	_	_
+6-7	c'e'	_	_	_	_	_	_	_	SpacesAfter=\s\s
+6	c'i	c'o	ADJ	A	Number=Plur	5	amod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ignoranza	ignoranza	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+10	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\s\s
+11	Con	con	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Volo	volo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	ride	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Volo vai alle Iene , che ridiamo alle tue spalle . Volo ANALFABETI
+1	Volo	volo	ADV	B	_	2	advmod	_	_
+2	vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Iene	Iene	PROPN	SP	_	2	obl	_	_
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	SpacesAfter=\s\s
+8	ridiamo	ridire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	tue	tuo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+13	.	.	PUNCT	FS	_	2	punct	_	_
+14	Volo	volo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpacesAfter=\s\s
+15	ANALFABETI	analfabeto	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpacesAfter=\n\n
+

@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Povera Italia misera e meschina comandata comandata da tanti Lazzaroni !! questi sono quelli che anno sporpato i poveri onesti Italiani .
+1	Povera	povero	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Italia	Italia	PROPN	SP	_	3	nsubj	_	_
+3	misera	misera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	meschina	meschina	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	comandata	comandato	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	comandata	comandare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	da	da	ADP	E	_	10	case	_	SpacesAfter=\s\s
+9	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	Lazzaroni	Lazzaroni	PROPN	SP	_	7	obl	_	_
+11	!	!	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	15	punct	_	_
+13	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	15	nsubj	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	anno	e	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	acl:relcl	_	_
+18	sporpato	sporpare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	onesti	onesto	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	Italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E mandati al estero fuori dal loro paese nativo per poter vivere .
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	mandati	mandare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	estero	estero	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	fuori	fuori	ADV	B	_	10	case	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+11	nativo	nativo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpacesAfter=\s\s
+12	per	per	ADP	E	_	14	mark	_	_
+13	poter	potere	AUX	VM	VerbForm=Inf	14	aux	_	_
+14	vivere	vivere	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E quelli che sono rimasti ,spolpati fino al osso .
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	,spolpati	,spolpato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	xcomp	_	SpacesAfter=\s\s
+7	fino	fino	ADV	B	_	10	case	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	osso	osso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Basta con la lorenzini , con berlusconi , con renzi , e con quelli come loro.
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lorenzini	lorenzino	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	berlusconi	berluscone	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	renzi	renzi	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	conj	_	_
+15	come	come	ADP	E	_	16	case	_	_
+16	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ora e il Tempo di campiare ! , via via, a questi spelonchi di ladroni :
+1	Ora	ora	ADV	B	_	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	campiare	campiare	NOUN	S	Gender=Masc	4	nmod	_	_
+7	!	!	PUNCT	FS	_	9	punct	_	_
+8	,	,	PUNCT	FF	_	9	punct	_	SpacesAfter=\s\s
+9	via	via	ADV	B	_	4	advmod	_	_
+10	via	via	ADV	B	_	9	fixed	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	spelonchi	spelonco	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	ladroni	ladrone	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = e dare spazio al M5S .Peggio di come si sta adesso sicuramente non si Potra Stare.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+3	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	M5S	M5S	PROPN	SP	_	2	obl	_	_
+7	.Peggio	.Peggio	PROPN	SP	_	6	flat:name	_	_
+8	di	di	ADP	E	_	11	mark	_	_
+9	come	come	SCONJ	CS	_	8	fixed	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	SpacesAfter=\s\s
+11	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+12	adesso	adesso	ADV	B	_	11	advmod	_	_
+13	sicuramente	sicuramente	ADV	B	_	11	advmod	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	SpacesAfter=\s\s
+16	Potra	Potra	PROPN	SP	_	11	xcomp	_	_
+17	Stare	stare	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = .....
+1	.....	.....	PUNCT	FF	_	0	root	_	SpacesAfter=\n\n
+

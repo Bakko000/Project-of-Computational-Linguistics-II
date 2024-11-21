@@ -1,0 +1,156 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciao caro gabriele!
+1	ciao	ciao	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	caro	caro	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	gabriele	gabriele	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = che piacere vedere questi videodiari soprattutto quando sono così ben realizzati e c'è voluto tanto tempo e impegno per realizzarli.
+1	che	che	DET	DQ	PronType=Int	2	det	_	_
+2	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	2	acl	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	videodiari	videodiario	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	soprattutto	soprattutto	ADV	B	_	11	advmod	_	_
+7	quando	quando	SCONJ	CS	_	11	mark	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	così	così	ADV	B	_	11	advmod	_	_
+10	ben	bene	ADV	B	_	11	advmod	_	_
+11	realizzati	realizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+16	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21-22	realizzarli	_	_	_	_	_	_	_	SpaceAfter=No
+21	realizzar	realizzare	VERB	V	VerbForm=Inf	19	acl	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = anche io ho cominciato da poco la mia carriera di cicloviaggiatore e l'estate scorsa ho fatto il mio primo viaggio di circa 300 km in solitaria e tenda da Modena a Forte dei marmi fino a una puntatina a Lerici in Liguria il tutto in 4 giorni.
+1	anche	anche	ADV	B	_	2	advmod	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	poco	poco	ADV	B	_	4	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	cicloviaggiatore	cicloviaggiatore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	estate	estate	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+15	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+21	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	circa	circa	ADV	B	_	24	advmod	_	_
+24	300	300	NUM	N	NumType=Card	25	nummod	_	_
+25	km	chilometro	NOUN	S	Gender=Masc	21	nmod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	solitaria	solitaria	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	tenda	tenda	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	_
+30	da	da	ADP	E	_	31	case	_	_
+31	Modena	Modena	PROPN	SP	_	4	nmod	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	Forte	forte	PROPN	SP	_	4	obl	_	_
+34-35	dei	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	marmi	arma|marme	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+37	fino	fino	ADV	B	_	40	case	_	_
+38	a	a	ADP	E	_	37	fixed	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	puntatina	puntatina	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+41	a	a	ADP	E	_	42	case	_	_
+42	Lerici	Leore	PROPN	SP	_	40	nmod	_	_
+43	in	in	ADP	E	_	44	case	_	_
+44	Liguria	Liguria	PROPN	SP	_	46	nmod	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	40	nmod	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	4	4	NUM	N	NumType=Card	49	nummod	_	_
+49	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = certamente questo mio viaggio è il primo di una lunghissimissima serie!
+1	certamente	certamente	ADV	B	_	7	advmod	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpacesAfter= \s
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	lunghissimissima	lunghissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	11	amod	_	_
+11	serie	seria	NOUN	S	Gender=Fem	7	obl	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = ora mi ricarico leggendo i libri di Giorgio Bettinelli un matto come noi che per 14 anni ha girato il mondo sulla sua vespa e direi che la viaggioterapia da casa funziona, ma esserci dentro è tutta un'altra cosa!!!
+1	ora	ora	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	ricarico	ricarico	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	leggendo	leggere	VERB	V	VerbForm=Ger	3	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Giorgio	Giorgio	PROPN	SP	_	6	nmod	_	_
+9	Bettinelli	Bettinelli	PROPN	SP	_	8	flat:name	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	matto	matto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	14	14	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	girato	girare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	sulla	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	vespa	vespa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+28	che	che	SCONJ	CS	_	36	mark	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	viaggioterapia	viaggioterapia	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	casa	casa	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	funziona	funzionare	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	30	punct	_	_
+35	ma	ma	CCONJ	CC	_	36	cc	_	_
+36-37	esserci	_	_	_	_	_	_	_	_
+36	esser	essere	VERB	V	VerbForm=Inf	40	ccomp	_	_
+37	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	36	expl	_	_
+38	dentro	dentro	ADV	B	_	36	advmod	_	_
+39	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+40	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	27	ccomp	_	_
+41	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
+42	altra	altro	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+43	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	40	nsubj	_	SpaceAfter=No
+44	!	!	PUNCT	FS	_	43	punct	_	SpaceAfter=No
+45	!!	!!	PUNCT	FF	_	43	punct	_	SpacesAfter=\n\n
+

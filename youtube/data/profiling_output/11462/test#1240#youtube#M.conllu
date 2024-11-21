@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bravo Mattarella..
+1	Bravo	bravo	PROPN	SP	_	0	root	_	_
+2	Mattarella.	Mattarella.	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = se non riescono a trovare un ministro serio non bisogna scendere a ricatti..
+1	se	se	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	trovare	trovare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	serio	serio	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	scendere	scendere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	ricatti..	ricatti..	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+
+# sent_id = 3
+# text = è una vergogna che tutta questa voglia di governare sparisce se gli cambiano un ministro dalle idee stravaganti.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	7	case	_	_
+5	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	7	det:predet	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	governare	governare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	sparisce	sparire	ADJ	A	Gender=Fem|Number=Plur	9	xcomp	_	_
+11	se	se	SCONJ	CS	_	13	mark	_	_
+12	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+13	cambiano	cambiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+16-17	dalle	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	idee	idea	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	stravaganti.	stravaganti.	NOUN	S	Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+
+# sent_id = 4
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 5
+# text = la verità è che non sono in grado.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verità	verità	NOUN	S	Gender=Fem	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	grado.	grado.	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+
+# sent_id = 6
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n
+

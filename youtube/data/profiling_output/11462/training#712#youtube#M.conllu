@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il testo dice che "Luca" ha fatto un lavoro sul suo passato "*non* andando da psicologi psichiatri *preti* o scienziati*...".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	testo	testo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Luca	Luca	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	passato	passato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+17	*non*	*non*	PUNCT	FF	_	9	punct	_	_
+18	andando	andare	VERB	V	VerbForm=Ger	9	advcl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	psicologi	psicologo	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+21	psichiatri	psichiatro	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	*preti*	*preti*	PUNCT	FF	_	24	punct	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	scienziati*...	scienziati*...	NOUN	S	_	20	conj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma hai ascoltato o fai come l'integralista cattolico?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ascoltato	ascoltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	integralista	integralista	NOUN	S	Number=Sing	5	obl	_	_
+9	cattolico	cattolico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Nella natura umana è tutto possibile, fosse stato un etero che diventava gay avrebbe avuto l'applauso di tutti i sinistroidi da grillini a benigni...
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	natura	natura	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4	umana	umano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+7	possibile	possibile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+10	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	etero	etero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	diventava	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	gay	gay	CCONJ	CC	_	17	cc	_	_
+16	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	applauso	applauso	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	23	det:predet	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	sinistroidi	sinistroidio	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	grillini	grillino	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	benigni...	benigni...	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+
+# sent_id = 4
+# text = P. ha avuto sul serio le palle di uscire dai cliché raccontando una storia non prevista dalle menti limitate.
+1	P.	p.	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	serio	serio	ADJ	A	Gender=Masc|Number=Sing	3	obl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	palle	palla	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	uscire	uscire	VERB	V	VerbForm=Inf	8	acl	_	_
+11-12	dai	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	cliché	cliché	NOUN	S	Gender=Masc	10	obl	_	_
+14	raccontando	raccontare	VERB	V	VerbForm=Ger	10	advcl	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	storia	storia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	prevista	prevedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+19-20	dalle	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	menti	mente	NOUN	S	Gender=Fem|Number=Plur	18	obl:agent	_	_
+22	limitate	limitato	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = PS sono ateo.
+1	PS	PS	PROPN	SP	_	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ateo	ateo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

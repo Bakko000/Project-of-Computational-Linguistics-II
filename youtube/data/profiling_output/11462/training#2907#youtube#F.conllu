@@ -1,0 +1,30 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Grazie davvero, video interessante ed esauriente!
+1	Grazie	grazie	INTJ	I	_	0	root	_	_
+2	davvero	davvero	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	video	video	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	interessante	interessante	ADJ	A	Number=Sing	4	amod	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	esauriente	esauriente	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sicuramente utile a chiarirmi le idee in vista di un esame!
+1	Sicuramente	sicuramente	ADV	B	_	2	advmod	_	_
+2	utile	utile	ADJ	A	Number=Sing	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4-5	chiarirmi	_	_	_	_	_	_	_	_
+4	chiarir	chiarire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	idee	idea	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	vista	vista	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	esame	esame	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

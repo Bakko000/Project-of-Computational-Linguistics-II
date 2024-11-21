@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = bel documentario ma, tralascia alcune cose.
+1	bel	bello	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	documentario	documentario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	ma	ma	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	tralascia	tralasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Come per esempio perché la terra abbia rallentato grazie alla Luna, l'asse terrestre inclinato che da le stagioni, poi ancora altre che sarebbe lungo da elencare.
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	perché	perché	SCONJ	CS	_	8	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	terra	terra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rallentato	rallentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+9	grazie	grazie	NOUN	S	_	12	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Luna	Luna	PROPN	SP	_	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	asse	asse	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+16	terrestre	terrestre	ADJ	A	Number=Sing	15	amod	_	_
+17	inclinato	inclinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	stagioni	stagione	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	poi	poi	ADV	B	_	25	advmod	_	_
+24	ancora	ancora	ADV	B	_	25	advmod	_	_
+25	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	21	conj	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	25	acl:relcl	_	_
+29	da	da	ADP	E	_	30	mark	_	_
+30	elencare	elencare	VERB	V	VerbForm=Inf	28	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Infine "ma col cavolo " che 20 milioni di anni fa la Terra è come la conosciamo adesso.
+1	Infine	infine	ADV	B	_	6	advmod	_	_
+2	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4-5	col	_	_	_	_	_	_	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cavolo	cavolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+9	20	20	NUM	N	NumType=Card	10	nummod	_	_
+10	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	fa	fa	ADV	B	_	12	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Terra	Terra	PROPN	SP	_	16	nsubj	_	_
+16	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+17	come	come	SCONJ	CS	_	19	mark	_	_
+18	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	conosciamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+20	adesso	adesso	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\s\s
+
+# sent_id = 4
+# text = Chiedete a Piero Angela
+1	Chiedete	chiedere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Piero	Piero	PROPN	SP	_	1	obl	_	_
+4	Angela	Angela	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n\n
+

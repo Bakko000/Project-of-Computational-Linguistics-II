@@ -1,0 +1,51 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vergogna Boldrini!!!!!!!!
+1	Vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	Boldrini	Boldrini	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+4	!!!!!!!	!!!!!!!	PUNCT	FF	_	1	punct	_	_
+
+# sent_id = 2
+# text = Vergogna vergogna vergogna!!!!!!
+1	Vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	vergogna	vergogna	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	vergogna	vergogna	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+4	!!!!!!	!!!!!!	PUNCT	FF	_	1	punct	_	_
+
+# sent_id = 3
+# text = Evaporaaaa.
+1	Evaporaaaa.	Evaporaaaa.	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ..nessuno ti sopporta piu'..sei malefica.
+1	..nessuno	..nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+3	sopporta	sopporgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	piu'	piuo	DET	DD	Number=Sing|PronType=Dem	6	det	_	SpaceAfter=No
+5	..sei	..sei	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	malefica.	malefica.	NOUN	S	Gender=Masc	3	obj	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ...fai schifooooooooooooo ....te sei stata la peggiore presidente della storia!!!!
+1	...fai	...fai	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	schifooooooooooooo	schifooooooooooooo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	....te	....to	ADJ	A	Number=Sing	2	amod	_	_
+4	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	SpacesAfter=\s\s
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+8	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpacesAfter=\s\s
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	storia	storia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	!!!	!!!	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Vai viaaaaa
+1	Vai	Vai	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+2	viaaaaa	viaaaaare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+

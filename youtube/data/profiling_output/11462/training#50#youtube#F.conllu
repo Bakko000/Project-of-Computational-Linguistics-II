@@ -1,0 +1,48 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E Mango.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	Mango	Mango	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = ?
+1	?	?	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 3
+# text = Con le sue canzoni meravigliose e con la sua splendida voce non ha mai vinto il festival!
+1	Con	con	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+5	meravigliose	meraviglioso	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	con	con	ADP	E	_	11	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	splendida	splendido	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	voce	voce	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpacesAfter=\s\s
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	festival	festival	NOUN	S	Gender=Masc	15	obj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 4
+# text = Ma non capiscono nulla di vera musica.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	capiscono	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	vera	vero	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	musica	musica	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = 😠😠😠😠
+1	😠😠😠😠	😠😠😠😠	SYM	SYM	_	0	root	_	SpacesAfter=\n\n
+

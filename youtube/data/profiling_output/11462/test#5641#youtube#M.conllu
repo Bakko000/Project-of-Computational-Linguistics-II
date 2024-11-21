@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’estate che passa, la nostra risata
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	estate	estate	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	risata	risata	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = La pioggia che cade, la sabbia bagnata
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	cade	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sabbia	sabbia	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+8	bagnata	bagnato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = E batte la musica fino al mattino
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	musica	musica	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	fino	fino	ADV	B	_	8	case	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Ti tengo più vicino
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+2	tengo	tenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	_
+4	vicino	vicino	ADV	B	_	2	advmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Soltanto stanotte o tutta la vita
+1	Soltanto	soltanto	ADV	B	_	2	advmod	_	_
+2	stanotte	stanotta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	CCONJ	CC	_	6	cc	_	_
+4	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Adesso si corre non vedo salita
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	vedo	vedere	SCONJ	CS	_	6	mark	_	_
+6	salita	salita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = E batte più forte se resti vicino, se resti vicino
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	batte	battere	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	forte	forte	ADJ	A	Number=Sing	2	amod	_	_
+5	se	se	SCONJ	CS	_	6	mark	_	_
+6	resti	re	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+7	vicino	vicino	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	se	se	SCONJ	CS	_	10	mark	_	_
+10	resti	re	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	vicino	vicino	ADV	B	_	10	advmod	_	SpacesAfter=\n\n
+

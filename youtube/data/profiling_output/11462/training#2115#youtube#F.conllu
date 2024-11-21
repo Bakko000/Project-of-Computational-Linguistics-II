@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao Fiore !
+1	Ciao	ciao	INTJ	I	_	2	discourse	_	_
+2	Fiore	Fiore	PROPN	SP	_	0	root	_	_
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Complimenti per i video e per la tua cultura che spazia su molti argomenti.
+1	Complimenti	complimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	video	video	NOUN	S	Gender=Masc	1	nmod	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	spazia	spaziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	argomenti.	argomenti.	NOUN	S	_	11	obl	_	SpaceAfter=No
+
+# sent_id = 3
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 4
+# text = perchè non fai anche dei video sulla politica italiana?
+1	perchè	perché	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	3	advmod	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	video	video	NOUN	S	Gender=Masc	3	obl	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	politica	politica	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Seguirei i tuoi video giorno e notte, davvero.
+1	Seguirei	Seguire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	video	video	ADJ	A	_	5	amod	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	davvero	davvero	ADV	B	_	1	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

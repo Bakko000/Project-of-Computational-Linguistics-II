@@ -1,0 +1,50 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = davvero [clap][clap] per il bel video!!
+1	davvero	davvero	ADV	B	_	4	advmod	_	_
+2	[	[	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+3	clap][	clap][	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	clap	clap	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+5	]	]	PUNCT	FB	_	4	punct	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	bel	bello	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	video	video	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = molto chiaro ed esplicativo
+1	molto	molto	ADV	B	_	2	advmod	_	_
+2	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	ed	e	CCONJ	CC	_	4	cc	_	_
+4	esplicativo	esplicativo	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = e anche [clap][clap][clap] per aver riportato tutte le fonti, complimenti veramente!
+1	e	e	CCONJ	CC	_	8	cc	_	_
+2	anche	anche	ADV	B	_	8	advmod	_	_
+3	[	[	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	clap][	clap][	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	clap	clap	NOUN	S	_	8	nmod	_	SpaceAfter=No
+6	]	]	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	[	[	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	clap	clap	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+9	]	]	PUNCT	FB	_	8	punct	_	_
+10	per	per	ADP	E	_	12	mark	_	_
+11	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
+12	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+13	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	complimenti	complimenti	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	veramente	veramente	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = !
+1	!	!	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n
+

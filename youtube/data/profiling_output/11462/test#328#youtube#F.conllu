@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = non si può sentire, è senza pudore e senza vergogna.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sentire	sentire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	pudore	pudore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = caro matteo, caro pd sto ancora aspettando l'analisi del voto del 4 marzo:
+1	caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	matteo	matteo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	pd	pd	NOUN	S	_	8	nsubj	_	_
+6	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	ancora	ancora	ADV	B	_	8	advmod	_	_
+8	aspettando	aspettare	VERB	V	VerbForm=Ger	2	advcl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	analisi	analisi	NOUN	S	Gender=Fem	8	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	voto	voto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	4	4	NUM	N	NumType=Card	13	nmod	_	_
+17	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = siete stati e siete tuttora al soldo del potere finanziario massacrando il popolo italiano in nome del "debito pubblico", un cappio al collo che, malgrado i sacrifici, inesorabilmente continua a crescere.
+1	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	cop	_	_
+3	e	e	CCONJ	CC	_	8	cc	_	_
+4	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	tuttora	tuttora	ADV	B	_	8	advmod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	potere	potere	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	finanziario	finanziario	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	massacrando	massacrare	VERB	V	VerbForm=Ger	8	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	nome	nome	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	debito	debito	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+23	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cappio	cappio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	collo	collo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	38	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	malgrado	malgrado	SCONJ	CS	_	38	mark	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	sacrifici	sacrificio	NOUN	S	Gender=Masc|Number=Plur	38	nsubj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	inesorabilmente	inesorabilmente	ADV	B	_	38	advmod	_	_
+38	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+39	a	a	ADP	E	_	40	mark	_	_
+40	crescere	crescere	VERB	V	VerbForm=Inf	38	xcomp	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	38	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = medita matteo, medita e grazie per le famigerate riforme.
+1	medita	medire	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	matteo	matteo	ADJ	A	_	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	medita	medita	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+5	e	e	CCONJ	CC	_	10	cc	_	_
+6	grazie	grazie	NOUN	S	_	10	case	_	_
+7	per	per	ADP	E	_	6	fixed	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	famigerate	famigerato	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	riforme	riforma	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

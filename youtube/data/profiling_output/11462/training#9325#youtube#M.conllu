@@ -1,0 +1,42 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cazzo!
+1	Cazzo	Cazzo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ma non puoi rischiare di farti ammazzare così!
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rischiare	rischiare	VERB	V	VerbForm=Inf	7	csubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	farti	farto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	ammazzare	ammazzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	così	così	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Se vedi un serpente marino non stare a filmare.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	serpente	serpente	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	marino	marino	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	stare	stare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	filmare	filmare	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mi sono cagato addosso per te.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cagato	cagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	addosso	addosso	ADV	B	_	6	advmod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

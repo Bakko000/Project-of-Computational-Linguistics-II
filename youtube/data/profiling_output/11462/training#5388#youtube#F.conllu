@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mamma mia!!!!!
+1	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	SpaceAfter=No
+3	!!!!	!!!!	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Questa non si può propio sentire!!
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	propio	propiare	ADV	B	_	6	advmod	_	_
+6	sentire	sentire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma non doveva dimettersi?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4-5	dimettersi	_	_	_	_	_	_	_	SpaceAfter=No
+4	dimetter	dimettere	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = GRANDE TRAVAGLIO!!!!!!
+1	GRANDE	Grande	PROPN	SP	_	0	root	_	_
+2	TRAVAGLIO	TRAVAGLIO	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+4	!!!!!	!!!!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

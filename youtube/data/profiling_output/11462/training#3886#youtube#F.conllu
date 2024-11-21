@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = io chiedo e prego e poi ricevo...
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	prego	pregare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	poi	poi	ADV	B	_	4	advmod	_	_
+7	ricevo...	ricevo.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = punto!cosa vuoi che ti dica più di così.lo so che siete tutti alla ricerca della verità.
+1	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	!cosa	!coso	ADJ	A	_	1	amod	_	_
+3	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+6	dica	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+7	più	più	ADV	B	_	10	advmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	così.lo	così.lo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	che	che	SCONJ	CS	_	16	mark	_	_
+12	siete	essere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	cop	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	nmod	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	10	ccomp	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	verità.	verità.	NOUN	S	_	16	nmod	_	SpaceAfter=No
+
+# sent_id = 3
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 4
+# text = e si sente da come scrivete.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	come	come	ADP	E	_	4	fixed	_	_
+6	scrivete.	scrivete.	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ....anc'hio ero una che non credeva.
+1	....anc'	....anco	DET	DD	Number=Sing|PronType=Dem	2	det	_	SpaceAfter=No
+2	hio	hio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	credeva.	credeva.	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+
+# sent_id = 6
+# text = ...in Lui
+1	...in	...ino	ADP	E	_	2	case	_	_
+2	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,196 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sanremo drammatico e senza ispirazione.
+1	Sanremo	sanremo	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	ispirazione	ispirazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..Arisa scambia antidolorifici per anestetici ed è infortunata per via della caduta dalle scale, Charlize Theron prende 250.000 euro per appena 10 minuti ed è intervistata imbottita di Lexotan (bromazepam, ovvero ipnoinducente e ansiolitico) e altro.
+1	..Arisa	..Ariso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	scambia	scambia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	antidolorifici	antidolorifico	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	anestetici	anestetico	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	ed	e	CCONJ	CC	_	8	cc	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	infortunata	infortunare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	via	via	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	dalle	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	scale	scala	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	Charlize	Charlize	PROPN	SP	_	20	nsubj	_	_
+19	Theron	Theron	PROPN	SP	_	18	flat:name	_	_
+20	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+21	250.000	250.000	NUM	N	NumType=Card	22	nummod	_	_
+22	euro	euro	NOUN	S	Gender=Masc	20	obj	_	_
+23	per	per	ADP	E	_	26	case	_	_
+24	appena	appena	ADV	B	_	25	advmod	_	_
+25	10	10	NUM	N	NumType=Card	26	nummod	_	_
+26	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+27	ed	e	CCONJ	CC	_	29	cc	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	intervistata	esintervisere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+30	imbottita	imbottire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	xcomp	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Lexotan	Lexotan	PROPN	SP	_	30	obl	_	_
+33	(	(	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+34	bromazepam	bromazepam	X	X	_	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	ovvero	ovvero	CCONJ	CC	_	37	cc	_	_
+37	ipnoinducente	ipnoinducente	ADJ	A	Number=Sing	34	conj	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	ansiolitico	ansiolitico	ADJ	A	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	34	punct	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	32	conj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ..Capisco perchè la Theron si è presa l'ansiolitico:
+1	..Capisco	..Capire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	perchè	perché	SCONJ	CS	_	7	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Theron	Theron	PROPN	SP	_	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ansiolitico	ansiolitico	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = l'Ariston è un palco oltre che difficile anche freddo, distaccato, non originale e poco rassicurante visto che non è come un'intervista americana dove c'è poco pubblico e l'atmosfera è molto accogliente e calda.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Ariston	Ariston	PROPN	SP	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	palco	palco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	oltre	oltre	ADV	B	_	8	advmod	_	_
+7	che	che	SCONJ	CS	_	6	fixed	_	_
+8	difficile	difficile	ADJ	A	Number=Sing	5	amod	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	distaccato	distaccato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	originale	originale	ADJ	A	Number=Sing	8	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	poco	poco	ADV	B	_	18	advmod	_	_
+18	rassicurante	rassicurante	ADJ	A	Number=Sing	15	conj	_	_
+19	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+20	che	che	SCONJ	CS	_	25	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+23	come	come	ADV	B	_	25	advmod	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	19	ccomp	_	_
+26	americana	americano	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	dove	dove	ADV	B	_	29	advmod	_	_
+28	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	29	expl	_	SpaceAfter=No
+29	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+30	poco	poco	ADV	B	_	31	advmod	_	_
+31	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	29	xcomp	_	_
+32	e	e	CCONJ	CC	_	37	cc	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	atmosfera	atmosfera	NOUN	S	Gender=Fem|Number=Sing	37	nsubj	_	_
+35	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	molto	molto	ADV	B	_	37	advmod	_	_
+37	accogliente	accogliente	ADJ	A	Number=Sing	29	conj	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	calda.	calda.	NOUN	S	Gender=Masc	29	conj	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ..Sanremo non è per niente caldo e accogliente!
+1	..Sanremo	..Sanere	PROPN	SP	_	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	_
+6	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	accogliente	accogliente	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = E' tutto molto poco ispirato, improvvisato e inospitale, condotto da un Carlo Conti boss della rai arrogante e non accogliente.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	_
+3	molto	molto	ADV	B	_	5	advmod	_	_
+4	poco	poco	ADV	B	_	5	advmod	_	_
+5	ispirato	ispirato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	improvvisato	improvvisato	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	inospitale	inospitale	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	condotto	condurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Carlo	Carlo	PROPN	SP	_	11	obl:agent	_	_
+15	Conti	Conti	PROPN	SP	_	14	flat:name	_	_
+16	boss	boss	NOUN	S	Gender=Masc	14	appos	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	rai	re	NOUN	S	_	16	nmod	_	_
+20	arrogante	arrogante	ADJ	A	Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	accogliente.	accogliente.	NOUN	S	_	5	conj	_	SpaceAfter=No
+
+# sent_id = 7
+# text = ...Insomma, Sanremo (oltre che a essere una città di m**, almeno Capri ha un suo lato sia riservato e naturale, sia un suo lato cittadino) perde carattere e accoglienza anche per quanto riguarda il festival...
+1	...Insomma	...Insomma	ADV	B	_	31	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Sanremo	Sanremo	PROPN	SP	_	31	nsubj	_	_
+4	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+5	oltre	oltre	ADV	B	_	10	advmod	_	_
+6	che	che	SCONJ	CS	_	5	fixed	_	_
+7	a	a	ADP	E	_	5	fixed	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	città	città	NOUN	S	Gender=Fem	3	appos	_	_
+11	di	di	ADP	E	_	28	case	_	_
+12	m**	m**	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	almeno	almeno	ADV	B	_	15	advmod	_	_
+15	Capri	Capri	PROPN	SP	_	16	nsubj	_	_
+16	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	lato	lato	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	riservato	riservato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	naturale	naturale	ADJ	A	Number=Sing	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	lato	lato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+29	cittadino	cittadino	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	10	punct	_	_
+31	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
+35	anche	anche	ADV	B	_	37	advmod	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	34	obl	_	_
+38	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	festival...	festival...	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	SpacesAfter=\n\n
+

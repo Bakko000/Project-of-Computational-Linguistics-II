@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Paesaggi davvero bellissimi!
+1	Paesaggi	Paesaggio	ADV	B	_	3	advmod	_	_
+2	davvero	davvero	ADV	B	_	3	advmod	_	_
+3	bellissimi	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Un video piacevole e coinvolgente!
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	piacevole	piacevole	ADJ	A	Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	coinvolgente	coinvolgente	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = L'unico punto debole per me è la scelta delle canzoni.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unico	unico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	debole	debole	ADJ	A	Number=Sing	3	amod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Non è per offendere i gusti dell'autore, ma a volte la musica scelta bene rafforza l'emozione suscitata dall'immagine.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	offendere	offendere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	autore	autore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	18	punct	_	_
+11	ma	ma	CCONJ	CC	_	18	cc	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	volte	volta	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	musica	musica	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	scelta	scelto	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	bene	bene	ADV	B	_	18	advmod	_	_
+18	rafforza	rafforzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	suscitata	suscitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+22-23	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+22	da	da	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	21	obl:agent	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n\n
+

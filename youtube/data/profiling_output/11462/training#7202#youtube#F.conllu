@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ALCA IMITA IL PAPA MEGLIO DI CROZZA !!?
+1	ALCA	ALCA	ADP	E	_	2	case	_	_
+2	IMITA	imita	PROPN	SP	_	0	root	_	_
+3	IL	il	PROPN	SP	_	2	flat:name	_	_
+4	PAPA	papa	PROPN	SP	_	2	nmod	_	_
+5	MEGLIO	meglio	PROPN	SP	_	4	flat:name	_	_
+6	DI	Di	ADP	E	_	7	case	_	_
+7	CROZZA	CROZZA	PROPN	SP	_	4	nmod	_	_
+8	!!?	!!?	PUNCT	FF	_	2	punct	_	_
+
+# sent_id = 2
+# text = ALCA - Papa Francesco durante l'angelus ha dell'incredibile.
+1	ALCA	ALCA	PROPN	SP	_	8	nsubj	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	Papa	Papa	PROPN	SP	_	1	nmod	_	_
+4	Francesco	Francesco	PROPN	SP	_	3	flat:name	_	_
+5	durante	durante	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	angelus	angelus	NOUN	S	Gender=Masc	3	nmod	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	incredibile.	incredibile.	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+
+# sent_id = 3
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n
+

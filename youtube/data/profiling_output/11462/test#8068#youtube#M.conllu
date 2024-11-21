@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Titolo:
+1	Titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = Moscow Mule
+1	Moscow	Moscow	PROPN	SP	_	0	root	_	_
+2	Mule	Mule	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Quante volte viene citato?
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	citato	citare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Una sola volta; un titolo migliore, no?
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	6	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	no	no	ADV	BN	PronType=Neg	6	advmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao e complimenti.
+1	Ciao	ciao	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	complimenti	complimenti	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = video bellissimo.
+1	video	video	NOUN	S	Gender=Masc	0	root	_	_
+2	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = I tuoi commenti sono eccezionali e ottima musica.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	eccezionali	eccezionale	ADJ	A	Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	ottima	ottimo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	musica	musica	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Ci andro' un'altr'anno in MOTO con mia moglie ! Grande video!
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	andro	andro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	6	punct	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	altr'	altro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	MOTO	Moto	PROPN	SP	_	6	nmod	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	!	!	PUNCT	FS	_	11	punct	_	_
+13	Grande	grande	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	video	video	NOUN	S	Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Ciao
+1	Ciao	ciao	INTJ	I	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = ALDO B.
+1	ALDO	Aldo	PROPN	SP	_	0	root	_	_
+2	B.	B.	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+

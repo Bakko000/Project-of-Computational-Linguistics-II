@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A Mattare'!!!
+1	A	a	ADP	E	_	2	case	_	_
+2	Mattare	Mattare	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	!!	!!	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non portiamo l'anello al naso...imbecille!!!!
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	portiamo	portare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	anello	anello	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	naso...imbecille	naso...imbecilla	NUM	N	NumType=Card	2	obl	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+9	!!!	!!!	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+

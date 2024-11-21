@@ -1,0 +1,25 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bravo Travaglio!!!
+1	Bravo	bravo	PROPN	SP	_	0	root	_	_
+2	Travaglio	Travaglio	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Vergogna Salvini ti ripresenti insieme al Berlusconi ladro!!!
+1	Vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Salvini	Salvini	PROPN	SP	_	1	nmod	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	ripresenti	ripresere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	insieme	insieme	ADV	B	_	4	advmod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Berlusconi	Berlusconi	PROPN	SP	_	4	obl	_	_
+9	ladro	ladro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+11	!!	!!	PUNCT	FF	_	4	punct	_	SpacesAfter=\n\n
+

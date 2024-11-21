@@ -1,0 +1,40 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = favi fai un video dove assaggiate cibi strani del Giappone!
+1	favi	favo	ADV	B	_	2	advmod	_	_
+2	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	video	video	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	dove	dove	ADV	B	_	6	advmod	_	_
+6	assaggiate	assaggiare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	cibi	cibo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	strani	strano	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Giappone	Giappone	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = dai zio che esce una figata pazzesca!
+1-2	dai	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	zio	zio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	figata	figata	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	pazzesca	pazzesco	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = spolliciate per farglielo leggere
+1	spolliciate	spolliciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3-4	farglielo	_	_	_	_	_	_	_	_
+3	farglie	farglia	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+5	leggere	leggere	VERB	V	VerbForm=Inf	1	xcomp	_	SpacesAfter=\n\n
+

@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che schifo di canzone..psicologia spicciola proprio.
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	schifo	schifo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	canzone..psicologia	canzone..psicologia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	spicciola	spicciolo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	proprio.	proprio.	NOUN	S	_	4	compound	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..quindi tutti i figli dei divorziati secondo povia sono gay...quindi, nn divorziate.
+1	..quindi	..quindi	ADV	B	_	4	advmod	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	divorziati	divorziato	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	secondo	secondo	ADP	E	_	9	case	_	_
+9	povia	povia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	gay...quindi	gay...quindi	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	nn	nno	NOUN	S	_	11	conj	_	_
+14	divorziate	divorziata	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = .cornificatevi.
+1	.cornificatevi.	.cornificatevi.	NOUN	S	_	0	root	_	SpaceAfter=No
+
+# sent_id = 4
+# text = .ammazzatevi, ma nn divorziate se volete evitare che vostro figlio diventi frocio.
+1	.ammazzatevi	.ammazzateve	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	ma	ma	CCONJ	CC	_	5	cc	_	_
+4	nn	nno	ADV	B	_	5	advmod	_	_
+5	divorziate	divorziata	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	volete	volere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	evitare	evitare	VERB	V	VerbForm=Inf	5	advcl	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	diventi	diventare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	frocio.	frocio.	NOUN	S	_	1	obj	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ..ahahahhahahaa fa vomitare sta canzone ed è una vergogna che gliel'abbiano fatta cantare!!!
+1	..ahahahhahahaa	..ahahahhahahaare	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vomitare	vomitare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+4	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	4	xcomp	_	_
+6	ed	e	CCONJ	CC	_	9	cc	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11-12	gliel'	_	_	_	_	_	_	_	SpaceAfter=No
+11	glie	gli	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+12	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	abbiano	avere	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	fatta	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	cantare	cantare	VERB	V	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+17	!!	!!	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+

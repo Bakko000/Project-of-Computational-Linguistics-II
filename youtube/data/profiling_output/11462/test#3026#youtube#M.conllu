@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 7:40 indiano:vuoi comprare rivista hard?
+1	7:40	7:40	NUM	N	NumType=Card	4	nummod	_	_
+2	indiano	indiano	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	:vuoi	:volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	comprare	comprare	VERB	V	VerbForm=Inf	0	root	_	_
+5	rivista	rivista	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	hard	hard	ADJ	A	_	5	amod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = tu: ma manco per il cazzo lo hai cagato ahhahahaha
+1	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	ma	ma	CCONJ	CC	_	4	cc	_	_
+4	manco	manco	X	SW	Foreign=Yes	10	obl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+9	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	cagato	cagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	ahhahahaha	ahhahahaha	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpacesAfter=\n\n
+

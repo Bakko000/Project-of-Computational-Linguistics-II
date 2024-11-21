@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aldo, Giovanni e Giacomo quando vi guardo non sapete le risate che mi fate fare !!!!
+1	Aldo	Aldo	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Giovanni	Giovanni	PROPN	SP	_	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Giacomo	Giacomo	PROPN	SP	_	1	conj	_	_
+6	quando	quando	SCONJ	CS	_	8	mark	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	expl	_	_
+8	guardo	guardo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	risate	risata	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	fare	fare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	!!!	!!!	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Mi sgagazzo dalle risate proprio!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	sgagazzo	sgagazzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dalle	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	risate	risata	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	proprio	proprio	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = !!!
+1	!!	!!	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Non smettete mai di farci ridere, ho visto tutti i vostri film!
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	smettete	smettere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mai	mai	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	farci	_	_	_	_	_	_	_	_
+5	far	fare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+7	ridere	ridere	VERB	V	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+11	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	film	film	NOUN	S	Gender=Masc	10	obj	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

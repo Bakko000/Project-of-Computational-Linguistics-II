@@ -1,0 +1,50 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Invidia.
+1	Invidia	Invidia	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Non perché vorrei tornare in Islanda.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	tornare	tornare	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Islanda	Islanda	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Si, beh, anche quello, ma soprattutto perché reggete quel freddo siderale.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	beh	beh	INTJ	I	_	6	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	soprattutto	soprattutto	ADV	B	_	11	advmod	_	_
+10	perché	perché	SCONJ	CS	_	11	mark	_	_
+11	reggete	reggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	siderale	siderale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = E io che soffrivo a tratti in giugno.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	soffrivo	soffrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	giugno.	giugno.	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+
+# sent_id = 5
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n
+

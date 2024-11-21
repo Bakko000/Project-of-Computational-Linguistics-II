@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Scusate ma!
+1	Scusate	scusare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ma	ma	CCONJ	CC	_	3	cc	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Una affermazione non mi torna.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	affermazione	affermazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Dopo 10 min dalla nascita l'universo aveva un diametro di anni luce ?!
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	10	10	NUM	N	NumType=Card	3	nummod	_	_
+3	min	min	NOUN	S	Gender=Masc	9	obl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\s\s
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	universo	universo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	diametro	diametro	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+14	luce	luce	NOUN	S	Gender=Fem|Number=Sing	11	compound	_	_
+15	?	?	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Direi che invece avrebbe avuto un diametro non superiore a 10 minuti luce.
+1	Direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	invece	invece	ADV	B	_	5	advmod	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	diametro	diametro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	7	amod	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	10	10	NUM	N	NumType=Card	12	nummod	_	_
+12	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	luce	luce	NOUN	S	Gender=Fem|Number=Sing	12	compound	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Oppure mi sfugge qualcosa?
+1	Oppure	oppure	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	sfugge	sfuggire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

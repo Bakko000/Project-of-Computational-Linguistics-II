@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mamma mia!
+1	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	det:poss	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Qualcuno lo aiuti a prendersi le goccine x calmarsi,lo vedo troppo sofferente.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	dislocated	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	aiuti	aiere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	prendersi	_	_	_	_	_	_	_	_
+5	prender	prendere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	goccine	goccina	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+9	x	x	SYM	SYM	_	8	nmod	_	_
+10	calmarsi,lo	calmarsi,lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	troppo	troppo	ADV	B	_	13	advmod	_	_
+13	sofferente	sofferente	ADJ	A	Number=Sing	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Se continua così,mah...
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	così	così	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,mah..	,mah	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

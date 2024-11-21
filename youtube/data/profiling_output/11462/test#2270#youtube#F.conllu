@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = CIAO NICO!
+1	CIAO	ciao	PROPN	SP	_	0	root	_	_
+2	NICO	NICO	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = LA PROSSIMA VOLTA POTRESTI VISITARE LE ROVINE ARCHEOLOGICHE FENICE-ROMANE DI NORA (CA).
+1	LA	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PROSSIMA	proo	PROPN	SP	_	5	nsubj	_	_
+3	VOLTA	volta	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	POTRESTI	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	VISITARE	visitare	PROPN	SP	_	0	root	_	_
+6	LE	Le	PROPN	SP	_	5	flat:name	_	_
+7	ROVINE	ROVINE	PROPN	SP	_	5	flat:name	_	_
+8	ARCHEOLOGICHE	ARCHEOLOGICHE	PROPN	SP	_	7	flat:name	_	SpacesAfter=\s\s
+9	FENICE	fenice	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+10	-ROMANE	-ROMANE	PROPN	SP	_	7	flat:name	_	_
+11	DI	Di	ADP	E	_	12	case	_	_
+12	NORA	NORA	PROPN	SP	_	7	nmod	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	CA	ca	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = MARE STUPENDO ANCHE LÌ E INOLTRE ZONA PROTETTA!
+1	MARE	mare	PROPN	SP	_	0	root	_	_
+2	STUPENDO	STUPENDO	PROPN	SP	_	1	flat:name	_	_
+3	ANCHE	anche	PROPN	SP	_	1	flat:name	_	_
+4	LÌ	Lì	PROPN	SP	_	3	flat:name	_	_
+5	E	e	CCONJ	CC	_	6	cc	_	_
+6	INOLTRE	Inoltro	PROPN	SP	_	3	conj	_	_
+7	ZONA	zona	PROPN	SP	_	6	flat:name	_	_
+8	PROTETTA	protetta	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = 😉🌊
+1	😉🌊	😉🌊	SYM	SYM	_	0	root	_	SpacesAfter=\n\n
+

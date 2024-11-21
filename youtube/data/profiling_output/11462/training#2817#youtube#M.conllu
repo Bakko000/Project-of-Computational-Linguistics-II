@@ -1,0 +1,1157 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = STORICO ISRAELIANO AFFERMA:
+1	STORICO	storico	PROPN	SP	_	0	root	_	_
+2	ISRAELIANO	israeliano	PROPN	SP	_	1	flat:name	_	_
+3	AFFERMA	afferma	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = IL POPOLO EBRAICO E' UN'INVENZIONE
+1	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	POPOLO	popolo	PROPN	SP	_	0	root	_	_
+3	EBRAICO	ebraico	PROPN	SP	_	2	flat:name	_	_
+4	E'	essere	PROPN	SP	_	2	flat:name	_	_
+5	UN'	uno	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	INVENZIONE	invenzione	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Gli antisionisti lo hanno sempre sostenuto.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	antisionisti	antisionista	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Gli ebrei non sono un popolo ma una religione.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	religione	religione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Gli ebrei che sono 'tornati' in Israele non discendono dagli ebrei di Palestina ma dai Kazari.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	tornati	tornare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	6	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Israele	Israele	PROPN	SP	_	6	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	discendono	discendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12-13	dagli	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Palestina	Palestina	PROPN	SP	_	14	nmod	_	_
+17	ma	ma	CCONJ	CC	_	20	cc	_	_
+18-19	dai	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	Kazari	Kazari	PROPN	SP	_	11	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = I palestinesi discendono dagli ebrei di Palestina.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	palestinesi	palestinese	NOUN	S	Number=Plur	3	nsubj	_	_
+3	discendono	discendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dagli	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Palestina	Palestina	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ora anche un libro dello storico ebraico Shlomo Zand sostiene e documento queste posizioni.
+1	Ora	ora	ADV	B	_	11	advmod	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	libro	libro	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+5-6	dello	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	storico	storico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	ebraico	ebraico	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	Shlomo	Shlomo	PROPN	SP	_	8	nmod	_	_
+10	Zand	Zand	PROPN	SP	_	9	flat:name	_	_
+11	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	documento	documento	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+14	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = La recensione è di un altro storico ebraico, Tom Segev.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	recensione	recensione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	altro	altro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	storico	storico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	Tom	Tom	PROPN	SP	_	7	appos	_	_
+11	Segev.	Segev.	PROPN	SP	_	10	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = - Mauro Manno
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	Mauro	Mauro	PROPN	SP	_	0	root	_	_
+3	Manno	Manno	PROPN	SP	_	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Una invenzione chiamata “il popolo ebraico”
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	invenzione	invenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	chiamata	chiamare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Di Tom Segev
+1	Di	di	ADP	E	_	2	case	_	_
+2	Tom	Tom	PROPN	SP	_	0	root	_	_
+3	Segev	Segev	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = The Slate Magazine, the Fray Kausfiles, 29/02/2008
+1	The	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	Slate	Slato	PROPN	SP	_	0	root	_	_
+3	Magazine	Magazine	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	Fray	Fray	PROPN	SP	_	2	appos	_	_
+7	Kausfiles	Kausfiles	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	29/02/	29/02/	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+10	2008	2008	NUM	N	NumType=Card	2	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = La Dichiarazione di Indipendenza di Israele afferma che il popolo ebraico proviene dalla Terra di Israele e che fu esiliato dalla sua patria.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Indipendenza	Indipendenza	PROPN	SP	_	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Israele	Israele	PROPN	SP	_	4	nmod	_	_
+7	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	proviene	provenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Terra	Terra	PROPN	SP	_	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Israele	Israele	PROPN	SP	_	15	nmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj:pass	_	_
+20	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	esiliato	esiliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	patria	patria	NOUN	S	Gender=Fem|Number=Sing	21	obl:agent	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Ad ogni scolaro israeliano si insegna che ciò accadde durante il dominio romano, nell’anno 70 d.C.
+1	Ad	a	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	scolaro	scolaro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	israeliano	israeliano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+9	accadde	accaddere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	durante	durante	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dominio	dominio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	romano	romano	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15-16	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+15	in	in	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	anno	anno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+18	70	70	NUM	N	NumType=Card	17	nummod	_	_
+19	d.C	d.C	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = La nazione rimase fedele alla sua terra, alla quale iniziò a tornare dopo 2 millenni di esilio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	fedele	fedele	ADJ	A	Number=Sing	3	xcomp	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	terra	terra	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	quale	quale	PRON	PR	Number=Sing|PronType=Rel	13	obl	_	_
+13	iniziò	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	tornare	tornare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	dopo	dopo	ADP	E	_	18	case	_	_
+17	2	2	NUM	N	NumType=Card	18	nummod	_	_
+18	millenni	millenne	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	esilio	esilio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Tutto sbagliato, dice lo storico Shlomo Zand, in uno dei libri più affascinanti e stimolanti pubblicati qui (in Israele) da molto tempo a questa parte.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	storico	storico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	Shlomo	Shlomo	PROPN	SP	_	4	nsubj	_	_
+8	Zand	Zand	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	libri	libro	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	affascinanti	affascinante	ADV	B	_	14	advmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	stimolanti	stimolante	ADV	B	_	19	advmod	_	_
+19	pubblicati	pubblicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	conj	_	_
+20	qui	qui	ADV	B	_	19	advmod	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	in	in	ADP	E	_	23	case	_	_
+23	Israele	Israele	PROPN	SP	_	4	obl	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+30	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Non c’è mai stato un popolo ebraico, solo una religione ebraica, e l’esilio non è mai avvenuto – per cui non si è trattato di un ritorno.
+1	Non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	mai	mai	ADV	B	_	7	advmod	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	solo	solo	ADV	B	_	12	advmod	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	religione	religione	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+13	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	21	punct	_	_
+15	e	e	CCONJ	CC	_	21	cc	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	esilio	esilio	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	mai	mai	ADV	B	_	21	advmod	_	_
+21	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+22	–	–	PUNCT	FB	_	21	punct	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = Zand rigetta la maggior parte dei racconti biblici riguardanti la formazione di una identità nazionale, incluso il racconto dell’esodo dall’Egitto e, in modo molto convincente, i racconti degli orrori della conquista da parte di Giosué.
+1	Zand	Zand	PROPN	SP	_	2	nsubj	_	_
+2	rigetta	rigettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	5	amod	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	racconti	racconto	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	biblici	biblico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	riguardanti	riguardare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	8	acl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	identità	identità	NOUN	S	Gender=Fem	12	nmod	_	_
+16	nazionale	nazionale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	incluso	includere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21-22	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	esodo	esodo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24-25	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+24	da	da	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Egitto	Egitto	PROPN	SP	_	23	nmod	_	_
+27	e	e	CCONJ	CC	_	26	cc	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	modo	modo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+31	molto	molto	ADV	B	_	32	advmod	_	_
+32	convincente	convincente	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	2	punct	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	racconti	racconto	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+36-37	degli	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	orrori	orrore	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	conquista	conquista	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+42	da	da	ADP	E	_	43	case	_	_
+43	parte	parte	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	Giosué	Giosué	PROPN	SP	_	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = È tutta invenzione e mito che è servita come scusa per la fondazione dello Stato di Israele, egli assicura.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	tutta	tutto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	invenzione	invenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	mito	mito	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj:pass	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	servita	servire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	scusa	scusare	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fondazione	fondazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Israele	Israele	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	assicura	assicurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Secondo Zand, i romani, che di solito non esiliavano intere nazioni, permisero alla maggior parte degli ebrei di restare nel paese.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	Zand	Zand	PROPN	SP	_	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	romani	romano	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	solito	solito	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	esiliavano	esiliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+12	intere	intere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	permisero	permettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	19	amod	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	restare	restare	VERB	V	VerbForm=Inf	22	acl	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	paese	paese	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 21
+# text = Il numero degli esiliati ammontava al massimo a qualche decina di migliaia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	numero	numero	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	esiliati	esiliato	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	ammontava	ammontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	decina	decina	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = Quando il paese fu conquistato dagli arabi, molti ebrei si convertirono all’Islam e si assimilarono con i conquistatori.
+1	Quando	quando	SCONJ	CS	_	5	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+4	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	conquistato	conquistare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+6-7	dagli	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	arabi	arabo	NOUN	S	Gender=Masc|Number=Plur	5	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	convertirono	convertire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14-15	all’	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Islam	Islam	PROPN	SP	_	13	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	assimilarono	assimilare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	conquistatori	conquistatore	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 23
+# text = Ne consegue che i progenitori degli arabi palestinesi erano ebrei.
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	consegue	conseguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	11	mark	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	progenitori	progenitore	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	arabi	arabo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	palestinesi	palestinese	ADJ	A	Number=Plur	8	amod	_	_
+10	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	ebrei	ebreo	ADJ	A	Gender=Masc|Number=Plur	2	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Zand non ha inventato questa tesi;
+1	Zand	Zand	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	tesi	tesi	NOUN	S	Gender=Fem	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 25
+# text = 30 anni prima della Dichiarazione di Indipendenza, essa fu sostenuta da David Ben-Gurion, Yitzhak Ben-Zvi ed altri.
+1	30	30	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+3	prima	prima	ADV	B	_	6	case	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Dichiarazione	Dichiarazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Indipendenza	Indipendenza	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+11	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	sostenuta	sostenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	David	David	PROPN	SP	_	12	obl:agent	_	_
+15	Ben	Ben	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+17	Gurion	Gurion	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	Yitzhak	Yitzhak	PROPN	SP	_	14	conj	_	_
+20	Ben	Ben	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+22	Zvi	Zvo	PROPN	SP	_	19	flat:name	_	_
+23	ed	e	CCONJ	CC	_	24	cc	_	_
+24	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	14	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Se la maggioranza degli ebrei non fu esiliata, come è successo allora che tanti di loro si insediarono in quasi ogni paese della terra?
+1	Se	se	SCONJ	CS	_	9	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	esiliata	esiliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	come	come	SCONJ	CS	_	13	mark	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+14	allora	allora	ADV	B	_	13	advmod	_	_
+15	che	che	SCONJ	CS	_	20	mark	_	_
+16	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	nsubj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	insediarono	insediare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	quasi	quasi	ADV	B	_	24	advmod	_	_
+23	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+24	paese	paese	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	terra	terra	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 27
+# text = Zand afferma che essi emigrarono di propria volontà o, se erano tra gli esiliati di Babilonia, rimasero colà per loro scelta.
+1	Zand	Zand	PROPN	SP	_	2	nsubj	_	_
+2	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	emigrarono	emigrarere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	volontà	volontà	NOUN	S	Gender=Fem	5	obl	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	se	se	SCONJ	CS	_	12	mark	_	_
+12	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+13	tra	tra	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	esiliati	esiliato	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Babilonia	Babilonia	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	rimasero	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+20	colà	colà	ADV	B	_	19	advmod	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Contrariamente a quanto si pensa, la religione ebraica ha cercato di indurre persone di altre fedi a convertirsi al giudaismo, il che spiega come è successo che ci siano milioni di ebrei nel mondo.
+1	Contrariamente	contrariamente	ADV	B	_	5	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	religione	religione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	indurre	indurre	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	14	nmod	_	_
+17	fedi	fede	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19-20	convertirsi	_	_	_	_	_	_	_	_
+19	convertir	convertire	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	giudaismo	giudaismo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	11	punct	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+28	come	come	SCONJ	CS	_	30	mark	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	ccomp	_	_
+31	che	che	SCONJ	CS	_	33	mark	_	_
+32	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	33	expl	_	_
+33	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
+34	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	33	nsubj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+37-38	nel	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 29
+# text = Nel Libro di Ester, per esempio, è scritto:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Libro	Libro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Ester	Ester	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 30
+# text = “Molti appartenenti ai popoli del paese si fecero Giudei, perché il timore dei Giudei era piombato su di loro”.
+1	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nsubj	_	_
+3	appartenenti	appartenere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	2	acl	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Giudei	Giudei	PROPN	SP	_	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	perché	perché	SCONJ	CS	_	21	mark	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	timore	timore	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Giudei	Giudei	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	piombato	piombare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = Zand cita molti precedenti studi, alcuni dei quali scritti in Israele ma tenuti fuori dal dibattito pubblico dominante.
+1	Zand	Zand	CCONJ	CC	_	2	cc	_	_
+2	cita	citare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+4	precedenti	precedente	ADJ	A	Number=Plur	5	amod	_	_
+5	studi	studio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	quali	quale	PRON	PR	Number=Plur|PronType=Rel	7	nmod	_	_
+11	scritti	scrivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Israele	Israele	PROPN	SP	_	11	obl	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
+16	fuori	fuori	ADV	B	_	15	advmod	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	dibattito	dibattito	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	dominante	dominante	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = Egli descrive anche, e a lungo, il regno ebraico di Himyar nella penisola arabica meridionale e gli ebrei berberi del Nord Africa.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	descrive	descrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	regno	regno	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+11	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Himyar	Himyar	PROPN	SP	_	10	nmod	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+17	arabica	arabico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	meridionale	meridionale	ADJ	A	Number=Sing	16	amod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+22	berberi	berbero	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Nord	Nord	PROPN	SP	_	21	nmod	_	_
+26	Africa	Africa	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 33
+# text = La comunità degli ebrei di Spagna derivava da arabi convertiti al giudaismo che giunsero con le forze che tolsero la Spagna ai cristiani, e da individui di origine europea che si erano convertiti anch’essi al giudaismo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comunità	comunità	NOUN	S	Gender=Fem	8	nsubj	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Spagna	Spagna	PROPN	SP	_	5	nmod	_	_
+8	derivava	derivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	arabi	arabo	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	convertiti	convertire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giudaismo	giudaismo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	giunsero	giundere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	forze	forza	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	tolsero	toldere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Spagna	Spagna	PROPN	SP	_	21	obj	_	_
+24-25	ai	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	origine	origine	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	europea	europeo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+34	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+36	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	37	aux	_	_
+37	convertiti	convertire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+38	anch’	ancho	DET	RD	Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	_
+40-41	al	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	giudaismo	giudaismo	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = I primi ebrei di Ashkenaz (Germania) non provenivano dalla Terra di Israele e non giunsero in Europa orientale dalla Germania, ma erano ebrei che si erano convertiti nel regno dei Kazari nel Caucaso.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Ashkenaz	Ashkenaz	PROPN	SP	_	3	nmod	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Germania	Germania	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	provenivano	provenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Terra	Terra	PROPN	SP	_	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Israele	Israele	PROPN	SP	_	13	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	giunsero	giundere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Europa	Europa	PROPN	SP	_	18	obl	_	_
+21	orientale	orientale	ADJ	A	Number=Sing	20	amod	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Germania	Germania	PROPN	SP	_	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	ma	ma	CCONJ	CC	_	28	cc	_	_
+27	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+28	ebrei	ebre	ADJ	A	Gender=Masc|Number=Plur	18	conj	_	_
+29	che	che	SCONJ	CS	_	32	mark	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+31	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	convertiti	convertire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	advcl	_	_
+33-34	nel	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	regno	regno	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+36-37	dei	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	Kazari	Kazari	PROPN	SP	_	35	nmod	_	_
+39-40	nel	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Caucaso	Caucaso	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 35
+# text = Zand spiega l’origine della cultura Yiddish:
+1	Zand	Zand	CCONJ	CC	_	2	cc	_	_
+2	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	origine	origine	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	Yiddish	Yiddish	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 36
+# text = non si tratta di un’importazione ebraica dalla Germania, ma del risultato dell’incontro tra i discendenti dei Kazari e i tedeschi che si muovevano verso oriente, alcuni dei quali in veste di mercanti.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	importazione	importazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Germania	Germania	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+16-17	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	tra	tra	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	discendenti	discendente	NOUN	S	Number=Plur	18	nmod	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Kazari	Kazari	PROPN	SP	_	21	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	tedeschi	tedesco	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+30	muovevano	muovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+31	verso	verso	ADP	E	_	32	case	_	_
+32	oriente	oriente	NOUN	S	Number=Sing	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	18	punct	_	_
+34	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	acl:relcl	_	_
+35-36	dei	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	quali	quale	PRON	PR	Number=Plur|PronType=Rel	34	nmod	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	veste	veste	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	mercanti	mercante	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 37
+# text = Scopriamo così che elementi di vari popoli e razze, dai capelli biondi o scuri, di pelle scura o gialla, divennero ebrei in gran numero.
+1	Scopriamo	Scoprare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	così	così	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	24	mark	_	_
+4	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	razze	razza	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11-12	dai	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+14	biondi	biondo	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	o	o	CCONJ	CC	_	16	cc	_	_
+16	scuri	scuro	ADJ	A	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+20	scura	scuro	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	o	o	CCONJ	CC	_	22	cc	_	_
+22	gialla	giallo	ADJ	A	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	4	punct	_	_
+24	divennero	divenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+25	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	gran	grande	ADJ	A	_	28	amod	_	_
+28	numero	numero	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 38
+# text = Secondo Zand, i sionisti per la necessità che hanno di inventarsi una eticità comune e una continuità storica, hanno prodotto una lunga serie di invenzioni e finzioni, ricorrendo anche a tesi razziste.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	Zand	Zand	PROPN	SP	_	23	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sionisti	sionista	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	necessità	necessità	NOUN	S	Gender=Fem	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	inventarsi	_	_	_	_	_	_	_	_
+12	inventar	inventare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	eticità	eticità	NOUN	S	Gender=Fem	12	obj	_	_
+16	comune	comune	ADJ	A	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	continuità	continuità	NOUN	S	Gender=Fem	15	conj	_	_
+20	storica	storico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	prodotto	produrre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	serie	serie	NOUN	S	Gender=Fem	23	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	invenzioni	invenzione	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	finzioni	finzione	NOUN	S	Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	23	punct	_	_
+32	ricorrendo	ricorrere	VERB	V	VerbForm=Ger	23	advcl	_	_
+33	anche	anche	ADV	B	_	35	advmod	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	tesi	teso	NOUN	S	Gender=Fem	32	obl	_	_
+36	razziste	razzista	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 39
+# text = Alcune di queste furono elaborate espressamente dalle menti di coloro che promossero il movimento sionista, mentre altre furono presentate come i risultati di studi genetici svolti in Israele.
+1	Alcune	alcuno	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	5	nsubj:pass	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	1	nmod	_	_
+4	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	elaborate	elaborare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	espressamente	espressamente	ADV	B	_	5	advmod	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	menti	mente	NOUN	S	Gender=Fem|Number=Plur	5	obl:agent	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	9	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	promossero	promore	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	sionista	sionista	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	mentre	mentre	SCONJ	CS	_	21	mark	_	_
+19	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	21	nsubj:pass	_	_
+20	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	presentate	presentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+22	come	come	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	studi	studio	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	genetici	genetico	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	svolti	svolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	Israele	Israele	PROPN	SP	_	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 40
+# text = Il Prof. Zand insegna all’Università di Tel Aviv.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Prof	Prof	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	FF	_	2	punct	_	_
+4	Zand	Zand	PROPN	SP	_	5	nsubj	_	_
+5	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	all’	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Università	Università	NOUN	S	Gender=Fem	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Tel	Tel	PROPN	SP	_	8	nmod	_	_
+11	Aviv	Aviv	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 41
+# text = Il suo libro, ‘When and How Was the Jewish People Invented’, (Quando è come fu inventato il popolo ebraico), pubblicato in ebraico dalla casa editrice Resling, vuole promuovere l’idea di un Israele come “stato di tutti i suoi cittadini” – ebrei, arabi ed altri – in contrasto con l’attuale dichiarata identità di stato “ebraico e democratico”.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	libro	libro	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	‘When	‘When	PROPN	SP	_	3	appos	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	How	How	PROPN	SP	_	5	conj	_	_
+8	Was	Was	PROPN	SP	_	5	flat:name	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	Jewish	Jewish	PROPN	SP	_	5	flat:name	_	_
+11	People	people	PROPN	SP	_	10	flat:name	_	_
+12	Invented’	Inventedi	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+15	Quando	quando	SCONJ	CS	_	19	advmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	come	come	ADV	B	_	19	advmod	_	_
+18	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+22	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	19	punct	_	_
+25	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	ebraico	ebraico	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+28-29	dalla	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	casa	casa	NOUN	S	Gender=Fem|Number=Sing	25	obl:agent	_	_
+31	editrice	editore	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	Resling	Resling	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	25	punct	_	_
+34	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	promuovere	promuovere	VERB	V	VerbForm=Inf	0	root	_	_
+36	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	idea	idea	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Israele	Israele	PROPN	SP	_	37	nmod	_	_
+41	come	come	ADP	E	_	43	case	_	_
+42	“	“	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+43	stato	stato	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+44	di	di	ADP	E	_	48	case	_	_
+45	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	48	det:predet	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+47	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+49	”	”	PUNCT	FB	_	48	punct	_	_
+50	–	–	PUNCT	FF	_	43	punct	_	_
+51	ebrei	ebreo	ADJ	A	Gender=Masc|Number=Plur	43	amod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	53	punct	_	_
+53	arabi	arabo	ADJ	A	Gender=Masc|Number=Plur	51	conj	_	_
+54	ed	e	CCONJ	CC	_	55	cc	_	_
+55	altri	altro	ADJ	A	Gender=Masc|Number=Plur	51	conj	_	_
+56	–	–	PUNCT	FB	_	35	punct	_	_
+57	in	in	ADP	E	_	58	case	_	_
+58	contrasto	contrasto	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+59	con	con	ADP	E	_	63	case	_	_
+60	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	63	det	_	SpaceAfter=No
+61	attuale	attuale	ADJ	A	Number=Sing	63	amod	_	_
+62	dichiarata	dichiarare	ADJ	A	Gender=Fem|Number=Sing	63	amod	_	_
+63	identità	identità	NOUN	S	Gender=Fem	58	nmod	_	_
+64	di	di	ADP	E	_	65	case	_	_
+65	stato	stato	NOUN	S	Gender=Masc|Number=Sing	63	nmod	_	_
+66	“	“	PUNCT	FB	_	67	punct	_	SpaceAfter=No
+67	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	65	amod	_	_
+68	e	e	CCONJ	CC	_	69	cc	_	_
+69	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	67	conj	_	SpaceAfter=No
+70	”	”	PUNCT	FB	_	67	punct	_	SpaceAfter=No
+71	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 42
+# text = Il racconto di avvenimenti personali, una prolungata discussione teoretica e abbondanti battute sarcastiche non rendono scorrevole il libro, ma i capitoli storici sono ben scritti e riportano numerosi fatti e idee perspicaci che molti israeliani resteranno sorpresi di leggere per la prima volta.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	avvenimenti	avvenimento	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	personali	personale	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	prolungata	prolungato	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+10	teoretica	teoretico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	abbondanti	abbondante	ADJ	A	Number=Plur	10	conj	_	_
+13	battute	battuta	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+14	sarcastiche	sarcastico	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	scorrevole	scorrevole	ADJ	A	Number=Sing	16	xcomp	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	libro	libro	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	27	punct	_	_
+21	ma	ma	CCONJ	CC	_	27	cc	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	capitoli	capitolo	NOUN	S	Gender=Masc|Number=Plur	27	nsubj:pass	_	_
+24	storici	storico	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+25	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+26	ben	bene	ADV	B	_	27	advmod	_	_
+27	scritti	scrivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	conj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	riportano	riportare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+30	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	31	det	_	_
+31	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	idee	idea	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	_
+34	perspicaci	perspicace	ADJ	A	Number=Plur	33	amod	_	_
+35	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+36	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	37	det	_	_
+37	israeliani	israeliano	NOUN	S	Gender=Masc|Number=Plur	38	nsubj	_	_
+38	resteranno	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	31	acl:relcl	_	_
+39	sorpresi	sorpreso	ADJ	A	Gender=Masc|Number=Plur	38	xcomp	_	_
+40	di	di	ADP	E	_	41	mark	_	_
+41	leggere	leggere	VERB	V	VerbForm=Inf	39	advcl	_	_
+42	per	per	ADP	E	_	45	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	45	amod	_	_
+45	volta	volta	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n\n
+

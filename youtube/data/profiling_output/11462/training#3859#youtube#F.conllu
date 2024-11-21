@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Qualcosa di davvero interessante sulla Gnosi, sui vangeli apocrifi e molto altro
+1	Qualcosa	Qualcosa	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	davvero	davvero	ADV	B	_	4	advmod	_	_
+4	interessante	interessante	ADJ	A	Number=Sing	1	nmod	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Gnosi	Gnosi	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9-10	sui	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	vangeli	vangelo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+12	apocrifi	apocrifo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = https://www.youtube.com/watch?v=oyqV4OzDbF4 Un'anteprima del documento su
+1	https://www.youtube.com/watch?v=oyqV4OzDbF4	https://www.youtube.com/watch?v=oyqV4OzDbF4	NUM	N	NumType=Range	3	nummod	_	SpacesAfter=\n\n
+2	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	anteprima	anteprima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\s
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	documento	documento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	su	su	ADP	E	_	6	case	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = https://www.amazon.it/dp/1980705305 qualcosa davvero da non perdere
+1	https://www.amazon.it/dp/1980705305	https://www.amazon.it/dp/1980705305	NUM	N	NumType=Card	2	nummod	_	_
+2	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+3	davvero	davvero	ADV	B	_	2	advmod	_	_
+4	da	da	ADP	E	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	perdere	perdere	VERB	V	VerbForm=Inf	2	acl	_	SpacesAfter=\n\n
+

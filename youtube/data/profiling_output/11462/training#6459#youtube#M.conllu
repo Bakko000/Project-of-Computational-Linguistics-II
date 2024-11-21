@@ -1,0 +1,42 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Pagliacci!!
+1	Pagliacci	Pagliacci	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = fanno lo stesso giochino da vent'anni.
+1	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	giochino	giochino	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	vent'	venti	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+7	anni.	anni.	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+
+# sent_id = 3
+# text = .litigano in TV e poi ci spolpano uniti..svegliatevi!!
+1	.litigano	.litigare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	TV	tv	PROPN	SP	_	1	obl	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	poi	poi	ADV	B	_	7	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	spolpano	spolpare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	uniti..svegliatevi	uniti..svegliateve	ADJ	A	Gender=Masc|Number=Plur	7	xcomp	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sono due che vivono di politica...da sempre!
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	due	due	NUM	N	NumType=Card	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	politica...da	politica...da	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	sempre	sempre	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

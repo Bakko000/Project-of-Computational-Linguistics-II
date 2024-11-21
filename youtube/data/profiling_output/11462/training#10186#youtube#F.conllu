@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bravo!
+1	Bravo	bravo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Bellissimo reportage!
+1	Bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	_
+2	reportage	reportage	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = io e mio marito ci siamo stati nel 2011, in estate, abbiamo fatto quasi lo stesso percorso.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	marito	marito	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	advcl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	2011	2011	NUM	N	NumType=Card	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	estate	estate	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	quasi	quasi	ADV	B	_	20	advmod	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = Grazie per averci fatto rivivere quella splendida vacanza.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	per	per	ADP	E	_	5	mark	_	_
+3-4	averci	_	_	_	_	_	_	_	_
+3	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+6	rivivere	rivivere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	splendida	splendido	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = :-)
+1	:	:	PUNCT	FC	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = p.s.
+1	p.s	p.	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = ma alla Blue Lagoon sei mai andato?
+1	ma	ma	CCONJ	CC	_	8	cc	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Blue	Blue	PROPN	SP	_	8	obl	_	_
+5	Lagoon	Lagoon	PROPN	SP	_	4	flat:name	_	_
+6	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	mai	mai	ADV	B	_	8	advmod	_	_
+8	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = :-)
+1	:	:	PUNCT	FC	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+

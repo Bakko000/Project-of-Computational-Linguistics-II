@@ -1,0 +1,48 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Grande Favi!!!
+1	Grande	Grande	ADJ	A	Number=Sing	2	amod	_	_
+2	Favi	Favo	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!!	!!	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Io in Giappone ci sono appena stata in agosto, e confermo che c'è una quantità spropositata di distributori di bibite!!!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Giappone	Giappone	PROPN	SP	_	1	nmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	appena	appena	ADV	B	_	9	advmod	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	confermo	confermo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	quantità	quantità	NOUN	S	Gender=Fem	15	nsubj	_	_
+18	spropositata	spropositato	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	distributori	distributore	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	bibite	bibita	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	!!!	!!!	PUNCT	FF	_	5	punct	_	_
+
+# sent_id = 3
+# text = Consiglio l'acqua aromatizzata all'uva americana!
+1	Consiglio	consigliare	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	aromatizzata	aromatizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	uva	uva	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	americana	americano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

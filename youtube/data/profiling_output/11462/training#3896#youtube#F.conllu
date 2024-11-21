@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi scusami,ma di che categoria ti sentì parte?
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	scusami,ma	scusami,mare	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	che	che	DET	DQ	PronType=Int	5	det	_	_
+5	categoria	categoria	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+7	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ateo,no!credente,no!haaa!quello del web!!!avanti con lo schifo allora!
+1	ateo,no	ateo,re	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+2	!credente,no!haaa	!credente,no!haao	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+3	!quello	!quello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	web!!!avanti	web!!!avante	NOUN	S	Number=Plur	3	nmod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	schifo	schifo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	allora	allora	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = e con la cacca che ti esce dalla bocca!ma chi sei x sparare sporco dappertutto?
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cacca	cacca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	expl	_	_
+7	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bocca!ma	bocca!ma	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	nsubj	_	_
+12	sei	sei	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	x	x	SYM	SYM	_	11	acl:relcl	_	_
+14	sparare	sparare	VERB	V	VerbForm=Inf	13	csubj	_	_
+15	sporco	sporco	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	_
+16	dappertutto	dappertutto	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = ma cosa ti hanno fatto?
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	fatto?	fatto?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = hai un minestrone in testa!la tua volgarità trasuda la voglia di emergere!forza fratello,cambia giro!
+1	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	minestrone	minestrone	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	testa!la	testa!la	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	volgarità	volgarità	NOUN	S	Gender=Fem	8	nsubj	_	_
+8	trasuda	trasudere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	emergere	emergere	VERB	V	VerbForm=Inf	10	acl	_	SpaceAfter=No
+13	!forza	!forza	ADP	E	_	14	case	_	_
+14	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,cambia	,cambiare	ADV	B	_	16	advmod	_	_
+16	giro	giro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Supremo!
+1	Supremo	supremo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Mi sveglio alle 5 di mattna, apro youtube e trovo Lorenzo che si alza alle 5 di mattina in nuova zelanda per pedalare e girare un video sull'essenza dell'essere umano:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	sveglio	svegliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	5	5	NUM	N	NumType=Card	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	mattna	mattna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	SpacesAfter= 
+9	apro	aprire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	youtube	youtube	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	trovo	trovo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	Lorenzo	Lorenzo	PROPN	SP	_	12	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	alza	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	5	5	NUM	N	NumType=Card	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	zelanda	zelanda	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26	pedalare	pedalare	VERB	V	VerbForm=Inf	16	advcl	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	girare	girare	VERB	V	VerbForm=Inf	26	conj	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	video	video	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31-32	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+31	su	su	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	essenza	essenza	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34-35	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+34	di	di	ADP	E	_	37	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+36	essere	essere	AUX	V	VerbForm=Inf	37	cop	_	_
+37	umano	umano	ADJ	A	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+38	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = il viaggio, qualunque esso sia... Grande Lore' ! (p.s. l ho visto tutto alle 5 di mattina!)
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+6	sia...	sia.	PUNCT	FF	_	5	punct	_	_
+7	Grande	grande	PROPN	SP	_	5	nmod	_	_
+8	Lore	Lore	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	7	punct	_	_
+10	!	!	PUNCT	FF	_	7	punct	_	_
+11	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+12	p.s.	p.s.	NOUN	S	_	15	nsubj	_	_
+13	l	l	NOUN	S	_	12	compound	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+16	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obj	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	5	5	NUM	N	NumType=Card	15	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	2	punct	_	SpacesAfter=\n\n
+

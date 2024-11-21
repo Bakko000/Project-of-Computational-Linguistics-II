@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma che palle!!
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	palle	pallo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma la maggior parte guarda solo alla politica!
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	solo	solo	ADV	B	_	5	advmod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	politica	politica	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ma guardate invece il talento puro di quest’uomo!
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	guardate	guardare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	invece	invece	ADV	B	_	2	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	talento	talento	NOUN	S	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+6	puro	puro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	quest’	questo	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Un attore capace di così tanta emozione da far nascere lacrime da dentro e buttarle fuori senza bisogno di trucchi ... orgogliosissima di avere in Italia un talento così immenso!
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	attore	attore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	capace	capace	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	così	così	ADV	B	_	3	advmod	_	_
+6	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	far	fare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	nascere	nascere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	dentro	dentro	ADV	B	_	11	advmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15-16	buttarle	_	_	_	_	_	_	_	_
+15	buttar	buttare	VERB	V	VerbForm=Inf	2	conj	_	_
+16	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	fuori	fuori	ADV	B	_	15	advmod	_	_
+18	senza	senza	ADP	E	_	19	case	_	_
+19	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	trucchi	trucco	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	...	...	PUNCT	FF	_	21	punct	_	_
+23	orgogliosissima	orgoglioso	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	21	amod	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	avere	avere	VERB	V	VerbForm=Inf	23	advcl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	Italia	Italia	PROPN	SP	_	25	obl	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	talento	talento	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+30	così	così	ADV	B	_	31	advmod	_	_
+31	immenso	immenso	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+32	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

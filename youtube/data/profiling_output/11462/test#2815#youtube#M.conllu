@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Però il peperoncino verde all'inizio mi sembrava che dalla faccia che hai fatto non era proprio quel "buonissimo" che hai detto!
+1	Però	però	ADV	B	_	9	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	peperoncino	peperoncino	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	verde	verde	ADJ	A	Number=Sing	3	amod	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	22	mark	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+15	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+19	proprio	proprio	ADV	B	_	22	advmod	_	_
+20	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	buonissimo	buono	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	ccomp	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	26	obj	_	_
+25	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+27	!	!	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = È un po'come faccio quando vado a pranzo dalla suocera:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	come	come	ADV	B	_	5	advmod	_	_
+5	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	quando	quando	SCONJ	CS	_	7	mark	_	_
+7	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	suocera	suocera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = "com'è?" "Buonissimo!
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	com'	come	SCONJ	CS	_	7	mark	_	SpaceAfter=No
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+4	?	?	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	7	punct	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Buonissimo	Buonissimo	PROPN	SP	_	0	root	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Mondiale, veramente speciale..."
+1	Mondiale	mondiale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	veramente	veramente	ADV	B	_	1	advmod	_	_
+4	speciale...	speciale.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = ma se potessi lo butterei non nella spazzatura, ma dove merita:
+1	ma	ma	CCONJ	CC	_	13	cc	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	potessi	potettere	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	butterei	buttereo	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	spazzatura	spazzatura	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	dove	dove	ADV	B	_	13	advmod	_	_
+13	merita	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 6
+# text = rint' o cess!!!!!
+1	rint'	rinta	NUM	N	NumType=Card	0	root	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	cess	cess	NOUN	S	Gender=Fem	1	conj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+5	!!!!	!!!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

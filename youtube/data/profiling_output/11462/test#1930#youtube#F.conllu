@@ -1,0 +1,56 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao Human Safari, io sono sarda ed eri a due passi da me ieri.
+1	Ciao	ciao	INTJ	I	_	7	punct	_	_
+2	Human	Human	PROPN	SP	_	7	nsubj	_	_
+3	Safari	Safari	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	sarda	sardo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+8	ed	e	CCONJ	CC	_	12	cc	_	_
+9	eri	ero	ADV	B	_	12	advmod	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	passi	passo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nmod	_	_
+15	ieri	ieri	ADV	B	_	12	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Io ieri ero ad Alghero e sto morendo dentro perché non ti ho incontrato e non sapevo manco fossi qui.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+2	ieri	ieri	ADV	B	_	3	advmod	_	_
+3	ero	essere	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	Alghero	Alghero	PROPN	SP	_	8	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	morendo	morire	VERB	V	VerbForm=Ger	1	advcl	_	_
+9	dentro	dentro	ADV	B	_	8	advmod	_	_
+10	perché	perché	SCONJ	CS	_	14	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	14	obj	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	conj	_	_
+18	manco	manco	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obj	_	_
+19	fossi	fosso	AUX	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	cop	_	_
+20	qui	qui	ADV	B	_	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 3
+# text = Piango hahhaha vabbè sarà per la promissima.
+1	Piango	Piango	PROPN	SP	_	4	nsubj	_	_
+2	hahhaha	hahhaavere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	vabbè	vabbé	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	promissima	promo	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

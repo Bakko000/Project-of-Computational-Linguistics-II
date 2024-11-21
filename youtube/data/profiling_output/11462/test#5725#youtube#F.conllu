@@ -1,0 +1,47 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che bellooooooooooo!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	bellooooooooooo	bellooooooooooo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = !!!!
+1	!!!!	!!!!	PUNCT	FF	_	0	root	_	SpaceAfter=No
+
+# sent_id = 3
+# text = !!Posso venire al vostro concerto Benji e Fedeeee!
+1	!!Posso	!!Posso	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	venire	venire	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	SpacesAfter=\s\s
+3	a	a	ADP	E	_	7	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	concerto	concerto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	Benji	Benji	PROPN	SP	_	2	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Fedeeee	Fedeeee	PROPN	SP	_	7	conj	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = !😍😍😍N vedo l ora che venga il 30 Agosto!
+1	!😍😍😍N	!😍😍😍N	ADV	B	_	2	advmod	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l	l	X	X	_	2	obj	_	_
+4	ora	ora	ADV	B	_	3	advmod	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	venga	venire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	30	30	NUM	N	NumType=Card	6	obl	_	_
+9	Agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = !Biglietti gia presi!Vi amo!😍😍
+1	!Biglietti	!Biglietto	NOUN	S	Gender=Masc	0	root	_	_
+2	gia	gio	NOUN	S	Gender=Fem|Number=Sing	1	compound	_	_
+3	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	SpaceAfter=No
+4	!Vi	!Vi	PROPN	SP	_	1	nmod	_	_
+5	amo!😍😍	amo!😍😍	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n\n
+

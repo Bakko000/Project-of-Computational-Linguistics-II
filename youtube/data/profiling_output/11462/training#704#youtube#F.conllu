@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ANDAVO CON GLI UOMINI PER NON TRADIRE MIA MADRE.
+1	ANDAVO	andare	PROPN	SP	_	0	root	_	_
+2	CON	con	PROPN	SP	_	1	flat:name	_	_
+3	GLI	gli	PROPN	SP	_	1	flat:name	_	_
+4	UOMINI	uomini	PROPN	SP	_	3	flat:name	_	_
+5	PER	per	PROPN	SP	_	3	flat:name	_	_
+6	NON	Non	PROPN	SP	_	3	nmod	_	_
+7	TRADIRE	tradire	PROPN	SP	_	6	flat:name	_	_
+8	MIA	mia	PROPN	SP	_	6	flat:name	_	_
+9	MADRE.	MADRE.	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ...tanto era l'amore morboso di quella donna verso il figlio che aveva paura a tradirla stando con una ragazza....
+1	...tanto	...tanto	ADV	B	_	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	morboso	morboso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	verso	verso	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+14	paura	paura	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	tradirla	_	_	_	_	_	_	_	_
+16	tradir	tradire	VERB	V	VerbForm=Inf	14	acl	_	_
+17	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	stando	stare	VERB	V	VerbForm=Ger	16	advcl	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ragazza...	ragazza...	NOUN	S	_	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = NESSUNO HA SEMPRE RAGIONE...frase epica nel finale...I
+1	NESSUNO	nessuno	PROPN	SP	_	3	nsubj	_	_
+2	HA	avere	PROPN	SP	_	1	flat:name	_	_
+3	SEMPRE	Semprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	RAGIONE...frase	RAGIONE...frase	PROPN	SP	_	5	nsubj	_	_
+5	epica	epico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	finale...I	finale...I	PROPN	SP	_	5	obl	_	_
+
+# sent_id = 4
+# text = GENITORI HANNO SEMPRE RAGIONE???
+1	GENITORI	genitore	PROPN	SP	_	3	nsubj	_	_
+2	HANNO	avere	PROPN	SP	_	1	flat:name	_	_
+3	SEMPRE	Semprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	RAGIONE	ragione	PROPN	SP	_	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = in questi casi non credo proprio....
+1	in	in	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	casi	caso	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	proprio...	proprio.	NOUN	S	_	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = la canzone per me è un capolavoro.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	capolavoro.	capolavoro.	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+
+# sent_id = 7
+# text = ..ovviamente la si deve capire per non criticarla.
+1	..ovviamente	..ovviamente	ADV	B	_	5	advmod	_	_
+2	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	capire	capire	VERB	V	VerbForm=Inf	0	root	_	_
+6	per	per	ADP	E	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8-9	criticarla	_	_	_	_	_	_	_	SpaceAfter=No
+8	criticar	criticare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

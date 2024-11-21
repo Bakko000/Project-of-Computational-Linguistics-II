@@ -1,0 +1,55 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gabriele non c'è più l'audio!!!
+1	Gabriele	Gabriele	PROPN	SP	_	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	4	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	audio	audio	NOUN	S	Gender=Masc	4	nsubj	_	SpaceAfter=No
+8	!!	!!	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Volevo rivederlo e farlo vedere alla mia ragazza, le ho parlato un'ora di te e di questo video.......
+1	Volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2-3	rivederlo	_	_	_	_	_	_	_	_
+2	riveder	rivedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5-6	farlo	_	_	_	_	_	_	_	_
+5	far	fare	VERB	V	VerbForm=Inf	2	conj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	vedere	vedere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	ora	ora	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	video.......	video.......	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+
+# sent_id = 3
+# text = e poi..... dai sistemalo!!!!
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	poi.....	poi...	NOUN	S	_	0	root	_	_
+3-4	dai	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sistemalo	sistemalo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+7	!!	!!	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

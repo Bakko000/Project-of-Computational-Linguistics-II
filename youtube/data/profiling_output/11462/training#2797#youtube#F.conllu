@@ -1,0 +1,53 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = lo stato di ISRAELE E' LI DA LI' FINO AD RE DAVIDE..
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	stato	stato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\s
+3	di	di	ADP	E	_	4	case	_	_
+4	ISRAELE	Israele	PROPN	SP	_	2	nmod	_	SpacesAfter=\s\s
+5	E'	essere	PROPN	SP	_	2	nmod	_	_
+6	LI	li	PROPN	SP	_	5	flat:name	_	_
+7	DA	Da	PROPN	SP	_	5	flat:name	_	_
+8	LI'	LI'	PROPN	SP	_	5	flat:name	_	SpacesAfter=\s\s
+9	FINO	Fino	PROPN	SP	_	5	flat:name	_	SpacesAfter=\s\s
+10	AD	AD	PROPN	SP	_	5	nmod	_	SpacesAfter=\s\s
+11	RE	Re	PROPN	SP	_	10	flat:name	_	_
+12	DAVIDE.	DAVIDE.	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = PALESTINA COSA VUOLE?
+1	PALESTINA	Palestina	PROPN	SP	_	0	root	_	_
+2	COSA	Cosa	PROPN	SP	_	1	flat:name	_	_
+3	VUOLE	Vuole	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = non ha uno stato, ne una lingua, cosa pretende?
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	stato	stato	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	SpacesAfter=\s\s
+10	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	11	nsubj	_	_
+11	pretende	pretendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = E' GIUSTO GERUSALEMME CITTA' CAPO DI ISRAELE WW WW WW
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	GIUSTO	giusto	PROPN	SP	_	0	root	_	_
+3	GERUSALEMME	Gerusalemme	PROPN	SP	_	2	flat:name	_	SpacesAfter=\s\s
+4	CITTA'	CITTA'	PROPN	SP	_	2	flat:name	_	_
+5	CAPO	capo	PROPN	SP	_	4	flat:name	_	SpacesAfter=\s\s
+6	DI	Di	ADP	E	_	7	case	_	_
+7	ISRAELE	Israele	PROPN	SP	_	8	nmod	_	_
+8	WW	WW	PROPN	SP	_	2	flat:name	_	SpacesAfter=\s\s
+9	WW	WW	PROPN	SP	_	8	flat:name	_	SpacesAfter=\s\s
+10	WW	WW	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n\n
+

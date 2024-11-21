@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = terrible comment "odio i ciclisti".
+1	terrible	terrible	ADJ	A	Number=Sing	2	amod	_	_
+2	comment	comment	NOUN	S	Gender=Masc	0	root	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	odio	odiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ciclisti	ciclista	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = you did it by car and you showed off the classical italian side with your "toscanacci" friends and your " capo nord e' un posto di merda".
+1	you	you	X	SW	Foreign=Yes	0	root	_	_
+2	did	did	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	it	it	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	by	by	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	car	carre	NOUN	S	Gender=Fem	1	nmod	_	_
+6	and	and	X	SW	Foreign=Yes	5	compound	_	_
+7	you	you	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	showed	showed	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	off	off	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	classical	classical	NOUN	S	Gender=Masc	6	nmod	_	_
+12	italian	italian	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	side	sidere	X	SW	Foreign=Yes	11	nmod	_	_
+14	with	with	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	your	your	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	toscanacci	toscanaccio	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	19	punct	_	_
+19	friends	friends	X	SW	Foreign=Yes	13	flat:foreign	_	_
+20	and	and	X	SW	Foreign=Yes	19	flat:foreign	_	_
+21	your	your	X	SW	Foreign=Yes	19	flat:foreign	_	_
+22	"	"	PUNCT	FB	_	19	punct	_	_
+23	capo	capo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+24	nord	nord	NOUN	S	Gender=Masc	23	compound	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	SpaceAfter=No
+26	'	'	PUNCT	FB	_	28	punct	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	posto	posto	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	merda	merda	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = next time stay at home with mamma'.
+1	next	next	NOUN	S	Gender=Masc	2	nmod	_	_
+2	time	timo	NOUN	S	Number=Sing	0	root	_	_
+3	stay	stay	X	SW	Foreign=Yes	7	nmod	_	_
+4	at	at	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	home	home	X	SW	Foreign=Yes	3	flat:foreign	_	_
+6	with	with	X	SW	Foreign=Yes	3	flat:foreign	_	_
+7	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = you are a disgrace
+1	you	you	ADP	E	_	2	mark	_	_
+2	are	are	VERB	V	VerbForm=Inf	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	disgrace	disgrace	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpacesAfter=\n\n
+

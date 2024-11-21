@@ -1,0 +1,29 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = NON GARANTISCI
+1	NON	non	PROPN	SP	_	0	root	_	_
+2	GARANTISCI	GARANTISCI	PROPN	SP	_	1	flat:name	_	_
+
+# sent_id = 2
+# text = NULLA.
+1	NULLA	nulla	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = HAI FATTO VENDERE IL MARE LIGURE ALLA FRANCIA ,, VERGOGNA!
+1	HAI	avere	PROPN	SP	_	0	root	_	_
+2	FATTO	fare	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s
+3	VENDERE	vendere	PROPN	SP	_	1	flat:name	_	_
+4	IL	Il	PROPN	SP	_	1	flat:name	_	_
+5	MARE	Mare	PROPN	SP	_	1	nmod	_	_
+6	LIGURE	ligure	PROPN	SP	_	5	flat:name	_	_
+7-8	ALLA	_	_	_	_	_	_	_	_
+7	A	a	ADP	E	_	8	case	_	_
+8	LA	il	PROPN	SP	_	5	nmod	_	_
+9	FRANCIA	Francia	PROPN	SP	_	8	flat:name	_	SpacesAfter=\s\s
+10	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	VERGOGNA	vergogna	PROPN	SP	_	1	appos	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

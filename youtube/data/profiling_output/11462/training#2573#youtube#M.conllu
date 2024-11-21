@@ -1,0 +1,50 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un credente crede in Dio, un ateo crede che un Dio non esisista.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	credente	credente	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Dio	dio	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ateo	ateo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	che	che	SCONJ	CS	_	14	mark	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	esisista	esisista	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Un credente che nega la scienza è un idiota, ma un ateo o non che vuole spiegare scientificamente l'inesistenza di Dio è doppiamente idiota.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	credente	credente	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	nega	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	idiota	idiota	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ateo	ateo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14	o	o	CCONJ	CC	_	18	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	spiegare	spiegare	VERB	V	VerbForm=Inf	9	conj	_	_
+19	scientificamente	scientifico	ADV	B	_	18	advmod	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	inesistenza	inesistenza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	doppiamente	doppio	ADV	B	_	26	advmod	_	_
+26	idiota	idioto	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+

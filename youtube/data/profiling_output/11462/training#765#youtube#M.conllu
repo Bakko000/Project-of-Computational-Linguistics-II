@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Povia ha semplicemente voluto attirare dalla sua parte il pubblico, come fa con ogni canzone.
+1	Povia	Povia	ADV	B	_	5	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	semplicemente	semplicemente	ADV	B	_	5	advmod	_	_
+4	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
+5	attirare	attirare	VERB	V	VerbForm=Inf	0	root	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	come	come	SCONJ	CS	_	14	mark	_	_
+14	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Se non avesse voluto parlare di malattie e guarigioni non avrebbe usato l'imperfetto.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
+5	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	guarigioni	guarigione	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	imperfetto	imperfetto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Non avrebbe detto "Luca era gay", ma "Luca è gay, ma adesso sta con lei"
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+5	Luca	Luca	PROPN	SP	_	7	nsubj	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	gay	gay	PROPN	SW	Foreign=Yes	3	ccomp	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	ma	ma	CCONJ	CC	_	14	cc	_	_
+11	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+12	Luca	Luca	PROPN	SP	_	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	gay	gay	ADJ	A	_	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	adesso	adesso	ADV	B	_	18	advmod	_	_
+18	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+

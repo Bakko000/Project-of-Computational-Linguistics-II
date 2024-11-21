@@ -1,0 +1,40 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dopo questo bel discorso, che davvero emoziona...
+1	Dopo	dopo	ADP	E	_	4	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	bel	bello	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	0	root	_	_
+7	davvero	davvero	ADV	B	_	6	advmod	_	_
+8	emoziona...	emoziona.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = suggerisco il vecchio Gaber...
+1	suggerisco	suggerire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	Gaber..	Gaber..	PROPN	SP	_	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = "Io non mi sento Italiano"...
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	...	.	PUNCT	FF	_	5	punct	_	_
+
+# sent_id = 4
+# text = cosa emoziona di più?
+1	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	nsubj	_	_
+2	emoziona	emozionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	più	più	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

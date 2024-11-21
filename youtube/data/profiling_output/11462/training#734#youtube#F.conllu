@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ragazzi, mi sa che non afferrate il punto.
+1	Ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	afferrate	afferrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Musica gradevole o non gradevole a parte, il testo è infraintendibile:
+1	Musica	musica	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+2	gradevole	gradevole	ADJ	A	Number=Sing	1	amod	_	_
+3	o	o	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	gradevole	gradevole	ADJ	A	Number=Sing	1	conj	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	testo	testo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	infraintendibile	infraintendibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 3
+# text = si è gay perchè nel proprio passato ci sono stati dei traumi non superati, ma prima o poi si guarisce, abbiate fede.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	gay	gay	ADJ	A	_	0	root	_	_
+4	perchè	poiperché	SCONJ	CS	_	11	mark	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	passato	passato	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	traumi	traume	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	superati	superare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	25	punct	_	_
+18	ma	ma	CCONJ	CC	_	25	cc	_	_
+19	prima	prima	ADV	B	_	25	advmod	_	_
+20	o	o	CCONJ	CC	_	23	cc	_	_
+21	poi	poi	ADV	B	_	23	advmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	guarisce	guarire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	19	punct	_	_
+25	abbiate	avere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
+26	fede	federe	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Ecco, quindi questa canzone non merita niente, neanche il minimo riconoscimento, anzi.
+1	Ecco	ecco	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quindi	quindi	ADV	B	_	7	advmod	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	merita	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	niente	niente	PRON	PI	Number=Sing|PronType=Ind	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	neanche	neanche	ADV	BN	PronType=Neg	13	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	anzi	anzi	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,31 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente della camera che non puo fare nulla?
+1	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	camera	camera	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	puo	puo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = siamo arrivati sul fondo!
+1	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = !!!!
+1	!!	!!	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	!!	!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

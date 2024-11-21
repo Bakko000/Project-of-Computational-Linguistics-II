@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bisognerà rifare le stesse domande tra 2 anni, quando il processo dovrebbe almeno essere avviato.
+1	Bisognerà	bisognerà	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	rifare	rifare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	2	2	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	quando	quando	SCONJ	CS	_	16	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	processo	processo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+13	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	almeno	almeno	ADV	B	_	16	advmod	_	_
+15	essere	essere	AUX	VA	VerbForm=Inf	16	aux:pass	_	_
+16	avviato	avviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ma non credo la situazione cambi granché da quella odierna.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	cambi	cambi	NOUN	S	Gender=Masc|Number=Plur	5	compound	_	_
+7	granché	granché	PRON	PI	PronType=Ind	3	obj	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	nmod	_	_
+10	odierna	odierno	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Qua il problema grosso sono le castronerie che sparano gli economisti che si spacciano per detentori della verità.
+1	Qua	qua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	castronerie	castroneria	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	sparano	sparare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	economisti	economista	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	spacciano	spacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	detentori	detentore	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	verità	verità	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mentono sapendo bene di mentire.
+1	Mentono	Mentere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sapendo	sapere	VERB	V	VerbForm=Ger	1	advcl	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	mentire	mentire	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

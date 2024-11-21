@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = mamma cara se sei messa male ..
+1	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	cara	caro	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+6	male	male	ADV	B	_	5	advmod	_	_
+7	..	..	PUNCT	FF	_	1	punct	_	_
+
+# sent_id = 2
+# text = ma male tanto .. ma molto male !
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	male	male	ADV	B	_	0	root	_	_
+3	tanto	tanto	ADV	B	_	2	advmod	_	_
+4	..	..	PUNCT	FF	_	2	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	male	male	ADV	B	_	2	advmod	_	_
+8	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = Cioè tu pensi che io sia invidioso di quell'uomo di così infimo ordine ?
+1	Cioè	cioè	ADV	B	_	3	advmod	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	invidioso	invidioso	ADJ	A	Gender=Masc|Number=Sing	3	ccomp	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quell'	quello	DET	DD	Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	così	così	ADV	B	_	13	advmod	_	_
+13	infimo	infimo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Mamma mia..
+1	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	mia.	mia.	NOUN	S	_	1	compound	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = tutti seguaci di un coglione !!!!!!
+1	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	_
+2	seguaci	seguace	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	coglione	coglione	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	!!!	!!!	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	!!	!!	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sembrate tutti sodomizzati da Benigni !!!
+1	Sembrate	sembrare	PROPN	SP	_	0	root	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nmod	_	_
+3	sodomizzati	sodomizzato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Benigni	Benigni	PROPN	SP	_	3	obl:agent	_	_
+6	!!!	!!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

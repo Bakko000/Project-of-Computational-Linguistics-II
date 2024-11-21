@@ -1,0 +1,30 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma lei/lui è uomo o donna?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	lei/	lei/	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Non capisco.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	capisco.	capisco.	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ..perché tiene la barba se è donna?
+1	..perché	..perché	SCONJ	CS	_	2	mark	_	_
+2	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	barba	barba	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

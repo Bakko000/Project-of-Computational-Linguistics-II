@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ¡MAGNÍFICO!
+1	¡MAGNÍFICO	¡MAGNÍFICO	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = ¡Cuanta verdad en este monólogo!
+1	¡Cuanta	¡Cuanta	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
+2	verdad	verdad	X	SW	Foreign=Yes	0	root	_	_
+3	en	en	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	este	esto	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	monólogo	monólogo	NOUN	S	Gender=Masc|Number=Sing	2	flat:foreign	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Abrazo desde El Salvador...
+1	Abrazo	Abrazo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	desde	desdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	El	El	PROPN	SP	_	2	obj	_	_
+4	Salvador..	Salvador..	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Grazie per il video.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	video	video	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Suggerimenti: se ti va approfondisci i temi legati all'euroscetticismo, all'Unione Europea usata come mezzo per imporre politiche economiche ultraliberiste, privatizzazioni, attacco ai diritti del lavoro, deflazione salariale, etc.
+1	Suggerimenti	suggerimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	approfondisci	approfondire	ADJ	A	Gender=Masc|Number=Plur	5	xcomp	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	temi	tema	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+9	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	euroscetticismo	euroscetticismo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Unione	Unione	PROPN	SP	_	5	obl	_	_
+17	Europea	Europea	PROPN	SP	_	16	flat:name	_	_
+18	usata	usare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	imporre	imporre	VERB	V	VerbForm=Inf	20	acl	_	_
+23	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+24	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+25	ultraliberiste	ultraliberista	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	privatizzazioni	privatizzazione	NOUN	S	Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	5	punct	_	_
+29	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+30-31	ai	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	32	punct	_	_
+37	deflazione	deflazione	NOUN	S	Gender=Fem|Number=Sing	32	appos	_	_
+38	salariale	salariale	ADJ	A	Number=Sing	37	amod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	etc	etc	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Come si vede in Grecia e in Italia e non solo.
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Grecia	Grecia	PROPN	SP	_	3	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	5	conj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	solo	solo	ADV	B	_	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = La letteratura è ampia a riguardo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	letteratura	letteratura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ampia	ampiare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

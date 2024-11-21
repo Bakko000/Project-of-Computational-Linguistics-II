@@ -1,0 +1,45 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ⚡ /■ ■ ■\💢
+1	⚡	⚡	SYM	SYM	_	2	nmod	_	_
+2	/■	/■	PROPN	SP	_	0	root	_	_
+3	■	■	SYM	SYM	_	2	flat:name	_	_
+4	■\💢	■\💢	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = | 🔥 🔥 | ⚡
+1	|	|	SYM	SYM	_	2	nmod	_	SpacesAfter=\s\s
+2	🔥	🔥	SYM	SYM	_	3	nmod	_	_
+3	🔥	🔥	SYM	SYM	_	0	root	_	SpacesAfter=\s\s\s
+4	|	|	SYM	SYM	_	3	flat:name	_	SpacesAfter=\s\s\s
+5	⚡	⚡	SYM	SYM	_	3	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = | 👃 👂
+1	|	|	SYM	SYM	_	2	nmod	_	SpacesAfter=\s\s\s\s\s
+2	👃	👃	SYM	SYM	_	0	root	_	SpacesAfter=\s\s\s\s
+3	👂	👂	SYM	SYM	_	2	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = ⚡ \＿👄💨/
+1	⚡	⚡	SYM	SYM	_	0	root	_	_
+2	\＿👄💨	\＿👄💨	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	/	/	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = sei il meglio !
+1	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	meglio	meglio	NOUN	S	Gender=Masc	0	root	_	_
+4	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = ♨♨♨♨♨♨♨
+1	♨♨♨♨♨♨♨	♨♨♨♨♨♨♨	SYM	SYM	_	0	root	_	SpacesAfter=\n\n
+

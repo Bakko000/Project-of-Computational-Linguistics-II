@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = No vabbè.
+1	No	no	INTJ	I	Polarity=Neg	2	discourse	_	_
+2	vabbè	vabbè	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Che bella cosa, Jova - e che bella vita.
+1	Che	che	DET	DQ	PronType=Int	3	det	_	_
+2	bella	bello	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Jova	Jova	PROPN	SP	_	3	appos	_	_
+6	-	-	PUNCT	FF	_	5	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	bella	bello	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sei proprio un ragazzo fortunato.
+1	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	proprio	proprio	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	fortunato	fortunato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Di quelli che sei contento sia capitato a loro, che non invidi perché gli è stato regalato un sogno- perché se lo meritano.
+1	Di	di	ADP	E	_	2	case	_	_
+2	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	contento	contento	ADJ	A	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+6	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	capitato	capitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	invidi	invidere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+14	perché	perché	SCONJ	CS	_	18	mark	_	_
+15	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	regalato	regalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	18	nsubj:pass	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	25	punct	_	_
+22	perché	perché	SCONJ	CS	_	25	mark	_	_
+23	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+25	meritano	meritare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

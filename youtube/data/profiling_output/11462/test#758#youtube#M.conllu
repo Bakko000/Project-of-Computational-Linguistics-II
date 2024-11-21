@@ -1,0 +1,40 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ma ancora che raglia questo soggetto?
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	ancora	ancora	ADV	B	_	4	advmod	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	raglia	ragliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	soggetto	soggetto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = toglietegli la parola,memoria corta,con tutte le balle che ha sparato fino all'altro ieri,le tante batoste prese non sono bastate?
+1-2	toglietegli	_	_	_	_	_	_	_	_
+1	togliete	togliere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	nsubj:pass	_	_
+2	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	parola,memoria	parola,memoria	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	corta,con	corta,con	ADP	E	_	8	case	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	balle	balla	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	sparato	sparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	fino	fino	ADV	B	_	15	case	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	12	fixed	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	_
+16	ieri,le	ieri,le	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+17	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+18	batoste	batosta	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	prese	prendere	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	bastate	bastare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	22	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questi non conoscono vergogna ... fatevene una ragione .
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	...	.	PUNCT	FF	_	3	punct	_	_
+6	fatevene	fatevena	SCONJ	CS	_	8	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Quel hobbit del Berlusca ... adesso parla di "pericolo 5 stelle " .
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	hobbit	hobbit	NOUN	S	_	8	nsubj	_	SpacesAfter=\s\s
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Berlusca	Berlusca	PROPN	SP	_	2	nmod	_	_
+6	...	...	PUNCT	FF	_	2	punct	_	_
+7	adesso	adesso	ADV	B	_	8	advmod	_	_
+8	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	5	5	NUM	N	NumType=Card	11	nummod	_	_
+13	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	11	compound	_	_
+14	"	"	PUNCT	FB	_	8	punct	_	_
+15	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Sono 30 anni che a rotazione , sinistra e destra "governano" il paese .
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	30	30	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	destra	destra	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpacesAfter=\s\s
+11	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+12	governano	governare	NOUN	S	Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	6	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	paese	paese	NOUN	S	Gender=Masc|Number=Sing	3	acl:relcl	_	_
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = E per lui il pericolo sarebbero i 5 stelle che ancora devono governare ....
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6	sarebbero	essere	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	5	5	NUM	N	NumType=Card	9	nummod	_	_
+9	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	ancora	ancora	ADV	B	_	13	advmod	_	_
+12	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	governare	governare	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+14	...	...	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+

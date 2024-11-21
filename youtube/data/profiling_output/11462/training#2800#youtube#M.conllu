@@ -1,0 +1,189 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questa...
+1	Questa...	Questa.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 2
+# text = Apparentemente innocente ragazza.
+1	Apparentemente	apparentemente	ADV	B	_	2	advmod	_	_
+2	innocente	innocente	ADJ	A	Number=Sing	3	amod	_	_
+3	ragazza.	ragazza.	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+
+# sent_id = 3
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 4
+# text = Sappiate che si è vista alle manifestazioni x la Palestina e a quelle ebraiche a favore della liberazione dei due soldati israeliani rapiti.
+1	Sappiate	Sappiare	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	manifestazioni	manifestazione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	x	x	SYM	SYM	_	8	compound	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Palestina	Palestina	PROPN	SP	_	5	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	11	conj	_	_
+15	ebraiche	ebraico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	favore	favore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+25	israeliani	israeliano	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	rapiti.	rapiti.	NOUN	S	_	0	root	_	SpaceAfter=No
+
+# sent_id = 5
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 6
+# text = (in realtà 2 sporchi criminali di guerra non rapiti,ma arrestati dai combattenti palestinesi.
+1	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	in	in	ADP	E	_	3	case	_	_
+3	realtà	realtà	NOUN	S	Gender=Fem	10	obl	_	_
+4	2	2	NUM	N	NumType=Card	5	nummod	_	_
+5	sporchi	sporco	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+6	criminali	criminale	ADJ	A	Number=Plur	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	rapiti,ma	rapiti,mo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	arrestati	arrestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	advcl	_	_
+12-13	dai	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	combattenti	combattente	NOUN	S	Gender=Masc|Number=Plur	11	obl:agent	_	_
+15	palestinesi	palestinese	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = )
+1	)	)	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 8
+# text = Torniamo a questa maledetta.
+1	Torniamo	tornare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	maledetta.	maledetta.	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+
+# sent_id = 9
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 10
+# text = È una fomentata assurda!
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fomentata	fomentata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	assurda	assurdo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Probabilmente in quelle azioni si droga,vista colpire uomini con tecniche di muso thai.
+1	Probabilmente	probabilmente	ADV	B	_	6	advmod	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	droga,vista	droga,vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	colpire	colpire	VERB	V	VerbForm=Inf	6	advcl	_	_
+8	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpacesAfter=\s\s
+9	con	con	ADP	E	_	10	case	_	_
+10	tecniche	tecnica	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	muso	muso	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	thai.	thai.	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+
+# sent_id = 12
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 13
+# text = Salvo poi rifugiarsi tra le fila della sua razza quando vede le brutte.
+1	Salvo	salvo	ADJ	A	Number=Sing	0	root	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3-4	rifugiarsi	_	_	_	_	_	_	_	_
+3	rifugiar	rifugiarre	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	fila	fila	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	razza	razza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	quando	quando	SCONJ	CS	_	13	mark	_	_
+13	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	brutte	brutto	ADJ	A	Gender=Fem|Number=Plur	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Peccato che non mi sia capitata a tiro.
+1	Peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	capitata	capitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	tiro	tiro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Sono più che falsi!
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	più	più	ADV	B	_	4	advmod	_	_
+3	che	che	ADV	B	_	4	advmod	_	_
+4	falsi	falso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Tra l'altro sono multimiliardari!
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	multimiliardari	multimiliardario	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Sembra che sia parente stretta di Befera.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	parente	parente	NOUN	S	Number=Sing	1	ccomp	_	_
+5	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Befera.	Befera.	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+
+# sent_id = 18
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 19
+# text = Vedi Equitalia.
+1	Vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Equitalia.	Equitalia.	PROPN	SP	_	1	obj	_	SpaceAfter=No
+
+# sent_id = 20
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n
+

@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = troppo bravo Jova!
+1	troppo	troppo	ADV	B	_	2	advmod	_	_
+2	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	Jova	Jova	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = <3 sei una fonte d'ispirazione per una viaggiatrice come me!
+1	<3	<3	NUM	N	NumType=Card	4	nummod	_	_
+2	sei	essere	NUM	N	NumType=Card	4	nummod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	ispirazione	ispirazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	viaggiatrice	viaggiatore	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = il migliore <3 bellissimo
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	3	amod	_	_
+3	<3	<3	NUM	N	NumType=Card	0	root	_	_
+4	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	3	amod	_	SpacesAfter=\n\n
+

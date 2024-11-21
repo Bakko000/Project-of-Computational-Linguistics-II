@@ -1,0 +1,50 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = partigiani terroristi?
+1	partigiani	partigiano	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	terroristi	terrorista	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = ma ti rendi conto di cosa dici?
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	rendi	rendere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	conto	conto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	7	obl	_	_
+7	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = ma hai due neuroni per capire quello che vai dicendo o sei solo in grado di leggere quello che trovi su Wikipedia ?
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	neuroni	neurone	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	capire	capire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+9	vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	dicendo	dire	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	o	o	CCONJ	CC	_	15	cc	_	_
+12	sei	sei	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	solo	solo	ADV	B	_	15	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	grado	grado	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	leggere	leggere	VERB	V	VerbForm=Inf	15	acl	_	_
+18	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obj	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	trovi	trovare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	su	su	ADP	E	_	22	case	_	_
+22	Wikipedia	Wikipedia	PROPN	SP	_	20	obl	_	_
+23	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = cretina.
+1	cretina	cretina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

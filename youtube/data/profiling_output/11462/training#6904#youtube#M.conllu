@@ -1,0 +1,41 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 6:06 Franco, com'era il terzo che non me lo ricordo!
+1	6:06	6:06	SYM	X	_	0	root	_	_
+2	Franco	Franco	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	com'	come	SCONJ	CS	_	5	mark	_	SpaceAfter=No
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = AHAHAHA quando imita il papà fa schiantare!
+1	AHAHAHA	AHAHAHA	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3	imita	imitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	papà	papà	NOUN	S	Gender=Masc	3	obj	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	schiantare	schiantare	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = dovrebbe farlo sempre! grande Crozza!
+1	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	farlo	_	_	_	_	_	_	_	_
+2	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	sempre	sempre	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	7	punct	_	_
+6	grande	grande	ADJ	A	Number=Sing	7	amod	_	_
+7	Crozza	Crozza	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

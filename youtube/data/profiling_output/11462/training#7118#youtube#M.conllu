@@ -1,0 +1,40 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = checco zalone (luca de medici, conosciuto di persona) è un grandissimo PARACULO.
+1	checco	checco	X	SW	Foreign=Yes	15	nsubj	_	_
+2	zalone	zalone	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	luca	luca	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5	de	di	ADP	E	_	6	case	_	_
+6	medici	medico	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	persona	persona	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	4	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	grandissimo	grande	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	15	amod	_	_
+15	PARACULO.	PARACULO.	PROPN	SP	_	0	root	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ...nella sua REALE serietà riesce a far ridere nelle situazioni del momento....
+1	...nella	...nellare	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	REALE	reale	PROPN	SP	_	5	nsubj	_	_
+4	serietà	serietà	NOUN	S	Gender=Fem	3	compound	_	_
+5	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	far	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	ridere	ridere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	momento...	momento...	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

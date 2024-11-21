@@ -1,0 +1,45 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = CONTE E' STATO PRESENTATO DURANTE TUTTA LA CAMPAGNA ELETTORALE DEL MOV.
+1	CONTE	Conte	PROPN	SP	_	0	root	_	_
+2	E'	essere	PROPN	SP	_	1	flat:name	_	_
+3	STATO	essere	PROPN	SP	_	1	flat:name	_	_
+4	PRESENTATO	presentare	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\s
+5	DURANTE	durante	PROPN	SP	_	4	flat:name	_	_
+6	TUTTA	tutta	PROPN	SP	_	4	flat:name	_	_
+7	LA	La	PROPN	SP	_	4	flat:name	_	_
+8	CAMPAGNA	campagna	PROPN	SP	_	4	flat:name	_	_
+9	ELETTORALE	elettorale	PROPN	SP	_	4	flat:name	_	_
+10-11	DEL	_	_	_	_	_	_	_	_
+10	DI	Di	ADP	E	_	11	case	_	_
+11	IL	il	PROPN	SP	_	4	flat:name	_	_
+12	MOV.	MOV.	PROPN	SP	_	4	flat:name	_	_
+
+# sent_id = 2
+# text = 5 STELLE COME MINISTRO DEL NUOVO GOVERNO.
+1	5	5	NUM	N	NumType=Card	2	nummod	_	_
+2	STELLE	Stelle	PROPN	SP	_	0	root	_	_
+3	COME	come	PROPN	SP	_	2	flat:name	_	_
+4	MINISTRO	Ministro	PROPN	SP	_	2	flat:name	_	_
+5-6	DEL	_	_	_	_	_	_	_	_
+5	DI	Di	ADP	E	_	6	case	_	_
+6	IL	il	PROPN	SP	_	2	nmod	_	_
+7	NUOVO	Nuovo	PROPN	SP	_	6	flat:name	_	_
+8	GOVERNO	governo	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = GLI ELETTORI HANNO SCELTO IL PROF.
+1	GLI	il	PROPN	SP	_	0	root	_	_
+2	ELETTORI	elettore	PROPN	SP	_	1	flat:name	_	_
+3	HANNO	avere	PROPN	SP	_	1	flat:name	_	_
+4	SCELTO	scegliere	PROPN	SP	_	1	nmod	_	_
+5	IL	Il	PROPN	SP	_	4	flat:name	_	_
+6	PROF	PROF	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = CONTE
+1	CONTE	Conte	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

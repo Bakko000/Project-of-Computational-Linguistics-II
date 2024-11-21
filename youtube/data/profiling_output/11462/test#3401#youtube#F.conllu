@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Chi è Benji ?
+1	Chi	chi	PRON	PQ	PronType=Int	0	root	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Benji	Benji	PROPN	SP	_	1	nsubj	_	_
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Chi è Fede?
+1	Chi	chi	PRON	PQ	PronType=Int	0	root	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpacesAfter=\s\s
+3	Fede	fede	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = È uguale tanto sono dei campioni
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpacesAfter=\s\s
+2	uguale	uguale	ADJ	A	Number=Sing	0	root	_	_
+3	tanto	tanto	ADV	B	_	7	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	campioni	campione	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n\n
+

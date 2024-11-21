@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non credo ci siano altri attori in Italia capaci di suscitare emozioni così forti.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	altri	altro	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	attori	attore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	4	obl	_	_
+9	capaci	capace	ADJ	A	Number=Plur	8	amod	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	suscitare	suscitare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	così	così	ADV	B	_	14	advmod	_	_
+14	forti	forte	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = L'aveva già fatto, recentemente, leggendo, ospite di Casa Mika, la commovente Supplica alla Madre di Pierpaolo Pasolini.
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	recentemente	recentemente	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	leggendo	leggere	VERB	V	VerbForm=Ger	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	ospite	ospite	NOUN	S	Number=Sing	4	conj	_	_
+11	di	di	ADP	E	_	12	case	_	SpacesAfter=\s\s
+12	Casa	casa	PROPN	SP	_	10	nmod	_	_
+13	Mika	Mika	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	commovente	commovente	ADJ	A	Number=Sing	17	amod	_	_
+17	Supplica	Supplica	PROPN	SP	_	10	appos	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Madre	madre	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Pierpaolo	Pierpaolo	PROPN	SP	_	20	nmod	_	_
+23	Pasolini	Pasolini	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Vi consiglio di cercarlo in rete, e se lo trovate, fate attenzione all'attimo in cui per tenere a bada l'emozione Pierfrancesco sorride prima di dire l'ultimo ineffabile verso "...in un futuro Aprile".
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	expl	_	_
+2	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cercarlo	cercarlo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	rete	rete	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	se	se	SCONJ	CS	_	11	mark	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	trovate	trovare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+14	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	tenere	tenere	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	bada	bada	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+26	Pierfrancesco	Pierfrancesco	PROPN	SP	_	25	nmod	_	_
+27	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+28	prima	prima	ADV	B	_	30	mark	_	_
+29	di	di	ADP	E	_	28	fixed	_	_
+30	dire	dire	VERB	V	VerbForm=Inf	27	advcl	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	ultimo	ultimo	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33	ineffabile	ineffabile	ADJ	A	Number=Sing	32	amod	_	_
+34	verso	verso	ADP	E	_	38	case	_	_
+35	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+36	...in	...ino	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+39	Aprile	aprile	ADJ	A	Number=Sing	38	amod	_	SpaceAfter=No
+40	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Attore meraviglioso!!!
+1	Attore	attore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+4	!!	!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

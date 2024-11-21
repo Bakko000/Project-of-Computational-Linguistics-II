@@ -1,0 +1,48 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2.50 £ ma hai mangiato solo roba fritta e verdura stagionale freschissima...
+1	2.50	2.50	NUM	N	NumType=Card	2	nummod	_	_
+2	£	£	SYM	SYM	_	0	root	_	_
+3	ma	ma	CCONJ	CC	_	5	cc	_	_
+4	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+6	solo	solo	ADV	B	_	7	advmod	_	_
+7	roba	roba	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	fritta	fritto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	verdura	verdura	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+11	stagionale	stagionale	ADJ	A	Number=Sing	10	amod	_	_
+12	freschissima...	freschissima.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = 😂😂Amico poi sicuramente mangiare meglio in India 🇮🇳 vai alla ricerca del mercato del posto no dai Street food 🥘
+1	😂😂Amico	😂😂Amico	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	sicuramente	sicuramente	ADV	B	_	4	advmod	_	_
+4	mangiare	mangiare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+5	meglio	meglio	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	India	India	PROPN	SP	_	9	obl	_	_
+8	🇮🇳	🇮🇳	SYM	SYM	_	7	flat:name	_	_
+9	vai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	posto	posto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+19	no	no	ADV	BN	PronType=Neg	18	advmod	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	Street	Street	PROPN	SP	_	18	nmod	_	_
+23	food	foo	CCONJ	CC	_	24	cc	_	_
+24	🥘	🥘	PROPN	SP	_	22	conj	_	SpacesAfter=\n\n
+

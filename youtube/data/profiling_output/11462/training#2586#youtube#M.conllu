@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per Filippo P:
+1	Per	per	ADP	E	_	2	case	_	_
+2	Filippo	Filippo	PROPN	SP	_	0	root	_	_
+3	P	P	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Dio non è = Big Ben!
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	=	=	PUNCT	FF	_	3	punct	_	_
+5	Big	Big	PROPN	SP	_	0	root	_	_
+6	Ben	Ben	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = E poi, ma quale contorsionismi dialettali!
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	poi	poi	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	quale	quale	ADP	E	_	6	case	_	_
+6	contorsionismi	contorsionismo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	dialettali	dialettale	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Non si può sempre ridurre tutto a un linguaggio televisivo, fatto di spot pubblicitari e con dei ragionamenti da reality show.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	ridurre	ridurre	VERB	V	VerbForm=Inf	0	root	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	linguaggio	linguaggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	televisivo	televisivo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	spot	spot	NOUN	S	Gender=Masc	12	obl	_	_
+15	pubblicitari	pubblicitario	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	ragionamenti	ragionamento	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	reality	reality	NOUN	S	_	20	nmod	_	_
+23	show	show	NOUN	S	_	22	compound	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Queste cose hanno bisogno di un piccolo sforzo cerebrale solo per essere argomentate, figuriamoci per essere capite!
+1	Queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	cerebrale	cerebrale	ADJ	A	Number=Sing	8	amod	_	_
+10	solo	solo	ADV	B	_	13	advmod	_	_
+11	per	per	ADP	E	_	13	mark	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux	_	_
+13	argomentate	argomentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15-16	figuriamoci	_	_	_	_	_	_	_	_
+15	figuriamo	figurare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	obj	_	_
+17	per	per	ADP	E	_	19	mark	_	_
+18	essere	essere	AUX	VA	VerbForm=Inf	19	aux:pass	_	_
+19	capite	capire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	advcl	_	SpaceAfter=No
+20	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Sempre che uno voglia coltivare il piacere di pensare.....
+1	Sempre	sempre	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+4	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	coltivare	coltivare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	pensare.....	pensare.....	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\n\n
+

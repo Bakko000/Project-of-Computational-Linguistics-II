@@ -1,0 +1,359 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Antonino Miraudo
+1	Antonino	Antonino	PROPN	SP	_	0	root	_	_
+2	Miraudo	Miraudo	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = 4 h ·
+1	4	4	NUM	N	NumType=Card	0	root	_	_
+2	h	h	X	X	_	1	fixed	_	_
+3	·	·	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = "I GRILLINI DELLA SESTA GIONATA!"
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	GRILLINI	GRILLINI	PROPN	SP	_	0	root	_	_
+4-5	DELLA	_	_	_	_	_	_	_	_
+4	DI	Di	ADP	E	_	5	case	_	_
+5	LA	La	PROPN	SP	_	3	nmod	_	_
+6	SESTA	sesta	PROPN	SP	_	5	flat:name	_	_
+7	GIONATA	GIONATA	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Sciascia affronta grandi questioni storiche, etiche e politiche.
+1	Sciascia	Sciascia	ADV	B	_	2	advmod	_	_
+2	affronta	affrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	grandi	grande	ADJ	A	Number=Plur	4	amod	_	_
+4	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	storiche	storico	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	etiche	etiche	ADJ	A	Gender=Fem|Number=Plur	5	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Mette a confronto i poeti della guerra civile spagnola e quelli della Resistenza italiana, per dare uno specchio all’identità italiota:
+1	Mette	mettere	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	poeti	poeta	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	civile	civile	ADJ	A	Number=Sing	8	amod	_	_
+10	spagnola	spagnolo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Resistenza	Resistenza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	dare	dare	VERB	V	VerbForm=Inf	15	acl	_	_
+20	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	all’	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	identità	identità	NOUN	S	Gender=Fem	19	obl	_	_
+25	italiota	italioto	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = «In Italia (…) abbiamo avuto una poesia sulla Resistenza ma non della Resistenza.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	3	case	_	_
+3	Italia	Italia	PROPN	SP	_	8	obl	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	…	…	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	3	punct	_	_
+7	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Resistenza	Resistenza	PROPN	SP	_	10	nmod	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Resistenza	Resistenza	PROPN	SP	_	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Senza voler fare dell’ironia (…), possiamo dire di aver avuto una poesia da sesta giornata.
+1	Senza	senza	ADP	E	_	3	mark	_	_
+2	voler	volere	AUX	VM	VerbForm=Inf	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	12	advcl	_	_
+4-5	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	…	…	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+13	di	di	ADP	E	_	15	mark	_	_
+14	aver	avere	AUX	VA	VerbForm=Inf	15	aux	_	_
+15	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	sesta	sesto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = A Milano chiamarono “eroi della sesta giornata” coloro che passata la tempesta delle cinque giornate uscirono di casa armati e incoccardati.
+1	A	a	ADP	E	_	2	case	_	_
+2	Milano	Milano	PROPN	SP	_	3	obl	_	_
+3	chiamarono	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sesta	sesta	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	giornata	giornato	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	5	punct	_	_
+11	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	5	nsubj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+13	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	cinque	cinque	NUM	N	NumType=Card	19	nummod	_	_
+19	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+20	uscirono	uscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	casa	casa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	armati	armato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	incoccardati	incoccardato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = NOI SIAMO UN POPOLO CHE IN BUONA MAGGIORANZA HA IL GENIO DELLA SESTA GIORNATA, un istinto acquisito attraverso una dolorosa esperienza di secoli».
+1	NOI	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	SIAMO	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	UN	un	PROPN	SP	_	0	root	_	_
+4	POPOLO	popolo	PROPN	SP	_	3	flat:name	_	_
+5	CHE	Che	PROPN	SP	_	4	flat:name	_	_
+6	IN	in	PROPN	SP	_	4	flat:name	_	_
+7	BUONA	buona	PROPN	SP	_	4	nmod	_	_
+8	MAGGIORANZA	maggioranza	PROPN	SP	_	7	flat:name	_	_
+9	HA	Ha	PROPN	SP	_	7	flat:name	_	_
+10	IL	il	PROPN	SP	_	7	flat:name	_	_
+11	GENIO	Genio	PROPN	SP	_	7	flat:name	_	_
+12-13	DELLA	_	_	_	_	_	_	_	_
+12	DI	Di	ADP	E	_	13	case	_	_
+13	LA	La	PROPN	SP	_	7	flat:name	_	_
+14	SESTA	sesta	PROPN	SP	_	7	flat:name	_	_
+15	GIORNATA	Giornato	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+19	acquisito	acquisire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+20	attraverso	attraverso	ADP	E	_	23	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 10
+# text = ( il Sole 24 ORE:S:Silvan Nigro )
+1	(	(	PUNCT	FB	_	3	punct	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Sole	sole	PROPN	SP	_	0	root	_	_
+4	24	24	NUM	N	NumType=Card	3	nummod	_	_
+5	ORE:S:Silvan	ORE:S:Silvan	PROPN	SP	_	3	nmod	_	_
+6	Nigro	Nigro	PROPN	SP	_	5	flat:name	_	_
+7	)	)	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = LA POLITICA DELLA "SESTA GIORNATA"
+1	LA	il	PROPN	SP	_	0	root	_	_
+2	POLITICA	politica	PROPN	SP	_	1	flat:name	_	_
+3-4	DELLA	_	_	_	_	_	_	_	_
+3	DI	Di	ADP	E	_	6	case	_	_
+4	LA	La	PROPN	SP	_	3	flat:name	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	SESTA	sesta	PROPN	SP	_	1	nmod	_	_
+7	GIORNATA	Giornato	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = " mettetevelo in testa" dicce una bionda pentastellata a Rai uno, NOI non...etc.
+1	"	"	PUNCT	FB	_	2	punct	_	_
+2	mettetevelo	mettetevelare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	testa	testa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	6	punct	_	_
+6	dicce	dicce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bionda	bionda	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	pentastellata	pentastellato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Rai	Rai	PROPN	SP	_	9	obl	_	_
+12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	NOI	No	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	non...etc	non...etc	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Ieri Grillo diceva :"
+1	Ieri	ieri	ADV	B	_	3	advmod	_	_
+2	Grillo	Grillo	PROPN	SP	_	3	nsubj	_	_
+3	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	:	:	PUNCT	FC	_	3	punct	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	_
+
+# sent_id = 14
+# text = NOI non"...in contrasto con Di Maio ( dice)
+1	NOI	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	...in	...ino	ADP	E	_	5	case	_	_
+5	contrasto	contranere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Di	Di	PROPN	SP	_	5	nmod	_	_
+8	Maio	Maio	PROPN	SP	_	7	flat:name	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	_
+10	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = " Appena al governo aboliremo..." dicono Di Maio e Grillo all'unisono.NON SI COMPRENDE CHI SI DEVE METTERE IN TESTA COSA.
+1	"	"	PUNCT	FB	_	8	punct	_	_
+2	Appena	appena	ADV	B	_	8	advmod	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	aboliremo...	aboliremo.	NOUN	S	_	5	compound	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	_
+8	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Di	Di	ADP	E	_	10	case	_	_
+10	Maio	Maio	PROPN	SP	_	8	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Grillo	Grillo	PROPN	SP	_	10	conj	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	unisono.NON	unisono.NON	PROPN	SP	_	8	obl	_	_
+16	SI	si	PROPN	SP	_	15	flat:name	_	_
+17	COMPRENDE	comprende	PROPN	SP	_	15	flat:name	_	_
+18	CHI	chi	PROPN	SP	_	15	flat:name	_	_
+19	SI	si	PROPN	SP	_	15	appos	_	_
+20	DEVE	Deve	PROPN	SP	_	19	flat:name	_	_
+21	METTERE	mettere	PROPN	SP	_	19	flat:name	_	_
+22	IN	in	PROPN	SP	_	19	flat:name	_	_
+23	TESTA	testa	PROPN	SP	_	19	flat:name	_	_
+24	COSA	Cosa	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = " SOLD OUT " E' SCRITTO ALLE VETRINE DI COLLOCAMENTO DI GRILLO.
+1	"	"	PUNCT	FB	_	2	punct	_	_
+2	SOLD	SOLD	PROPN	SP	_	6	nsubj:pass	_	_
+3	OUT	OUT	PROPN	SP	_	2	flat:name	_	_
+4	"	"	PUNCT	FB	_	2	punct	_	_
+5	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	SCRITTO	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	ALLE	_	_	_	_	_	_	_	_
+7	A	a	ADP	E	_	8	case	_	_
+8	LE	il	PROPN	SP	_	6	obl	_	_
+9	VETRINE	vetrine	PROPN	SP	_	8	flat:name	_	_
+10	DI	Di	ADP	E	_	11	case	_	_
+11	COLLOCAMENTO	COLLOCAMENTO	PROPN	SP	_	8	nmod	_	_
+12	DI	Di	ADP	E	_	13	case	_	_
+13	GRILLO	Grillo	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = CHI RIMANE FUORI PUO' SEMPRE FARE IL DEVOTO, MA DEVE CANTARSI LA MESSA SENZA DENARI.
+1	CHI	chi	PROPN	SP	_	5	nsubj	_	_
+2	RIMANE	rimanere	PROPN	SP	_	1	flat:name	_	_
+3	FUORI	fuori	PROPN	SP	_	1	flat:name	_	_
+4	PUO'	PUOo	PROPN	SP	_	1	flat:name	_	_
+5	SEMPRE	sempre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	FARE	fare	PROPN	SP	_	5	obj	_	_
+7	IL	Il	PROPN	SP	_	6	flat:name	_	_
+8	DEVOTO	devoto	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	MA	Ma	PROPN	SP	_	5	obj	_	_
+11	DEVE	Deve	PROPN	SP	_	10	flat:name	_	_
+12-13	CANTARSI	_	_	_	_	_	_	_	_
+12	CANTAR	CANTAR	PROPN	SP	_	10	flat:name	_	_
+13	SI	si	PROPN	SP	_	10	nmod	_	_
+14	LA	La	PROPN	SP	_	13	flat:name	_	_
+15	MESSA	Messa	PROPN	SP	_	13	flat:name	_	_
+16	SENZA	Senza	PROPN	SP	_	13	flat:name	_	_
+17	DENARI	denare	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = I VERI " ONESTA'" SI VEDRANNO DOPO LE ELEZIONI.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	VERI	veri	PROPN	SP	_	0	root	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	_
+4	ONESTA'	ONESTA'	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	SI	si	PROPN	SP	_	4	flat:name	_	_
+7	VEDRANNO	vedere	PROPN	SP	_	4	flat:name	_	_
+8	DOPO	dopo	PROPN	SP	_	4	flat:name	_	_
+9	LE	il	PROPN	SP	_	4	flat:name	_	_
+10	ELEZIONI	elezioni	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = SILVIO, HA DUE PALLE....al piede!.
+1	SILVIO	Silvio	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	HA	Ha	PROPN	SP	_	0	root	_	_
+4	DUE	due	PROPN	SP	_	3	flat:name	_	_
+5	PALLE....al	PALLE....al	PROPN	SP	_	3	flat:name	_	_
+6	piede	piede	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	!.	!.	PUNCT	FF	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = D'ALEMICA E' SEMPRE D'ALEMICA!
+1	D'	di	ADP	E	_	2	case	_	SpaceAfter=No
+2	ALEMICA	ALEMICA	PROPN	SP	_	4	obl	_	_
+3	E'	essere	PROPN	SP	_	2	flat:name	_	_
+4	SEMPRE	sempre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	D'ALEMICA	D'ALEMICA	PROPN	SP	_	4	obj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

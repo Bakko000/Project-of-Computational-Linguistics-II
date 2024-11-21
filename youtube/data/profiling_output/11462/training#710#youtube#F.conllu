@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nessuno e' gay .eccezzione aparte e' che il mondo sta'
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	e	e	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	6	punct	_	_
+4	gay	gay	X	SW	Foreign=Yes	6	nmod	_	_
+5	.eccezzione	.eccezzione	X	SW	Foreign=Yes	4	flat:foreign	_	SpacesAfter=\s\s
+6	aparte	aparte	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpacesAfter=\s\s
+7	e	e	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	11	punct	_	_
+9	che	che	SCONJ	CS	_	11	case	_	SpacesAfter=\s\s
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	SpacesAfter=\s\s
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpacesAfter=\s\s
+12	sta	stare	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Finendo, e i depravati fioriscono.
+1	Finendo	Finere	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	depravati	depravato	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	fioriscono	fiorire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = Seu tu a sapere chi sei
+1	Seu	Seu	ADP	E	_	2	case	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	0	root	_	SpacesAfter=\s\s
+3	a	a	ADP	E	_	4	mark	_	SpacesAfter=\s\s
+4	sapere	sapere	VERB	V	VerbForm=Inf	2	acl	_	SpacesAfter=\s\s
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	expl	_	SpacesAfter=\s\s
+6	sei	sei	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = E lo sai o se non lo sai.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	CCONJ	CC	_	8	cc	_	SpacesAfter=\s\s
+5	se	se	SCONJ	CS	_	8	mark	_	SpacesAfter=\s\s
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	SpacesAfter=\s\s
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpacesAfter=\s\s
+8	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Amore E' tra uomo e donna ...E Basta.
+1	Amore	amore	PROPN	SP	_	0	root	_	_
+2	E'	essere	PROPN	SP	_	1	flat:name	_	_
+3	tra	tra	ADP	E	_	4	case	_	SpacesAfter=\s\s
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	SpacesAfter=\s\s
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7	...E	...E	PROPN	SP	_	4	nmod	_	SpacesAfter=\s\s
+8	Basta	Basto	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = complimenti!
+1	complimenti	complimenti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Un viaggio meraviglioso!
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Posso chiederti come si chiama il luogo al minuto 3:28?
+1	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	chiederti	_	_	_	_	_	_	_	_
+2	chieder	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+4	come	come	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	3:28	3:28	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

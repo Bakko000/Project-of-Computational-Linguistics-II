@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciao sono Stefano da Bologna, è stato davvero piacevole guardare il tuo filmato degno di un documentario .
+1	ciao	ciao	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Stefano	Stefare	PROPN	SP	_	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Bologna	Bologna	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	davvero	davvero	ADV	B	_	10	advmod	_	SpacesAfter= \s
+10	piacevole	piacevole	ADJ	A	Number=Sing	3	conj	_	_
+11	guardare	guardare	VERB	V	VerbForm=Inf	10	csubj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	filmato	filmato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	degno	degno	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	documentario	documentario	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Io e mia moglie andremo a Caponord in moto la prossima estate e quindi stiamo documentandoci guardando le varie esperienze.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+5	andremo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Caponord	Caponord	PROPN	SP	_	5	obl	_	SpacesAfter= \s
+8	in	in	ADP	E	_	9	case	_	_
+9	moto	moto	NOUN	S	Gender=Fem	5	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	estate	estate	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	quindi	quindi	ADV	B	_	16	advmod	_	_
+15	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16-17	documentandoci	_	_	_	_	_	_	_	_
+16	documentando	documentare	VERB	V	VerbForm=Ger	5	conj	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+18	guardando	guardare	VERB	V	VerbForm=Ger	16	advcl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	varie	vario	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = il tuo video e uno tra quelli fatti meglio, originale che non annoia affatto.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	video	video	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	conj	_	_
+6	tra	tra	ADP	E	_	7	case	_	_
+7	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nmod	_	_
+8	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	meglio	meglio	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	originale	originale	ADJ	A	Number=Sing	5	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	annoia	annoiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+15	affatto	affatto	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = grazie alla tua esperienza abbiamo altri riferimenti da seguire.
+1	grazie	grazie	NOUN	S	_	5	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+6	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	altri	altro	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	riferimenti	riferimento	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	da	da	ADP	E	_	10	mark	_	_
+10	seguire	seguire	VERB	V	VerbForm=Inf	8	acl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = grazie da Stefano e Cristina
+1	grazie	grazie	NOUN	S	_	3	case	_	SpacesAfter= \s
+2	da	da	ADP	E	_	1	fixed	_	_
+3	Stefano	Stefano	PROPN	SP	_	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Cristina	Cristina	PROPN	SP	_	3	conj	_	SpacesAfter=\n\n
+

@@ -1,0 +1,52 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma scusate perché scrivete "like solo per Annalisa" ecc?
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	scusate	scusare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	perché	perché	SCONJ	CS	_	4	mark	_	_
+4	scrivete	scrivere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	like	like	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	Annalisa	Annalisa	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	_
+11	ecc	eccetera	ADV	B	_	6	advmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non è l'unica a cantare questa canzone.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	unica	unico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	cantare	cantare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = A me piacciono anche benji e fede.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	benji	benji	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	fede	fede	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Un po' di rispetto, dai.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	po'	poco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6-7	dai	_	_	_	_	_	_	_	SpaceAfter=No
+6	da	da	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

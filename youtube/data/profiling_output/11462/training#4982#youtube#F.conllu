@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ignorante e maleducata.
+1	Ignorante	Ignorante	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	maleducata.	maleducata.	NOUN	S	Gender=Masc	1	conj	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..NN ti hanno insegnato che bisogna rispettare chi parla e nn parlare sopra???
+1	..NN	..NN	ADP	E	_	2	case	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	rispettare	rispettare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	obj	_	_
+9	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	nn	nno	ADP	E	_	12	mark	_	_
+12	parlare	parlare	VERB	V	VerbForm=Inf	9	conj	_	_
+13	sopra	sopra	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Questo nn fa altro che dare certezza della sua colpevolezza....
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	nn	nn	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	dare	dare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	colpevolezza...	colpevolezza...	NOUN	S	_	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,49 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marco Travaglio, sei sempre più grande, il più grande!
+1	Marco	Marco	PROPN	SP	_	7	nsubj	_	_
+2	Travaglio	Travaglio	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter= 
+4	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	grande	grande	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	grande	grande	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	7	punct	_	SpacesAfter= 
+
+# sent_id = 2
+# text = Ci dai sempre delle grandi gioie ed immense soddisfazioni, e che ironia!...sei il nostro Zorro ma senza maschere!
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	0	root	_	_
+2-3	dai	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	sempre	sempre	ADV	B	_	1	advmod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	grandi	grande	ADJ	A	Number=Plur	8	amod	_	_
+8	gioie	gioia	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	SpacesAfter= 
+10	immense	immenso	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	soddisfazioni	soddisfazione	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	ironia!...sei	esironia!...sere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Zorro	Zorro	PROPN	SP	_	15	obj	_	_
+19	ma	ma	CCONJ	CC	_	21	cc	_	_
+20	senza	senza	ADP	E	_	21	mark	_	_
+21	maschere	maschere	VERB	V	VerbForm=Inf	8	conj	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Grazie.
+1	Grazie	grazie	NOUN	S	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

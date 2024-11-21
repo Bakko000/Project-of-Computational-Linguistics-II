@@ -1,0 +1,53 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Grande interpretazione.
+1	Grande	grande	ADJ	A	Number=Sing	2	amod	_	_
+2	interpretazione	interpretazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non solo fa benissimo l'accento straniero, ma riesce davvero a coinvolgere appieno con il suo notevole livello di immedesimazione.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	solo	solo	ADV	B	_	3	advmod	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	benissimo	bene	ADV	B	Degree=Abs	3	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	accento	accento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	davvero	davvero	ADV	B	_	10	advmod	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	coinvolgere	coinvolgere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+14	appieno	appieno	ADV	B	_	13	advmod	_	_
+15	con	con	ADP	E	_	19	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+18	notevole	notevole	ADJ	A	Number=Sing	19	amod	_	_
+19	livello	livello	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	immedesimazione	immedesimazione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = A mio parere, uno dei più grandi attori che abbiamo oggi in Italia.
+1	A	a	ADP	E	_	3	case	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	parere	parere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	appos	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	10	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	grandi	grande	ADJ	A	Number=Plur	10	amod	_	_
+10	attori	attore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+12	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	oggi	oggi	ADV	B	_	12	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Italia	Italia	PROPN	SP	_	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

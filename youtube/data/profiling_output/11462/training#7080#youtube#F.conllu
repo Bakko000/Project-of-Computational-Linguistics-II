@@ -1,0 +1,38 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = esco e sparo all'impazzata
+1	esco	uscire	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	sparo	sparare	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	impazzata	impazzata	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = per quel motivo?
+1	per	per	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = perché se sono sveglio io, non vedo perché gli altri devono dormire!
+1	perché	perché	ADV	B	_	8	advmod	_	_
+2	se	se	SCONJ	CS	_	8	mark	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	sveglio	svegliare	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	perché	perché	SCONJ	CS	_	13	mark	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	_
+12	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	dormire	dormire	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+

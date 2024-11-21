@@ -1,0 +1,41 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = eccolo!!!!
+1-2	eccolo	_	_	_	_	_	_	_	SpaceAfter=No
+1	ecco	ecco	ADV	B	_	2	advmod	_	_
+2	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+4	!!	!!	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = il commento di un perdente.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	commento	commento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	perdente	perdente	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = bravo berlusconiano dei miei coglioni!
+1	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	berlusconiano	berlusconiano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	coglioni	coglione	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = quando mai vi esibite con commenti intelligenti...
+1	quando	quando	SCONJ	CS	_	4	mark	_	_
+2	mai	mai	ADV	B	_	4	advmod	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	esibite	esibire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	intelligenti...	intelligenti.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

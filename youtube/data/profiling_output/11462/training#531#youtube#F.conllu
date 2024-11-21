@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Penso sia inutile prendere posizioni pro-contro.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	inutile	inutile	ADJ	A	Number=Sing	1	ccomp	_	_
+4	prendere	prendere	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	pro-	pro-	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	contro	contro	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = In fondo è solo una canzone.
+1	In	in	ADP	E	_	2	case	_	_
+2	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Magari ci sarà anche chi pensava di essere gay e poi dopo aver conosciuto l'altro sesso ha cambiato opinione.
+1	Magari	magari	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	nsubj	_	_
+6	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+9	gay	gay	NOUN	S	Gender=Masc	6	xcomp	_	_
+10	e	e	CCONJ	CC	_	19	cc	_	_
+11	poi	poi	ADV	B	_	14	advmod	_	_
+12	dopo	dopo	SCONJ	CS	_	14	mark	_	_
+13	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+14	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	altro	altro	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+20	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Da ragazzi spesso le prime esperienze sessuali si fanno con persone dello stesso sesso.
+1	Da	da	ADP	E	_	2	case	_	_
+2	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+3	spesso	spesso	ADV	B	_	2	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	6	amod	_	_
+6	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	sessuali	sessuale	ADJ	A	Number=Plur	6	amod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+12-13	dello	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Solo perchè ad una tenera età si hanno le prime pulsioni sessuali ma è piuttosto difficile avere rapporti con l'altro sesso.
+1	Solo	solo	ADV	B	_	8	advmod	_	_
+2	perchè	poiperché	SCONJ	CS	_	8	mark	_	_
+3	ad	a	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tenera	tenero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	età	età	NOUN	S	Gender=Fem	8	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	11	amod	_	_
+11	pulsioni	pulsione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12	sessuali	sessuale	ADJ	A	Number=Plur	11	amod	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	piuttosto	piuttosto	ADV	B	_	16	advmod	_	_
+16	difficile	difficile	ADJ	A	Number=Sing	8	conj	_	_
+17	avere	avere	VERB	V	VerbForm=Inf	16	csubj	_	_
+18	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	con	con	ADP	E	_	22	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+21	altro	altro	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Nessuna malattia, nessuna guarigione.
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	guarigione	guarigione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Solo una canzone!
+1	Solo	solo	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

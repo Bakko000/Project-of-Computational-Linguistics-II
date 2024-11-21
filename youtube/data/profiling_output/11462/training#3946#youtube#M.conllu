@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = tu hai letto la bibbia?
+1	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bibbia	bibbia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = lo sai che è una traduzione di un testo più antico?
+1	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sai	sapere	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	testo	testo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	antico	antico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = significa che tu hai letto la traduzione di una traduzione di una traduzione di un libro scritto in una lingua della quale sappiamo 0 ....
+1	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+4	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	libro	libro	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	obl	_	_
+24	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+25	0	0	NUM	N	NumType=Card	24	xcomp	_	_
+26	...	...	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = ...e hai la sfacciataggine di dire che "adattano le loro teorie, scegliendo fantasiosamente le cose più illogiche assurde e fuori dal mondo..." ....
+1	...e	...e	ADV	B	_	2	advmod	_	_
+2	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sfacciataggine	sfacciataggine	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	adattano	adattare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	scegliendo	scegliere	VERB	V	VerbForm=Ger	9	advcl	_	_
+15	fantasiosamente	fantasiosamente	ADV	B	_	14	advmod	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	illogiche	illogico	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	assurde	assurdere	NOUN	S	Gender=Fem|Number=Plur	17	compound	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	fuori	fuori	ADV	B	_	25	case	_	_
+23-24	dal	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	22	fixed	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mondo...	mondo...	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	2	punct	_	_
+27	...	...	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = allora parlami di Mosè che separa le acque....
+1	allora	allora	ADV	B	_	2	advmod	_	_
+2	parlami	parlama	ADJ	A	Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Mosè	Mosé	PROPN	SP	_	2	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	separa	separare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	acque...	acque...	NOUN	S	_	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = cosa logicissima .......
+1	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	logicissima	logico	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	1	amod	_	_
+3	.......	.......	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

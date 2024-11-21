@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bravo.
+1	Bravo.	Bravo.	PROPN	SP	_	0	root	_	SpaceAfter=No
+
+# sent_id = 2
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 3
+# text = Dici di essere d'accordo quando prima viene il paese.
+1	Dici	dici	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	1	ccomp	_	_
+6	quando	quando	SCONJ	CS	_	8	mark	_	_
+7	prima	prima	ADV	B	_	8	advmod	_	_
+8	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Allora recupera i 7,5 miliardi di euro che hai regalato alle banche!!!
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	recupera	recuperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	7,5	7,5	NUM	N	NumType=Card	5	nummod	_	_
+5	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	euro	euro	NOUN	S	Gender=Masc	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	regalato	regalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	banche	banca	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+15	!!	!!	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+

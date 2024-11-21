@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = purtroppo, non mi fa neppure rabbia.
+1	purtroppo	purtroppo	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	neppure	neppure	ADV	BN	PronType=Neg	7	advmod	_	_
+7	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mi fa solo pena.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	solo	solo	ADV	B	_	4	advmod	_	_
+4	pena	pena	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Lei, e Berlusconi che ha creato Alfano e quindi Lorenzin e il compagno /marito che dirige la RAI.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Berlusconi	Berlusconi	PROPN	SP	_	1	conj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	Alfano	Alfano	PROPN	SP	_	7	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	quindi	quindi	ADV	B	_	11	advmod	_	_
+11	Lorenzin	Lorenzin	PROPN	SP	_	8	conj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+15	/marito	/marito	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	dirige	dirigere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	RAI	RAI	PROPN	SP	_	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Buttiamo il televisore e non paghiamo più il canone a questa gente- Le loro madri devono assumersi la responsabilità del loro mantenimento e non noi.
+1	Buttiamo	Buttare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	televisore	televisore	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	paghiamo	pagare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	più	più	ADV	B	_	6	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	canone	canone	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+13	-	-	PUNCT	FB	_	1	punct	_	_
+14	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	madri	madre	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+17	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18-19	assumersi	_	_	_	_	_	_	_	_
+18	assumer	assumere	VERB	V	VerbForm=Inf	1	conj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	responsabilità	responsabilità	NOUN	S	Gender=Fem	18	obj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	loro	loro	DET	AP	Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	mantenimento	mantenimento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	21	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Non ho capito questa insigne persona che conoscenze e competenze abbia.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	insigne	insigno	ADJ	A	Number=Sing	6	amod	_	_
+6	persona	persona	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	che	che	SCONJ	CS	_	8	case	_	_
+8	conoscenze	conoscenza	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	competenze	competenza	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	abbia	avere	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Nessuna, credo!
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Siccome i nostri figli sono capaci e disoccupati, vedere simili individui campare a sbafo degli italiani, mi indigna come cittadina di questo Stato
+1	Siccome	siccome	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	capaci	capace	ADJ	A	Number=Plur	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	disoccupati	disoccupato	ADJ	A	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	vedere	vedere	VERB	V	VerbForm=Inf	6	conj	_	_
+11	simili	simile	ADJ	A	Number=Plur	12	amod	_	_
+12	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	campare	campare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	sbafo	sbafo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16-17	degli	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	expl	_	_
+21	indigna	indignare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	cittadina	cittadina	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpacesAfter=\n\n
+

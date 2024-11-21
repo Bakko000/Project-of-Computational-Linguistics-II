@@ -1,0 +1,55 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma che ha fatto mister Bean Renzi ???
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	mister	mister	ADP	E	_	6	case	_	_
+6	Bean	Bean	PROPN	SP	_	4	obl	_	_
+7	Renzi	Renzi	PROPN	SP	_	6	flat:name	_	_
+8	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ha annesso gli errori che ha fatto ,???
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	annesso	annettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	errori	errore	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	,	,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = 😂😂😂😂
+1	😂😂😂😂	😂😂😂😂	SYM	SYM	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Poveri Pidioti si suicidano da soli ...
+1	Poveri	povero	PROPN	SP	_	4	nsubj	_	_
+2	Pidioti	Pidioto	PROPN	SP	_	1	flat:name	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	suicidano	suicidare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	soli	solo	ADJ	A	Gender=Masc|Number=Plur	4	obl	_	_
+7	...	...	PUNCT	FF	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Tempo scaduto mister Bean Matteo ..Game Over
+1	Tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	scaduto	scaduto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	mister	mistere	ADP	E	_	4	case	_	_
+4	Bean	Bean	PROPN	SP	_	2	obl	_	_
+5	Matteo	Matteo	PROPN	SP	_	4	flat:name	_	_
+6	..Game	..Game	PROPN	SP	_	4	nmod	_	_
+7	Over	over	PROPN	SP	_	6	flat:name	_	SpacesAfter=\n\n
+

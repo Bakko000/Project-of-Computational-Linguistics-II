@@ -1,0 +1,40 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Incapace e razzista" lei?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Incapace	incapace	ADJ	A	Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	razzista	razzista	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	2	punct	_	_
+6	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ma da che pulpito 😂. Ma che pena che fa codesto uomo
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	pulpito	pulpire	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	😂	😂	SYM	SYM	_	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+7	Ma	ma	CCONJ	CC	_	9	cc	_	_
+8	che	che	DET	DQ	PronType=Int	9	det	_	_
+9	pena	pena	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	codesto	codesto	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Tutto il mio sostegno alla Boldrini
+1	Tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	4	det:predet	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Boldrini	Boldrini	PROPN	SP	_	4	nmod	_	SpacesAfter=\n\n
+

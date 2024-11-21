@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = _--------------
+1	_	-	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+14	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+15	-	-	PUNCT	FB	_	1	punct	_	_
+
+# sent_id = 2
+# text = Qualcuno conosce la canzone usata come sottofondo al Punto di Pagliaro?
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	usata	usare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	sottofondo	sottofondo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Pagliaro	Pagliaro	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Grazie in anticipo
+1	Grazie	grazie	NOUN	S	_	3	case	_	_
+2	in	in	ADP	E	_	1	fixed	_	_
+3	anticipo	anticipo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+

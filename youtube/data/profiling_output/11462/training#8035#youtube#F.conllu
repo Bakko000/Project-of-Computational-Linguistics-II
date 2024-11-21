@@ -1,0 +1,29 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bravissimi.
+1	Bravissimi	Bravo	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sei triste,guarda loro, hai voglia di ridere guarda loro.
+1	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	triste,guarda	triste,guardare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	ridere	ridere	VERB	V	VerbForm=Inf	6	acl	_	_
+9	guarda	guarda	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	loro.	loro.	NOUN	S	_	8	obj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ...cavolo sembra la pubblicità di TG7
+1	...cavolo	...cavolo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pubblicità	pubblicità	NOUN	S	Gender=Fem	2	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	TG7	TG7	PROPN	SP	_	4	nmod	_	SpacesAfter=\n\n
+

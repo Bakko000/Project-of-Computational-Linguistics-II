@@ -1,0 +1,38 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciao
+1	ciao	ciao	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = guardo con piacere i tuoi video perchè sono flesciato con il mavic e prima o poi lo comprerò!
+1	guardo	guardare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	video	video	NOUN	S	Gender=Masc	1	nmod	_	_
+7	perchè	perché	SCONJ	CS	_	9	mark	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	flesciato	flesciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mavic	mavic	NOUN	S	Gender=Masc	9	obl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	prima	prima	ADV	B	_	12	conj	_	_
+15	o	o	CCONJ	CC	_	18	cc	_	_
+16	poi	poi	ADV	B	_	18	advmod	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	comprerò	comprare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = ...Complimenti bel giro in sardegna
+1	...Complimenti	...Complimento	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bel	bello	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	giro	giro	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	sardegna	sardegna	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpacesAfter=\n\n
+

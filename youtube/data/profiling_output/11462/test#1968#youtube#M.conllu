@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Grandissimo!!!
+1	Grandissimo	Grande	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	!!	!!	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = In sardegna devi assolutamente visitare la zona del Sinis!! la spiaggia di Is Arutas!
+1	In	in	ADP	E	_	2	case	_	_
+2	sardegna	sardegna	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	assolutamente	assolutamente	ADV	B	_	5	advmod	_	_
+5	visitare	visitare	VERB	V	VerbForm=Inf	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	zona	zona	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Sinis!	sinis!	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	10	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Is	is	PROPN	SP	_	13	nmod	_	_
+16	Arutas	Arutas	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = le rovine a Tharros.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	rovine	rovina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	SpacesAfter=\s\s
+4	Tharros	Tharros	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

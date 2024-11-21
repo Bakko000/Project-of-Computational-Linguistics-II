@@ -1,0 +1,141 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao, seguo sempre molto volentieri i tuoi video.
+1	Ciao	ciao	INTJ	I	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	seguo	seguire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	volentieri	volentieri	ADV	B	_	3	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	video	video	NOUN	S	Gender=Masc	3	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Anche io faccio un lavoro che mi può permettere di svolgerlo ovunque io decida.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	permettere	permettere	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	svolgerlo	_	_	_	_	_	_	_	_
+11	svolger	svolgere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	ovunque	ovunque	ADV	B	_	11	advmod	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	decida	decidere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = In particolare si tratta di Marketing e Copywriting.
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Marketing	marketing	PROPN	SP	_	4	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Copywriting	Copywriting	PROPN	SP	_	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = E' vero, non ci sono guadagni mensili fissi ma... arrivata a un certo grado di automatismo il fatturato inizia ad essere un pochino scollegato dalla quantità di tempo lavorativo.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	guadagni	guadagno	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+8	mensili	mensile	ADJ	A	Number=Plur	7	amod	_	_
+9	fissi	figgere	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	ma...	ma.	NOUN	S	_	7	nmod	_	_
+11	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	certo	certo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	grado	grado	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	automatismo	automatismo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fatturato	fatturato	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+20	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+21	ad	a	ADP	E	_	24	mark	_	_
+22	essere	essere	AUX	V	VerbForm=Inf	24	cop	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	pochino	pochino	NOUN	S	Gender=Masc|Number=Sing	20	xcomp	_	_
+25	scollegato	scollegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26-27	dalla	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	quantità	quantità	NOUN	S	Gender=Fem	25	obl:agent	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	lavorativo	lavorativo	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ovvio, l'impegno ci vuole, nessuno guadagna facendo nulla ma con un pochino di tempo ci si riesce.
+1	Ovvio	ovvio	PROPN	SP	_	6	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+9	guadagna	guadagna	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	facendo	fare	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
+12	ma	ma	CCONJ	CC	_	20	cc	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pochino	pochino	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+20	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Anche io amo la vita nomade e questo tipo di lavoro per me è l'ideale.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	nomade	nomade	ADJ	A	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	16	cc	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	ideale	ideale	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = In bocca al lupo per il tuo canale!
+1	In	in	ADP	E	_	2	case	_	_
+2	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lupo	lupo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	canale	canale	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

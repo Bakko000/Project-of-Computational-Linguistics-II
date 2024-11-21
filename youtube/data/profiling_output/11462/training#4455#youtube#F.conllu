@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Povero Cerno, che prova ad spiegare che sclerotico e schizofrenico non sono sinonimi, anzi hanno significati parecchio diversi, alla sindaca leghista.
+1	Povero	povero	PROPN	SP	_	0	root	_	_
+2	Cerno	Cerno	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	prova	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	ad	a	ADP	E	_	7	mark	_	_
+7	spiegare	spiegare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	che	che	SCONJ	CS	_	14	mark	_	_
+9	sclerotico	sclerotico	ADJ	A	Gender=Masc|Number=Sing	14	nsubj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	schizofrenico	schizofrenico	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	sinonimi	sinonimo	ADJ	A	Gender=Masc|Number=Plur	7	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	anzi	anzi	ADV	B	_	18	advmod	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	significati	significare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	conj	_	_
+19	parecchio	parecchio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+20	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	SpacesAfter=\s\s
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sindaca	sindaca	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+25	leghista.	leghista.	NOUN	S	_	24	compound	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..che insiste pure!
+1	..che	..ca	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	2	obj	_	_
+2	insiste	insistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pure	pure	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non contenta di aver detto una castroneria, si impunta "no no, è proprio sclerotico!
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	contenta	contentire	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	castroneria	castroneria	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	impunta	impungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	no	no	ADV	BN	PronType=Neg	10	advmod	_	_
+13	no	no	ADV	BN	PronType=Neg	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	proprio	proprio	ADV	B	_	17	advmod	_	_
+17	sclerotico	sclerotico	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = "...Ah sindaca.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	...Ah	...Ah	INTJ	I	_	3	discourse	_	_
+3	sindaca.	sindaca.	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ..sclerotico vuol dire "rigido", in medicina dicesi di tessuto che perde elasticità, mi spiega che diavolo vuol dire che c'è un atteggiamento "sclerotico" tra i parlamentari pd nazionali, europei o politici nelle giunte comunali?
+1	..sclerotico	..sclerotico	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	rigido	rigido	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+10	dicesi	dicese	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	tessuto	tessuto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	elasticità	elasticità	NOUN	S	Gender=Fem	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+19	che	che	SCONJ	CS	_	22	mark	_	_
+20	diavolo	diavolo	ADV	B	_	22	advmod	_	_
+21	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	dire	dire	VERB	V	VerbForm=Inf	18	ccomp	_	_
+23	che	che	SCONJ	CS	_	25	mark	_	_
+24	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	25	expl	_	SpaceAfter=No
+25	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+28	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	sclerotico	sclerotico	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	_
+31	tra	tra	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	parlamentari	parlamentare	NOUN	S	Number=Plur	22	obl	_	_
+34	pd	pd	NOUN	S	Gender=Masc	33	compound	_	_
+35	nazionali	nazionale	ADJ	A	Number=Plur	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	europei	europeo	NOUN	S	Gender=Masc|Number=Plur	34	conj	_	_
+38	o	o	CCONJ	CC	_	39	cc	_	_
+39	politici	politico	NOUN	S	Gender=Masc|Number=Plur	34	conj	_	_
+40-41	nelle	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	giunte	giunta	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+43	comunali	comunale	ADJ	A	Number=Plur	42	amod	_	SpaceAfter=No
+44	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Dai, me lo spieghi, son curiosa!
+1-2	Dai	_	_	_	_	_	_	_	SpaceAfter=No
+1	Da	da	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+5	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+6	spieghi	spiego	PRON	PR	Number=Sing|PronType=Rel	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	son	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	curiosa	curioso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+

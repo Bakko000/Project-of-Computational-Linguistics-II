@@ -1,0 +1,47 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ho pianto al tuo saluto al sole "Ciao amico!".
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pianto	piangere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	saluto	salere	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sole	sole	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Ciao	ciao	PROPN	SP	_	6	nmod	_	_
+12	amico	amico	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Sei di ispirazione e complimenti per l'impresa.
+1	Sei	sei	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	ispirazione	ispirazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	complimenti	complimento	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Io comunque ora mi aspetto l'album loré eh!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	comunque	comunque	ADV	B	_	5	advmod	_	_
+3	ora	ora	ADV	B	_	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	album	album	NOUN	S	Gender=Masc	5	obj	_	_
+8	loré	loré	CCONJ	CC	_	9	cc	_	_
+9	eh	eh	ADV	B	_	5	conj	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

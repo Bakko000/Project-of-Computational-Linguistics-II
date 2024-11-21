@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Attore..
+1	Attore.	Attore.	NOUN	S	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = scarso...
+1	scarso..	scarso	NOUN	S	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = era più credibile come comparsa prima ma adesso ... vergognati te e quelli che ti stanno ancora vicino ... già che urli .. non hai fatto niente se non rovinarci per anni ..
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	credibile	credibile	ADJ	A	Number=Sing	0	root	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	comparsa	comparsa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	prima	prima	ADV	B	_	10	advmod	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	adesso	adesso	ADV	B	_	10	advmod	_	_
+9	...	...	PUNCT	FF	_	8	punct	_	_
+10	vergognati	vergognare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+11	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	11	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	obj	_	_
+16	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	ancora	ancora	ADV	B	_	18	advmod	_	_
+18	vicino	vicino	ADV	B	_	16	advmod	_	_
+19	...	.	PUNCT	FF	_	10	punct	_	_
+20	già	già	ADV	B	_	10	advmod	_	_
+21	che	che	SCONJ	CS	_	22	mark	_	_
+22-23	urli	_	_	_	_	_	_	_	_
+22	ur	urre	VERB	V	VerbForm=Inf	20	ccomp	_	_
+23	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obj	_	_
+24	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+27	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+29	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	obj	_	_
+30	se	se	SCONJ	CS	_	32	mark	_	_
+31	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+32-33	rovinarci	_	_	_	_	_	_	_	_
+32	rovinar	rovinare	VERB	V	VerbForm=Inf	28	advcl	_	_
+33	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	32	obj	_	_
+34	per	per	ADP	E	_	35	case	_	_
+35	anni	anno	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+36	..	..	PUNCT	FF	_	3	punct	_	_
+
+# sent_id = 4
+# text = tieniti la pensione che ti paghiamo e vai a fare le convention all’estero !!!
+1	tieniti	tienire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+6	paghiamo	pagare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	convention	convention	NOUN	S	Gender=Fem	10	obj	_	_
+13-14	all’	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	estero	estero	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	!!!	!!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

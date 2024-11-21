@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A LAVORATORI, CON REDDITO DI 5000 EURO AL MESE E GIÙ, GIÙ FINO ALLA DISPERAZIONE ED AL…SUICIDIO, ACCOMUNATI DA UNO STESSO DESTINO ( IRREVERSIBILE?) IMPOSTO DALLE LEGGI DI FINANZA E CdA un innovativo programma.
+1	A	a	ADP	E	_	2	case	_	_
+2	LAVORATORI	lavoratore	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	CON	Con	PROPN	SP	_	0	root	_	_
+5	REDDITO	reddito	PROPN	SP	_	4	flat:name	_	_
+6	DI	di	ADP	E	_	8	case	_	_
+7	5000	5000	NUM	N	NumType=Card	8	nummod	_	_
+8	EURO	euro	PROPN	SP	_	4	nmod	_	_
+9-10	AL	_	_	_	_	_	_	_	_
+9	A	a	PROPN	SP	_	4	nmod	_	_
+10	IL	il	PROPN	SP	_	9	flat:name	_	_
+11	MESE	mese	PROPN	SP	_	9	flat:name	_	_
+12	E	e	CCONJ	CC	_	13	cc	_	_
+13	GIÙ	giù	PRON	PI	Number=Plur|PronType=Ind	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	GIÙ	giù	DET	DI	PronType=Ind	16	det	_	_
+16	FINO	Fino	PROPN	SP	_	13	appos	_	_
+17-18	ALLA	_	_	_	_	_	_	_	_
+17	A	a	ADP	E	_	18	case	_	_
+18	LA	il	PROPN	SP	_	16	nmod	_	_
+19	DISPERAZIONE	disperazione	PROPN	SP	_	18	flat:name	_	_
+20	ED	Ed	PROPN	SP	_	18	flat:name	_	_
+21	AL…SUICIDIO	AL…SUICIDIO	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	SpacesAfter=\s\s
+23	ACCOMUNATI	ACCOMUNATI	PROPN	SP	_	16	appos	_	_
+24	DA	Da	PROPN	SP	_	23	flat:name	_	_
+25	UNO	uno	PROPN	SP	_	23	flat:name	_	_
+26	STESSO	stesso	PROPN	SP	_	23	flat:name	_	_
+27	DESTINO	destino	PROPN	SP	_	23	flat:name	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	_
+29	IRREVERSIBILE	IRREVERSIBILE	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	29	punct	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	29	punct	_	_
+32	IMPOSTO	imporre	PROPN	SP	_	23	flat:name	_	_
+33-34	DALLE	_	_	_	_	_	_	_	_
+33	DA	da	PROPN	SP	_	23	flat:name	_	_
+34	LE	il	PROPN	SP	_	33	flat:name	_	_
+35	LEGGI	Legge	PROPN	SP	_	33	flat:name	_	_
+36	DI	Di	ADP	E	_	37	case	_	_
+37	FINANZA	finanza	PROPN	SP	_	33	nmod	_	_
+38	E	e	CCONJ	CC	_	39	cc	_	_
+39	CdA	cda	PROPN	SP	_	33	flat:name	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	innovativo	innovativo	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+42	programma	programma	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Indirizzare mail a valtom@gmail.com
+1	Indirizzare	Indirizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s
+2	mail	mail	NOUN	S	_	1	obj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	valtom@gmail.com	valtom@gmail.com	NOUN	S	Gender=Masc	1	obl	_	SpacesAfter=\n\n
+

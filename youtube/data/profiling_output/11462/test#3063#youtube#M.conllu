@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = appunto.
+1	appunto.	appunto.	NOUN	S	_	0	root	_	SpaceAfter=No
+
+# sent_id = 2
+# text = .al commento sotto.
+1	.al	.al	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	commento	commento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	sotto.	sotto.	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ..ci sono stato anche io..x strada insetti parassiti rischi di intossicazione!
+1	..ci	..co	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	io..x	io..x	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	_
+6	strada	strada	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+7	insetti	insetto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8	parassiti	parassito	ADJ	A	Number=Plur	9	amod	_	_
+9	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	intossicazione	intossicazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = o peggio un infezione.
+1	o	o	CCONJ	CC	_	2	cc	_	_
+2	peggio	peggio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	infezione	infezione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpaceAfter=No
+
+# sent_id = 6
+# text = ..mangia x lo meno nei ristorantini.
+1	..mangia	..mangiare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	x	x	SYM	SYM	_	1	obj	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	meno	meno	ADV	B	_	2	advmod	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ristorantini.	ristorantini.	NOUN	S	_	4	obl	_	SpaceAfter=No
+
+# sent_id = 7
+# text = .in info india sulle 100 150 rupie
+1	.in	.ino	ADP	E	_	2	case	_	_
+2	info	info	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	india	indio	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	sulle	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	100	100	NUM	N	NumType=Card	3	obl	_	_
+7	150	150	NUM	N	NumType=Card	6	flat	_	_
+8	rupie	rupia	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpacesAfter=\n\n
+

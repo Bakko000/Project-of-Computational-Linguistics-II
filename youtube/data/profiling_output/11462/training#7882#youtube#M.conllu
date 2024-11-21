@@ -1,0 +1,40 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Aldo, la data è giusta?
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Aldo	Aldo	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	data	data	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Qua c’è scritto 21 novembre, siamo al 21 ottobre, ci hai fatto venire giù un mese prima?”
+1	Qua	qua	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nsubj:pass	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+5	21	21	NUM	N	NumType=Card	4	obl	_	_
+6	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	21	21	NUM	N	NumType=Card	4	obl	_	_
+12	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+15	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	venire	venire	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	giù	giù	ADV	B	_	17	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mese	mese	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	prima	prima	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	16	punct	_	SpaceAfter=No
+23	”	”	PUNCT	FB	_	16	punct	_	SpacesAfter=\n\n
+

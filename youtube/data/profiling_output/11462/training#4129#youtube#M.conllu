@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Salvini che si allea con Berlusconi, ma non vuole parlare di Berlusconi.
+1	Salvini	Salvinare	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	allea	alleare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Berlusconi	Berlusconi	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	parlare	parlare	VERB	V	VerbForm=Inf	4	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Berlusconi	Berlusconi	PROPN	SP	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = "Ma io non guardo al passato, io guardo al futuro" blablabla
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	guardo	guardare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	passato	passato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	guardo	guardare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	16	punct	_	_
+16	blablabla	blablabla	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Mancava solo che dicesse
+1	Mancava	Mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	3	advmod	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	dicesse	dire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Chi ha avut, ha avut, ha avut, (Berlusca)
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	avut	avut	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+6	avut	avut	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	avut	avut	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Berlusca	Berlusca	PROPN	SP	_	8	appos	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Chi ha rat, ha rat, ha rat (gli italiani)
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	rat	rare	SYM	X	_	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	rat	rat	NOUN	S	Gender=Masc	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	rat	rare	NOUN	S	Gender=Masc	8	obj	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	9	appos	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Scurdammc 'o passat, simm 'e Napul, paisà.
+1	Scurdammc	Scurdammc	ADV	B	_	3	advmod	_	_
+2	'o	'o	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	passat	passat	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	simm	millisimetro	NOUN	S	Gender=Masc	3	conj	_	_
+6	'e	'e	ADJ	A	Number=Sing	5	amod	_	_
+7	Napul	Napul	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	paisà	paisà	INTJ	I	_	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Solo che lui non è di Napoli.
+1	Solo	solo	ADV	B	_	7	advmod	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Napoli	Napoli	PROPN	SP	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+

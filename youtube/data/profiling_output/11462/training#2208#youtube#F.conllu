@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = la Grecia ragazzi non potevano farla uscire dall' unione.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Grecia	Grecia	PROPN	SP	_	6	nsubj	_	_
+3	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	2	compound	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6-7	farla	_	_	_	_	_	_	_	_
+6	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	uscire	uscire	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9-10	dall'	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	unione	unione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..dove sono partiti i missili americani x la Turchia
+1	..dove	..dove	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	partiti	partire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	missili	missile	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	americani	americano	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	x	x	SYM	SYM	_	5	compound	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Turchia	Turchia	PROPN	SP	_	3	nsubj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = ....e pure l Italia faranno in modo che rimanga in Europa.
+1	....e	....e	ADV	B	_	5	advmod	_	_
+2	pure	pure	ADV	B	_	3	advmod	_	_
+3	l	l	X	X	_	5	nsubj	_	_
+4	Italia	Italia	PROPN	SP	_	3	flat:name	_	_
+5	faranno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	rimanga	rimanere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Europa	Europa	PROPN	SP	_	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = ..dove partiranno i prossimi missili?
+1	..dove	..dove	ADV	B	_	2	advmod	_	_
+2	partiranno	partire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	missili	missilo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = siamo pensiline di lancio sul mediterraneo.
+1	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	pensiline	pensilina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpacesAfter=\s\s
+3	di	di	ADP	E	_	4	case	_	_
+4	lancio	lancio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mediterraneo	mediterraneo	ADJ	A	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = ..il che vuol dire che siamo fregati.
+1	..il	..il	NOUN	S	Gender=Masc	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	fregati	fregare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = DEVE CAMBIARE CHI CI GOVERNA.
+1	DEVE	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	CAMBIARE	cambiare	PROPN	SP	_	0	root	_	_
+3	CHI	chi	PROPN	SP	_	2	flat:name	_	_
+4	CI	ci	PROPN	SP	_	2	flat:name	_	_
+5	GOVERNA	governa	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = speriamo di bloccarlo al referendum
+1	speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	bloccarlo	_	_	_	_	_	_	_	_
+3	bloccar	bloccare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	referendum	referendum	NOUN	S	Gender=Masc	3	obl	_	SpacesAfter=\n\n
+

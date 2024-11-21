@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La chiesa non c'entra NIENTE con Dio, e Dio non c'entra niente con la chiesa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	NIENTE	niente	PROPN	SP	_	5	obj	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Dio	dio	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Leggete la Bibbia, comprendetela e mettetela in atto...
+1	Leggete	Leggere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Bibbia	Bibbia	PROPN	SP	_	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	comprendetela	comprendetelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	mettetela	mettetelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	atto..	atto..	NOUN	S	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = scoprirete quanto Dio e' vero!
+1	scoprirete	scopriere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	quanto	quanto	ADV	B	_	3	case	_	_
+3	Dio	dio	PROPN	SP	_	6	obl	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	6	punct	_	_
+6	vero	vero	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = E tutto cio' che vi e' scritto, vi sarà manifestato in Spirito e in Verità.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	cio'	cioco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	12	nsubj:pass	_	_
+5	vi	vi	ADV	B	_	12	advmod	_	_
+6	e	e	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	12	punct	_	_
+8	scritto	scrivere	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+11	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux:pass	_	_
+12	manifestato	manifestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Spirito	spirito	PROPN	SP	_	12	obl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Verità	Verità	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Che Dio vi benedica.
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	benedica	benedicare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Un ex agnostica.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	agnostica	agnostica	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

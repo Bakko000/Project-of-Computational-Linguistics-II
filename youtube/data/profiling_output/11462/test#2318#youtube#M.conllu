@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao Nico.
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Nico.	Nico.	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ...per prima cosa complimenti per i tuoi video, ogni domenica non vedo l'ora di vederli!!!!
+1	...per	...pere	ADP	E	_	3	case	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+4	complimenti	complimento	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	video	video	NOUN	S	Gender=Masc	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ora	ora	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	vederli	_	_	_	_	_	_	_	SpaceAfter=No
+17	veder	vedere	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	!	!	PUNCT	FS	_	17	punct	_	SpaceAfter=No
+20	!!	!!	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+21	!	!	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Devi ritornare assolutamente a vedere la zona marina protetta di Tavolara e le zone vicine a San Teodoro ( sotto Olbia a sud est)...
+1	Devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ritornare	ritornare	VERB	V	VerbForm=Inf	0	root	_	_
+3	assolutamente	assolutamente	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	vedere	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	zona	zona	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	marina	marina	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	protetta	proteggere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Tavolara	Tavolara	PROPN	SP	_	9	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	zone	zona	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+15	vicine	vicino	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	San	San	PROPN	SP	_	15	obl	_	_
+18	Teodoro	Teodoro	PROPN	SP	_	17	flat:name	_	_
+19	(	(	PUNCT	FB	_	21	punct	_	_
+20	sotto	sotto	ADP	E	_	21	case	_	_
+21	Olbia	Olbia	PROPN	SP	_	17	nmod	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	sud	sud	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+24	est	est	NOUN	S	_	21	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+26	...	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Ancora complimenti!!!
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	complimenti	complimenti	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+4	!!	!!	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\n
+

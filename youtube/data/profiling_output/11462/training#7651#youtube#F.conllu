@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = " ....
+1	"	"	PUNCT	FB	_	2	punct	_	_
+2	...	...	PUNCT	FF	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Lavoro...."
+1	Lavoro...	Lavoro...	NOUN	S	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	1	punct	_	_
+
+# sent_id = 3
+# text = San Benedetto di Norcia
+1	San	San	PROPN	SP	_	0	root	_	_
+2	Benedetto	Benedetto	PROPN	SP	_	1	flat:name	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Norcia	Norcia	PROPN	SP	_	1	nmod	_	SpacesAfter=\n\n
+

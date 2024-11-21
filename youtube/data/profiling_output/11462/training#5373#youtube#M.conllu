@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se fossimo in Francia questi politici sarebbero già in ghigliottina.
+1	Se	se	SCONJ	CS	_	10	mark	_	_
+2	fossimo	essere	AUX	V	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	10	cop	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Francia	Francia	PROPN	SP	_	10	obl	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	politici	politico	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+7	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	già	già	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	ghigliottina	ghigliottina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Siccome siamo dei pecoroni e loro lo sanno.
+1	Siccome	siccome	SCONJ	CS	_	5	mark	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	pecoroni	pecorone	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Fanno quello che cazzo vogliono.
+1	Fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	cazzo	cazzare	PRON	PI	Gender=Masc|Number=Sing	5	obj	_	_
+5	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Tempo a tempo e pagherete anche voi.
+1	Tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	pagherete	pagherete	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	1	conj	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Tutti compresi.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+2	compresi	comprendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = L'Italia è stata volutamente messa in crisi e il popolo vuole sapere i colpevoli di questo tradimento.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Italia	Italia	PROPN	SP	_	6	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	volutamente	voluto	ADV	B	_	6	advmod	_	_
+6	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	crisi	crisi	NOUN	S	Gender=Fem	6	obl	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	sapere	sapere	VERB	V	VerbForm=Inf	6	conj	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	colpevoli	colpevole	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	tradimento	tradimento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+

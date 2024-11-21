@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Alessandra Collodi
+1	Alessandra	Alessandra	PROPN	SP	_	0	root	_	_
+2	Collodi	Collodi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = IO STO CON MATTARELLA!
+1	IO	io	PROPN	SP	_	0	root	_	SpacesAfter=\s\s
+2	STO	Sto	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s
+3	CON	con	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s
+4	MATTARELLA	Mattarella	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = ! !
+1	!	!	PUNCT	FS	_	0	root	_	_
+2	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = NON FATEVI ABBINDOLARE DA PERICOLOSI ARROGANTI, SCORRETTI CHE CAMBIANO LE CARTE IN TAVOLA TUTTI I GIORNI!!!
+1	NON	non	PROPN	SP	_	0	root	_	_
+2	FATEVI	FATEVI	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s
+3	ABBINDOLARE	ABBINDOLARE	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s
+4	DA	da	PROPN	SP	_	1	flat:name	_	_
+5	PERICOLOSI	pericoloso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	ARROGANTI	ARROGANTI	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	SCORRETTI	SCORRETTI	PROPN	SP	_	4	flat:name	_	_
+9	CHE	Che	PROPN	SP	_	4	flat:name	_	_
+10	CAMBIANO	cambiano	PROPN	SP	_	4	flat:name	_	_
+11	LE	Le	PROPN	SP	_	4	flat:name	_	_
+12	CARTE	carte	PROPN	SP	_	4	flat:name	_	_
+13	IN	in	PROPN	SP	_	4	flat:name	_	_
+14	TAVOLA	tavola	PROPN	SP	_	4	flat:name	_	SpacesAfter=\s\s
+15	TUTTI	tutto	PROPN	SP	_	4	flat:name	_	_
+16	I	primo	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	GIORNI	giorno	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+19	!!	!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

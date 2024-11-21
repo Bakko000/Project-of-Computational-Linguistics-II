@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma che strano.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	che	che	PRON	PQ	PronType=Int	3	nsubj	_	_
+3	strano.	strano.	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ....in Italia gli italiani vogliono avere diritti.
+1	....in	....ino	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	6	obl	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+7	diritti.	diritti.	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ...davvero inconcepibile.
+1	...davvero	...davvero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	inconcepibile	inconcepibile	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ho sempre pensato che dovessimo soccombere al volere dei servi ladri corrotti e venduti del PD.i quali vogliono un'invasione perchè i sionisti delle multinazionali rappresentati a Bruxelles dalle lobby hanno bisogno di schiavi .
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	dovessimo	dovessimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	soccombere	soccombere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	volere	volere	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	servi	servo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	ladri	ladro	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	corrotti	corrotto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	venduti	vendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	conj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	PD.i	PD.i	PROPN	SP	_	16	obl	_	_
+20	quali	quale	PRON	PR	Number=Plur|PronType=Rel	21	nsubj	_	_
+21	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	invasione	invasione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	perchè	perché	SCONJ	CS	_	36	mark	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	sionisti	sionista	NOUN	S	Gender=Masc|Number=Plur	36	nsubj	_	_
+27-28	delle	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	multinazionali	multinazionale	NOUN	S	Number=Plur	26	nmod	_	_
+30	rappresentati	rappresentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	acl	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	Bruxelles	Bruxelles	PROPN	SP	_	30	obl	_	_
+33-34	dalle	_	_	_	_	_	_	_	_
+33	da	da	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	lobby	lobby	NOUN	S	Gender=Fem	30	obl:agent	_	_
+36	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+37	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	schiavi	schiavo	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+40	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

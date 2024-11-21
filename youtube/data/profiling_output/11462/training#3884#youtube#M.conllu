@@ -1,0 +1,147 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo video e' satanico.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+4	'	'	PUNCT	FB	_	5	punct	_	_
+5	satanico	satanico	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Chi ha studiato la Bibbia e la sua storia durata 1600 anni, arriva indiscutibilmente alla conclusione che la Bibbia e' ispirata da Dio;
+1	Chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Bibbia	Bibbia	PROPN	SP	_	3	obj	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+10	durata	durare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	1600	1600	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\s\s
+14	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	indiscutibilmente	indiscutibilmente	ADV	B	_	14	advmod	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	che	che	SCONJ	CS	_	27	mark	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Bibbia	Bibbia	PROPN	SP	_	27	nsubj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	SpaceAfter=No
+23	'	'	PUNCT	FB	_	24	punct	_	_
+24	ispirata	ispirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	Dio	dio	PROPN	SP	_	24	obl:agent	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 3
+# text = la Bibbia e' verita' da tutti i punti di vista:
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Bibbia	Bibbia	PROPN	SP	_	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+4	'	'	PUNCT	FB	_	5	punct	_	SpacesAfter=\s\s
+5	verita	verire	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	2	punct	_	SpacesAfter=\s\s
+7	da	da	ADP	E	_	10	case	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	punti	punto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vista	vista	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = storico, archeologico e teologico.
+1	storico	storico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	archeologico	archeologico	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	teologico	teologico	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Tutte le profezie della Bibbia si sono pienamente realizzate, compresa la venuta di Gesu', predetta molte volte nel Vecchio Testamento.
+1	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	profezie	profezie	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Bibbia	Bibbia	PROPN	SP	_	3	nmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	pienamente	pienamente	ADV	B	_	10	advmod	_	_
+10	realizzate	realizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	compresa	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	venuta	venuta	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Gesu'	Gesu'	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	predetta	predettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	volte	volta	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Vecchio	Vecchio	PROPN	SP	_	18	obl	_	_
+24	Testamento	Testamento	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Ora mancano solo i fatti descritti nell' Apocalisse.
+1	Ora	ora	ADV	B	_	2	advmod	_	_
+2	mancano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	solo	solo	ADV	B	_	5	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+6	descritti	descrivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	nell'	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Apocalisse	Apocalisse	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Quando avvereranno cosa inventeranno i satanisti per negare la verita' della Bibbia e l' amore di Dio?
+1	Quando	quando	SCONJ	CS	_	2	advmod	_	_
+2	avvereranno	avverare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpacesAfter=\s\s
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+4	inventeranno	inventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	satanisti	satanisti	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	negare	negare	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	verita	verita	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	'	'	PUNCT	FB	_	10	punct	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Bibbia	Bibbia	PROPN	SP	_	10	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Dio	dio	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Non si puo' giudicare senza conoscere a fondo.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	puo'	puoco	ADV	B	_	4	advmod	_	_
+4	giudicare	giudicare	VERB	V	VerbForm=Inf	0	root	_	_
+5	senza	senza	ADP	E	_	6	mark	_	_
+6	conoscere	conoscere	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

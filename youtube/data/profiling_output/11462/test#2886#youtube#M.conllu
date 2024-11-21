@@ -1,0 +1,54 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ho notato che sei un tirkio della Madonna.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	notato	notare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tirkio	tirkio	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Madonna	madonna	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = ... anche l ostello a 7 euro in dormitorio...
+1	...	...	PUNCT	FF	_	3	punct	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	SpacesAfter=\s\s
+3	l	l	X	X	_	0	root	_	_
+4	ostello	ostello	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	7	7	NUM	N	NumType=Card	7	nummod	_	_
+7	euro	euro	NOUN	S	Gender=Masc	4	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	dormitorio..	dormitorio..	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = sicuramente con due cartoni dietro ed allogiarti alla stazione avresti avuto più stile.
+1	sicuramente	sicuramente	ADV	B	_	13	advmod	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	cartoni	cartoni	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+5	dietro	dietro	ADV	B	_	11	case	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7-8	allogiarti	_	_	_	_	_	_	_	_
+7	allogiar	allogiare	VERB	V	VerbForm=Inf	5	conj	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	expl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	5	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+12	avresti	avresto	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	stile	stile	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = ....😆
+1	....😆	....😆	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

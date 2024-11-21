@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = " io rappresento un nuovo partito "...dice la Lorenzin.
+1	"	"	PUNCT	FB	_	3	punct	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	rappresento	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	partito	partito	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	...dice	...dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lorenzin	Lorenzin	PROPN	SP	_	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = Eletta deputata nelle liste del centrodestra ( PdL ) già fervida avversaria dell'IdV guidata da Antonio Di Pietro,adesso fonda un nuovo partito.
+1	Eletta	eletta	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+2	deputata	esdepuere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	nelle	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	liste	lista	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	centrodestra	centrodestra	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	_
+10	PdL	Pdl	PROPN	SP	_	8	nmod	_	_
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12	già	già	ADV	B	_	13	advmod	_	_
+13	fervida	fervido	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	avversaria	avversaria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	IdV	IdV	PROPN	SP	_	14	nmod	_	_
+18	guidata	guidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	Antonio	Antonio	PROPN	SP	_	18	obl:agent	_	_
+21	Di	Di	ADP	E	_	22	case	_	_
+22	Pietro	Pietro	PROPN	SP	_	18	obl	_	SpaceAfter=No
+23	,adesso	,adesso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	fonda	fondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	partito.	partito.	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ..a sostegno di chi?
+1	..a	..are	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Di Renzi.
+1	Di	di	ADP	E	_	2	case	_	_
+2	Renzi	Renzi	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Dunque,Beatrice Lorenzin, adesso sostiene il centrosinistra e con chi stringe alleanze?
+1	Dunque	dunque	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,Beatrice	,Beatore	PROPN	SP	_	6	nsubj	_	_
+3	Lorenzin	Lorenzin	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	adesso	adesso	ADV	B	_	6	advmod	_	_
+6	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	centrosinistra	centrosinistra	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpacesAfter=\s\s
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	chi	chi	PRON	PR	PronType=Rel	12	obl	_	_
+12	stringe	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	alleanze	alleanza	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Con l'Italia dei Valori- tanto vituperata )
+1	Con	con	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Italia	Italia	PROPN	SP	_	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Valori	valori	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	9	punct	_	_
+8	tanto	tanto	ADV	B	_	9	advmod	_	_
+9	vituperata	vituperato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+10	)	)	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Questa è psichiatria politica, ma che con la politica non ha nulla a che spartire.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	psichiatria	psichiatria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	politica	politico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	12	punct	_	_
+6	ma	ma	CCONJ	CC	_	12	cc	_	_
+7	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	politica	politica	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obj	_	_
+14	a	a	ADP	E	_	16	mark	_	_
+15	che	che	SCONJ	CS	_	14	fixed	_	_
+16	spartire	spartire	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Qui abbiamo perso il senno ( lei di sicuro.
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	senno	senno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 9
+# text = )
+1	)	)	PUNCT	FB	_	0	root	_	SpacesAfter=\n\n
+

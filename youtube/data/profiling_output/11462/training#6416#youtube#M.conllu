@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Liberi e uguali ?
+1	Liberi	libero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	uguali	uguale	ADJ	A	Number=Plur	1	conj	_	_
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = A voi ci penserà CASA POUND non appena al parlamento.
+1	A	a	ADP	E	_	2	case	_	_
+2	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	obl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	penserà	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	CASA	Casa	PROPN	SP	_	4	nsubj	_	_
+6	POUND	POUND	PROPN	SP	_	5	flat:name	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	appena	appena	ADV	B	_	11	advmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	parlamento	parlamento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Contaci....è una promessa.
+1	Contaci....è	Contaci....ere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+

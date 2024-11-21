@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Stefano ....
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Stefano	Stefano	PROPN	SP	_	0	root	_	_
+3	...	...	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = grazie !!!!
+1	grazie	grazie	NOUN	S	_	0	root	_	_
+2	!!!	!!!	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ho fatto il viaggio con te!!!
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	te!	te!	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Desidero da tempo viaggiare in posti freddi, vivendo nella Pianura Padana e sopratutto in questi due mesi, non sogno altro che ghiaccio e neve :) e la Penisola Nordica è il mio sogno !!
+1	Desidero	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	viaggiare	viaggiare	VERB	V	VerbForm=Inf	1	csubj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	posti	posto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	freddi	freddo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	vivendo	vivere	VERB	V	VerbForm=Ger	4	advcl	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Pianura	pianura	PROPN	SP	_	9	obl	_	_
+13	Padana	Padana	PROPN	SP	_	12	flat:name	_	_
+14	e	e	CCONJ	CC	_	22	cc	_	_
+15	sopratutto	sopratutto	ADV	B	_	22	advmod	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+18	due	due	NUM	N	NumType=Card	19	nummod	_	_
+19	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	sogno	sogre	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+23	altro	altro	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	case	_	_
+25	ghiaccio	ghiaccio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	neve	neve	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+28	:	:	PUNCT	FC	_	1	punct	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	1	punct	_	_
+30	e	e	CCONJ	CC	_	37	cc	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Penisola	penisola	PROPN	SP	_	37	nsubj	_	_
+33	Nordica	Nordico	PROPN	SP	_	32	flat:name	_	_
+34	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+38	!	!	PUNCT	FS	_	37	punct	_	SpaceAfter=No
+39	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il video è bellissimo e anche molto divertente!
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	divertente	divertente	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Grazie, non ti conoscevo ma ora che mi sono iscritta al tuo canale ti seguirò!
+1	Grazie	grazie	INTJ	I	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+5	conoscevo	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	ma	ma	CCONJ	CC	_	17	cc	_	_
+7	ora	ora	ADV	B	_	17	advmod	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	expl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	iscritta	iscrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	canale	canale	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	iobj	_	_
+17	seguirò	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = :)
+1	:	:	PUNCT	FC	_	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+

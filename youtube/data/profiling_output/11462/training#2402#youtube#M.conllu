@@ -1,0 +1,47 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quanta ignoranza.
+1	Quanta	Quanta	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
+2	ignoranza	ignoranza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Credete solo a ciò che potete "vedere" o "provare".
+1	Credete	Credere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	potete	potere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	vedere	vedere	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	_
+10	o	o	CCONJ	CC	_	12	cc	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	provare	provare	VERB	V	VerbForm=Inf	8	conj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Dio è l'unico creatore del mondo ed è per amor suo che esiste tutto ciò.
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	unico	unico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	creatore	creatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	ed	e	CCONJ	CC	_	12	cc	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	amor	amore	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

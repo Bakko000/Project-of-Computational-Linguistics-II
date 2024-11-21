@@ -1,0 +1,33 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = complimenti!
+1	complimenti	complimenti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = !!!
+1	!!	!!	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = io ho vissuto e lavorato in NZ per due anni.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	NZ	NZ	PROPN	SP	_	5	obl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	anni.	anni.	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ...mi manca da morire!
+1	...mi	...mo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	manca	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	morire	morire	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+

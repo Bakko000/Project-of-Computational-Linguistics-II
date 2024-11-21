@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bello!
+1	Bello	bello	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Bravo Stefano, un video informativo e molto ben fatto.
+1	Bravo	bravo	PROPN	SP	_	0	root	_	_
+2	Stefano	Stefano	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	video	video	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	informativo	informativo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	molto	molto	ADV	B	_	10	advmod	_	_
+9	ben	bene	ADV	B	_	10	advmod	_	_
+10	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Vorrei portarci i miei bimbi (5 e 8 anni), ma credo che opterò' per una stagione più' facile anche se devo ammettere che l'inverno e quanto visto mi attirano di più'.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	portarci	_	_	_	_	_	_	_	_
+2	portar	portare	VERB	V	VerbForm=Inf	0	root	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+7	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+8	5	5	NUM	N	NumType=Card	11	nummod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	8	8	NUM	N	NumType=Card	8	conj	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	che	che	SCONJ	CS	_	17	mark	_	_
+17	opterò	optare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	15	ccomp	_	SpaceAfter=No
+18	'	'	PUNCT	FB	_	21	punct	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22	più	più	ADV	B	_	21	advmod	_	SpaceAfter=No
+23	'	'	PUNCT	FB	_	21	punct	_	_
+24	facile	facile	ADJ	A	Number=Sing	17	xcomp	_	_
+25	anche	anche	ADV	B	_	28	mark	_	_
+26	se	se	SCONJ	CS	_	25	fixed	_	_
+27	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	ammettere	ammettere	VERB	V	VerbForm=Inf	24	advcl	_	_
+29	che	che	SCONJ	CS	_	31	mark	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	28	ccomp	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	31	conj	_	_
+34	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	_	_
+35	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	36	obj	_	_
+36	attirano	attirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	più	più	ADV	B	_	36	advmod	_	SpaceAfter=No
+39	'	'	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Saluti
+1	Saluti	Saluto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n\n
+

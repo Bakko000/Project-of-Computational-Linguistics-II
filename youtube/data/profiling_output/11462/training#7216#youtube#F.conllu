@@ -1,0 +1,50 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E questi sono gli uomini di Berlusconi: Razzi, Dell'Utri, Scilipoti,etc...
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Berlusconi	Berlusconi	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+9	Razzi	razzi	PROPN	SP	_	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11-12	Dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	Di	Di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Utri	Utri	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	Scilipoti,etc...	Scilipoti,etc...	PROPN	SP	_	5	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = C'è gente che ancora vota Forza Italia, nel 2014?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gente	gente	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	vota	votare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	Forza	Forza	PROPN	SP	_	6	obj	_	_
+8	Italia	Italia	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	2014	2014	NUM	N	NumType=Card	7	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Assurdi.
+1	Assurdi	assurdo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ridicoli.
+1	Ridicoli	Ridicoli	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

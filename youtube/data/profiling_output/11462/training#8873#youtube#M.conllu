@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bell'esperienza Stefano, bravissimo.
+1	Bell'	bello	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	Stefano	Stefano	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	bravissimo	bravo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Da "collega" viaggiatore solista quoto i tuoi liberi pensieri.
+1	Da	da	ADP	E	_	3	case	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	collega	collega	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	viaggiatore	viaggiatore	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+6	solista	solista	ADJ	A	Number=Sing	5	amod	_	_
+7	quoto	quoto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Penso che l'Europa nordica abbia da offrire molto più di quello che si legge solitamente nelle guide.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Europa	Europa	PROPN	SP	_	6	nsubj	_	_
+5	nordica	nordico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	offrire	offrire	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	più	più	ADV	B	_	12	advmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+15	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	solitamente	solitamente	ADV	B	_	15	advmod	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	guide	guida	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Curiosità e coraggio in prima linea, adrenalina e buon senso le conseguenze.
+1	Curiosità	curiosità	NOUN	S	Gender=Fem	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	linea	linea	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	adrenalina	adrenalino	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	buon	buono	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	senso	senso	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	3	appos	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ottimo video, un abbraccio.
+1	Ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Francesco.
+1	Francesco	Francesco	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+

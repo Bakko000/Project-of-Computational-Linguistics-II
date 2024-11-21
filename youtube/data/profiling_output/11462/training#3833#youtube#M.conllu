@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dovremmo riflettere su una cosa fondamentale:
+1	Dovremmo	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	riflettere	riflettere	VERB	V	VerbForm=Inf	0	root	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpacesAfter=\s 
+6	fondamentale	fondamentale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = che cosa sappiamo, noi?
+1	che	che	SCONJ	CS	_	3	mark	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	SpacesAfter=\s 
+3	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Da dove arrivano le informazioni che elaboriamo e , soprattutto, abbiamo gli strumenti per farlo correttamente?
+1	Da	da	ADP	E	_	2	case	_	_
+2	dove	dove	ADV	B	_	3	advmod	_	SpacesAfter=\s 
+3	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+7	elaboriamo	elaborare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	soprattutto	soprattutto	ADV	B	_	12	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	SpacesAfter=\s 
+12	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16-17	farlo	_	_	_	_	_	_	_	_
+16	far	fare	VERB	V	VerbForm=Inf	3	advcl	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	correttamente	corretto	ADV	B	_	16	advmod	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = PS - mi ha stupito moltissimo la dichiarazione dell'ingegnere che ha costruito il missile
+1	PS	PS	PROPN	SP	_	5	obl	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\s
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpacesAfter=\s\s
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpacesAfter=\s\s
+5	stupito	stupire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	moltissimo	molto	ADV	B	Degree=Abs	5	advmod	_	SpacesAfter=\s\s
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpacesAfter=\s\s
+8	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	ingegnere	ingegnere	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	missile	missile	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = "io?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = l'ho visto alla tv e mi sono fidato.
+1	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tv	televisione	NOUN	S	Gender=Fem	3	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fidato	fidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = .."
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	"	"	PUNCT	FB	_	1	punct	_	SpacesAfter=\n\n
+

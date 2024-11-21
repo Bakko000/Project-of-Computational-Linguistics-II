@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che spettacolo!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Paesaggi stupendi , non vedo l'ora di visitarla!
+1	Paesaggi	Paesaggio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+2	stupendi	stupendio	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	visitarla	_	_	_	_	_	_	_	SpaceAfter=No
+9	visitar	visitare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+

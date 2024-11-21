@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ecchitè....Roma, Marco Travaglio condannato per diffamazione a 3 magistrati ....
+1	Ecchitè	Ecchitere	INTJ	I	_	0	root	_	SpaceAfter=No
+2	....Roma	....Roma	PROPN	SP	_	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Marco	Marco	PROPN	SP	_	2	flat:name	_	_
+5	Travaglio	Travaglio	PROPN	SP	_	2	flat:name	_	_
+6	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	diffamazione	diffamazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	3	3	NUM	N	NumType=Card	11	nummod	_	_
+11	magistrati	magistrato	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	...	...	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Il direttore del Fatto Quotidiano, Marco Travaglio, è stato condannato dal Tribunale di Roma per diffamazione ai danni di tre magistrati siciliani per un articolo sull'assoluzione degli imputati del processo sulla latitanza di Bernardo Provenzano.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Fatto	fatto	PROPN	SP	_	2	nmod	_	_
+6	Quotidiano	quotidiano	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Marco	Marco	PROPN	SP	_	2	appos	_	_
+9	Travaglio	Travaglio	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	13	obl:agent	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Roma	Roma	PROPN	SP	_	16	nmod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	diffamazione	diffamazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	danni	danno	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	tre	tre	NUM	N	NumType=Card	26	nummod	_	_
+26	magistrati	magistrato	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+27	siciliani	siciliano	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+31-32	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+31	su	su	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	assoluzione	assoluzione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34-35	degli	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	processo	processo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40-41	sulla	_	_	_	_	_	_	_	_
+40	su	su	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	latitanza	latitanza	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	Bernardo	Bernardo	PROPN	SP	_	42	nmod	_	_
+45	Provenzano	Provenzano	PROPN	SP	_	44	flat:name	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Lo rende noto Carlo Arnulfo, legale dei magistrati Mario Fontana, Wilma Mazzara e Annalisa Tesoriere.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	noto	noto	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	Carlo	Carlo	PROPN	SP	_	2	nsubj	_	_
+5	Arnulfo	Arnulfo	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	legale	legale	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	magistrati	magistrato	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	Mario	Mario	PROPN	SP	_	10	nmod	_	_
+12	Fontana	Fontana	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	Wilma	Wilma	PROPN	SP	_	10	appos	_	_
+15	Mazzara	Mazzara	PROPN	SP	_	14	flat:name	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Annalisa	Annalisa	PROPN	SP	_	14	conj	_	_
+18	Tesoriere	tesoriere	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il Tribunale ha disposto una provvisionale di 150mila euro, "una cifra mai vista", ha detto l'avvocato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	provvisionale	provvisionale	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	150mila	150mila	NUM	N	NumType=Card	9	nummod	_	_
+9	euro	euro	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cifra	cifra	NOUN	S	Gender=Fem|Number=Sing	4	parataxis	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	vista	vista	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	parataxis	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+

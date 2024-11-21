@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "mi prendi culo!?
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	prendi	prendere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	culo	culo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = !?!?
+1	!?	!?	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = mi prendi culo?!?
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	prendi	prendere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	culo	culo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = vuoi chi muoro?!
+1	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+3	muoro	muoro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = vuoi che mio cane organizza piscia party su tuo piatto?
+1	vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	cane	cane	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	organizza	organizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	piscia	piscia	ADV	B	_	7	advmod	_	_
+7	party	party	NOUN	S	_	5	obj	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = !?!?"
+1	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+2	?	?	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	_
+
+# sent_id = 7
+# text = :'D
+1	:'D	:'D	CCONJ	CC	_	0	root	_	SpacesAfter=\n\n
+

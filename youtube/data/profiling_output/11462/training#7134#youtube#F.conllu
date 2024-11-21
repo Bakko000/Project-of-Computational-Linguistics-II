@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ecco, certi commenti esplicano completamente il contenuto del film.
+1	Ecco	ecco	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	esplicano	esplicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	completamente	completamente	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	film	film	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = In tutti i programmi mondiali da NY a Pechino i presentatori che intervistano i grandi della musica, del cinema ecc.
+1	In	in	ADP	E	_	4	case	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	mondiali	mondiale	ADJ	A	Number=Plur	4	amod	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	NY	Ny	PROPN	SP	_	4	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Pechino	Pechino	PROPN	SP	_	4	nmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	presentatori	presentatorio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	intervistano	intervistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	grandi	grando	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	musica	musica	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	cinema	cinema	NOUN	S	Gender=Masc	18	nmod	_	_
+23	ecc	eccetera	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = hanno lo stesso atteggiamento di galanteria e buona educazione di Fazio.
+1	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	galanteria	galanteria	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	buona	buono	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Fazio	Fazio	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Checco Zalone è fantastico, acutezza, sincerità e pura ironia socratica.
+1	Checco	Checco	PROPN	SP	_	4	nsubj	_	_
+2	Zalone	Zalone	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fantastico	fantastico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	acutezza	acutezza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sincerità	sincerità	NOUN	S	Gender=Fem	4	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	pura	pura	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	ironia	ironio	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+12	socratica	socratico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Complimenti!!!
+1	Complimenti	complimenti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	!!	!!	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,47 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Grazie grazie grazie.
+1	Grazie	grazie	NOUN	S	_	2	nmod	_	_
+2	grazie	grazie	NOUN	S	_	3	case	_	_
+3	grazie.	grazie.	NOUN	S	_	0	root	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ..questo video è meraviglioso!
+1	..questo	..questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Fa commuovere, ridere, sbalordisce.
+1	Fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	commuovere	commuovere	VERB	V	VerbForm=Inf	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	ridere	ridere	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	sbalordisce.	sbalordisce.	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ..belle le canzoni, belle le riprese, belle le cose che hai detto.
+1	..belle	..bei	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	belle	bello	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	riprese	ripresa	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	belle	bello	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+12	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+13	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Bravoo
+1	Bravoo	Bravoo	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+

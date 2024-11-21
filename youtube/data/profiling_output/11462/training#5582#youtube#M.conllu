@@ -1,0 +1,48 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = renzi e' di sinistra?
+1	renzi	renzi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	5	punct	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Questa mi e' nuova!
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+4	'	'	PUNCT	FB	_	5	punct	_	_
+5	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s 
+
+# sent_id = 3
+# text = Ma allora Fini e' il figlio di Vanzetti.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	allora	allora	ADV	B	_	3	advmod	_	_
+3	Fini	Fini	PROPN	SP	_	0	root	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	7	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Vanzetti	Vanzetti	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Civati,ma che razzo ( variante) dici!
+1	Civati,ma	Civati,mare	ADV	B	_	7	advmod	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	razzo	razzo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	_
+5	variante	variante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	3	acl	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = LOL!
+1	LOL!	LOL!	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n
+
