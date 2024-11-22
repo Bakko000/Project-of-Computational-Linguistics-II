@@ -215,12 +215,14 @@ def extract_char_ngrams_from_sentence(char_ngrams, sentence, n):
     return char_ngrams
 
 
-def extract_documents_ngrams(all_documents):
+def extract_documents_ngrams(all_documents, trigrams=False):
     for document in all_documents:
         document_ngrams = dict()
         for sentence in document.sentences:
             extract_word_ngrams_from_sentence(document_ngrams, sentence, 'word', 1)
             extract_word_ngrams_from_sentence(document_ngrams, sentence, 'word', 2)
+            if trigrams:
+                extract_word_ngrams_from_sentence(document_ngrams, sentence, 'word', 3)
             extract_char_ngrams_from_sentence(document_ngrams, sentence, 1)
             extract_char_ngrams_from_sentence(document_ngrams, sentence, 2)
 
@@ -231,15 +233,19 @@ def normalize_ngrams(ngrams_dict, doc_len):
     for ngram in ngrams_dict:
         ngrams_dict[ngram] = ngrams_dict[ngram] / float(doc_len)
         
-def extract_documents_ngrams_normalized(all_documents):
+def extract_documents_ngrams_normalized(all_documents, trigrams=False):
     for document in all_documents:
         word_unigrams = dict()
         word_bigrams = dict()
+        if trigrams:
+            word_trigrams = dict()
         char_unigrams = dict()
         char_bigrams = dict()
         for sentence in document.sentences:
             extract_word_ngrams_from_sentence(word_unigrams, sentence, 'word', 1)
             extract_word_ngrams_from_sentence(word_bigrams, sentence, 'word', 2)
+            if trigrams:
+                extract_word_ngrams_from_sentence(word_trigrams, sentence, 'word', 3)
             extract_char_ngrams_from_sentence(char_unigrams, sentence, 1)
             extract_char_ngrams_from_sentence(char_bigrams, sentence, 2)
 
@@ -247,10 +253,15 @@ def extract_documents_ngrams_normalized(all_documents):
         num_chars = document.get_num_chars()
         normalize_ngrams(word_unigrams, num_words)
         normalize_ngrams(word_bigrams, num_words)
+        if trigrams:
+            normalize_ngrams(word_trigrams, num_words)
         normalize_ngrams(char_unigrams, num_chars)
         normalize_ngrams(char_bigrams, num_chars)
 
         document_ngrams = word_unigrams | word_bigrams | char_unigrams | char_bigrams
+        if trigrams:
+            document_ngrams = word_unigrams | word_bigrams | word_trigrams | char_unigrams | char_bigrams
+
 
         document.features = document_ngrams
 
