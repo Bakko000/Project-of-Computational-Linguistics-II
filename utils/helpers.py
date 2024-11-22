@@ -1,6 +1,7 @@
 
 import re
 import csv
+import pandas as pd
 import numpy as np
 
 
@@ -61,6 +62,17 @@ def train_test_split(documents_info, features, labels):
 
     return train_features, train_labels, test_features, test_labels
 
+
+
+def save_df(features, labels, genre):
+    df = pd.DataFrame(features)
+    df['Label'] = labels
+    df['genre'] = genre
+    # Specifica il nome del file
+    file_name = genre+".csv"
+
+    # Salva il DataFrame in un file CSV
+    df.to_csv(file_name, index=False)
 
 class Document:
 
