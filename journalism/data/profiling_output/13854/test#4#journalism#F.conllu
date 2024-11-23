@@ -1,0 +1,600 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Mi guarì contro ogni previsione Decisi di dargli una mano"
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	guarì	guarire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	contro	contro	ADP	E	_	6	case	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	previsione	previsione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	Decisi	Decisi	PROPN	SP	_	6	nmod	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	dargli	_	_	_	_	_	_	_	_
+9	dar	dare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mano	mano	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = ROMA
+1	ROMA	Roma	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = «Con lui ho sconfitto la leucemia e per raccogliere fondi per lui ho cantato New York New York davanti a 500 persone» racconta Marco Violati, guarito dalla leucemia mieloide acuta promielocitica, ma rimasto pur sempre stonato.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	3	case	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sconfitto	sconfiggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	leucemia	leucemia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	raccogliere	raccogliere	VERB	V	VerbForm=Inf	5	conj	_	_
+11	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	cantato	cantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+16	New	New	PROPN	SP	_	15	obj	_	_
+17	York	York	PROPN	SP	_	16	flat:name	_	_
+18	New	New	PROPN	SP	_	16	flat:name	_	_
+19	York	York	PROPN	SP	_	16	nmod	_	_
+20	davanti	davanti	ADV	B	_	23	case	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	500	500	NUM	N	NumType=Card	23	nummod	_	_
+23	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	5	punct	_	_
+25	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+26	Marco	Marco	PROPN	SP	_	25	nsubj	_	_
+27	Violati	Violato	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	guarito	guarire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+30-31	dalla	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	leucemia	leucemia	NOUN	S	Gender=Fem|Number=Sing	29	obl:agent	_	_
+33	mieloide	mieloido	ADP	E	_	34	case	_	_
+34	acuta	acuto	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35	promielocitica	promielocitico	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	ma	ma	CCONJ	CC	_	38	cc	_	_
+38	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+39	pur	pur	ADV	B	_	41	advmod	_	_
+40	sempre	sempre	ADV	B	_	41	advmod	_	_
+41	stonato	stonato	ADJ	A	Gender=Masc|Number=Sing	38	xcomp	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Come andòF
+1	Come	come	SCONJ	CS	_	2	advmod	_	_
+2	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	F	F	PROPN	SP	_	2	nsubj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = «Fra il terzo e il quarto ciclo di chemio, tra '91 e ‘92, mi chiese se volevo diventare vicepresidente dell'Associazione italiana contro le leucemie di Roma.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Fra	Fra	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	chemio	chemio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	tra	tra	ADP	E	_	13	case	_	_
+13	'91	'91	NUM	N	NumType=Card	4	nummod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	‘92	‘92	NUM	N	NumType=Card	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	chiese	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+19	se	se	SCONJ	CS	_	21	mark	_	_
+20	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	diventare	diventare	VERB	V	VerbForm=Inf	18	ccomp	_	_
+22	vicepresidente	vicepresidente	NOUN	S	Number=Sing	21	xcomp	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	Associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	contro	contro	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	leucemie	leucemia	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Roma	Roma	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Tra le iniziative, organizzammo uno spettacolo in cui professionisti e imprenditori, da totali profani, cantavano e ballavano.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	organizzammo	organizzare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	18	obl	_	_
+10	professionisti	professionista	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	totali	totale	ADJ	A	Number=Plur	16	amod	_	_
+16	profani	profano	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	cantavano	cantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	ballavano	ballare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Raccogliemmo oltre 40 milioni di lire».
+1	Raccogliemmo	Raccogliemmo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	oltre	oltre	ADV	B	_	1	advmod	_	_
+3	40	40	NUM	N	NumType=Card	4	nummod	_	_
+4	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lire	lira	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Come inizia la sua storiaF
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	storiaF	storiaF	PROPN	SP	_	2	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = «Era il 1991 e la sopravvivenza era molto bassa.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	1991	1991	NUM	N	NumType=Card	2	nummod	_	_
+5	e	e	CCONJ	CC	_	10	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sopravvivenza	sopravvivenza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Avevo 28 anni e fiorivo nel lavoro.
+1	Avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	28	28	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	fiorivo	fiorivo	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Notai dei sanguinamenti in bocca e mi ritrovai dalla mattina alla sera in quel piccolo e scalcinato reparto di via Benevento.
+1	Notai	Notai	ADV	B	_	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	sanguinamenti	sanguinamento	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+9	ritrovai	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	1	conj	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sera	sera	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+16	in	in	ADP	E	_	21	case	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+18	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	scalcinato	scalcinato	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	_
+21	reparto	reparto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	via	via	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	Benevento	Benevento	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Ricordo che gli alpini avevano appena sistemato il pronto soccorso.
+1	Ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	alpini	alpine	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	appena	appena	ADV	B	_	7	advmod	_	_
+7	sistemato	sistemare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Gratis, ovviamente».
+1	Gratis	gratis	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ovviamente	ovviamente	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Il professoreF
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	professoreF	professoreF	PROPN	SP	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = «Arrivava in reparto alle 7, ma aveva iniziato le visite a casa alle 5 e mezza.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Arrivava	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	reparto	reparto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	7	7	NUM	N	NumType=Card	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	visite	visita	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	5	5	NUM	N	NumType=Card	11	nummod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = La prima volta da malato ero stremato e riuscii a negoziare un appuntamento alle 9.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	malato	malato	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	stremato	stremare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	riuscii	riuscii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	negoziare	negoziare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	9	9	NUM	N	NumType=Card	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Per chi tardava o commetteva errori in corsia non era tenero.
+1	Per	per	ADP	E	_	2	case	_	_
+2	chi	chi	PRON	PQ	PronType=Int	3	obl	_	_
+3	tardava	tardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	commetteva	commettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+6	errori	errore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	corsia	corsia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	tenero	teere	ADJ	A	Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Quando entrava non volava una mosca.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	volava	volare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mosca	mosca	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Lavorava senza pause fino alle 10 di sera.
+1	Lavorava	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	senza	senza	ADP	E	_	3	case	_	_
+3	pause	pausa	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+4	fino	fino	ADV	B	_	7	case	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	10	10	NUM	N	NumType=Card	1	nummod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sera	sera	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Fissava continue riunioni con i suoi collaboratori per discutere di ciascun paziente.
+1	Fissava	Fissare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	continue	continuo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	riunioni	riunione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	collaboratori	collaboratore	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	discutere	discutere	VERB	V	VerbForm=Inf	1	advcl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	ciascun	ciascuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	paziente	paziente	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Alla fine del primo ciclo di chemio entrò nella mia stanza e disse:
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	chemio	chemio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 22
+# text = questo l'abbiamo sistemato, può tornare a casa».
+1	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sistemato	sistemare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tornare	tornare	VERB	V	VerbForm=Inf	4	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Com'era con voiF
+1	Com'	come	SCONJ	CS	_	2	mark	_	SpaceAfter=No
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	voiF	voiF	PROPN	SP	_	2	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = «Mia madre l'ha definito il mio secondo papà e io non riesco a non commuovermi se ci penso.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	definito	definire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+10	papà	papà	NOUN	S	Gender=Masc	6	nsubj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	conj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	E	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	commuovermi	commuovermo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	conj	_	_
+18	se	se	SCONJ	CS	_	20	mark	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	_
+20	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 25
+# text = Quando l'ho conosciuto aveva già la sua folta chioma bianca, vestiva sempre in camice, impeccabile, con una cravatta scelta con cura che gli arrivava oltre la cintura.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+5	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	già	già	ADV	B	_	10	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	folta	folto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	chioma	chioma	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+11	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	vestiva	vestire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+14	sempre	sempre	ADV	B	_	13	advmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	camice	camice	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	impeccabile	impeccabile	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	5	punct	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	cravatta	cravatto	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+23	scelta	scelta	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	cura	cura	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+28	arrivava	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+29	oltre	oltre	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	cintura	cintura	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = Non era alto.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	alto	alto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Non lo sono neanch'io, ma quando voleva dirmi qualcosa di importante afferrava la mia, di cravatta, per avvicinarmi a lui».
+1	Non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	neanch'	neanche	ADV	B	_	5	advmod	_	SpaceAfter=No
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	15	punct	_	_
+7	ma	ma	CCONJ	CC	_	15	cc	_	_
+8	quando	quando	SCONJ	CS	_	10	mark	_	_
+9	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10-11	dirmi	_	_	_	_	_	_	_	_
+10	dir	dire	VERB	V	VerbForm=Inf	15	advcl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	importante	importante	ADJ	A	Number=Sing	12	nmod	_	_
+15	afferrava	afferrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	cravatta	cravatta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	avvicinarmi	arma|avvicinarme	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nmod	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Dopo la guarigione collaborò molto con lui nell'Ail di Roma.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	guarigione	guarigione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	collaborò	collaborare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	7	advmod	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+8-9	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	in	in	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Ail	Ail	PROPN	SP	_	4	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Roma	Roma	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = «Era un leader a 360 gradi.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	leader	leader	NOUN	S	_	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	360	360	NUM	N	NumType=Card	7	nummod	_	_
+7	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Si lamentava contro l'università e la Regione che non gli davano risorse.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	lamentava	lamentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	contro	contro	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	università	università	NOUN	S	Gender=Fem	2	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+12	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+13	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = Poi si rimboccava le maniche e quelle risorse le cercava da solo, con il nostro aiuto.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	rimboccava	rimboccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	maniche	manica	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	risorse	risorso	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+9	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	10	obj	_	_
+10	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	solo	solo	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = È stato un periodo entusiasmante.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	entusiasmante	entusiasmante	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 33
+# text = Ricordo quando la Banca d'Italia staccò un assegno da 10 miliardi.
+1	Ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quando	quando	SCONJ	CS	_	7	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Banca	banca	PROPN	SP	_	7	nsubj	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	Italia	Italia	PROPN	SP	_	4	nmod	_	_
+7	staccò	staccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	assegno	assegno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	10	10	NUM	N	NumType=Card	12	nummod	_	_
+12	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 34
+# text = Comprammo una palazzina in cui aprimmo la scuola».
+1	Comprammo	Comprare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	palazzina	palazzina	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+6	aprimmo	aprire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
