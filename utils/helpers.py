@@ -148,8 +148,6 @@ class Token:
         self.pos = pos
 
 
-    # Per dopo
-
     def get_num_chars(self):
         return len(self.word)
     
@@ -171,7 +169,7 @@ def extract_word_ngrams_from_sentence(word_ngrams, sentence, el, n):
     # creiamo una lista con tutte le parole
     if el == 'word':
         all_words = sentence.get_words()
-    elif el == 'lemma':
+    elif el == 'lemma':                             
         all_words = sentence.get_lemmas()
     elif el == 'pos':
         all_words = sentence.get_pos()
@@ -215,17 +213,12 @@ def extract_char_ngrams_from_sentence(char_ngrams, sentence, n):
     return char_ngrams
 
 
-def extract_documents_ngrams(all_documents, trigrams=False):
+def extract_documents_ngrams(all_documents, n, type):
     for document in all_documents:
         document_ngrams = dict()
         for sentence in document.sentences:
-            extract_word_ngrams_from_sentence(document_ngrams, sentence, 'word', 1)
-            extract_word_ngrams_from_sentence(document_ngrams, sentence, 'word', 2)
-            if trigrams:
-                extract_word_ngrams_from_sentence(document_ngrams, sentence, 'word', 3)
-            extract_char_ngrams_from_sentence(document_ngrams, sentence, 1)
-            extract_char_ngrams_from_sentence(document_ngrams, sentence, 2)
-
+            extract_word_ngrams_from_sentence(document_ngrams, sentence, type, n)
+            
         document.features = document_ngrams
 
 
@@ -233,35 +226,16 @@ def normalize_ngrams(ngrams_dict, doc_len):
     for ngram in ngrams_dict:
         ngrams_dict[ngram] = ngrams_dict[ngram] / float(doc_len)
         
-def extract_documents_ngrams_normalized(all_documents, trigrams=False):
+def extract_documents_ngrams_normalized(all_documents, type, n):
     for document in all_documents:
-        word_unigrams = dict()
-        word_bigrams = dict()
-        if trigrams:
-            word_trigrams = dict()
-        char_unigrams = dict()
-        char_bigrams = dict()
+        word_ngrams = dict()
         for sentence in document.sentences:
-            extract_word_ngrams_from_sentence(word_unigrams, sentence, 'word', 1)
-            extract_word_ngrams_from_sentence(word_bigrams, sentence, 'word', 2)
-            if trigrams:
-                extract_word_ngrams_from_sentence(word_trigrams, sentence, 'word', 3)
-            extract_char_ngrams_from_sentence(char_unigrams, sentence, 1)
-            extract_char_ngrams_from_sentence(char_bigrams, sentence, 2)
+            extract_word_ngrams_from_sentence(word_ngrams, sentence, type, n)
 
         num_words = document.get_num_tokens()
-        num_chars = document.get_num_chars()
-        normalize_ngrams(word_unigrams, num_words)
-        normalize_ngrams(word_bigrams, num_words)
-        if trigrams:
-            normalize_ngrams(word_trigrams, num_words)
-        normalize_ngrams(char_unigrams, num_chars)
-        normalize_ngrams(char_bigrams, num_chars)
+        normalize_ngrams(word_ngrams, num_words)
 
-        document_ngrams = word_unigrams | word_bigrams | char_unigrams | char_bigrams
-        if trigrams:
-            document_ngrams = word_unigrams | word_bigrams | word_trigrams | char_unigrams | char_bigrams
-
+        document_ngrams = word_ngrams
 
         document.features = document_ngrams
 
