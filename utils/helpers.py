@@ -308,7 +308,7 @@ def normalize_text(word):
     return word
 
 
-def get_tokens_from_file(src_path):
+def get_tokens_from_file(src_path, postg=False):
     document_tokens = []
     lines_to_skip = 0
     take_pos = False
@@ -326,8 +326,9 @@ def get_tokens_from_file(src_path):
                 pos = splitted_line[3]
                 token = {
                     'word': word,
-                    'pos': '_'
                 }
+                if postg:
+                    token["pos"] = '_'
                 # print(f'Preso token {word}')
                 document_tokens.append(token)
             else:
@@ -337,14 +338,16 @@ def get_tokens_from_file(src_path):
                     pos = splitted_line[3]
                     token = {
                         'word': word,
-                        'pos': pos
                     }
                     # print(f'Preso token {word}')
+                    if postg:
+                        token["pos"] = pos 
                     document_tokens.append(token)
-                if take_pos:
-                    pos = splitted_line[3]
-                    document_tokens[-1]['pos'] = pos
-                    take_pos = False
+                    if postg:
+                        if take_pos:
+                            pos = splitted_line[3]
+                            document_tokens[-1]['pos'] = pos
+                            take_pos = False
                 lines_to_skip = max(0, lines_to_skip-1)
     return document_tokens
 
