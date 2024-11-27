@@ -228,14 +228,18 @@ def normalize_ngrams(ngrams_dict, doc_len):
         
 def extract_documents_ngrams_normalized(all_documents, type, n):
     for document in all_documents:
-        word_ngrams = dict()
-        for sentence in document.sentences:
-            extract_word_ngrams_from_sentence(word_ngrams, sentence, type, n)
+        ngrams = dict()
+        if type!="char": # niente caratteri 
+            for sentence in document.sentences:
+                extract_word_ngrams_from_sentence(ngrams, sentence, type, n)
+        else:
+            for sentence in document.sentences:
+                extract_char_ngrams_from_sentence(ngrams, sentence, n)
 
         num_words = document.get_num_tokens()
-        normalize_ngrams(word_ngrams, num_words)
+        normalize_ngrams(ngrams, num_words)
 
-        document_ngrams = word_ngrams
+        document_ngrams = ngrams
 
         document.features = document_ngrams
 
