@@ -356,5 +356,3 @@ def get_tokens_from_file(src_path, postg=False):
     return document_tokens
 
 
-
-
