@@ -1,10 +1,17 @@
+"""
+
+Funzioni utili per gestire i diversi programmini
+
+"""
+
+
 
 import re
 import csv
 import pandas as pd
 import numpy as np
 
-
+# Restituisce il tipo del file
 def get_split(file_path):
     if 'training' in file_path:
         return 'training'
@@ -12,13 +19,14 @@ def get_split(file_path):
         return 'test'
     
 
+# Con le regex restituisce id, genre e gender
 def get_doc_info(header):
     doc_id = re.findall(r'id="(.*?)"', header)[0]
     genre = re.findall(r'genre="(.*?)"', header)[0]
     gender = re.findall(r'gender="(.*?)"', header)[0]
     return doc_id, genre, gender
 
-
+# Carica il datatset
 def load_dataset(src_path):
     features_names = None
     documents_info = []
@@ -34,6 +42,7 @@ def load_dataset(src_path):
     return features_names, documents_info, features
 
 
+# Crea una lista di etichette 
 def create_label_list(documents_info):
     labels = []
     for doc_info in documents_info:
@@ -74,6 +83,8 @@ def save_df(features, labels, genre):
     # Salva il DataFrame in un file CSV
     df.to_csv(file_name, index=False)
 
+
+# Classe principale di un documento 
 class Document:
 
     def __init__(self, document_path):
@@ -93,7 +104,7 @@ class Document:
     def add_sentence(self, sentences):
         self.sentences.append(sentences)
 
-    # Per dopo
+    # Ottiene numero di tokens, caratteri
 
     def get_num_tokens(self):
         num_words = 0
@@ -108,7 +119,7 @@ class Document:
             num_chars = num_chars + sentence_char_len
         return num_chars
 
-class Sentence:
+class Sentence:  # Classe principale per la frase
 
     def __init__(self):
         self.tokens = []
@@ -116,7 +127,7 @@ class Sentence:
     def add_token(self, token):
         self.tokens.append(token)
 
-    # Per dopo
+    # Ottiene parole, lemmi, pos, numero di tokens, numero di caratteri
 
     def get_words(self):
         return [token.word for token in self.tokens]
@@ -140,7 +151,7 @@ class Sentence:
     def __str__(self):
         return ' '.join([token.word for token in self.tokens])
 
-class Token:
+class Token:  # classe principale per il token
 
     def __init__(self, word, lemma, pos):
         self.word = word
@@ -164,7 +175,7 @@ def load_document_sentences(document):
             document.add_sentence(sentence)
             sentence = Sentence()
 
-
+# Estra gli ngrammi
 def extract_word_ngrams_from_sentence(word_ngrams, sentence, el, n):
     # creiamo una lista con tutte le parole
     if el == 'word':
@@ -251,6 +262,7 @@ def get_num_features(features_dict):
         all_features.update(list(document_feats.keys()))
     return len(all_features)
 
+# la funzione filtra il numero di featurs
 def filter_features(train_features_dict, min_occurrences):
     # contiamo ogni feature in quanti user diversi compare
     features_counter = dict()
@@ -272,7 +284,7 @@ def filter_features(train_features_dict, min_occurrences):
 
 
 
-####################### WORD EMBEDDINGS #############################
+####################### Funzioni per WORD EMBEDDINGS #############################
 
 def load_word_embeddings(src_path):
     embeddings = dict()
